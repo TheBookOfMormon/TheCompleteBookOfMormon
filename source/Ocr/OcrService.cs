@@ -33,15 +33,14 @@ internal class OcrService : IOcrService
         string imagePath,
         CancellationToken cancellationToken)
     {
-        const double oneMB = 1024 * 1024d;
+        decimal maxFileSize = ApiSettings.Value.MaxFileSizeInMB * 1024m * 1024m;
 
         var fileInfo = new FileInfo(imagePath);
-        if (fileInfo.Length > oneMB)
+        if (fileInfo.Length > maxFileSize)
         {
             Logger.LogError(
-                "Image size {imageSize} MB is larger than 1 MB: {imagePath}",
-                imagePath,
-                fileInfo.Length / oneMB);
+                $"Image is larger than {ApiSettings.Value.MaxFileSizeInMB} MB: {{imagePath}}",
+                imagePath);
             return ImmutableArray<Word>.Empty;
         }
 

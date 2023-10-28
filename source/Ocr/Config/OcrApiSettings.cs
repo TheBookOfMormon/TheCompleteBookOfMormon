@@ -8,4 +8,7 @@ internal class OcrApiSettings : IConfigSettings
 
     [Required]
     public string Key { get; init; } = null!;
+
+    [Range(1, int.MaxValue)]
+    public decimal MaxFileSizeInMB { get; init; } = 1;
 }
