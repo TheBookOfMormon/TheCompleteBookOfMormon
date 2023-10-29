@@ -38,7 +38,7 @@ internal class OcrService : IOcrService
         var fileInfo = new FileInfo(imagePath);
         if (fileInfo.Length > maxFileSize)
         {
-            Logger.LogError(
+            Logger.LogWarning(
                 $"Image is larger than {ApiSettings.Value.MaxFileSizeInMB} MB: {{imagePath}}",
                 imagePath);
             return ImmutableArray<Word>.Empty;
@@ -56,7 +56,8 @@ internal class OcrService : IOcrService
         Logger.LogInformation("Getting OCR for {imagePath}", imagePath);
         HttpResponseMessage response =
             await HttpClient.PostAsync(
-                "https://api.ocr.space/parse/image",
+                "https://apipro2.ocr.space/parse/image",
+                //"https://api.ocr.space/parse/image",
                 form,
                 cancellationToken);
 

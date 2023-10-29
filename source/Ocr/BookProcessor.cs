@@ -74,14 +74,21 @@ internal class BookProcessor : IHostedService
 
     private async Task ProcessFileAsync(string imagePath)
     {
-        string textFilePath = Path.ChangeExtension(imagePath, ".txt");
-        if (File.Exists(textFilePath))
+        string textFilePath = Path.ChangeExtension(imagePath, ".ocr.txt");
+        string emptyFilePath = Path.ChangeExtension(imagePath, ".ocr.empty");
+        if (File.Exists(textFilePath) || File.Exists(emptyFilePath))
         {
             Logger.LogInformation("Skipping already processed file {imagePath}", imagePath);
             return;
         }
 
         ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, CancellationTokenSource.Token);
+        if (words.Length == 0)
+        {
+            Logger.LogWarning("No words detected in file {imagePath}", imagePath);
+            await File.WriteAllTextAsync(emptyFilePath, "");
+            return;
+        }
 
         try
         {
