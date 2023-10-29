@@ -83,8 +83,20 @@ internal class BookProcessor : IHostedService
 
         ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, CancellationTokenSource.Token);
 
-        string json = JsonSerializer.Serialize(words, JsonOptions);
-        await File.WriteAllTextAsync(textFilePath, json);
+        try
+        {
+            using var fileStream = File.CreateText(textFilePath);
+            await fileStream.WriteLineAsync("ID\tX\tY\tWidth\tHeight\tText");
+            foreach (var word in words)
+            {
+                await fileStream.WriteLineAsync($"{Guid.NewGuid()}\t{word.Left}\t{word.Top}\t{word.Width}\t{word.Height}\t{word.WordText}");
+            }
+            await fileStream.FlushAsync();
+        }
+        catch
+        {
+            File.Delete(textFilePath);
+        }
     }
 
 
