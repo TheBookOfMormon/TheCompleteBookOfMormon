@@ -83,9 +83,6 @@ internal class BookProcessor : IHostedService
 
         ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, CancellationTokenSource.Token);
 
-        if (words.Length == 0)
-            return;
-
         string json = JsonSerializer.Serialize(words, JsonOptions);
         await File.WriteAllTextAsync(textFilePath, json);
     }
