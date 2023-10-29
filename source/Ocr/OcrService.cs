@@ -62,6 +62,9 @@ internal class OcrService : IOcrService
 
         if (!response.IsSuccessStatusCode)
         {
+            if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
+                throw new UnauthorizedAccessException();
+            
             Logger.LogError(
                 "Error performing OCR on {imagePath}: {errorCode}",
                 imagePath,
@@ -76,9 +79,6 @@ internal class OcrService : IOcrService
         var doc = JsonSerializer.Deserialize<RootObject>(json)!;
         if (doc.IsErroredOnProcessing)
         {
-            if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
-                throw new UnauthorizedAccessException();
-
             Logger.LogError(
                 "Error processing {imagePath}: {errorMessage}",
                 imagePath,
