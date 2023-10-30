@@ -17,12 +17,32 @@ internal class Program
 
         builder.RegisterOptions<OcrApiSettings>();
         builder.RegisterOptions<SourceImagesSettings>();
-        builder.Services.AddHostedService<BookProcessor>();
         builder.Services.AddSingleton(new HttpClient());
         builder.Services.AddSingleton<IOcrService, OcrService>();
+        builder.Services.AddSingleton<BookProcessor>();
 
         IHost host = builder.Build();
 
-        await host.RunAsync();
+        var bookProcessor = host.Services.GetRequiredService<BookProcessor>();
+
+        var cancellationTokenSource = new CancellationTokenSource();
+
+        var backgroundTask = Task.Run(() => bookProcessor.StartAsync(cancellationTokenSource.Token));
+
+        Console.CancelKeyPress += (_, args) =>
+        {
+            Console.WriteLine("CTRL+C pressed. Cancelling...");
+            cancellationTokenSource.Cancel();
+            args.Cancel = true;
+        };
+
+        try
+        {
+            await backgroundTask;
+        }
+        catch (TaskCanceledException) { }
+
+        if (cancellationTokenSource.IsCancellationRequested)
+            Console.WriteLine("Cancelled");
     }
 }

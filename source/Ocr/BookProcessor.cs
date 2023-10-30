@@ -4,17 +4,17 @@ using Microsoft.Extensions.Options;
 using Ocr.Config;
 using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Ocr;
 
-internal class BookProcessor : IHostedService
+internal class BookProcessor
 {
     private readonly IOptions<SourceImagesSettings> SourceImagesSettings;
     private readonly IOcrService OcrService;
     private readonly ILogger<BookProcessor> Logger;
-    private readonly CancellationTokenSource CancellationTokenSource;
 
     private static readonly JsonSerializerOptions JsonOptions = new JsonSerializerOptions { WriteIndented = true };
 
@@ -26,8 +26,6 @@ internal class BookProcessor : IHostedService
         SourceImagesSettings = sourceImagesSettings ?? throw new ArgumentNullException(nameof(sourceImagesSettings));
         OcrService = ocrService ?? throw new ArgumentNullException(nameof(ocrService));
         Logger = logger ?? throw new ArgumentNullException(nameof(logger));
-
-        CancellationTokenSource = new CancellationTokenSource();
     }
 
     public async Task StartAsync(CancellationToken cancellationToken)
@@ -37,13 +35,7 @@ internal class BookProcessor : IHostedService
                 $"Invalid source images directory \"{SourceImagesSettings.Value.Directory}\"");
 
         string[] imagePaths = GetImagePaths();
-        await ProcessFilesAsync(imagePaths);
-    }
-
-    public Task StopAsync(CancellationToken cancellationToken)
-    {
-        CancellationTokenSource.Cancel();
-        return Task.CompletedTask;
+        await ProcessFilesAsync(imagePaths, cancellationToken);
     }
 
     private string[] GetImagePaths()
@@ -60,28 +52,27 @@ internal class BookProcessor : IHostedService
             result.AddRange(imagePaths);
         }
         return result
-            .Where(x => !x.Contains("Cow", StringComparison.InvariantCultureIgnoreCase))
             .OrderBy(x => x).ToArray();
     }
 
-    private async Task ProcessFilesAsync(string[] imagePaths)
+    private async Task ProcessFilesAsync(string[] imagePaths, CancellationToken cancellationToken)
     {
         var parallelOptions = new ParallelOptions
         {
             MaxDegreeOfParallelism = 2,
-            CancellationToken = CancellationTokenSource.Token
+            CancellationToken = cancellationToken
         };
         await Parallel.ForEachAsync(
             imagePaths,
             parallelOptions,
-            async(imagePath, cancellationToken) =>
+            async (imagePath, cancellationToken) =>
             {
-                await ProcessFileAsync(imagePath);
+                await ProcessFileAsync(imagePath, cancellationToken);
             });
     }
 
 
-    private async Task ProcessFileAsync(string imagePath)
+    private async Task ProcessFileAsync(string imagePath, CancellationToken cancellationToken)
     {
         string textFilePath = Path.ChangeExtension(imagePath, ".ocr.txt");
         string emptyFilePath = Path.ChangeExtension(imagePath, ".ocr.empty");
@@ -91,7 +82,10 @@ internal class BookProcessor : IHostedService
             return;
         }
 
-        ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, CancellationTokenSource.Token);
+        ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, cancellationToken);
+        if (cancellationToken.IsCancellationRequested)
+            return;
+
         if (words.Length == 0)
         {
             Logger.LogWarning("No words detected in file {imagePath}", imagePath);
@@ -99,20 +93,13 @@ internal class BookProcessor : IHostedService
             return;
         }
 
-        try
-        {
-            using var fileStream = File.CreateText(textFilePath);
-            await fileStream.WriteLineAsync("ID\tX\tY\tWidth\tHeight\tText");
-            foreach (var word in words)
-            {
-                await fileStream.WriteLineAsync($"{Guid.NewGuid()}\t{word.Left}\t{word.Top}\t{word.Width}\t{word.Height}\t{word.WordText}");
-            }
-            await fileStream.FlushAsync();
-        }
-        catch
-        {
-            File.Delete(textFilePath);
-        }
+        var resultBuilder = new StringBuilder();
+        resultBuilder.AppendLine("ID\tX\tY\tWidth\tHeight\tText");
+        foreach (var word in words)
+            resultBuilder.AppendLine($"{Guid.NewGuid()}\t{word.Left}\t{word.Top}\t{word.Width}\t{word.Height}\t{word.WordText}");
+
+        if (!cancellationToken.IsCancellationRequested)
+            await File.WriteAllTextAsync(textFilePath, resultBuilder.ToString());
     }
 
 
