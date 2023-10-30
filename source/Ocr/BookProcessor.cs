@@ -5,6 +5,7 @@ using Ocr.Config;
 using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace Ocr;
 
@@ -65,12 +66,18 @@ internal class BookProcessor : IHostedService
 
     private async Task ProcessFilesAsync(string[] imagePaths)
     {
-        foreach (string imagePath in imagePaths)
+        var parallelOptions = new ParallelOptions
         {
-            if (CancellationTokenSource.IsCancellationRequested)
-                return;
-            await ProcessFileAsync(imagePath);
-        }
+            MaxDegreeOfParallelism = 2,
+            CancellationToken = CancellationTokenSource.Token
+        };
+        await Parallel.ForEachAsync(
+            imagePaths,
+            parallelOptions,
+            async(imagePath, cancellationToken) =>
+            {
+                await ProcessFileAsync(imagePath);
+            });
     }
 
 
