@@ -58,7 +58,9 @@ internal class BookProcessor : IHostedService
                 new EnumerationOptions { RecurseSubdirectories = true });
             result.AddRange(imagePaths);
         }
-        return result.OrderBy(x => x).ToArray();
+        return result
+            .Where(x => !x.Contains("Cow", StringComparison.InvariantCultureIgnoreCase))
+            .OrderBy(x => x).ToArray();
     }
 
     private async Task ProcessFilesAsync(string[] imagePaths)
