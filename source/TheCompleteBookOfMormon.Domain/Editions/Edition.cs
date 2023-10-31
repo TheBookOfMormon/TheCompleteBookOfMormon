@@ -1,4 +1,4 @@
-﻿namespace TheCompleteBookOfMormon.Domain;
+﻿namespace TheCompleteBookOfMormon.Domain.Editions;
 
 public class Edition : Entity
 {
