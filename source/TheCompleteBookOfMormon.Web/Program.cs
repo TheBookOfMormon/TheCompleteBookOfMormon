@@ -16,7 +16,8 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        Domain.Services.Register(builder.Services);
+        string dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+        Domain.Services.Register(builder.Services, dbConnectionString);
 
         // Add services to the container.
         builder.Services.AddRazorComponents();
@@ -30,9 +31,6 @@ public class Program
         builder.Services.AddAuthentication(IdentityConstants.ApplicationScheme)
             .AddIdentityCookies();
 
-        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-        builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(connectionString));
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
         builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
