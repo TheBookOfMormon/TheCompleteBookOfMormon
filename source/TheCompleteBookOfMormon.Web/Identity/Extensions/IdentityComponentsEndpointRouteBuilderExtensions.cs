@@ -7,9 +7,9 @@ using Microsoft.Extensions.Primitives;
 using System.Text.Json;
 using TheCompleteBookOfMormon.Web.Components.Pages.Account;
 using TheCompleteBookOfMormon.Web.Components.Pages.Account.Manage;
-using TheCompleteBookOfMormon.Web.Data;
+using TheCompleteBookOfMormon.Domain;
 
-namespace Microsoft.AspNetCore.Routing
+namespace TheCompleteBookOfMormon.Web.Identity.Extensions
 {
     internal static class IdentityComponentsEndpointRouteBuilderExtensions
     {

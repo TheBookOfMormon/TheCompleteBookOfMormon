@@ -4,8 +4,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using TheCompleteBookOfMormon.Web.Components;
-using TheCompleteBookOfMormon.Web.Data;
 using TheCompleteBookOfMormon.Web.Identity;
+using TheCompleteBookOfMormon.Web.Identity.Extensions;
+using TheCompleteBookOfMormon.Domain;
 
 namespace TheCompleteBookOfMormon.Web
 {

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
-using TheCompleteBookOfMormon.Web.Data;
+using TheCompleteBookOfMormon.Domain;
 
 #nullable disable
 

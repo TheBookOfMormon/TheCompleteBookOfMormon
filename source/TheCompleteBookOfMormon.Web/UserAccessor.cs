@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using TheCompleteBookOfMormon.Web.Identity;
+using TheCompleteBookOfMormon.Domain;
 
-namespace TheCompleteBookOfMormon.Web.Data
+namespace TheCompleteBookOfMormon.Web
 {
     internal sealed class UserAccessor(
         IHttpContextAccessor httpContextAccessor,

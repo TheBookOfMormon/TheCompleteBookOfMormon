@@ -5,9 +5,15 @@ VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocr", "Ocr\Ocr.csproj", "{134F837C-FCAD-4E61-A304-442736226A6A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F5DC4450-220D-47E6-8B81-C05CCE252588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCompleteBookOfMormon.Web", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.csproj", "{B864528E-E66F-4EC0-AEAA-221650923E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCompleteBookOfMormon.Web", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.csproj", "{B864528E-E66F-4EC0-AEAA-221650923E0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCompleteBookOfMormon.Domain", "TheCompleteBookOfMormon.Domain\TheCompleteBookOfMormon.Domain.csproj", "{712517CC-B461-4AC4-8ACC-F925DFE83520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E4B43EB-3CC7-4DEA-BF48-2B9F915FBFA6}"
+	ProjectSection(SolutionItems) = preProject
+		AddMigration.bat = AddMigration.bat
+		UpdateDB.bat = UpdateDB.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,12 +39,17 @@ Global
 		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|x86.ActiveCfg = Release|Any CPU
 		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|x86.Build.0 = Release|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|x86.Build.0 = Debug|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|x86.ActiveCfg = Release|Any CPU
+		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B864528E-E66F-4EC0-AEAA-221650923E0D} = {F5DC4450-220D-47E6-8B81-C05CCE252588}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {087AA483-59B9-44AC-BFD5-813149F987F5}
