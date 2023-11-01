@@ -28,7 +28,7 @@ internal class BookProcessor
         Logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
-    public async Task StartAsync(CancellationToken cancellationToken)
+    public async Task ExecuteAsync(CancellationToken cancellationToken)
     {
         if (!Directory.Exists(SourceImagesSettings.Value.Directory))
             throw new ValidationException(

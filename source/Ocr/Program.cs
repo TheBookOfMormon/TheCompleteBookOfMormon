@@ -23,11 +23,10 @@ internal class Program
 
         IHost host = builder.Build();
 
-        var bookProcessor = host.Services.GetRequiredService<BookProcessor>();
 
         var cancellationTokenSource = new CancellationTokenSource();
 
-        var backgroundTask = Task.Run(() => bookProcessor.StartAsync(cancellationTokenSource.Token));
+        var backgroundTask = Task.Run(() => ExecuteAsync(host.Services, cancellationTokenSource));
 
         Console.CancelKeyPress += (_, args) =>
         {
@@ -44,5 +43,11 @@ internal class Program
 
         if (cancellationTokenSource.IsCancellationRequested)
             Console.WriteLine("Cancelled");
+    }
+
+    private static async Task? ExecuteAsync(IServiceProvider services, CancellationTokenSource cancellationTokenSource)
+    {
+        var bookProcessor = services.GetRequiredService<BookProcessor>();
+        await bookProcessor.ExecuteAsync(cancellationTokenSource.Token);
     }
 }
