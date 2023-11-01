@@ -77,10 +77,7 @@ internal class BookProcessor
         string textFilePath = Path.ChangeExtension(imagePath, ".ocr.txt");
         string emptyFilePath = Path.ChangeExtension(imagePath, ".ocr.empty");
         if (File.Exists(textFilePath) || File.Exists(emptyFilePath))
-        {
-            Logger.LogInformation("Skipping already processed file {imagePath}", imagePath);
             return;
-        }
 
         ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, cancellationToken);
         if (cancellationToken.IsCancellationRequested)
