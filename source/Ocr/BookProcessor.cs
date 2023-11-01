@@ -1,12 +1,10 @@
-﻿using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Ocr.Config;
 using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace Ocr;
 

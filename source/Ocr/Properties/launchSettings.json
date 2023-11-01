@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Ocr": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

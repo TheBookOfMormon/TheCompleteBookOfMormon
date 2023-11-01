@@ -16,8 +16,7 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        string dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-        Domain.Services.Register(builder.Services, dbConnectionString);
+        Domain.Services.Register(builder.Services, builder.Configuration);
 
         // Add services to the container.
         builder.Services.AddRazorComponents();
@@ -28,12 +27,14 @@ public class Program
         builder.Services.AddScoped<AuthenticationStateProvider, ServerAuthenticationStateProvider>();
 
         builder.Services.AddAuthorization();
-        builder.Services.AddAuthentication(IdentityConstants.ApplicationScheme)
+        builder.Services
+            .AddAuthentication(IdentityConstants.ApplicationScheme)
             .AddIdentityCookies();
 
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-        builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+        builder.Services
+            .AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddSignInManager()
             .AddDefaultTokenProviders();

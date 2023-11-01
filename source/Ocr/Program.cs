@@ -19,14 +19,16 @@ internal class Program
         builder.RegisterOptions<SourceImagesSettings>();
         builder.Services.AddSingleton(new HttpClient());
         builder.Services.AddSingleton<IOcrService, OcrService>();
-        builder.Services.AddSingleton<BookProcessor>();
+        builder.Services.AddScoped<BookProcessor>();
+        builder.Services.AddScoped<DbUpdater>();
+        TheCompleteBookOfMormon.Domain.Services.Register(builder.Services, builder.Configuration);
 
         IHost host = builder.Build();
 
-
         var cancellationTokenSource = new CancellationTokenSource();
 
-        var backgroundTask = Task.Run(() => ExecuteAsync(host.Services, cancellationTokenSource));
+        using IServiceScope serviceScope = host.Services.CreateScope();
+        var backgroundTask = Task.Run(() => ExecuteAsync(serviceScope.ServiceProvider, cancellationTokenSource));
 
         Console.CancelKeyPress += (_, args) =>
         {
@@ -45,9 +47,12 @@ internal class Program
             Console.WriteLine("Cancelled");
     }
 
-    private static async Task? ExecuteAsync(IServiceProvider services, CancellationTokenSource cancellationTokenSource)
+    private static async Task ExecuteAsync(IServiceProvider serviceProvider, CancellationTokenSource cancellationTokenSource)
     {
-        var bookProcessor = services.GetRequiredService<BookProcessor>();
+        var bookProcessor = serviceProvider.GetRequiredService<BookProcessor>();
         await bookProcessor.ExecuteAsync(cancellationTokenSource.Token);
+
+        var dbUpdater = serviceProvider.GetRequiredService<DbUpdater>();
+        await dbUpdater.ExecuteAsync(cancellationTokenSource.Token);
     }
 }
