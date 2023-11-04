@@ -11,4 +11,6 @@ public class Edition : Entity
 
     [Required]
     public string? Name { get; set; }
+
+    public bool ExcludeFromUI { get; set; }
 }

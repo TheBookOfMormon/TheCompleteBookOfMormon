@@ -18,7 +18,7 @@ public abstract class RepositoryBase<T> where T : Entity
         DbSet.Remove(entity);
     }
 
-    public async ValueTask<T?> GetById(Guid id) =>
+    public async ValueTask<T?> GetByIdAsync(Guid id) =>
         await DbSet.FirstOrDefaultAsync(x => x.Id == id);
 
     public void Save(T entity)

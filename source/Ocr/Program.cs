@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Ocr.Config;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using Ocr.Persistence;
 
 namespace Ocr;
 

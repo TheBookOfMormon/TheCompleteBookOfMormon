@@ -14,8 +14,6 @@ internal class BookProcessor
     private readonly IOcrService OcrService;
     private readonly ILogger<BookProcessor> Logger;
 
-    private static readonly JsonSerializerOptions JsonOptions = new JsonSerializerOptions { WriteIndented = true };
-
     public BookProcessor(
         IOptions<SourceImagesSettings> sourceImagesSettings,
         IOcrService ocrService,

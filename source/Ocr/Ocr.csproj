@@ -32,4 +32,8 @@
     <ProjectReference Include="..\TheCompleteBookOfMormon.Domain\TheCompleteBookOfMormon.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>
