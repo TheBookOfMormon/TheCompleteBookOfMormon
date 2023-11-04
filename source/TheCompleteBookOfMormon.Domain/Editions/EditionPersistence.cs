@@ -5,9 +5,9 @@ namespace TheCompleteBookOfMormon.Domain.Editions;
 
 internal class EditionPersistence : IEntityTypeConfiguration<Edition>
 {
-    public void Configure(EntityTypeBuilder<Edition> builder)
+    public void Configure(EntityTypeBuilder<Edition> entity)
     {
-        builder.HasIndex(x => x.Code).IsUnique();
-        builder.HasIndex(x => x.Name).IsUnique();
+        entity.HasIndex(x => x.Code).IsUnique();
+        entity.HasIndex(x => x.Name).IsUnique();
     }
 }

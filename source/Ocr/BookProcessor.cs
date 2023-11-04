@@ -12,14 +12,17 @@ internal class BookProcessor
 {
     private readonly IOptions<SourceImagesSettings> SourceImagesSettings;
     private readonly IOcrService OcrService;
+    private readonly ImageRepository ImageRepository;
     private readonly ILogger<BookProcessor> Logger;
 
     public BookProcessor(
         IOptions<SourceImagesSettings> sourceImagesSettings,
+        ImageRepository imageRepository,
         IOcrService ocrService,
         ILogger<BookProcessor> logger)
     {
         SourceImagesSettings = sourceImagesSettings ?? throw new ArgumentNullException(nameof(sourceImagesSettings));
+        ImageRepository = imageRepository ?? throw new ArgumentNullException(nameof(imageRepository));
         OcrService = ocrService ?? throw new ArgumentNullException(nameof(ocrService));
         Logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
@@ -30,25 +33,8 @@ internal class BookProcessor
             throw new ValidationException(
                 $"Invalid source images directory \"{SourceImagesSettings.Value.Directory}\"");
 
-        string[] imagePaths = GetImagePaths();
+        string[] imagePaths = ImageRepository.GetRootImageFilePaths();
         await ProcessFilesAsync(imagePaths, cancellationToken);
-    }
-
-    private string[] GetImagePaths()
-    {
-        Logger.LogInformation("Discovering images");
-
-        var result = new List<string>();
-        foreach (string ext in new string[] { "png", "jpeg", "jpg" })
-        {
-            string[] imagePaths = Directory.GetFiles(
-                path: SourceImagesSettings.Value.Directory,
-                searchPattern: $"*.{ext}",
-                new EnumerationOptions { RecurseSubdirectories = true });
-            result.AddRange(imagePaths);
-        }
-        return result
-            .OrderBy(x => x).ToArray();
     }
 
     private async Task ProcessFilesAsync(string[] imagePaths, CancellationToken cancellationToken)
@@ -66,7 +52,6 @@ internal class BookProcessor
                 await ProcessFileAsync(imagePath, cancellationToken);
             });
     }
-
 
     private async Task ProcessFileAsync(string imagePath, CancellationToken cancellationToken)
     {

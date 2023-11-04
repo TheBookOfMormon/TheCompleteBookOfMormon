@@ -22,6 +22,8 @@ internal class Program
         builder.Services.AddSingleton<IOcrService, OcrService>();
         builder.Services.AddScoped<BookProcessor>();
         builder.Services.AddScoped<DbUpdater>();
+        builder.Services.AddScoped<ImageRepository>();
+        builder.Services.AddScoped<HashService>();
         TheCompleteBookOfMormon.Domain.Services.Register(builder.Services, builder.Configuration);
 
         IHost host = builder.Build();

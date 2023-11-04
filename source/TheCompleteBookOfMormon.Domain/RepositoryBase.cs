@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace TheCompleteBookOfMormon.Domain;
 
-public abstract class RepositoryBase<T> where T : Entity
+public abstract class RepositoryBase<T> where T : Entity, new()
 {
     protected readonly ApplicationDbContext DbContext;
     protected abstract DbSet<T> DbSet { get; }
@@ -15,7 +15,13 @@ public abstract class RepositoryBase<T> where T : Entity
 
     public void Delete(T entity)
     {
+        DbSet.Attach(entity);
         DbSet.Remove(entity);
+    }
+
+    public void Delete(Guid id)
+    {
+        Delete(new T() {  Id = id });
     }
 
     public async ValueTask<T?> GetByIdAsync(Guid id) =>
