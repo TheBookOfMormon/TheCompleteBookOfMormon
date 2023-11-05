@@ -58,9 +58,10 @@ internal class DbUpdater
         var editionOcrInfo = JsonSerializer.Deserialize<EditionOcrInfo>(jsonStream, DefaultJsonSerializerOptions.Value)!;
 
         Edition edition = await EditionsRepository.GetByCodeAsync(editionOcrInfo.Code) ?? new();
-        edition.Code = editionOcrInfo.Code;
+        edition.Code = editionOcrInfo.Code!;
+        edition.Name = editionOcrInfo.Name!;
+        edition.FolderName = new DirectoryInfo(editionIndexFilePath).Parent!.Name;
         edition.ExcludeFromUI = editionOcrInfo.ExcludeFromUI;
-        edition.Name = editionOcrInfo.Name;
         edition.Year = editionOcrInfo.Year;
 
         EditionsRepository.Save(edition);
@@ -102,8 +103,6 @@ internal class DbUpdater
         }
 
         string fileExt = Path.GetExtension(imageFilePath)[1..].ToLowerInvariant();
-        var fileInfo = new FileInfo(imageFilePath);
-
         if (fileExt == page.FileExtension) return;
 
         page.FileExtension = fileExt;
