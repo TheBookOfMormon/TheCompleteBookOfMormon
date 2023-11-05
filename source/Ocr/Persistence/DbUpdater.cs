@@ -97,22 +97,16 @@ internal class DbUpdater
                  ?? new Page
                  {
                      EditionId = edition.Id,
-                     Number = pageNumber,
-                     Scan = new()
+                     Number = pageNumber
                  };
         }
 
         string fileExt = Path.GetExtension(imageFilePath)[1..].ToLowerInvariant();
         var fileInfo = new FileInfo(imageFilePath);
 
-        if (page.Matches(fileInfo.Length, fileExt, fileInfo.LastWriteTimeUtc)) return;
+        if (fileExt == page.FileExtension) return;
 
         page.FileExtension = fileExt;
-        page.FileSize = fileInfo.Length;
-        page.LastWrittenUtc = fileInfo.LastWriteTimeUtc;
-        page.Scan.Data = await File.ReadAllBytesAsync(imageFilePath);
-
-        Logger.LogInformation("Updating {EditionCode} page {PageNumber}", edition.Code, pageNumber);
         PageRepository.Save(page);
         await UnitOfWork.CommitAsync();
     }

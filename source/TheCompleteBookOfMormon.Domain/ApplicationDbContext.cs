@@ -14,7 +14,6 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     public DbSet<Editions.Edition> Editions { get; init; }
     public DbSet<Page> Pages { get; init; }
-    public DbSet<PageScan> PageScans { get; init; }
 
     internal void EnableChangeTracking()
     {

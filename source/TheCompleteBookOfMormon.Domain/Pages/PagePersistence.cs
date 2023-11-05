@@ -9,6 +9,5 @@ internal class PagePersistence : IEntityTypeConfiguration<Page>
     {
         entity.HasOne<Editions.Edition>().WithMany().HasForeignKey(x => x.EditionId);
         entity.HasIndex(x => x.Number);
-        entity.HasOne(x => x.Scan).WithOne();
     }
 }
