@@ -10,18 +10,18 @@ namespace Ocr;
 
 internal class BookProcessor
 {
-    private readonly IOptions<SourceImagesSettings> SourceImagesSettings;
+    private readonly IOptions<OcrSettings> OcrSettings;
     private readonly IOcrService OcrService;
     private readonly ImageRepository ImageRepository;
     private readonly ILogger<BookProcessor> Logger;
 
     public BookProcessor(
-        IOptions<SourceImagesSettings> sourceImagesSettings,
+        IOptions<OcrSettings> ocrSettings,
         ImageRepository imageRepository,
         IOcrService ocrService,
         ILogger<BookProcessor> logger)
     {
-        SourceImagesSettings = sourceImagesSettings ?? throw new ArgumentNullException(nameof(sourceImagesSettings));
+        OcrSettings = ocrSettings ?? throw new ArgumentNullException(nameof(ocrSettings));
         ImageRepository = imageRepository ?? throw new ArgumentNullException(nameof(imageRepository));
         OcrService = ocrService ?? throw new ArgumentNullException(nameof(ocrService));
         Logger = logger ?? throw new ArgumentNullException(nameof(logger));
@@ -29,9 +29,10 @@ internal class BookProcessor
 
     public async Task ExecuteAsync(CancellationToken cancellationToken)
     {
-        if (!Directory.Exists(SourceImagesSettings.Value.Directory))
+        if (!Directory.Exists(OcrSettings.Value.ScanDirectory))
             throw new ValidationException(
-                $"Invalid source images directory \"{SourceImagesSettings.Value.Directory}\"");
+                $"Invalid source images directory \"{OcrSettings.Value.ScanDirectory}\"");
+        Directory.CreateDirectory(OcrSettings.Value.OcrDirectory);
 
         string[] imagePaths = ImageRepository.GetRootImageFilePaths();
         await ProcessFilesAsync(imagePaths, cancellationToken);
@@ -55,9 +56,11 @@ internal class BookProcessor
 
     private async Task ProcessFileAsync(string imagePath, CancellationToken cancellationToken)
     {
-        string textFilePath = Path.ChangeExtension(imagePath, ".ocr.txt");
-        string emptyFilePath = Path.ChangeExtension(imagePath, ".ocr.empty");
-        if (File.Exists(textFilePath) || File.Exists(emptyFilePath))
+        string imageFileName = Path.GetFileNameWithoutExtension(imagePath);
+        string imageFileFolderName = new DirectoryInfo(imagePath).Parent!.Name;
+        string ocrFilePath = Path.Combine(OcrSettings.Value.OcrDirectory, imageFileFolderName, imageFileName + ".ocr.txt");
+        string emptyOcrFilePath = Path.ChangeExtension(ocrFilePath, ".empty");
+        if (File.Exists(ocrFilePath) || File.Exists(emptyOcrFilePath))
             return;
 
         ImmutableArray<Word> words = await OcrService.GetOcrAsync(imagePath, cancellationToken);
@@ -67,7 +70,7 @@ internal class BookProcessor
         if (words.Length == 0)
         {
             Logger.LogWarning("No words detected in file {imagePath}", imagePath);
-            await File.WriteAllTextAsync(emptyFilePath, "");
+            await File.WriteAllTextAsync(emptyOcrFilePath, "");
             return;
         }
 
@@ -77,7 +80,11 @@ internal class BookProcessor
             resultBuilder.AppendLine($"{Guid.NewGuid()}\t{word.Left}\t{word.Top}\t{word.Width}\t{word.Height}\t{word.WordText}");
 
         if (!cancellationToken.IsCancellationRequested)
-            await File.WriteAllTextAsync(textFilePath, resultBuilder.ToString());
+        {
+            string folderPath = Path.GetDirectoryName(ocrFilePath)!;
+            Directory.CreateDirectory(folderPath);
+            await File.WriteAllTextAsync(ocrFilePath, resultBuilder.ToString());
+        }
     }
 
 

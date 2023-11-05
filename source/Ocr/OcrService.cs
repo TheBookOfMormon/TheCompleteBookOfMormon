@@ -16,12 +16,12 @@ internal interface IOcrService
 internal class OcrService : IOcrService
 {
     private readonly HttpClient HttpClient;
-    private readonly IOptions<OcrApiSettings> ApiSettings;
+    private readonly IOptions<OcrSettings> ApiSettings;
     private readonly ILogger<OcrService> Logger;
 
     public OcrService(
         HttpClient httpClient,
-        IOptions<OcrApiSettings> apiSettings,
+        IOptions<OcrSettings> apiSettings,
         ILogger<OcrService> logger)
     {
         HttpClient = httpClient;
@@ -33,19 +33,19 @@ internal class OcrService : IOcrService
         string imagePath,
         CancellationToken cancellationToken)
     {
-        decimal maxFileSize = ApiSettings.Value.MaxFileSizeInMB * 1024m * 1024m;
+        decimal maxFileSize = ApiSettings.Value.ApiMaxFileSizeInMB * 1024m * 1024m;
 
         var fileInfo = new FileInfo(imagePath);
         if (fileInfo.Length > maxFileSize)
         {
             Logger.LogWarning(
-                $"Image is larger than {ApiSettings.Value.MaxFileSizeInMB} MB: {{imagePath}}",
+                $"Image is larger than {ApiSettings.Value.ApiMaxFileSizeInMB} MB: {{imagePath}}",
                 imagePath);
             return ImmutableArray<Word>.Empty;
         }
 
         using var form = new MultipartFormDataContent();
-        form.Headers.Add("ApiKey", ApiSettings.Value.Key);
+        form.Headers.Add("ApiKey", ApiSettings.Value.ApiKey);
         form.Add(new StringContent("true"), "isOverlayRequired");
         form.Add(new StringContent("2"), "ocrEngine");
         form.Add(

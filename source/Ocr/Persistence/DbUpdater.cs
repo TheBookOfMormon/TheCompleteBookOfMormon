@@ -14,7 +14,7 @@ internal class DbUpdater
     private readonly IEditionsRepository EditionsRepository;
     private readonly IPageRepository PageRepository;
     private readonly ImageRepository ImageRepository;
-    private readonly IOptions<SourceImagesSettings> SourceImagesSettings;
+    private readonly IOptions<OcrSettings> OcrSettings;
     private readonly HashService HashService;
 
     private readonly IUnitOfWork UnitOfWork;
@@ -24,7 +24,7 @@ internal class DbUpdater
         IEditionsRepository editionsRepository,
         ImageRepository imageRepository,
         IPageRepository pageRepository,
-        IOptions<SourceImagesSettings> sourceImagesSettings,
+        IOptions<OcrSettings> ocrSettings,
         HashService hashService,
         IUnitOfWork unitOfWork,
         ILogger<DbUpdater> logger)
@@ -32,7 +32,7 @@ internal class DbUpdater
         EditionsRepository = editionsRepository ?? throw new ArgumentNullException(nameof(editionsRepository));
         ImageRepository = imageRepository ?? throw new ArgumentNullException(nameof(imageRepository));
         PageRepository = pageRepository ?? throw new ArgumentNullException(nameof(pageRepository));
-        SourceImagesSettings = sourceImagesSettings ?? throw new ArgumentNullException(nameof(sourceImagesSettings));
+        OcrSettings = ocrSettings ?? throw new ArgumentNullException(nameof(ocrSettings));
         HashService = hashService ?? throw new ArgumentNullException(nameof(hashService));
         UnitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         Logger = logger ?? throw new ArgumentNullException(nameof(logger));
@@ -40,7 +40,7 @@ internal class DbUpdater
 
     public async ValueTask ExecuteAsync(CancellationToken cancellationToken)
     {
-        string[] editionIndexFilePaths = Directory.GetFiles(SourceImagesSettings.Value.Directory, "index.json", SearchOption.AllDirectories);
+        string[] editionIndexFilePaths = Directory.GetFiles(OcrSettings.Value.ScanDirectory, "index.json", SearchOption.AllDirectories);
         foreach (string editionIndexFilePath in editionIndexFilePaths)
         {
             if (cancellationToken.IsCancellationRequested) return;

@@ -16,8 +16,7 @@ internal class Program
         builder.Configuration.AddJsonFile("appsettings.json");
         builder.Configuration.AddJsonFile($"appsettings.{environment.EnvironmentName}.json", optional: true);
 
-        builder.RegisterOptions<OcrApiSettings>();
-        builder.RegisterOptions<SourceImagesSettings>();
+        builder.RegisterOptions<OcrSettings>();
         builder.Services.AddSingleton(new HttpClient());
         builder.Services.AddSingleton<IOcrService, OcrService>();
         builder.Services.AddScoped<BookProcessor>();

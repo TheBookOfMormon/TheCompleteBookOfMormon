@@ -5,14 +5,14 @@ namespace Ocr;
 
 internal class ImageRepository
 {
-    private readonly IOptions<SourceImagesSettings> SourceImagesSettings;
+    private readonly IOptions<OcrSettings> OcrSettings;
 
-    public ImageRepository(IOptions<SourceImagesSettings> sourceImagesSettings)
+    public ImageRepository(IOptions<OcrSettings> ocrSettings)
     {
-        SourceImagesSettings = sourceImagesSettings ?? throw new ArgumentNullException(nameof(sourceImagesSettings));
+        OcrSettings = ocrSettings ?? throw new ArgumentNullException(nameof(ocrSettings));
     }
 
-    public string[] GetRootImageFilePaths() => GetImageFilePaths(SourceImagesSettings.Value.Directory);
+    public string[] GetRootImageFilePaths() => GetImageFilePaths(OcrSettings.Value.ScanDirectory);
 
     public string[] GetImageFilePaths(string path)
     {
