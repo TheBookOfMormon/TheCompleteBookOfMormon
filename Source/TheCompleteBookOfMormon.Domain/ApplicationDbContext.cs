@@ -12,8 +12,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         ChangeTracker.AutoDetectChangesEnabled = false;
     }
 
-    public DbSet<Editions.Edition> Editions { get; init; }
-    public DbSet<Page> Pages { get; init; }
+    public DbSet<Editions.Edition> Editions { get; init; } = null!;
+    public DbSet<Page> Pages { get; init; } = null!;
 
     internal void EnableChangeTracking()
     {
