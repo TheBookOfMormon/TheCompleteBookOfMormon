@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace TheCompleteBookOfMormon.Domain.Editions;
+namespace TheCompleteBookOfMormon.Domain.Features.Editions;
 
 public interface IEditionsRepository
 {

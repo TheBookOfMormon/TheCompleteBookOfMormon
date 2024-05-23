@@ -1,4 +1,4 @@
-﻿namespace TheCompleteBookOfMormon.Domain.Pages;
+﻿namespace TheCompleteBookOfMormon.Domain.Features.Pages;
 
 public class Page : Entity
 {

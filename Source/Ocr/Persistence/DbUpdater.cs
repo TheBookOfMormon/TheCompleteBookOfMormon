@@ -4,8 +4,8 @@ using Ocr.Config;
 using System.Collections.Immutable;
 using System.Text.Json;
 using TheCompleteBookOfMormon.Domain;
-using TheCompleteBookOfMormon.Domain.Editions;
-using TheCompleteBookOfMormon.Domain.Pages;
+using TheCompleteBookOfMormon.Domain.Features.Editions;
+using TheCompleteBookOfMormon.Domain.Features.Pages;
 
 namespace Ocr.Persistence;
 

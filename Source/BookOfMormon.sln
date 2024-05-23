@@ -1,11 +1,8 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocr", "Ocr\Ocr.csproj", "{134F837C-FCAD-4E61-A304-442736226A6A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCompleteBookOfMormon.Web", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.csproj", "{B864528E-E66F-4EC0-AEAA-221650923E0D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCompleteBookOfMormon.Domain", "TheCompleteBookOfMormon.Domain\TheCompleteBookOfMormon.Domain.csproj", "{712517CC-B461-4AC4-8ACC-F925DFE83520}"
 EndProject
@@ -14,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		AddMigration.bat = AddMigration.bat
 		UpdateDB.bat = UpdateDB.bat
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCompleteBookOfMormon.Web", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.csproj", "{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCompleteBookOfMormon.Web.Client", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.Client\TheCompleteBookOfMormon.Web.Client.csproj", "{658ABA31-D2D3-4EC2-9F96-A7042180575E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +32,14 @@ Global
 		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|x86.ActiveCfg = Release|Any CPU
 		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|x86.Build.0 = Release|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Debug|x86.Build.0 = Debug|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|x86.ActiveCfg = Release|Any CPU
-		{B864528E-E66F-4EC0-AEAA-221650923E0D}.Release|x86.Build.0 = Release|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|x86.Build.0 = Debug|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Release|x86.ActiveCfg = Release|Any CPU
+		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Release|x86.Build.0 = Release|Any CPU
 		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -47,6 +48,14 @@ Global
 		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|Any CPU.Build.0 = Release|Any CPU
 		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|x86.ActiveCfg = Release|Any CPU
 		{712517CC-B461-4AC4-8ACC-F925DFE83520}.Release|x86.Build.0 = Release|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

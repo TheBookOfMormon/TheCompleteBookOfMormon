@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using TheCompleteBookOfMormon.Domain.Features.Editions;
+using TheCompleteBookOfMormon.Domain.Features.Pages;
 
 namespace TheCompleteBookOfMormon.Domain;
 
@@ -9,8 +11,8 @@ public static class Services
 {
     public static void Register(IServiceCollection services, IConfiguration config)
     {
-        services.AddScoped<Editions.IEditionsRepository, Editions.EditionsRepository>();
-        services.AddScoped<Pages.IPageRepository, Pages.PageRepository>();
+        services.AddScoped<IEditionsRepository, EditionsRepository>();
+        services.AddScoped<IPageRepository, PageRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         string dbConnectionString = config.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");

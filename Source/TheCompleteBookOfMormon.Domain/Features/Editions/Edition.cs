@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TheCompleteBookOfMormon.Domain.Editions;
+namespace TheCompleteBookOfMormon.Domain.Features.Editions;
 
 public class Edition : Entity
 {

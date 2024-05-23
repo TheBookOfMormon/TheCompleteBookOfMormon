@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using TheCompleteBookOfMormon.Domain.Pages;
+using TheCompleteBookOfMormon.Domain.Features.Editions;
+using TheCompleteBookOfMormon.Domain.Features.Pages;
 
 namespace TheCompleteBookOfMormon.Domain;
 
@@ -12,7 +12,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         ChangeTracker.AutoDetectChangesEnabled = false;
     }
 
-    public DbSet<Editions.Edition> Editions { get; init; } = null!;
+    public DbSet<Edition> Editions { get; init; } = null!;
     public DbSet<Page> Pages { get; init; } = null!;
 
     internal void EnableChangeTracking()

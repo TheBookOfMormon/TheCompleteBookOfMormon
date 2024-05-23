@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace TheCompleteBookOfMormon.Domain.Editions;
+namespace TheCompleteBookOfMormon.Domain.Features.Editions;
 
 internal class EditionPersistence : IEntityTypeConfiguration<Edition>
 {

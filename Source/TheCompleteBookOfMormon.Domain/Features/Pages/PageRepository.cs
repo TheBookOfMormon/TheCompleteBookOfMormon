@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Immutable;
 
-namespace TheCompleteBookOfMormon.Domain.Pages;
+namespace TheCompleteBookOfMormon.Domain.Features.Pages;
 
 public interface IPageRepository
 {
