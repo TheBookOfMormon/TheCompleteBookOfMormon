@@ -1,3 +1,3 @@
 @echo off
-dotnet ef database update --project "TheCompleteBookOfMormon.Domain\TheCompleteBookOfMormon.Domain.csproj" --startup-project "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.csproj" -c ApplicationDbContext
+dotnet ef database update --project "TheCompleteBookOfMormon.Web.Server\TheCompleteBookOfMormon.Web.Server.csproj" --startup-project "TheCompleteBookOfMormon.Web.Server\TheCompleteBookOfMormon.Web.Server.csproj" -c ApplicationDbContext
 pause

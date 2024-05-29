@@ -2,36 +2,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocr", "Ocr\Ocr.csproj", "{134F837C-FCAD-4E61-A304-442736226A6A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCompleteBookOfMormon.Domain", "TheCompleteBookOfMormon.Domain\TheCompleteBookOfMormon.Domain.csproj", "{712517CC-B461-4AC4-8ACC-F925DFE83520}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E4B43EB-3CC7-4DEA-BF48-2B9F915FBFA6}"
 	ProjectSection(SolutionItems) = preProject
 		AddMigration.bat = AddMigration.bat
 		UpdateDB.bat = UpdateDB.bat
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCompleteBookOfMormon.Web", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.csproj", "{D07E85F7-6E82-4DBD-BAB6-9432F3FA2F4E}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TheCompleteBookOfMormon.Web.Client", "TheCompleteBookOfMormon.Web.Client\TheCompleteBookOfMormon.Web.Client.esproj", "{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCompleteBookOfMormon.Web.Client", "TheCompleteBookOfMormon.Web\TheCompleteBookOfMormon.Web.Client\TheCompleteBookOfMormon.Web.Client.csproj", "{658ABA31-D2D3-4EC2-9F96-A7042180575E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCompleteBookOfMormon.Web.Api", "TheCompleteBookOfMormon.Web.Api\TheCompleteBookOfMormon.Web.Api.csproj", "{217DC1FD-0143-42B2-A302-2A1644B7E970}"
 EndProject
 Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {087AA483-59B9-44AC-BFD5-813149F987F5}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Debug|x86.Build.0 = Debug|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|x86.ActiveCfg = Release|Any CPU
-		{134F837C-FCAD-4E61-A304-442736226A6A}.Release|x86.Build.0 = Release|Any CPU
+		{217DC1FD-0143-42B2-A302-2A1644B7E970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217DC1FD-0143-42B2-A302-2A1644B7E970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217DC1FD-0143-42B2-A302-2A1644B7E970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217DC1FD-0143-42B2-A302-2A1644B7E970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33109036-7F7B-4B96-BEEB-62AE8B12F8C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
+U
 		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{658ABA31-D2D3-4EC2-9F96-A7042180575E}.Debug|x86.ActiveCfg = Debug|Any CPU
