@@ -1,0 +1,44 @@
+@using ConvertImagesToText
+<FluentGrid>
+    <FluentGridItem xs="12">
+        <FluentButton Appearance=@Appearance.Accent
+                      IconStart=@SharedIcons.Play
+                      Disabled=@(!StartProcessingEnabled)
+                      OnClick=@StartProcessing>
+            Start
+        </FluentButton>
+        <FluentButton Appearance=@Appearance.Neutral
+                      IconStart=@SharedIcons.Stop
+                      Disabled=@(!StopProcessingEnabled)
+                      OnClick=@StopProcessing>
+            Stop
+        </FluentButton>
+        @if (ChildContent != null)
+        {
+            <div class="mt-4">
+                @ChildContent
+            </div>
+        }
+    </FluentGridItem>
+</FluentGrid>
+
+@if (EditionProgress != null)
+{
+    <table id="editions-table">
+        <thead>
+            <tr>
+                <th>Edition</th>
+                <th>File</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var editionInfo in EditionProgress.OrderBy(x => x.Key))
+            {
+                <tr>
+                    <td>@editionInfo.Key</td>
+                    <td>@editionInfo.Value</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

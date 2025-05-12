@@ -1,0 +1,154 @@
+@page "/SyncDocuments"
+@using DocumentsModel
+@using WordsAnalysis.AppLayer.Features.SyncDocuments
+@inject IConfirmService ConfirmService
+@inject IDialogService DialogService
+
+@if (ViewModel != null)
+{
+    <PageHeader Href="/" Text="Sync documents">
+        <IconPanel Icon=Icons.Filled.Size24.Globe Name="File">
+            <IconPanelButton Icon=Icons.Filled.Size24.Save
+                             Tooltip="Save changes (Alt S)"
+                             Enabled=@ViewModel.IsDirty
+                             AccessKey="S"
+                             OnClick=@SaveChangesAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.ArrowUndo
+                             Tooltip=@(ViewModel.UndoActionDescription + " (Alt Z)")
+                             Enabled=@ViewModel.CanUndo
+                             AccessKey="Z"
+                             OnClick=@ViewModel.UndoAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.ArrowRedo
+                             Tooltip=@(ViewModel.RedoActionDescription + " (Alt Y)")
+                             Enabled=@ViewModel.CanRedo
+                             AccessKey="Y"
+                             OnClick=@ViewModel.RedoAsync />
+            <label for="section-selector" accesskey="P">Section</label>
+            <select @ref=SectionNumberElement id="section-selector" @onchange=SelectedSectionIndexChanged>
+                @for (int sectionIndex = 0; sectionIndex < ViewModel.SectionCount; sectionIndex++)
+                {
+                    bool selected = (sectionIndex == ViewModel.SectionIndex);
+                    <option value=@sectionIndex selected=@selected>@(sectionIndex + 1)</option>
+                }
+            </select>
+            <IconPanelButton Icon=Icons.Filled.Size24.ScanText
+                             Tooltip="Rescan an area of the page"
+                             Enabled=ViewModel.CanRescanArea
+                             OnClick=@ViewModel.RescanAreaAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.CopySelect
+                             Tooltip="Deselect all"
+                             Enabled=@ViewModel.HasSelectedWords
+                             OnClick=@ViewModel.DeselectAll />
+            <IconPanelButton Icon=Icons.Filled.Size24.Merge
+                             Tooltip="Merge words (Alt M)"
+                             Enabled=@ViewModel.CanMergeWords
+                             AccessKey="M"
+                             OnClick=@ViewModel.MergeSelectedWordsAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.AlignLeft
+                             Tooltip="Align words (Alt L)"
+                             Enabled=@ViewModel.CanAlignSelectedWords
+                             AccessKey="L"
+                             OnClick=@ViewModel.AlignSelectedWordsAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.SubtractSquare
+                             Tooltip="Delete words (Alt D)"
+                             Enabled=ViewModel.CanDeletedWords
+                             AccessKey="D"
+                             OnClick=@ViewModel.DeleteSelectedWordsAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.ChannelSubtract
+                             Tooltip="Nuke the rest of the page"
+                             Enabled=ViewModel.CanNukeTheRestOfThePage
+                             OnClick=@ViewModel.NukeTheRestOfThePageAsync />
+            <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
+                             Tooltip="Next discrepancy (Alt N)"
+                             AccessKey="N"
+                             Enabled=@(!Loading)
+                             OnClick=@ScrollToNextWarningOrErrorAsync />
+            @if (ViewModel.HasSelectedWords)
+            {
+                <span style="margin-left: 1rem">@ViewModel.SelectedWords.Count selected word(s)</span>
+            }
+        </IconPanel>
+    </PageHeader>
+
+    <table class="word-table">
+        <thead>
+            <tr>
+                <th class="word-table_first-cell">&nbsp;</th>
+                @{
+                    var mostWordsInSection = ViewModel.RowData.Max(x => x.Words.Count);
+                    for (int index = 0; index < mostWordsInSection; index++)
+                    {
+                        int capturedIndex = index;
+                        <th class="word-table_word-index @GetWordIndexClass(index)">
+                            @(index + 1)
+                            <div class="word-table_word-index-actions" @onclick:stopPropagation>
+                                <FluentButton IconStart=@SharedIcons.ViewColumnImages
+                                              Class="word-table_word-action-button"
+                                              title="View column images"
+                                              OnClick=@(() => ViewModel.ShowColumnImagesAsync(capturedIndex)) />
+                            </div>
+
+                        </th>
+                    }
+                    <th style="min-width:100vw"/>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (RowData rowData in ViewModel.RowData)
+            {
+                EditionState editionState = ViewModel.Editions[rowData.BookInfo];
+                <tr @key=rowData.BookInfo.Code>
+                    <th class="word-table_edition @GetEditionClass(rowData.BookInfo)">
+                        @rowData.BookInfo.Year&nbsp;@rowData.BookInfo.ShortCode
+                    </th>
+                    @for (int i = 0; i < rowData.Words.Count; i++)
+                    {
+                        int columnIndex = i;
+                        WordReference wordReference = rowData.Words[columnIndex];
+                        OcrWord? word = wordReference.GetWord(editionState);
+                        string? displayText = word?.GetDisplayText();
+                        <td @key=i class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)" @onmouseenter=@(() => WordMouseEnter(wordReference)) onmouseout=@(() => WordMouseOut(wordReference))>
+                            <div class="word-table_word" title=@($"Page {wordReference.PageNumber} Word {wordReference.WordIndex}") @onclick=@(e => WordClicked(e, wordReference))>
+                                @if (displayText != null)
+                                {
+                                    <text>@displayText</text>
+                                }
+                                else
+                                {
+                                    <text>&nbsp;</text>
+                                }
+                            </div>
+                            @if (wordReference == ActiveWordReference && word != null)
+                            {
+                                <div class="word-table_word-actions" @onclick:stopPropagation>
+                                    <FluentButton IconStart=@SharedIcons.Add
+                                                  Class="word-table_word-action-button"
+                                                  title=@($"Add word before/after {displayText}")
+                                                  accesskey="A"
+                                                  OnClick=@(() => ViewModel.AddWordAsync(wordReference, columnIndex)) />
+                                    <FluentButton IconStart=@SharedIcons.Edit
+                                                  Class="word-table_word-action-button"
+                                                  title=@($"Edit word {displayText}")
+                                                  accesskey="E"
+                                                  OnClick=@(() => ViewModel.EditWordAsync(wordReference, columnIndex)) />
+                                </div>
+                            }
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<FluentOverlay Visible=@Loading
+               Transparent=@false
+               FullScreen
+               Opacity="0.4"
+               BackgroundColor="#000000"
+               Alignment=@Align.Center
+               Justification=@JustifyContent.Center>
+    <div style="padding: 5rem 10rem; border-radius: 1rem; display:flex; justify-content: center; align-items: center; background-color: var(--neutral-fill-layer-rest);">
+        <FluentProgressRing Style="margin-right: 1rem" />Loading...
+    </div>
+</FluentOverlay>

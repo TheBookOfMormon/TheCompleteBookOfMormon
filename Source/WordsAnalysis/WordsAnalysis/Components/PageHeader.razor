@@ -1,0 +1,15 @@
+<SectionContent SectionId=@SectionIds.Header>
+    <FluentGrid>
+        <FluentGridItem Span="12">
+            <FluentStack Horizontal Spacing="medium">
+                <div class="page-header">
+                    <FluentAnchor Href="@Href" Disabled="@Disabled">
+                        <FluentIcon Icon=@Icons.Filled.Size24.ArrowLeft/>
+                    </FluentAnchor>
+                    <h1>@Text</h1>
+                </div>
+            </FluentStack>
+        </FluentGridItem>
+    </FluentGrid>
+    @ChildContent
+</SectionContent>

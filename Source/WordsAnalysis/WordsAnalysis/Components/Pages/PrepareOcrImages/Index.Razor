@@ -1,0 +1,5 @@
+@page "/PrepareOcrImages"
+
+<PageHeader Href="/" Text="Prepare OCR images" Disabled=@(EditionProcessor?.StopProcessingEnabled ?? false) />
+
+<EditionProcessor @ref=EditionProcessor Processor=@ImageGenerator/>

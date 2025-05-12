@@ -1,0 +1,35 @@
+@using WordsAnalysis.AppLayer.Features.SyncDocuments
+@implements IDialogContentComponent<RescanAreaDialog.RescanAreaDialogContent>
+
+<FluentDialogHeader>
+    Rescan area - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
+</FluentDialogHeader>
+
+<FluentDialogBody>
+    <div style="display: flex; flex-direction: row; align-items: flex-start;">
+        <div style="display: flex; flex-direction: row; flex-grow: 1;  overflow-y: auto;">
+            <img src=@WordImageData style="width: 100%; height: auto; flex-grow: 1" />
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; align-self: flex-start;">
+            <FluentToolbar>
+                <FluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUp(e)) />
+                <FluentButton IconStart=@SharedIcons.ArrowDown OnClick=@(e => MoveDown(e)) />
+                <FluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e)) />
+                <FluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e)) />
+            </FluentToolbar>
+            <InputTextArea @bind-Value=ScannedText readonly rows="10" />
+        </div>
+    </div>
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => Rescan()) accesskey="S">
+        Re<span class="underline">s</span>can
+    </FluentButton>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
+        <span class="underline">O</span>K
+    </FluentButton>
+    <FluentButton OnClick=@(() => CancelAsync()) accesskey="C">
+        <span class="underline">C</span>ancel
+    </FluentButton>
+</FluentDialogFooter>

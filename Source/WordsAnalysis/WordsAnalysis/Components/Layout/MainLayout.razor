@@ -1,0 +1,15 @@
+﻿@inherits LayoutComponentBase
+<FluentDesignTheme StorageName="theme" />
+<FluentToastProvider MaxToastCount=10/>
+
+<div id="page">
+    <header id="header">
+        <SectionOutlet SectionId=@SectionIds.Header />
+    </header>
+    <section id="body">
+        @Body
+    </section>
+    <footer id="footer">
+        <SectionOutlet SectionId=@SectionIds.Footer />
+    </footer>
+</div>

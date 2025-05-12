@@ -1,0 +1,78 @@
+@using WordsAnalysis.AppLayer.Features.SyncDocuments
+@implements IDialogContentComponent<EditWordDialog.EditWordDialogContent>
+@inject IToastService ToastService
+
+<FluentDialogHeader>
+    @GetActionName() word - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
+</FluentDialogHeader>
+
+<FluentDialogBody>
+    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+        <EditForm @ref=EditForm Model=@Texts>
+            <ObjectGraphDataAnnotationsValidator />
+            <label>
+                <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged />
+                Show surrounding text
+            </label>
+
+            @if (Texts.Length > 1)
+            {
+               <FluentCheckbox @bind-Value=ShowDashes Label="Show dashes"/>
+            }
+            @{
+                int index = -1;
+                foreach (RequiredText item in Texts)
+                {
+                    index++;
+                    int capturedIndex = index;
+                    bool isReadonly = index == 1 && item.Text == "-";
+                    <div>
+                        <FluentToolbar>
+                            <FluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUp(e, capturedIndex)) />
+                            <FluentButton IconStart=@SharedIcons.ArrowDown OnClick=@(e => MoveDown(e, capturedIndex)) />
+                            <FluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e, capturedIndex)) />
+                            <FluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
+                            <FluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
+                            <FluentButton IconStart=@SharedIcons.EstimateWordWidth OnClick=@(e => EstimateWordWidth(capturedIndex)) accesskey="w"/>
+                        </FluentToolbar>
+                    </div>
+                    <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) />
+                }
+            }
+            @if (Content.IsAdd)
+            {
+                <div>
+                    <label>
+                        Add
+                        @if (AddWordAfter)
+                        {
+                            <text>Before / <em>After</em></text>
+                        }
+                        else
+                        {
+                            <text><em>Before</em> / After</text>
+                        }
+                    </label>
+                    <FluentCheckbox @bind-Value=AddWordAfter />&nbsp;
+                </div>
+                <div>
+                    <label>Spacer</label>
+                    <FluentCheckbox @bind-Value=IsSpacer Disabled=@(Word.IsComposite()) />
+                </div>
+            }
+        </EditForm>
+    </div>
+    <div style="display: flex; flex-direction: row; align-items: flex-end; align-items: start; max-width: 100%; max-height: 100%; overflow-y: auto">
+        <img src=@WordImageData style="width: 66%; height: auto; flex-grow: 1; border: 1px solid green;" />
+        <img src=@PageImageData style="width: 34%; height: auto; flex-shrink: 1" />
+    </div>
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
+        <span class="underline">O</span>K
+    </FluentButton>
+    <FluentButton OnClick=@(() => CancelAsync()) accesskey="C">
+        <span class="underline">C</span>ancel
+    </FluentButton>
+</FluentDialogFooter>

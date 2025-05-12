@@ -1,0 +1,11 @@
+@typeparam Icon where Icon : Microsoft.FluentUI.AspNetCore.Components.Icon, new()
+
+<div class="main">
+    <FluentIcon Id=@IconId Icon=Icon />
+    <FluentTooltip Anchor=@IconId>
+        <div>@Name</div>
+    </FluentTooltip>
+    <div class="inner">
+        @ChildContent
+    </div>
+</div>

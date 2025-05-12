@@ -1,0 +1,166 @@
+using DocumentsModel;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.FluentUI.AspNetCore.Components;
+using WordsAnalysis.AppLayer.Features.SyncDocuments;
+using WordsAnalysis.Services;
+
+namespace WordsAnalysis.Components.Pages.SyncDocuments;
+
+public partial class Index
+{
+    private WordReference? ActiveWordReference;
+    private const string LastEditedCellClass = "--last-edited-cell";
+    private const string LastEditedRowClass = "--last-edited-row";
+    private int LoadingCount;
+    private bool Loading => LoadingCount > 0;
+    private ViewModel ViewModel = null!;
+    private WordReference? WordPreviouslySelected;
+    private ElementReference SectionNumberElement;
+
+    [Inject]
+    private IHtmlService HtmlService { get; set; } = null!;
+
+    [Inject]
+    private IToastService ToastService { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        LoadingCount++;
+        await base.OnInitializedAsync();
+        FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
+        var stateHasChangedCallback = EventCallback.Factory.Create(this, RefreshGrid);
+        ViewModel = new ViewModel(state, ConfirmService, DialogService, stateHasChangedCallback);
+        await ViewModel.LoadRowDataDataAsync(0);
+        LoadingCount--;
+    }
+
+    private string GetEditionClass(OcrBookInfo bookInfo)
+    {
+        if (ViewModel.LastEditedEdition == bookInfo)
+            return LastEditedRowClass;
+        return "";
+    }
+
+    private string GetWordClass(WordReference wordReference, string? displayText, int columnIndex)
+    {
+        ColumnData columnData = ViewModel.ColumnData[columnIndex];
+        string spacer = displayText == null ? "--spacer" : "";
+        string selected = ViewModel.IsWordSelected(wordReference!) ? "--selected" : "";
+        string lastEditedRow = ViewModel.LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
+        string outlier = "";
+        string errorLevel = "";
+        string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
+        if (displayText != null && columnData.MostCommonDisplayText != displayText)
+        {
+            outlier = "--outlier";
+            if (string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
+                errorLevel = "--warning";
+            else
+                errorLevel = "--error";
+        }
+
+        string lastEditedCell = wordReference.BookInfo == ViewModel.LastEditedEdition && columnIndex == ViewModel.LastEditedColumnIndex ? LastEditedCellClass : "";
+        return $"{selected} {spacer} {lastEditedRow} {lastEditedCell} {errorLevel} {outlier} {firstWordOnPage}";
+    }
+
+    private string GetWordIndexClass(int index)
+    {
+        return ViewModel.ColumnData[index].ErrorLevel switch {
+            ColumnDataErrorLevel.Error => "--error",
+            ColumnDataErrorLevel.Warning => "--warning",
+            ColumnDataErrorLevel.WordAddedOrRemoved => "--word-added-or-removed",
+            ColumnDataErrorLevel.None => "",
+            _ => throw new NotImplementedException()
+        };
+    }
+
+    private async Task RefreshGrid()
+    {
+        await Task.Yield();
+        StateHasChanged();
+    }
+
+    private async Task SaveChangesAsync()
+    {
+        await ViewModel.SaveChangesAsync();
+        await SectionNumberElement.FocusAsync();
+    }
+
+    private async Task SelectedSectionIndexChanged(ChangeEventArgs e)
+    {
+        int newIndex = Convert.ToInt32(e.Value);
+        LoadingCount++;
+        StateHasChanged();
+        await Task.Yield();
+        await ViewModel.LoadRowDataDataAsync(newIndex);
+        await HtmlService.ScrollBodyToTopLeftAsync();
+        StateHasChanged();
+        await Task.Yield();
+        LoadingCount--;
+    }
+
+    private async Task ScrollToNextWarningOrErrorAsync()
+    {
+        LoadingCount++;
+        do
+        {
+            bool hasWarningOrError = await HtmlService.ScrollToNextWarningOrErrorAsync();
+            if (hasWarningOrError)
+                break;
+
+            if (ViewModel.SectionIndex < ViewModel.SectionCount - 1)
+            {
+                await SelectedSectionIndexChanged(new ChangeEventArgs { Value = ViewModel.SectionIndex + 1 });
+                StateHasChanged();
+                await Task.Yield();
+                bool firstColumnHasErrorOrWarning = await HtmlService.FirstColumnHasErrorOrWarningAsync();
+                if (firstColumnHasErrorOrWarning)
+                    break;
+            }
+            else
+            {
+                ToastService.ClearAll();
+                ToastService.ShowWarning("No more warnings or errors.", timeout: 3000);
+                break;
+            }
+        } while (true);
+        await SectionNumberElement.FocusAsync();
+        LoadingCount--;
+        await Task.Delay(100); // Ignore accidental double-tap
+    }
+
+    private void WordClicked(MouseEventArgs e, WordReference wordReference)
+    {
+        if (e.ShiftKey && WordPreviouslySelected == null) return;
+        if (e.ShiftKey && WordPreviouslySelected != null)
+        {
+            ViewModel.SelectWordsInRange(WordPreviouslySelected!, wordReference);
+            WordPreviouslySelected = null;
+        }
+        else if (!e.ShiftKey)
+        {
+            bool newlySelected = ViewModel.ToggleWordSelected(wordReference);
+            if (newlySelected)
+                WordPreviouslySelected = wordReference;
+            else
+                WordPreviouslySelected = null;
+            if (e.AltKey && newlySelected && ViewModel.SelectedWords.Count > 1)
+            {
+                ViewModel.DeselectAll();
+                ViewModel.ToggleWordSelected(wordReference);
+            }
+        }
+    }
+
+    private void WordMouseEnter(WordReference wordReference)
+    {
+        ActiveWordReference = wordReference;
+    }
+
+    private void WordMouseOut(WordReference wordReference)
+    {
+        if (ActiveWordReference == wordReference)
+            ActiveWordReference = null;
+    }
+}

@@ -1,0 +1,5 @@
+﻿@page "/ScanPages"
+
+<PageHeader Href="/" Text="Scan pages" Disabled=@(EditionProcessor?.StopProcessingEnabled ?? false) />
+
+<EditionProcessor @ref=EditionProcessor Processor=@OcrProcessor/>

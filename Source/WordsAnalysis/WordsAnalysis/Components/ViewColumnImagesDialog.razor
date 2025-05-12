@@ -1,0 +1,33 @@
+@using WordsAnalysis.AppLayer.Features.SyncDocuments
+@implements IDialogContentComponent<ViewColumnImagesDialog.ViewColumnImagesDialogContent>
+
+<FluentDialogHeader>
+    View column images
+</FluentDialogHeader>
+
+<FluentDialogBody>
+    <div style="display: flex; flex-direction: row; gap: 1rem; flex-wrap: wrap; overflow-y: auto; max-height: 100%;">
+        @foreach (var row in Content.WordReferences.OfType<WordReference>().OrderByDescending(x => x.BookInfo))
+        {
+            string? imageData = GetImageData(row);
+            <div style="display:flex; flex-direction: column; align-items: center; border: 1px solid black; margin: 0; overflow: hidden; padding: 0; gap: 0; justify-content: space-between;">
+                <strong style="width: 100%; text-align: center; font-size: 2rem; z-index:2; background-color: white; color: black; padding-top: 0.5rem; padding-bottom:1rem;">@row.GetWord(Content.Editions[row.BookInfo])?.GetCombinedText()</strong>
+                @if (imageData == null)
+                {
+                    <span>No image</span>
+                }
+                else
+                {
+                    <img src=@GetImageData(row) style="height:3rem; width: auto;" />
+                }
+                <span style="width: 100%; text-align: center; font-size: 0.75rem; background-color: var(--fill-color); color: var(--accent-fill-rest); z-index: 1">( @row.BookInfo.Year @row.BookInfo.ShortCode )</span>
+            </div>
+        }
+    </div>
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
+        <span class="underline">O</span>K
+    </FluentButton>
+</FluentDialogFooter>

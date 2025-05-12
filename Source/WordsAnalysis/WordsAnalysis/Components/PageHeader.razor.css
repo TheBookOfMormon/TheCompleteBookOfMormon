@@ -1,0 +1,14 @@
+﻿h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-content: center;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}

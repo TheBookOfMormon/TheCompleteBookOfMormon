@@ -1,0 +1,20 @@
+@implements IDialogContentComponent<ConfirmDialogContent>
+
+<FluentDialogHeader>
+    @Title
+</FluentDialogHeader>
+
+<FluentDialogBody>
+    @Content.Message
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync(true))>
+        @ConfirmButtonText
+    </FluentButton>
+    <FluentButton OnClick=@(() => ConfirmAsync(false))>
+        @CancelButtonText
+    </FluentButton>
+</FluentDialogFooter>
+
+

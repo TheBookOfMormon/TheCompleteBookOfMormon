@@ -1,0 +1,31 @@
+@implements IDialogContentComponent<DeleteWordsDialog.DeleteWordsDialogContent>
+
+<FluentDialogHeader>
+    Delete words
+</FluentDialogHeader>
+
+<FluentDialogBody>
+    <div>
+        <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount/>
+    </div>
+    <div>
+        @for (int i = 0; i < Content.Words.Length; i++)
+        {
+            int capturedI = i;
+            string selected = i < DeleteCount ? "--selected" : "";
+            <span class="@selected selectable-word" title=@($"Delete up to word {capturedI + 1}") @onclick=@(() => SetDeleteCount(capturedI + 1))>
+               @Content.Words[i].Value
+               &nbsp;
+            </span>
+      }
+   </div>
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
+        <span class="underline">O</span>K
+    </FluentButton>
+    <FluentButton OnClick=@(() => CancelAsync()) accesskey="C">
+        <span class="underline">C</span>ancel
+    </FluentButton>
+</FluentDialogFooter>

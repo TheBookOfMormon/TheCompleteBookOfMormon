@@ -1,0 +1,11 @@
+@typeparam Icon where Icon : Microsoft.FluentUI.AspNetCore.Components.Icon, new()
+
+<FluentButton @ref=ButtonElement Id=@ButtonId OnClick="@OnClick" Disabled="@( !Enabled )" accesskey=@AccessKey>
+    @if (Tooltip != null)
+    {
+        <FluentTooltip Anchor=@ButtonId Position=@TooltipPosition.Bottom>@GetTooltipText()</FluentTooltip>
+    }
+    <FluentStack HorizontalAlignment=@HorizontalAlignment.Center VerticalAlignment=@VerticalAlignment.Center HorizontalGap=1 VerticalGap=1>
+        <FluentIcon Icon=@Icon />
+    </FluentStack>
+</FluentButton>

@@ -1,0 +1,142 @@
+﻿using DocumentsModel;
+using ImageMagick;
+using ImageMagick.Drawing;
+using WordsAnalysis.AppLayer.Extensions;
+
+namespace WordsAnalysis.AppLayer.Features.SyncDocuments;
+
+public record PageState
+{
+    public int AverageLineHeight { get; }
+    public Guid ContentsVersion = Guid.NewGuid();
+    public OcrPage Page { get; }
+
+    private static readonly Percentage StrokeOpacity = new Percentage(50);
+
+    public PageState(OcrPage page)
+    {
+        Page = page;
+        AverageLineHeight = !page.Words.Any() ? 0 : (int)page.Words.Where(x => x != null).SelectMany(x => x!.Elements).Average(x => x.Bounds.Height);
+    }
+
+    public OcrRect GetLineBounds(OcrWord word)
+    {
+        OcrElement firstElement = word.Elements[0];
+        OcrRect firstElementBounds = firstElement.Bounds;
+        OcrRect bounds = new OcrRect { X = 0, Y = firstElementBounds.Y, Width = int.MaxValue, Height = firstElementBounds.Height };
+
+        OcrRect[] elementRects = Page.Words.OfType<OcrWord>().SelectMany(x => x.Elements).Select(x => x.Bounds).Where(x => x.IntersectsWith(bounds)).ToArray();
+        int minX = int.MaxValue;
+        int minY = int.MaxValue;
+        int maxRight = firstElement.Bounds.GetRight();
+        int maxBottom = firstElement.Bounds.GetBottom();
+        foreach (OcrRect elementRect in elementRects)
+        {
+            if (elementRect.X < minX) minX = elementRect.X;
+            if (elementRect.Y < minY) minY = elementRect.Y;
+
+            int right = elementRect.GetRight();
+            if (right > maxRight) maxRight = right;
+
+            int bottom = elementRect.GetBottom();
+            if (bottom > maxBottom) maxBottom = bottom;
+        }
+        if (minX >= maxRight && minY >= maxBottom) return OcrRect.Empty;
+
+        return new OcrRect { X = minX, Y = minY, Width = maxRight - minX + 1, Height = maxBottom - minY + 1 };
+    }
+
+    public MagickImage GetWordImage(MagickImage image, OcrWord word, bool showSurroundingText)
+    {
+        if (showSurroundingText)
+            return GetImageForWordAndSurrounding(image, word);
+        return GetImageForWordOnly(image, word);
+    }
+
+    private static void AddDrawRect(IDrawables<byte> rectangleDrawables, int x, int y, OcrRect elementBounds)
+    {
+        rectangleDrawables.Rectangle(x, y, x + elementBounds.Width - 1, y + elementBounds.Height - 1);
+    }
+
+    private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word)
+    {
+        OcrRect lineBounds = GetLineBounds(word);
+        if (lineBounds == OcrRect.Empty)
+        {
+            lineBounds = word.Elements[0].Bounds with {
+                X = 0,
+                Width = (int)image.Width
+            };
+            if (lineBounds.Height == 0)
+                lineBounds = lineBounds with { Height = 100 };
+        }
+        lineBounds = lineBounds with {
+            X = 0,
+            Width = (int)image.Width,
+            Y = lineBounds.Y - (AverageLineHeight * 4),
+            Height = lineBounds.Height + (AverageLineHeight * 8)
+        };
+
+        MagickImage result = image.CloneArea(lineBounds);
+
+        IDrawables<byte> rectangleDrawables = new Drawables()
+            .FillColor(MagickColors.Lime)
+            .FillOpacity(new Percentage(50));
+
+        OcrRect wordBounds = OcrRect.Empty;
+        int wordXOffset = -1;
+        int wordYOffset = -1;
+
+        foreach (var element in word.Elements)
+        {
+            OcrRect elementBounds = element.Bounds;
+            int x = elementBounds.X - lineBounds.X;
+            int y = elementBounds.Y - lineBounds.Y;
+            if (!element.IsOnNextPage)
+                AddDrawRect(rectangleDrawables, x, y, elementBounds);
+
+            if (wordXOffset == -1)
+            {
+                wordXOffset = x;
+                wordYOffset = y;
+            }
+            if (wordBounds == OcrRect.Empty)
+                wordBounds = element.Bounds.Offset(x, y);
+        }
+        rectangleDrawables.Draw(result);
+
+        return result;
+    }
+
+    public static MagickImage GetImageForWordOnly(MagickImage image, OcrWord word)
+    {
+        const float scale = 1f;
+
+        var originalElements = word.Elements.Where(x => !x.IsOnNextPage).ToList();
+        var scaledElements = originalElements.Select(x => x with { Bounds = x.Bounds.ScaleByFactor(scale, scale) }).ToList();
+        int maxHeight = scaledElements.Max(x => x.Bounds.Height);
+        int totalWidth = scaledElements.Sum(x => x.Bounds.Width);
+        var result = new MagickImage(MagickColors.White, (uint)totalWidth, (uint)maxHeight);
+        var rectangleDrawables = new Drawables().FillColor(MagickColors.Lime).FillOpacity(new Percentage(50));
+
+        int offset = 0;
+        int top = scaledElements.Min(x => x.Bounds.Y);
+        for (int i = 0; i < scaledElements.Count; i++)
+        {
+            var scaled = scaledElements[i];
+            var original = originalElements[i];
+            // Draw the scaled image chunk
+            using var elementImage = image.CloneArea(scaled.Bounds);
+            int y = scaled.Bounds.Y - top;
+            if (scaled.Bounds.Y >= scaledElements[0].Bounds.GetBottom())
+            {
+                y -= scaled.Bounds.Y - scaledElements[0].Bounds.Y;
+            }
+            result.Composite(elementImage, offset, y, CompositeOperator.Over);
+
+            offset += scaled.Bounds.Width;
+        }
+        return result;
+    }
+
+}
