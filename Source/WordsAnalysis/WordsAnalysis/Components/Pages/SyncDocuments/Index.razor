@@ -80,14 +80,15 @@
                     {
                         int capturedIndex = index;
                         <th class="word-table_word-index @GetWordIndexClass(index)">
-                            @(index + 1)
                             <div class="word-table_word-index-actions" @onclick:stopPropagation>
                                 <FluentButton IconStart=@SharedIcons.ViewColumnImages
                                               Class="word-table_word-action-button"
                                               title="View column images"
                                               OnClick=@(() => ViewModel.ShowColumnImagesAsync(capturedIndex)) />
                             </div>
-
+                            <div class="word-table_word-index-number">
+                              @(index + 1)
+                            </div>
                         </th>
                     }
                     <th style="min-width:100vw"/>

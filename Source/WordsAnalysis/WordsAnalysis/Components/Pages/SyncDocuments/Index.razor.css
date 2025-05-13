@@ -53,20 +53,26 @@
 		color: var(--fill-color);
 	}
 
-.word-table_word-index:hover > .word-table_word-index-actions {
-	display:flex;
-}
+	.word-table_word-index:hover > .word-table_word-index-actions {
+		display: flex;
+	}
 
 .word-table_word-index-actions {
 	display: none;
-	position: absolute;
 	background-color: var(--accent-fill-rest);
+	position: absolute;
 	top: 0;
-	right: 0;
+	left: -1em;
 	flex-direction: row;
 	justify-content: end;
 	transform: scale(0.5);
 	transform-origin: top right;
+}
+
+.word-table_word-index-number {
+	position: absolute;
+	top: 0;
+	left: 1.5em;
 }
 
 

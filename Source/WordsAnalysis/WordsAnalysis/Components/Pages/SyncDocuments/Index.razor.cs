@@ -50,12 +50,12 @@ public partial class Index
         string lastEditedRow = ViewModel.LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
         string outlier = "";
         string errorLevel = "";
-        bool isMinusSign = displayText == "{min}";
+        bool isFlagWord = displayText != null && (displayText == "{min}" || displayText.ToUpper().Contains("CHAPTER"));
         string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
-        if (displayText != null && (isMinusSign || columnData.MostCommonDisplayText != displayText))
+        if (displayText != null && (isFlagWord || columnData.MostCommonDisplayText != displayText))
         {
             outlier = "--outlier";
-            if (isMinusSign || !string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
+            if (isFlagWord || !string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
                 errorLevel = "--error";
             else
                 errorLevel = "--warning";
