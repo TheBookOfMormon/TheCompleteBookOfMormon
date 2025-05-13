@@ -3,7 +3,7 @@
 <FluentButton @ref=ButtonElement Id=@ButtonId OnClick="@OnClick" Disabled="@( !Enabled )" accesskey=@AccessKey>
     @if (Tooltip != null)
     {
-        <FluentTooltip Anchor=@ButtonId Position=@TooltipPosition.Bottom>@GetTooltipText()</FluentTooltip>
+        <FluentTooltip Anchor=@ButtonId Position=@TooltipPosition.Top>@GetTooltipText()</FluentTooltip>
     }
     <FluentStack HorizontalAlignment=@HorizontalAlignment.Center VerticalAlignment=@VerticalAlignment.Center HorizontalGap=1 VerticalGap=1>
         <FluentIcon Icon=@Icon />
