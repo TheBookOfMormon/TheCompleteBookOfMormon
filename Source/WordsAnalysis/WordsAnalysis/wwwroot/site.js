@@ -43,7 +43,7 @@ export function scrollToNextWarningOrError() {
 
    for (let i = leftMostVisibleIndex + 1; i < allHeaders.length; i++) {
       const th = allHeaders[i];
-      if (hasErrorOrWarning(th.className)) {
+      if (hasErrorOrWarning(th.className) || columnContainsMin(body, i - 1)) {
          const scrollOffset = th.getBoundingClientRect().left - bodyRect.left - stickyHeaderWidth;
          body.scrollBy({ left: scrollOffset });
          return true;
@@ -53,6 +53,7 @@ export function scrollToNextWarningOrError() {
    return false;
 }
 
+
 export function firstColumnHasErrorOrWarning() {
    const body = getBodyElement();
    if (!body) return false;
@@ -60,10 +61,25 @@ export function firstColumnHasErrorOrWarning() {
    const allHeaders = getAllHeaders(body);
    if (allHeaders.length < 2) return false;
 
-   return hasErrorOrWarning(allHeaders[1].className);
+   return hasErrorOrWarning(allHeaders[1].className) || columnContainsMin(body, 0);
 }
 
 // === non-exported reusable functions ===
+
+function columnContainsMin(body, columnIndex) {
+   const rows = Array.from(body.querySelectorAll('tr'));
+   for (const row of rows) {
+      const cells = row.querySelectorAll('td');
+      if (cells.length > columnIndex) {
+         const cellText = cells[columnIndex].innerText || '';
+         if (cellText.includes('{min}')) {
+            return true;
+         }
+      }
+   }
+   return false;
+}
+
 
 function getBodyElement() {
    return document.getElementById('body');
