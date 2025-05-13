@@ -2903,7 +2903,6 @@
         }
       ]
     },
-    null,
     {
       "Elements": [
         {
@@ -3951,11 +3950,7 @@
             "Height": 15
           },
           "Text": "evil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 698,
@@ -3964,11 +3959,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 233,
@@ -3978,7 +3969,8 @@
           },
           "Text": "doer"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4201,6 +4193,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5849,6 +5842,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

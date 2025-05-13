@@ -2937,88 +2937,10 @@
           "Bounds": {
             "X": 311,
             "Y": 575,
-            "Width": 52,
+            "Width": 196,
             "Height": 15
           },
-          "Text": "Maher"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 367,
-            "Y": 583,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 374,
-            "Y": 574,
-            "Width": 48,
-            "Height": 15
-          },
-          "Text": "shalal"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 424,
-            "Y": 583,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 431,
-            "Y": 574,
-            "Width": 38,
-            "Height": 15
-          },
-          "Text": "hash"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 583,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 575,
-            "Width": 26,
-            "Height": 14
-          },
-          "Text": "baz"
+          "Text": "Maher-shalal-hash-baz"
         }
       ]
     },
@@ -3548,41 +3470,11 @@
           "Bounds": {
             "X": 592,
             "Y": 655,
-            "Width": 45,
+            "Width": 110,
             "Height": 15
           },
-          "Text": "Maher"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 641,
-            "Y": 660,
-            "Width": 12,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 655,
-            "Y": 655,
-            "Width": 48,
-            "Height": 15
-          },
-          "Text": "shalal"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Maher-shalal"
+        },
         {
           "Bounds": {
             "X": 704,
@@ -3591,47 +3483,18 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 240,
             "Y": 676,
-            "Width": 32,
+            "Width": 75,
             "Height": 15
           },
-          "Text": "hash"
+          "Text": "hash-baz"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 274,
-            "Y": 681,
-            "Width": 10,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 286,
-            "Y": 676,
-            "Width": 26,
-            "Height": 14
-          },
-          "Text": "baz"
-        }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [

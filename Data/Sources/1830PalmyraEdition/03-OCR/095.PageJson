@@ -1886,6 +1886,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4949,11 +4950,7 @@
             "Height": 12
           },
           "Text": "cut"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 508,
@@ -4962,11 +4959,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 29,
@@ -4976,8 +4969,10 @@
           },
           "Text": "off"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -5972,36 +5967,10 @@
           "Bounds": {
             "X": 235,
             "Y": 942,
-            "Width": 26,
+            "Width": 66,
             "Height": 19
           },
-          "Text": "evil"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 262,
-            "Y": 951,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 267,
-            "Y": 942,
-            "Width": 32,
-            "Height": 15
-          },
-          "Text": "doer"
+          "Text": "evil-doer"
         }
       ]
     },

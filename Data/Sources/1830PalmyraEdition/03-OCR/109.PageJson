@@ -430,11 +430,7 @@
             "Height": 17
           },
           "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 498,
@@ -443,11 +439,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 43,
@@ -457,7 +449,8 @@
           },
           "Text": "crafts"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -491,36 +484,10 @@
           "Bounds": {
             "X": 196,
             "Y": 181,
-            "Width": 41,
+            "Width": 87,
             "Height": 18
           },
-          "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 237,
-            "Y": 189,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 243,
-            "Y": 181,
-            "Width": 40,
-            "Height": 18
-          },
-          "Text": "crafts"
+          "Text": "priest-crafts"
         }
       ]
     },
