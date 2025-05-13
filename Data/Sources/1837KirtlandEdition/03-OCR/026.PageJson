@@ -1743,7 +1743,7 @@
           "Bounds": {
             "X": 696,
             "Y": 385,
-            "Width": 20,
+            "Width": 24,
             "Height": 14
           },
           "Text": "for"
@@ -1819,33 +1819,14 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 474,
-            "Y": 405,
-            "Width": 15,
-            "Height": 21
+            "X": 472,
+            "Y": 407,
+            "Width": 58,
+            "Height": 19
           },
-          "Text": "to"
-        },
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 405,
-            "Width": 6,
-            "Height": 21
-          },
-          "Text": "-"
-        },
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 405,
-            "Width": 31,
-            "Height": 23
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
-      ],
-      "ShowDashes": true
+      ]
     },
     {
       "Elements": [
@@ -2168,7 +2149,7 @@
           "Bounds": {
             "X": 630,
             "Y": 446,
-            "Width": 16,
+            "Width": 24,
             "Height": 15
           },
           "Text": "for"
@@ -6148,9 +6129,9 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 572,
+            "X": 569,
             "Y": 1076,
-            "Width": 35,
+            "Width": 38,
             "Height": 20
           },
           "Text": "high"

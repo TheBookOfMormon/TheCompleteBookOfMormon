@@ -1,0 +1,16 @@
+{
+  "Year": 1905,
+  "Code": "1905ChicagoEdition",
+  "Name": "Chicago edition",
+  "ShortCode" : "Chicago",
+  "ExcludedPages": [
+	{
+		"First": 1,
+		"Last": 2
+	},
+	{
+		"First": 4,
+		"Last": 10
+	}
+  ]
+}

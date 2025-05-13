@@ -2832,9 +2832,9 @@
         {
           "Bounds": {
             "X": 191,
-            "Y": 580,
-            "Width": 41,
-            "Height": 25
+            "Y": 588,
+            "Width": 37,
+            "Height": 17
           },
           "Text": "And"
         }
@@ -3782,7 +3782,7 @@
           "Bounds": {
             "X": 587,
             "Y": 722,
-            "Width": 22,
+            "Width": 26,
             "Height": 17
           },
           "Text": "for"
@@ -3858,33 +3858,14 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 302,
-            "Y": 745,
-            "Width": 16,
-            "Height": 22
+            "X": 301,
+            "Y": 746,
+            "Width": 56,
+            "Height": 21
           },
-          "Text": "to"
-        },
-        {
-          "Bounds": {
-            "X": 318,
-            "Y": 745,
-            "Width": 6,
-            "Height": 22
-          },
-          "Text": "-"
-        },
-        {
-          "Bounds": {
-            "X": 325,
-            "Y": 745,
-            "Width": 33,
-            "Height": 25
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
-      ],
-      "ShowDashes": true
+      ]
     },
     {
       "Elements": [
@@ -5940,9 +5921,9 @@
         {
           "Bounds": {
             "X": 319,
-            "Y": 1043,
+            "Y": 1053,
             "Width": 42,
-            "Height": 30
+            "Height": 20
           },
           "Text": "after"
         }

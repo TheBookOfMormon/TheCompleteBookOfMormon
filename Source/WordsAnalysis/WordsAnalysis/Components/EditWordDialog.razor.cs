@@ -32,6 +32,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private string? PageImageData;
     private PageState PageState = null!;
     private bool ShowDashes;
+    private static bool LastShowSurroundingText = true;
     private bool ShowSurroundingText = true;
     private RequiredText[] Texts = [];
     private OcrWord Word = null!;
@@ -46,6 +47,7 @@ public partial class EditWordDialog : IAsyncDisposable
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
+        ShowSurroundingText = LastShowSurroundingText;
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
         OriginalBounds = Word.Elements[0].Bounds;
@@ -201,6 +203,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private void ShowSurroundingTextChanged()
     {
         UpdateImageData();
+        LastShowSurroundingText = ShowSurroundingText;
     }
 
     private void UpdateImageData()
