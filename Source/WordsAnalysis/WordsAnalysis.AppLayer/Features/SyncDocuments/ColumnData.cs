@@ -21,7 +21,7 @@ public class ColumnData
             string? mostCommonWord = nonNullWordsInColumn.GroupBy(x => x).OrderByDescending(x => x.Count()).FirstOrDefault()?.FirstOrDefault();
             int numberOfUniqueWords = nonNullWordsInColumn.Distinct().Count();
             ColumnDataErrorLevel errorLevel;
-            if (nonNullWordsInColumn.Any(x => x.HasCapitalAfterLower()))
+            if (nonNullWordsInColumn.Any(x => x == "{min}") || nonNullWordsInColumn.Any(x => x.HasCapitalAfterLower()))
                 errorLevel = ColumnDataErrorLevel.Error;
             else if (numberOfUniqueWords == 1)
             {

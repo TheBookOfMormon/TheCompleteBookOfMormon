@@ -50,14 +50,15 @@ public partial class Index
         string lastEditedRow = ViewModel.LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
         string outlier = "";
         string errorLevel = "";
+        bool isMinusSign = displayText == "{min}";
         string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
-        if (displayText != null && columnData.MostCommonDisplayText != displayText)
+        if (displayText != null && (isMinusSign || columnData.MostCommonDisplayText != displayText))
         {
             outlier = "--outlier";
-            if (string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
-                errorLevel = "--warning";
-            else
+            if (isMinusSign || !string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
                 errorLevel = "--error";
+            else
+                errorLevel = "--warning";
         }
 
         string lastEditedCell = wordReference.BookInfo == ViewModel.LastEditedEdition && columnIndex == ViewModel.LastEditedColumnIndex ? LastEditedCellClass : "";
