@@ -4976,11 +4976,7 @@
             "Height": 16
           },
           "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 706,
@@ -4989,11 +4985,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 250,
@@ -5003,7 +4995,8 @@
           },
           "Text": "thirsty"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5557,7 +5550,7 @@
           "Bounds": {
             "X": 469,
             "Y": 1011,
-            "Width": 67,
+            "Width": 71,
             "Height": 16
           },
           "Text": "cymeter"
