@@ -120,18 +120,12 @@ public record PageState
         var rectangleDrawables = new Drawables().FillColor(MagickColors.Lime).FillOpacity(new Percentage(50));
 
         int offset = 0;
-        int top = scaledElements.Min(x => x.Bounds.Y);
+        int top = scaledElements[0].Bounds.Y;
         for (int i = 0; i < scaledElements.Count; i++)
         {
             var scaled = scaledElements[i];
-            var original = originalElements[i];
-            // Draw the scaled image chunk
             using var elementImage = image.CloneArea(scaled.Bounds);
-            int y = scaled.Bounds.Y - top;
-            if (scaled.Bounds.Y >= scaledElements[0].Bounds.GetBottom())
-            {
-                y -= scaled.Bounds.Y - scaledElements[0].Bounds.Y;
-            }
+            int y = (int)result.Height / 2 - scaled.Bounds.Height / 2;
             result.Composite(elementImage, offset, y, CompositeOperator.Over);
 
             offset += scaled.Bounds.Width;
