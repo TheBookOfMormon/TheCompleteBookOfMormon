@@ -311,24 +311,20 @@ public record FeatureState
         foreach (WordReference selectedWordReference in SelectedWords)
         {
             EditionState editionState = Editions[selectedWordReference.BookInfo];
-            OcrWord? selectedWord = selectedWordReference.GetWord(editionState);
-            if (selectedWord?.GetCombinedText() != "-") return [];
             (int columnIndex, int rowIndex) = GetWordGridLocation(selectedWordReference);
+
             RowData rowData = RowData[rowIndex];
-            if (columnIndex < 1 || columnIndex >= ColumnData.Length - 1) return [];
-            if (rowData.Words[columnIndex - 1].GetWord(editionState) == null) return [];
-            if (rowData.Words[columnIndex + 1].GetWord(editionState) == null) return [];
+            // Only allow merge if not in the last-2 or further
+            if (columnIndex < 0 || columnIndex >= rowData.Words.Count - 2) continue;
 
             var tuple = new Tuple<WordReference, WordReference, WordReference>(
-                rowData.Words[columnIndex - 1],
                 rowData.Words[columnIndex],
-                rowData.Words[columnIndex + 1]);
-
-            if (!editionState.CanMergeWords(tuple)) return [];
-
+                rowData.Words[columnIndex + 1],
+                rowData.Words[columnIndex + 2]);
+            if (!editionState.CanMergeWords(tuple)) continue;
             result.Add(tuple);
         }
-        return result.ToArray(); ;
+        return result.ToArray();
     }
 
 }
