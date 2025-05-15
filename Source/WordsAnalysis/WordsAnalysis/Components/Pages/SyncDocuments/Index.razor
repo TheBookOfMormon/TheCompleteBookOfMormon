@@ -123,6 +123,7 @@
                             @if (wordReference == ActiveWordReference && word != null)
                             {
                                 <div class="word-table_word-actions" @onclick:stopPropagation>
+                                <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync(columnIndex)) style="display:none;"/>
                                     <FluentButton IconStart=@SharedIcons.Add
                                                   Class="word-table_word-action-button"
                                                   title=@($"Add word before/after {displayText}")
