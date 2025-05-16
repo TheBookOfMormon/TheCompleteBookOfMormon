@@ -2211,9 +2211,9 @@
         {
           "Bounds": {
             "X": 203,
-            "Y": 477,
+            "Y": 487,
             "Width": 29,
-            "Height": 22
+            "Height": 12
           },
           "Text": "has"
         }
@@ -2419,17 +2419,17 @@
         {
           "Bounds": {
             "X": 490,
-            "Y": 509,
-            "Width": 26,
-            "Height": 14
+            "Y": 504,
+            "Width": 30,
+            "Height": 19
           },
           "Text": "peo"
         },
         {
           "Bounds": {
-            "X": 520,
+            "X": 519,
             "Y": 512,
-            "Width": 6,
+            "Width": 8,
             "Height": 3
           },
           "Text": "-"
@@ -2438,7 +2438,7 @@
           "Bounds": {
             "X": 58,
             "Y": 523,
-            "Width": 17,
+            "Width": 25,
             "Height": 19
           },
           "Text": "pel"
@@ -2627,6 +2627,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3609,11 +3610,7 @@
             "Height": 15
           },
           "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 515,
@@ -3622,11 +3619,7 @@
             "Height": 14
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 59,
@@ -3636,7 +3629,8 @@
           },
           "Text": "Nephi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [

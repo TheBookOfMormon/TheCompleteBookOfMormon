@@ -1,6 +1,7 @@
 {
   "ImageHeight": 1802,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 170,
   "Words": [
     {
@@ -402,7 +403,7 @@
             "Width": 59,
             "Height": 25
           },
-          "Text": "King"
+          "Text": "king"
         }
       ]
     },
@@ -429,11 +430,7 @@
             "Height": 20
           },
           "Text": "command"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 573,
@@ -442,11 +439,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 102,
@@ -1924,11 +1917,7 @@
             "Height": 18
           },
           "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 573,
@@ -1937,11 +1926,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 103,
@@ -2092,7 +2077,7 @@
             "Width": 28,
             "Height": 20
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -2509,11 +2494,7 @@
             "Height": 15
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 573,
@@ -2522,11 +2503,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 102,
@@ -3803,84 +3780,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 116,
-            "Y": 1486,
-            "Width": 32,
-            "Height": 16
-          },
-          "Text": "15c"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 162,
-            "Y": 1489,
-            "Width": 23,
-            "Height": 13
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 195,
-            "Y": 1486,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "Slavery"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1486,
-            "Width": 71,
-            "Height": 16
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 863,
-            "Y": 64,
-            "Width": 114,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1055,
-            "Y": 77,
-            "Width": 14,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 679,
             "Y": 128,
             "Width": 56,
@@ -4134,11 +4033,7 @@
             "Height": 20
           },
           "Text": "pre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1092,
@@ -4147,11 +4042,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -4329,11 +4220,7 @@
             "Height": 20
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -4342,11 +4229,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -4497,7 +4380,7 @@
             "Width": 27,
             "Height": 20
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -4640,7 +4523,7 @@
             "Width": 59,
             "Height": 25
           },
-          "Text": "King"
+          "Text": "king"
         }
       ]
     },
@@ -4719,11 +4602,7 @@
             "Height": 19
           },
           "Text": "over"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -4732,11 +4611,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -4746,8 +4621,10 @@
           },
           "Text": "zealous"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -5082,7 +4959,7 @@
             "Width": 61,
             "Height": 25
           },
-          "Text": "King"
+          "Text": "king"
         }
       ]
     },
@@ -5213,11 +5090,7 @@
             "Height": 20
           },
           "Text": "posses"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -5226,11 +5099,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -5391,36 +5260,10 @@
           "Bounds": {
             "X": 797,
             "Y": 619,
-            "Width": 63,
+            "Width": 165,
             "Height": 20
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 864,
-            "Y": 630,
-            "Width": 7,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 874,
-            "Y": 619,
-            "Width": 86,
-            "Height": 25
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
