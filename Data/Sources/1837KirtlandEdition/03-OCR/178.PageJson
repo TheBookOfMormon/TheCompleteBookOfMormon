@@ -1646,32 +1646,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 401,
-            "Y": 497,
-            "Width": 101,
-            "Height": 16
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 497,
-            "Width": 21,
-            "Height": 15
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 256,
             "Y": 537,
             "Width": 33,
@@ -4210,11 +4184,7 @@
             "Height": 16
           },
           "Text": "seventy"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 700,
@@ -4223,11 +4193,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 238,
@@ -4237,7 +4203,8 @@
           },
           "Text": "six"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
