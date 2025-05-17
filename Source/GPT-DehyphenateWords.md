@@ -53,32 +53,37 @@ The same rule applies for files where "Words" is an empty array.
 ## Stage 1: Identify Hyphenated Word Candidates
 
 Extract dictionary.txt from dictionary.zip into an in-memory lookup-table (hash table)
-For each word make sure derived forms are also added to the lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
-  - Each word not ending with "e" append "eth" ("say" => "sayeth")
-  - Each word ending with "e" append "th" ("have" => "haveth")
-  - Each word ending with "ing" append "ly" ("exceeding" => "exceedingly") 
-  - Each word not ending with "e" append "ing" ("jump" => "jumping")
-  - Each word not ending with "e" append "ings" ("find" => "findings")
-  - Each word ending with "e" drop the "e" and add "ing" ("have" => "having")
-  - Each word ending with "e" drop the "e" and add "ings" ("engrave" => "engravings")
-  - Each word not ending with "s" append "s" ("engraving" => "engravings")
-  - Each word ending with "ss" append "es" ("witness" => "witnesses")
-  - Each word ending with "e" append "d" ("motivate" => "motivated")
-  - Each word not ending with "e" or "ed" append "ed" ("jump" => "jumped")
-  - Each word ending with "e" append "n" ("overtake" => "overtaken")
-  - Each word ending with "y" drop the "y" and append "ies" ("iniquity" => "iniquities")
-  - Each word ending with "y" drop the "y" and append "ieth" ("testify" => "testifieth")
-  - Each word ending with "y" drop the "y" and append "ied" ("testify" => "testified")
-  - Each word ending with "n" append "neth" ("begin" => "beginneth")
-  - Each word ending with "n" append "ning" ("begin" => "beginning")
-  - Each word ending with "e" append "st" ("believe" => "believest")
-  - Each word not ending with "e" append "est" ("great" => "greatest")
-  - Each word ending with "l" append "leth" ("compel" => "compelleth")
-  - Each word ending with "l" append "ling" ("complel" => "compelling")
-  - Each word not ending with "e" append "es" ("establish" => "establishes")
+For each word, derive ALL APPLICABLE forms and add them to the lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
+  - Each word ending with "e" 
+      1. add a derivation with "th" appended ("have" => "haveth")
+      2. also add a derivation with "e" droped and "ing" appended ("have" => "having")
+      3. also add a derivation with "e" dropped and "ings" appended ("engrave" => "engravings")
+      4. also add a derivation with "d" appended ("motivate" => "motivated")
+      5. also add a derivation with "n" appended ("overtake" => "overtaken")
+      6. also add a derivation with "st" appended ("believe" => "believest")
+  - Each word ending with "ing" add a derivation with "ly" appended ("exceeding" => "exceedingly") 
+  - Each word ending with a single "l"
+      1. add a derivation with "leth" appended ("compel" => "compelleth")
+      2. also add a derivation with "ling" appended ("complel" => "compelling")
+  - Each word ending with a double "ll" add a derivation with "eth" appended ("spell" => "spelleth")
+  - Each word ending with a single "n" 
+      1. add a derivation with "neth" appended ("begin" => "beginneth")
+      2. also add a derivation with append "ning" appended ("begin" => "beginning")
+  - Each word ending with "ss" add a derivation with "es" appended ("witness" => "witnesses")
+  - Each word ending with "y"
+      1. add a derivation with "y" dropped and "ies" appended ("iniquity" => "iniquities")
+      2. also add a derivation with "y" dropped and "ieth" appended ("testify" => "testifieth")
+      3. also add a derivation with "y" dropped and "ied" appended ("testify" => "testified")
   - For words ending in consonant-vowel-consonant (CVC), double the final consonant and append "ing" (e.g., "commit" → "committing")
   - For words ending in consonant-vowel-"l", double the "l" and append "ed" (e.g., "compel" → "compelled")
-
+  - Each word not ending with "e"
+      1. add a derivation with "eth" appended ("say" => "sayeth")
+      2. also add a derivation with "ing" appended ("jump" => "jumping")
+      3. also add a derivation with "ings" appended ("find" => "findings")
+      4. also add a derivation with "est" appended ("great" => "greatest")
+      5. also add a derivation with  "es" appended ("establish" => "establishes")
+      6. if the word also doesn't end with "ed" then also add a derivation with "ed" appended ("jump" => "jumped")
+  - Each word not ending with "s" append "s" ("engraving" => "engravings")
 
 Next, scan all `*.PageJson` files to identify `[word] - [word]` sequences
 
