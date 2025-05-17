@@ -1192,7 +1192,6 @@
         }
       ]
     },
-    null,
     {
       "Elements": [
         {
@@ -1741,11 +1740,7 @@
             "Height": 10
           },
           "Text": "man"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 678,
@@ -1754,11 +1749,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 213,
@@ -1768,7 +1759,8 @@
           },
           "Text": "servant"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -1802,36 +1794,10 @@
           "Bounds": {
             "X": 361,
             "Y": 412,
-            "Width": 41,
+            "Width": 120,
             "Height": 15
           },
-          "Text": "maid"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 404,
-            "Y": 421,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 410,
-            "Y": 412,
-            "Width": 58,
-            "Height": 18
-          },
-          "Text": "servant"
+          "Text": "maid-servant"
         }
       ]
     },
@@ -3164,11 +3130,7 @@
             "Height": 10
           },
           "Text": "man"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 678,
@@ -3177,11 +3139,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 213,
@@ -3191,7 +3149,8 @@
           },
           "Text": "servant"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -3225,36 +3184,10 @@
           "Bounds": {
             "X": 361,
             "Y": 632,
-            "Width": 40,
+            "Width": 120,
             "Height": 15
           },
-          "Text": "maid"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 403,
-            "Y": 641,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 409,
-            "Y": 632,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "servant"
+          "Text": "maid-servant"
         }
       ]
     },
@@ -3424,32 +3357,6 @@
             "Height": 20
           },
           "Text": "neighbor\u0027s"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 368,
-            "Y": 773,
-            "Width": 103,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 773,
-            "Width": 41,
-            "Height": 15
-          },
-          "Text": "VIII"
         }
       ]
     },

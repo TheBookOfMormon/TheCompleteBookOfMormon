@@ -2670,11 +2670,7 @@
             "Height": 20
           },
           "Text": "cit"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 573,
@@ -2683,11 +2679,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 103,
@@ -6059,12 +6051,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 841,
+            "X": 856,
             "Y": 971,
-            "Width": 50,
+            "Width": 35,
             "Height": 20
           },
-          "Text": "away"
+          "Text": "way"
         }
       ]
     },
@@ -6811,7 +6803,11 @@
             "Height": 26
           },
           "Text": "scrip"
-        },
+        }
+      ]
+    },
+    {
+      "Elements": [
         {
           "Bounds": {
             "X": 1093,
@@ -6820,7 +6816,11 @@
             "Height": 2
           },
           "Text": "-"
-        },
+        }
+      ]
+    },
+    {
+      "Elements": [
         {
           "Bounds": {
             "X": 622,
@@ -8068,4 +8068,4 @@
       ]
     }
   ]
-}
+}

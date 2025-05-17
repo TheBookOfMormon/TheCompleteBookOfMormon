@@ -5771,7 +5771,11 @@
             "Height": 20
           },
           "Text": "Anti"
-        },
+        }
+      ]
+    },
+    {
+      "Elements": [
         {
           "Bounds": {
             "X": 1093,
@@ -5780,15 +5784,19 @@
             "Height": 3
           },
           "Text": "-"
-        },
+        }
+      ]
+    },
+    {
+      "Elements": [
         {
           "Bounds": {
-            "X": 622,
+            "X": 638,
             "Y": 826,
-            "Width": 64,
+            "Width": 48,
             "Height": 19
           },
-          "Text": "omno"
+          "Text": "mno"
         }
       ]
     },
@@ -8304,4 +8312,4 @@
       ]
     }
   ]
-}
+}

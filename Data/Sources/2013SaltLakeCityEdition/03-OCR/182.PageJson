@@ -1,6 +1,7 @@
 {
   "ImageHeight": 1802,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 182,
   "Words": [
     {
@@ -20,10 +21,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 163,
-            "Y": 133,
-            "Width": 30,
-            "Height": 19
+            "X": 165,
+            "Y": 127,
+            "Width": 35,
+            "Height": 21
           },
           "Text": "me"
         }
@@ -2830,10 +2831,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 436,
-            "Y": 1115,
-            "Width": 30,
-            "Height": 19
+            "X": 429,
+            "Y": 1110,
+            "Width": 56,
+            "Height": 20
           },
           "Text": "me"
         }
@@ -3498,32 +3499,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 863,
-            "Y": 64,
-            "Width": 114,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1055,
-            "Y": 77,
-            "Width": 14,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 679,
             "Y": 128,
             "Width": 36,
@@ -3997,32 +3972,33 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1029,
-            "Y": 277,
-            "Width": 55,
-            "Height": 15
+            "X": 1025,
+            "Y": 272,
+            "Width": 65,
+            "Height": 25
           },
           "Text": "man"
         },
         {
           "Bounds": {
-            "X": 1093,
-            "Y": 283,
-            "Width": 7,
-            "Height": 3
+            "X": 1091,
+            "Y": 272,
+            "Width": 25,
+            "Height": 25
           },
           "Text": "-"
         },
         {
           "Bounds": {
-            "X": 622,
-            "Y": 303,
-            "Width": 100,
-            "Height": 18
+            "X": 623,
+            "Y": 299,
+            "Width": 106,
+            "Height": 22
           },
           "Text": "servant"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4056,36 +4032,10 @@
           "Bounds": {
             "X": 853,
             "Y": 301,
-            "Width": 67,
+            "Width": 160,
             "Height": 20
           },
-          "Text": "maid"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 925,
-            "Y": 312,
-            "Width": 7,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 935,
-            "Y": 303,
-            "Width": 100,
-            "Height": 18
-          },
-          "Text": "servant"
+          "Text": "maid-servant"
         }
       ]
     },
@@ -4557,6 +4507,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4940,10 +4891,10 @@
           "Bounds": {
             "X": 906,
             "Y": 647,
-            "Width": 36,
+            "Width": 39,
             "Height": 21
           },
-          "Text": "Kill"
+          "Text": "kill"
         }
       ]
     },
@@ -5292,11 +5243,7 @@
             "Height": 25
           },
           "Text": "neigh"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -5305,11 +5252,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -5317,7 +5260,7 @@
             "Width": 64,
             "Height": 21
           },
-          "Text": "bor's"
+          "Text": "bor\u0027s"
         }
       ]
     },
@@ -5408,7 +5351,7 @@
             "Width": 142,
             "Height": 26
           },
-          "Text": "neighbors"
+          "Text": "neighbor\u0027s"
         }
       ]
     },
@@ -5480,7 +5423,8 @@
           },
           "Text": "servant"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5514,36 +5458,10 @@
           "Bounds": {
             "X": 826,
             "Y": 879,
-            "Width": 64,
+            "Width": 160,
             "Height": 20
           },
-          "Text": "maid"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 894,
-            "Y": 890,
-            "Width": 7,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 903,
-            "Y": 881,
-            "Width": 94,
-            "Height": 18
-          },
-          "Text": "servant"
+          "Text": "maid-servant"
         }
       ]
     },
@@ -5582,7 +5500,7 @@
             "Width": 28,
             "Height": 15
           },
-          "Text": "0X"
+          "Text": "ox"
         }
       ]
     },
@@ -5651,6 +5569,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5699,7 +5618,7 @@
             "Width": 131,
             "Height": 26
           },
-          "Text": "neighbor's"
+          "Text": "neighbor\u0027s"
         }
       ]
     },
@@ -7031,903 +6950,6 @@
             "Height": 20
           },
           "Text": "you"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 126,
-            "Y": 1428,
-            "Width": 21,
-            "Height": 16
-          },
-          "Text": "7a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 164,
-            "Y": 1428,
-            "Width": 40,
-            "Height": 16
-          },
-          "Text": "Prov"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 1427,
-            "Width": 32,
-            "Height": 17
-          },
-          "Text": "15a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1428,
-            "Width": 22,
-            "Height": 15
-          },
-          "Text": "Ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 845,
-            "Y": 1427,
-            "Width": 41,
-            "Height": 16
-          },
-          "Text": "Deut"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 165,
-            "Y": 1453,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 182,
-            "Y": 1453,
-            "Width": 21,
-            "Height": 15
-          },
-          "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 280,
-            "Y": 1453,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 288,
-            "Y": 1462,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1453,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Morm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 1452,
-            "Width": 38,
-            "Height": 16
-          },
-          "Text": "Matt"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 982,
-            "Y": 1462,
-            "Width": 10,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 182,
-            "Y": 1478,
-            "Width": 24,
-            "Height": 15
-          },
-          "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1477,
-            "Width": 48,
-            "Height": 17
-          },
-          "Text": "D&C"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 863,
-            "Y": 1477,
-            "Width": 25,
-            "Height": 16
-          },
-          "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 993,
-            "Y": 1487,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 126,
-            "Y": 1502,
-            "Width": 21,
-            "Height": 17
-          },
-          "Text": "9a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 164,
-            "Y": 1503,
-            "Width": 32,
-            "Height": 15
-          },
-          "Text": "Dan"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 296,
-            "Y": 1512,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 1502,
-            "Width": 32,
-            "Height": 17
-          },
-          "Text": "16a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1502,
-            "Width": 71,
-            "Height": 17
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 845,
-            "Y": 1502,
-            "Width": 48,
-            "Height": 16
-          },
-          "Text": "D&C"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 1527,
-            "Width": 31,
-            "Height": 17
-          },
-          "Text": "10a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1527,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 503,
-            "Y": 1530,
-            "Width": 22,
-            "Height": 13
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 1527,
-            "Width": 75,
-            "Height": 16
-          },
-          "Text": "Sabbath"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 796,
-            "Y": 1527,
-            "Width": 34,
-            "Height": 16
-          },
-          "Text": "22a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 1530,
-            "Width": 22,
-            "Height": 13
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 877,
-            "Y": 1527,
-            "Width": 92,
-            "Height": 16
-          },
-          "Text": "Adulterer"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 162,
-            "Y": 1553,
-            "Width": 27,
-            "Height": 19
-          },
-          "Text": "Jer"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 1552,
-            "Width": 32,
-            "Height": 16
-          },
-          "Text": "19a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1552,
-            "Width": 35,
-            "Height": 16
-          },
-          "Text": "Gen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 1553,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 1555,
-            "Width": 22,
-            "Height": 13
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 877,
-            "Y": 1552,
-            "Width": 76,
-            "Height": 20
-          },
-          "Text": "Stealing"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1577,
-            "Width": 71,
-            "Height": 17
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 332,
-            "Y": 1587,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1577,
-            "Width": 22,
-            "Height": 16
-          },
-          "Text": "Ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 796,
-            "Y": 1577,
-            "Width": 34,
-            "Height": 16
-          },
-          "Text": "23a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 845,
-            "Y": 1577,
-            "Width": 42,
-            "Height": 16
-          },
-          "Text": "Prov"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 1603,
-            "Width": 31,
-            "Height": 15
-          },
-          "Text": "11a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1603,
-            "Width": 22,
-            "Height": 15
-          },
-          "Text": "Ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 234,
-            "Y": 1603,
-            "Width": 6,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 260,
-            "Y": 1603,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 268,
-            "Y": 1612,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1627,
-            "Width": 61,
-            "Height": 16
-          },
-          "Text": "Micah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 252,
-            "Y": 1628,
-            "Width": 6,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 278,
-            "Y": 1628,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 286,
-            "Y": 1637,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1627,
-            "Width": 59,
-            "Height": 16
-          },
-          "Text": "Mother"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 1652,
-            "Width": 31,
-            "Height": 16
-          },
-          "Text": "12a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1652,
-            "Width": 71,
-            "Height": 17
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1652,
-            "Width": 42,
-            "Height": 16
-          },
-          "Text": "Prov"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 1677,
-            "Width": 31,
-            "Height": 17
-          },
-          "Text": "13a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1678,
-            "Width": 22,
-            "Height": 15
-          },
-          "Text": "Ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 1677,
-            "Width": 34,
-            "Height": 16
-          },
-          "Text": "21a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1677,
-            "Width": 22,
-            "Height": 16
-          },
-          "Text": "Ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 1602,
-            "Width": 34,
-            "Height": 16
-          },
-          "Text": "20a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 503,
-            "Y": 1605,
-            "Width": 22,
-            "Height": 13
-          },
-          "Text": "1G"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 1602,
-            "Width": 98,
-            "Height": 20
-          },
-          "Text": "Honoring"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 641,
-            "Y": 1602,
-            "Width": 65,
-            "Height": 16
-          },
-          "Text": "Father"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 716,
-            "Y": 1602,
-            "Width": 37,
-            "Height": 16
-          },
-          "Text": "and"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 796,
-            "Y": 1602,
-            "Width": 34,
-            "Height": 18
-          },
-          "Text": "24a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 1605,
-            "Width": 22,
-            "Height": 13
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 877,
-            "Y": 1602,
-            "Width": 49,
-            "Height": 16
-          },
-          "Text": "Covet"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 796,
-            "Y": 1627,
-            "Width": 34,
-            "Height": 16
-          },
-          "Text": "25a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 1627,
-            "Width": 72,
-            "Height": 16
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 796,
-            "Y": 1652,
-            "Width": 34,
-            "Height": 17
-          },
-          "Text": "27a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 863,
-            "Y": 1652,
-            "Width": 21,
-            "Height": 16
-          },
-          "Text": "Ne"
         }
       ]
     }

@@ -3135,7 +3135,11 @@
             "Height": 23
           },
           "Text": "prom"
-        },
+        }
+      ]
+    },
+    {
+      "Elements": [
         {
           "Bounds": {
             "X": 576,
@@ -3144,7 +3148,11 @@
             "Height": 2
           },
           "Text": "-"
-        },
+        }
+      ]
+    },
+    {
+      "Elements": [
         {
           "Bounds": {
             "X": 103,
@@ -6447,11 +6455,7 @@
             "Height": 21
           },
           "Text": "receiv"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -6460,11 +6464,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -7227,11 +7227,7 @@
             "Height": 20
           },
           "Text": "chil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -7240,11 +7236,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -7871,12 +7863,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 877,
+            "X": 892,
             "Y": 1568,
-            "Width": 53,
+            "Width": 38,
             "Height": 20
           },
-          "Text": "Prayer"
+          "Text": "rayer"
         }
       ]
     },
@@ -7985,4 +7977,4 @@
       ]
     }
   ]
-}
+}

@@ -3065,7 +3065,7 @@
           "Bounds": {
             "X": 99,
             "Y": 626,
-            "Width": 26,
+            "Width": 30,
             "Height": 13
           },
           "Text": "who"
@@ -3654,11 +3654,7 @@
             "Height": 15
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 524,
@@ -3667,11 +3663,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 60,
@@ -3681,7 +3673,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5085,7 +5078,7 @@
           "Bounds": {
             "X": 167,
             "Y": 940,
-            "Width": 27,
+            "Width": 32,
             "Height": 14
           },
           "Text": "who"
