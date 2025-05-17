@@ -56,7 +56,7 @@ Extract dictionary.txt from dictionary.zip into an in-memory lookup-table (hash 
 For each word, derive ALL APPLICABLE forms and add them to the lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
   - Each word ending with "e" 
       1. add a derivation with "th" appended ("have" => "haveth")
-      2. also add a derivation with "e" droped and "ing" appended ("have" => "having")
+      2. also add a derivation with "e" dropped and "ing" appended ("have" => "having")
       3. also add a derivation with "e" dropped and "ings" appended ("engrave" => "engravings")
       4. also add a derivation with "d" appended ("motivate" => "motivated")
       5. also add a derivation with "n" appended ("overtake" => "overtaken")
