@@ -363,10 +363,16 @@ public partial class OcrProcessor : EditionsProcessorBase
 
         bool firstCharIsSuperScript()
         {
+            if (!bookInfo.HasSuperscripts) return false;
             if (characterElements.Count == 1) return false;
+
+            OcrElement[] vowels = characterElements.Skip(1).Where(x => "aeiou".Contains(x.Text[0])).ToArray();
+            if (!vowels.Any()) return false;
+
+            double cutoffPoint = vowels.Average(x => x.Bounds.Y + (x.Bounds.Height * 0.75d));
+
             int firstCharBottom = characterElements[0].Bounds.GetBottom();
-            double averageMidPoint = characterElements.Skip(1).Average(x => x.Bounds.GetCenter().Y);
-            return firstCharBottom < averageMidPoint;
+            return firstCharBottom < cutoffPoint;
         }
 
         void normalizeChars()

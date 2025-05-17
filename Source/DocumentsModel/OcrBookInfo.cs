@@ -14,6 +14,9 @@ public record OcrBookInfo : IComparable<OcrBookInfo>
     public required string ShortCode { get; set; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+    public bool HasSuperscripts { get; set; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public bool MultiColumn { get; set; }
 
     public PageRange[] ExcludedPages { get; set; } = [];

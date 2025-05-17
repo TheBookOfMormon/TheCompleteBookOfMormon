@@ -1,14 +1,16 @@
 ﻿using DocumentsModel;
 using System.Collections.Immutable;
 using System.Globalization;
-using WordsAnalysis.AppLayer.Extensions;
+using System.Text.RegularExpressions;
 
 namespace WordsAnalysis.AppLayer.Features.SyncDocuments;
 
-public class ColumnData
+public partial class ColumnData
 {
     public required string? MostCommonDisplayText { get; init; }
     public required ColumnDataErrorLevel ErrorLevel { get; init; }
+
+    private static readonly Regex UppercaseAfterLowercase = new Regex("[a-z][A-Z]", RegexOptions.Compiled);
 
     public static ImmutableArray<ColumnData> FromRowData(ImmutableDictionary<OcrBookInfo, EditionState> editions, ImmutableArray<RowData> rowData)
     {
@@ -21,7 +23,7 @@ public class ColumnData
             string? mostCommonWord = nonNullWordsInColumn.GroupBy(x => x).OrderByDescending(x => x.Count()).FirstOrDefault()?.FirstOrDefault();
             int numberOfUniqueWords = nonNullWordsInColumn.Distinct().Count();
             ColumnDataErrorLevel errorLevel;
-            if (nonNullWordsInColumn.Any(x => x == "{min}") || nonNullWordsInColumn.Any(x => x.ToUpper().Contains("CHAPTER")) || nonNullWordsInColumn.Any(x => x.HasCapitalAfterLower()))
+            if (nonNullWordsInColumn.Any(x => x == "{min}") || nonNullWordsInColumn.Any(x => x.ToUpper().Contains("CHAPTER")) || nonNullWordsInColumn.Any(UppercaseAfterLowercase.IsMatch))
                 errorLevel = ColumnDataErrorLevel.Error;
             else if (numberOfUniqueWords == 1)
             {
