@@ -6,19 +6,21 @@
 
 <FluentDialogBody>
     <div>
-        <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount/>
+        <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount />
     </div>
     <div>
         @for (int i = 0; i < Content.Words.Length; i++)
         {
             int capturedI = i;
             string selected = i < DeleteCount ? "--selected" : "";
-            <span class="@selected selectable-word" title=@($"Delete up to word {capturedI + 1}") @onclick=@(() => SetDeleteCount(capturedI + 1))>
-               @Content.Words[i].Value
-               &nbsp;
+            <span>
+                <span class="@selected selectable-word" title=@($"Delete up to word {capturedI + 1}") @onclick=@(() => SetDeleteCount(capturedI + 1))>
+                    @Content.Words[i].Value
+                </span>
+                &nbsp;
             </span>
-      }
-   </div>
+        }
+    </div>
 </FluentDialogBody>
 
 <FluentDialogFooter>

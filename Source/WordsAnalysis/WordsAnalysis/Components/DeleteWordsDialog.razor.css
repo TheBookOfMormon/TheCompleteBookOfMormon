@@ -5,3 +5,8 @@
 .selectable-word {
 	cursor: pointer;
 }
+
+	.selectable-word:hover {
+		background-color: var(--accent-fill-hover);
+		color: var(--accent-foreground-cut-rest);
+	}
