@@ -140,41 +140,11 @@
           "Bounds": {
             "X": 394,
             "Y": 145,
-            "Width": 30,
+            "Width": 82,
             "Height": 13
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 426,
-            "Y": 153,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 431,
-            "Y": 144,
-            "Width": 41,
-            "Height": 19
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Anti-Nephi"
+        },
         {
           "Bounds": {
             "X": 477,
@@ -183,11 +153,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 22,
@@ -197,7 +163,8 @@
           },
           "Text": "Lehi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5581,8 +5548,8 @@
           "Bounds": {
             "X": 208,
             "Y": 868,
-            "Width": 16,
-            "Height": 9
+            "Width": 42,
+            "Height": 14
           },
           "Text": "spirit"
         }

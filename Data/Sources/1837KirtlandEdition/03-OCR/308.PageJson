@@ -986,62 +986,10 @@
           "Bounds": {
             "X": 539,
             "Y": 304,
-            "Width": 32,
+            "Width": 145,
             "Height": 19
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 579,
-            "Y": 313,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 585,
-            "Y": 304,
-            "Width": 45,
-            "Height": 19
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 638,
-            "Y": 313,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 304,
-            "Width": 37,
-            "Height": 15
-          },
-          "Text": "Lehi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -1812,62 +1760,10 @@
           "Bounds": {
             "X": 252,
             "Y": 441,
-            "Width": 34,
+            "Width": 144,
             "Height": 19
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 292,
-            "Y": 450,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 299,
-            "Y": 441,
-            "Width": 45,
-            "Height": 19
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 351,
-            "Y": 450,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 358,
-            "Y": 441,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "Lehi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -2059,62 +1955,10 @@
           "Bounds": {
             "X": 450,
             "Y": 480,
-            "Width": 32,
+            "Width": 144,
             "Height": 18
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 489,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 480,
-            "Width": 41,
-            "Height": 18
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 547,
-            "Y": 489,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 480,
-            "Width": 39,
-            "Height": 15
-          },
-          "Text": "Lehi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -2202,36 +2046,10 @@
           "Bounds": {
             "X": 385,
             "Y": 499,
-            "Width": 32,
+            "Width": 79,
             "Height": 15
           },
-          "Text": "self"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 414,
-            "Y": 499,
-            "Width": 6,
-            "Height": 15
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 420,
-            "Y": 499,
-            "Width": 45,
-            "Height": 15
-          },
-          "Text": "same"
+          "Text": "self-same"
         }
       ]
     },
@@ -3291,54 +3109,20 @@
           "Bounds": {
             "X": 590,
             "Y": 655,
-            "Width": 37,
+            "Width": 96,
             "Height": 15
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Anti-Nephi"
+        },
         {
           "Bounds": {
-            "X": 629,
-            "Y": 664,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 636,
-            "Y": 654,
-            "Width": 47,
-            "Height": 19
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 682,
+            "X": 687,
             "Y": 655,
             "Width": 10,
             "Height": 14
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 230,
@@ -3348,7 +3132,8 @@
           },
           "Text": "Lehi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
