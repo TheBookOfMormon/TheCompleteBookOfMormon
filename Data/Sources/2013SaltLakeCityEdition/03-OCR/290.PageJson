@@ -1,6 +1,7 @@
 {
   "ImageHeight": 1802,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 290,
   "Words": [
     {
@@ -46,10 +47,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 357,
-            "Y": 133,
-            "Width": 49,
-            "Height": 15
+            "X": 353,
+            "Y": 128,
+            "Width": 28,
+            "Height": 20
           },
           "Text": "was"
         }
@@ -59,30 +60,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 413,
-            "Y": 127,
-            "Width": 68,
-            "Height": 21
+            "X": 423,
+            "Y": 133,
+            "Width": 153,
+            "Height": 15
           },
-          "Text": "Anti"
-        },
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 139,
-            "Width": 7,
-            "Height": 2
-          },
-          "Text": "-"
-        },
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 127,
-            "Width": 67,
-            "Height": 25
-          },
-          "Text": "Christ"
+          "Text": "Anti-Christ"
         }
       ]
     },
@@ -503,7 +486,7 @@
             "Width": 87,
             "Height": 21
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -2398,7 +2381,7 @@
             "Width": 74,
             "Height": 21
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -2705,30 +2688,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 301,
+            "X": 314,
             "Y": 1081,
-            "Width": 71,
+            "Width": 156,
             "Height": 20
           },
-          "Text": "Anti"
-        },
-        {
-          "Bounds": {
-            "X": 374,
-            "Y": 1092,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        },
-        {
-          "Bounds": {
-            "X": 384,
-            "Y": 1081,
-            "Width": 84,
-            "Height": 20
-          },
-          "Text": "Christ"
+          "Text": "Anti-Christ"
         }
       ]
     },
@@ -2901,6 +2866,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -8179,4 +8146,4 @@
       ]
     }
   ]
-}
+}

@@ -33,11 +33,7 @@ Each `*.PageJson` file contains a top-level JSON object with at least the follow
 }
 ```
 
-The "ManuallyEdited" boolean property is optional, so might not exist.
-If it does exist and has the value `true` then the file should not be processed at all. Not read from, nor written to.
-The same rule applies for files where "Words" is an empty array.
-
-
+- Some objects in the Words array might be null
 - Each `Element` contains:
   - `Text`: the actual word or character.
   - `Bounds`: an object with `X`, `Y`, `Width`, and `Height` representing its position on the page.
@@ -87,7 +83,10 @@ For each word, derive ALL APPLICABLE forms and add them to the lookup table. DO 
 
 Next, scan all `*.PageJson` files to identify `[word] - [word]` sequences
 
-### Criteria for Combined Words:
+### Simple Word:
+A Simple Word is any object in the Words array that has only a single object in its Elements array.
+
+### Combined Words:
 - Each item in the triplet must be a simple word.
 - The middle item's element's Text must be a hyphen (`-`).
 - The first and third elements must be alphabetic words.
@@ -97,19 +96,37 @@ Next, scan all `*.PageJson` files to identify `[word] - [word]` sequences
 - Exclude any recombined words that are less than 4 characters long (after removing the hyphen)
 
 ### Valid Composite Words:
-Valid Composite Words are Combined Words where the first and last elements are on the same line.
-These should be converted to uppercase, and the hyphen preserved.
-When the word is split into parts (separated by -) then each part should be in the dictionary lookup table
+Build a set of Valid Composite Words using two separate passes:
+
+Pass 1: Simple Hyphenated Words
+Scan all Words entries in all PageJson files:
+
+If an entry is a simple word (Elements.length == 1) and the Text contains a hyphen (-),
+→ add its exact Text value (case-insensitive) to the Valid Composite Words set,
+→ and record the page number it appears on.
+
+Pass 2: Compound [word] - [word] Triplets
+Scan all [A] [B] [C] triplets in each file:
+
+A, B, C must each be simple words.
+
+B's Text must be a single hyphen (-).
+
+A and C must both be alphabetic and their individual Text values must be present in the dictionary.
+
+A and C must appear on the same line.
+→ If all these conditions are met, add the combined A.Text + "-" + C.Text to the Valid Composite Words set.
+→ Also record the page number it appears on.
 
 ### Candidate Words:
 Candidate words are Combined Words where all of the following are true:
 - the first and last elements are on different lines
-- when the Candidate Word is converted to uppercase and the hyphen is removed, is not in the set of Valid Composite Words 
+- it is not in the set of Valid Composite Words (case insensitive comparison)
 - the dehyphenated word is in the dictionary lookup table
 
 ### Output
-1. Output a table of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
-2. Output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.
+First output a table of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
+Then output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.
 
 I will then either tell you which entries remove from the list of Candidate Words or tell you to continue
 
@@ -135,6 +152,8 @@ Once the candidate list is confirmed:
   }
   ```
 Note that those values are both integers, so the values must remain unquoted.
+
+If the source PageJson has `"ManuallyEdited": true` or not objects in its Words array then do not generate a PageJson or PageMetaJson file for that page.
 
 ### Final Packaging:
 Zip the updated `.PageJson` and `.PageMetaJson` files and generate a hotlink button for me to click in the browser and download it
