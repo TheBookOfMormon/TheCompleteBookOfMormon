@@ -1,6 +1,7 @@
 {
   "ImageHeight": 1802,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 344,
   "Words": [
     {
@@ -416,11 +417,7 @@
             "Height": 20
           },
           "Text": "Mori"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 564,
@@ -429,11 +426,7 @@
             "Height": 20
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 102,
@@ -1399,6 +1392,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1578,11 +1572,7 @@
             "Height": 21
           },
           "Text": "Mori"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 564,
@@ -1591,11 +1581,7 @@
             "Height": 20
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 102,
@@ -2683,11 +2669,7 @@
             "Height": 20
           },
           "Text": "Morian"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 573,
@@ -2696,11 +2678,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 102,
@@ -3345,7 +3323,7 @@
             "Width": 50,
             "Height": 20
           },
-          "Text": "amp"
+          "Text": "camp"
         }
       ]
     },
@@ -3710,32 +3688,6 @@
             "Height": 21
           },
           "Text": "had"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 880,
-            "Y": 64,
-            "Width": 83,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1055,
-            "Y": 77,
-            "Width": 14,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -6445,11 +6397,7 @@
             "Height": 25
           },
           "Text": "judgment"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1082,
@@ -6458,11 +6406,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 622,
@@ -6472,8 +6416,10 @@
           },
           "Text": "seat"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -7213,39 +7159,14 @@
           "Bounds": {
             "X": 723,
             "Y": 1456,
-            "Width": 134,
+            "Width": 210,
             "Height": 26
           },
-          "Text": "judgment"
+          "Text": "judgment-seat"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 861,
-            "Y": 1468,
-            "Width": 7,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 871,
-            "Y": 1458,
-            "Width": 51,
-            "Height": 19
-          },
-          "Text": "seat"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -7373,526 +7294,6 @@
             "Height": 26
           },
           "Text": "appointed"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 1543,
-            "Width": 34,
-            "Height": 17
-          },
-          "Text": "29a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1544,
-            "Width": 70,
-            "Height": 16
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 1543,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 792,
-            "Y": 1543,
-            "Width": 34,
-            "Height": 17
-          },
-          "Text": "37a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 841,
-            "Y": 1543,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 983,
-            "Y": 1553,
-            "Width": 10,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1568,
-            "Width": 29,
-            "Height": 17
-          },
-          "Text": "Hel"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 266,
-            "Y": 1578,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 1569,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Morm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 840,
-            "Y": 1571,
-            "Width": 23,
-            "Height": 14
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 874,
-            "Y": 1568,
-            "Width": 97,
-            "Height": 17
-          },
-          "Text": "Perfection"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1594,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 314,
-            "Y": 1603,
-            "Width": 10,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 1593,
-            "Width": 33,
-            "Height": 17
-          },
-          "Text": "35a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 1593,
-            "Width": 71,
-            "Height": 17
-          },
-          "Text": "Mosiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 792,
-            "Y": 1593,
-            "Width": 34,
-            "Height": 17
-          },
-          "Text": "38a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 841,
-            "Y": 1593,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 933,
-            "Y": 1594,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 959,
-            "Y": 1594,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 968,
-            "Y": 1603,
-            "Width": 10,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 115,
-            "Y": 1619,
-            "Width": 33,
-            "Height": 16
-          },
-          "Text": "32a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 162,
-            "Y": 1622,
-            "Width": 23,
-            "Height": 13
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 195,
-            "Y": 1618,
-            "Width": 110,
-            "Height": 17
-          },
-          "Text": "Contention"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 1618,
-            "Width": 22,
-            "Height": 16
-          },
-          "Text": "Hel"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 551,
-            "Y": 1619,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 908,
-            "Y": 1628,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1641,
-            "Width": 79,
-            "Height": 23
-          },
-          "Text": "Division"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 1643,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 859,
-            "Y": 1644,
-            "Width": 20,
-            "Height": 15
-          },
-          "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 901,
-            "Y": 1644,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 162,
-            "Y": 1671,
-            "Width": 24,
-            "Height": 14
-          },
-          "Text": "TG"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 196,
-            "Y": 1668,
-            "Width": 62,
-            "Height": 21
-          },
-          "Text": "Liberty"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 1668,
-            "Width": 33,
-            "Height": 17
-          },
-          "Text": "36a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1669,
-            "Width": 6,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 520,
-            "Y": 1669,
-            "Width": 21,
-            "Height": 15
-          },
-          "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 1693,
-            "Width": 33,
-            "Height": 18
-          },
-          "Text": "34a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 163,
-            "Y": 1693,
-            "Width": 29,
-            "Height": 16
-          },
-          "Text": "Hel"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 213,
-            "Y": 1694,
-            "Width": 6,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 290,
-            "Y": 1703,
-            "Width": 11,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 1693,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "Alma"
         }
       ]
     }

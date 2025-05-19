@@ -282,6 +282,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4473,36 +4474,10 @@
           "Bounds": {
             "X": 89,
             "Y": 874,
-            "Width": 13,
+            "Width": 49,
             "Height": 12
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 106,
-            "Y": 881,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 113,
-            "Y": 872,
-            "Width": 26,
-            "Height": 19
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },

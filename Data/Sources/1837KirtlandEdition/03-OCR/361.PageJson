@@ -2822,36 +2822,10 @@
           "Bounds": {
             "X": 319,
             "Y": 600,
-            "Width": 49,
+            "Width": 107,
             "Height": 15
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 370,
-            "Y": 609,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 600,
-            "Width": 48,
-            "Height": 19
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -2887,36 +2861,10 @@
           "Bounds": {
             "X": 68,
             "Y": 623,
-            "Width": 25,
+            "Width": 91,
             "Height": 9
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 99,
-            "Y": 627,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 104,
-            "Y": 619,
-            "Width": 54,
-            "Height": 15
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -3975,11 +3923,7 @@
             "Height": 14
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 517,
@@ -3988,11 +3932,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 69,
@@ -4002,7 +3942,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
