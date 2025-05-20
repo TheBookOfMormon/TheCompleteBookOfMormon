@@ -173,7 +173,8 @@ Once the candidate list is confirmed:
   ```
 Note that those values are both integers, so the values must remain unquoted.
 
-If the source PageJson has `"ManuallyEdited": true` or has no objects in its Words array then do not generate a PageJson or PageMetaJson file for that page.
+#### IMPORTANT!
+   If the source PageJson has `"ManuallyEdited": true` or has no objects in its Words array then do not generate a PageJson or PageMetaJson file for that page.
 
 ### Final Packaging:
 Zip the updated `.PageJson` and `.PageMetaJson` files and generate a hotlink button for me to click in the browser and download it
