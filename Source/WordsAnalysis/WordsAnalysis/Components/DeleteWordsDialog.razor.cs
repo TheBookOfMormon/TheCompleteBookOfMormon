@@ -22,7 +22,8 @@ public partial class DeleteWordsDialog
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        DeleteCount = Math.Min(30, Content.Words.Length);
+        int? aboutIndex = Content.Words.Select((word, index) => new { Index = index, Text = word.Value }).FirstOrDefault(x => string.Equals("about", x.Text, StringComparison.InvariantCultureIgnoreCase))?.Index;
+        DeleteCount = (aboutIndex ?? Math.Min(30, Content.Words.Length)) + 1;
     }
 
     private async Task CancelAsync()
