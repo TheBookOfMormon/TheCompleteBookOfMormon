@@ -66,10 +66,10 @@ The `{filename1} Context` and `{filename2} Context` columns are text representin
    - Up to 5 words before and after the change
    - The phrase itself must be included in the context string
    - Remove `<null>` from the samples
-The `Pages` column should show a list of page number tuples. ({PageNumberOfLeftColumn} & {PageNumberOfRightColumn}) up to 3 tuples showing which pages the items changed on
-   - If one of the Text columns is empty then only output the remaining page number for that row, without brackets or &
-   - If there are more than 3 then and it is not a Name Change then add "..." to the end of the list, e.g. "(1 & 2), (8 & 9), (12 & 13), ..."
-   - If it is a Name Change, then list all page numbers on which this change occurred
+The `Pages` column should show a list of page number tuples. ({PageNumberOfLeftColumn} & {PageNumberOfRightColumn}) up to 3 tuples showing which page pairs each change occurred on
+   - If the change occurs multiple times, list the first 3 such pairs; append ... if there are more.
+   - If the change is a Name Change, list all page tuples without limiting to 3.
+   - Always show both page numbers, even if they are identical.
 
 I want them ordered as follows
    Name Change rows should be appear at the top of the table
@@ -77,3 +77,6 @@ I want them ordered as follows
    then the abs(length({filename1} Text) - length({filename2} Text)) - in descending order
    then `{filename1} Text` ascending
    then `{filename2} Text` ascending
+
+## Final packaging
+I want a csv file with only the above mentioned columns
