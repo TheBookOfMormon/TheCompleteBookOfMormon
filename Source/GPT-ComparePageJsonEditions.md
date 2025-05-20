@@ -50,28 +50,30 @@ Christian, Christians
 
 ## Output Format
 
-| {filename1} Text | {filename2} Text | Count | {filename1} Context | {filename2} Context | Pages      |
-|------------------|------------------|-------|---------------------|---------------------|------------|
-| saith            | said             | 207   | he saith that       | he said that        | 1,5,7, ... |
-| hath             | has              | 215   | he hath none        | he has none         | 2,3,4, ... |
-| Gospel           | gospel           | 1     | read the Gospel of  | read the gospel of  | 1,2        |
+| {filename1} Text | {filename2} Text | Count | {filename1} Context | {filename2} Context | Pages                 |
+|------------------|------------------|-------|---------------------|---------------------|-----------------------|
+| saith            | said             | 207   | he saith that       | he said that        | (1 & 5), (7 & 9), ... |
+| hath             | has              | 215   | he hath none        | he has none         | (2 & 3), (4 & 5), ... |
+| Gospel           | gospel           | 1     | read the Gospel of  | read the gospel of  | (1 & 2)               |
 
  If the `{filename1} Text` or `{filename2} Text` contains one of the following words as a substring (case sensitive comparison) then it is a Name Change
      Aaron, Abinadi, Abinadom, Abish, Aha, Akish, Alma, Amaleki, Amalekite, Amalickiah, Amaron, Aminadab, Amlici, Amlicite, Ammah, Ammaron, Ammon, Ammonite, Ammoron, Amoron, Amos, Amulek, Amulon, Amulonite, Antiomno, Antionah, Antionum, Antipus, Benjamin, Cezoram, Corianton, Coriantor, Coriantum, Coriantumr, Corihor, Cumeni, Ether, Enos, Gazelem, Gid, Gideon, Gidgiddonah, Gidgiddoni, Helaman, Himni, Ishmael, Ishmaelite, Jacob, Jacobite, Jared, Jarom, John, Joseph, Josephite, Kishkumen, Laban, Lachoneus, Laman, Lamanite, Lamoni, Lemuelite, Limher, Limhi, Manti, Morianton, Mormon, Moron, Moroni, Moronihah, Moses, Mosiah, Mulek, Mulekite, Nehor, Nehorite, Nephi, Nephite, Noah, Omner, Omni, Paanchi, Pacumeni, Pahoran, Sam, Sariah, Seeric, Shiblon, Shiz, Teancum, Teomner, Zarahemla, Zedekiah, Zeezrom, Zeezromites, Zeniff, Zenock, Zenos, Zeram, Zilpah, Zoramite, 
 
-The `{filename1}` and `{filename2}` placeholders should be replaced with the names of the zip files (without the `.zip` extension).
+The `{filename1}` and `{filename2}` placeholders should be replaced with the names of the zip files in alphabetical order (without the `.zip` extension).
 The `Count` column is the number of times the change occurs
 The `{filename1} Context` and `{filename2} Context` columns are text representing a context sample for each row in the table
    - (i.e. the file name without the .PageJson extension)
    - Up to 5 words before and after the change
    - The phrase itself must be included in the context string
    - Remove `<null>` from the samples
-The `Pages` column should show a list of up to 5 page numbers on which this change occurred.
-   - If there are more than 5 then and it is not a Name Change then add "..." to the end of the list
+The `Pages` column should show a list of page number tuples. ({PageNumberOfLeftColumn} & {PageNumberOfRightColumn}) up to 3 tuples showing which pages the items changed on
+   - If one of the Text columns is empty then only output the remaining page number for that row, without brackets or &
+   - If there are more than 3 then and it is not a Name Change then add "..." to the end of the list, e.g. "(1 & 2), (8 & 9), (12 & 13), ..."
    - If it is a Name Change, then list all page numbers on which this change occurred
 
 I want them ordered as follows
    Name Change rows should be appear at the top of the table
    Next, rows should be sorted on `Count` (descending)
+   then the abs(length({filename1} Text) - length({filename2} Text)) - in descending order
    then `{filename1} Text` ascending
    then `{filename2} Text` ascending
