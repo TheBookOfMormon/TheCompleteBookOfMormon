@@ -48,8 +48,19 @@ Each `*.PageJson` file contains a top-level JSON object with at least the follow
 
 ## Stage 1: Identify Hyphenated Word Candidates
 
-Extract dictionary.txt from dictionary.zip into an in-memory lookup-table (hash table)
-For each word, derive ALL APPLICABLE forms and add them to the lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
+### Create Dictionary and Names lookups
+Create two in-memory lookup-tables (hash tables); one named "Names" and the other named "Dictionary"
+
+Extract dictionary.txt from dictionary.zip
+Read each word in the file, when a word starts with `name:`
+   1: Strip off the leading `name:` text
+   2: Put it into the Names look-up table
+   3: Also put it into the Dictionary look-up table
+When the word does not start with `name:`
+   - Put it into the Dictionary look-up table
+
+### Add derivations
+For each word in the Dictionary lookup-table, derive ALL APPLICABLE forms and add them into the same lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
   - Each word ending with "e" 
       1. add a derivation with "th" appended ("have" => "haveth")
       2. also add a derivation with "e" dropped and "ing" appended ("have" => "having")
@@ -67,7 +78,8 @@ For each word, derive ALL APPLICABLE forms and add them to the lookup table. DO 
       2. also add a derivation with append "ning" appended ("begin" => "beginning")
   - Each word ending with "ss" add a derivation with "es" appended ("witness" => "witnesses")
   - Each word ending with "y"
-      1. add a derivation with "y" dropped and "ies" appended ("iniquity" => "iniquities")
+      1. add a derivation with "eth" added ("say" => "sayeth")
+      2. also add a derivation with "y" dropped and "ies" appended ("iniquity" => "iniquities")
       2. also add a derivation with "y" dropped and "ieth" appended ("testify" => "testifieth")
       3. also add a derivation with "y" dropped and "ied" appended ("testify" => "testified")
   - For words ending in consonant-vowel-consonant (CVC), double the final consonant and append "ing" (e.g., "commit" → "committing")
@@ -101,9 +113,14 @@ Build a set of Valid Composite Words using two separate passes:
 Pass 1: Simple Hyphenated Words
 Scan all Words entries in all PageJson files:
 
-If an entry is a simple word (Elements.length == 1) and the Text contains a hyphen (-),
-→ add its exact Text value (case-insensitive) to the Valid Composite Words set,
-→ and record the page number it appears on.
+If an entry matches all of the following criteria
+   1. it is a simple word (Elements.length == 1) 
+   2. it's Text contains a hyphen (-)
+   3. it's Text is at least 4 characters long (after removing the hyphen)
+
+Then you should
+   → add its exact Text value (case-insensitive) to the Valid Composite Words set,
+   → and record the page number it appears on.
 
 Pass 2: Compound [word] - [word] Triplets
 Scan all [A] [B] [C] triplets in each file:
@@ -112,9 +129,12 @@ A, B, C must each be simple words.
 
 B's Text must be a single hyphen (-).
 
-A and C must both be alphabetic and their individual Text values must be present in the dictionary.
+A and C must satisfy all of the following
+   1: Be alphabetic
+   2: Must NOT be present in the Names lookup-table
+   3: Must be present in the Dictionary lookup-table
+   4: Must appear on the same line
 
-A and C must appear on the same line.
 → If all these conditions are met, add the combined A.Text + "-" + C.Text to the Valid Composite Words set.
 → Also record the page number it appears on.
 
@@ -128,7 +148,7 @@ Candidate words are Combined Words where all of the following are true:
 First output a table of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
 Then output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.
 
-I will then either tell you which entries remove from the list of Candidate Words or tell you to continue
+I will then either tell you which entries to remove from the list of Candidate Words or tell you to continue
 
 ---
 
@@ -139,8 +159,8 @@ Once the candidate list is confirmed:
 - For each `*.PageJson` file:
   - Scan the `Words` array for `[word] - [word]` triplets.
   - Merge the triplet into a single `Word` object with three `Elements` if the recombined form is in the approved list.
+  - Make sure you do not change the case of the word, the character casing must be preserved
   - Do not merge if the recombined word is not in the approved list or violates the structure rules.
-
 
 ### Output:
 - A modified `.PageJson` file with updated `Words`. You are modifying only the Words property, all other properties in the PageJson must remain unchanged and their order preserved.
@@ -153,7 +173,7 @@ Once the candidate list is confirmed:
   ```
 Note that those values are both integers, so the values must remain unquoted.
 
-If the source PageJson has `"ManuallyEdited": true` or not objects in its Words array then do not generate a PageJson or PageMetaJson file for that page.
+If the source PageJson has `"ManuallyEdited": true` or has no objects in its Words array then do not generate a PageJson or PageMetaJson file for that page.
 
 ### Final Packaging:
 Zip the updated `.PageJson` and `.PageMetaJson` files and generate a hotlink button for me to click in the browser and download it
