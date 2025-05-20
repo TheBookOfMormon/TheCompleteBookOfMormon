@@ -2758,33 +2758,7 @@
             "Width": 33,
             "Height": 19
           },
-          "Text": "king"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 407,
-            "Y": 505,
-            "Width": 10,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 418,
-            "Y": 505,
-            "Width": 25,
-            "Height": 10
-          },
-          "Text": "men"
+          "Text": "king-men"
         }
       ]
     },
@@ -3115,11 +3089,7 @@
             "Height": 19
           },
           "Text": "king"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 528,
@@ -3128,11 +3098,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 44,
@@ -3142,7 +3108,8 @@
           },
           "Text": "men"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [

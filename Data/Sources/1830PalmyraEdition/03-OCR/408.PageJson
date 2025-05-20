@@ -4124,11 +4124,7 @@
             "Height": 14
           },
           "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 709,
@@ -4137,11 +4133,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 246,
@@ -4151,7 +4143,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4188,33 +4181,7 @@
             "Width": 46,
             "Height": 13
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 420,
-            "Y": 686,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 426,
-            "Y": 678,
-            "Width": 43,
-            "Height": 18
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -5523,6 +5490,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
