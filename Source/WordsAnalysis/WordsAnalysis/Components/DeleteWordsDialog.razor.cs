@@ -26,7 +26,6 @@ public partial class DeleteWordsDialog
         int? aboutIndex = Content.Words.Select((word, index) => new { Index = index, Text = word.Value }).FirstOrDefault(x => string.Equals("about", x.Text, StringComparison.InvariantCultureIgnoreCase) && x.Text![0] == 'A')?.Index;
         if (aboutIndex != null)
         {
-            aboutIndex += 2;
             if (aboutIndex < Content.Words.Length - 1)
             {
                 if (Content.Words[aboutIndex.Value + 1].Value == "-")
@@ -55,9 +54,9 @@ public partial class DeleteWordsDialog
         // Get the lowest non-null value
         int? candidateIndex = (aboutIndex, nextColumnIndex) switch {
             (null, null) => null,
-            (int first, int second) => Math.Min(first, second),
-            (int first, null) => first,
-            (null, int second) => second,
+            (int first, int second) => Math.Min(first, second) + 1,
+            (int first, null) => first + 1,
+            (null, int second) => second + 1,
         };
 
         // Ensure it is within range, default to 32 if null
