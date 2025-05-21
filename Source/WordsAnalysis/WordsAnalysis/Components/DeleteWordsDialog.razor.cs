@@ -25,10 +25,10 @@ public partial class DeleteWordsDialog
         if (chosenIndex != null)
         {
             chosenIndex += 2;
-            if (chosenIndex < Content.Words.Length)
+            if (chosenIndex < Content.Words.Length - 1)
             {
-                if (Content.Words[chosenIndex.Value].Value != "-")
-                    chosenIndex--;
+                if (Content.Words[chosenIndex.Value + 1].Value == "-")
+                    chosenIndex++;
             }
         }
         if (chosenIndex == null)
