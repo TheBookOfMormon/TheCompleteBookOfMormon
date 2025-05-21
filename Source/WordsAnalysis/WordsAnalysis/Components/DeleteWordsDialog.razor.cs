@@ -56,7 +56,7 @@ public partial class DeleteWordsDialog
             (null, null) => null,
             (int first, int second) => Math.Min(first, second) + 1,
             (int first, null) => first + 1,
-            (null, int second) => second + 1,
+            (null, int second) => second,
         };
 
         // Ensure it is within range, default to 32 if null
