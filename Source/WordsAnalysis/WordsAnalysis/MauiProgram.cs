@@ -16,6 +16,9 @@ public static class MauiProgram
                 options.Dsn = Environment.GetEnvironmentVariable("TCBOM_SentryIO_DSN");
                 options.Debug = true;
                 options.TracesSampleRate = 1.0;
+                options.SendDefaultPii = true;
+                options.AutoSessionTracking = true;
+                options.IsGlobalModeEnabled = true;
             })
             .ConfigureFonts(fonts =>
             {
