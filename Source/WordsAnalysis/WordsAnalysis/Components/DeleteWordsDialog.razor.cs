@@ -21,36 +21,47 @@ public partial class DeleteWordsDialog
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        int? chosenIndex = Content.Words.Select((word, index) => new { Index = index, Text = word.Value }).FirstOrDefault(x => string.Equals("about", x.Text, StringComparison.InvariantCultureIgnoreCase) && x.Text![0] == 'A')?.Index;
-        if (chosenIndex != null)
-        {
-            chosenIndex += 2;
-            if (chosenIndex < Content.Words.Length - 1)
-            {
-                if (Content.Words[chosenIndex.Value + 1].Value == "-")
-                    chosenIndex++;
-            }
-        }
-        if (chosenIndex == null)
-        {
-            OcrWord firstWord = Content.Words[0].Key.GetWord(Content.EditionState)!;
-            OcrElement firstElement = firstWord.Elements.Last();
-            // Try to find start of next column
-            for (int index = 2; index < Content.Words.Length; index++)
-            {
-                OcrWord? candidateWord = Content.Words[index].Key.GetWord(Content.EditionState);
-                if (candidateWord is null) continue;
 
-                OcrElement candidateElement = candidateWord.Elements.Last();
-                if (candidateElement.Bounds.Y + candidateElement.Bounds.Height < firstElement.Bounds.Y)
-                {
-                    chosenIndex = index;
-                    break;
-                }
+        // About index
+        int? aboutIndex = Content.Words.Select((word, index) => new { Index = index, Text = word.Value }).FirstOrDefault(x => string.Equals("about", x.Text, StringComparison.InvariantCultureIgnoreCase) && x.Text![0] == 'A')?.Index;
+        if (aboutIndex != null)
+        {
+            aboutIndex += 2;
+            if (aboutIndex < Content.Words.Length - 1)
+            {
+                if (Content.Words[aboutIndex.Value + 1].Value == "-")
+                    aboutIndex++;
             }
-            ;
         }
-        DeleteCount = Math.Min(chosenIndex ?? 30, Content.Words.Length);
+
+        // Next column index
+        int? nextColumnIndex = null;
+        OcrWord firstWord = Content.Words[0].Key.GetWord(Content.EditionState)!;
+        OcrElement firstElement = firstWord.Elements.Last();
+        // Try to find start of next column
+        for (int index = 2; index < Content.Words.Length; index++)
+        {
+            OcrWord? candidateWord = Content.Words[index].Key.GetWord(Content.EditionState);
+            if (candidateWord is null) continue;
+
+            OcrElement candidateElement = candidateWord.Elements.Last();
+            if (candidateElement.Bounds.Y + candidateElement.Bounds.Height < firstElement.Bounds.Y)
+            {
+                nextColumnIndex = index;
+                break;
+            }
+        }
+
+        // Get the lowest non-null value
+        int? candidateIndex = (aboutIndex, nextColumnIndex) switch {
+            (null, null) => null,
+            (int first, int second) => Math.Min(first, second),
+            (int first, null) => first,
+            (null, int second) => second,
+        };
+
+        // Ensure it is within range, default to 32 if null
+        DeleteCount = Math.Min(candidateIndex ?? 30, Content.Words.Length);
     }
 
     private async Task CancelAsync()
