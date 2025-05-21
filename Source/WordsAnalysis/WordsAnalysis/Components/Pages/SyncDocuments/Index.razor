@@ -55,7 +55,8 @@
                              AccessKey="D"
                              OnClick=@ViewModel.DeleteSelectedWordsAsync />
             <IconPanelButton Icon=Icons.Filled.Size24.ChannelSubtract
-                             Tooltip="Nuke the rest of the page"
+                             Tooltip="Delete section (ALT X)"
+                             AccessKey="X"
                              Enabled=ViewModel.CanNukeTheRestOfThePage
                              OnClick=@ViewModel.NukeTheRestOfThePageAsync />
             <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
