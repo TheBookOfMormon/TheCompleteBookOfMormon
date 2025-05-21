@@ -160,6 +160,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2203,11 +2204,7 @@
             "Height": 8
           },
           "Text": "candle"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 723,
@@ -2216,11 +2213,7 @@
             "Height": 8
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 266,
@@ -2230,7 +2223,8 @@
           },
           "Text": "stick"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5698,36 +5692,11 @@
             "Width": 26,
             "Height": 17
           },
-          "Text": "hell"
+          "Text": "hell-fire"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 786,
-            "Width": 4,
-            "Height": 17
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 786,
-            "Width": 38,
-            "Height": 17
-          },
-          "Text": "fire"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
