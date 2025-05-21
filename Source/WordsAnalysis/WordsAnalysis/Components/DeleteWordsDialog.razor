@@ -6,7 +6,9 @@
 
 <FluentDialogBody>
     <div>
-        <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount />
+        <AutoFocus>
+            <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount />
+        </AutoFocus>
     </div>
     <div>
         @for (int i = 0; i < Content.Words.Length; i++)
