@@ -1,6 +1,5 @@
 using DocumentsModel;
 using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.FluentUI.AspNetCore.Components;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 
@@ -8,7 +7,7 @@ namespace WordsAnalysis.Components;
 
 public partial class DeleteWordsDialog
 {
-    public record DeleteWordsDialogContent(KeyValuePair<WordReference, string?>[] Words);
+    public record DeleteWordsDialogContent(EditionState EditionState, KeyValuePair<WordReference, string?>[] Words);
     public record DeleteWordsDialogResult(WordReference[] DeletedWords);
 
     [Parameter]
@@ -22,9 +21,36 @@ public partial class DeleteWordsDialog
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        int? aboutIndex = Content.Words.Select((word, index) => new { Index = index, Text = word.Value }).FirstOrDefault(x => string.Equals("about", x.Text, StringComparison.InvariantCultureIgnoreCase))?.Index;
-        if (aboutIndex != null) aboutIndex += 2;
-        DeleteCount = Math.Min(aboutIndex ?? 30, Content.Words.Length);
+        int? chosenIndex = Content.Words.Select((word, index) => new { Index = index, Text = word.Value }).FirstOrDefault(x => string.Equals("about", x.Text, StringComparison.InvariantCultureIgnoreCase) && x.Text![0] == 'A')?.Index;
+        if (chosenIndex != null)
+        {
+            chosenIndex += 2;
+            if (chosenIndex < Content.Words.Length)
+            {
+                if (Content.Words[chosenIndex.Value].Value != "-")
+                    chosenIndex--;
+            }
+        }
+        if (chosenIndex == null)
+        {
+            OcrWord firstWord = Content.Words[0].Key.GetWord(Content.EditionState)!;
+            OcrElement firstElement = firstWord.Elements.Last();
+            // Try to find start of next column
+            for (int index = 2; index < Content.Words.Length; index++)
+            {
+                OcrWord? candidateWord = Content.Words[index].Key.GetWord(Content.EditionState);
+                if (candidateWord is null) continue;
+
+                OcrElement candidateElement = candidateWord.Elements.Last();
+                if (candidateElement.Bounds.Y + candidateElement.Bounds.Height < firstElement.Bounds.Y)
+                {
+                    chosenIndex = index;
+                    break;
+                }
+            }
+            ;
+        }
+        DeleteCount = Math.Min(chosenIndex ?? 30, Content.Words.Length);
     }
 
     private async Task CancelAsync()

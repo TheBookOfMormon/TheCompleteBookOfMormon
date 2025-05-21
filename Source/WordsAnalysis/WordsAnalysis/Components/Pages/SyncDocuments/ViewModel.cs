@@ -185,7 +185,8 @@ public class ViewModel
         if (remainingText == null) return;
 
         var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
-        var content = new DeleteWordsDialog.DeleteWordsDialogContent(remainingText);
+        EditionState editionState = featureState.Editions[remainingText[0].Key.BookInfo];
+        var content = new DeleteWordsDialog.DeleteWordsDialogContent(editionState, remainingText);
         var dialog = await DialogService.ShowDialogAsync<DeleteWordsDialog, DeleteWordsDialog.DeleteWordsDialogContent>(content, dialogParameters);
 
         DialogResult result = await dialog.Result;
