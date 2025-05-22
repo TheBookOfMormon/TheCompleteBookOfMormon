@@ -24,6 +24,7 @@ Each HTML file corresponds to a printed page. Your task is to process them and o
 - Strip out all characters **except**:
   - A–Z a–z
   - 0–9
+  - spaces (` `)
   - `'`, `&`, `-`
 - Remove all `[ ... ]` including the brackets and contents
 
