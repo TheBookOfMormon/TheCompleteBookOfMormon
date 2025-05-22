@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1175,
   "ImageWidth": 766,
+  "ManuallyEdited": true,
   "PageNumber": 54,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 149,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 437,
-            "Y": 148,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 147,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 147,
-            "Width": 44,
-            "Height": 11
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -312,11 +261,7 @@
             "Height": 15
           },
           "Text": "ful"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 707,
@@ -325,11 +270,7 @@
             "Height": 14
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 246,
@@ -711,10 +652,23 @@
           "Bounds": {
             "X": 544,
             "Y": 257,
-            "Width": 33,
+            "Width": 7,
             "Height": 14
           },
-          "Text": "Ithe"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 556,
+            "Y": 257,
+            "Width": 25,
+            "Height": 14
+          },
+          "Text": "the"
         }
       ]
     },
@@ -1114,10 +1068,23 @@
           "Bounds": {
             "X": 516,
             "Y": 314,
-            "Width": 81,
-            "Height": 18
+            "Width": 27,
+            "Height": 15
           },
-          "Text": "notspoken"
+          "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 548,
+            "Y": 314,
+            "Width": 27,
+            "Height": 15
+          },
+          "Text": "spoken"
         }
       ]
     },
@@ -1296,10 +1263,23 @@
           "Bounds": {
             "X": 246,
             "Y": 355,
-            "Width": 65,
+            "Width": 9,
             "Height": 18
           },
-          "Text": "I'spoken"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 261,
+            "Y": 355,
+            "Width": 53,
+            "Height": 18
+          },
+          "Text": "spoken"
         }
       ]
     },
@@ -2264,9 +2244,9 @@
             "X": 571,
             "Y": 466,
             "Width": 25,
-            "Height": 33
+            "Height": 15
           },
-          "Text": "Hay"
+          "Text": "thy"
         }
       ]
     },
@@ -2419,10 +2399,23 @@
           "Bounds": {
             "X": 545,
             "Y": 485,
-            "Width": 88,
+            "Width": 56,
             "Height": 14
           },
-          "Text": "bowelslike"
+          "Text": "bowels"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 606,
+            "Y": 485,
+            "Width": 29,
+            "Height": 14
+          },
+          "Text": "like"
         }
       ]
     },
@@ -3147,7 +3140,7 @@
             "Width": 23,
             "Height": 14
           },
-          "Text": "hs"
+          "Text": "they"
         }
       ]
     },
@@ -3183,10 +3176,23 @@
           "Bounds": {
             "X": 487,
             "Y": 599,
-            "Width": 46,
+            "Width": 19,
             "Height": 14
           },
-          "Text": "heled"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 511,
+            "Y": 599,
+            "Width": 19,
+            "Height": 14
+          },
+          "Text": "led"
         }
       ]
     },
@@ -6828,4 +6834,4 @@
       ]
     }
   ]
-}
+}

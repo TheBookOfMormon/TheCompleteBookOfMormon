@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1084,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 59,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 196,
-            "Y": 113,
-            "Width": 49,
-            "Height": 10
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 255,
-            "Y": 113,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 299,
-            "Y": 114,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 325,
-            "Y": 113,
-            "Width": 38,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -797,7 +746,7 @@
             "Width": 40,
             "Height": 18
           },
-          "Text": "gheep"
+          "Text": "sheep"
         }
       ]
     },
@@ -3095,19 +3044,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 199,
-            "Y": 535,
-            "Width": 7,
-            "Height": 22
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 210,
             "Y": 538,
             "Width": 80,
@@ -3409,10 +3345,36 @@
           "Bounds": {
             "X": 278,
             "Y": 575,
-            "Width": 67,
+            "Width": 32,
             "Height": 13
           },
-          "Text": "thusitis"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 314,
+            "Y": 575,
+            "Width": 10,
+            "Height": 13
+          },
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 328,
+            "Y": 575,
+            "Width": 10,
+            "Height": 13
+          },
+          "Text": "is"
         }
       ]
     },
@@ -3426,19 +3388,6 @@
             "Height": 12
           },
           "Text": "Amen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 278,
-            "Y": 621,
-            "Width": 4,
-            "Height": 15
-          },
-          "Text": "i"
         }
       ]
     },
@@ -3504,32 +3453,6 @@
             "Height": 14
           },
           "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 223,
-            "Y": 702,
-            "Width": 90,
-            "Height": 13
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 324,
-            "Y": 702,
-            "Width": 6,
-            "Height": 13
-          },
-          "Text": "I"
         }
       ]
     },
@@ -3633,7 +3556,7 @@
             "Width": 55,
             "Height": 18
           },
-          "Text": "Nephi's"
+          "Text": "Nephi\u0027s"
         }
       ]
     },
@@ -3806,6 +3729,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3880,10 +3804,12 @@
             "Width": 12,
             "Height": 12
           },
-          "Text": "&e"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3893,7 +3819,7 @@
             "Width": 31,
             "Height": 13
           },
-          "Text": "AXD"
+          "Text": "And"
         }
       ]
     },
@@ -3962,6 +3888,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4222,6 +4149,10 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4947,11 +4878,11 @@
         {
           "Bounds": {
             "X": 348,
-            "Y": 913,
+            "Y": 925,
             "Width": 22,
-            "Height": 27
+            "Height": 15
           },
-          "Text": "tho"
+          "Text": "the"
         }
       ]
     },
@@ -5133,7 +5064,7 @@
             "Width": 14,
             "Height": 15
           },
-          "Text": "In"
+          "Text": "in"
         }
       ]
     },
@@ -5290,11 +5221,7 @@
             "Height": 14
           },
           "Text": "Jeru"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 497,
@@ -5303,8 +5230,18 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 241,
+            "Y": 161,
+            "Width": 45,
+            "Height": 14
+          },
+          "IsOnNextPage": true,
+          "Text": "salem"
         }
       ]
     }
   ]
-}
+}

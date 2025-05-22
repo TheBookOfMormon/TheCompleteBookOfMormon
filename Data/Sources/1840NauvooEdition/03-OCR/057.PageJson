@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1082,
   "ImageWidth": 767,
+  "ManuallyEdited": true,
   "PageNumber": 57,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 211,
-            "Y": 111,
-            "Width": 37,
-            "Height": 9
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 260,
-            "Y": 111,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 304,
-            "Y": 111,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 330,
-            "Y": 111,
-            "Width": 37,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 65,
-            "Y": 144,
-            "Width": 30,
-            "Height": 14
-          },
-          "Text": "after"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -308,10 +244,23 @@
           "Bounds": {
             "X": 418,
             "Y": 161,
-            "Width": 84,
+            "Width": 34,
             "Height": 14
           },
-          "Text": "theirhearts"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 457,
+            "Y": 161,
+            "Width": 34,
+            "Height": 14
+          },
+          "Text": "hearts"
         }
       ]
     },
@@ -536,6 +485,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -828,10 +778,23 @@
           "Bounds": {
             "X": 369,
             "Y": 232,
-            "Width": 31,
+            "Width": 21,
             "Height": 14
           },
-          "Text": "fora"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 395,
+            "Y": 232,
+            "Width": 9,
+            "Height": 14
+          },
+          "Text": "a"
         }
       ]
     },
@@ -1348,10 +1311,23 @@
           "Bounds": {
             "X": 418,
             "Y": 304,
-            "Width": 40,
+            "Width": 29,
             "Height": 14
           },
-          "Text": "andit"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 448,
+            "Y": 304,
+            "Width": 11,
+            "Height": 14
+          },
+          "Text": "it"
         }
       ]
     },
@@ -1512,7 +1488,7 @@
             "Width": 23,
             "Height": 9
           },
-          "Text": "eur"
+          "Text": "our"
         }
       ]
     },
@@ -2270,6 +2246,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2292,7 +2269,7 @@
             "Width": 32,
             "Height": 14
           },
-          "Text": "sced"
+          "Text": "seed"
         }
       ]
     },
@@ -2406,10 +2383,23 @@
           "Bounds": {
             "X": 479,
             "Y": 430,
-            "Width": 28,
+            "Width": 17,
             "Height": 13
           },
-          "Text": "doa"
+          "Text": "do"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 500,
+            "Y": 430,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5058,19 +5048,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 31,
-            "Y": 787,
-            "Width": 17,
-            "Height": 23
-          },
-          "Text": "In"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 61,
             "Y": 786,
             "Width": 52,
@@ -5310,7 +5287,7 @@
             "Width": 18,
             "Height": 13
           },
-          "Text": "nll"
+          "Text": "all"
         }
       ]
     },
@@ -6612,4 +6589,4 @@
       ]
     }
   ]
-}
+}

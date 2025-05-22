@@ -8,7 +8,7 @@ mkdir -p "$output_dir"
 
 for ((i=start; i<=end; i++)); do
     filename=$(printf "%s/%03d.html" "$output_dir" "$i")
-    url="https://www.josephsmithpapers.org/paper-summary/book-of-mormon-1830/$i"
+    url="https://www.josephsmithpapers.org/paper-summary/book-of-mormon-1840/$i"
 
     echo "Downloading $url -> $filename"
 

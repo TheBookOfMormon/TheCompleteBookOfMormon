@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1157,
   "ImageWidth": 769,
+  "ManuallyEdited": true,
   "PageNumber": 46,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 114,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 441,
-            "Y": 114,
-            "Width": 35,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 487,
-            "Y": 114,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 515,
-            "Y": 114,
-            "Width": 39,
-            "Height": 10
-          },
-          "Text": "NEFPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1847,39 +1796,14 @@
           "Bounds": {
             "X": 309,
             "Y": 392,
-            "Width": 34,
+            "Width": 90,
             "Height": 19
           },
-          "Text": "fiery"
+          "Text": "fiery-flying"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 345,
-            "Y": 400,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 352,
-            "Y": 392,
-            "Width": 45,
-            "Height": 19
-          },
-          "Text": "flying"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -4470,10 +4394,23 @@
           "Bounds": {
             "X": 487,
             "Y": 731,
-            "Width": 99,
+            "Width": 14,
             "Height": 13
           },
-          "Text": "toremember"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 505,
+            "Y": 731,
+            "Width": 73,
+            "Height": 13
+          },
+          "Text": "remember"
         }
       ]
     },
@@ -4834,10 +4771,23 @@
           "Bounds": {
             "X": 241,
             "Y": 785,
-            "Width": 96,
-            "Height": 19
+            "Width": 57,
+            "Height": 14
           },
-          "Text": "spokenaunto"
+          "Text": "spoken"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 303,
+            "Y": 785,
+            "Width": 35,
+            "Height": 14
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -5700,7 +5650,7 @@
             "Width": 33,
             "Height": 14
           },
-          "Text": "pdss"
+          "Text": "pass"
         }
       ]
     },
@@ -6170,10 +6120,23 @@
           "Bounds": {
             "X": 556,
             "Y": 937,
-            "Width": 39,
+            "Width": 17,
             "Height": 13
           },
-          "Text": "be'so"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 577,
+            "Y": 937,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "so"
         }
       ]
     },
@@ -6407,7 +6370,7 @@
             "Width": 11,
             "Height": 9
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -6702,6 +6665,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6768,4 +6732,4 @@
       ]
     }
   ]
-}
+}

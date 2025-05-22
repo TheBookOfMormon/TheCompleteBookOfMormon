@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1145,
   "ImageWidth": 770,
+  "ManuallyEdited": true,
   "PageNumber": 49,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 202,
-            "Y": 126,
-            "Width": 41,
-            "Height": 10
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 253,
-            "Y": 126,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 300,
-            "Y": 126,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 328,
-            "Y": 126,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1438,6 +1387,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1945,6 +1895,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2735,6 +2686,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2810,11 +2762,7 @@
             "Height": 9
           },
           "Text": "an"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 519,
@@ -2823,11 +2771,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 53,
@@ -3144,10 +3088,23 @@
           "Bounds": {
             "X": 104,
             "Y": 573,
-            "Width": 66,
-            "Height": 19
+            "Width": 26,
+            "Height": 13
           },
-          "Text": "daylong"
+          "Text": "day"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 134,
+            "Y": 573,
+            "Width": 26,
+            "Height": 13
+          },
+          "Text": "long"
         }
       ]
     },
@@ -3170,10 +3127,23 @@
           "Bounds": {
             "X": 220,
             "Y": 573,
-            "Width": 34,
+            "Width": 7,
             "Height": 14
           },
-          "Text": "Idid"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 232,
+            "Y": 573,
+            "Width": 25,
+            "Height": 14
+          },
+          "Text": "did"
         }
       ]
     },
@@ -4046,10 +4016,23 @@
           "Bounds": {
             "X": 331,
             "Y": 705,
-            "Width": 72,
+            "Width": 39,
             "Height": 15
           },
-          "Text": "theirsick"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 371,
+            "Y": 705,
+            "Width": 35,
+            "Height": 15
+          },
+          "Text": "sick"
         }
       ]
     },
@@ -4371,10 +4354,23 @@
           "Bounds": {
             "X": 52,
             "Y": 761,
-            "Width": 64,
+            "Width": 30,
             "Height": 14
           },
-          "Text": "thistime"
+          "Text": "this"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 87,
+            "Y": 761,
+            "Width": 30,
+            "Height": 14
+          },
+          "Text": "time"
         }
       ]
     },
@@ -4384,10 +4380,23 @@
           "Bounds": {
             "X": 129,
             "Y": 764,
-            "Width": 56,
+            "Width": 11,
             "Height": 11
           },
-          "Text": "tomeet"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 144,
+            "Y": 764,
+            "Width": 30,
+            "Height": 11
+          },
+          "Text": "meet"
         }
       ]
     },
@@ -4761,10 +4770,23 @@
           "Bounds": {
             "X": 320,
             "Y": 800,
-            "Width": 40,
+            "Width": 30,
             "Height": 14
           },
-          "Text": "intoa"
+          "Text": "into"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 355,
+            "Y": 800,
+            "Width": 9,
+            "Height": 14
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4855,20 +4877,7 @@
             "Width": 25,
             "Height": 20
           },
-          "Text": "alsd"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 226,
-            "Y": 824,
-            "Width": 8,
-            "Height": 10
-          },
-          "Text": "-"
+          "Text": "also"
         }
       ]
     },
@@ -5164,10 +5173,23 @@
           "Bounds": {
             "X": 331,
             "Y": 857,
-            "Width": 69,
+            "Width": 37,
             "Height": 13
           },
-          "Text": "tearsand"
+          "Text": "tears"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 372,
+            "Y": 857,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "and"
         }
       ]
     },
@@ -5273,10 +5295,23 @@
           "Bounds": {
             "X": 204,
             "Y": 874,
-            "Width": 73,
+            "Width": 27,
             "Height": 15
           },
-          "Text": "notsoften"
+          "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 236,
+            "Y": 874,
+            "Width": 27,
+            "Height": 15
+          },
+          "Text": "soften"
         }
       ]
     },
@@ -6169,6 +6204,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6261,4 +6297,4 @@
       ]
     }
   ]
-}
+}

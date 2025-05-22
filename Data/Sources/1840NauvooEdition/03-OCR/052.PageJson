@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1176,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 52,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 372,
-            "Y": 123,
-            "Width": 39,
-            "Height": 10
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 423,
-            "Y": 122,
-            "Width": 35,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 470,
-            "Y": 122,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 122,
-            "Width": 39,
-            "Height": 10
-          },
-          "Text": "NEFHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -315,6 +264,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -393,6 +343,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -428,7 +381,7 @@
             "Width": 56,
             "Height": 19
           },
-          "Text": "crucity"
+          "Text": "crucify"
         }
       ]
     },
@@ -632,6 +585,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -902,11 +856,7 @@
             "Height": 14
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 692,
@@ -915,11 +865,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 221,
@@ -927,7 +873,7 @@
             "Width": 48,
             "Height": 21
           },
-          "Text": "spiscd"
+          "Text": "spised"
         }
       ]
     },
@@ -1187,33 +1133,7 @@
             "Width": 18,
             "Height": 18
           },
-          "Text": "by"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 539,
-            "Y": 297,
-            "Width": 6,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 546,
-            "Y": 288,
-            "Width": 39,
-            "Height": 15
-          },
-          "Text": "word"
+          "Text": "by-word"
         }
       ]
     },
@@ -2396,7 +2316,7 @@
             "Width": 24,
             "Height": 10
           },
-          "Text": "gee"
+          "Text": "see"
         }
       ]
     },
@@ -3801,6 +3721,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3875,7 +3796,7 @@
             "Width": 27,
             "Height": 15
           },
-          "Text": "end"
+          "Text": "and"
         }
       ]
     },
@@ -3910,11 +3831,11 @@
         {
           "Bounds": {
             "X": 624,
-            "Y": 637,
+            "Y": 651,
             "Width": 25,
-            "Height": 29
+            "Height": 15
           },
-          "Text": "Hid"
+          "Text": "did"
         }
       ]
     },
@@ -4105,11 +4026,11 @@
         {
           "Bounds": {
             "X": 312,
-            "Y": 676,
-            "Width": 21,
-            "Height": 28
+            "Y": 686,
+            "Width": 44,
+            "Height": 18
           },
-          "Text": "Sit"
+          "Text": "shew"
         }
       ]
     },
@@ -4409,58 +4330,6 @@
             "Height": 14
           },
           "Text": "brass"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 425,
-            "Y": 782,
-            "Width": 36,
-            "Height": 9
-          },
-          "Text": "EL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 780,
-            "Width": 7,
-            "Height": 11
-          },
-          "Text": "a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 825,
-            "Width": 96,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 825,
-            "Width": 23,
-            "Height": 15
-          },
-          "Text": "VIL"
         }
       ]
     },
@@ -5931,4 +5800,4 @@
       ]
     }
   ]
-}
+}
