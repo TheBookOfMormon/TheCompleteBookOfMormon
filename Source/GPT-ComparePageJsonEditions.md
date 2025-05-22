@@ -26,25 +26,45 @@ The PageJson files are manually aligned from a known anchor point:
    - Retain `null` entries to preserve position.
    - Truncate both lists to the length of the shorter one.
 
-2. **Word Comparison Rules**  
+2. **Names**
+   - The following list is a collection of names. 
+
+```
+Aaron, Abinadi, Abinadom, Abish, Aha, Ahah, Akish, Alma, Amaleki, Amalekite, Amalickiah, Amaron, Aminadab, Amlici,
+Amlicite, Ammah, Ammaron, Ammon, Ammonite, Ammoron, Amnigaddah, Amoron, Amos, Amulek, Amulon, Amulonites, Angola,
+Antiomno, Antionah, Antionah, Antionum, Antipus, Benjamin, Cezoram, Com, Corianton, Coriantor, Coriantum, Coriantumr,
+Corihor, Corom, Cumeni, Cumenihah, Cumorah, Devil, Ethem, Ether, Emer, Enos, Gadianton, Gazelem, Gid, Gideon, Giddianhi,
+Gidgiddonah, Gidgiddoni, Hearthom, Helaman, Heth, Himni, Ishmael, Ishmaelite, Jacobite, Jared, Jarom, Jacob, Jeneum,
+John, Joseph, Josephite, Kingmen, Kishkumen, Laban, Lachoneus, Laman, Lamanite, Lamoni, Lemuelite, Levi, Lib, Limhah,
+Limher, Limhi, Luke, Kib, Kim, Kimnor, Kish, Mammon, Manti, Mark, Matthew, Matt, Morianton, Mormon, Moron, Moroni,
+Moronihah, Moses, Mosiah, Mulek, Mulekite, Nehor, Nehorite, Nephi, Nephite, Noah, Omer, Omner, Omni, Onihah, Orihah,
+Paanchi, Pachus, Pacumeni, Pahoran, Riplakish, Sam, Sariah, Seeric, Seerstone, Seth, Shez, Shiblon, Shiz, Shule,
+Teancum, Teomner, Tubaloth, Zarahemla, Zedekiah, Zeezrom, Zeezromite, Zemnarihah, Zeniff, Zenock, Zenos, Zeram, Zilpah, Zoramite
+```
+   - If a word is one of these words (case sensitive) then it is a name
+   - If a word is one of these words (case sensitive) with a `'` or `'s` appended, then it is a name
+
+3. **Word Comparison Rules**  
    - **Case-insensitive** comparison is used for general words.
-   - **Case-sensitive** comparison is used **only** for the following terms:
+   - **Case-sensitive** comparison is used **only** for Names and words that begin with any of the following:
 
 ```
-Judge, Judges, Devil, Heaven, House, Church, Chief, Gospel, Scriptures,
-Kingdom, Captain, Captains, Book, Priest, Priests, High, Prophet, Prophets,
-Holy, Lawyer, Lawyers, Bible, Saviour, Savior, Satan, Angel, Angels,
-Governor, Governors, Saint, Saints, Sea, Red, Father, North, East, South, West,
-Christian, Christians
+Judge, Heaven, House, Church, Chief, Gospel, Scripture,
+Kingdom, Captain, Captain, Book, Priest, High, Prophet,
+Holy, Lawyer, Bible, Saviour, Savior, Satan, Angel,
+Governor, Saint, Sea, Son, Red, Father, North, East, South, West,
+Christian
 ```
 
-3. **Phrase Handling**
-   - Consecutive differing words are grouped into phrases.
-   - Phrases that contain `<null>` are treated specially:
-     - If all are `<null>`, both sides collapse to `<null>`.
-     - Mixed `<null>` and text removes `<null>` entries from the phrase.
+4. **Phrase Handling**
+   - When a word is a Name, then it is considered only as a single word
+   - When a word is not a name then
+      - Consecutive differing words are grouped into phrases.
+      - Phrases that contain `<null>` are treated specially:
+        - If all are `<null>`, both sides collapse to `<null>`.
+        - Mixed `<null>` and text removes `<null>` entries from the phrase.
 
-4. **Context Extraction**
+5. **Context Extraction**
    - For each phrase, extract up to 5 non-null words before and after the phrase from each version.
    - The context must always include the phrase itself.
 
@@ -56,8 +76,8 @@ Christian, Christians
 | hath             | has              | 215   | he hath none        | he has none         | (2 & 3), (4 & 5), ... |
 | Gospel           | gospel           | 1     | read the Gospel of  | read the gospel of  | (1 & 2)               |
 
- If the `{filename1} Text` or `{filename2} Text` contains one of the following words as a substring (case sensitive comparison) then it is a Name Change
-     Aaron, Abinadi, Abinadom, Abish, Aha, Akish, Alma, Amaleki, Amalekite, Amalickiah, Amaron, Aminadab, Amlici, Amlicite, Ammah, Ammaron, Ammon, Ammonite, Ammoron, Amoron, Amos, Amulek, Amulon, Amulonite, Antiomno, Antionah, Antionum, Antipus, Benjamin, Cezoram, Corianton, Coriantor, Coriantum, Coriantumr, Corihor, Cumeni, Ether, Enos, Gazelem, Gid, Gideon, Gidgiddonah, Gidgiddoni, Helaman, Himni, Ishmael, Ishmaelite, Jacob, Jacobite, Jared, Jarom, John, Joseph, Josephite, Kishkumen, Laban, Lachoneus, Laman, Lamanite, Lamoni, Lemuelite, Limher, Limhi, Manti, Morianton, Mormon, Moron, Moroni, Moronihah, Moses, Mosiah, Mulek, Mulekite, Nehor, Nehorite, Nephi, Nephite, Noah, Omner, Omni, Paanchi, Pacumeni, Pahoran, Sam, Sariah, Seeric, Shiblon, Shiz, Teancum, Teomner, Zarahemla, Zedekiah, Zeezrom, Zeezromites, Zeniff, Zenock, Zenos, Zeram, Zilpah, Zoramite, 
+ If the `{filename1} Text` or `{filename2} Text` consists of a single word, and contains one of the following words as a substring (case sensitive comparison) then it is a Name Change
+     Aaron, Abinadi, Abinadom, Abish, Aha, Ahah, Akish, Alma, Amaleki, Amalekite, Amalickiah, Amaron, Aminadab, Amlici, Amlicite, Ammah, Ammaron, Ammon, Ammonite, Ammoron, Amnigaddah, Amoron, Amos, Amulek, Amulon, Amulonites, Angola, Antiomno, Antionah, Antionah, Antionum, Antipus, Benjamin, Cezoram, Com, Corianton, Coriantor, Coriantum, Coriantumr, Corihor, Corom, Cumeni, Cumenihah, Cumorah, Devil, Ethem, Ether, Emer, Enos, Gadianton, Gazelem, Gid, Gideon, Giddianhi, Gidgiddonah, Gidgiddoni, Hearthom, Helaman, Heth, Himni, Ishmael, Ishmaelite, Jacobite, Jared, Jarom, Jacob, Jeneum, John, Joseph, Josephite, Kingmen, Kishkumen, Laban, Lachoneus, Laman, Lamanite, Lamoni, Lemuelite, Levi, Lib, Limhah, Limher, Limhi, Luke, Kib, Kim, Kimnor, Kish, Mammon, Manti, Mark, Matthew, Matt, Morianton, Mormon, Moron, Moroni, Moronihah, Moses, Mosiah, Mulek, Mulekite, Nehor, Nehorite, Nephi, Nephite, Noah, Omer, Omner, Omni, Onihah, Orihah, Paanchi, Pachus, Pacumeni, Pahoran, Riplakish, Sam, Sariah, Seeric, Seerstone, Seth, Shez, Shiblon, Shiz, Shule, Teancum, Teomner, Tubaloth, Zarahemla, Zedekiah, Zeezrom, Zeezromite, Zemnarihah, Zeniff, Zenock, Zenos, Zeram, Zilpah, Zoramite
 
 The `{filename1}` and `{filename2}` placeholders should be replaced with the names of the zip files in alphabetical order (without the `.zip` extension).
 The `Count` column is the number of times the change occurs
@@ -66,9 +86,7 @@ The `{filename1} Context` and `{filename2} Context` columns are text representin
    - Up to 5 words before and after the change
    - The phrase itself must be included in the context string
    - Remove `<null>` from the samples
-The `Pages` column should show a list of page number tuples. ({PageNumberOfLeftColumn} & {PageNumberOfRightColumn}) up to 3 tuples showing which page pairs each change occurred on
-   - If the change occurs multiple times, list the first 3 such pairs; append ... if there are more.
-   - If the change is a Name Change, list all page tuples without limiting to 3.
+The `Pages` column should show a list of page number pairs. ({PageNumberOfLeftColumn} & {PageNumberOfRightColumn}) showing which page pairs each change occurred on
    - Always show both page numbers, even if they are identical.
 
 I want them ordered as follows
@@ -79,4 +97,4 @@ I want them ordered as follows
    then `{filename2} Text` ascending
 
 ## Final packaging
-I want a csv file with only the above mentioned columns
+I want a csv file with only the above mentioned columns. Any columns not mentioned above should be dropped.

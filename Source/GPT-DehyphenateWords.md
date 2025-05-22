@@ -146,10 +146,9 @@ Candidate words are Combined Words where all of the following are true:
 
 ### Output
 First output a table of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
-Then output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.
+I will then either tell you which entries to remove from the list of Candidate Words or Valid Composite words or tell you to continue
 
-I will then either tell you which entries to remove from the list of Candidate Words or tell you to continue
-
+Then recalculate the list of Candidate Words and present output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.
 ---
 
 ## Stage 2: Apply Hyphenation Merges to PageJson Files
@@ -157,7 +156,7 @@ I will then either tell you which entries to remove from the list of Candidate W
 Once the candidate list is confirmed:
 
 - For each `*.PageJson` file:
-  - Scan the `Words` array for `[word] - [word]` triplets.
+  - Scan the `Words` array for `[word] - [word]` triplets that are Candidate Words
   - Merge the triplet into a single `Word` object with three `Elements` if the recombined form is in the approved list.
   - Make sure you do not change the case of the word, the character casing must be preserved
   - Do not merge if the recombined word is not in the approved list or violates the structure rules.
