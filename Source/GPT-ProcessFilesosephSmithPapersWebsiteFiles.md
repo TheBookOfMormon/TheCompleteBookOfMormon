@@ -31,9 +31,9 @@ Each HTML file corresponds to a printed page. Your task is to process them and o
 ---
 
 ## ✅ Line Break Hyphens:
-If you see `<span class="line-break">`:
-- If the character before the `<span>` is a space → **ignore it**
-- If the character before the `<span>` is a letter → **treat it as a hyphen (`-`)** (on its own line)
+Find and replace all `<span class="line-break">`
+   - where the character before it is a space, replace it with a space
+   - where the character before is not a space, replace it with an empty string
 
 ---
 
@@ -42,13 +42,7 @@ If you see `<span class="line-break">`:
 - Each piece of output must be either:
   - A word, where `'` and `&` are treated as alphabetic characters
   - A single hyphen (`-`)
-- Hyphenated line-break words like `"re - pent"` must be output as:
-  ```
-  re
-  -
-  pent
-  ```
-- Apostrophized words like `"day's"` must remain as:
+  - Apostrophized words like `day's` must remain as:
   ```
   day's
   ```
@@ -77,7 +71,7 @@ For each page, generate **two files**:
             "Width": 1,
             "Height": 1
           },
-          "Text": "word-or-hyphen"
+          "Text": "{word}"
         }
       ]
     }
