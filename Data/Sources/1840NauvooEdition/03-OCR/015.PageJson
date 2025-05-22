@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1169,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 15,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 238,
-            "Y": 111,
-            "Width": 42,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 292,
-            "Y": 111,
-            "Width": 37,
-            "Height": 11
-          },
-          "Text": "DOOX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 341,
-            "Y": 111,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 369,
-            "Y": 111,
-            "Width": 41,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2612,7 +2561,7 @@
             "Width": 42,
             "Height": 9
           },
-          "Text": "ceass"
+          "Text": "cease"
         }
       ]
     },
@@ -2913,10 +2862,23 @@
           "Bounds": {
             "X": 345,
             "Y": 557,
-            "Width": 81,
+            "Width": 16,
             "Height": 15
           },
-          "Text": "totremble"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 366,
+            "Y": 557,
+            "Width": 64,
+            "Height": 15
+          },
+          "Text": "tremble"
         }
       ]
     },
@@ -2952,10 +2914,23 @@
           "Bounds": {
             "X": 513,
             "Y": 558,
-            "Width": 63,
+            "Width": 44,
             "Height": 14
           },
-          "Text": "aboutto"
+          "Text": "about"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 562,
+            "Y": 558,
+            "Width": 15,
+            "Height": 14
+          },
+          "Text": "to"
         }
       ]
     },
@@ -3540,7 +3515,7 @@
             "Width": 55,
             "Height": 14
           },
-          "Text": "ghould"
+          "Text": "should"
         }
       ]
     },
@@ -3706,10 +3681,23 @@
           "Bounds": {
             "X": 498,
             "Y": 674,
-            "Width": 52,
+            "Width": 33,
             "Height": 15
           },
-          "Text": "thatif"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 536,
+            "Y": 674,
+            "Width": 12,
+            "Height": 15
+          },
+          "Text": "if"
         }
       ]
     },
@@ -4190,7 +4178,7 @@
             "Width": 16,
             "Height": 10
           },
-          "Text": "en"
+          "Text": "an"
         }
       ]
     },
@@ -4317,10 +4305,23 @@
           "Bounds": {
             "X": 506,
             "Y": 754,
-            "Width": 32,
+            "Width": 19,
             "Height": 14
           },
-          "Text": "bea"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 530,
+            "Y": 754,
+            "Width": 9,
+            "Height": 14
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4551,10 +4552,23 @@
           "Bounds": {
             "X": 213,
             "Y": 792,
-            "Width": 82,
-            "Height": 20
+            "Width": 35,
+            "Height": 15
           },
-          "Text": "alsospake"
+          "Text": "also"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 253,
+            "Y": 792,
+            "Width": 35,
+            "Height": 15
+          },
+          "Text": "spake"
         }
       ]
     },
@@ -5126,7 +5140,7 @@
             "Width": 12,
             "Height": 9
           },
-          "Text": "ws"
+          "Text": "us"
         }
       ]
     },
@@ -5607,7 +5621,7 @@
             "Width": 25,
             "Height": 14
           },
-          "Text": "iny"
+          "Text": "my"
         }
       ]
     },
@@ -5624,6 +5638,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6271,11 +6286,7 @@
             "Height": 15
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 574,
@@ -6284,11 +6295,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 81,
@@ -6296,7 +6303,7 @@
             "Width": 41,
             "Height": 15
           },
-          "Text": "8troy"
+          "Text": "stroy"
         }
       ]
     },
@@ -6314,4 +6321,4 @@
       ]
     }
   ]
-}
+}

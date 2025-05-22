@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1169,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 13,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 247,
-            "Y": 108,
-            "Width": 41,
-            "Height": 10
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 301,
-            "Y": 108,
-            "Width": 37,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 350,
-            "Y": 108,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 378,
-            "Y": 108,
-            "Width": 41,
-            "Height": 11
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2098,11 +2047,7 @@
             "Height": 13
           },
           "Text": "cho"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 566,
@@ -2111,11 +2056,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 77,
@@ -2123,7 +2064,7 @@
             "Width": 24,
             "Height": 10
           },
-          "Text": "gen"
+          "Text": "sen"
         }
       ]
     },
@@ -2543,6 +2484,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2673,6 +2615,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3997,7 +3940,7 @@
             "Width": 36,
             "Height": 10
           },
-          "Text": "cven"
+          "Text": "even"
         }
       ]
     },
@@ -5138,10 +5081,23 @@
           "Bounds": {
             "X": 383,
             "Y": 853,
-            "Width": 43,
+            "Width": 20,
             "Height": 15
           },
-          "Text": "goup"
+          "Text": "go"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 408,
+            "Y": 853,
+            "Width": 20,
+            "Height": 15
+          },
+          "Text": "up"
         }
       ]
     },
@@ -5177,10 +5133,23 @@
           "Bounds": {
             "X": 516,
             "Y": 848,
-            "Width": 50,
+            "Width": 15,
             "Height": 15
           },
-          "Text": "isable"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 536,
+            "Y": 848,
+            "Width": 36,
+            "Height": 15
+          },
+          "Text": "able"
         }
       ]
     },
@@ -6034,6 +6003,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6347,4 +6317,4 @@
       ]
     }
   ]
-}
+}

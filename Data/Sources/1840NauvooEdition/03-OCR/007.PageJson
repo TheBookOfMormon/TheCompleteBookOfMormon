@@ -1,8 +1,17 @@
 {
   "ImageHeight": 1184,
   "ImageWidth": 758,
+  "ManuallyEdited": true,
   "PageNumber": 7,
   "Words": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -124,38 +133,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 261,
-            "Y": 283,
-            "Width": 99,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 373,
-            "Y": 283,
-            "Width": 3,
-            "Height": 15
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 77,
             "Y": 327,
             "Width": 26,
             "Height": 16
           },
-          "Text": "vn"
+          "Text": "An"
         }
       ]
     },
@@ -675,7 +658,7 @@
             "Width": 35,
             "Height": 19
           },
-          "Text": "eople"
+          "Text": "people"
         }
       ]
     },
@@ -792,7 +775,7 @@
             "Width": 12,
             "Height": 14
           },
-          "Text": "ws"
+          "Text": "his"
         }
       ]
     },
@@ -857,7 +840,7 @@
             "Width": 40,
             "Height": 19
           },
-          "Text": "day's"
+          "Text": "day\u0027s"
         }
       ]
     },
@@ -883,7 +866,7 @@
             "Width": 26,
             "Height": 14
           },
-          "Text": "indo"
+          "Text": "into"
         }
       ]
     },
@@ -974,7 +957,7 @@
             "Width": 43,
             "Height": 15
           },
-          "Text": "laketh"
+          "Text": "taketh"
         }
       ]
     },
@@ -1720,7 +1703,7 @@
             "Width": 61,
             "Height": 19
           },
-          "Text": "Nephv's"
+          "Text": "Nephi\u0027s"
         }
       ]
     },
@@ -1863,7 +1846,7 @@
             "Width": 31,
             "Height": 19
           },
-          "Text": "shap"
+          "Text": "ship"
         }
       ]
     },
@@ -2097,10 +2080,12 @@
             "Width": 19,
             "Height": 14
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2110,7 +2095,7 @@
             "Width": 22,
             "Height": 15
           },
-          "Text": "his"
+          "Text": "This"
         }
       ]
     },
@@ -2227,7 +2212,7 @@
             "Width": 13,
             "Height": 14
           },
-          "Text": "tn"
+          "Text": "in"
         }
       ]
     },
@@ -2344,7 +2329,7 @@
             "Width": 50,
             "Height": 15
           },
-          "Text": "Neru1"
+          "Text": "Nephi"
         }
       ]
     },
@@ -3697,6 +3682,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4070,7 +4056,7 @@
             "Width": 26,
             "Height": 10
           },
-          "Text": "rear"
+          "Text": "year"
         }
       ]
     },
@@ -4213,7 +4199,7 @@
             "Width": 24,
             "Height": 15
           },
-          "Text": "chi"
+          "Text": "Lehi"
         }
       ]
     },
@@ -4327,10 +4313,23 @@
           "Bounds": {
             "X": 511,
             "Y": 959,
-            "Width": 50,
+            "Width": 31,
             "Height": 15
           },
-          "Text": "and'in"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 547,
+            "Y": 959,
+            "Width": 31,
+            "Height": 15
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4998,4 +4997,4 @@
       ]
     }
   ]
-}
+}

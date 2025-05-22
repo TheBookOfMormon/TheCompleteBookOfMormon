@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1169,
   "ImageWidth": 776,
+  "ManuallyEdited": true,
   "PageNumber": 12,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 373,
-            "Y": 111,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 424,
-            "Y": 111,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 110,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 110,
-            "Width": 44,
-            "Height": 11
-          },
-          "Text": "NEFPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1734,11 +1683,7 @@
             "Height": 10
           },
           "Text": "accom"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 703,
@@ -1747,11 +1692,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 243,
@@ -1759,7 +1700,7 @@
             "Width": 47,
             "Height": 14
           },
-          "Text": "lished"
+          "Text": "plished"
         }
       ]
     },
@@ -2180,7 +2121,7 @@
             "Width": 59,
             "Height": 15
           },
-          "Text": "father's"
+          "Text": "father\u0027s"
         }
       ]
     },
@@ -3031,6 +2972,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5082,6 +5024,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6497,4 +6440,4 @@
       ]
     }
   ]
-}
+}

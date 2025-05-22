@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1153,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 16,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 362,
-            "Y": 119,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 412,
-            "Y": 118,
-            "Width": 35,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 458,
-            "Y": 117,
-            "Width": 16,
-            "Height": 11
-          },
-          "Text": "JF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 117,
-            "Width": 44,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -4603,9 +4552,9 @@
             "X": 206,
             "Y": 757,
             "Width": 74,
-            "Height": 32
+            "Height": 12
           },
-          "Text": "gRotected"
+          "Text": "protected"
         }
       ]
     },
@@ -4748,7 +4697,7 @@
             "Width": 36,
             "Height": 14
           },
-          "Text": "aban"
+          "Text": "Laban"
         }
       ]
     },
@@ -5347,11 +5296,11 @@
         {
           "Bounds": {
             "X": 635,
-            "Y": 838,
+            "Y": 848,
             "Width": 46,
-            "Height": 32
+            "Height": 22
           },
-          "Text": "Hora"
+          "Text": "Lord"
         }
       ]
     },
@@ -5498,6 +5447,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6510,10 +6460,23 @@
           "Bounds": {
             "X": 294,
             "Y": 1022,
-            "Width": 41,
+            "Width": 15,
             "Height": 14
           },
-          "Text": "tothe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 314,
+            "Y": 1022,
+            "Width": 15,
+            "Height": 14
+          },
+          "Text": "the"
         }
       ]
     },
@@ -6596,4 +6559,4 @@
       ]
     }
   ]
-}
+}

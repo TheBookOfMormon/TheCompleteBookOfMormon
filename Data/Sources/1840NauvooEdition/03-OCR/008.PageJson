@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1181,
   "ImageWidth": 766,
+  "ManuallyEdited": true,
   "PageNumber": 8,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 350,
-            "Y": 124,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 401,
-            "Y": 123,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 122,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 475,
-            "Y": 122,
-            "Width": 46,
-            "Height": 10
-          },
-          "Text": "NEFHIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -269,10 +218,23 @@
           "Bounds": {
             "X": 332,
             "Y": 177,
-            "Width": 58,
+            "Width": 28,
             "Height": 15
           },
-          "Text": "fireand"
+          "Text": "fire"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 365,
+            "Y": 177,
+            "Width": 28,
+            "Height": 15
+          },
+          "Text": "and"
         }
       ]
     },
@@ -2071,33 +2033,7 @@
             "Width": 36,
             "Height": 10
           },
-          "Text": "noon"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 435,
-            "Y": 433,
-            "Width": 6,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 425,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "day"
+          "Text": "noon-day"
         }
       ]
     },
@@ -3668,9 +3604,9 @@
             "X": 411,
             "Y": 654,
             "Width": 46,
-            "Height": 34
+            "Height": 14
           },
-          "Text": "CEPR"
+          "Text": "Babylon"
         }
       ]
     },
@@ -4962,7 +4898,7 @@
             "Width": 15,
             "Height": 14
           },
-          "Text": "id"
+          "Text": "did"
         }
       ]
     },
@@ -5557,10 +5493,10 @@
           "Bounds": {
             "X": 264,
             "Y": 927,
-            "Width": 3,
+            "Width": 27,
             "Height": 9
           },
-          "Text": "i"
+          "Text": "many"
         }
       ]
     },
@@ -6161,9 +6097,9 @@
             "X": 294,
             "Y": 998,
             "Width": 32,
-            "Height": 34
+            "Height": 14
           },
-          "Text": "eh"
+          "Text": "days"
         }
       ]
     },
@@ -6466,6 +6402,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6528,11 +6465,7 @@
             "Height": 10
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 661,
@@ -6541,8 +6474,18 @@
             "Height": 10
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 72,
+            "Y": 148,
+            "Width": 36,
+            "Height": 16
+          },
+          "IsOnNextPage": true,
+          "Text": "cord"
         }
       ]
     }
   ]
-}
+}

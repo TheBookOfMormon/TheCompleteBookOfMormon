@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1190,
   "ImageWidth": 759,
+  "ManuallyEdited": true,
   "PageNumber": 29,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 221,
-            "Y": 123,
-            "Width": 42,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 275,
-            "Y": 123,
-            "Width": 37,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 325,
-            "Y": 123,
-            "Width": 16,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 354,
-            "Y": 117,
-            "Width": 40,
-            "Height": 17
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -545,12 +494,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 487,
+            "X": 494,
             "Y": 219,
-            "Width": 38,
+            "Width": 31,
             "Height": 13
           },
-          "Text": "'even"
+          "Text": "even"
         }
       ]
     },
@@ -4095,6 +4044,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4196,11 +4146,11 @@
         {
           "Bounds": {
             "X": 215,
-            "Y": 733,
+            "Y": 750,
             "Width": 36,
-            "Height": 32
+            "Height": 15
           },
-          "Text": "fioy"
+          "Text": "they"
         }
       ]
     },
@@ -4422,11 +4372,7 @@
             "Height": 14
           },
           "Text": "abomina"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 547,
@@ -4435,24 +4381,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 603,
-            "Y": 782,
-            "Width": 9,
-            "Height": 13
-          },
-          "Text": "A"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 63,
@@ -4461,19 +4390,6 @@
             "Height": 12
           },
           "Text": "tions"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 793,
-            "Width": 19,
-            "Height": 12
-          },
-          "Text": "AN"
         }
       ]
     },
@@ -4536,9 +4452,9 @@
             "X": 220,
             "Y": 812,
             "Width": 25,
-            "Height": 30
+            "Height": 12
           },
-          "Text": "pes"
+          "Text": "pass"
         }
       ]
     },
@@ -4561,10 +4477,23 @@
           "Bounds": {
             "X": 304,
             "Y": 808,
-            "Width": 71,
-            "Height": 18
+            "Width": 27,
+            "Height": 15
           },
-          "Text": "the'angel"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 336,
+            "Y": 808,
+            "Width": 27,
+            "Height": 15
+          },
+          "Text": "angel"
         }
       ]
     },
@@ -4748,10 +4677,10 @@
           "Bounds": {
             "X": 531,
             "Y": 818,
-            "Width": 49,
+            "Width": 60,
             "Height": 29
           },
-          "Text": "andgF"
+          "Text": "and"
         }
       ]
     },
@@ -5384,9 +5313,9 @@
         {
           "Bounds": {
             "X": 171,
-            "Y": 929,
+            "Y": 944,
             "Width": 87,
-            "Height": 37
+            "Height": 17
           },
           "Text": "foundation"
         }
@@ -6069,4 +5998,4 @@
       ]
     }
   ]
-}
+}

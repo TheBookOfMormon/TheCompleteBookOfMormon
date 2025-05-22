@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1204,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 26,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 123,
-            "Width": 41,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 122,
-            "Width": 37,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 480,
-            "Y": 121,
-            "Width": 16,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 509,
-            "Y": 120,
-            "Width": 46,
-            "Height": 11
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -100,10 +49,23 @@
           "Bounds": {
             "X": 331,
             "Y": 158,
-            "Width": 48,
+            "Width": 11,
             "Height": 14
           },
-          "Text": "it'was"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 347,
+            "Y": 158,
+            "Width": 32,
+            "Height": 14
+          },
+          "Text": "was"
         }
       ]
     },
@@ -113,10 +75,23 @@
           "Bounds": {
             "X": 386,
             "Y": 157,
-            "Width": 70,
-            "Height": 18
+            "Width": 23,
+            "Height": 13
           },
-          "Text": "thegpirit"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 413,
+            "Y": 157,
+            "Width": 39,
+            "Height": 13
+          },
+          "Text": "spirit"
         }
       ]
     },
@@ -433,7 +408,7 @@
             "Width": 35,
             "Height": 14
           },
-          "Text": "unio"
+          "Text": "unto"
         }
       ]
     },
@@ -1885,11 +1860,24 @@
         {
           "Bounds": {
             "X": 222,
-            "Y": 398,
-            "Width": 49,
-            "Height": 31
+            "Y": 414,
+            "Width": 39,
+            "Height": 15
           },
-          "Text": "oh"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 266,
+            "Y": 414,
+            "Width": 20,
+            "Height": 15
+          },
+          "Text": "he"
         }
       ]
     },
@@ -2873,6 +2861,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3075,9 +3064,9 @@
             "X": 533,
             "Y": 570,
             "Width": 42,
-            "Height": 34
+            "Height": 14
           },
-          "Text": "ange"
+          "Text": "angel"
         }
       ]
     },
@@ -3403,19 +3392,6 @@
             "Height": 9
           },
           "Text": "me"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 174,
-            "Y": 619,
-            "Width": 20,
-            "Height": 29
-          },
-          "Text": "vr"
         }
       ]
     },
@@ -4368,6 +4344,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4789,11 +4766,11 @@
         {
           "Bounds": {
             "X": 396,
-            "Y": 792,
-            "Width": 15,
-            "Height": 30
+            "Y": 808,
+            "Width": 42,
+            "Height": 14
           },
-          "Text": "Sr"
+          "Text": "down"
         }
       ]
     },
@@ -4936,7 +4913,7 @@
             "Width": 35,
             "Height": 14
           },
-          "Text": "pases"
+          "Text": "pass"
         }
       ]
     },
@@ -5908,10 +5885,23 @@
           "Bounds": {
             "X": 608,
             "Y": 945,
-            "Width": 69,
+            "Width": 7,
             "Height": 15
           },
-          "Text": "Ilooked"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 620,
+            "Y": 945,
+            "Width": 56,
+            "Height": 15
+          },
+          "Text": "looked"
         }
       ]
     },
@@ -6353,7 +6343,7 @@
             "Width": 20,
             "Height": 15
           },
-          "Text": "an"
+          "Text": "and"
         }
       ]
     },
@@ -6435,6 +6425,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6800,4 +6791,4 @@
       ]
     }
   ]
-}
+}

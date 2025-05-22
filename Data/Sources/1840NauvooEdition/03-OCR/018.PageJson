@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1128,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 18,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 360,
-            "Y": 107,
-            "Width": 39,
-            "Height": 11
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 410,
-            "Y": 107,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 456,
-            "Y": 106,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 105,
-            "Width": 44,
-            "Height": 11
-          },
-          "Text": "NEFHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +130,7 @@
             "Width": 8,
             "Height": 24
           },
-          "Text": "IT"
+          "Text": "I"
         }
       ]
     },
@@ -207,7 +156,7 @@
             "Width": 38,
             "Height": 14
           },
-          "Text": "writs"
+          "Text": "write"
         }
       ]
     },
@@ -519,12 +468,17 @@
             "Width": 39,
             "Height": 13
           },
-          "Text": "Abre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Abra"
+        },
+        {
+          "Bounds": {
+            "X": 673,
+            "Y": 177,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 212,
@@ -688,7 +642,7 @@
             "Width": 14,
             "Height": 13
           },
-          "Text": "bs"
+          "Text": "be"
         }
       ]
     },
@@ -1023,10 +977,23 @@
           "Bounds": {
             "X": 407,
             "Y": 252,
-            "Width": 59,
+            "Width": 32,
             "Height": 14
           },
-          "Text": "whoare"
+          "Text": "who"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 444,
+            "Y": 252,
+            "Width": 25,
+            "Height": 14
+          },
+          "Text": "are"
         }
       ]
     },
@@ -1243,6 +1210,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2448,7 +2416,7 @@
             "Width": 39,
             "Height": 10
           },
-          "Text": "eame"
+          "Text": "came"
         }
       ]
     },
@@ -3043,10 +3011,23 @@
           "Bounds": {
             "X": 316,
             "Y": 552,
-            "Width": 70,
+            "Width": 37,
             "Height": 14
           },
-          "Text": "forthinto"
+          "Text": "forth"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 358,
+            "Y": 552,
+            "Width": 30,
+            "Height": 14
+          },
+          "Text": "into"
         }
       ]
     },
@@ -3069,10 +3050,23 @@
           "Bounds": {
             "X": 420,
             "Y": 552,
-            "Width": 102,
+            "Width": 87,
             "Height": 14
           },
-          "Text": "wildernessto"
+          "Text": "wilderness"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 512,
+            "Y": 552,
+            "Width": 15,
+            "Height": 14
+          },
+          "Text": "to"
         }
       ]
     },
@@ -4164,7 +4158,7 @@
             "Width": 20,
             "Height": 9
           },
-          "Text": "wa"
+          "Text": "we"
         }
       ]
     },
@@ -4187,10 +4181,23 @@
           "Bounds": {
             "X": 301,
             "Y": 702,
-            "Width": 43,
+            "Width": 15,
             "Height": 14
           },
-          "Text": "inthe"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 321,
+            "Y": 702,
+            "Width": 15,
+            "Height": 14
+          },
+          "Text": "the"
         }
       ]
     },
@@ -6480,4 +6487,4 @@
       ]
     }
   ]
-}
+}

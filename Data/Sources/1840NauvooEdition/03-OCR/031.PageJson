@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1182,
   "ImageWidth": 759,
+  "ManuallyEdited": true,
   "PageNumber": 31,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 224,
-            "Y": 122,
-            "Width": 42,
-            "Height": 10
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 278,
-            "Y": 122,
-            "Width": 37,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 327,
-            "Y": 121,
-            "Width": 16,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 356,
-            "Y": 121,
-            "Width": 42,
-            "Height": 11
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 68,
-            "Y": 160,
-            "Width": 22,
-            "Height": 13
-          },
-          "Text": "est"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -896,7 +832,7 @@
             "Width": 46,
             "Height": 14
           },
-          "Text": "Isracl"
+          "Text": "Israel"
         }
       ]
     },
@@ -2520,10 +2456,23 @@
           "Bounds": {
             "X": 366,
             "Y": 490,
-            "Width": 32,
+            "Width": 15,
             "Height": 15
           },
-          "Text": "isin"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 386,
+            "Y": 490,
+            "Width": 15,
+            "Height": 15
+          },
+          "Text": "in"
         }
       ]
     },
@@ -2878,6 +2827,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3125,6 +3075,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3281,6 +3234,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4551,7 +4505,7 @@
             "Width": 38,
             "Height": 15
           },
-          "Text": "irom"
+          "Text": "from"
         }
       ]
     },
@@ -4724,6 +4678,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5185,10 +5140,23 @@
           "Bounds": {
             "X": 71,
             "Y": 885,
-            "Width": 112,
+            "Width": 53,
             "Height": 14
           },
-          "Text": "waters'which"
+          "Text": "waters"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 129,
+            "Y": 885,
+            "Width": 53,
+            "Height": 14
+          },
+          "Text": "which"
         }
       ]
     },
@@ -5361,6 +5329,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5435,7 +5404,7 @@
             "Width": 33,
             "Height": 10
           },
-          "Text": "man"
+          "Text": "many"
         }
       ]
     },
@@ -5549,10 +5518,23 @@
           "Bounds": {
             "X": 514,
             "Y": 927,
-            "Width": 40,
+            "Width": 21,
             "Height": 12
           },
-          "Text": "outo"
+          "Text": "out"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 549,
+            "Y": 927,
+            "Width": 21,
+            "Height": 12
+          },
+          "Text": "of"
         }
       ]
     },
@@ -5796,10 +5778,23 @@
           "Bounds": {
             "X": 503,
             "Y": 964,
-            "Width": 32,
+            "Width": 14,
             "Height": 14
           },
-          "Text": "isin"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 522,
+            "Y": 964,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "in"
         }
       ]
     },
@@ -5855,6 +5850,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6319,12 +6315,17 @@
             "Width": 37,
             "Height": 14
           },
-          "Text": "Gens"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Gen"
+        },
+        {
+          "Bounds": {
+            "X": 562,
+            "Y": 1043,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 74,
@@ -6467,4 +6468,4 @@
       ]
     }
   ]
-}
+}
