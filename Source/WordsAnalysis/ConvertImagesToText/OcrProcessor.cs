@@ -293,6 +293,7 @@ public partial class OcrProcessor : EditionsProcessorBase
 
             // Get the text of the current symbol.
             string? symbolText = iterator.GetText(PageIteratorLevel.Symbol);
+            if (symbolText == null) continue;
 
             // We assume symbolText is one character.
             char c = symbolText[0];

@@ -168,7 +168,7 @@ public record FeatureState
 
     public static async Task<FeatureState> LoadAsync()
     {
-        IEnumerable<string> editionCodes = Directory.GetFiles(Constants.Data.SourcesDirectoryPath, "index.json", SearchOption.AllDirectories).Where(x => !x.Contains("Cowdery")).Select(x => Path.GetFileName(Path.GetDirectoryName(x))!);
+        IEnumerable<string> editionCodes = Directory.GetFiles(Constants.Data.SourcesDirectoryPath, "index.json", SearchOption.AllDirectories).Select(x => Path.GetFileName(Path.GetDirectoryName(x))!);
         var tasks = editionCodes.Select(EditionState.LoadAsync);
 
         var editions = new List<EditionState>();

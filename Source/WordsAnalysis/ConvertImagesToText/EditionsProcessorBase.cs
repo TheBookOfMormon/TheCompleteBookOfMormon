@@ -56,10 +56,7 @@ public abstract class EditionsProcessorBase : IDisposable
 
     private void Process()
     {
-        var editionDirs = Directory.GetDirectories(SourcesDirectoryPath)
-            .Where(x => !x.Contains("Cowdery"))
-            .Where(x => File.Exists(Path.Combine(x, "index.json")))
-            .Order();
+        var editionDirs = Directory.GetDirectories(SourcesDirectoryPath).Where(x => !x.Contains("JosephSmithPapers")).Where(x => File.Exists(Path.Combine(x, "index.json"))).Order();
 
         var editionPagesList = new List<EditionPages>();
         foreach (var editionDir in editionDirs)
@@ -69,8 +66,11 @@ public abstract class EditionsProcessorBase : IDisposable
             OcrBookInfo bookInfo = OcrBookInfo.LoadAsync(SourcesDirectoryPath, editionCode).Result!;
             string editionDirectoryPath = FilePathHelper.GetEditionDirectoryPath(SourcesDirectoryPath, editionCode);
             string scansDir = Path.Combine(editionDirectoryPath, Constants.ScansDirectoryName);
+            Directory.CreateDirectory(scansDir);
             string deskewedDir = Path.Combine(editionDirectoryPath, Constants.ScansDeskewedDirectoryName);
+            Directory.CreateDirectory(deskewedDir);
             string ocrDir = FilePathHelper.GetOcrDirectoryPath(SourcesDirectoryPath, bookInfo);
+            Directory.CreateDirectory(ocrDir);
 
             string[] imagePaths = Directory.GetFiles(scansDir);
             editionPagesList.Add(new EditionPages {
