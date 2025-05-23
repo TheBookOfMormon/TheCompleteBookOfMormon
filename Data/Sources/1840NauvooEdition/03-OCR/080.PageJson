@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1164,
   "ImageWidth": 772,
+  "ManuallyEdited": true,
   "PageNumber": 80,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 398,
-            "Y": 133,
-            "Width": 53,
-            "Height": 11
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 132,
-            "Width": 34,
-            "Height": 11
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 508,
-            "Y": 132,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 132,
-            "Width": 45,
-            "Height": 10
-          },
-          "Text": "NEPEIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -969,19 +918,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 244,
-            "Y": 311,
-            "Width": 1,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 250,
             "Y": 305,
             "Width": 63,
@@ -1182,7 +1118,7 @@
             "Width": 12,
             "Height": 14
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -1491,10 +1427,23 @@
           "Bounds": {
             "X": 656,
             "Y": 358,
-            "Width": 62,
+            "Width": 55,
             "Height": 15
           },
-          "Text": "knowsit"
+          "Text": "knows"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 716,
+            "Y": 358,
+            "Width": 12,
+            "Height": 15
+          },
+          "Text": "it"
         }
       ]
     },
@@ -1794,11 +1743,16 @@
             "Height": 15
           },
           "Text": "suffer"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 396,
+            "Width": 15,
+            "Height": 15
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 249,
@@ -3111,19 +3065,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 700,
-            "Y": 575,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 709,
             "Y": 569,
             "Width": 17,
@@ -3259,7 +3200,7 @@
             "Width": 68,
             "Height": 17
           },
-          "Text": "dumned"
+          "Text": "damned"
         }
       ]
     },
@@ -3429,11 +3370,16 @@
             "Height": 14
           },
           "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 607,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 250,
@@ -4005,7 +3951,7 @@
             "Width": 35,
             "Height": 15
           },
-          "Text": "clain"
+          "Text": "claim"
         }
       ]
     },
@@ -4135,12 +4081,8 @@
             "Width": 34,
             "Height": 15
           },
-          "Text": "deliy"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "deliv"
+        },
         {
           "Bounds": {
             "X": 722,
@@ -4149,11 +4091,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 249,
@@ -5363,11 +5301,16 @@
             "Height": 11
           },
           "Text": "trans"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 878,
+            "Width": 11,
+            "Height": 11
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 248,
@@ -6168,7 +6111,7 @@
             "Width": 88,
             "Height": 15
           },
-          "Text": "themsclves"
+          "Text": "themselves"
         }
       ]
     },
@@ -6463,6 +6406,10 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6525,34 +6472,27 @@
             "Height": 11
           },
           "Text": "coun"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 108,
-            "Y": 1118,
-            "Width": 69,
-            "Height": 4
+            "X": 725,
+            "Y": 1050,
+            "Width": 11,
+            "Height": 11
           },
-          "Text": "TY"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "-"
+        },
         {
           "Bounds": {
-            "X": 232,
-            "Y": 1119,
-            "Width": 37,
-            "Height": 3
+            "X": 53,
+            "Y": 126,
+            "Width": 24,
+            "Height": 16
           },
-          "Text": "rr"
+          "IsOnNextPage": true,
+          "Text": "sels"
         }
       ]
     }
   ]
-}
+}

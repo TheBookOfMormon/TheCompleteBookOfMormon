@@ -1,99 +1,9 @@
 {
   "ImageHeight": 1180,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 76,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 201,
-            "Y": 75,
-            "Width": 13,
-            "Height": 3
-          },
-          "Text": "EE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 239,
-            "Y": 76,
-            "Width": 34,
-            "Height": 3
-          },
-          "Text": "Lh"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 289,
-            "Y": 77,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "TT"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 386,
-            "Y": 154,
-            "Width": 52,
-            "Height": 11
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 154,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "BOOR"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 154,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 154,
-            "Width": 45,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -559,11 +469,16 @@
             "Height": 18
           },
           "Text": "jus"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 714,
+            "Y": 225,
+            "Width": 18,
+            "Height": 18
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 240,
@@ -571,7 +486,7 @@
             "Width": 47,
             "Height": 15
           },
-          "Text": "tifioth"
+          "Text": "tifieth"
         }
       ]
     },
@@ -2822,19 +2737,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 305,
-            "Y": 558,
-            "Width": 1,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 310,
             "Y": 551,
             "Width": 26,
@@ -3790,11 +3692,16 @@
             "Height": 20
           },
           "Text": "judg"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 710,
+            "Y": 664,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 239,
@@ -3884,6 +3791,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4374,12 +4282,17 @@
             "Width": 24,
             "Height": 14
           },
-          "Text": "hes"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "hea"
+        },
+        {
+          "Bounds": {
+            "X": 709,
+            "Y": 741,
+            "Width": 24,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 238,
@@ -4517,7 +4430,7 @@
             "Width": 37,
             "Height": 14
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -5103,11 +5016,16 @@
             "Height": 15
           },
           "Text": "peo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 709,
+            "Y": 859,
+            "Width": 9,
+            "Height": 9
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 238,
@@ -5804,12 +5722,17 @@
             "Width": 43,
             "Height": 16
           },
-          "Text": "geners"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "genera"
+        },
+        {
+          "Bounds": {
+            "X": 709,
+            "Y": 955,
+            "Width": 16,
+            "Height": 16
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 239,
@@ -6576,4 +6499,4 @@
       ]
     }
   ]
-}
+}

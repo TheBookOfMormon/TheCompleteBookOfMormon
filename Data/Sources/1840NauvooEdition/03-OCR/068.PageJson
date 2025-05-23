@@ -4462,6 +4462,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4475,6 +4476,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4846,9 +4848,9 @@
             "X": 226,
             "Y": 970,
             "Width": 25,
-            "Height": 36
+            "Height": 16
           },
-          "Text": "Lot"
+          "Text": "you"
         }
       ]
     },
@@ -4935,11 +4937,24 @@
         {
           "Bounds": {
             "X": 553,
-            "Y": 959,
-            "Width": 52,
-            "Height": 33
+            "Y": 974,
+            "Width": 16,
+            "Height": 15
           },
-          "Text": "PERT"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 574,
+            "Y": 974,
+            "Width": 37,
+            "Height": 15
+          },
+          "Text": "your"
         }
       ]
     },
@@ -4965,7 +4980,7 @@
             "Width": 65,
             "Height": 15
           },
-          "Text": "herefore"
+          "Text": "Wherefore"
         }
       ]
     },
