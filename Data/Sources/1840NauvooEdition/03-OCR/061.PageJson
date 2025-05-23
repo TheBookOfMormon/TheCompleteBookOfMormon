@@ -1,112 +1,9 @@
 {
   "ImageHeight": 1093,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 61,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 46,
-            "Width": 2,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 463,
-            "Y": 46,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 46,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 42,
-            "Width": 6,
-            "Height": 9
-          },
-          "Text": "ow"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 197,
-            "Y": 91,
-            "Width": 51,
-            "Height": 11
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 258,
-            "Y": 90,
-            "Width": 34,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 304,
-            "Y": 90,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 331,
-            "Y": 90,
-            "Width": 39,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1626,10 +1523,23 @@
           "Bounds": {
             "X": 443,
             "Y": 310,
-            "Width": 73,
+            "Width": 30,
             "Height": 11
           },
-          "Text": "mustsoon"
+          "Text": "must"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 487,
+            "Y": 310,
+            "Width": 30,
+            "Height": 11
+          },
+          "Text": "soon"
         }
       ]
     },
@@ -1652,10 +1562,23 @@
           "Bounds": {
             "X": 82,
             "Y": 325,
-            "Width": 57,
+            "Width": 42,
             "Height": 14
           },
-          "Text": "downin"
+          "Text": "down"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 129,
+            "Y": 325,
+            "Width": 15,
+            "Height": 14
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1756,15 +1679,24 @@
           "Bounds": {
             "X": 446,
             "Y": 326,
-            "Width": 66,
+            "Width": 17,
             "Height": 13
           },
-          "Text": "notravel"
+          "Text": "no"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 467,
+            "Y": 326,
+            "Width": 42,
+            "Height": 13
+          },
+          "Text": "travel"
+        },
         {
           "Bounds": {
             "X": 513,
@@ -1773,11 +1705,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 55,
@@ -2120,10 +2048,23 @@
           "Bounds": {
             "X": 153,
             "Y": 381,
-            "Width": 48,
+            "Width": 7,
             "Height": 14
           },
-          "Text": "Ihave"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 165,
+            "Y": 381,
+            "Width": 38,
+            "Height": 14
+          },
+          "Text": "have"
         }
       ]
     },
@@ -2357,7 +2298,7 @@
             "Width": 44,
             "Height": 14
           },
-          "Text": "desite"
+          "Text": "desire"
         }
       ]
     },
@@ -3016,6 +2957,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6708,4 +6650,4 @@
       ]
     }
   ]
-}
+}
