@@ -140,7 +140,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private void Move(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
     {
         bool wasAfter = elementIndex != 0 || isAfter();
-        int size = e.CtrlKey ? (Content.PageWidth / 75) : 1;
+        int size = e.CtrlKey ? (Content.PageWidth / 66) : 1;
         int xAdjustment = xFactor * size;
         int yAdjustment = yFactor * size;
         OcrRect bounds = Texts[elementIndex].Bounds;
