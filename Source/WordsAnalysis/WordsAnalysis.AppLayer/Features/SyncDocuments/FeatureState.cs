@@ -14,7 +14,7 @@ public record FeatureState
     public ImmutableHashSet<WordReference> SelectedWords { get; private init; } = [];
     public const int WordsInSection = 100;
 
-    public static FeatureState AddWord(FeatureState originalFeatureState, WordReference existingWordReference, OcrWord ocrWord, bool after)
+    public static FeatureState AddWord(FeatureState originalFeatureState, WordReference existingWordReference, OcrWord? ocrWord, bool after)
     {
         FeatureState newFeatureState = originalFeatureState;
         EditionState newEditionState = originalFeatureState.Editions[existingWordReference.BookInfo];

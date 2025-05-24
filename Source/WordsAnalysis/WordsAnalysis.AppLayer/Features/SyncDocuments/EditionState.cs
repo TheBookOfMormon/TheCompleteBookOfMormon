@@ -23,7 +23,7 @@ public record EditionState
         WordIndexToPageNumber = BuildWordIndexToPageNumber(pageMetasArray);
     }
 
-    public static EditionState AddWord(EditionState originalEditionState, WordReference existingWordReference, OcrWord newWord, bool after)
+    public static EditionState AddWord(EditionState originalEditionState, WordReference existingWordReference, OcrWord? newWord, bool after)
     {
         return EditionState.AddWordInternal(originalEditionState, existingWordReference, newWord, after);
     }

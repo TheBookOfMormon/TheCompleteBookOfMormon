@@ -155,6 +155,16 @@ public class ViewModel
         return WordsAnalysis.AppLayer.Features.SyncDocuments.ColumnData.GetColumnWords(State.Editions, RowData, columnIndex);
     }
 
+    public async Task InsertNullWordAsync(WordReference wordReference)
+    {
+        FeatureState newFeatureState = State;
+
+        newFeatureState = FeatureState.AddWord(newFeatureState, wordReference, ocrWord: null, after: false);
+        SetNewStateWithUndo("Add word", newFeatureState);
+        await LoadRowDataDataAsync(SectionIndex);
+        await StateHasChanged.InvokeAsync();
+    }
+
     public bool IsWordSelected(WordReference wordReference)
     {
         return State.IsWordSelected(wordReference);

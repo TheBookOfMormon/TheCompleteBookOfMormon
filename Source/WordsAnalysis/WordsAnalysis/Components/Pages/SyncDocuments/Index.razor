@@ -88,11 +88,11 @@
                                               OnClick=@(() => ViewModel.ShowColumnImagesAsync(capturedIndex)) />
                             </div>
                             <div class="word-table_word-index-number">
-                              @(index + 1)
+                                @(index + 1)
                             </div>
                         </th>
                     }
-                    <th style="min-width:100vw"/>
+                    <th style="min-width:100vw" />
                 }
             </tr>
         </thead>
@@ -124,7 +124,8 @@
                             @if (wordReference == ActiveWordReference && word != null)
                             {
                                 <div class="word-table_word-actions" @onclick:stopPropagation>
-                                <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync(columnIndex)) style="display:none;"/>
+                                    <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync(columnIndex)) style="display:none;" />
+                                    <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync(wordReference)) style="display:none;" />
                                     <FluentButton IconStart=@SharedIcons.Add
                                                   Class="word-table_word-action-button"
                                                   title=@($"Add word before/after {displayText}")
