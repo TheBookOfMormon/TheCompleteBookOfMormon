@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1127,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 92,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 134,
-            "Width": 51,
-            "Height": 10
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 452,
-            "Y": 134,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 134,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 134,
-            "Width": 38,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -919,10 +868,23 @@
           "Bounds": {
             "X": 513,
             "Y": 258,
-            "Width": 41,
+            "Width": 11,
             "Height": 17
           },
-          "Text": "asign"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 530,
+            "Y": 258,
+            "Width": 21,
+            "Height": 17
+          },
+          "Text": "sign"
         }
       ]
     },
@@ -1897,7 +1859,7 @@
             "Width": 57,
             "Height": 14
           },
-          "Text": "fathers"
+          "Text": "father\u0027s"
         }
       ]
     },
@@ -2131,7 +2093,7 @@
             "Width": 64,
             "Height": 18
           },
-          "Text": "Assyriar"
+          "Text": "Assyria"
         }
       ]
     },
@@ -2518,10 +2480,23 @@
           "Bounds": {
             "X": 434,
             "Y": 478,
-            "Width": 44,
+            "Width": 28,
             "Height": 13
           },
-          "Text": "thatis"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 466,
+            "Y": 478,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "is"
         }
       ]
     },
@@ -3701,10 +3676,23 @@
           "Bounds": {
             "X": 281,
             "Y": 625,
-            "Width": 75,
-            "Height": 17
+            "Width": 26,
+            "Height": 13
           },
-          "Text": "twosheep"
+          "Text": "two"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 311,
+            "Y": 625,
+            "Width": 26,
+            "Height": 13
+          },
+          "Text": "sheep"
         }
       ]
     },
@@ -3714,10 +3702,23 @@
           "Bounds": {
             "X": 377,
             "Y": 624,
-            "Width": 38,
+            "Width": 29,
             "Height": 14
           },
-          "Text": "andit"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 411,
+            "Y": 624,
+            "Width": 11,
+            "Height": 14
+          },
+          "Text": "it"
         }
       ]
     },
@@ -3792,10 +3793,23 @@
           "Bounds": {
             "X": 600,
             "Y": 623,
-            "Width": 102,
+            "Width": 27,
             "Height": 15
           },
-          "Text": "theabundance"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 632,
+            "Y": 623,
+            "Width": 27,
+            "Height": 15
+          },
+          "Text": "abundance"
         }
       ]
     },
@@ -4104,10 +4118,23 @@
           "Bounds": {
             "X": 660,
             "Y": 659,
-            "Width": 41,
+            "Width": 30,
             "Height": 14
           },
-          "Text": "Andi"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 695,
+            "Y": 659,
+            "Width": 11,
+            "Height": 14
+          },
+          "Text": "it"
         }
       ]
     },
@@ -4338,10 +4365,23 @@
           "Bounds": {
             "X": 468,
             "Y": 701,
-            "Width": 24,
+            "Width": 10,
             "Height": 10
           },
-          "Text": "ata"
+          "Text": "at"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 481,
+            "Y": 701,
+            "Width": 10,
+            "Height": 10
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4654,11 +4694,16 @@
             "Height": 13
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 699,
+            "Y": 733,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 248,
@@ -6881,4 +6926,4 @@
       ]
     }
   ]
-}
+}
