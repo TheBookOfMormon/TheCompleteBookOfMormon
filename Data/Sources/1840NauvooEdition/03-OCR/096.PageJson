@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1168,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 96,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 140,
-            "Width": 52,
-            "Height": 11
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 139,
-            "Width": 35,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 495,
-            "Y": 139,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 138,
-            "Width": 46,
-            "Height": 11
-          },
-          "Text": "NEFHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -364,11 +313,16 @@
             "Height": 15
           },
           "Text": "Is"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 704,
+            "Y": 191,
+            "Width": 11,
+            "Height": 15
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 241,
@@ -1039,33 +993,7 @@
             "Width": 68,
             "Height": 14
           },
-          "Text": "standard"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 375,
-            "Y": 293,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 382,
-            "Y": 285,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "bearer"
+          "Text": "standard-bearer"
         }
       ]
     },
@@ -1557,9 +1485,9 @@
             "X": 461,
             "Y": 340,
             "Width": 61,
-            "Height": 33
+            "Height": 13
           },
-          "Text": "eeapcd"
+          "Text": "escaped"
         }
       ]
     },
@@ -1689,7 +1617,7 @@
             "Width": 20,
             "Height": 12
           },
-          "Text": "in"
+          "Text": "stay"
         }
       ]
     },
@@ -4460,10 +4388,23 @@
           "Bounds": {
             "X": 670,
             "Y": 714,
-            "Width": 35,
+            "Width": 21,
             "Height": 14
           },
-          "Text": "Hes"
+          "Text": "He"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 696,
+            "Y": 714,
+            "Width": 21,
+            "Height": 14
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4810,11 +4751,24 @@
         {
           "Bounds": {
             "X": 394,
-            "Y": 771,
-            "Width": 102,
-            "Height": 19
+            "Y": 773,
+            "Width": 31,
+            "Height": 12
           },
-          "Text": "theirlodging"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 429,
+            "Y": 773,
+            "Width": 31,
+            "Height": 12
+          },
+          "Text": "lodging"
         }
       ]
     },
@@ -4863,10 +4817,23 @@
           "Bounds": {
             "X": 642,
             "Y": 770,
-            "Width": 56,
+            "Width": 15,
             "Height": 15
           },
-          "Text": "1safraid"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 662,
+            "Y": 770,
+            "Width": 15,
+            "Height": 15
+          },
+          "Text": "afraid"
         }
       ]
     },
@@ -5646,20 +5613,7 @@
             "Width": 34,
             "Height": 9
           },
-          "Text": "duck"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 869,
-            "Width": 20,
-            "Height": 28
-          },
-          "Text": "bom"
+          "Text": "Jerusalem"
         }
       ]
     },
@@ -6935,4 +6889,4 @@
       ]
     }
   ]
-}
+}

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1140,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 104,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 390,
-            "Y": 114,
-            "Width": 52,
-            "Height": 11
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 114,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 114,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 526,
-            "Y": 113,
-            "Width": 40,
-            "Height": 11
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -325,11 +274,16 @@
             "Height": 14
           },
           "Text": "genera"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 706,
+            "Y": 171,
+            "Width": 9,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 242,
@@ -1763,6 +1717,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2904,11 +2859,16 @@
             "Height": 14
           },
           "Text": "pro"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 704,
+            "Y": 530,
+            "Width": 21,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 239,
@@ -3739,6 +3699,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3991,6 +3952,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4183,11 +4145,16 @@
             "Height": 15
           },
           "Text": "peo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 703,
+            "Y": 718,
+            "Width": 16,
+            "Height": 11
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 238,
@@ -4483,10 +4450,23 @@
           "Bounds": {
             "X": 334,
             "Y": 776,
-            "Width": 28,
+            "Width": 12,
             "Height": 9
           },
-          "Text": "asa"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 349,
+            "Y": 776,
+            "Width": 12,
+            "Height": 9
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5164,10 +5144,23 @@
           "Bounds": {
             "X": 680,
             "Y": 846,
-            "Width": 25,
+            "Width": 14,
             "Height": 14
           },
-          "Text": "isto"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 699,
+            "Y": 846,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "to"
         }
       ]
     },
@@ -6185,6 +6178,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6429,11 +6423,7 @@
             "Height": 16
           },
           "Text": "breth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 691,
@@ -6442,34 +6432,18 @@
             "Height": 15
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 101,
-            "Y": 1086,
-            "Width": 2,
-            "Height": 2
+            "X": 39,
+            "Y": 138,
+            "Width": 17,
+            "Height": 14
           },
-          "Text": "Ee"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 109,
-            "Y": 1087,
-            "Width": 46,
-            "Height": 4
-          },
-          "Text": "ta"
+          "IsOnNextPage": true,
+          "Text": "ren"
         }
       ]
     }
   ]
-}
+}

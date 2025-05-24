@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1061,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 103,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 152,
-            "Y": 100,
-            "Width": 48,
-            "Height": 10
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 209,
-            "Y": 100,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 253,
-            "Y": 100,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 279,
-            "Y": 101,
-            "Width": 37,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -275,9 +224,9 @@
             "X": 202,
             "Y": 148,
             "Width": 62,
-            "Height": 31
+            "Height": 16
           },
-          "Text": "io"
+          "Text": "destroyed"
         }
       ]
     },
@@ -602,7 +551,7 @@
             "Width": 6,
             "Height": 11
           },
-          "Text": "ea"
+          "Text": "yea"
         }
       ]
     },
@@ -715,11 +664,11 @@
         {
           "Bounds": {
             "X": 30,
-            "Y": 207,
+            "Y": 217,
             "Width": 26,
-            "Height": 26
+            "Height": 16
           },
-          "Text": "ot"
+          "Text": "Jews"
         }
       ]
     },
@@ -827,6 +776,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1496,10 +1446,23 @@
           "Bounds": {
             "X": 30,
             "Y": 324,
-            "Width": 51,
-            "Height": 17
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "thatday"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 62,
+            "Y": 324,
+            "Width": 26,
+            "Height": 13
+          },
+          "Text": "day"
         }
       ]
     },
@@ -1785,7 +1748,7 @@
             "Width": 25,
             "Height": 14
           },
-          "Text": "und"
+          "Text": "and"
         }
       ]
     },
@@ -1912,10 +1875,23 @@
           "Bounds": {
             "X": 65,
             "Y": 376,
-            "Width": 42,
+            "Width": 14,
             "Height": 13
           },
-          "Text": "atthat"
+          "Text": "at"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 83,
+            "Y": 376,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "that"
         }
       ]
     },
@@ -2903,7 +2879,7 @@
             "Width": 27,
             "Height": 13
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -3748,7 +3724,7 @@
             "Width": 20,
             "Height": 10
           },
-          "Text": "tue"
+          "Text": "the"
         }
       ]
     },
@@ -3818,7 +3794,7 @@
             "Width": 60,
             "Height": 13
           },
-          "Text": "Messinh"
+          "Text": "Messiah"
         }
       ]
     },
@@ -4729,11 +4705,7 @@
             "Height": 9
           },
           "Text": "can"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 451,
@@ -4742,6 +4714,15 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 26,
+            "Y": 744,
+            "Width": 19,
+            "Height": 11
+          },
+          "Text": "not"
         }
       ]
     },
@@ -4749,12 +4730,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 26,
+            "X": 49,
             "Y": 744,
-            "Width": 41,
+            "Width": 19,
             "Height": 11
           },
-          "Text": "noterr"
+          "Text": "err"
         }
       ]
     },
@@ -5122,6 +5103,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5755,7 +5737,7 @@
             "Width": 12,
             "Height": 15
           },
-          "Text": "8s"
+          "Text": "as"
         }
       ]
     },
@@ -5906,6 +5888,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 23,
+            "Y": 884,
+            "Width": 10,
+            "Height": 10
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 40,
             "Y": 884,
             "Width": 30,
@@ -6042,11 +6037,7 @@
             "Height": 14
           },
           "Text": "Je"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 442,
@@ -6055,6 +6046,15 @@
             "Height": 9
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 27,
+            "Y": 899,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "sus"
         }
       ]
     },
@@ -6062,25 +6062,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 25,
-            "Y": 900,
-            "Width": 20,
-            "Height": 26
+            "X": 53,
+            "Y": 899,
+            "Width": 44,
+            "Height": 13
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 52,
-            "Y": 898,
-            "Width": 25,
-            "Height": 30
-          },
-          "Text": "fr"
+          "Text": "Christ"
         }
       ]
     },
@@ -6210,7 +6197,7 @@
             "Width": 19,
             "Height": 10
           },
-          "Text": "ved"
+          "Text": "saved"
         }
       ]
     },
@@ -6332,4 +6319,4 @@
       ]
     }
   ]
-}
+}
