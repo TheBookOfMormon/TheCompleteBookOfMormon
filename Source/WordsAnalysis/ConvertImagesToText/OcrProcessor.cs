@@ -174,7 +174,7 @@ public partial class OcrProcessor : EditionsProcessorBase
         var engine = new TesseractEngine(directoryPath, "eng", EngineMode.LstmOnly);
         if (multiColumn)
         {
-            engine.DefaultPageSegMode = PageSegMode.Auto;
+            engine.DefaultPageSegMode = PageSegMode.SingleBlock;
         }
         else
         {

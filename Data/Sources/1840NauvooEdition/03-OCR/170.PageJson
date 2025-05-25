@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1139,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 170,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 123,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 122,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 122,
-            "Width": 53,
-            "Height": 10
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 155,
-            "Width": 94,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 155,
-            "Width": 15,
-            "Height": 14
-          },
-          "Text": "VI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -506,7 +442,7 @@
             "Width": 52,
             "Height": 14
           },
-          "Text": "ZENIFF"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -660,9 +596,9 @@
             "X": 394,
             "Y": 321,
             "Width": 54,
-            "Height": 36
+            "Height": 21
           },
-          "Text": "haying"
+          "Text": "having"
         }
       ]
     },
@@ -767,11 +703,16 @@
             "Height": 15
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 729,
+            "Y": 324,
+            "Width": 13,
+            "Height": 15
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 277,
@@ -870,7 +811,7 @@
             "Width": 55,
             "Height": 14
           },
-          "Text": "fathers"
+          "Text": "fathers\u0027"
         }
       ]
     },
@@ -913,6 +854,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -922,12 +864,17 @@
             "Width": 17,
             "Height": 14
           },
-          "Text": "har"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "hav"
+        },
+        {
+          "Bounds": {
+            "X": 730,
+            "Y": 343,
+            "Width": 17,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 276,
@@ -1508,11 +1455,16 @@
             "Height": 14
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 730,
+            "Y": 417,
+            "Width": 11,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 276,
@@ -1897,33 +1849,7 @@
             "Width": 41,
             "Height": 14
           },
-          "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 688,
-            "Y": 480,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 694,
-            "Y": 472,
-            "Width": 35,
-            "Height": 19
-          },
-          "Text": "thirsty"
+          "Text": "blood-thirsty"
         }
       ]
     },
@@ -2314,11 +2240,16 @@
             "Height": 9
           },
           "Text": "num"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 730,
+            "Y": 533,
+            "Width": 24,
+            "Height": 9
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 276,
@@ -2607,6 +2538,24 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 712,
+            "Y": 566,
+            "Width": 13,
+            "Height": 14
+          },
+          "Text": "Za"
+        },
+        {
+          "Bounds": {
+            "X": 730,
+            "Y": 566,
+            "Width": 13,
+            "Height": 14
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
             "X": 276,
             "Y": 584,
             "Width": 62,
@@ -2743,11 +2692,16 @@
             "Height": 14
           },
           "Text": "chil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 733,
+            "Y": 584,
+            "Width": 21,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 277,
@@ -3049,6 +3003,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 727,
+            "Y": 626,
+            "Width": 18,
+            "Height": 14
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 276,
             "Y": 645,
             "Width": 49,
@@ -3184,7 +3151,7 @@
             "Width": 13,
             "Height": 13
           },
-          "Text": "tht"
+          "Text": "the"
         }
       ]
     },
@@ -3340,7 +3307,7 @@
             "Width": 20,
             "Height": 13
           },
-          "Text": "wid"
+          "Text": "with"
         }
       ]
     },
@@ -3470,7 +3437,7 @@
             "Width": 59,
             "Height": 14
           },
-          "Text": "rememba"
+          "Text": "remember"
         }
       ]
     },
@@ -3574,7 +3541,7 @@
             "Width": 32,
             "Height": 19
           },
-          "Text": "days"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -3587,12 +3554,8 @@
             "Width": 39,
             "Height": 14
           },
-          "Text": "wande"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "wander"
+        },
         {
           "Bounds": {
             "X": 722,
@@ -3601,11 +3564,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 276,
@@ -3743,7 +3702,7 @@
             "Width": 22,
             "Height": 18
           },
-          "Text": "plac"
+          "Text": "place"
         }
       ]
     },
@@ -3886,7 +3845,7 @@
             "Width": 19,
             "Height": 15
           },
-          "Text": "las"
+          "Text": "land"
         }
       ]
     },
@@ -4094,7 +4053,7 @@
             "Width": 12,
             "Height": 16
           },
-          "Text": "nf"
+          "Text": "my"
         }
       ]
     },
@@ -4247,10 +4206,23 @@
           "Bounds": {
             "X": 679,
             "Y": 790,
-            "Width": 41,
+            "Width": 26,
             "Height": 13
           },
-          "Text": "knowl"
+          "Text": "know"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 709,
+            "Y": 790,
+            "Width": 26,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -4390,10 +4362,23 @@
           "Bounds": {
             "X": 712,
             "Y": 806,
-            "Width": 14,
+            "Width": 12,
             "Height": 15
           },
-          "Text": "ifl"
+          "Text": "if"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 806,
+            "Width": 12,
+            "Height": 15
+          },
+          "Text": "I"
         }
       ]
     },
@@ -4689,10 +4674,23 @@
           "Bounds": {
             "X": 679,
             "Y": 846,
-            "Width": 40,
+            "Width": 32,
             "Height": 13
           },
-          "Text": "withm"
+          "Text": "with"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 846,
+            "Width": 21,
+            "Height": 13
+          },
+          "Text": "me"
         }
       ]
     },
@@ -4796,33 +4794,7 @@
             "Width": 35,
             "Height": 14
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 873,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 585,
-            "Y": 865,
-            "Width": 43,
-            "Height": 18
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -4861,7 +4833,7 @@
             "Width": 18,
             "Height": 18
           },
-          "Text": "las"
+          "Text": "land"
         }
       ]
     },
@@ -4991,7 +4963,7 @@
             "Width": 27,
             "Height": 13
           },
-          "Text": "shoe"
+          "Text": "should"
         }
       ]
     },
@@ -5160,7 +5132,7 @@
             "Width": 8,
             "Height": 21
           },
-          "Text": "i"
+          "Text": "the"
         }
       ]
     },
@@ -5303,7 +5275,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "bul"
+          "Text": "build"
         }
       ]
     },
@@ -5459,7 +5431,7 @@
             "Width": 12,
             "Height": 13
           },
-          "Text": "ib"
+          "Text": "the"
         }
       ]
     },
@@ -5537,33 +5509,7 @@
             "Width": 35,
             "Height": 14
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 966,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 958,
-            "Width": 44,
-            "Height": 18
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -5628,7 +5574,7 @@
             "Width": 37,
             "Height": 15
           },
-          "Text": "Shilos"
+          "Text": "Shilom"
         }
       ]
     },
@@ -5784,12 +5730,17 @@
             "Width": 14,
             "Height": 9
           },
-          "Text": "ms"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "man"
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 979,
+            "Width": 14,
+            "Height": 9
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 281,
@@ -5954,11 +5905,16 @@
             "Height": 14
           },
           "Text": "bar"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 729,
+            "Y": 993,
+            "Width": 23,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 281,
@@ -6109,9 +6065,9 @@
             "Width": 6,
             "Height": 22
           },
-          "Text": "ol"
+          "Text": "all"
         }
       ]
     }
   ]
-}
+}
