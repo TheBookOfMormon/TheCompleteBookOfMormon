@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1059,
   "ImageWidth": 783,
+  "ManuallyEdited": true,
   "PageNumber": 125,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 194,
-            "Y": 100,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 236,
-            "Y": 101,
-            "Width": 14,
-            "Height": 8
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 261,
-            "Y": 101,
-            "Width": 38,
-            "Height": 9
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -376,7 +338,7 @@
             "Width": 25,
             "Height": 13
           },
-          "Text": "gaith"
+          "Text": "saith"
         }
       ]
     },
@@ -663,11 +625,7 @@
             "Height": 13
           },
           "Text": "pow"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 454,
@@ -676,6 +634,15 @@
             "Height": 7
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 48,
+            "Y": 221,
+            "Width": 11,
+            "Height": 10
+          },
+          "Text": "er"
         }
       ]
     },
@@ -683,12 +650,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 48,
+            "X": 62,
             "Y": 221,
-            "Width": 24,
+            "Width": 11,
             "Height": 10
           },
-          "Text": "erof"
+          "Text": "of"
         }
       ]
     },
@@ -1717,10 +1684,23 @@
           "Bounds": {
             "X": 47,
             "Y": 338,
-            "Width": 32,
+            "Width": 13,
             "Height": 12
           },
-          "Text": "inthe"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 64,
+            "Y": 338,
+            "Width": 13,
+            "Height": 12
+          },
+          "Text": "the"
         }
       ]
     },
@@ -1825,11 +1805,7 @@
             "Height": 11
           },
           "Text": "abomi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 457,
@@ -1838,11 +1814,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 47,
@@ -1850,7 +1822,7 @@
             "Width": 34,
             "Height": 12
           },
-          "Text": "pation"
+          "Text": "nation"
         }
       ]
     },
@@ -2505,7 +2477,7 @@
             "Width": 31,
             "Height": 16
           },
-          "Text": "thev"
+          "Text": "they"
         }
       ]
     },
@@ -2970,10 +2942,23 @@
           "Bounds": {
             "X": 47,
             "Y": 491,
-            "Width": 31,
+            "Width": 7,
             "Height": 17
           },
-          "Text": "timy"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 60,
+            "Y": 491,
+            "Width": 7,
+            "Height": 17
+          },
+          "Text": "my"
         }
       ]
     },
@@ -4934,11 +4919,7 @@
             "Height": 13
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 462,
@@ -4947,11 +4928,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 48,
@@ -4959,7 +4936,7 @@
             "Width": 42,
             "Height": 13
           },
-          "Text": "'quities"
+          "Text": "iquities"
         }
       ]
     },
@@ -5934,6 +5911,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 45,
+            "Y": 883,
+            "Width": 14,
+            "Height": 15
+          },
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 48,
             "Y": 883,
             "Width": 47,
@@ -6204,4 +6194,4 @@
       ]
     }
   ]
-}
+}

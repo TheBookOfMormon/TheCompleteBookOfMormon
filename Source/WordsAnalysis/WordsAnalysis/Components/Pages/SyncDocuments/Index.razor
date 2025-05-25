@@ -43,7 +43,7 @@
                              Tooltip="Merge words (Alt M)"
                              Enabled=@ViewModel.CanMergeWords
                              AccessKey="M"
-                             OnClick=@ViewModel.MergeSelectedWordsAsync />
+                             OnClick=@(() => ViewModel.MergeSelectedWordsAsync()) />
             <IconPanelButton Icon=Icons.Filled.Size24.AlignLeft
                              Tooltip="Align words (Alt L)"
                              Enabled=@ViewModel.CanAlignSelectedWords
@@ -53,7 +53,7 @@
                              Tooltip="Delete words (Alt D)"
                              Enabled=ViewModel.CanDeletedWords
                              AccessKey="D"
-                             OnClick=@ViewModel.DeleteSelectedWordsAsync />
+                             OnClick=@(() => ViewModel.DeleteSelectedWordsAsync()) />
             <IconPanelButton Icon=Icons.Filled.Size24.ChannelSubtract
                              Tooltip="Delete section (ALT X)"
                              AccessKey="X"
@@ -126,6 +126,8 @@
                                 <div class="word-table_word-actions" @onclick:stopPropagation>
                                     <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync(columnIndex)) style="display:none;" />
                                     <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync(wordReference)) style="display:none;" />
+                                    <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync(wordReference)) style="display:none;" />
+                                    <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync(wordReference)) style="display:none;" />
                                     <FluentButton IconStart=@SharedIcons.Add
                                                   Class="word-table_word-action-button"
                                                   title=@($"Add word before/after {displayText}")

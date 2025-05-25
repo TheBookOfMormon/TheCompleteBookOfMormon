@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1132,
   "ImageWidth": 772,
+  "ManuallyEdited": true,
   "PageNumber": 122,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 108,
-            "Width": 35,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 497,
-            "Y": 108,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 108,
-            "Width": 40,
-            "Height": 10
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +143,7 @@
             "Width": 19,
             "Height": 17
           },
-          "Text": "hin"
+          "Text": "him"
         }
       ]
     },
@@ -605,6 +567,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 723,
+            "Y": 202,
+            "Width": 20,
+            "Height": 11
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 276,
             "Y": 218,
             "Width": 37,
@@ -844,7 +819,7 @@
             "Width": 18,
             "Height": 10
           },
-          "Text": "mus"
+          "Text": "must"
         }
       ]
     },
@@ -1004,6 +979,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1387,10 +1363,10 @@
           "Bounds": {
             "X": 306,
             "Y": 335,
-            "Width": 3,
+            "Width": 31,
             "Height": 9
           },
-          "Text": "i"
+          "Text": "sword"
         }
       ]
     },
@@ -1751,10 +1727,23 @@
           "Bounds": {
             "X": 274,
             "Y": 386,
-            "Width": 106,
+            "Width": 51,
             "Height": 14
           },
-          "Text": "whososhould"
+          "Text": "whoso"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 330,
+            "Y": 386,
+            "Width": 51,
+            "Height": 14
+          },
+          "Text": "should"
         }
       ]
     },
@@ -1936,10 +1925,12 @@
             "Width": 22,
             "Height": 14
           },
-          "Text": "&e"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2144,7 +2135,7 @@
             "Width": 10,
             "Height": 14
           },
-          "Text": "le"
+          "Text": "let"
         }
       ]
     },
@@ -2469,7 +2460,7 @@
             "Width": 82,
             "Height": 15
           },
-          "Text": "nevertheles"
+          "Text": "nevertheless"
         }
       ]
     },
@@ -2561,11 +2552,16 @@
             "Height": 14
           },
           "Text": "Zoram"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 497,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 274,
@@ -2639,6 +2635,19 @@
             "Height": 14
           },
           "Text": "But"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 516,
+            "Width": 23,
+            "Height": 14
+          },
+          "Text": "I"
         }
       ]
     },
@@ -2837,6 +2846,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2898,7 +2908,7 @@
             "Width": 15,
             "Height": 13
           },
-          "Text": "ths"
+          "Text": "the"
         }
       ]
     },
@@ -2911,7 +2921,7 @@
             "Width": 39,
             "Height": 18
           },
-          "Text": "eople"
+          "Text": "people"
         }
       ]
     },
@@ -3029,6 +3039,19 @@
             "Height": 17
           },
           "Text": "Nephi"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 274,
+            "Y": 592,
+            "Width": 7,
+            "Height": 14
+          },
+          "Text": "I"
         }
       ]
     },
@@ -3380,11 +3403,16 @@
             "Height": 9
           },
           "Text": "un"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 633,
+            "Width": 12,
+            "Height": 9
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 274,
@@ -3519,10 +3547,23 @@
           "Bounds": {
             "X": 688,
             "Y": 647,
-            "Width": 42,
+            "Width": 35,
             "Height": 14
           },
-          "Text": "hardin"
+          "Text": "hard"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 728,
+            "Y": 647,
+            "Width": 35,
+            "Height": 14
+          },
+          "Text": "in"
         }
       ]
     },
@@ -3873,7 +3914,7 @@
             "Width": 10,
             "Height": 14
           },
-          "Text": "ye"
+          "Text": "yea"
         }
       ]
     },
@@ -4141,6 +4182,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 720,
+            "Y": 741,
+            "Width": 8,
+            "Height": 16
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 274,
             "Y": 760,
             "Width": 45,
@@ -4260,10 +4314,23 @@
           "Bounds": {
             "X": 683,
             "Y": 760,
-            "Width": 47,
+            "Width": 39,
             "Height": 14
           },
-          "Text": "themia"
+          "Text": "them"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 727,
+            "Y": 760,
+            "Width": 39,
+            "Height": 14
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4510,7 +4577,7 @@
             "Width": 15,
             "Height": 13
           },
-          "Text": "bee"
+          "Text": "been"
         }
       ]
     },
@@ -5056,7 +5123,7 @@
             "Width": 26,
             "Height": 14
           },
-          "Text": "then"
+          "Text": "them"
         }
       ]
     },
@@ -5316,7 +5383,7 @@
             "Width": 14,
             "Height": 11
           },
-          "Text": "ou"
+          "Text": "our"
         }
       ]
     },
@@ -5433,7 +5500,7 @@
             "Width": 58,
             "Height": 16
           },
-          "Text": "arments"
+          "Text": "garments"
         }
       ]
     },
@@ -5563,7 +5630,7 @@
             "Width": 17,
             "Height": 14
           },
-          "Text": "las"
+          "Text": "last"
         }
       ]
     },
@@ -5576,9 +5643,9 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "ay"
+          "Text": "day"
         }
       ]
     }
   ]
-}
+}

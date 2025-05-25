@@ -79,27 +79,30 @@ public class ViewModel
         await StateHasChanged.InvokeAsync();
     }
 
-    public async Task DeleteSelectedWordsAsync()
+    public async Task DeleteSelectedWordsAsync(WordReference? wordReference = null)
     {
+        FeatureState newState = State;
+        if (newState.SelectedWords.Count == 0 && wordReference != null)
+            newState = FeatureState.SelectWord(newState, wordReference);
+
         int numberOfSelectedEditions = SelectedWords.Select(x => x.BookInfo).Distinct().Count();
         string description;
         if (numberOfSelectedEditions > 1)
             description = $"Delete {SelectedWords.Count} words from {numberOfSelectedEditions} editions";
         else
         {
-            WordReference firstSelectedWordReference = SelectedWords.First();
-            if (SelectedWords.Count > 1)
+            WordReference firstSelectedWordReference = newState.SelectedWords.First();
+            if (newState.SelectedWords.Count > 1)
                 description = $"Delete {SelectedWords.Count} words from {firstSelectedWordReference.BookInfo.Code}";
             else
             {
-                OcrWord? selectedWord = firstSelectedWordReference.GetWord(State.Editions[firstSelectedWordReference.BookInfo]);
+                OcrWord? selectedWord = firstSelectedWordReference.GetWord(newState.Editions[firstSelectedWordReference.BookInfo]);
                 if (selectedWord == null)
                     description = $"Delete spacer word from {firstSelectedWordReference.BookInfo.Code}";
                 else
                     description = $"Delete word {selectedWord.GetCombinedText()} from {firstSelectedWordReference.BookInfo.Code}";
             }
         }
-        FeatureState newState = State;
         newState = FeatureState.DeleteSelectedWords(newState);
         SetNewStateWithUndo(description, newState);
         await LoadRowDataDataAsync(SectionIndex);
@@ -178,11 +181,14 @@ public class ViewModel
         UpdateSavedPageHashes(newState.RowData);
     }
 
-    public async Task MergeSelectedWordsAsync()
+    public async Task MergeSelectedWordsAsync(WordReference? wordReference = null)
     {
-        FeatureState featureState = State;
-        featureState = FeatureState.MergeWords(featureState);
-        SetNewStateWithUndo("Composite words", featureState);
+        FeatureState newState = State;
+        if (newState.SelectedWords.Count == 0 && wordReference != null)
+            newState = FeatureState.SelectWord(newState, wordReference);
+
+        newState = FeatureState.MergeWords(newState);
+        SetNewStateWithUndo("Composite words", newState);
         await LoadRowDataDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
