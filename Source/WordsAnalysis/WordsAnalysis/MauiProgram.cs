@@ -11,15 +11,6 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .UseSentry(options =>
-            {
-                options.Dsn = Environment.GetEnvironmentVariable("TCBOM_SentryIO_DSN");
-                options.Debug = true;
-                options.TracesSampleRate = 1.0;
-                options.SendDefaultPii = true;
-                options.AutoSessionTracking = true;
-                options.IsGlobalModeEnabled = true;
-            })
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

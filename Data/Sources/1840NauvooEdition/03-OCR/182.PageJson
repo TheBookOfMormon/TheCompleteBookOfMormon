@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1141,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 182,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 438,
-            "Y": 134,
-            "Width": 35,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 134,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 134,
-            "Width": 49,
-            "Height": 10
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -182,6 +144,24 @@
             "Height": 14
           },
           "Text": "de"
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 170,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 268,
+            "Y": 187,
+            "Width": 31,
+            "Height": 14
+          },
+          "Text": "ceit"
         }
       ]
     },
@@ -189,12 +169,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 268,
+            "X": 304,
             "Y": 187,
-            "Width": 46,
+            "Width": 15,
             "Height": 14
           },
-          "Text": "ceitin"
+          "Text": "in"
         }
       ]
     },
@@ -376,7 +356,7 @@
             "Width": 20,
             "Height": 16
           },
-          "Text": "hip"
+          "Text": "him"
         }
       ]
     },
@@ -532,7 +512,7 @@
             "Width": 20,
             "Height": 14
           },
-          "Text": "gin"
+          "Text": "sin"
         }
       ]
     },
@@ -1231,10 +1211,23 @@
           "Bounds": {
             "X": 690,
             "Y": 316,
-            "Width": 33,
+            "Width": 23,
             "Height": 15
           },
-          "Text": "hima"
+          "Text": "him"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 718,
+            "Y": 316,
+            "Width": 10,
+            "Height": 15
+          },
+          "Text": "a"
         }
       ]
     },
@@ -3598,11 +3591,7 @@
             "Height": 13
           },
           "Text": "disown"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 717,
@@ -3611,11 +3600,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 265,
@@ -3623,7 +3608,7 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "od"
+          "Text": "ed"
         }
       ]
     },
@@ -3718,6 +3703,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4326,11 +4312,7 @@
             "Height": 14
           },
           "Text": "sub"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 716,
@@ -4339,6 +4321,15 @@
             "Height": 2
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 271,
+            "Y": 748,
+            "Width": 33,
+            "Height": 9
+          },
+          "Text": "ject"
         }
       ]
     },
@@ -4469,11 +4460,16 @@
             "Height": 14
           },
           "Text": "swal"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 743,
+            "Width": 22,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 271,
@@ -4481,7 +4477,7 @@
             "Width": 41,
             "Height": 14
           },
-          "Text": "owed"
+          "Text": "lowed"
         }
       ]
     },
@@ -5118,12 +5114,17 @@
             "Width": 24,
             "Height": 14
           },
-          "Text": "chik"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "chil"
+        },
+        {
+          "Bounds": {
+            "X": 723,
+            "Y": 835,
+            "Width": 24,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 266,
@@ -5366,11 +5367,16 @@
             "Height": 14
           },
           "Text": "ini"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 872,
+            "Width": 14,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 266,
@@ -5742,7 +5748,7 @@
             "Width": 21,
             "Height": 14
           },
-          "Text": "yoy"
+          "Text": "you"
         }
       ]
     },
@@ -6011,11 +6017,11 @@
         {
           "Bounds": {
             "X": 610,
-            "Y": 954,
+            "Y": 969,
             "Width": 29,
-            "Height": 29
+            "Height": 14
           },
-          "Text": "vol"
+          "Text": "ye"
         }
       ]
     },
@@ -6054,7 +6060,7 @@
             "Width": 36,
             "Height": 14
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -6340,12 +6346,8 @@
             "Width": 17,
             "Height": 15
           },
-          "Text": "pre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "pro"
+        },
         {
           "Bounds": {
             "X": 713,
@@ -6354,11 +6356,7 @@
             "Height": 15
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 267,
@@ -6475,4 +6473,4 @@
       ]
     }
   ]
-}
+}

@@ -5420,11 +5420,11 @@
         {
           "Bounds": {
             "X": 377,
-            "Y": 878,
-            "Width": 21,
-            "Height": 28
+            "Y": 893,
+            "Width": 75,
+            "Height": 13
           },
-          "Text": "rv"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -5489,7 +5489,7 @@
             "Width": 19,
             "Height": 16
           },
-          "Text": "Lor"
+          "Text": "Lord"
         }
       ]
     },
@@ -5620,11 +5620,16 @@
             "Height": 13
           },
           "Text": "up"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 732,
+            "Y": 913,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 281,
@@ -5757,6 +5762,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 719,
+            "Y": 928,
+            "Width": 26,
+            "Height": 20
+          },
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 281,
             "Y": 949,
             "Width": 13,
@@ -5875,11 +5893,11 @@
         {
           "Bounds": {
             "X": 638,
-            "Y": 935,
+            "Y": 950,
             "Width": 27,
-            "Height": 28
+            "Height": 13
           },
-          "Text": "od"
+          "Text": "and"
         }
       ]
     },
@@ -5931,33 +5949,7 @@
             "Width": 39,
             "Height": 19
           },
-          "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 974,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 966,
-            "Width": 50,
-            "Height": 19
-          },
-          "Text": "thirsty"
+          "Text": "blood-thirsty"
         }
       ]
     },
@@ -6165,7 +6157,7 @@
             "Width": 31,
             "Height": 14
           },
-          "Text": "dnvel"
+          "Text": "driven"
         }
       ]
     },
@@ -6291,11 +6283,24 @@
         {
           "Bounds": {
             "X": 649,
-            "Y": 999,
-            "Width": 78,
-            "Height": 23
+            "Y": 1005,
+            "Width": 64,
+            "Height": 12
           },
-          "Text": "iniquitiesof"
+          "Text": "iniquities"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 1005,
+            "Width": 13,
+            "Height": 12
+          },
+          "Text": "of"
         }
       ]
     },
@@ -6426,6 +6431,25 @@
             "Height": 16
           },
           "Text": "wilder"
+        },
+        {
+          "Bounds": {
+            "X": 731,
+            "Y": 1019,
+            "Width": 35,
+            "Height": 16
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 55,
+            "Y": 154,
+            "Width": 12,
+            "Height": 9
+          },
+          "IsOnNextPage": true,
+          "Text": "ness"
         }
       ]
     }
