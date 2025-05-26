@@ -6,23 +6,45 @@
 
 <FluentDialogBody>
     <div>
-        <AutoFocus>
-            <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount />
-        </AutoFocus>
+        <FluentRadioGroup @bind-Value=Position @bind-Value:after=PositionTypeChanged>
+            <FluentRadio Value="DeleteWordsPosition.Sequential">Sequential</FluentRadio>
+            <FluentRadio Value="DeleteWordsPosition.Left">Left of word</FluentRadio>
+            <FluentRadio Value="DeleteWordsPosition.Right">Right of word</FluentRadio>
+        </FluentRadioGroup>
     </div>
-    <div>
-        @for (int i = 0; i < Content.Words.Length; i++)
-        {
-            int capturedI = i;
-            string selected = i < DeleteCount ? "--selected" : "";
-            <span>
-                <span class="@selected selectable-word" title=@($"Delete up to word {capturedI + 1}") @onclick=@(() => SetDeleteCount(capturedI + 1))>
-                    @Content.Words[i].Value
+    @if (Position == DeleteWordsPosition.Sequential)
+    {
+        <div>
+            <AutoFocus>
+                <InputNumber type="number" min=1 max=@(Content.Words.Length) @bind-Value=DeleteCount />
+            </AutoFocus>
+        </div>
+        <div>
+            @for (int i = 0; i < Content.Words.Length; i++)
+            {
+                int capturedI = i;
+                string selected = i < DeleteCount ? "--selected" : "";
+                <span>
+                    <span class="@selected selectable-word" title=@($"Delete up to word {capturedI + 1}") @onclick=@(() => SetDeleteCount(capturedI + 1))>
+                        @Content.Words[i].Value
+                    </span>
+                    &nbsp;
                 </span>
-                &nbsp;
-            </span>
-        }
-    </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div>
+            <AutoFocus>
+                <InputNumber type="number" min=1 max=@PageWidth @bind-Value=DeletePosition/>
+            </AutoFocus>
+        </div>
+        <div style="position:relative; overflow: auto; width:@(PageWidth)px; height:@(PageHeight)px;">
+            <img style="position:absolute; left: 0; top: 0; width:@(PageWidth)px; height:@(PageHeight)px;" src=@PageImageData />
+            <div style="position:absolute; top: 0; bottom: 0; background-color: red; width:4px; left:@(DeletePosition)px;" />
+        </div>
+    }
 </FluentDialogBody>
 
 <FluentDialogFooter>
