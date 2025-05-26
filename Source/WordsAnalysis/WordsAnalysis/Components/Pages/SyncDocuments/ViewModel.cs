@@ -49,9 +49,9 @@ public class ViewModel
 
     public async Task AddWordAsync(WordReference existingWordReference, int columnIndex)
     {
-        int imageWidth = State.Editions[existingWordReference.BookInfo].LoadedPages[existingWordReference.PageNumber].Page.ImageWidth;
+        OcrPage page = State.Editions[existingWordReference.BookInfo].LoadedPages[existingWordReference.PageNumber].Page;
         var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
-        var content = new EditWordDialog.EditWordDialogContent(State.Editions[existingWordReference.BookInfo], existingWordReference, imageWidth, true);
+        var content = new EditWordDialog.EditWordDialogContent(State.Editions[existingWordReference.BookInfo], existingWordReference, page.ImageWidth, page.ImageHeight, true);
         var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
         FeatureState newFeatureState = State;
@@ -116,9 +116,9 @@ public class ViewModel
 
     public async Task EditWordAsync(WordReference wordReference, int columnIndex)
     {
-        int imageWidth = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page.ImageWidth;
+        OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
         var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
-        var content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, imageWidth, false);
+        var content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
         var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
         State = State with {

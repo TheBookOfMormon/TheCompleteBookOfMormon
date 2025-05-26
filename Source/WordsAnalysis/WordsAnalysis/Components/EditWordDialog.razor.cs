@@ -15,7 +15,7 @@ namespace WordsAnalysis.Components;
 
 public partial class EditWordDialog : IAsyncDisposable
 {
-    public record EditWordDialogContent(EditionState Edition, WordReference WordReference, int PageWidth, bool IsAdd);
+    public record EditWordDialogContent(EditionState Edition, WordReference WordReference, int PageWidth, int PageHeight, bool IsAdd);
     public record EditWordDialogResult(OcrWord? Word, bool After);
 
     [Parameter]
@@ -140,9 +140,10 @@ public partial class EditWordDialog : IAsyncDisposable
     private void Move(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
     {
         bool wasAfter = elementIndex != 0 || isAfter();
-        int size = e.CtrlKey ? (Content.PageWidth / 50) : 1;
-        int xAdjustment = xFactor * size;
-        int yAdjustment = yFactor * size;
+        int xSize = e.CtrlKey ? (Content.PageWidth / 66) : 1;
+        int ySize = e.CtrlKey ? (Content.PageHeight / 66) : 1;
+        int xAdjustment = xFactor * xSize;
+        int yAdjustment = yFactor * ySize;
         OcrRect bounds = Texts[elementIndex].Bounds;
         if (e.AltKey && yAdjustment == 0 && e.ShiftKey)
         {
