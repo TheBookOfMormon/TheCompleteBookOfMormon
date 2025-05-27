@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1078,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 200,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 437,
-            "Y": 131,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BODE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 131,
-            "Width": 13,
-            "Height": 8
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 505,
-            "Y": 130,
-            "Width": 51,
-            "Height": 11
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -741,11 +703,16 @@
             "Height": 13
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 703,
+            "Y": 234,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 280,
@@ -943,19 +910,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 411,
-            "Y": 274,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 413,
             "Y": 268,
             "Width": 58,
@@ -1053,11 +1007,16 @@
             "Height": 13
           },
           "Text": "Am"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 706,
+            "Y": 269,
+            "Width": 19,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 280,
@@ -1325,7 +1284,7 @@
             "Width": 9,
             "Height": 10
           },
-          "Text": "ta"
+          "Text": "to"
         }
       ]
     },
@@ -1338,7 +1297,7 @@
             "Width": 30,
             "Height": 14
           },
-          "Text": "lead"
+          "Text": "plead"
         }
       ]
     },
@@ -1464,11 +1423,11 @@
         {
           "Bounds": {
             "X": 292,
-            "Y": 324,
+            "Y": 340,
             "Width": 52,
-            "Height": 33
+            "Height": 17
           },
-          "Text": "teas"
+          "Text": "husbands"
         }
       ]
     },
@@ -1485,6 +1444,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1560,11 +1524,16 @@
             "Height": 13
           },
           "Text": "Amu"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 707,
+            "Y": 339,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 280,
@@ -1933,10 +1902,23 @@
           "Bounds": {
             "X": 623,
             "Y": 389,
-            "Width": 84,
+            "Width": 72,
             "Height": 15
           },
-          "Text": "wildernessin"
+          "Text": "wilderness"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 700,
+            "Y": 389,
+            "Width": 16,
+            "Height": 15
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1949,7 +1931,7 @@
             "Width": 47,
             "Height": 13
           },
-          "Text": "gearch"
+          "Text": "search"
         }
       ]
     },
@@ -2353,11 +2335,16 @@
             "Height": 13
           },
           "Text": "Al"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 710,
+            "Y": 444,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 282,
@@ -2625,7 +2612,7 @@
             "Width": 32,
             "Height": 17
           },
-          "Text": "tliey"
+          "Text": "they"
         }
       ]
     },
@@ -2759,6 +2746,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2781,7 +2773,7 @@
             "Width": 24,
             "Height": 13
           },
-          "Text": "Alm"
+          "Text": "Alma"
         }
       ]
     },
@@ -2963,7 +2955,7 @@
             "Width": 79,
             "Height": 13
           },
-          "Text": "Lomanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -3067,7 +3059,20 @@
             "Width": 12,
             "Height": 10
           },
-          "Text": "eel"
+          "Text": "set"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 282,
+            "Y": 550,
+            "Width": 51,
+            "Height": 13
+          },
+          "Text": "guards"
         }
       ]
     },
@@ -3210,7 +3215,7 @@
             "Width": 52,
             "Height": 13
           },
-          "Text": "rethren"
+          "Text": "brethren"
         }
       ]
     },
@@ -3623,10 +3628,23 @@
           "Bounds": {
             "X": 642,
             "Y": 600,
-            "Width": 67,
+            "Width": 52,
             "Height": 15
           },
-          "Text": "childrenof"
+          "Text": "children"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 699,
+            "Y": 600,
+            "Width": 16,
+            "Height": 15
+          },
+          "Text": "of"
         }
       ]
     },
@@ -3912,7 +3930,7 @@
             "Width": 29,
             "Height": 14
           },
-          "Text": "shoul"
+          "Text": "should"
         }
       ]
     },
@@ -4744,7 +4762,7 @@
             "Width": 22,
             "Height": 16
           },
-          "Text": "hig"
+          "Text": "him"
         }
       ]
     },
@@ -4926,7 +4944,7 @@
             "Width": 21,
             "Height": 15
           },
-          "Text": "evel"
+          "Text": "even"
         }
       ]
     },
@@ -5082,7 +5100,7 @@
             "Width": 9,
             "Height": 9
           },
-          "Text": "ia"
+          "Text": "in"
         }
       ]
     },
@@ -5251,12 +5269,17 @@
             "Width": 8,
             "Height": 21
           },
-          "Text": "Ls"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "La"
+        },
+        {
+          "Bounds": {
+            "X": 712,
+            "Y": 791,
+            "Width": 8,
+            "Height": 21
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 287,
@@ -5368,7 +5391,7 @@
             "Width": 47,
             "Height": 14
           },
-          "Text": "therefor"
+          "Text": "therefore"
         }
       ]
     },
@@ -5498,7 +5521,7 @@
             "Width": 5,
             "Height": 14
           },
-          "Text": "el"
+          "Text": "all"
         }
       ]
     },
@@ -5655,11 +5678,16 @@
             "Height": 21
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 714,
+            "Y": 845,
+            "Width": 35,
+            "Height": 21
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 287,
@@ -5927,7 +5955,7 @@
             "Width": 7,
             "Height": 10
           },
-          "Text": "wa"
+          "Text": "was"
         }
       ]
     },
@@ -6005,7 +6033,7 @@
             "Width": 27,
             "Height": 13
           },
-          "Text": "end"
+          "Text": "and"
         }
       ]
     },
@@ -6044,7 +6072,7 @@
             "Width": 43,
             "Height": 15
           },
-          "Text": "teacher"
+          "Text": "teachers"
         }
       ]
     },
@@ -6188,11 +6216,16 @@
             "Height": 15
           },
           "Text": "pos"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 918,
+            "Width": 18,
+            "Height": 15
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 289,
@@ -6331,11 +6364,16 @@
             "Height": 23
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 931,
+            "Width": 12,
+            "Height": 23
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 288,
@@ -6604,8 +6642,27 @@
             "Height": 11
           },
           "Text": "nev"
+        },
+        {
+          "Bounds": {
+            "X": 716,
+            "Y": 970,
+            "Width": 20,
+            "Height": 11
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 55,
+            "Y": 137,
+            "Width": 44,
+            "Height": 15
+          },
+          "IsOnNextPage": true,
+          "Text": "ertheless"
         }
       ]
     }
   ]
-}
+}
