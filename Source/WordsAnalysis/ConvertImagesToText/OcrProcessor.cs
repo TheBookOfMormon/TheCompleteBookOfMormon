@@ -1,4 +1,5 @@
 ﻿using System.Collections.Immutable;
+using System.Drawing;
 using System.Text.Json;
 using DocumentsModel;
 using ImageMagick;
@@ -191,9 +192,10 @@ public partial class OcrProcessor : EditionsProcessorBase
         return engine;
     }
 
-    public static int EstimateWordWidth(int height, string text)
+    public static Size EstimateWordSize(int lineHeight, int boundsHeight, string text)
     {
         double width = 0;
+        int height = (int)Math.Max(1, Math.Floor((decimal)boundsHeight / lineHeight)) * lineHeight;
         double mFactor = LetterHeightToWidthFactors['m'];
         foreach (char c in text)
         {
@@ -201,7 +203,7 @@ public partial class OcrProcessor : EditionsProcessorBase
                 widthFactor = mFactor;
             width += (height * widthFactor);
         }
-        return (int)Math.Floor(width);
+        return new Size((int)Math.Floor(width), height);
     }
 
 

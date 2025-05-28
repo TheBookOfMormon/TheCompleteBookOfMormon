@@ -27,6 +27,8 @@ public partial class EditWordDialog : IAsyncDisposable
     private bool AddWordAfter = true;
     private EditForm EditForm = null!;
     private bool IsSpacer;
+    private int LineHeight;
+    private string LineHeightPreferenceKey = "";
     private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
     private string? PageImageData;
@@ -47,6 +49,9 @@ public partial class EditWordDialog : IAsyncDisposable
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
+        LineHeightPreferenceKey = $"{Content.Edition.BookInfo.Code}-LineHeight";
+        LineHeight = Preferences.Get(LineHeightPreferenceKey, 12);
+
         ShowSurroundingText = LastShowSurroundingText;
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
@@ -54,7 +59,7 @@ public partial class EditWordDialog : IAsyncDisposable
         if (Content.IsAdd)
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
-            int xOffset = bounds.Width + OcrProcessor.EstimateWordWidth(bounds.Height, "i");
+            int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, bounds.Height, "i").Width;
             Texts = [new RequiredText("", bounds.Offset(xOffset, 0), false)];
             ShowDashes = false;
         }
@@ -83,6 +88,8 @@ public partial class EditWordDialog : IAsyncDisposable
         if (newWord != null)
             await Clipboard.SetTextAsync(newWord.GetCombinedText());
 
+        Preferences.Set(LineHeightPreferenceKey, LineHeight);
+
         var result = new EditWordDialogResult(newWord, AddWordAfter);
         await Dialog.CloseAsync(result);
     }
@@ -101,7 +108,7 @@ public partial class EditWordDialog : IAsyncDisposable
         if (text.Length < 2) return;
 
         char firstLetter = item.Text[0];
-        int estimatedWidth = (int)(OcrProcessor.EstimateWordWidth(item.Bounds.Height, firstLetter.ToString()) * 0.6d);
+        int estimatedWidth = (int)(OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, firstLetter.ToString()).Height * 0.6d);
 
         item.Text = text[1..];
         item.Bounds = item.Bounds with {
@@ -116,8 +123,8 @@ public partial class EditWordDialog : IAsyncDisposable
         RequiredText item = Texts[elementIndex];
         string text = item.Text;
 
-        int estimatedWidth = OcrProcessor.EstimateWordWidth(item.Bounds.Height, text);
-        Texts[elementIndex].Bounds = item.Bounds with { Width = estimatedWidth };
+        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, text);
+        Texts[elementIndex].Bounds = item.Bounds with { Width = estimatedSize.Width, Height = estimatedSize.Height };
         UpdateImageData();
     }
 

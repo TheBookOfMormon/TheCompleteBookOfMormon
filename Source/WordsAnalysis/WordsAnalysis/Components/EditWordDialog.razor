@@ -10,14 +10,22 @@
     <div style="display: flex; flex-direction: column; align-items: flex-end;">
         <EditForm @ref=EditForm Model=@Texts>
             <ObjectGraphDataAnnotationsValidator />
-            <label>
-                <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged />
-                Show surrounding text
-            </label>
+            <div>
+                <label>
+                    <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged />
+                    Show surrounding text
+                </label>
+            </div>
+            <div>
+                <label>
+                    Line height
+                    <FluentNumberField @bind-Value=LineHeight Min=8 Max=50 />
+                </label>
+            </div>
 
             @if (Texts.Length > 1)
             {
-               <FluentCheckbox @bind-Value=ShowDashes Label="Show dashes"/>
+                <FluentCheckbox @bind-Value=ShowDashes Label="Show dashes" />
             }
             @{
                 int index = -1;
@@ -33,7 +41,7 @@
                             <FluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e, capturedIndex)) />
                             <FluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
                             <FluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
-                            <FluentButton IconStart=@SharedIcons.EstimateWordWidth OnClick=@(e => EstimateWordWidth(capturedIndex)) accesskey="w"/>
+                            <FluentButton IconStart=@SharedIcons.EstimateWordWidth OnClick=@(e => EstimateWordWidth(capturedIndex)) accesskey="w" />
                         </FluentToolbar>
                     </div>
                     <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) />
