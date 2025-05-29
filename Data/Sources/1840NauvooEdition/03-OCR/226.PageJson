@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1112,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 226,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 440,
-            "Y": 141,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 141,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 140,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 275,
-            "Y": 175,
-            "Width": 24,
-            "Height": 17
-          },
-          "Text": "ing"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -311,7 +260,7 @@
             "Width": 24,
             "Height": 14
           },
-          "Text": "thos"
+          "Text": "those"
         }
       ]
     },
@@ -493,7 +442,7 @@
             "Width": 51,
             "Height": 13
           },
-          "Text": "'among"
+          "Text": "among"
         }
       ]
     },
@@ -906,10 +855,23 @@
           "Bounds": {
             "X": 631,
             "Y": 280,
-            "Width": 76,
-            "Height": 18
+            "Width": 66,
+            "Height": 13
           },
-          "Text": "sufferingall"
+          "Text": "suffering"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 701,
+            "Y": 280,
+            "Width": 18,
+            "Height": 13
+          },
+          "Text": "all"
         }
       ]
     },
@@ -974,7 +936,7 @@
             "Width": 58,
             "Height": 13
           },
-          "Text": "Christ's"
+          "Text": "Christ\u0027s"
         }
       ]
     },
@@ -1205,10 +1167,10 @@
           "Bounds": {
             "X": 465,
             "Y": 339,
-            "Width": 6,
-            "Height": 8
+            "Width": 8,
+            "Height": 13
           },
-          "Text": "a'"
+          "Text": "a"
         }
       ]
     },
@@ -2127,6 +2089,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2458,10 +2421,23 @@
           "Bounds": {
             "X": 656,
             "Y": 495,
-            "Width": 53,
+            "Width": 39,
             "Height": 13
           },
-          "Text": "eldersof"
+          "Text": "elders"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 699,
+            "Y": 495,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -2487,7 +2463,7 @@
             "Width": 46,
             "Height": 13
           },
-          "Text": "chureh"
+          "Text": "church"
         }
       ]
     },
@@ -2748,11 +2724,16 @@
             "Height": 8
           },
           "Text": "ac"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 707,
+            "Y": 535,
+            "Width": 11,
+            "Height": 8
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 271,
@@ -3098,7 +3079,7 @@
             "Width": 44,
             "Height": 11
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -3840,11 +3821,16 @@
             "Height": 18
           },
           "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 702,
+            "Y": 672,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 270,
@@ -4268,7 +4254,7 @@
             "Width": 33,
             "Height": 13
           },
-          "Text": "thiem"
+          "Text": "them"
         }
       ]
     },
@@ -4858,7 +4844,7 @@
             "Width": 46,
             "Height": 15
           },
-          "Text": "beanng"
+          "Text": "bearing"
         }
       ]
     },
@@ -5638,12 +5624,17 @@
             "Width": 36,
             "Height": 15
           },
-          "Text": "revels"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "revela"
+        },
+        {
+          "Bounds": {
+            "X": 701,
+            "Y": 904,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 272,
@@ -5682,4 +5673,4 @@
       ]
     }
   ]
-}
+}

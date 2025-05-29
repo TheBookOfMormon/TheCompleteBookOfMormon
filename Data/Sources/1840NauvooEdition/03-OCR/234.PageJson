@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1096,
   "ImageWidth": 772,
+  "ManuallyEdited": true,
   "PageNumber": 234,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 460,
-            "Y": 109,
-            "Width": 33,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 505,
-            "Y": 108,
-            "Width": 14,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 532,
-            "Y": 109,
-            "Width": 38,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -306,6 +268,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 720,
+            "Y": 161,
+            "Width": 6,
+            "Height": 13
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 291,
             "Y": 177,
             "Width": 51,
@@ -415,7 +390,7 @@
             "Width": 22,
             "Height": 14
           },
-          "Text": "Gad"
+          "Text": "God"
         }
       ]
     },
@@ -701,7 +676,7 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "tha"
+          "Text": "that"
         }
       ]
     },
@@ -857,7 +832,7 @@
             "Width": 17,
             "Height": 14
           },
-          "Text": "tha"
+          "Text": "that"
         }
       ]
     },
@@ -1153,10 +1128,10 @@
           "Bounds": {
             "X": 292,
             "Y": 283,
-            "Width": 39,
-            "Height": 31
+            "Width": 40,
+            "Height": 13
           },
-          "Text": "gaan"
+          "Text": "given"
         }
       ]
     },
@@ -1286,7 +1261,7 @@
             "Width": 15,
             "Height": 12
           },
-          "Text": "ey"
+          "Text": "they"
         }
       ]
     },
@@ -2726,10 +2701,23 @@
           "Bounds": {
             "X": 688,
             "Y": 461,
-            "Width": 39,
-            "Height": 18
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "thatye"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 461,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "ye"
         }
       ]
     },
@@ -3275,7 +3263,7 @@
             "Width": 69,
             "Height": 13
           },
-          "Text": "remissien"
+          "Text": "remission"
         }
       ]
     },
@@ -4463,7 +4451,7 @@
             "Width": 31,
             "Height": 9
           },
-          "Text": "ease"
+          "Text": "case"
         }
       ]
     },
@@ -4867,19 +4855,6 @@
             "Height": 13
           },
           "Text": "word"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 342,
-            "Y": 727,
-            "Width": 5,
-            "Height": 20
-          },
-          "Text": "-"
         }
       ]
     },
@@ -6746,11 +6721,16 @@
             "Height": 13
           },
           "Text": "sick"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 727,
+            "Y": 942,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 289,
@@ -6758,7 +6738,7 @@
             "Width": 48,
             "Height": 9
           },
-          "Text": "nesees"
+          "Text": "nesses"
         }
       ]
     },
@@ -6893,4 +6873,4 @@
       ]
     }
   ]
-}
+}
