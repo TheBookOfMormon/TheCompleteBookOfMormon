@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1096,
   "ImageWidth": 765,
+  "ManuallyEdited": true,
   "PageNumber": 252,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 109,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "EQOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 109,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 538,
-            "Y": 109,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -545,7 +507,7 @@
             "Width": 10,
             "Height": 10
           },
-          "Text": "res"
+          "Text": "rest"
         }
       ]
     },
@@ -688,7 +650,7 @@
             "Width": 54,
             "Height": 19
           },
-          "Text": "jbehold"
+          "Text": "behold"
         }
       ]
     },
@@ -711,10 +673,23 @@
           "Bounds": {
             "X": 375,
             "Y": 231,
-            "Width": 62,
+            "Width": 44,
             "Height": 13
           },
-          "Text": "swearin"
+          "Text": "swear"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 423,
+            "Y": 231,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1114,10 +1089,10 @@
           "Bounds": {
             "X": 708,
             "Y": 267,
-            "Width": 13,
-            "Height": 17
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "jn"
+          "Text": "into"
         }
       ]
     },
@@ -1403,7 +1378,7 @@
             "Width": 13,
             "Height": 14
           },
-          "Text": "firs"
+          "Text": "first"
         }
       ]
     },
@@ -1533,12 +1508,8 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "prove"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "provo"
+        },
         {
           "Bounds": {
             "X": 725,
@@ -1547,11 +1518,7 @@
             "Height": 13
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 296,
@@ -1602,6 +1569,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2170,7 +2138,7 @@
             "Width": 32,
             "Height": 14
           },
-          "Text": "hears"
+          "Text": "hearts"
         }
       ]
     },
@@ -2244,11 +2212,11 @@
         {
           "Bounds": {
             "X": 496,
-            "Y": 415,
-            "Width": 18,
-            "Height": 26
+            "Y": 431,
+            "Width": 31,
+            "Height": 13
           },
-          "Text": "ae"
+          "Text": "Lord"
         }
       ]
     },
@@ -2518,10 +2486,23 @@
           "Bounds": {
             "X": 472,
             "Y": 464,
-            "Width": 46,
+            "Width": 23,
             "Height": 13
           },
-          "Text": "butlet"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 499,
+            "Y": 464,
+            "Width": 19,
+            "Height": 13
+          },
+          "Text": "let"
         }
       ]
     },
@@ -4614,6 +4595,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 295,
+            "Y": 749,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 310,
             "Y": 749,
             "Width": 31,
@@ -6358,4 +6352,4 @@
       ]
     }
   ]
-}
+}

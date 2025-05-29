@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1104,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 258,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 121,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 499,
-            "Y": 121,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 526,
-            "Y": 121,
-            "Width": 37,
-            "Height": 10
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1806,7 +1768,7 @@
             "Width": 37,
             "Height": 9
           },
-          "Text": "eame"
+          "Text": "came"
         }
       ]
     },
@@ -2860,11 +2822,16 @@
             "Height": 13
           },
           "Text": "Al"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 493,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 276,
@@ -3041,12 +3008,17 @@
             "Width": 26,
             "Height": 9
           },
-          "Text": "coms"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "com"
+        },
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 532,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 275,
@@ -3129,10 +3101,10 @@
           "Bounds": {
             "X": 507,
             "Y": 547,
-            "Width": 24,
-            "Height": 31
+            "Width": 27,
+            "Height": 13
           },
-          "Text": "obi"
+          "Text": "city"
         }
       ]
     },
@@ -3337,10 +3309,10 @@
           "Bounds": {
             "X": 275,
             "Y": 582,
-            "Width": 33,
-            "Height": 17
+            "Width": 32,
+            "Height": 13
           },
-          "Text": "thoy"
+          "Text": "they"
         }
       ]
     },
@@ -4983,12 +4955,8 @@
             "Width": 19,
             "Height": 13
           },
-          "Text": "delir"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "deliv"
+        },
         {
           "Bounds": {
             "X": 714,
@@ -4997,11 +4965,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 273,
@@ -5712,11 +5676,16 @@
             "Height": 16
           },
           "Text": "obey"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 712,
+            "Y": 886,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 272,
@@ -5854,7 +5823,7 @@
             "Width": 18,
             "Height": 13
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -5984,7 +5953,7 @@
             "Width": 26,
             "Height": 14
           },
-          "Text": "foun"
+          "Text": "found"
         }
       ]
     },
@@ -6127,7 +6096,7 @@
             "Width": 44,
             "Height": 14
           },
-          "Text": "burnin"
+          "Text": "burning"
         }
       ]
     },
@@ -6254,12 +6223,12 @@
           "Bounds": {
             "X": 702,
             "Y": 960,
-            "Width": 6,
-            "Height": 9
+            "Width": 14,
+            "Height": 13
           },
-          "Text": "O"
+          "Text": "of"
         }
       ]
     }
   ]
-}
+}

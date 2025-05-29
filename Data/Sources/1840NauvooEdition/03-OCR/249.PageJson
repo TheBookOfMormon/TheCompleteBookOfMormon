@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1046,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 249,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 191,
-            "Y": 112,
-            "Width": 30,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 232,
-            "Y": 113,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 257,
-            "Y": 113,
-            "Width": 36,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -172,6 +134,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -191,10 +154,23 @@
           "Bounds": {
             "X": 49,
             "Y": 163,
-            "Width": 30,
-            "Height": 11
+            "Width": 11,
+            "Height": 13
           },
-          "Text": "gout"
+          "Text": "us"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 64,
+            "Y": 163,
+            "Width": 11,
+            "Height": 13
+          },
+          "Text": "out"
         }
       ]
     },
@@ -337,7 +313,7 @@
             "Width": 22,
             "Height": 13
           },
-          "Text": "bath"
+          "Text": "hath"
         }
       ]
     },
@@ -1403,7 +1379,7 @@
             "Width": 38,
             "Height": 12
           },
-          "Text": "Alme"
+          "Text": "Alma"
         }
       ]
     },
@@ -1825,11 +1801,11 @@
         {
           "Bounds": {
             "X": 169,
-            "Y": 348,
+            "Y": 363,
             "Width": 25,
-            "Height": 25
+            "Height": 10
           },
-          "Text": "dl"
+          "Text": "and"
         }
       ]
     },
@@ -2459,11 +2435,7 @@
             "Height": 12
           },
           "Text": "dil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 444,
@@ -2472,11 +2444,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 44,
@@ -2913,7 +2881,7 @@
             "Width": 23,
             "Height": 12
           },
-          "Text": "rice"
+          "Text": "rise"
         }
       ]
     },
@@ -3272,6 +3240,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 38,
+            "Y": 546,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 57,
             "Y": 546,
             "Width": 54,
@@ -3524,7 +3505,7 @@
             "Width": 14,
             "Height": 9
           },
-          "Text": "tre"
+          "Text": "are"
         }
       ]
     },
@@ -4925,7 +4906,7 @@
             "Width": 43,
             "Height": 12
           },
-          "Text": "jyortion"
+          "Text": "portion"
         }
       ]
     },
@@ -5602,6 +5583,19 @@
             "Height": 9
           },
           "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 36,
+            "Y": 832,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -6311,6 +6305,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 41,
+            "Y": 914,
+            "Width": 11,
+            "Height": 13
+          },
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 59,
             "Y": 914,
             "Width": 77,
@@ -6425,4 +6432,4 @@
       ]
     }
   ]
-}
+}
