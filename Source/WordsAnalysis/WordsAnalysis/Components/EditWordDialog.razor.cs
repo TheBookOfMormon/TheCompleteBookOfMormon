@@ -124,6 +124,8 @@ public partial class EditWordDialog : IAsyncDisposable
         string text = item.Text;
 
         System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, text);
+        if (estimatedSize.Width == item.Bounds.Width && estimatedSize.Height == item.Bounds.Height)
+            estimatedSize = new System.Drawing.Size((int)Math.Ceiling(estimatedSize.Width * 0.6d), estimatedSize.Height);
         Texts[elementIndex].Bounds = item.Bounds with { Width = estimatedSize.Width, Height = estimatedSize.Height };
         UpdateImageData();
     }
