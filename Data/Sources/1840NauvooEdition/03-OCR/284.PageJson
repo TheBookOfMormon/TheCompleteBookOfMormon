@@ -1,109 +1,19 @@
 {
   "ImageHeight": 1080,
   "ImageWidth": 781,
+  "ManuallyEdited": true,
   "PageNumber": 284,
   "Words": [
     {
       "Elements": [
         {
           "Bounds": {
-            "X": 452,
-            "Y": 114,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 114,
-            "Width": 13,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 114,
-            "Width": 37,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 287,
-            "Y": 147,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "Anuti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 323,
-            "Y": 155,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 329,
-            "Y": 147,
-            "Width": 39,
-            "Height": 18
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 371,
-            "Y": 147,
-            "Width": 9,
+            "Y": 149,
+            "Width": 129,
             "Height": 13
           },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 382,
-            "Y": 147,
-            "Width": 29,
-            "Height": 13
-          },
-          "Text": "Lehi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -195,11 +105,16 @@
             "Height": 14
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 713,
+            "Y": 147,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 286,
@@ -987,7 +902,7 @@
             "Width": 36,
             "Height": 18
           },
-          "Text": "eople"
+          "Text": "people"
         }
       ]
     },
@@ -1105,11 +1020,7 @@
             "Height": 13
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 710,
@@ -1118,11 +1029,7 @@
             "Height": 8
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 292,
@@ -1130,7 +1037,7 @@
             "Width": 33,
             "Height": 13
           },
-          "Text": "oved"
+          "Text": "loved"
         }
       ]
     },
@@ -1950,11 +1857,16 @@
             "Height": 13
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 377,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 285,
@@ -2742,7 +2654,7 @@
             "Width": 37,
             "Height": 13
           },
-          "Text": "thosc"
+          "Text": "those"
         }
       ]
     },
@@ -3158,7 +3070,7 @@
             "Width": 32,
             "Height": 12
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -3652,7 +3564,7 @@
             "Width": 24,
             "Height": 10
           },
-          "Text": "oar"
+          "Text": "our"
         }
       ]
     },
@@ -6374,7 +6286,7 @@
             "Width": 24,
             "Height": 13
           },
-          "Text": "fron"
+          "Text": "from"
         }
       ]
     },
@@ -6691,4 +6603,4 @@
       ]
     }
   ]
-}
+}
