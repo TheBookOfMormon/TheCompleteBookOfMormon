@@ -118,7 +118,7 @@ public partial class EditWordDialog : IAsyncDisposable
         UpdateImageData();
     }
 
-    private void EstimateWordWidth(int elementIndex)
+    private void EstimateWordSize(int elementIndex)
     {
         RequiredText item = Texts[elementIndex];
         string text = item.Text;
@@ -126,7 +126,8 @@ public partial class EditWordDialog : IAsyncDisposable
         System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, text);
         if (estimatedSize.Width == item.Bounds.Width && estimatedSize.Height == item.Bounds.Height)
             estimatedSize = new System.Drawing.Size((int)Math.Ceiling(estimatedSize.Width * 0.6d), estimatedSize.Height);
-        Texts[elementIndex].Bounds = item.Bounds with { Width = estimatedSize.Width, Height = estimatedSize.Height };
+        int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
+        Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
         UpdateImageData();
     }
 

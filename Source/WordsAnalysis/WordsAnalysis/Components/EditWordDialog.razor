@@ -41,7 +41,7 @@
                             <FluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e, capturedIndex)) />
                             <FluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
                             <FluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
-                            <FluentButton IconStart=@SharedIcons.EstimateWordWidth OnClick=@(e => EstimateWordWidth(capturedIndex)) accesskey="w" />
+                            <FluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
                         </FluentToolbar>
                     </div>
                     <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) />

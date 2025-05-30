@@ -10,7 +10,7 @@ public static class SharedIcons
     public static readonly Icon ArrowRight = new Icons.Filled.Size24.ArrowRight();
     public static readonly Icon ArrowUp = new Icons.Filled.Size24.ArrowUp();
     public static readonly Icon DropFirstLetter = new Icons.Filled.Size24.ArrowStepInRight();
-    public static readonly Icon EstimateWordWidth = new Icons.Filled.Size24.Calculator();
+    public static readonly Icon EstimateWordSize = new Icons.Filled.Size24.Calculator();
     public static readonly Icon Edit = new Icons.Filled.Size24.Edit();
     public static readonly Icon Play = new Icons.Filled.Size24.Play();
     public static readonly Icon Stop = new Icons.Filled.Size24.Stop();

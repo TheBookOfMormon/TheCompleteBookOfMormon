@@ -1560,6 +1560,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 57,
+            "Y": 330,
+            "Width": 9,
+            "Height": 13
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 71,
             "Y": 330,
             "Width": 48,
@@ -1709,11 +1722,7 @@
             "Height": 13
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 455,
@@ -1722,11 +1731,7 @@
             "Height": 8
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 58,
@@ -1822,10 +1827,10 @@
           "Bounds": {
             "X": 300,
             "Y": 346,
-            "Width": 22,
-            "Height": 29
+            "Width": 23,
+            "Height": 13
           },
-          "Text": "LH"
+          "Text": "thy"
         }
       ]
     },
@@ -1838,7 +1843,7 @@
             "Width": 16,
             "Height": 12
           },
-          "Text": "ife"
+          "Text": "life"
         }
       ]
     },
@@ -2033,7 +2038,7 @@
             "Width": 19,
             "Height": 13
           },
-          "Text": "aod"
+          "Text": "and"
         }
       ]
     },
@@ -2277,10 +2282,23 @@
           "Bounds": {
             "X": 57,
             "Y": 412,
-            "Width": 39,
+            "Width": 11,
             "Height": 13
           },
-          "Text": "hesaid"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 72,
+            "Y": 412,
+            "Width": 31,
+            "Height": 13
+          },
+          "Text": "said"
         }
       ]
     },
@@ -2836,10 +2854,10 @@
           "Bounds": {
             "X": 57,
             "Y": 483,
-            "Width": 11,
-            "Height": 25
+            "Width": 17,
+            "Height": 13
           },
-          "Text": "po"
+          "Text": "go"
         }
       ]
     },
@@ -3008,7 +3026,7 @@
             "Width": 21,
             "Height": 13
           },
-          "Text": "and"
+          "Text": "land"
         }
       ]
     },
@@ -3096,10 +3114,23 @@
           "Bounds": {
             "X": 361,
             "Y": 497,
-            "Width": 20,
-            "Height": 12
+            "Width": 13,
+            "Height": 13
           },
-          "Text": "isa"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 378,
+            "Y": 497,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -3295,11 +3326,7 @@
             "Height": 13
           },
           "Text": "flat"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 463,
@@ -3308,11 +3335,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 57,
@@ -3486,10 +3509,23 @@
           "Bounds": {
             "X": 57,
             "Y": 545,
-            "Width": 48,
-            "Height": 18
+            "Width": 9,
+            "Height": 13
           },
-          "Text": "ofprison"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 70,
+            "Y": 545,
+            "Width": 46,
+            "Height": 13
+          },
+          "Text": "prison"
         }
       ]
     },
@@ -4487,10 +4523,10 @@
           "Bounds": {
             "X": 52,
             "Y": 664,
-            "Width": 28,
-            "Height": 17
+            "Width": 32,
+            "Height": 13
           },
-          "Text": "With"
+          "Text": "with"
         }
       ]
     },
@@ -4949,6 +4985,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5062,7 +5099,7 @@
             "Width": 50,
             "Height": 15
           },
-          "Text": "Lamont"
+          "Text": "Lamoni"
         }
       ]
     },
@@ -5687,11 +5724,7 @@
             "Height": 12
           },
           "Text": "go"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 463,
@@ -5700,11 +5733,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 57,
@@ -5712,7 +5741,7 @@
             "Width": 17,
             "Height": 14
           },
-          "Text": "Ing"
+          "Text": "ing"
         }
       ]
     },
@@ -5738,7 +5767,7 @@
             "Width": 24,
             "Height": 13
           },
-          "Text": "thig"
+          "Text": "this"
         }
       ]
     },
@@ -5881,7 +5910,20 @@
             "Width": 24,
             "Height": 14
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 85,
+            "Y": 829,
+            "Width": 10,
+            "Height": 13
+          },
+          "Text": "it"
         }
       ]
     },
@@ -6505,7 +6547,7 @@
             "Width": 53,
             "Height": 16
           },
-          "Text": "Prepared"
+          "Text": "prepared"
         }
       ]
     },
@@ -6541,10 +6583,23 @@
           "Bounds": {
             "X": 196,
             "Y": 900,
-            "Width": 89,
+            "Width": 39,
             "Height": 13
           },
-          "Text": "whenLamoni"
+          "Text": "when"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 239,
+            "Y": 900,
+            "Width": 52,
+            "Height": 13
+          },
+          "Text": "Lamoni"
         }
       ]
     },
@@ -6609,7 +6664,7 @@
             "Width": 15,
             "Height": 13
           },
-          "Text": "tll"
+          "Text": "all"
         }
       ]
     },
