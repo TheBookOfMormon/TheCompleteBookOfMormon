@@ -39,6 +39,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private RequiredText[] Texts = [];
     private OcrWord Word = null!;
     private string? WordImageData;
+    private static readonly ImmutableArray<double> WordWidthFactors = [0.8, 0.6, 0.4];
 
     ValueTask IAsyncDisposable.DisposeAsync()
     {
@@ -118,14 +119,31 @@ public partial class EditWordDialog : IAsyncDisposable
         UpdateImageData();
     }
 
+
     private void EstimateWordSize(int elementIndex)
     {
         RequiredText item = Texts[elementIndex];
         string text = item.Text;
 
         System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, text);
-        if (estimatedSize.Width == item.Bounds.Width && estimatedSize.Height == item.Bounds.Height)
-            estimatedSize = new System.Drawing.Size((int)Math.Ceiling(estimatedSize.Width * 0.6d), estimatedSize.Height);
+        if (estimatedSize.Height == item.Bounds.Height)
+        {
+            if (item.Bounds.Width > estimatedSize.Width)
+                estimatedSize = new System.Drawing.Size {  Width = estimatedSize.Width, Height = estimatedSize.Height };
+            else
+            {
+                foreach (double widthFactor in WordWidthFactors)
+                {
+                    int w = (int)(estimatedSize.Width * widthFactor);
+                    if (item.Bounds.Width > w)
+                    {
+                        estimatedSize = new System.Drawing.Size { Width = w, Height = estimatedSize.Height };
+                        break;
+                    }
+                }
+            }
+        }
+            
         int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
         Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
         UpdateImageData();
@@ -215,6 +233,14 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         UpdateImageData();
         LastShowSurroundingText = ShowSurroundingText;
+    }
+
+    private void TextChanged()
+    {
+        if (Content.IsAdd && Texts[0].Text == "-")
+        {
+            Texts[0].Bounds = Texts[0].Bounds with { X = Texts[0].Bounds.X - LineHeight };
+        }
     }
 
     private void UpdateImageData()
