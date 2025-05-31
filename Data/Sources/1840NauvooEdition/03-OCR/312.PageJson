@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1080,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 312,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 463,
-            "Y": 117,
-            "Width": 33,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 117,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 116,
-            "Width": 37,
-            "Height": 10
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +143,7 @@
             "Width": 21,
             "Height": 11
           },
-          "Text": "you"
+          "Text": "your"
         }
       ]
     },
@@ -450,11 +412,24 @@
         {
           "Bounds": {
             "X": 676,
-            "Y": 184,
-            "Width": 47,
-            "Height": 18
+            "Y": 186,
+            "Width": 23,
+            "Height": 13
           },
-          "Text": "cryunto"
+          "Text": "cry"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 703,
+            "Y": 186,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -610,7 +585,7 @@
             "Width": 68,
             "Height": 13
           },
-          "Text": "ourselves"
+          "Text": "yourselves"
         }
       ]
     },
@@ -723,11 +698,11 @@
         {
           "Bounds": {
             "X": 295,
-            "Y": 224,
+            "Y": 240,
             "Width": 26,
-            "Height": 27
+            "Height": 11
           },
-          "Text": "fim"
+          "Text": "him"
         }
       ]
     },
@@ -750,10 +725,23 @@
           "Bounds": {
             "X": 379,
             "Y": 242,
-            "Width": 44,
+            "Width": 17,
             "Height": 13
           },
-          "Text": "ye'are"
+          "Text": "ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 400,
+            "Y": 242,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "are"
         }
       ]
     },
@@ -1036,36 +1024,10 @@
           "Bounds": {
             "X": 414,
             "Y": 272,
-            "Width": 28,
-            "Height": 14
+            "Width": 66,
+            "Height": 13
           },
-          "Text": "mid"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 280,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 273,
-            "Width": 26,
-            "Height": 17
-          },
-          "Text": "day"
+          "Text": "mid-day"
         }
       ]
     },
@@ -1858,7 +1820,7 @@
             "Width": 16,
             "Height": 10
           },
-          "Text": "ont"
+          "Text": "out"
         }
       ]
     },
@@ -3249,7 +3211,7 @@
             "Width": 8,
             "Height": 13
           },
-          "Text": "sy"
+          "Text": "say"
         }
       ]
     },
@@ -3418,7 +3380,7 @@
             "Width": 36,
             "Height": 14
           },
-          "Text": "rayer"
+          "Text": "prayer"
         }
       ]
     },
@@ -3531,11 +3493,24 @@
         {
           "Bounds": {
             "X": 692,
-            "Y": 576,
-            "Width": 28,
-            "Height": 10
+            "Y": 575,
+            "Width": 23,
+            "Height": 13
           },
-          "Text": "areas"
+          "Text": "are"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 575,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "as"
         }
       ]
     },
@@ -3548,7 +3523,7 @@
             "Width": 68,
             "Height": 17
           },
-          "Text": "ypocrites"
+          "Text": "hypocrites"
         }
       ]
     },
@@ -3822,11 +3797,16 @@
             "Height": 9
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 610,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 296,
@@ -3977,7 +3957,7 @@
             "Width": 37,
             "Height": 14
           },
-          "Text": "trodde"
+          "Text": "trodden"
         }
       ]
     },
@@ -4173,11 +4153,16 @@
             "Height": 8
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 724,
+            "Y": 665,
+            "Width": 9,
+            "Height": 8
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 296,
@@ -4345,6 +4330,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4433,11 +4419,16 @@
             "Height": 9
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 698,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 296,
@@ -4576,11 +4567,16 @@
             "Height": 13
           },
           "Text": "har"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 714,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 297,
@@ -4861,7 +4857,7 @@
             "Width": 11,
             "Height": 14
           },
-          "Text": "yo"
+          "Text": "ye"
         }
       ]
     },
@@ -5277,7 +5273,7 @@
             "Width": 22,
             "Height": 11
           },
-          "Text": "mee"
+          "Text": "meet"
         }
       ]
     },
@@ -5446,7 +5442,7 @@
             "Width": 21,
             "Height": 10
           },
-          "Text": "mea"
+          "Text": "men"
         }
       ]
     },
@@ -5603,11 +5599,16 @@
             "Height": 13
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 837,
+            "Width": 12,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 298,
@@ -5746,11 +5747,16 @@
             "Height": 12
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 855,
+            "Width": 12,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 298,
@@ -5901,7 +5907,7 @@
             "Width": 18,
             "Height": 17
           },
-          "Text": "yout"
+          "Text": "your"
         }
       ]
     },
@@ -6044,7 +6050,7 @@
             "Width": 14,
             "Height": 13
           },
-          "Text": "ich"
+          "Text": "which"
         }
       ]
     },
@@ -6600,12 +6606,12 @@
           "Bounds": {
             "X": 693,
             "Y": 963,
-            "Width": 11,
-            "Height": 12
+            "Width": 45,
+            "Height": 13
           },
-          "Text": "cri"
+          "Text": "crisis"
         }
       ]
     }
   ]
-}
+}

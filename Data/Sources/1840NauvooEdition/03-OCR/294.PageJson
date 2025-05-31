@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1080,
   "ImageWidth": 771,
+  "ManuallyEdited": true,
   "PageNumber": 294,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 454,
-            "Y": 121,
-            "Width": 33,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 120,
-            "Width": 13,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 120,
-            "Width": 38,
-            "Height": 10
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 298,
-            "Y": 152,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "uished"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -845,11 +794,16 @@
             "Height": 14
           },
           "Text": "breth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 241,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 287,
@@ -987,7 +941,7 @@
             "Width": 39,
             "Height": 18
           },
-          "Text": "degres"
+          "Text": "degree"
         }
       ]
     },
@@ -1144,11 +1098,16 @@
             "Height": 10
           },
           "Text": "resur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 279,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 287,
@@ -1911,11 +1870,16 @@
             "Height": 13
           },
           "Text": "peo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 387,
+            "Width": 19,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 286,
@@ -2930,11 +2894,16 @@
             "Height": 10
           },
           "Text": "tre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 723,
+            "Y": 527,
+            "Width": 15,
+            "Height": 10
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 286,
@@ -3277,10 +3246,10 @@
           "Bounds": {
             "X": 501,
             "Y": 578,
-            "Width": 30,
-            "Height": 14
+            "Width": 27,
+            "Height": 13
           },
-          "Text": "and'"
+          "Text": "and"
         }
       ]
     },
@@ -4519,6 +4488,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4862,16 +4832,21 @@
         {
           "Bounds": {
             "X": 677,
-            "Y": 792,
-            "Width": 44,
-            "Height": 11
+            "Y": 791,
+            "Width": 40,
+            "Height": 13
           },
-          "Text": "sorrows"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "sorrow"
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 791,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 287,
@@ -5334,6 +5309,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 712,
+            "Y": 846,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 286,
             "Y": 862,
             "Width": 22,
@@ -5652,11 +5640,11 @@
         {
           "Bounds": {
             "X": 408,
-            "Y": 883,
+            "Y": 899,
             "Width": 67,
-            "Height": 33
+            "Height": 17
           },
-          "Text": "atfictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -5706,9 +5694,9 @@
             "X": 702,
             "Y": 898,
             "Width": 19,
-            "Height": 27
+            "Height": 11
           },
-          "Text": "Joy"
+          "Text": "joy"
         }
       ]
     },
@@ -6082,10 +6070,36 @@
           "Bounds": {
             "X": 575,
             "Y": 951,
-            "Width": 70,
+            "Width": 28,
             "Height": 13
           },
-          "Text": "thisisthe"
+          "Text": "this"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 607,
+            "Y": 951,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 624,
+            "Y": 951,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "the"
         }
       ]
     },
@@ -6099,6 +6113,19 @@
             "Height": 13
           },
           "Text": "account"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 711,
+            "Y": 950,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -6212,12 +6239,12 @@
           "Bounds": {
             "X": 701,
             "Y": 964,
-            "Width": 12,
-            "Height": 14
+            "Width": 31,
+            "Height": 13
           },
-          "Text": "al"
+          "Text": "also"
         }
       ]
     }
   ]
-}
+}

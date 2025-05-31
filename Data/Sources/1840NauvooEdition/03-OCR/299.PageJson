@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1115,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 299,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 194,
-            "Y": 103,
-            "Width": 34,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 239,
-            "Y": 103,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 267,
-            "Y": 103,
-            "Width": 39,
-            "Height": 10
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 39,
-            "Y": 136,
-            "Width": 22,
-            "Height": 15
-          },
-          "Text": "hold"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -545,7 +494,7 @@
             "Width": 17,
             "Height": 20
           },
-          "Text": "gay"
+          "Text": "say"
         }
       ]
     },
@@ -1710,25 +1659,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 548,
-            "Y": 321,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 42,
             "Y": 337,
             "Width": 32,
             "Height": 15
           },
-          "Text": "riests"
+          "Text": "priests"
         }
       ]
     },
@@ -1854,11 +1790,11 @@
         {
           "Bounds": {
             "X": 35,
-            "Y": 341,
-            "Width": 10,
-            "Height": 27
+            "Y": 356,
+            "Width": 35,
+            "Height": 13
           },
-          "Text": "i"
+          "Text": "have"
         }
       ]
     },
@@ -3139,10 +3075,23 @@
           "Bounds": {
             "X": 126,
             "Y": 519,
-            "Width": 53,
+            "Width": 28,
             "Height": 13
           },
-          "Text": "thathe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 158,
+            "Y": 519,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "he"
         }
       ]
     },
@@ -3727,7 +3676,7 @@
             "Width": 31,
             "Height": 13
           },
-          "Text": "pess"
+          "Text": "pass"
         }
       ]
     },
@@ -3874,6 +3823,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4131,11 +4081,24 @@
         {
           "Bounds": {
             "X": 398,
-            "Y": 632,
-            "Width": 59,
-            "Height": 10
+            "Y": 631,
+            "Width": 35,
+            "Height": 13
           },
-          "Text": "wenton"
+          "Text": "went"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 437,
+            "Y": 631,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "on"
         }
       ]
     },
@@ -5089,7 +5052,7 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "trom"
+          "Text": "from"
         }
       ]
     },
@@ -5775,7 +5738,7 @@
             "Width": 65,
             "Height": 14
           },
-          "Text": "TIeceived"
+          "Text": "received"
         }
       ]
     },
@@ -6504,11 +6467,7 @@
             "Height": 13
           },
           "Text": "la"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 476,
@@ -6517,6 +6476,15 @@
             "Height": 2
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 34,
+            "Y": 954,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "bor"
         }
       ]
     },
@@ -6524,12 +6492,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 34,
-            "Y": 953,
-            "Width": 35,
-            "Height": 16
+            "X": 61,
+            "Y": 954,
+            "Width": 14,
+            "Height": 13
           },
-          "Text": "borin"
+          "Text": "in"
         }
       ]
     },
@@ -6672,7 +6640,7 @@
             "Width": 18,
             "Height": 10
           },
-          "Text": "We"
+          "Text": "we"
         }
       ]
     },
@@ -6807,4 +6775,4 @@
       ]
     }
   ]
-}
+}

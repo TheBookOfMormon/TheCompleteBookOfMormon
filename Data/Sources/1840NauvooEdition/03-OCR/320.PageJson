@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1081,
   "ImageWidth": 776,
+  "ManuallyEdited": true,
   "PageNumber": 320,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 459,
-            "Y": 114,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 503,
-            "Y": 114,
-            "Width": 13,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 529,
-            "Y": 114,
-            "Width": 37,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -996,11 +958,11 @@
         {
           "Bounds": {
             "X": 295,
-            "Y": 270,
+            "Y": 274,
             "Width": 99,
-            "Height": 21
+            "Height": 13
           },
-          "Text": "abomingtions"
+          "Text": "abominations"
         }
       ]
     },
@@ -1881,10 +1843,23 @@
           "Bounds": {
             "X": 703,
             "Y": 395,
-            "Width": 17,
+            "Width": 10,
             "Height": 13
           },
-          "Text": "isa"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 395,
+            "Width": 10,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -3145,12 +3120,17 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "wicks"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "wick"
+        },
+        {
+          "Bounds": {
+            "X": 723,
+            "Y": 571,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 295,
@@ -3614,24 +3594,11 @@
         {
           "Bounds": {
             "X": 601,
-            "Y": 628,
-            "Width": 30,
-            "Height": 30
+            "Y": 644,
+            "Width": 70,
+            "Height": 13
           },
-          "Text": "Cock"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 640,
-            "Y": 630,
-            "Width": 27,
-            "Height": 28
-          },
-          "Text": "pn"
+          "Text": "murdered"
         }
       ]
     },
@@ -3657,7 +3624,7 @@
             "Width": 16,
             "Height": 13
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -4035,11 +4002,16 @@
             "Height": 13
           },
           "Text": "combi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 695,
+            "Width": 35,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 295,
@@ -4411,7 +4383,7 @@
             "Width": 23,
             "Height": 9
           },
-          "Text": "Tipe"
+          "Text": "ripe"
         }
       ]
     },
@@ -4420,11 +4392,11 @@
         {
           "Bounds": {
             "X": 306,
-            "Y": 769,
-            "Width": 29,
-            "Height": 27
+            "Y": 784,
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "Pm"
+          "Text": "And"
         }
       ]
     },
@@ -4905,7 +4877,7 @@
             "Width": 12,
             "Height": 10
           },
-          "Text": "oa"
+          "Text": "on"
         }
       ]
     },
@@ -5179,11 +5151,16 @@
             "Height": 13
           },
           "Text": "with"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 727,
+            "Y": 870,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 295,
@@ -5607,7 +5584,7 @@
             "Width": 25,
             "Height": 15
           },
-          "Text": "guch"
+          "Text": "such"
         }
       ]
     },
@@ -5883,6 +5860,19 @@
           "Text": "youth"
         }
       ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 711,
+            "Y": 959,
+            "Width": 36,
+            "Height": 19
+          },
+          "Text": "to"
+        }
+      ]
     }
   ]
-}
+}

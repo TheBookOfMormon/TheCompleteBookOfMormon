@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1080,
   "ImageWidth": 766,
+  "ManuallyEdited": true,
   "PageNumber": 296,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 121,
-            "Width": 34,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 121,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 539,
-            "Y": 121,
-            "Width": 37,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -194,7 +156,7 @@
             "Width": 8,
             "Height": 13
           },
-          "Text": "iy"
+          "Text": "in"
         }
       ]
     },
@@ -338,11 +300,16 @@
             "Height": 14
           },
           "Text": "there"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 724,
+            "Y": 173,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 298,
@@ -441,7 +408,7 @@
             "Width": 53,
             "Height": 13
           },
-          "Text": "eounsel"
+          "Text": "counsel"
         }
       ]
     },
@@ -481,11 +448,16 @@
             "Height": 12
           },
           "Text": "accord"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 192,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 297,
@@ -636,7 +608,7 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "whic"
+          "Text": "which"
         }
       ]
     },
@@ -750,10 +722,23 @@
           "Bounds": {
             "X": 635,
             "Y": 224,
-            "Width": 29,
+            "Width": 14,
             "Height": 13
           },
-          "Text": "init"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 653,
+            "Y": 224,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "it"
         }
       ]
     },
@@ -792,7 +777,7 @@
             "Width": 14,
             "Height": 9
           },
-          "Text": "no"
+          "Text": "not"
         }
       ]
     },
@@ -948,7 +933,7 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "hat"
+          "Text": "hath"
         }
       ]
     },
@@ -1009,11 +994,11 @@
         {
           "Bounds": {
             "X": 505,
-            "Y": 246,
-            "Width": 37,
-            "Height": 26
+            "Y": 261,
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "hise"
+          "Text": "this"
         }
       ]
     },
@@ -1079,6 +1064,19 @@
             "Height": 17
           },
           "Text": "perhaps"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 263,
+            "Width": 6,
+            "Height": 13
+          },
+          "Text": "I"
         }
       ]
     },
@@ -1672,11 +1670,11 @@
         {
           "Bounds": {
             "X": 704,
-            "Y": 334,
-            "Width": 16,
-            "Height": 11
+            "Y": 333,
+            "Width": 32,
+            "Height": 13
           },
-          "Text": "the"
+          "Text": "then"
         }
       ]
     },
@@ -1946,10 +1944,23 @@
           "Bounds": {
             "X": 629,
             "Y": 366,
-            "Width": 27,
-            "Height": 12
+            "Width": 17,
+            "Height": 13
           },
-          "Text": "dol"
+          "Text": "do"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 650,
+            "Y": 366,
+            "Width": 6,
+            "Height": 13
+          },
+          "Text": "I"
         }
       ]
     },
@@ -2687,15 +2698,11 @@
           "Bounds": {
             "X": 712,
             "Y": 454,
-            "Width": 7,
+            "Width": 12,
             "Height": 13
           },
-          "Text": "Jz"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Ja"
+        },
         {
           "Bounds": {
             "X": 718,
@@ -2704,11 +2711,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 296,
@@ -3662,10 +3665,10 @@
           "Bounds": {
             "X": 696,
             "Y": 578,
-            "Width": 12,
+            "Width": 11,
             "Height": 13
           },
-          "Text": "iif"
+          "Text": "in"
         }
       ]
     },
@@ -4091,10 +4094,23 @@
           "Bounds": {
             "X": 526,
             "Y": 635,
-            "Width": 35,
-            "Height": 14
+            "Width": 18,
+            "Height": 13
           },
-          "Text": "up'to"
+          "Text": "up"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 548,
+            "Y": 635,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "to"
         }
       ]
     },
@@ -4159,12 +4175,17 @@
             "Width": 13,
             "Height": 12
           },
-          "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Be"
+        },
+        {
+          "Bounds": {
+            "X": 728,
+            "Y": 631,
+            "Width": 13,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 295,
@@ -4298,11 +4319,11 @@
         {
           "Bounds": {
             "X": 394,
-            "Y": 667,
-            "Width": 39,
-            "Height": 16
+            "Y": 668,
+            "Width": 24,
+            "Height": 13
           },
-          "Text": "fruity"
+          "Text": "fruit"
         }
       ]
     },
@@ -4952,7 +4973,7 @@
             "Width": 18,
             "Height": 13
           },
-          "Text": "thet"
+          "Text": "that"
         }
       ]
     },
@@ -5108,7 +5129,7 @@
             "Width": 15,
             "Height": 13
           },
-          "Text": "als"
+          "Text": "also"
         }
       ]
     },
@@ -5277,7 +5298,7 @@
             "Width": 10,
             "Height": 10
           },
-          "Text": "g0"
+          "Text": "go"
         }
       ]
     },
@@ -5662,51 +5683,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 516,
-            "Y": 875,
-            "Width": 4,
-            "Height": 12
-          },
-          "Text": "i"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 917,
-            "Width": 90,
-            "Height": 14
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 556,
-            "Y": 917,
-            "Width": 21,
-            "Height": 13
-          },
-          "Text": "XVI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 315,
             "Y": 951,
             "Width": 53,
             "Height": 14
           },
-          "Text": "BEHOLD"
+          "Text": "Behold"
         }
       ]
     },
@@ -5719,7 +5701,7 @@
             "Width": 28,
             "Height": 8
           },
-          "Text": "NOW"
+          "Text": "now"
         }
       ]
     },
@@ -5971,4 +5953,4 @@
       ]
     }
   ]
-}
+}
