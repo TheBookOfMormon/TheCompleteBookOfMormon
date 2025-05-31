@@ -26,7 +26,6 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private bool AddWordAfter = true;
     private EditForm EditForm = null!;
-    private bool IsSpacer;
     private int LineHeight;
     private string LineHeightPreferenceKey = "";
     private OcrRect OriginalBounds = OcrRect.Empty;
@@ -80,11 +79,9 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task ConfirmAsync()
     {
-        if (IsSpacer)
-            Texts[0].Text = "x";
         if (!EditForm.EditContext!.Validate()) return;
 
-        OcrWord? newWord = IsSpacer ? null : CreateWord();
+        OcrWord? newWord = CreateWord();
 
         if (newWord != null)
             await Clipboard.SetTextAsync(newWord.GetCombinedText());
