@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1056,
   "ImageWidth": 768,
+  "ManuallyEdited": true,
   "PageNumber": 344,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 123,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 517,
-            "Y": 123,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 121,
-            "Width": 37,
-            "Height": 10
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 315,
-            "Y": 155,
-            "Width": 42,
-            "Height": 13
-          },
-          "Text": "gelves"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +117,7 @@
             "Width": 36,
             "Height": 13
           },
-          "Text": "peacss"
+          "Text": "peace"
         }
       ]
     },
@@ -341,6 +290,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -402,7 +354,7 @@
             "Width": 22,
             "Height": 10
           },
-          "Text": "cat"
+          "Text": "cut"
         }
       ]
     },
@@ -467,12 +419,17 @@
             "Width": 42,
             "Height": 12
           },
-          "Text": "Amalie"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Amalic"
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 190,
+            "Width": 7,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 315,
@@ -922,12 +879,17 @@
             "Width": 41,
             "Height": 12
           },
-          "Text": "Amalie"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Amalic"
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 258,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 315,
@@ -1759,7 +1721,7 @@
             "Width": 47,
             "Height": 12
           },
-          "Text": "estublish"
+          "Text": "establish"
         }
       ]
     },
@@ -1968,11 +1930,7 @@
             "Height": 13
           },
           "Text": "Amalickia"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 721,
@@ -1981,11 +1939,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 314,
@@ -2788,10 +2742,23 @@
           "Bounds": {
             "X": 700,
             "Y": 496,
-            "Width": 20,
+            "Width": 11,
             "Height": 13
           },
-          "Text": "inl"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 496,
+            "Width": 11,
+            "Height": 13
+          },
+          "Text": "all"
         }
       ]
     },
@@ -3152,10 +3119,23 @@
           "Bounds": {
             "X": 613,
             "Y": 548,
-            "Width": 55,
-            "Height": 14
+            "Width": 23,
+            "Height": 13
           },
-          "Text": "theland"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 640,
+            "Y": 548,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "land"
         }
       ]
     },
@@ -3181,7 +3161,7 @@
             "Width": 20,
             "Height": 12
           },
-          "Text": "thos"
+          "Text": "thus"
         }
       ]
     },
@@ -3246,7 +3226,7 @@
             "Width": 10,
             "Height": 12
           },
-          "Text": "1n"
+          "Text": "in"
         }
       ]
     },
@@ -4985,7 +4965,7 @@
             "Width": 21,
             "Height": 10
           },
-          "Text": "wer"
+          "Text": "were"
         }
       ]
     },
@@ -5076,7 +5056,7 @@
             "Width": 53,
             "Height": 13
           },
-          "Text": "glimate"
+          "Text": "climate"
         }
       ]
     },
@@ -5102,7 +5082,7 @@
             "Width": 31,
             "Height": 12
           },
-          "Text": "thero"
+          "Text": "there"
         }
       ]
     },
@@ -5115,7 +5095,7 @@
             "Width": 21,
             "Height": 9
           },
-          "Text": "wer"
+          "Text": "were"
         }
       ]
     },
@@ -5414,7 +5394,7 @@
             "Width": 35,
             "Height": 14
           },
-          "Text": "peeds"
+          "Text": "needs"
         }
       ]
     },
@@ -5428,11 +5408,16 @@
             "Height": 16
           },
           "Text": "sup"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 733,
+            "Y": 829,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 316,
@@ -5557,7 +5542,7 @@
             "Width": 71,
             "Height": 15
           },
-          "Text": "Amalickiad"
+          "Text": "Amalickiah"
         }
       ]
     },
@@ -5830,7 +5815,7 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "snd"
+          "Text": "and"
         }
       ]
     },
@@ -6142,7 +6127,7 @@
             "Width": 69,
             "Height": 16
           },
-          "Text": "insompeh"
+          "Text": "insomuch"
         }
       ]
     },
@@ -6234,6 +6219,19 @@
             "Height": 13
           },
           "Text": "sent"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 928,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -6350,9 +6348,9 @@
             "Width": 41,
             "Height": 19
           },
-          "Text": "peopley"
+          "Text": "people"
         }
       ]
     }
   ]
-}
+}

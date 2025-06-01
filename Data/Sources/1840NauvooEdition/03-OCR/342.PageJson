@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1058,
   "ImageWidth": 774,
+  "ManuallyEdited": true,
   "PageNumber": 342,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 469,
-            "Y": 117,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 117,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 117,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -129,33 +91,7 @@
             "Width": 34,
             "Height": 13
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 620,
-            "Y": 154,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 626,
-            "Y": 147,
-            "Width": 31,
-            "Height": 17
-          },
-          "Text": "plate"
+          "Text": "head-plate"
         }
       ]
     },
@@ -191,36 +127,10 @@
           "Bounds": {
             "X": 308,
             "Y": 166,
-            "Width": 43,
-            "Height": 12
+            "Width": 76,
+            "Height": 13
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 352,
-            "Y": 173,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 359,
-            "Y": 165,
-            "Width": 33,
-            "Height": 17
-          },
-          "Text": "plate"
+          "Text": "breast-plate"
         }
       ]
     },
@@ -1097,11 +1007,16 @@
             "Height": 13
           },
           "Text": "chris"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 251,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 308,
@@ -1252,7 +1167,7 @@
             "Width": 20,
             "Height": 10
           },
-          "Text": "trae"
+          "Text": "true"
         }
       ]
     },
@@ -1898,11 +1813,24 @@
         {
           "Bounds": {
             "X": 617,
-            "Y": 353,
-            "Width": 47,
-            "Height": 17
+            "Y": 355,
+            "Width": 13,
+            "Height": 13
           },
-          "Text": "asthey"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 634,
+            "Y": 355,
+            "Width": 32,
+            "Height": 13
+          },
+          "Text": "they"
         }
       ]
     },
@@ -2944,10 +2872,23 @@
           "Bounds": {
             "X": 619,
             "Y": 490,
-            "Width": 54,
+            "Width": 27,
             "Height": 13
           },
-          "Text": "andthe"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 650,
+            "Y": 490,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3710,6 +3651,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3758,7 +3700,7 @@
             "Width": 10,
             "Height": 12
           },
-          "Text": "'in"
+          "Text": "in"
         }
       ]
     },
@@ -3957,6 +3899,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4213,7 +4156,7 @@
             "Width": 14,
             "Height": 13
           },
-          "Text": "fori"
+          "Text": "forth"
         }
       ]
     },
@@ -4976,11 +4919,24 @@
         {
           "Bounds": {
             "X": 479,
-            "Y": 770,
-            "Width": 24,
-            "Height": 9
+            "Y": 768,
+            "Width": 13,
+            "Height": 13
           },
-          "Text": "asa"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 496,
+            "Y": 768,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5045,7 +5001,7 @@
             "Width": 13,
             "Height": 9
           },
-          "Text": "nd"
+          "Text": "not"
         }
       ]
     },
@@ -5240,7 +5196,7 @@
             "Width": 115,
             "Height": 12
           },
-          "Text": "coromandments"
+          "Text": "commandments"
         }
       ]
     },
@@ -5305,7 +5261,7 @@
             "Width": 14,
             "Height": 10
           },
-          "Text": "ini"
+          "Text": "into"
         }
       ]
     },
@@ -5578,7 +5534,7 @@
             "Width": 14,
             "Height": 19
           },
-          "Text": "ha"
+          "Text": "had"
         }
       ]
     },
@@ -5834,11 +5790,11 @@
         {
           "Bounds": {
             "X": 719,
-            "Y": 865,
-            "Width": 7,
-            "Height": 20
+            "Y": 868,
+            "Width": 11,
+            "Height": 13
           },
-          "Text": "dl"
+          "Text": "of"
         }
       ]
     },
@@ -5968,7 +5924,7 @@
             "Width": 20,
             "Height": 18
           },
-          "Text": "si&"
+          "Text": "shall"
         }
       ]
     },
@@ -6241,7 +6197,7 @@
             "Width": 11,
             "Height": 8
           },
-          "Text": "is"
+          "Text": "us"
         }
       ]
     },
@@ -6254,7 +6210,7 @@
             "Width": 8,
             "Height": 10
           },
-          "Text": "al"
+          "Text": "at"
         }
       ]
     },
@@ -6410,9 +6366,9 @@
             "Width": 49,
             "Height": 18
           },
-          "Text": "garmeds"
+          "Text": "garments"
         }
       ]
     }
   ]
-}
+}

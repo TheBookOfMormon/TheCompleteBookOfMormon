@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1057,
   "ImageWidth": 771,
+  "ManuallyEdited": true,
   "PageNumber": 346,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 469,
-            "Y": 121,
-            "Width": 33,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 121,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 121,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -597,7 +559,7 @@
             "Width": 53,
             "Height": 14
           },
-          "Text": "Lehontis"
+          "Text": "Lehonti\u0027s"
         }
       ]
     },
@@ -740,7 +702,7 @@
             "Width": 16,
             "Height": 9
           },
-          "Text": "unt"
+          "Text": "unto"
         }
       ]
     },
@@ -870,7 +832,7 @@
             "Width": 13,
             "Height": 19
           },
-          "Text": "hs"
+          "Text": "he"
         }
       ]
     },
@@ -1650,7 +1612,7 @@
             "Width": 68,
             "Height": 13
           },
-          "Text": "Lehonti's"
+          "Text": "Lehonti\u0027s"
         }
       ]
     },
@@ -2124,11 +2086,16 @@
             "Height": 13
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 409,
+            "Width": 12,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 308,
@@ -2427,7 +2394,7 @@
             "Width": 18,
             "Height": 12
           },
-          "Text": "pas"
+          "Text": "pass"
         }
       ]
     },
@@ -2483,6 +2450,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3766,7 +3734,7 @@
             "Width": 86,
             "Height": 12
           },
-          "Text": "Amalickinh"
+          "Text": "Amalickiah"
         }
       ]
     },
@@ -3936,11 +3904,16 @@
             "Height": 12
           },
           "Text": "Le"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 647,
+            "Width": 13,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 307,
@@ -4117,7 +4090,7 @@
             "Width": 12,
             "Height": 11
           },
-          "Text": "tp"
+          "Text": "to"
         }
       ]
     },
@@ -4300,11 +4273,16 @@
             "Height": 12
           },
           "Text": "Ama"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 699,
+            "Width": 23,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 307,
@@ -4689,7 +4667,7 @@
             "Width": 36,
             "Height": 10
           },
-          "Text": "canie"
+          "Text": "came"
         }
       ]
     },
@@ -5049,6 +5027,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5123,7 +5102,7 @@
             "Width": 9,
             "Height": 9
           },
-          "Text": "t0"
+          "Text": "to"
         }
       ]
     },
@@ -6238,4 +6217,4 @@
       ]
     }
   ]
-}
+}

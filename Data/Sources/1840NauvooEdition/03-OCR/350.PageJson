@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1057,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 350,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 119,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 119,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 118,
-            "Width": 33,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -367,6 +329,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -428,7 +391,7 @@
             "Width": 39,
             "Height": 13
           },
-          "Text": "amongs"
+          "Text": "amongst"
         }
       ]
     },
@@ -1027,11 +990,16 @@
             "Height": 21
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 267,
+            "Width": 9,
+            "Height": 21
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 316,
@@ -1078,7 +1046,7 @@
             "Width": 22,
             "Height": 10
           },
-          "Text": "yot"
+          "Text": "not"
         }
       ]
     },
@@ -1169,7 +1137,7 @@
             "Width": 13,
             "Height": 10
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -1478,10 +1446,23 @@
           "Bounds": {
             "X": 692,
             "Y": 321,
-            "Width": 30,
+            "Width": 22,
             "Height": 13
           },
-          "Text": "intos"
+          "Text": "into"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 718,
+            "Y": 321,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "an"
         }
       ]
     },
@@ -2248,7 +2229,7 @@
             "Width": 15,
             "Height": 12
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -3393,11 +3374,7 @@
             "Height": 9
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 697,
@@ -3406,11 +3383,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 702,
@@ -3418,9 +3391,10 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "bull"
+          "Text": "built"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -3717,7 +3691,7 @@
             "Width": 21,
             "Height": 13
           },
-          "Text": "then"
+          "Text": "them"
         }
       ]
     },
@@ -3861,11 +3835,16 @@
             "Height": 19
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 731,
+            "Y": 626,
+            "Width": 13,
+            "Height": 19
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 317,
@@ -4103,37 +4082,24 @@
         {
           "Bounds": {
             "X": 664,
-            "Y": 666,
-            "Width": 11,
-            "Height": 9
-          },
-          "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 677,
-            "Y": 669,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 682,
-            "Y": 661,
-            "Width": 26,
+            "Y": 664,
+            "Width": 48,
             "Height": 13
           },
-          "Text": "built"
+          "Text": "re-built"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 724,
+            "Y": 659,
+            "Width": 4,
+            "Height": 13
+          },
+          "Text": "I"
         }
       ]
     },
@@ -4289,7 +4255,7 @@
             "Width": 37,
             "Height": 18
           },
-          "Text": "becavst"
+          "Text": "because"
         }
       ]
     },
@@ -4315,7 +4281,7 @@
             "Width": 75,
             "Height": 13
           },
-          "Text": "Lemanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -4419,7 +4385,7 @@
             "Width": 40,
             "Height": 16
           },
-          "Text": "iniquiff"
+          "Text": "iniquity"
         }
       ]
     },
@@ -4692,7 +4658,7 @@
             "Width": 18,
             "Height": 12
           },
-          "Text": "thet"
+          "Text": "their"
         }
       ]
     },
@@ -4797,6 +4763,19 @@
             "Height": 12
           },
           "Text": "up"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 749,
+            "Width": 12,
+            "Height": 12
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5047,6 +5026,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5057,6 +5037,19 @@
             "Height": 11
           },
           "Text": "arrows"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 782,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "at"
         }
       ]
     },
@@ -5186,7 +5179,7 @@
             "Width": 21,
             "Height": 17
           },
-          "Text": "com"
+          "Text": "come"
         }
       ]
     },
@@ -5467,6 +5460,24 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 710,
+            "Y": 833,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "as"
+        },
+        {
+          "Bounds": {
+            "X": 727,
+            "Y": 833,
+            "Width": 10,
+            "Height": 13
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
             "X": 308,
             "Y": 851,
             "Width": 71,
@@ -5577,11 +5588,16 @@
             "Height": 13
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 728,
+            "Y": 847,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -5707,11 +5723,16 @@
             "Height": 21
           },
           "Text": "lead"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 860,
+            "Width": 19,
+            "Height": 21
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -5837,11 +5858,16 @@
             "Height": 20
           },
           "Text": "great"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 730,
+            "Y": 883,
+            "Width": 28,
+            "Height": 20
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 319,
@@ -6231,4 +6257,4 @@
       ]
     }
   ]
-}
+}
