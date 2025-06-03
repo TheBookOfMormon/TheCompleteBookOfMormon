@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1057,
   "ImageWidth": 781,
+  "ManuallyEdited": true,
   "PageNumber": 398,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 111,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 111,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 111,
-            "Width": 63,
-            "Height": 9
-          },
-          "Text": "BELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -250,6 +212,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -286,11 +249,16 @@
             "Height": 12
           },
           "Text": "send"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 162,
+            "Width": 24,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 306,
@@ -2284,10 +2252,23 @@
           "Bounds": {
             "X": 686,
             "Y": 416,
-            "Width": 36,
+            "Width": 18,
             "Height": 13
           },
-          "Text": "dideut"
+          "Text": "did"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 708,
+            "Y": 416,
+            "Width": 18,
+            "Height": 13
+          },
+          "Text": "cut"
         }
       ]
     },
@@ -2872,7 +2853,7 @@
             "Width": 18,
             "Height": 12
           },
-          "Text": "pas"
+          "Text": "pass"
         }
       ]
     },
@@ -3436,12 +3417,17 @@
             "Width": 25,
             "Height": 13
           },
-          "Text": "Pact"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Pacu"
+        },
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 553,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 311,
@@ -3449,7 +3435,7 @@
             "Width": 35,
             "Height": 15
           },
-          "Text": "ment"
+          "Text": "meni"
         }
       ]
     },
@@ -3580,11 +3566,16 @@
             "Height": 12
           },
           "Text": "pos"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 574,
+            "Width": 16,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 311,
@@ -4009,11 +4000,16 @@
             "Height": 15
           },
           "Text": "posses"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 728,
+            "Y": 625,
+            "Width": 37,
+            "Height": 15
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 312,
@@ -4021,7 +4017,7 @@
             "Width": 25,
             "Height": 9
           },
-          "Text": "gion"
+          "Text": "sion"
         }
       ]
     },
@@ -5316,17 +5312,22 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 712,
+            "Y": 779,
+            "Width": 10,
+            "Height": 9
+          },
+          "Text": "as"
+        },
+        {
+          "Bounds": {
             "X": 718,
             "Y": 778,
             "Width": 8,
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 313,
@@ -5737,7 +5738,7 @@
             "Width": 57,
             "Height": 17
           },
-          "Text": "throngh"
+          "Text": "through"
         }
       ]
     },
@@ -6506,4 +6507,4 @@
       ]
     }
   ]
-}
+}

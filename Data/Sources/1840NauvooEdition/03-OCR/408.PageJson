@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1056,
   "ImageWidth": 765,
+  "ManuallyEdited": true,
   "PageNumber": 408,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 437,
-            "Y": 116,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 116,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 514,
-            "Y": 115,
-            "Width": 59,
-            "Height": 10
-          },
-          "Text": "HELAMAIN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -169,11 +131,16 @@
             "Height": 13
           },
           "Text": "Zara"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 701,
+            "Y": 148,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 291,
@@ -1036,10 +1003,23 @@
           "Bounds": {
             "X": 520,
             "Y": 284,
-            "Width": 52,
-            "Height": 12
+            "Width": 10,
+            "Height": 13
           },
-          "Text": "itcame"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 534,
+            "Y": 284,
+            "Width": 39,
+            "Height": 13
+          },
+          "Text": "came"
         }
       ]
     },
@@ -2184,11 +2164,24 @@
         {
           "Bounds": {
             "X": 595,
-            "Y": 423,
-            "Width": 83,
-            "Height": 32
+            "Y": 440,
+            "Width": 71,
+            "Height": 13
           },
-          "Text": "faditionaat"
+          "Text": "traditions"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 670,
+            "Y": 440,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -2461,7 +2454,7 @@
             "Width": 14,
             "Height": 13
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -4386,11 +4379,24 @@
         {
           "Bounds": {
             "X": 409,
-            "Y": 729,
-            "Width": 60,
-            "Height": 18
+            "Y": 731,
+            "Width": 22,
+            "Height": 13
           },
-          "Text": "Forthey"
+          "Text": "For"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 435,
+            "Y": 731,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "they"
         }
       ]
     },
@@ -4546,7 +4552,7 @@
             "Width": 49,
             "Height": 14
           },
-          "Text": "peither"
+          "Text": "neither"
         }
       ]
     },
@@ -5508,7 +5514,7 @@
             "Width": 22,
             "Height": 14
           },
-          "Text": "gaid"
+          "Text": "said"
         }
       ]
     },
@@ -6054,12 +6060,8 @@
             "Width": 13,
             "Height": 13
           },
-          "Text": "He"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Ne"
+        },
         {
           "Bounds": {
             "X": 701,
@@ -6068,8 +6070,18 @@
             "Height": 8
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 20,
+            "Y": 139,
+            "Width": 27,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "phites"
         }
       ]
     }
   ]
-}
+}
