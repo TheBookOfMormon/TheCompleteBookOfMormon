@@ -8,6 +8,7 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
+        AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
@@ -31,5 +32,10 @@ public static class MauiProgram
          {
          });
         return builder.Build();
+    }
+
+    private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+    {
+        throw new NotImplementedException();
     }
 }

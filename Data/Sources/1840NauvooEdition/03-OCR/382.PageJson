@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1057,
   "ImageWidth": 764,
+  "ManuallyEdited": true,
   "PageNumber": 382,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 115,
-            "Width": 32,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 123,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 545,
-            "Y": 123,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -572,6 +534,19 @@
             "Height": 14
           },
           "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 224,
+            "Width": 6,
+            "Height": 13
+          },
+          "Text": "I"
         }
       ]
     },
@@ -1217,11 +1192,24 @@
         {
           "Bounds": {
             "X": 690,
-            "Y": 309,
-            "Width": 33,
-            "Height": 17
+            "Y": 311,
+            "Width": 21,
+            "Height": 13
           },
-          "Text": "cityof"
+          "Text": "city"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 311,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -1235,19 +1223,6 @@
             "Height": 13
           },
           "Text": "Manti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 375,
-            "Y": 323,
-            "Width": 3,
-            "Height": 21
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1716,11 +1691,16 @@
             "Height": 13
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 724,
+            "Y": 377,
+            "Width": 36,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 317,
@@ -2110,7 +2090,7 @@
             "Width": 15,
             "Height": 13
           },
-          "Text": "fies"
+          "Text": "flee"
         }
       ]
     },
@@ -2237,10 +2217,23 @@
           "Bounds": {
             "X": 685,
             "Y": 445,
-            "Width": 39,
+            "Width": 22,
             "Height": 13
           },
-          "Text": "thatthe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 711,
+            "Y": 445,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "the"
         }
       ]
     },
@@ -2799,7 +2792,7 @@
             "Width": 9,
             "Height": 9
           },
-          "Text": "ar"
+          "Text": "are"
         }
       ]
     },
@@ -2942,7 +2935,7 @@
             "Width": 26,
             "Height": 15
           },
-          "Text": "father"
+          "Text": "fathers"
         }
       ]
     },
@@ -3496,6 +3489,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 719,
+            "Y": 598,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "so"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 318,
             "Y": 619,
             "Width": 36,
@@ -3797,10 +3803,23 @@
           "Bounds": {
             "X": 497,
             "Y": 650,
-            "Width": 67,
-            "Height": 14
+            "Width": 41,
+            "Height": 13
           },
-          "Text": "citiesand"
+          "Text": "cities"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 542,
+            "Y": 650,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "and"
         }
       ]
     },
@@ -3852,7 +3871,7 @@
             "Width": 19,
             "Height": 9
           },
-          "Text": "wen"
+          "Text": "were"
         }
       ]
     },
@@ -4008,12 +4027,17 @@
             "Width": 18,
             "Height": 13
           },
-          "Text": "gow"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "gov"
+        },
+        {
+          "Bounds": {
+            "X": 727,
+            "Y": 670,
+            "Width": 18,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -4138,7 +4162,7 @@
             "Width": 25,
             "Height": 14
           },
-          "Text": "thes"
+          "Text": "those"
         }
       ]
     },
@@ -4290,16 +4314,21 @@
         {
           "Bounds": {
             "X": 713,
-            "Y": 704,
-            "Width": 11,
-            "Height": 9
+            "Y": 702,
+            "Width": 8,
+            "Height": 13
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "re"
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 702,
+            "Width": 7,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -4879,7 +4908,7 @@
             "Width": 19,
             "Height": 12
           },
-          "Text": "ther"
+          "Text": "there"
         }
       ]
     },
@@ -5296,11 +5325,16 @@
             "Height": 12
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 820,
+            "Width": 11,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -5438,12 +5472,17 @@
             "Width": 14,
             "Height": 10
           },
-          "Text": "noi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "not"
+        },
+        {
+          "Bounds": {
+            "X": 724,
+            "Y": 839,
+            "Width": 14,
+            "Height": 10
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -5551,16 +5590,21 @@
         {
           "Bounds": {
             "X": 709,
-            "Y": 851,
-            "Width": 14,
-            "Height": 23
+            "Y": 856,
+            "Width": 10,
+            "Height": 13
           },
-          "Text": "d&"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "de"
+        },
+        {
+          "Bounds": {
+            "X": 723,
+            "Y": 856,
+            "Width": 7,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,
@@ -5699,6 +5743,19 @@
             "Height": 12
           },
           "Text": "this"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 871,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "is"
         }
       ]
     },
@@ -5854,7 +5911,7 @@
             "Width": 14,
             "Height": 9
           },
-          "Text": "sre"
+          "Text": "are"
         }
       ]
     },
@@ -6301,4 +6358,4 @@
       ]
     }
   ]
-}
+}
