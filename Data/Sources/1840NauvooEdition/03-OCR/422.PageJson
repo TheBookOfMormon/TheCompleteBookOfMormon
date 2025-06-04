@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1057,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 422,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 112,
-            "Width": 33,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 112,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 112,
-            "Width": 63,
-            "Height": 9
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -495,15 +457,24 @@
           "Bounds": {
             "X": 670,
             "Y": 183,
-            "Width": 42,
-            "Height": 12
+            "Width": 20,
+            "Height": 13
           },
-          "Text": "youano"
+          "Text": "you"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 694,
+            "Y": 183,
+            "Width": 20,
+            "Height": 13
+          },
+          "Text": "ano"
+        },
         {
           "Bounds": {
             "X": 709,
@@ -512,11 +483,7 @@
             "Height": 8
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 299,
@@ -993,11 +960,16 @@
             "Height": 13
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 231,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 299,
@@ -1954,12 +1926,8 @@
             "Width": 48,
             "Height": 13
           },
-          "Text": "astonih"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "astonish"
+        },
         {
           "Bounds": {
             "X": 716,
@@ -1968,11 +1936,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 300,
@@ -1989,11 +1953,11 @@
         {
           "Bounds": {
             "X": 334,
-            "Y": 355,
-            "Width": 64,
-            "Height": 26
+            "Y": 370,
+            "Width": 95,
+            "Height": 13
           },
-          "Text": "amy"
+          "Text": "nevertheless"
         }
       ]
     },
@@ -4367,11 +4331,16 @@
             "Height": 14
           },
           "Text": "accord"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 624,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 303,
@@ -6404,7 +6373,7 @@
             "Width": 12,
             "Height": 9
           },
-          "Text": "ao"
+          "Text": "and"
         }
       ]
     },
@@ -6851,4 +6820,4 @@
       ]
     }
   ]
-}
+}

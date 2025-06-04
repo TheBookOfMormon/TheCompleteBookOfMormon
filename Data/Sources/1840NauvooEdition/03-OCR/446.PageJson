@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1021,
   "ImageWidth": 771,
+  "ManuallyEdited": true,
   "PageNumber": 446,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 92,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 92,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 543,
-            "Y": 92,
-            "Width": 39,
-            "Height": 9
-          },
-          "Text": "NEPHIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -437,11 +399,11 @@
         {
           "Bounds": {
             "X": 657,
-            "Y": 144,
+            "Y": 159,
             "Width": 37,
-            "Height": 32
+            "Height": 17
           },
-          "Text": "pitied"
+          "Text": "guard"
         }
       ]
     },
@@ -451,10 +413,10 @@
           "Bounds": {
             "X": 700,
             "Y": 159,
-            "Width": 14,
-            "Height": 14
+            "Width": 36,
+            "Height": 13
           },
-          "Text": "thi"
+          "Text": "them"
         }
       ]
     },
@@ -2088,6 +2050,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2800,6 +2763,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2857,11 +2821,24 @@
         {
           "Bounds": {
             "X": 697,
-            "Y": 459,
-            "Width": 29,
-            "Height": 19
+            "Y": 462,
+            "Width": 17,
+            "Height": 13
           },
-          "Text": "wasa"
+          "Text": "was"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 718,
+            "Y": 462,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2872,9 +2849,9 @@
             "X": 312,
             "Y": 481,
             "Width": 23,
-            "Height": 27
+            "Height": 12
           },
-          "Text": "ge"
+          "Text": "great"
         }
       ]
     },
@@ -3004,7 +2981,7 @@
             "Width": 21,
             "Height": 12
           },
-          "Text": "Yow"
+          "Text": "Now"
         }
       ]
     },
@@ -3278,11 +3255,16 @@
             "Height": 12
           },
           "Text": "wilder"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 513,
+            "Width": 36,
+            "Height": 12
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 313,
@@ -4734,11 +4716,11 @@
         {
           "Bounds": {
             "X": 334,
-            "Y": 685,
+            "Y": 700,
             "Width": 77,
-            "Height": 31
+            "Height": 16
           },
-          "Text": "Padlithens"
+          "Text": "Lachoneus"
         }
       ]
     },
@@ -5767,36 +5749,10 @@
           "Bounds": {
             "X": 397,
             "Y": 839,
-            "Width": 16,
+            "Width": 73,
             "Height": 13
           },
-          "Text": "ap"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 423,
-            "Y": 821,
-            "Width": 23,
-            "Height": 29
-          },
-          "Text": "hag"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 823,
-            "Width": 20,
-            "Height": 25
-          },
-          "Text": "wh"
+          "Text": "appointed"
         }
       ]
     },
@@ -5809,7 +5765,7 @@
             "Width": 17,
             "Height": 8
           },
-          "Text": "ng"
+          "Text": "was"
         }
       ]
     },
@@ -5917,6 +5873,17 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6030,7 +5997,7 @@
             "Width": 31,
             "Height": 14
           },
-          "Text": "Iand"
+          "Text": "land"
         }
       ]
     },
@@ -6135,6 +6102,19 @@
             "Height": 16
           },
           "Text": "were"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 871,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -6360,4 +6340,4 @@
       ]
     }
   ]
-}
+}

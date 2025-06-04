@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1022,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 440,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 473,
-            "Y": 107,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 106,
-            "Width": 13,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 541,
-            "Y": 106,
-            "Width": 36,
-            "Height": 9
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -194,12 +156,17 @@
             "Width": 28,
             "Height": 14
           },
-          "Text": "Lach"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Lacho"
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 138,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 317,
@@ -610,7 +577,7 @@
             "Width": 19,
             "Height": 12
           },
-          "Text": "whe"
+          "Text": "who"
         }
       ]
     },
@@ -1117,7 +1084,7 @@
             "Width": 14,
             "Height": 12
           },
-          "Text": "otf"
+          "Text": "of"
         }
       ]
     },
@@ -1481,7 +1448,7 @@
             "Width": 8,
             "Height": 12
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -1685,11 +1652,24 @@
         {
           "Bounds": {
             "X": 589,
-            "Y": 341,
-            "Width": 83,
-            "Height": 17
+            "Y": 343,
+            "Width": 65,
+            "Height": 13
           },
-          "Text": "propheciesof"
+          "Text": "prophecies"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 667,
+            "Y": 343,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -1845,12 +1825,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 674,
-            "Y": 365,
-            "Width": 1,
-            "Height": 2
+            "X": 677,
+            "Y": 358,
+            "Width": 34,
+            "Height": 17
           },
-          "Text": "-"
+          "Text": "began"
         }
       ]
     },
@@ -1858,12 +1838,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 677,
-            "Y": 358,
-            "Width": 34,
-            "Height": 17
+            "X": 715,
+            "Y": 360,
+            "Width": 14,
+            "Height": 13
           },
-          "Text": "began"
+          "Text": "to"
         }
       ]
     },
@@ -3779,7 +3759,7 @@
             "Width": 15,
             "Height": 10
           },
-          "Text": "nol"
+          "Text": "not"
         }
       ]
     },
@@ -4104,12 +4084,17 @@
             "Width": 9,
             "Height": 8
           },
-          "Text": "tre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "tra"
+        },
+        {
+          "Bounds": {
+            "X": 724,
+            "Y": 649,
+            "Width": 9,
+            "Height": 8
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 316,
@@ -4531,9 +4516,9 @@
             "X": 662,
             "Y": 697,
             "Width": 39,
-            "Height": 29
+            "Height": 14
           },
-          "Text": "Neph"
+          "Text": "Nephi"
         }
       ]
     },
@@ -4546,7 +4531,7 @@
             "Width": 17,
             "Height": 8
           },
-          "Text": "Saw"
+          "Text": "saw"
         }
       ]
     },
@@ -4677,11 +4662,16 @@
             "Height": 9
           },
           "Text": "sor"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 728,
+            "Y": 714,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 316,
@@ -5105,7 +5095,7 @@
             "Width": 24,
             "Height": 19
           },
-          "Text": "abou"
+          "Text": "about"
         }
       ]
     },
@@ -5846,7 +5836,7 @@
             "Width": 12,
             "Height": 9
           },
-          "Text": "op"
+          "Text": "on"
         }
       ]
     },
@@ -6003,6 +5993,19 @@
             "Height": 15
           },
           "Text": "come"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 870,
+            "Width": 6,
+            "Height": 13
+          },
+          "Text": "I"
         }
       ]
     },
@@ -6171,7 +6174,7 @@
             "Width": 8,
             "Height": 12
           },
-          "Text": "al"
+          "Text": "all"
         }
       ]
     },
@@ -6275,7 +6278,7 @@
             "Width": 48,
             "Height": 16
           },
-          "Text": "apoken"
+          "Text": "spoken"
         }
       ]
     },
@@ -6457,7 +6460,7 @@
             "Width": 11,
             "Height": 10
           },
-          "Text": "t0"
+          "Text": "to"
         }
       ]
     },
@@ -6475,4 +6478,4 @@
       ]
     }
   ]
-}
+}

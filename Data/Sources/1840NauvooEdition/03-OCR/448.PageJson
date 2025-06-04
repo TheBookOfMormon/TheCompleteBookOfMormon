@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1021,
   "ImageWidth": 764,
+  "ManuallyEdited": true,
   "PageNumber": 448,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 93,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 509,
-            "Y": 92,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 92,
-            "Width": 35,
-            "Height": 9
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -126,10 +88,23 @@
           "Bounds": {
             "X": 655,
             "Y": 124,
-            "Width": 38,
-            "Height": 14
+            "Width": 22,
+            "Height": 13
           },
-          "Text": "thatin"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 681,
+            "Y": 124,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "in"
         }
       ]
     },
@@ -766,7 +741,7 @@
             "Width": 37,
             "Height": 13
           },
-          "Text": "irded"
+          "Text": "girded"
         }
       ]
     },
@@ -905,37 +880,11 @@
         {
           "Bounds": {
             "X": 309,
-            "Y": 212,
-            "Width": 35,
-            "Height": 26
-          },
-          "Text": "famb"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 346,
-            "Y": 232,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 351,
-            "Y": 225,
-            "Width": 27,
+            "Y": 226,
+            "Width": 64,
             "Height": 13
           },
-          "Text": "gkin"
+          "Text": "lamb-skin"
         }
       ]
     },
@@ -1166,36 +1115,10 @@
           "Bounds": {
             "X": 614,
             "Y": 242,
-            "Width": 32,
-            "Height": 12
+            "Width": 75,
+            "Height": 13
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 647,
-            "Y": 249,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 653,
-            "Y": 242,
-            "Width": 37,
-            "Height": 17
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -3020,7 +2943,7 @@
             "Width": 25,
             "Height": 12
           },
-          "Text": "tear"
+          "Text": "fear"
         }
       ]
     },
@@ -4677,6 +4600,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5163,11 +5087,11 @@
         {
           "Bounds": {
             "X": 306,
-            "Y": 754,
-            "Width": 25,
-            "Height": 26
+            "Y": 753,
+            "Width": 35,
+            "Height": 13
           },
-          "Text": "gg"
+          "Text": "even"
         }
       ]
     },
@@ -5272,11 +5196,7 @@
             "Height": 13
           },
           "Text": "Gid"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 718,
@@ -5285,11 +5205,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 316,
@@ -5297,7 +5213,7 @@
             "Width": 38,
             "Height": 8
           },
-          "Text": "iddoni"
+          "Text": "giddoni"
         }
       ]
     },
@@ -5700,7 +5616,7 @@
             "Width": 12,
             "Height": 9
           },
-          "Text": "an"
+          "Text": "and"
         }
       ]
     },
@@ -6420,4 +6336,4 @@
       ]
     }
   ]
-}
+}

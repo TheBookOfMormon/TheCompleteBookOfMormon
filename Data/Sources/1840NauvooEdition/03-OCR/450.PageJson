@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1021,
   "ImageWidth": 794,
+  "ManuallyEdited": true,
   "PageNumber": 450,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 473,
-            "Y": 78,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 78,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 540,
-            "Y": 77,
-            "Width": 40,
-            "Height": 9
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -598,6 +560,19 @@
             "Height": 9
           },
           "Text": "cause"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 653,
+            "Y": 161,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "to"
         }
       ]
     },
@@ -1967,12 +1942,8 @@
             "Width": 41,
             "Height": 12
           },
-          "Text": "presery"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "preserv"
+        },
         {
           "Bounds": {
             "X": 726,
@@ -1981,11 +1952,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 316,
@@ -2535,11 +2502,11 @@
         {
           "Bounds": {
             "X": 678,
-            "Y": 367,
+            "Y": 382,
             "Width": 27,
-            "Height": 25
+            "Height": 10
           },
-          "Text": "ith"
+          "Text": "with"
         }
       ]
     },
@@ -2821,11 +2788,11 @@
         {
           "Bounds": {
             "X": 679,
-            "Y": 401,
+            "Y": 416,
             "Width": 37,
-            "Height": 25
+            "Height": 10
           },
-          "Text": "Rida"
+          "Text": "hands"
         }
       ]
     },
@@ -3445,6 +3412,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4257,7 +4226,7 @@
             "Width": 10,
             "Height": 12
           },
-          "Text": "fo"
+          "Text": "to"
         }
       ]
     },
@@ -4379,7 +4348,7 @@
             "Width": 40,
             "Height": 13
           },
-          "Text": "nceds"
+          "Text": "needs"
         }
       ]
     },
@@ -5289,7 +5258,7 @@
             "Width": 26,
             "Height": 13
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -5727,11 +5696,11 @@
         {
           "Bounds": {
             "X": 729,
-            "Y": 770,
-            "Width": 6,
-            "Height": 10
+            "Y": 769,
+            "Width": 14,
+            "Height": 13
           },
-          "Text": "a"
+          "Text": "at"
         }
       ]
     },
@@ -6014,15 +5983,24 @@
           "Bounds": {
             "X": 686,
             "Y": 803,
-            "Width": 48,
-            "Height": 12
+            "Width": 32,
+            "Height": 13
           },
-          "Text": "thosese"
+          "Text": "those"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 722,
+            "Y": 803,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "se"
+        },
         {
           "Bounds": {
             "X": 730,
@@ -6031,11 +6009,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 322,
@@ -6365,10 +6339,23 @@
           "Bounds": {
             "X": 683,
             "Y": 853,
-            "Width": 56,
+            "Width": 28,
             "Height": 13
           },
-          "Text": "Andthus"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 715,
+            "Y": 853,
+            "Width": 28,
+            "Height": 13
+          },
+          "Text": "thus"
         }
       ]
     },
@@ -6623,6 +6610,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 687,
+            "Y": 890,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "so"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 707,
             "Y": 885,
             "Width": 32,
@@ -6633,4 +6633,4 @@
       ]
     }
   ]
-}
+}

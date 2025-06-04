@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1021,
   "ImageWidth": 767,
+  "ManuallyEdited": true,
   "PageNumber": 452,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 93,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 93,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 93,
-            "Width": 39,
-            "Height": 9
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -156,11 +118,16 @@
             "Height": 12
           },
           "Text": "pros"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 131,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 316,
@@ -285,7 +252,7 @@
             "Width": 16,
             "Height": 14
           },
-          "Text": "shal"
+          "Text": "shall"
         }
       ]
     },
@@ -897,11 +864,16 @@
             "Height": 9
           },
           "Text": "scat"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 213,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 315,
@@ -2269,6 +2241,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 304,
+            "Y": 396,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "so"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 332,
             "Y": 396,
             "Width": 34,
@@ -2321,38 +2306,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 470,
-            "Y": 482,
-            "Width": 86,
-            "Height": 13
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 482,
-            "Width": 17,
-            "Height": 13
-          },
-          "Text": "III"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 328,
             "Y": 517,
             "Width": 31,
             "Height": 12
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -2662,9 +2621,9 @@
             "X": 311,
             "Y": 554,
             "Width": 33,
-            "Height": 25
+            "Height": 10
           },
-          "Text": "Jean"
+          "Text": "year"
         }
       ]
     },
@@ -2807,7 +2766,7 @@
             "Width": 16,
             "Height": 13
           },
-          "Text": "11s"
+          "Text": "his"
         }
       ]
     },
@@ -5531,4 +5490,4 @@
       ]
     }
   ]
-}
+}

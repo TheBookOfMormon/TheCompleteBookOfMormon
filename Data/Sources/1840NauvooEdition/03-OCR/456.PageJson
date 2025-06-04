@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1022,
   "ImageWidth": 775,
+  "ManuallyEdited": true,
   "PageNumber": 456,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 89,
-            "Width": 31,
-            "Height": 10
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 89,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 532,
-            "Y": 88,
-            "Width": 42,
-            "Height": 10
-          },
-          "Text": "NEFHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -182,11 +144,16 @@
             "Height": 10
           },
           "Text": "un"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 718,
+            "Y": 125,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 307,
@@ -350,7 +317,7 @@
             "Width": 25,
             "Height": 13
           },
-          "Text": "Ang"
+          "Text": "And"
         }
       ]
     },
@@ -845,11 +812,16 @@
             "Height": 14
           },
           "Text": "fami"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 206,
+            "Width": 22,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 308,
@@ -944,11 +916,24 @@
         {
           "Bounds": {
             "X": 656,
-            "Y": 226,
-            "Width": 48,
-            "Height": 10
+            "Y": 225,
+            "Width": 31,
+            "Height": 13
           },
-          "Text": "cometo"
+          "Text": "come"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 691,
+            "Y": 225,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "to"
         }
       ]
     },
@@ -1261,11 +1246,16 @@
             "Height": 9
           },
           "Text": "man"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 259,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 308,
@@ -4109,19 +4099,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 377,
-            "Y": 634,
-            "Width": 10,
-            "Height": 8
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 383,
             "Y": 630,
             "Width": 33,
@@ -5003,7 +4980,7 @@
             "Width": 33,
             "Height": 13
           },
-          "Text": "Taise"
+          "Text": "raise"
         }
       ]
     },
@@ -5607,11 +5584,24 @@
         {
           "Bounds": {
             "X": 679,
-            "Y": 780,
-            "Width": 46,
-            "Height": 19
+            "Y": 783,
+            "Width": 29,
+            "Height": 13
           },
-          "Text": "sightof"
+          "Text": "sight"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 712,
+            "Y": 783,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "of"
         }
       ]
     },
@@ -5742,6 +5732,19 @@
             "Height": 9
           },
           "Text": "came"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 422,
+            "Y": 822,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "to"
         }
       ]
     },
@@ -6040,7 +6043,7 @@
             "Width": 13,
             "Height": 8
           },
-          "Text": "2s"
+          "Text": "as"
         }
       ]
     },
@@ -6578,4 +6581,4 @@
       ]
     }
   ]
-}
+}

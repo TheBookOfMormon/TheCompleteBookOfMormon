@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1113,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 469,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 192,
-            "Y": 85,
-            "Width": 35,
-            "Height": 12
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 238,
-            "Y": 87,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 264,
-            "Y": 87,
-            "Width": 43,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -152,10 +114,23 @@
           "Bounds": {
             "X": 270,
             "Y": 119,
-            "Width": 28,
-            "Height": 14
+            "Width": 13,
+            "Height": 13
           },
-          "Text": "isin"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 287,
+            "Y": 119,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "in"
         }
       ]
     },
@@ -169,19 +144,6 @@
             "Height": 13
           },
           "Text": "heaven"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 372,
-            "Y": 117,
-            "Width": 8,
-            "Height": 24
-          },
-          "Text": "-"
         }
       ]
     },
@@ -220,7 +182,7 @@
             "Width": 10,
             "Height": 21
           },
-          "Text": "ss"
+          "Text": "us"
         }
       ]
     },
@@ -614,6 +576,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5646,4 +5609,4 @@
       ]
     }
   ]
-}
+}
