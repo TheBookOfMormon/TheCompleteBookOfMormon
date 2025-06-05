@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1025,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 502,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 464,
-            "Y": 99,
-            "Width": 31,
-            "Height": 12
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 99,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 531,
-            "Y": 99,
-            "Width": 39,
-            "Height": 9
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -363,7 +325,7 @@
             "Width": 27,
             "Height": 10
           },
-          "Text": "ears"
+          "Text": "years"
         }
       ]
     },
@@ -481,19 +443,6 @@
             "Height": 13
           },
           "Text": "the"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 290,
-            "Y": 206,
-            "Width": 3,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3671,11 +3620,24 @@
         {
           "Bounds": {
             "X": 640,
-            "Y": 573,
-            "Width": 50,
-            "Height": 26
+            "Y": 587,
+            "Width": 27,
+            "Height": 13
           },
-          "Text": "Hine"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 671,
+            "Y": 587,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "they"
         }
       ]
     },
@@ -3806,11 +3768,16 @@
             "Height": 13
           },
           "Text": "Never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 603,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 304,
@@ -4611,7 +4578,7 @@
             "Width": 28,
             "Height": 13
           },
-          "Text": "nntil"
+          "Text": "until"
         }
       ]
     },
@@ -6229,11 +6196,7 @@
             "Height": 13
           },
           "Text": "La"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 718,
@@ -6242,8 +6205,18 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 40,
+            "Y": 148,
+            "Width": 45,
+            "Height": 16
+          },
+          "IsOnNextPage": true,
+          "Text": "manites"
         }
       ]
     }
   ]
-}
+}

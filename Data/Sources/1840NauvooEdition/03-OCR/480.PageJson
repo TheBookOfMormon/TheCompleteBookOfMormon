@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1051,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 480,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 102,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 493,
-            "Y": 102,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 102,
-            "Width": 41,
-            "Height": 13
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -454,12 +416,17 @@
             "Width": 26,
             "Height": 13
           },
-          "Text": "mul"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "multi"
+        },
+        {
+          "Bounds": {
+            "X": 701,
+            "Y": 170,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 291,
@@ -2370,7 +2337,7 @@
             "Width": 18,
             "Height": 14
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -2435,7 +2402,7 @@
             "Width": 52,
             "Height": 12
           },
-          "Text": "waters"
+          "Text": "water\u0027s"
         }
       ]
     },
@@ -2970,10 +2937,23 @@
           "Bounds": {
             "X": 381,
             "Y": 489,
-            "Width": 57,
+            "Width": 42,
             "Height": 13
           },
-          "Text": "Jesushad"
+          "Text": "Jesus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 427,
+            "Y": 489,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "had"
         }
       ]
     },
@@ -3588,6 +3568,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3970,24 +3951,11 @@
         {
           "Bounds": {
             "X": 394,
-            "Y": 595,
-            "Width": 12,
-            "Height": 25
+            "Y": 609,
+            "Width": 36,
+            "Height": 13
           },
-          "Text": "th"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 409,
-            "Y": 593,
-            "Width": 13,
-            "Height": 32
-          },
-          "Text": "din"
+          "Text": "them"
         }
       ]
     },
@@ -4739,9 +4707,9 @@
             "X": 286,
             "Y": 712,
             "Width": 25,
-            "Height": 26
+            "Height": 11
           },
-          "Text": "pg"
+          "Text": "upon"
         }
       ]
     },
@@ -5118,7 +5086,7 @@
             "Width": 39,
             "Height": 16
           },
-          "Text": "hegan"
+          "Text": "began"
         }
       ]
     },
@@ -5898,7 +5866,7 @@
             "Width": 34,
             "Height": 12
           },
-          "Text": "whon"
+          "Text": "whom"
         }
       ]
     },
@@ -6362,11 +6330,24 @@
         {
           "Bounds": {
             "X": 642,
-            "Y": 890,
-            "Width": 61,
-            "Height": 23
+            "Y": 895,
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "thatshall"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 674,
+            "Y": 895,
+            "Width": 28,
+            "Height": 13
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -6496,9 +6477,9 @@
             "Width": 19,
             "Height": 13
           },
-          "Text": "tho"
+          "Text": "the"
         }
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1025,
   "ImageWidth": 785,
+  "ManuallyEdited": true,
   "PageNumber": 496,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 473,
-            "Y": 88,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 515,
-            "Y": 87,
-            "Width": 14,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 539,
-            "Y": 87,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -127,9 +89,9 @@
             "X": 517,
             "Y": 117,
             "Width": 46,
-            "Height": 30
+            "Height": 15
           },
-          "Text": "dings"
+          "Text": "doings"
         }
       ]
     },
@@ -338,11 +300,16 @@
             "Height": 19
           },
           "Text": "ac"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 726,
+            "Y": 135,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 317,
@@ -805,7 +772,7 @@
             "Width": 28,
             "Height": 17
           },
-          "Text": "lory"
+          "Text": "glory"
         }
       ]
     },
@@ -948,7 +915,7 @@
             "Width": 22,
             "Height": 9
           },
-          "Text": "rom"
+          "Text": "from"
         }
       ]
     },
@@ -1066,11 +1033,16 @@
             "Height": 13
           },
           "Text": "bless"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 721,
+            "Y": 220,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 316,
@@ -1741,7 +1713,7 @@
             "Width": 53,
             "Height": 15
           },
-          "Text": "desired'"
+          "Text": "desired"
         }
       ]
     },
@@ -1906,11 +1878,11 @@
         {
           "Bounds": {
             "X": 427,
-            "Y": 307,
-            "Width": 21,
-            "Height": 30
+            "Y": 323,
+            "Width": 41,
+            "Height": 13
           },
-          "Text": "pes"
+          "Text": "world"
         }
       ]
     },
@@ -1923,7 +1895,7 @@
             "Width": 33,
             "Height": 13
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -3479,11 +3451,11 @@
         {
           "Bounds": {
             "X": 675,
-            "Y": 477,
-            "Width": 39,
-            "Height": 29
+            "Y": 492,
+            "Width": 65,
+            "Height": 13
           },
-          "Text": "Seka"
+          "Text": "departed"
         }
       ]
     },
@@ -4117,10 +4089,10 @@
           "Bounds": {
             "X": 708,
             "Y": 574,
-            "Width": 18,
-            "Height": 12
+            "Width": 32,
+            "Height": 13
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -4583,12 +4555,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 325,
-            "Y": 630,
-            "Width": 62,
-            "Height": 25
+            "X": 314,
+            "Y": 644,
+            "Width": 64,
+            "Height": 13
           },
-          "Text": "otorten"
+          "Text": "immortal"
         }
       ]
     },
@@ -5988,11 +5960,11 @@
         {
           "Bounds": {
             "X": 437,
-            "Y": 799,
-            "Width": 55,
-            "Height": 30
+            "Y": 815,
+            "Width": 73,
+            "Height": 13
           },
-          "Text": "Sheol"
+          "Text": "preaching"
         }
       ]
     },
@@ -6762,19 +6734,6 @@
           "Text": "of"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 393,
-            "Y": 922,
-            "Width": 8,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
     }
   ]
-}
+}

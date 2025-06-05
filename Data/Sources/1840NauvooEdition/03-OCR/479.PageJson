@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1167,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 479,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 195,
-            "Y": 114,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 242,
-            "Y": 114,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 269,
-            "Y": 114,
-            "Width": 41,
-            "Height": 10
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -345,19 +307,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 317,
-            "Y": 181,
-            "Width": 5,
-            "Height": 22
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 322,
             "Y": 184,
             "Width": 34,
@@ -549,6 +498,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1514,10 +1464,23 @@
           "Bounds": {
             "X": 246,
             "Y": 352,
-            "Width": 59,
-            "Height": 14
+            "Width": 36,
+            "Height": 13
           },
-          "Text": "themas"
+          "Text": "them"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 286,
+            "Y": 352,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "as"
         }
       ]
     },
@@ -1743,7 +1706,7 @@
             "Width": 24,
             "Height": 19
           },
-          "Text": "djd"
+          "Text": "did"
         }
       ]
     },
@@ -1795,7 +1758,7 @@
             "Width": 25,
             "Height": 13
           },
-          "Text": "'but"
+          "Text": "but"
         }
       ]
     },
@@ -2576,11 +2539,11 @@
         {
           "Bounds": {
             "X": 147,
-            "Y": 501,
-            "Width": 40,
-            "Height": 32
+            "Y": 502,
+            "Width": 65,
+            "Height": 13
           },
-          "Text": "ha"
+          "Text": "departed"
         }
       ]
     },
@@ -2848,51 +2811,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 236,
-            "Y": 584,
-            "Width": 35,
-            "Height": 16
-          },
-          "Text": "ote"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 192,
-            "Y": 633,
-            "Width": 95,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 301,
-            "Y": 634,
-            "Width": 19,
-            "Height": 14
-          },
-          "Text": "IX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 40,
             "Y": 671,
             "Width": 30,
             "Height": 14
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -4790,11 +4714,7 @@
             "Height": 14
           },
           "Text": "mul"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 477,
@@ -4803,24 +4723,7 @@
             "Height": 14
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 494,
-            "Y": 922,
-            "Width": 7,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 24,
@@ -4945,7 +4848,7 @@
             "Width": 39,
             "Height": 15
           },
-          "Text": "Whom"
+          "Text": "whom"
         }
       ]
     },
@@ -5436,4 +5339,4 @@
       ]
     }
   ]
-}
+}

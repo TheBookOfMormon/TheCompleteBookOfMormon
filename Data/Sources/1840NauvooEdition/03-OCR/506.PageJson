@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1062,
   "ImageWidth": 797,
+  "ManuallyEdited": true,
   "PageNumber": 506,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 464,
-            "Y": 80,
-            "Width": 2,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 469,
-            "Y": 73,
-            "Width": 34,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 73,
-            "Width": 14,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 72,
-            "Width": 59,
-            "Height": 10
-          },
-          "Text": "'MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -103,7 +52,7 @@
             "Width": 79,
             "Height": 14
           },
-          "Text": "Lumanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -337,7 +286,7 @@
             "Width": 6,
             "Height": 9
           },
-          "Text": "ug"
+          "Text": "us"
         }
       ]
     },
@@ -3169,11 +3118,7 @@
             "Height": 17
           },
           "Text": "prophe"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 735,
@@ -3182,11 +3127,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 311,
@@ -3194,7 +3135,7 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "gled"
+          "Text": "sied"
         }
       ]
     },
@@ -3892,11 +3833,11 @@
         {
           "Bounds": {
             "X": 376,
-            "Y": 581,
-            "Width": 37,
-            "Height": 31
+            "Y": 582,
+            "Width": 46,
+            "Height": 13
           },
-          "Text": "Hil"
+          "Text": "things"
         }
       ]
     },
@@ -4998,10 +4939,23 @@
           "Bounds": {
             "X": 712,
             "Y": 722,
-            "Width": 30,
+            "Width": 23,
             "Height": 13
           },
-          "Text": "butit"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 739,
+            "Y": 722,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5387,11 +5341,24 @@
         {
           "Bounds": {
             "X": 677,
-            "Y": 773,
-            "Width": 70,
-            "Height": 21
+            "Y": 777,
+            "Width": 46,
+            "Height": 13
           },
-          "Text": "heartsand"
+          "Text": "hearts"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 727,
+            "Y": 777,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "and"
         }
       ]
     },
@@ -5672,19 +5639,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 359,
-            "Y": 825,
-            "Width": 4,
-            "Height": 23
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 366,
             "Y": 829,
             "Width": 33,
@@ -5833,7 +5787,7 @@
             "Width": 24,
             "Height": 10
           },
-          "Text": "'me"
+          "Text": "me"
         }
       ]
     },
@@ -6119,7 +6073,7 @@
             "Width": 18,
             "Height": 13
           },
-          "Text": "'of"
+          "Text": "of"
         }
       ]
     },
@@ -6540,4 +6494,4 @@
       ]
     }
   ]
-}
+}

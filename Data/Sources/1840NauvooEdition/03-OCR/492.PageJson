@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1024,
   "ImageWidth": 770,
+  "ManuallyEdited": true,
   "PageNumber": 492,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 462,
-            "Y": 77,
-            "Width": 32,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 505,
-            "Y": 77,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 530,
-            "Y": 76,
-            "Width": 40,
-            "Height": 10
-          },
-          "Text": "NEFHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1299,7 +1261,7 @@
             "Width": 21,
             "Height": 9
           },
-          "Text": "ave"
+          "Text": "have"
         }
       ]
     },
@@ -2578,7 +2540,7 @@
             "Width": 35,
             "Height": 13
           },
-          "Text": "loese"
+          "Text": "loose"
         }
       ]
     },
@@ -2652,11 +2614,24 @@
         {
           "Bounds": {
             "X": 648,
-            "Y": 401,
-            "Width": 70,
-            "Height": 30
+            "Y": 417,
+            "Width": 44,
+            "Height": 13
           },
-          "Text": "spells"
+          "Text": "speak"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 696,
+            "Y": 417,
+            "Width": 44,
+            "Height": 13
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -2808,11 +2783,11 @@
         {
           "Bounds": {
             "X": 353,
-            "Y": 435,
+            "Y": 450,
             "Width": 60,
-            "Height": 26
+            "Height": 11
           },
-          "Text": "Savidled"
+          "Text": "revealed"
         }
       ]
     },
@@ -2868,6 +2843,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6132,9 +6108,9 @@
             "X": 294,
             "Y": 854,
             "Width": 61,
-            "Height": 30
+            "Height": 15
           },
-          "Text": "beEljzod"
+          "Text": "baptized"
         }
       ]
     },
@@ -6277,7 +6253,7 @@
             "Width": 18,
             "Height": 10
           },
-          "Text": "ist"
+          "Text": "Christ"
         }
       ]
     },
@@ -6438,4 +6414,4 @@
       ]
     }
   ]
-}
+}

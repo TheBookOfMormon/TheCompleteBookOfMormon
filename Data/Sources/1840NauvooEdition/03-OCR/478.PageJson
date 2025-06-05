@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1050,
   "ImageWidth": 765,
+  "ManuallyEdited": true,
   "PageNumber": 478,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 109,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 108,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 108,
-            "Width": 41,
-            "Height": 10
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -51,7 +13,7 @@
             "Width": 19,
             "Height": 9
           },
-          "Text": "ou"
+          "Text": "you"
         }
       ]
     },
@@ -181,7 +143,7 @@
             "Width": 36,
             "Height": 13
           },
-          "Text": "ather"
+          "Text": "Father"
         }
       ]
     },
@@ -312,11 +274,16 @@
             "Height": 14
           },
           "Text": "Fa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 699,
+            "Y": 158,
+            "Width": 12,
+            "Height": 14
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 287,
@@ -471,6 +438,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -918,11 +886,11 @@
         {
           "Bounds": {
             "X": 471,
-            "Y": 228,
-            "Width": 16,
-            "Height": 25
+            "Y": 242,
+            "Width": 27,
+            "Height": 13
           },
-          "Text": "a"
+          "Text": "and"
         }
       ]
     },
@@ -1754,7 +1722,7 @@
             "Width": 26,
             "Height": 13
           },
-          "Text": "10ld"
+          "Text": "hold"
         }
       ]
     },
@@ -2040,25 +2008,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 618,
-            "Y": 358,
-            "Width": 5,
-            "Height": 32
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 619,
+            "X": 634,
             "Y": 360,
-            "Width": 41,
-            "Height": 12
+            "Width": 28,
+            "Height": 13
           },
-          "Text": "mihat"
+          "Text": "that"
         }
       ]
     },
@@ -2370,7 +2325,7 @@
             "Width": 18,
             "Height": 9
           },
-          "Text": "sce"
+          "Text": "see"
         }
       ]
     },
@@ -2418,11 +2373,11 @@
         {
           "Bounds": {
             "X": 372,
-            "Y": 414,
-            "Width": 51,
-            "Height": 9
+            "Y": 412,
+            "Width": 88,
+            "Height": 13
           },
-          "Text": "BOTER"
+          "Text": "commanded"
         }
       ]
     },
@@ -3720,11 +3675,7 @@
             "Height": 13
           },
           "Text": "ful"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 703,
@@ -3733,11 +3684,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 285,
@@ -4786,11 +4733,11 @@
         {
           "Bounds": {
             "X": 624,
-            "Y": 686,
+            "Y": 701,
             "Width": 21,
-            "Height": 27
+            "Height": 12
           },
-          "Text": "str"
+          "Text": "him"
         }
       ]
     },
@@ -5458,7 +5405,7 @@
             "Width": 34,
             "Height": 10
           },
-          "Text": "unto'"
+          "Text": "unto"
         }
       ]
     },
@@ -6698,4 +6645,4 @@
       ]
     }
   ]
-}
+}

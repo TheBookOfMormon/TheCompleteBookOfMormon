@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1181,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 509,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 212,
-            "Y": 119,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 259,
-            "Y": 119,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 288,
-            "Y": 119,
-            "Width": 58,
-            "Height": 11
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 3,
-            "Y": 157,
-            "Width": 10,
-            "Height": 15
-          },
-          "Text": "of"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -488,19 +437,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1,
-            "Y": 209,
-            "Width": 8,
-            "Height": 21
-          },
-          "Text": "'S"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 52,
             "Y": 213,
             "Width": 24,
@@ -866,11 +802,24 @@
         {
           "Bounds": {
             "X": 51,
-            "Y": 269,
-            "Width": 31,
-            "Height": 15
+            "Y": 270,
+            "Width": 6,
+            "Height": 13
           },
-          "Text": "Ihad"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 61,
+            "Y": 270,
+            "Width": 27,
+            "Height": 13
+          },
+          "Text": "had"
         }
       ]
     },
@@ -1013,7 +962,7 @@
             "Width": 67,
             "Height": 18
           },
-          "Text": "sccording"
+          "Text": "according"
         }
       ]
     },
@@ -1474,19 +1423,6 @@
             "Height": 9
           },
           "Text": "was"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 2,
-            "Y": 346,
-            "Width": 5,
-            "Height": 14
-          },
-          "Text": "I"
         }
       ]
     },
@@ -2592,11 +2528,7 @@
             "Height": 10
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 514,
@@ -2605,6 +2537,15 @@
             "Height": 2
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 45,
+            "Y": 499,
+            "Width": 26,
+            "Height": 13
+          },
+          "Text": "pay"
         }
       ]
     },
@@ -2699,6 +2640,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2735,11 +2677,7 @@
             "Height": 14
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 514,
@@ -2748,19 +2686,15 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 47,
-            "Y": 504,
+            "Y": 521,
             "Width": 44,
-            "Height": 28
+            "Height": 11
           },
-          "Text": "aed"
+          "Text": "livered"
         }
       ]
     },
@@ -3054,6 +2988,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 44,
+            "Y": 559,
+            "Width": 14,
+            "Height": 13
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 70,
             "Y": 561,
             "Width": 6,
@@ -3215,7 +3162,7 @@
             "Width": 12,
             "Height": 14
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -5830,7 +5777,7 @@
             "Width": 42,
             "Height": 21
           },
-          "Text": "Whole"
+          "Text": "whole"
         }
       ]
     },
@@ -5973,7 +5920,7 @@
             "Width": 51,
             "Height": 19
           },
-          "Text": "Judged"
+          "Text": "judged"
         }
       ]
     },
@@ -6116,7 +6063,7 @@
             "Width": 24,
             "Height": 14
           },
-          "Text": "tlso"
+          "Text": "also"
         }
       ]
     },
@@ -6450,11 +6397,11 @@
         {
           "Bounds": {
             "X": 229,
-            "Y": 986,
+            "Y": 1003,
             "Width": 38,
-            "Height": 31
+            "Height": 14
           },
-          "Text": "Bott"
+          "Text": "Lord"
         }
       ]
     },
@@ -6657,19 +6604,6 @@
           "Text": "whom"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 437,
-            "Y": 1125,
-            "Width": 38,
-            "Height": 5
-          },
-          "Text": "EE"
-        }
-      ]
     }
   ]
-}
+}

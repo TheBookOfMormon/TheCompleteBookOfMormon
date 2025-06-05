@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1062,
   "ImageWidth": 769,
+  "ManuallyEdited": true,
   "PageNumber": 518,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 438,
-            "Y": 107,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 107,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 107,
-            "Width": 55,
-            "Height": 9
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -87,10 +49,23 @@
           "Bounds": {
             "X": 394,
             "Y": 138,
-            "Width": 27,
+            "Width": 6,
             "Height": 13
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 404,
+            "Y": 138,
+            "Width": 21,
+            "Height": 13
+          },
+          "Text": "am"
         }
       ]
     },
@@ -1114,10 +1089,10 @@
           "Bounds": {
             "X": 702,
             "Y": 242,
-            "Width": 5,
+            "Width": 10,
             "Height": 13
           },
-          "Text": "jt"
+          "Text": "it"
         }
       ]
     },
@@ -1327,10 +1302,23 @@
           "Bounds": {
             "X": 343,
             "Y": 275,
-            "Width": 82,
+            "Width": 23,
             "Height": 13
           },
-          "Text": "'the'ancient"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 370,
+            "Y": 275,
+            "Width": 54,
+            "Height": 13
+          },
+          "Text": "ancient"
         }
       ]
     },
@@ -2692,7 +2680,7 @@
             "Width": 25,
             "Height": 13
           },
-          "Text": "Jest"
+          "Text": "lest"
         }
       ]
     },
@@ -3134,7 +3122,7 @@
             "Width": 24,
             "Height": 13
           },
-          "Text": "Ifor"
+          "Text": "For"
         }
       ]
     },
@@ -3477,7 +3465,7 @@
             "Width": 34,
             "Height": 13
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -3600,6 +3588,24 @@
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 675,
+            "Y": 532,
+            "Width": 29,
+            "Height": 13
+          },
+          "Text": "scrip"
+        },
+        {
+          "Bounds": {
+            "X": 708,
+            "Y": 532,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 285,
@@ -3854,7 +3860,7 @@
             "Width": 10,
             "Height": 9
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -4283,7 +4289,7 @@
             "Width": 40,
             "Height": 13
           },
-          "Text": "houee"
+          "Text": "house"
         }
       ]
     },
@@ -5219,7 +5225,7 @@
             "Width": 14,
             "Height": 9
           },
-          "Text": "ea"
+          "Text": "Yea"
         }
       ]
     },
@@ -5479,7 +5485,7 @@
             "Width": 22,
             "Height": 13
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -5951,6 +5957,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6810,4 +6817,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1050,
   "ImageWidth": 764,
+  "ManuallyEdited": true,
   "PageNumber": 482,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 102,
-            "Width": 31,
-            "Height": 9
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 503,
-            "Y": 102,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 528,
-            "Y": 101,
-            "Width": 39,
-            "Height": 9
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -442,19 +404,6 @@
             "Height": 9
           },
           "Text": "seen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 581,
-            "Y": 171,
-            "Width": 1,
-            "Height": 1
-          },
-          "Text": "-"
         }
       ]
     },
@@ -867,10 +816,23 @@
           "Bounds": {
             "X": 545,
             "Y": 220,
-            "Width": 55,
+            "Width": 17,
             "Height": 13
           },
-          "Text": "so'great"
+          "Text": "so"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 566,
+            "Y": 220,
+            "Width": 38,
+            "Height": 13
+          },
+          "Text": "great"
         }
       ]
     },
@@ -2049,11 +2011,24 @@
         {
           "Bounds": {
             "X": 304,
-            "Y": 387,
-            "Width": 77,
-            "Height": 17
+            "Y": 389,
+            "Width": 68,
+            "Height": 13
           },
-          "Text": "disciplesto"
+          "Text": "disciples"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 376,
+            "Y": 389,
+            "Width": 11,
+            "Height": 13
+          },
+          "Text": "to"
         }
       ]
     },
@@ -3450,11 +3425,24 @@
         {
           "Bounds": {
             "X": 370,
-            "Y": 556,
-            "Width": 49,
-            "Height": 15
+            "Y": 557,
+            "Width": 22,
+            "Height": 13
           },
-          "Text": "hissoul"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 396,
+            "Y": 557,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "soul"
         }
       ]
     },
@@ -3944,11 +3932,11 @@
         {
           "Bounds": {
             "X": 580,
-            "Y": 611,
-            "Width": 17,
-            "Height": 26
+            "Y": 610,
+            "Width": 35,
+            "Height": 13
           },
-          "Text": "a"
+          "Text": "gave"
         }
       ]
     },
@@ -4156,7 +4144,7 @@
             "Width": 43,
             "Height": 18
           },
-          "Text": "ywhen"
+          "Text": "when"
         }
       ]
     },
@@ -4806,7 +4794,7 @@
             "Width": 35,
             "Height": 13
           },
-          "Text": "Isaish"
+          "Text": "Isaiah"
         }
       ]
     },
@@ -5066,7 +5054,7 @@
             "Width": 24,
             "Height": 18
           },
-          "Text": "Bay"
+          "Text": "say"
         }
       ]
     },
@@ -5222,7 +5210,7 @@
             "Width": 63,
             "Height": 18
           },
-          "Text": "fuifilling"
+          "Text": "fulfilling"
         }
       ]
     },
@@ -5421,6 +5409,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5513,7 +5502,7 @@
             "Width": 33,
             "Height": 20
           },
-          "Text": "siiY"
+          "Text": "shall"
         }
       ]
     },
@@ -6467,4 +6456,4 @@
       ]
     }
   ]
-}
+}

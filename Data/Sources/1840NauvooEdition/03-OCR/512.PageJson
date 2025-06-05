@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1031,
   "ImageWidth": 789,
+  "ManuallyEdited": true,
   "PageNumber": 512,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 81,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 81,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 527,
-            "Y": 80,
-            "Width": 55,
-            "Height": 10
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -770,6 +732,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3149,10 +3112,23 @@
           "Bounds": {
             "X": 371,
             "Y": 492,
-            "Width": 37,
+            "Width": 20,
             "Height": 13
           },
-          "Text": "forso"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 395,
+            "Y": 492,
+            "Width": 20,
+            "Height": 13
+          },
+          "Text": "so"
         }
       ]
     },
@@ -4788,9 +4764,9 @@
             "X": 323,
             "Y": 697,
             "Width": 36,
-            "Height": 32
+            "Height": 17
           },
-          "Text": "thag"
+          "Text": "these"
         }
       ]
     },
@@ -4929,11 +4905,11 @@
         {
           "Bounds": {
             "X": 342,
-            "Y": 721,
-            "Width": 5,
-            "Height": 8
+            "Y": 719,
+            "Width": 31,
+            "Height": 13
           },
-          "Text": "sdid"
+          "Text": "said"
         }
       ]
     },
@@ -6340,9 +6316,9 @@
             "X": 341,
             "Y": 889,
             "Width": 31,
-            "Height": 30
+            "Height": 15
           },
-          "Text": "lo"
+          "Text": "they"
         }
       ]
     },
@@ -6581,4 +6557,4 @@
       ]
     }
   ]
-}
+}
