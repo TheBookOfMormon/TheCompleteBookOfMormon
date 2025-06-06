@@ -40,7 +40,7 @@ export function firstColumnHasErrorOrWarning() {
 
 export function scrollToNextWarningOrError() {
    const rows = getSelectedTableRows();
-   if (rows.length === 0) return false;
+   if (rows.length === 0) return true;
 
    const body = getBodyElement();
    if (!body) return false;

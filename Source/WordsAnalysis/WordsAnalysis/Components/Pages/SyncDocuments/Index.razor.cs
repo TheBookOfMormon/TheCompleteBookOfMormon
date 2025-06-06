@@ -14,9 +14,10 @@ public partial class Index
     private const string LastEditedRowClass = "--last-edited-row";
     private int LoadingCount;
     private bool Loading => LoadingCount > 0;
+    private ElementReference SectionNumberElement;
+    private bool ShowLoadingIndicator;
     private ViewModel ViewModel = null!;
     private WordReference? WordPreviouslySelected;
-    private ElementReference SectionNumberElement;
 
     [Inject]
     private IHtmlService HtmlService { get; set; } = null!;
@@ -26,6 +27,7 @@ public partial class Index
 
     protected override async Task OnInitializedAsync()
     {
+        ShowLoadingIndicator = true;
         LoadingCount++;
         await base.OnInitializedAsync();
         FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
@@ -33,6 +35,7 @@ public partial class Index
         ViewModel = new ViewModel(state, ConfirmService, DialogService, stateHasChangedCallback);
         await ViewModel.LoadRowDataDataAsync(0);
         LoadingCount--;
+        ShowLoadingIndicator = false;
     }
 
     private string GetEditionClass(OcrBookInfo bookInfo)
