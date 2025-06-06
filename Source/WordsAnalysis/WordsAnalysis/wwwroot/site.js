@@ -31,7 +31,7 @@ export function firstColumnHasErrorOrWarning() {
    const rows = getSelectedTableRows();
    for (const row of rows) {
       const firstTd = row.querySelector('td');
-      if (firstTd && tableCellHasErrorOrWarning(firstTd)) {
+      if (firstTd && tableCellHasErrorOrWarning(firstTd, rows.length > 1)) {
          return true;
       }
    }
@@ -47,6 +47,7 @@ export function scrollToNextWarningOrError() {
 
    const bodyRect = body.getBoundingClientRect();
 
+   const multipleRowsSelected = rows.length > 1;
    for (const row of rows) {
       const th = row.querySelector('th');
       if (!th) continue;
@@ -56,7 +57,7 @@ export function scrollToNextWarningOrError() {
       const tds = Array.from(row.querySelectorAll('td'));
       for (const td of tds) {
          const tdRect = td.getBoundingClientRect();
-         if (tdRect.left > thRight && tableCellHasErrorOrWarning(td)) {
+         if (tdRect.left > thRight && tableCellHasErrorOrWarning(td, multipleRowsSelected)) {
             const scrollOffset = tdRect.left - bodyRect.left - th.offsetWidth;
             if (scrollOffset > 1) {
                body.scrollBy({ left: scrollOffset });
@@ -85,13 +86,12 @@ function getSelectedTableRows() {
    });
 }
 
-function tableCellHasErrorOrWarning(td) {
+function tableCellHasErrorOrWarning(td, multipleRowsSelected) {
    const cls = td.className || '';
    return cls.includes('--warning')
       || cls.includes('--error')
       || cls.includes('--outlier')
-      || cls.includes('--spacer')
-      || cls.includes('--word-added-or-removed');
+      || (cls.includes('--spacer') && multipleRowsSelected);
 }
 
 function getBodyElement() {
