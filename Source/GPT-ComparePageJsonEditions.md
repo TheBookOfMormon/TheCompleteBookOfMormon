@@ -30,16 +30,164 @@ The PageJson files are manually aligned from a known anchor point:
    - The following list is a collection of names. 
 
 ```
-Aaron, Abinadi, Abinadom, Abish, Aha, Ahah, Akish, Alma, Amaleki, Amalekite, Amalickiah, Amaron, Aminadab, Amlici,
-Amlicite, Ammah, Ammaron, Ammon, Ammonite, Ammoron, Amnigaddah, Amoron, Amos, Amulek, Amulon, Amulonites, Angola,
-Antiomno, Antionah, Antionah, Antionum, Antipus, Benjamin, Cezoram, Com, Corianton, Coriantor, Coriantum, Coriantumr,
-Corihor, Corom, Cumeni, Cumenihah, Cumorah, Devil, Ethem, Ether, Emer, Enos, Gadianton, Gazelem, Gid, Gideon, Giddianhi,
-Gidgiddonah, Gidgiddoni, Hearthom, Helaman, Heth, Himni, Ishmael, Ishmaelite, Jacobite, Jared, Jarom, Jacob, Jeneum,
-John, Joseph, Josephite, Kingmen, Kishkumen, Laban, Lachoneus, Laman, Lamanite, Lamoni, Lemuelite, Levi, Lib, Limhah,
-Limher, Limhi, Luke, Kib, Kim, Kimnor, Kish, Mammon, Manti, Mark, Matthew, Matt, Morianton, Mormon, Moron, Moroni,
-Moronihah, Moses, Mosiah, Mulek, Mulekite, Nehor, Nehorite, Nephi, Nephite, Noah, Omer, Omner, Omni, Onihah, Orihah,
-Paanchi, Pachus, Pacumeni, Pahoran, Riplakish, Sam, Sariah, Seeric, Seerstone, Seth, Shez, Shiblon, Shiz, Shule,
-Teancum, Teomner, Tubaloth, Zarahemla, Zedekiah, Zeezrom, Zeezromite, Zemnarihah, Zeniff, Zenock, Zenos, Zeram, Zilpah, Zoramite
+Aaron
+Abinadi
+Abinadom
+Abish
+Aha
+Ahah
+Akish
+Alma
+Amaleki
+Amalekite
+Amalickiah
+Amalickiahites
+Amaron
+Aminadab
+Amlici
+Amlicite
+Ammah
+Ammaron
+Ammon
+Ammonihah
+Ammonihahites
+Ammonite
+Ammorite
+Ammoron
+Amnigaddah
+Amoron
+Amos
+Amulek
+Amulon
+Amulonites
+Angelah
+Angola
+Antiomno
+Antionah
+Antionah
+Antionum
+Antipus
+Benjamin
+Boaz
+Cezoram
+Cohor
+Com
+Corianton
+Coriantor
+Coriantum
+Coriantumr
+Corihor
+Corom
+Cumeni
+Cumenihah
+Cumorah
+Desolation
+Devil
+Ethem
+Ether
+Emer
+Enos
+Gadianton
+Gazelem
+Gid
+Gideon
+Giddianhi
+Gidgiddonah
+Gidgiddoni
+Hearthom
+Helaman
+Heth
+Himni
+Isabel
+Ishmael
+Ishmaelite
+Jacobite
+Jared
+Jarom
+Jacob
+Jeneum
+John
+Joseph
+Josephite
+Kingmen
+Kishkumen
+Laban
+Lachoneus
+Laman
+Lamanite
+Lamoni
+Lemuelite
+Levi
+Liahona
+Lib
+Limhah
+Limher
+Limhi
+Luke
+Kib
+Kim
+Kimnor
+Kish
+Mammon
+Manti
+Mark
+Matthew
+Matt
+Middoni
+Mocum
+Morianton
+Mormon
+Moron
+Moroni
+Moronihah
+Moses
+Mosiah
+Mulek
+Mulekite
+Nahom
+Nehor
+Nehorite
+Nephi
+Nephite
+Noah
+Omer
+Omner
+Omni
+Onihah
+Orihah
+Paanchi
+Pachus
+Pacumeni
+Pahoran
+Remalia
+Remaliah
+Riplakish
+Sam
+Sariah
+Seeric
+Seth
+Sherrizah
+Shez
+Shiblon
+Shiz
+Shule
+Teancum
+Teomner
+Tubaloth
+Zarahemla
+Zedekiah
+Zeezrom
+Zeezromite
+Zemnarihah
+Zenephi
+Zeniff
+Zenoch
+Zenock
+Zenos
+Zerahemna
+Zeram
+Zilpah
+Zoramite
 ```
    - If a word is one of these words (case sensitive) then it is a name
    - If a word is one of these words (case sensitive) with a `'` or `'s` appended, then it is a name
@@ -76,11 +224,10 @@ Christian
 | hath             | has              | 215   | he hath none        | he has none         | (2 & 3), (4 & 5), ... |
 | Gospel           | gospel           | 1     | read the Gospel of  | read the gospel of  | (1 & 2)               |
 
- If the `{filename1} Text` or `{filename2} Text` consists of a single word, and contains one of the following words as a substring (case sensitive comparison) then it is a Name Change
-     Aaron, Abinadi, Abinadom, Abish, Aha, Ahah, Akish, Alma, Amaleki, Amalekite, Amalickiah, Amaron, Aminadab, Amlici, Amlicite, Ammah, Ammaron, Ammon, Ammonite, Ammoron, Amnigaddah, Amoron, Amos, Amulek, Amulon, Amulonites, Angola, Antiomno, Antionah, Antionah, Antionum, Antipus, Benjamin, Cezoram, Com, Corianton, Coriantor, Coriantum, Coriantumr, Corihor, Corom, Cumeni, Cumenihah, Cumorah, Devil, Ethem, Ether, Emer, Enos, Gadianton, Gazelem, Gid, Gideon, Giddianhi, Gidgiddonah, Gidgiddoni, Hearthom, Helaman, Heth, Himni, Ishmael, Ishmaelite, Jacobite, Jared, Jarom, Jacob, Jeneum, John, Joseph, Josephite, Kingmen, Kishkumen, Laban, Lachoneus, Laman, Lamanite, Lamoni, Lemuelite, Levi, Lib, Limhah, Limher, Limhi, Luke, Kib, Kim, Kimnor, Kish, Mammon, Manti, Mark, Matthew, Matt, Morianton, Mormon, Moron, Moroni, Moronihah, Moses, Mosiah, Mulek, Mulekite, Nehor, Nehorite, Nephi, Nephite, Noah, Omer, Omner, Omni, Onihah, Orihah, Paanchi, Pachus, Pacumeni, Pahoran, Riplakish, Sam, Sariah, Seeric, Seerstone, Seth, Shez, Shiblon, Shiz, Shule, Teancum, Teomner, Tubaloth, Zarahemla, Zedekiah, Zeezrom, Zeezromite, Zemnarihah, Zeniff, Zenock, Zenos, Zeram, Zilpah, Zoramite
+ If the `{filename1} Text` or `{filename2} Text` consists of a single word, and contains one *Names* words (defined in point #2) as a substring (case sensitive comparison) then it is a Name Change
 
 The `{filename1}` and `{filename2}` placeholders should be replaced with the names of the zip files in alphabetical order (without the `.zip` extension).
-The `Count` column is the number of times the change occurs
+The `Count` column is the number of times the change occurs (the same change should be grouped, you should only group by the columns `{filename1} Text` and `{filename2} Text`).
 The `{filename1} Context` and `{filename2} Context` columns are text representing a context sample for each row in the table
    - (i.e. the file name without the .PageJson extension)
    - Up to 5 words before and after the change
