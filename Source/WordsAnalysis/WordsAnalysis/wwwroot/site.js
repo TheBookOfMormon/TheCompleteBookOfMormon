@@ -27,72 +27,73 @@ export function scrollBodyToTopLeft() {
 	  });
 }
 
-export function scrollToNextWarningOrError() {
-   const body = getBodyElement();
-   if (!body) return true;
-
-   const allHeaders = getAllHeaders(body);
-   if (allHeaders.length === 0) return true;
-
-   const stickyHeaderWidth = allHeaders[0].getBoundingClientRect().width;
-   const bodyRect = body.getBoundingClientRect();
-   const bodyVisibleLeft = bodyRect.left + stickyHeaderWidth;
-
-   const leftMostVisibleIndex = findLeftMostVisibleColumn(allHeaders, bodyVisibleLeft, bodyRect.right);
-   if (leftMostVisibleIndex === -1) return false;
-
-   for (let i = leftMostVisibleIndex + 1; i < allHeaders.length; i++) {
-      const th = allHeaders[i];
-      if (hasErrorOrWarning(th.className)) {
-         const scrollOffset = th.getBoundingClientRect().left - bodyRect.left - stickyHeaderWidth;
-         body.scrollBy({ left: scrollOffset });
+export function firstColumnHasErrorOrWarning() {
+   const rows = getSelectedTableRows();
+   for (const row of rows) {
+      const firstTd = row.querySelector('td');
+      if (firstTd && tableCellHasErrorOrWarning(firstTd)) {
          return true;
+      }
+   }
+   return false;
+}
+
+export function scrollToNextWarningOrError() {
+   const rows = getSelectedTableRows();
+   if (rows.length === 0) return false;
+
+   const body = getBodyElement();
+   if (!body) return false;
+
+   const bodyRect = body.getBoundingClientRect();
+
+   for (const row of rows) {
+      const th = row.querySelector('th');
+      if (!th) continue;
+
+      const thRight = th.getBoundingClientRect().right;
+
+      const tds = Array.from(row.querySelectorAll('td'));
+      for (const td of tds) {
+         const tdRect = td.getBoundingClientRect();
+         if (tdRect.left > thRight && tableCellHasErrorOrWarning(td)) {
+            const scrollOffset = tdRect.left - bodyRect.left - th.offsetWidth;
+            if (scrollOffset > 1) {
+               body.scrollBy({ left: scrollOffset });
+               return true;
+            }
+         }
       }
    }
 
    return false;
 }
 
-export function firstColumnHasErrorOrWarning() {
+// === non-exported reusable functions ===
+
+function getSelectedTableRows() {
    const body = getBodyElement();
-   if (!body) return false;
+   if (!body) return [];
 
-   const allHeaders = getAllHeaders(body);
-   if (allHeaders.length < 2) return false;
+   const rows = Array.from(body.querySelectorAll('tbody tr'));
+   return rows.filter(row => {
+      const th = row.querySelector('th');
+      if (!th) return false;
 
-   return hasErrorOrWarning(allHeaders[1].className);
+      const checkbox = th.querySelector('input[type="checkbox"]');
+      return checkbox && checkbox.checked;
+   });
 }
 
-// === non-exported reusable functions ===
+function tableCellHasErrorOrWarning(td) {
+   const cls = td.className || '';
+   return cls.includes('--warning')
+      || cls.includes('--error')
+      || cls.includes('--outlier')
+      || cls.includes('--spacer')
+      || cls.includes('--word-added-or-removed');
+}
 
 function getBodyElement() {
    return document.getElementById('body');
-}
-
-function getAllHeaders(body) {
-   return Array.from(body.querySelectorAll('th'));
-}
-
-function findLeftMostVisibleColumn(headers, leftEdge, rightEdge) {
-   let bestIndex = -1;
-   let minDistance = Number.POSITIVE_INFINITY;
-
-   for (let i = 1; i < headers.length; i++) {
-      const rect = headers[i].getBoundingClientRect();
-      if (rect.right > leftEdge && rect.left < rightEdge) {
-         const distance = Math.abs(rect.left - leftEdge);
-         if (distance < minDistance) {
-            minDistance = distance;
-            bestIndex = i;
-         }
-      }
-   }
-
-   return bestIndex;
-}
-
-function hasErrorOrWarning(className) {
-   return className.includes('--warning')
-      || className.includes('--error')
-      || className.includes('--word-added-or-removed');
 }

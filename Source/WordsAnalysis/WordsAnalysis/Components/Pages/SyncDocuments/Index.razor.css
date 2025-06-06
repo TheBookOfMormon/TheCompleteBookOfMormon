@@ -20,6 +20,7 @@
 	background: var(--neutral-fill-secondary-rest);
 	color: var(--neutral-foreground-rest);
 	z-index: 100;
+	text-wrap: nowrap;
 }
 
 	.word-table_edition.--last-edited-row {
