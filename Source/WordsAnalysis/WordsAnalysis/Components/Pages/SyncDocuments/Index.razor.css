@@ -21,6 +21,7 @@
 	color: var(--neutral-foreground-rest);
 	z-index: 100;
 	text-wrap: nowrap;
+	cursor: pointer;
 }
 
 	.word-table_edition.--last-edited-row {
@@ -28,13 +29,17 @@
 		color: var(--fill-color);
 	}
 
-.word-table_first-cell {
-	position: sticky;
-	left: 0;
-	top: 0;
-	background: var(--neutral-fill-secondary-rest);
-	z-index: 101;
-}
+	.word-table_edition.--selected {
+		color: green;
+	}
+
+	.word-table_first-cell {
+		position: sticky;
+		left: 0;
+		top: 0;
+		background: var(--neutral-fill-secondary-rest);
+		z-index: 101;
+	}
 
 .word-table_word-index {
 	position: sticky;

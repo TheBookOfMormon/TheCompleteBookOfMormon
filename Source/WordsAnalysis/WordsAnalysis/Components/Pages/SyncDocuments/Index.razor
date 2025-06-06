@@ -62,7 +62,7 @@
             <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
                              Tooltip="Next discrepancy (Alt N)"
                              AccessKey="N"
-                             Enabled=@(!Loading)
+                             Enabled=@(!Loading && SelectedEditions.Count > 0)
                              OnClick=@ScrollToNextWarningOrErrorAsync />
             @if (ViewModel.HasSelectedWords)
             {
@@ -101,8 +101,7 @@
             {
                 EditionState editionState = ViewModel.Editions[rowData.BookInfo];
                 <tr @key=rowData.BookInfo.Code>
-                    <th class="word-table_edition @GetEditionClass(rowData.BookInfo)">
-                        <input type="checkbox" />
+                    <th class="word-table_edition @GetEditionClass(rowData.BookInfo)" @onclick=@(() => ToggleEditionSelected(rowData.BookInfo))>
                         @rowData.BookInfo.Year&nbsp;@rowData.BookInfo.ShortCode
                     </th>
                     @for (int i = 0; i < rowData.Words.Count; i++)

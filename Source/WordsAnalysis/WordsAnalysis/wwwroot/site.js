@@ -80,8 +80,8 @@ function getSelectedTableRows() {
       const th = row.querySelector('th');
       if (!th) return false;
 
-      const checkbox = th.querySelector('input[type="checkbox"]');
-      return checkbox && checkbox.checked;
+      const cls = th.className || '';
+      return cls.includes("--selected");
    });
 }
 

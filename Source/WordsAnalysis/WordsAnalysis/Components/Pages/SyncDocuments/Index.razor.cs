@@ -15,6 +15,7 @@ public partial class Index
     private int LoadingCount;
     private bool Loading => LoadingCount > 0;
     private ElementReference SectionNumberElement;
+    private HashSet<OcrBookInfo> SelectedEditions = [];
     private bool ShowLoadingIndicator;
     private ViewModel ViewModel = null!;
     private WordReference? WordPreviouslySelected;
@@ -40,9 +41,15 @@ public partial class Index
 
     private string GetEditionClass(OcrBookInfo bookInfo)
     {
+        string result = "";
         if (ViewModel.LastEditedEdition == bookInfo)
-            return LastEditedRowClass;
-        return "";
+            result = $"{result} {LastEditedRowClass}";
+        if (SelectedEditions.Contains(bookInfo))
+            result = $"{result} --selected";
+        else
+            result = $"{result} --not-selected";
+
+        return result;
     }
 
     private string GetWordClass(WordReference wordReference, string? displayText, int columnIndex)
@@ -132,6 +139,14 @@ public partial class Index
         await SectionNumberElement.FocusAsync();
         LoadingCount--;
         await Task.Delay(100); // Ignore accidental double-tap
+    }
+
+    private void ToggleEditionSelected(OcrBookInfo edition)
+    {
+        if (SelectedEditions.Contains(edition))
+            SelectedEditions.Remove(edition);
+        else
+            SelectedEditions.Add(edition);
     }
 
     private void WordClicked(MouseEventArgs e, WordReference wordReference)
