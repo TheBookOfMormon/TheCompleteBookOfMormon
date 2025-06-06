@@ -26,6 +26,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private bool AddWordAfter = true;
     private EditForm EditForm = null!;
+    private bool HasEstimatedSize;
     private int LineHeight;
     private string LineHeightPreferenceKey = "";
     private OcrRect OriginalBounds = OcrRect.Empty;
@@ -123,19 +124,26 @@ public partial class EditWordDialog : IAsyncDisposable
         string text = item.Text;
 
         System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, text);
-        if (estimatedSize.Height == item.Bounds.Height)
+        if (!HasEstimatedSize)
         {
-            if (item.Bounds.Width > estimatedSize.Width)
-                estimatedSize = new System.Drawing.Size {  Width = estimatedSize.Width, Height = estimatedSize.Height };
-            else
+            HasEstimatedSize = true;
+        }
+        else
+        {
+            if (estimatedSize.Height == item.Bounds.Height)
             {
-                foreach (double widthFactor in WordWidthFactors)
+                if (item.Bounds.Width > estimatedSize.Width)
+                    estimatedSize = new System.Drawing.Size { Width = estimatedSize.Width, Height = estimatedSize.Height };
+                else
                 {
-                    int w = (int)(estimatedSize.Width * widthFactor);
-                    if (item.Bounds.Width > w)
+                    foreach (double widthFactor in WordWidthFactors)
                     {
-                        estimatedSize = new System.Drawing.Size { Width = w, Height = estimatedSize.Height };
-                        break;
+                        int w = (int)(estimatedSize.Width * widthFactor);
+                        if (item.Bounds.Width > w)
+                        {
+                            estimatedSize = new System.Drawing.Size { Width = w, Height = estimatedSize.Height };
+                            break;
+                        }
                     }
                 }
             }
@@ -230,14 +238,6 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         UpdateImageData();
         LastShowSurroundingText = ShowSurroundingText;
-    }
-
-    private void TextChanged()
-    {
-        if (Content.IsAdd && Texts[0].Text == "-")
-        {
-            Texts[0].Bounds = Texts[0].Bounds with { X = Texts[0].Bounds.X - LineHeight };
-        }
     }
 
     private void UpdateImageData()
