@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1209,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 557,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 241,
-            "Y": 131,
-            "Width": 37,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 290,
-            "Y": 131,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 318,
-            "Y": 131,
-            "Width": 54,
-            "Height": 12
-          },
-          "Text": "MORONT"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -545,7 +507,7 @@
             "Width": 55,
             "Height": 19
           },
-          "Text": "strengh"
+          "Text": "strength"
         }
       ]
     },
@@ -1646,6 +1608,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2275,6 +2238,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3112,11 +3076,24 @@
         {
           "Bounds": {
             "X": 348,
-            "Y": 554,
-            "Width": 83,
-            "Height": 17
+            "Y": 556,
+            "Width": 22,
+            "Height": 13
           },
-          "Text": "hisrecord"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 374,
+            "Y": 556,
+            "Width": 47,
+            "Height": 13
+          },
+          "Text": "record"
         }
       ]
     },
@@ -3155,12 +3132,17 @@
             "Width": 32,
             "Height": 14
           },
-          "Text": "hune"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "hun"
+        },
+        {
+          "Bounds": {
+            "X": 553,
+            "Y": 554,
+            "Width": 13,
+            "Height": 13
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 62,
@@ -3537,7 +3519,7 @@
             "Width": 57,
             "Height": 14
           },
-          "Text": "wrirten"
+          "Text": "written"
         }
       ]
     },
@@ -4078,45 +4060,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 522,
-            "Y": 705,
-            "Width": 4,
-            "Height": 6
-          },
-          "Text": "Ju"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 631,
-            "Y": 710,
-            "Width": 1,
-            "Height": 7
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 482,
-            "Y": 695,
-            "Width": 17,
-            "Height": 34
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 190,
             "Y": 769,
             "Width": 41,
@@ -4162,32 +4105,6 @@
             "Height": 15
           },
           "Text": "MORONI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 246,
-            "Y": 807,
-            "Width": 99,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 360,
-            "Y": 807,
-            "Width": 7,
-            "Height": 15
-          },
-          "Text": "I"
         }
       ]
     },
@@ -5570,7 +5487,7 @@
             "Width": 7,
             "Height": 15
           },
-          "Text": "IT"
+          "Text": "I"
         }
       ]
     },
@@ -5716,71 +5633,6 @@
           "Text": "any"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 262,
-            "Y": 1135,
-            "Width": 33,
-            "Height": 6
-          },
-          "Text": "rr"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 350,
-            "Y": 1140,
-            "Width": 46,
-            "Height": 4
-          },
-          "Text": "eo"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 414,
-            "Y": 1138,
-            "Width": 7,
-            "Height": 9
-          },
-          "Text": "TE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 421,
-            "Y": 1142,
-            "Width": 65,
-            "Height": 4
-          },
-          "Text": "mt"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 1138,
-            "Width": 11,
-            "Height": 9
-          },
-          "Text": "ns"
-        }
-      ]
     }
   ]
-}
+}

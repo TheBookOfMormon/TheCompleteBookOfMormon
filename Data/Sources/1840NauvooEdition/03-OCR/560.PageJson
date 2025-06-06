@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1037,
   "ImageWidth": 761,
+  "ManuallyEdited": true,
   "PageNumber": 560,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 381,
-            "Y": 107,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 423,
-            "Y": 107,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 107,
-            "Width": 47,
-            "Height": 9
-          },
-          "Text": "MOROKI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -346,11 +308,11 @@
         {
           "Bounds": {
             "X": 346,
-            "Y": 160,
+            "Y": 175,
             "Width": 26,
-            "Height": 25
+            "Height": 10
           },
-          "Text": "hw"
+          "Text": "and"
         }
       ]
     },
@@ -1977,7 +1939,7 @@
             "Width": 69,
             "Height": 17
           },
-          "Text": "imeetings"
+          "Text": "meetings"
         }
       ]
     },
@@ -2449,6 +2411,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2648,38 +2611,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 372,
-            "Y": 535,
-            "Width": 87,
-            "Height": 14
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 535,
-            "Width": 19,
-            "Height": 13
-          },
-          "Text": "VII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 239,
             "Y": 569,
             "Width": 30,
             "Height": 13
           },
-          "Text": "ANp"
+          "Text": "And"
         }
       ]
     },
@@ -3080,9 +3017,9 @@
             "X": 221,
             "Y": 621,
             "Width": 43,
-            "Height": 29
+            "Height": 14
           },
-          "Text": "FEske"
+          "Text": "people"
         }
       ]
     },
@@ -3212,7 +3149,7 @@
             "Width": 21,
             "Height": 13
           },
-          "Text": "1ad"
+          "Text": "had"
         }
       ]
     },
@@ -3629,6 +3566,19 @@
             "Height": 14
           },
           "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 220,
+            "Y": 691,
+            "Width": 22,
+            "Height": 13
+          },
+          "Text": "his"
         }
       ]
     },
@@ -4366,7 +4316,7 @@
             "Width": 19,
             "Height": 13
           },
-          "Text": "tho"
+          "Text": "the"
         }
       ]
     },
@@ -4474,6 +4424,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5250,7 +5201,7 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "seid"
+          "Text": "said"
         }
       ]
     },
@@ -5531,6 +5482,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 217,
+            "Y": 912,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 245,
             "Y": 912,
             "Width": 34,
@@ -5614,7 +5578,7 @@
             "Width": 10,
             "Height": 10
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -5788,4 +5752,4 @@
       ]
     }
   ]
-}
+}

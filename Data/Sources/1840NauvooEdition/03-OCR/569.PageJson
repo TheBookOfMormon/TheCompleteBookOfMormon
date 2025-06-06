@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1191,
   "ImageWidth": 764,
+  "ManuallyEdited": true,
   "PageNumber": 569,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 184,
-            "Y": 51,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 251,
-            "Y": 127,
-            "Width": 36,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 299,
-            "Y": 127,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 328,
-            "Y": 127,
-            "Width": 57,
-            "Height": 10
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 253,
-            "Y": 161,
-            "Width": 98,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -285,7 +221,7 @@
             "Width": 86,
             "Height": 17
           },
-          "Text": "Liamanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -325,19 +261,6 @@
             "Height": 14
           },
           "Text": "would"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 640,
-            "Y": 230,
-            "Width": 2,
-            "Height": 6
-          },
-          "Text": "i"
         }
       ]
     },
@@ -757,6 +680,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -974,7 +898,7 @@
             "Width": 25,
             "Height": 15
           },
-          "Text": "youn"
+          "Text": "you"
         }
       ]
     },
@@ -1969,23 +1893,10 @@
           "Bounds": {
             "X": 376,
             "Y": 453,
-            "Width": 6,
-            "Height": 14
+            "Width": 46,
+            "Height": 13
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 390,
-            "Y": 452,
-            "Width": 40,
-            "Height": 15
-          },
-          "Text": "ather"
+          "Text": "Father"
         }
       ]
     },
@@ -2340,6 +2251,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3668,37 +3580,11 @@
         {
           "Bounds": {
             "X": 149,
-            "Y": 689,
-            "Width": 11,
-            "Height": 11
+            "Y": 688,
+            "Width": 82,
+            "Height": 13
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 165,
-            "Y": 691,
-            "Width": 10,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 177,
-            "Y": 690,
-            "Width": 52,
-            "Height": 10
-          },
-          "Text": "morrow"
+          "Text": "to-morrow"
         }
       ]
     },
@@ -3867,7 +3753,7 @@
             "Width": 25,
             "Height": 11
           },
-          "Text": "mot"
+          "Text": "not"
         }
       ]
     },
@@ -5731,7 +5617,7 @@
             "Width": 45,
             "Height": 15
           },
-          "Text": "Kinds"
+          "Text": "kinds"
         }
       ]
     },
@@ -6201,10 +6087,23 @@
           "Bounds": {
             "X": 295,
             "Y": 1034,
-            "Width": 38,
-            "Height": 14
+            "Width": 17,
+            "Height": 13
           },
-          "Text": "ashe"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 316,
+            "Y": 1034,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "he"
         }
       ]
     },
@@ -6274,4 +6173,4 @@
       ]
     }
   ]
-}
+}

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1201,
   "ImageWidth": 760,
+  "ManuallyEdited": true,
   "PageNumber": 559,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 238,
-            "Y": 137,
-            "Width": 1,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 245,
-            "Y": 132,
-            "Width": 37,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 294,
-            "Y": 132,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 323,
-            "Y": 132,
-            "Width": 51,
-            "Height": 11
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -94,6 +43,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1715,25 +1665,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 255,
-            "Y": 478,
-            "Width": 99,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 90,
             "Y": 517,
             "Width": 33,
             "Height": 15
           },
-          "Text": "Tue"
+          "Text": "The"
         }
       ]
     },
@@ -2929,38 +2866,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 247,
-            "Y": 770,
-            "Width": 99,
-            "Height": 16
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 357,
-            "Y": 770,
-            "Width": 16,
-            "Height": 15
-          },
-          "Text": "VI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 87,
             "Y": 810,
             "Width": 34,
             "Height": 14
           },
-          "Text": "Axp"
+          "Text": "And"
         }
       ]
     },
@@ -3450,11 +3361,11 @@
         {
           "Bounds": {
             "X": 112,
-            "Y": 873,
+            "Y": 891,
             "Width": 35,
-            "Height": 34
+            "Height": 16
           },
-          "Text": "dy"
+          "Text": "they"
         }
       ]
     },
@@ -4113,6 +4024,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4178,6 +4090,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4538,7 +4451,7 @@
             "Width": 53,
             "Height": 13
           },
-          "Text": "name&"
+          "Text": "names"
         }
       ]
     },
@@ -4782,4 +4695,4 @@
       ]
     }
   ]
-}
+}

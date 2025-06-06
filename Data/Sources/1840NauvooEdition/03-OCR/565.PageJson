@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1192,
   "ImageWidth": 765,
+  "ManuallyEdited": true,
   "PageNumber": 565,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 255,
-            "Y": 127,
-            "Width": 36,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 303,
-            "Y": 127,
-            "Width": 15,
-            "Height": 11
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 331,
-            "Y": 127,
-            "Width": 52,
-            "Height": 11
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -221,19 +183,6 @@
             "Height": 14
           },
           "Text": "taken"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 294,
-            "Y": 181,
-            "Width": 0,
-            "Height": 15
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3022,12 +2971,8 @@
             "Width": 31,
             "Height": 14
           },
-          "Text": "itter"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "bitter"
+        },
         {
           "Bounds": {
             "X": 561,
@@ -3036,11 +2981,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 78,
@@ -4401,11 +4342,24 @@
         {
           "Bounds": {
             "X": 376,
-            "Y": 757,
-            "Width": 31,
-            "Height": 15
+            "Y": 758,
+            "Width": 6,
+            "Height": 13
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 386,
+            "Y": 758,
+            "Width": 21,
+            "Height": 13
+          },
+          "Text": "am"
         }
       ]
     },
@@ -4960,11 +4914,24 @@
         {
           "Bounds": {
             "X": 425,
-            "Y": 833,
-            "Width": 68,
-            "Height": 15
+            "Y": 834,
+            "Width": 52,
+            "Height": 13
           },
-          "Text": "neithera"
+          "Text": "neither"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 488,
+            "Y": 834,
+            "Width": 8,
+            "Height": 13
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5877,9 +5844,9 @@
             "X": 324,
             "Y": 966,
             "Width": 90,
-            "Height": 36
+            "Height": 18
           },
-          "Text": "xedafpion"
+          "Text": "redemption"
         }
       ]
     },
@@ -6298,9 +6265,9 @@
             "X": 322,
             "Y": 1027,
             "Width": 35,
-            "Height": 34
+            "Height": 16
           },
-          "Text": "Key"
+          "Text": "they"
         }
       ]
     },
@@ -6370,4 +6337,4 @@
       ]
     }
   ]
-}
+}

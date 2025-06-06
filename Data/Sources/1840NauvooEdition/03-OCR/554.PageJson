@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1036,
   "ImageWidth": 763,
+  "ManuallyEdited": true,
   "PageNumber": 554,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 402,
-            "Y": 106,
-            "Width": 32,
-            "Height": 10
-          },
-          "Text": "BOOX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 445,
-            "Y": 106,
-            "Width": 13,
-            "Height": 9
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 470,
-            "Y": 106,
-            "Width": 34,
-            "Height": 9
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -480,7 +442,7 @@
             "Width": 26,
             "Height": 13
           },
-          "Text": "fied"
+          "Text": "fled"
         }
       ]
     },
@@ -545,7 +507,7 @@
             "Width": 80,
             "Height": 14
           },
-          "Text": "Coriantamr"
+          "Text": "Coriantumr"
         }
       ]
     },
@@ -1694,7 +1656,7 @@
             "Width": 22,
             "Height": 13
           },
-          "Text": "rey"
+          "Text": "prey"
         }
       ]
     },
@@ -1850,7 +1812,7 @@
             "Width": 29,
             "Height": 13
           },
-          "Text": "orth"
+          "Text": "forth"
         }
       ]
     },
@@ -2162,7 +2124,7 @@
             "Width": 40,
             "Height": 17
           },
-          "Text": "might"
+          "Text": "night"
         }
       ]
     },
@@ -2448,7 +2410,7 @@
             "Width": 72,
             "Height": 13
           },
-          "Text": "Corianturr"
+          "Text": "Coriantumr"
         }
       ]
     },
@@ -2794,19 +2756,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 683,
-            "Y": 445,
-            "Width": 20,
-            "Height": 17
-          },
-          "Text": "oN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 242,
             "Y": 465,
             "Width": 22,
@@ -3086,32 +3035,6 @@
             "Height": 13
           },
           "Text": "and"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 673,
-            "Y": 482,
-            "Width": 2,
-            "Height": 13
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 690,
-            "Y": 481,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3592,7 +3515,7 @@
             "Width": 34,
             "Height": 19
           },
-          "Text": "pace"
+          "Text": "space"
         }
       ]
     },
@@ -3619,19 +3542,6 @@
             "Height": 12
           },
           "Text": "three"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 683,
-            "Y": 550,
-            "Width": 6,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4515,7 +4425,7 @@
             "Width": 44,
             "Height": 17
           },
-          "Text": "vdlley"
+          "Text": "valley"
         }
       ]
     },
@@ -5716,7 +5626,7 @@
             "Width": 30,
             "Height": 14
           },
-          "Text": "Bhiz"
+          "Text": "Shiz"
         }
       ]
     },
@@ -5833,7 +5743,7 @@
             "Width": 23,
             "Height": 13
           },
-          "Text": "dee"
+          "Text": "deep"
         }
       ]
     },
@@ -6458,11 +6368,16 @@
             "Height": 9
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 676,
+            "Y": 916,
+            "Width": 12,
+            "Height": 9
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 245,
@@ -6514,4 +6429,4 @@
       ]
     }
   ]
-}
+}

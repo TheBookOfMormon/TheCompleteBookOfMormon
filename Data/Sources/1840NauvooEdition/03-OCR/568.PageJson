@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1079,
   "ImageWidth": 775,
+  "ManuallyEdited": true,
   "PageNumber": 568,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 389,
-            "Y": 111,
-            "Width": 33,
-            "Height": 10
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 434,
-            "Y": 111,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 110,
-            "Width": 53,
-            "Height": 11
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -169,11 +131,7 @@
             "Height": 15
           },
           "Text": "Zene"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 664,
@@ -182,11 +140,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 228,
@@ -716,10 +670,23 @@
           "Bounds": {
             "X": 458,
             "Y": 214,
-            "Width": 106,
-            "Height": 14
+            "Width": 75,
+            "Height": 13
           },
-          "Text": "Lamanitesare"
+          "Text": "Lamanites"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 537,
+            "Y": 214,
+            "Width": 23,
+            "Height": 13
+          },
+          "Text": "are"
         }
       ]
     },
@@ -746,11 +713,7 @@
             "Height": 14
           },
           "Text": "Sher"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 671,
@@ -759,11 +722,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 227,
@@ -771,7 +730,7 @@
             "Width": 38,
             "Height": 14
           },
-          "Text": "rizeh"
+          "Text": "rizah"
         }
       ]
     },
@@ -2194,6 +2153,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3820,7 +3780,7 @@
             "Width": 10,
             "Height": 11
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -6414,4 +6374,4 @@
       ]
     }
   ]
-}
+}

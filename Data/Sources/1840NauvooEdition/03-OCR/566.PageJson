@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1077,
   "ImageWidth": 765,
+  "ManuallyEdited": true,
   "PageNumber": 566,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 386,
-            "Y": 105,
-            "Width": 35,
-            "Height": 10
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 105,
-            "Width": 13,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 458,
-            "Y": 104,
-            "Width": 53,
-            "Height": 11
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1186,6 +1148,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2830,19 +2793,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 675,
-            "Y": 495,
-            "Width": 3,
-            "Height": 21
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 222,
             "Y": 515,
             "Width": 28,
@@ -4400,45 +4350,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 445,
-            "Y": 763,
-            "Width": 4,
-            "Height": 11
-          },
-          "Text": "i"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 384,
-            "Y": 805,
-            "Width": 92,
-            "Height": 15
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 806,
-            "Width": 13,
-            "Height": 14
-          },
-          "Text": "IX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 268,
             "Y": 840,
             "Width": 24,
@@ -4509,7 +4420,7 @@
             "Width": 8,
             "Height": 12
           },
-          "Text": "lo"
+          "Text": "to"
         }
       ]
     },
@@ -4548,7 +4459,7 @@
             "Width": 51,
             "Height": 14
           },
-          "Text": "Morong"
+          "Text": "Moroni"
         }
       ]
     },
@@ -4790,6 +4701,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 488,
+            "Y": 897,
+            "Width": 6,
+            "Height": 13
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 505,
             "Y": 897,
             "Width": 38,
@@ -4812,6 +4736,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5020,6 +4945,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5311,11 +5237,24 @@
         {
           "Bounds": {
             "X": 493,
-            "Y": 972,
-            "Width": 50,
-            "Height": 15
+            "Y": 973,
+            "Width": 8,
+            "Height": 13
           },
-          "Text": "agreat"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 505,
+            "Y": 973,
+            "Width": 38,
+            "Height": 13
+          },
+          "Text": "great"
         }
       ]
     },
@@ -5359,4 +5298,4 @@
       ]
     }
   ]
-}
+}

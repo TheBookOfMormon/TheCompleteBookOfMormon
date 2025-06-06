@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1192,
   "ImageWidth": 772,
+  "ManuallyEdited": true,
   "PageNumber": 567,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 411,
-            "Y": 50,
-            "Width": 2,
-            "Height": 3
-          },
-          "Text": "EL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 419,
-            "Y": 50,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 533,
-            "Y": 50,
-            "Width": 23,
-            "Height": 4
-          },
-          "Text": "al"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 253,
-            "Y": 128,
-            "Width": 36,
-            "Height": 11
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 301,
-            "Y": 129,
-            "Width": 16,
-            "Height": 10
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 330,
-            "Y": 128,
-            "Width": 52,
-            "Height": 11
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -294,11 +217,24 @@
         {
           "Bounds": {
             "X": 384,
-            "Y": 182,
-            "Width": 62,
-            "Height": 20
+            "Y": 185,
+            "Width": 20,
+            "Height": 13
           },
-          "Text": "forthey"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 408,
+            "Y": 185,
+            "Width": 32,
+            "Height": 13
+          },
+          "Text": "they"
         }
       ]
     },
@@ -307,11 +243,24 @@
         {
           "Bounds": {
             "X": 454,
-            "Y": 182,
-            "Width": 48,
-            "Height": 15
+            "Y": 183,
+            "Width": 17,
+            "Height": 13
           },
-          "Text": "donot"
+          "Text": "do"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 475,
+            "Y": 183,
+            "Width": 17,
+            "Height": 13
+          },
+          "Text": "not"
         }
       ]
     },
@@ -415,7 +364,7 @@
             "Width": 12,
             "Height": 11
           },
-          "Text": "ta"
+          "Text": "to"
         }
       ]
     },
@@ -4188,6 +4137,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4474,6 +4424,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6298,58 +6249,6 @@
           "Text": "the"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 1131,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "Bm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 468,
-            "Y": 1130,
-            "Width": 1,
-            "Height": 4
-          },
-          "Text": "i"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 531,
-            "Y": 1131,
-            "Width": 8,
-            "Height": 2
-          },
-          "Text": "np"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 569,
-            "Y": 1129,
-            "Width": 1,
-            "Height": 4
-          },
-          "Text": "i"
-        }
-      ]
     }
   ]
-}
+}
