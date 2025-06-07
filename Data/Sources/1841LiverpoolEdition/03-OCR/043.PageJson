@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2027,
   "ImageWidth": 1158,
+  "ManuallyEdited": true,
   "PageNumber": 43,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 315,
-            "Y": 96,
-            "Width": 86,
-            "Height": 21
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 425,
-            "Y": 96,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 532,
-            "Y": 95,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 591,
-            "Y": 94,
-            "Width": 95,
-            "Height": 22
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -333,14 +282,15 @@
         {
           "Bounds": {
             "X": 824,
-            "Y": 202,
-            "Width": 146,
-            "Height": 37
+            "Y": 206,
+            "Width": 155,
+            "Height": 28
           },
-          "Text": "olive'tree"
+          "Text": "olive-tree"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -588,6 +538,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1525,7 +1476,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -2393,23 +2344,10 @@
           "Bounds": {
             "X": 790,
             "Y": 782,
-            "Width": 14,
-            "Height": 27
+            "Width": 103,
+            "Height": 28
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 808,
-            "Y": 781,
-            "Width": 68,
-            "Height": 37
-          },
-          "Text": "saiah"
+          "Text": "Isaiah"
         }
       ]
     },
@@ -2621,6 +2559,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2937,6 +2876,32 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 791,
+            "Y": 940,
+            "Width": 85,
+            "Height": 28
+          },
+          "Text": "many"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 886,
+            "Y": 940,
+            "Width": 99,
+            "Height": 28
+          },
+          "Text": "words"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 34,
             "Y": 979,
             "Width": 68,
@@ -3185,11 +3150,24 @@
         {
           "Bounds": {
             "X": 398,
-            "Y": 1051,
-            "Width": 143,
-            "Height": 38
+            "Y": 1056,
+            "Width": 64,
+            "Height": 28
           },
-          "Text": "thatthey"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 472,
+            "Y": 1056,
+            "Width": 64,
+            "Height": 28
+          },
+          "Text": "they"
         }
       ]
     },
@@ -3800,7 +3778,7 @@
             "Width": 57,
             "Height": 30
           },
-          "Text": "rdd"
+          "Text": "rod"
         }
       ]
     },
@@ -4126,11 +4104,7 @@
             "Height": 28
           },
           "Text": "who"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 977,
@@ -4139,11 +4113,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 36,
@@ -4177,7 +4147,7 @@
             "Width": 109,
             "Height": 28
           },
-          "Text": "harken"
+          "Text": "hearken"
         }
       ]
     },
@@ -5241,19 +5211,6 @@
             "Height": 29
           },
           "Text": "word"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1042,
-            "Y": 1606,
-            "Width": 9,
-            "Height": 7
-          },
-          "Text": "-"
         }
       ]
     },

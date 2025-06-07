@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2006,
   "ImageWidth": 1148,
+  "ManuallyEdited": true,
   "PageNumber": 41,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 334,
-            "Y": 106,
-            "Width": 87,
-            "Height": 21
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 105,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 105,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 614,
-            "Y": 104,
-            "Width": 103,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -659,7 +608,7 @@
           "Bounds": {
             "X": 542,
             "Y": 328,
-            "Width": 89,
+            "Width": 106,
             "Height": 28
           },
           "Text": "shewn"
@@ -1179,23 +1128,10 @@
           "Bounds": {
             "X": 115,
             "Y": 483,
-            "Width": 15,
+            "Width": 95,
             "Height": 28
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 132,
-            "Y": 482,
-            "Width": 57,
-            "Height": 29
-          },
-          "Text": "srael"
+          "Text": "Israel"
         }
       ]
     },
@@ -1209,6 +1145,19 @@
             "Height": 29
           },
           "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 187,
+            "Y": 521,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
         }
       ]
     },
@@ -2959,11 +2908,37 @@
         {
           "Bounds": {
             "X": 578,
-            "Y": 982,
-            "Width": 146,
-            "Height": 30
+            "Y": 983,
+            "Width": 74,
+            "Height": 28
           },
-          "Text": "thusitis"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 662,
+            "Y": 983,
+            "Width": 22,
+            "Height": 28
+          },
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 696,
+            "Y": 983,
+            "Width": 29,
+            "Height": 28
+          },
+          "Text": "is"
         }
       ]
     },
@@ -2984,38 +2959,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 403,
-            "Y": 1137,
-            "Width": 198,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 1137,
-            "Width": 31,
-            "Height": 29
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 99,
             "Y": 1213,
-            "Width": 65,
-            "Height": 27
+            "Width": 71,
+            "Height": 28
           },
-          "Text": "Axp"
+          "Text": "And"
         }
       ]
     },
@@ -3344,6 +3293,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4241,6 +4191,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4546,10 +4497,23 @@
           "Bounds": {
             "X": 278,
             "Y": 1637,
-            "Width": 147,
+            "Width": 76,
             "Height": 28
           },
-          "Text": "seenand"
+          "Text": "seen"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 364,
+            "Y": 1637,
+            "Width": 57,
+            "Height": 28
+          },
+          "Text": "and"
         }
       ]
     },
@@ -4978,6 +4942,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 518,
+            "Y": 1753,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 520,
             "Y": 1754,
             "Width": 201,
@@ -5023,11 +5000,7 @@
             "Height": 29
           },
           "Text": "afflic"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1003,
@@ -5036,6 +5009,15 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 60,
+            "Y": 1790,
+            "Width": 80,
+            "Height": 28
+          },
+          "Text": "tions"
         }
       ]
     },
@@ -5043,12 +5025,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 60,
-            "Y": 1789,
-            "Width": 161,
-            "Height": 30
+            "X": 150,
+            "Y": 1790,
+            "Width": 80,
+            "Height": 28
           },
-          "Text": "tionswere"
+          "Text": "were"
         }
       ]
     },
@@ -5057,11 +5039,24 @@
         {
           "Bounds": {
             "X": 237,
-            "Y": 1792,
-            "Width": 183,
-            "Height": 36
+            "Y": 1796,
+            "Width": 83,
+            "Height": 28
           },
-          "Text": "greatabove"
+          "Text": "great"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 330,
+            "Y": 1796,
+            "Width": 83,
+            "Height": 28
+          },
+          "Text": "above"
         }
       ]
     },
