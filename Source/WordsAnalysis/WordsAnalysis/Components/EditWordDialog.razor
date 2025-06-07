@@ -1,5 +1,6 @@
 @using WordsAnalysis.AppLayer.Features.SyncDocuments
 @implements IDialogContentComponent<EditWordDialog.EditWordDialogContent>
+@inject IDictionaryService DictionaryService
 @inject IToastService ToastService
 
 <FluentDialogHeader>
@@ -21,6 +22,10 @@
                     <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged />
                     Show surrounding text
                 </label>
+                <FluentToolbar>
+                    <FluentButton IconStart=@SharedIcons.SplitWords OnClick=SuggestWordsSplit Title="Split text" />
+                </FluentToolbar>
+
             </div>
             <div>
                 <label>

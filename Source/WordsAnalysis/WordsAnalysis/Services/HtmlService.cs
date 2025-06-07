@@ -12,7 +12,7 @@ public interface IHtmlService
     Task<bool> ScrollToNextWarningOrErrorAsync();
 }
 
-public sealed class HtmlService : IAsyncDisposable, IHtmlService
+sealed class HtmlService : IAsyncDisposable, IHtmlService
 {
     private readonly IJSRuntime JS;
     private IJSObjectReference? Module;

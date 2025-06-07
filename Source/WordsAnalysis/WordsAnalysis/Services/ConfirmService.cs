@@ -8,7 +8,7 @@ public interface IConfirmService
     ValueTask<bool> ConfirmAsync(string message);
 }
 
-public class ConfirmService : IConfirmService
+class ConfirmService : IConfirmService
 {
     private readonly IDialogService DialogService;
 

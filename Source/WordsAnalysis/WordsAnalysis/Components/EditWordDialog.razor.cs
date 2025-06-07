@@ -240,6 +240,12 @@ public partial class EditWordDialog : IAsyncDisposable
         LastShowSurroundingText = ShowSurroundingText;
     }
 
+    private void SuggestWordsSplit()
+    {
+        string text = CreateWord().GetDisplayText();
+        string[][] result = DictionaryService.SplitTextIntoWords(text).ToArray();
+    }
+
     private void UpdateImageData()
     {
         OcrWord tempWord = CreateWord();
