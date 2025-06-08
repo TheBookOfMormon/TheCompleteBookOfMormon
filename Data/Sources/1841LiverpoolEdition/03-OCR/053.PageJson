@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1192,
+  "ManuallyEdited": true,
   "PageNumber": 53,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 386,
-            "Y": 94,
-            "Width": 86,
-            "Height": 21
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 499,
-            "Y": 96,
-            "Width": 81,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 608,
-            "Y": 96,
-            "Width": 34,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 669,
-            "Y": 97,
-            "Width": 93,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -467,7 +416,7 @@
             "Width": 53,
             "Height": 28
           },
-          "Text": "hut"
+          "Text": "but"
         }
       ]
     },
@@ -763,10 +712,23 @@
           "Bounds": {
             "X": 822,
             "Y": 321,
-            "Width": 249,
+            "Width": 140,
             "Height": 29
           },
-          "Text": "thunderwhich"
+          "Text": "thunder"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 962,
+            "Y": 321,
+            "Width": 110,
+            "Height": 29
+          },
+          "Text": "which"
         }
       ]
     },
@@ -1554,6 +1516,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 475,
+            "Y": 556,
+            "Width": 22,
+            "Height": 28
+          },
+          "Text": "O"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 513,
             "Y": 557,
             "Width": 68,
@@ -2205,6 +2180,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4236,10 +4212,23 @@
           "Bounds": {
             "X": 222,
             "Y": 1300,
-            "Width": 92,
+            "Width": 17,
             "Height": 29
           },
-          "Text": "Tsaid"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 239,
+            "Y": 1300,
+            "Width": 76,
+            "Height": 29
+          },
+          "Text": "said"
         }
       ]
     },
@@ -4708,6 +4697,19 @@
             "Height": 29
           },
           "Text": "if"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 325,
+            "Y": 1418,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
         }
       ]
     },
@@ -6194,10 +6196,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 94,
-            "Y": 1854,
-            "Width": 75,
-            "Height": 30
+            "X": 90,
+            "Y": 1851,
+            "Width": 81,
+            "Height": 28
           },
           "Text": "upon"
         }
@@ -6207,10 +6209,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 194,
-            "Y": 1847,
-            "Width": 73,
-            "Height": 31
+            "X": 181,
+            "Y": 1851,
+            "Width": 81,
+            "Height": 28
           },
           "Text": "them"
         }
