@@ -131,29 +131,6 @@
 	white-space: nowrap;
 }
 
-.word-table_word-actions {
-	display: none;
-	position: absolute;
-	background-color: var(--accent-fill-rest);
-	top: 0;
-	right: 0;
-	flex-direction: row;
-	justify-content: end;
-	transform: scale(0.5);
-	transform-origin: top right;
-}
-
-.word-table_word-container:hover > .word-table_word-actions {
-	display: flex;
-}
-
-.word-table_word-action-button {
-	pointer-events: all;
-	display: inline-block;
-	height: 100% !important;
-	width: 1em;
-}
-
 .first-word-on-page {
 	border-left: 4px solid black !important;
 }

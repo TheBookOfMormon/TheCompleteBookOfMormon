@@ -2,6 +2,7 @@ using DocumentsModel;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
+using System.Text;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Services;
 
@@ -73,6 +74,21 @@ public partial class Index
 
         string lastEditedCell = wordReference.BookInfo == ViewModel.LastEditedEdition && columnIndex == ViewModel.LastEditedColumnIndex ? LastEditedCellClass : "";
         return $"{selected} {spacer} {lastEditedRow} {lastEditedCell} {errorLevel} {outlier} {firstWordOnPage}";
+    }
+
+    private string GetWordHint(WordReference wordReference)
+    {
+        return $"""
+            Page {wordReference.PageNumber} Word {wordReference.WordIndex}
+            =============
+            Edit word (ALT + E)
+            Add word (ALT + A)
+            Delete word (ALT + D)
+            Reveal column word images (ALT + R)
+            Insert blank before word (ALT + I)
+            Merge composite word (ALT + M)
+            Split words (ALT + X)
+            """;
     }
 
     private string GetWordIndexClass(int index)
@@ -179,7 +195,6 @@ public partial class Index
 
     private void WordMouseOut(WordReference wordReference)
     {
-        if (ActiveWordReference == wordReference)
-            ActiveWordReference = null;
+        ActiveWordReference = null;
     }
 }
