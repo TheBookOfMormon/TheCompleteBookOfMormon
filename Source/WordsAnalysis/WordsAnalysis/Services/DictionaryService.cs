@@ -3,7 +3,7 @@ using WordsAnalysis.AppLayer.Constants;
 
 namespace WordsAnalysis.Services;
 
-internal interface IDictionaryService
+public interface IDictionaryService
 {
     bool WordExists(string word);
     IEnumerable<string[]> SplitTextIntoWords(string text);
@@ -11,18 +11,27 @@ internal interface IDictionaryService
 
 sealed class DictionaryService : IDictionaryService
 {
-    private HashSet<string> _Dictionary = null!;
-    private int LongestWordLength;
-    private bool Initialized;
-    private Dictionary<int, HashSet<string>> WordsByLength = null!;
+    private readonly HashSet<string> Dictionary;
+    private readonly int LongestWordLength;
+    private readonly Dictionary<int, HashSet<string>> WordsByLength;
 
-    private HashSet<string> Dictionary
+    public DictionaryService()
     {
-        get
+        string dictionaryFilePath = Path.Combine(Data.SourcesDirectoryPath, "..", "dictionary.txt");
+        var entries = new List<string>(10 * 1000 * 1000);
+        IEnumerable<string> lines = File.ReadLines(dictionaryFilePath);
+
+        foreach (string line in lines)
         {
-            Initialize();
-            return _Dictionary;
+            string entry = line.Trim();
+            bool isName = entry.StartsWith("name:");
+            if (isName) entry = entry[5..];
+            entries.Add(entry);
+            AddDerivations(entries, entry, isName);
         }
+        Dictionary = entries.Distinct().ToHashSet(StringComparer.OrdinalIgnoreCase);
+        WordsByLength = Dictionary.GroupBy(x => x.Length).ToDictionary(x => x.Key, x => x.ToHashSet(StringComparer.OrdinalIgnoreCase));
+        LongestWordLength = WordsByLength.Keys.Max();
     }
 
     public IEnumerable<string[]> SplitTextIntoWords(string text)
@@ -151,29 +160,4 @@ sealed class DictionaryService : IDictionaryService
         return Regex.IsMatch("^[^AEIOU][AEIOU][^AEIOU]$", lastThree);
     }
 
-    private void Initialize()
-    {
-        if (Initialized) return;
-        lock (this)
-        {
-            if (Initialized) return;
-            string dictionaryFilePath = Path.Combine(Data.SourcesDirectoryPath, "..", "dictionary.txt");
-            var entries = new List<string>(10 * 1000 * 1000);
-            IEnumerable<string> lines = File.ReadLines(dictionaryFilePath);
-
-            foreach (string line in lines)
-            {
-                string entry = line.Trim();
-                bool isName = entry.StartsWith("name:");
-                if (isName) entry = entry[5..];
-                entries.Add(entry);
-                AddDerivations(entries, entry, isName);
-            }
-            _Dictionary = entries.Distinct().ToHashSet(StringComparer.OrdinalIgnoreCase);
-            WordsByLength = Dictionary.GroupBy(x => x.Length).ToDictionary(x => x.Key, x => x.ToHashSet(StringComparer.OrdinalIgnoreCase));
-            LongestWordLength = WordsByLength.Keys.Max();
-
-            Initialized = true;
-        }
-    }
 }

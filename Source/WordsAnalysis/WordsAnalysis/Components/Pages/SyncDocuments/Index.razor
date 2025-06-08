@@ -3,6 +3,7 @@
 @using WordsAnalysis.AppLayer.Features.SyncDocuments
 @inject IConfirmService ConfirmService
 @inject IDialogService DialogService
+@inject IDictionaryService DictionaryService
 
 @if (ViewModel != null)
 {
@@ -130,6 +131,7 @@
                                 <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync(wordReference)) style="display:none;" />
                                 <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync(wordReference)) style="display:none;" />
                                 <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync(wordReference)) style="display:none;" />
+                                <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync(wordReference)) style="display:none;" />
                             }
                         </td>
                     }

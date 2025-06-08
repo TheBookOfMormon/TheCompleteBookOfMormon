@@ -34,7 +34,7 @@ public partial class Index
         await base.OnInitializedAsync();
         FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
         var stateHasChangedCallback = EventCallback.Factory.Create(this, RefreshGrid);
-        ViewModel = new ViewModel(state, ConfirmService, DialogService, stateHasChangedCallback);
+        ViewModel = new ViewModel(state, DialogService, DictionaryService, stateHasChangedCallback);
         await ViewModel.LoadRowDataDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;

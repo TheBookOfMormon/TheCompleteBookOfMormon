@@ -1,0 +1,18 @@
+@implements IDialogContentComponent<SplitWordsDialog.SplitWordsDialogContent>
+
+<FluentDialogHeader>
+    Split text into words - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
+</FluentDialogHeader>
+
+<ol>
+    @foreach (SplitWordSuggestion suggestion in Content.Suggestions)
+    {
+        <li>
+            @foreach (SplitWord word in suggestion.Words)
+            {
+                <span style="margin: 0 0.25em">@word.Text</span>
+               
+            }
+        </li>
+    }
+</ol>

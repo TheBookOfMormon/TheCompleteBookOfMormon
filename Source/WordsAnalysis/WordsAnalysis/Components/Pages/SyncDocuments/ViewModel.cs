@@ -1,4 +1,5 @@
-﻿using DocumentsModel;
+﻿using ConvertImagesToText;
+using DocumentsModel;
 using Microsoft.AspNetCore.Components;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
@@ -31,19 +32,19 @@ public class ViewModel
     public ImmutableHashSet<WordReference> SelectedWords => State.SelectedWords;
     public string? UndoActionDescription => UndoStack.Count == 0 ? null : $"Undo {UndoStack.Peek().Description}";
 
-    private readonly IConfirmService ConfirmService;
     private readonly IDialogService DialogService;
     private readonly Stack<(string Description, FeatureState State)> RedoStack = [];
+    private readonly IDictionaryService DictionaryService;
     private readonly Dictionary<OcrBookInfoAndPageNumber, Guid> SavedPageVersions = [];
     private FeatureState State;
     private readonly EventCallback StateHasChanged;
     private readonly Stack<(string Description, FeatureState State)> UndoStack = [];
 
-    public ViewModel(FeatureState state, IConfirmService confirmService, IDialogService dialogService, EventCallback stateHasChanged)
+    public ViewModel(FeatureState state, IDialogService dialogService, IDictionaryService dictionaryService, EventCallback stateHasChanged)
     {
         State = state;
-        ConfirmService = confirmService;
         DialogService = dialogService;
+        DictionaryService = dictionaryService;
         StateHasChanged = stateHasChanged;
     }
 
@@ -300,6 +301,52 @@ public class ViewModel
         var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
         var content = new ViewColumnImagesDialog.ViewColumnImagesDialogContent(Editions, wordReferences);
         await DialogService.ShowDialogAsync<ViewColumnImagesDialog, ViewColumnImagesDialog.ViewColumnImagesDialogContent>(content, dialogParameters);
+    }
+
+    public async Task SuggestSplitWordsAsync(WordReference wordReference)
+    {
+        EditionState edition = State.Editions[wordReference.BookInfo];
+        OcrWord ocrWord = wordReference.GetWord(edition)!;
+        if (ocrWord == null) return;
+        if (ocrWord.IsComposite()) return;
+
+        string displayText = ocrWord.GetDisplayText();
+        if (DictionaryService.WordExists(displayText)) return;
+
+        string[][] suggestions = DictionaryService.SplitTextIntoWords(displayText).ToArray();
+        if (!suggestions.Any()) return;
+
+        OcrRect actualBounds = ocrWord.Elements[0].Bounds;
+
+        OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
+        var splitWordSuggestions = new List<SplitWordsDialog.SplitWordSuggestion>();
+        foreach (string[] words in suggestions)
+        {
+            int[] estimatedWordWidths = words.Select(x => OcrProcessor.EstimateWordSize(actualBounds.Height, actualBounds.Height, x)).Select(x => x.Width).ToArray();
+            int totalEstimatedCombinedTextWidth = estimatedWordWidths.Sum();
+            double widthFactor = totalEstimatedCombinedTextWidth / (double)actualBounds.Width;
+            int x = actualBounds.X;
+            var splitWords = new List<SplitWordsDialog.SplitWord>(words.Length);
+            for(int i = 0; i < words.Length; i++)
+            {
+                int adjustedWidth = (int)Math.Ceiling(estimatedWordWidths[i] * widthFactor);
+                string text = words[i];
+                var bounds = new OcrRect { X = x, Y = actualBounds.Y, Width = adjustedWidth, Height = actualBounds.Height };
+                x += adjustedWidth;
+                var splitWord = new SplitWordsDialog.SplitWord(text, bounds);
+                splitWords.Add(splitWord);
+            }
+            splitWordSuggestions.Add(new SplitWordsDialog.SplitWordSuggestion(splitWords.ToArray()));
+        }
+        var content = new SplitWordsDialog.SplitWordsDialogContent(State.Editions[wordReference.BookInfo], wordReference, splitWordSuggestions.ToArray(), page.ImageWidth, page.ImageHeight);
+
+        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
+        var dialog = await DialogService.ShowDialogAsync<SplitWordsDialog, SplitWordsDialog.SplitWordsDialogContent>(content, dialogParameters);
+
+        DialogResult result = await dialog.Result;
+        if (result.Cancelled) return;
+        var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
+
     }
 
     public bool ToggleWordSelected(WordReference wordReference)
