@@ -131,7 +131,7 @@ public class ViewModel
         if (result.Cancelled) return;
         var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
         FeatureState newFeatureState = State;
-        newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, dialogResult.Word!);
+        newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, [dialogResult.Word!]);
         SetNewStateWithUndo("Edit word", newFeatureState);
         await LoadRowDataDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
@@ -311,7 +311,6 @@ public class ViewModel
         if (ocrWord.IsComposite()) return;
 
         string displayText = ocrWord.GetDisplayText();
-        if (DictionaryService.WordExists(displayText)) return;
 
         string[][] suggestions = DictionaryService.SplitTextIntoWords(displayText).ToArray();
         if (!suggestions.Any()) return;
@@ -324,7 +323,7 @@ public class ViewModel
         {
             int[] estimatedWordWidths = words.Select(x => OcrProcessor.EstimateWordSize(actualBounds.Height, actualBounds.Height, x)).Select(x => x.Width).ToArray();
             int totalEstimatedCombinedTextWidth = estimatedWordWidths.Sum();
-            double widthFactor = totalEstimatedCombinedTextWidth / (double)actualBounds.Width;
+            double widthFactor = actualBounds.Width / (double)totalEstimatedCombinedTextWidth;
             int x = actualBounds.X;
             var splitWords = new List<SplitWordsDialog.SplitWord>(words.Length);
             for(int i = 0; i < words.Length; i++)
@@ -339,13 +338,35 @@ public class ViewModel
             splitWordSuggestions.Add(new SplitWordsDialog.SplitWordSuggestion(splitWords.ToArray()));
         }
         var content = new SplitWordsDialog.SplitWordsDialogContent(State.Editions[wordReference.BookInfo], wordReference, splitWordSuggestions.ToArray(), page.ImageWidth, page.ImageHeight);
+        SplitWordsDialog.SplitWordSuggestion chosenSuggestion;
+        if (splitWordSuggestions.Count == 1)
+        {
+            chosenSuggestion = splitWordSuggestions[0];
+        }
+        else
+        {
+            var dialogParameters = new DialogParameters();
+            var dialog = await DialogService.ShowDialogAsync<SplitWordsDialog, SplitWordsDialog.SplitWordsDialogContent>(content, dialogParameters);
 
-        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
-        var dialog = await DialogService.ShowDialogAsync<SplitWordsDialog, SplitWordsDialog.SplitWordsDialogContent>(content, dialogParameters);
+            DialogResult result = await dialog.Result;
+            if (result.Cancelled) return;
+            var dialogResult = (SplitWordsDialog.SplitWordsDialogResult)result.Data!;
+            chosenSuggestion = dialogResult.Suggestion!;
+        }
 
-        DialogResult result = await dialog.Result;
-        if (result.Cancelled) return;
-        var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
+        var newOcrWords = chosenSuggestion.Words.Select(x => new OcrWord {
+            Elements = [
+                new OcrElement { Bounds = x.Bounds, Text = x.Text }
+            ]
+        }).ToArray();
+
+        FeatureState newState = State;
+        newState = FeatureState.ReplaceWord(newState, wordReference, newOcrWords);
+
+        string description = "Split text into: " + string.Join(' ', chosenSuggestion.Words.Select(x => x.Text));
+        SetNewStateWithUndo(description, newState);
+        await LoadRowDataDataAsync(SectionIndex);
+        await StateHasChanged.InvokeAsync();
 
     }
 

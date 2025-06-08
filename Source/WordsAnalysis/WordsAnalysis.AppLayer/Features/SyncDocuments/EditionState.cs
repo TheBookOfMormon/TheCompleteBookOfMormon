@@ -158,17 +158,17 @@ public record EditionState
         OcrElement lastElement = ocrWords[2].Elements[0] with { IsOnNextPage = isOnNextPage };
         var newWord = new OcrWord { Elements = [firstElement, hyphenElement, lastElement] };
 
-        newEditionState = EditionState.ReplaceWord(newEditionState, wordReferences.Item1, newWord);
+        newEditionState = EditionState.ReplaceWord(newEditionState, wordReferences.Item1, [newWord]);
         newEditionState = EditionState.DeleteWords(newEditionState, [wordReferences.Item2, wordReferences.Item3]);
         return newEditionState;
     }
 
-    public static EditionState ReplaceWord(EditionState originalEditionState, WordReference wordReference, OcrWord newWord)
+    public static EditionState ReplaceWord(EditionState originalEditionState, WordReference wordReference, IEnumerable<OcrWord> newWords)
     {
         EditionState newEditionState = originalEditionState;
         PageState newPageState = newEditionState.LoadedPages[wordReference.PageNumber];
         OcrPage newOcrPage = newPageState.Page;
-        newOcrPage = OcrPage.ReplaceWord(newOcrPage, wordReference.WordIndex, newWord);
+        newOcrPage = OcrPage.ReplaceWord(newOcrPage, wordReference.WordIndex, newWords);
         newPageState = new PageState(newOcrPage);
         newEditionState = newEditionState with { 
             LoadedPages = newEditionState.LoadedPages.SetItem(wordReference.PageNumber, newPageState)

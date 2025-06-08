@@ -35,13 +35,19 @@ public record OcrPage
         return newOcrPage;
     }
 
-    public static OcrPage ReplaceWord(OcrPage originalOcrPage, int wordIndex, OcrWord newWord)
+    public static OcrPage ReplaceWord(OcrPage originalOcrPage, int wordIndex, IEnumerable<OcrWord> newWords)
     {
         OcrPage newOcrPage = originalOcrPage;
         newOcrPage = newOcrPage with {
             ManuallyEdited = true,
-            Words = newOcrPage.Words.SetItem(wordIndex, newWord)
+            Words = newOcrPage.Words.RemoveAt(wordIndex)
         };
+        foreach(var newWord in newWords.Reverse())
+        {
+            newOcrPage = newOcrPage with {
+                Words = newOcrPage.Words.Insert(wordIndex, newWord)
+            };
+        }
         return newOcrPage;
     }
 

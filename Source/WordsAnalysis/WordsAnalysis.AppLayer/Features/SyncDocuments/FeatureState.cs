@@ -226,11 +226,11 @@ public record FeatureState
         };
     }
 
-    public static FeatureState ReplaceWord(FeatureState originalFeatureState, WordReference wordReference, OcrWord newWord)
+    public static FeatureState ReplaceWord(FeatureState originalFeatureState, WordReference wordReference, IEnumerable<OcrWord> newWords)
     {
         FeatureState newFeatureState = originalFeatureState;
         EditionState newEditionState = newFeatureState.Editions[wordReference.BookInfo];
-        newEditionState = EditionState.ReplaceWord(newEditionState, wordReference, newWord);
+        newEditionState = EditionState.ReplaceWord(newEditionState, wordReference, newWords);
 
         newFeatureState = newFeatureState with {
             Editions = newFeatureState.Editions.SetItem(wordReference.BookInfo, newEditionState),

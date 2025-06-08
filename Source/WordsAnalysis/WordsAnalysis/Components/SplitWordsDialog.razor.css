@@ -1,0 +1,4 @@
+﻿.suggestion.--selected {
+	background-color: var(--accent-fill-active);
+	color: var(--foreground-on-accent-active);
+}

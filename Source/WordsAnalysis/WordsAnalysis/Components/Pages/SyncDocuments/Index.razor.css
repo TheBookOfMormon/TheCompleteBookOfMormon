@@ -30,8 +30,13 @@
 	}
 
 	.word-table_edition.--selected {
-		color: green;
+		background-color: var(--accent-fill-active);
+		color: var(--foreground-on-accent-active);
 	}
+
+		.word-table_edition.--selected:before {
+			content: '🔍';
+		}
 
 	.word-table_first-cell {
 		position: sticky;

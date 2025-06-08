@@ -4,15 +4,27 @@
     Split text into words - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
 </FluentDialogHeader>
 
-<ol>
-    @foreach (SplitWordSuggestion suggestion in Content.Suggestions)
+<ol @onkeypress=ListKeyPressed>
+    @for(int i = 0; i < Content.Suggestions.Length; i++)
     {
-        <li>
+        SplitWordSuggestion suggestion = Content.Suggestions[i];
+        int capturedIndex = i;
+        <li style="cursor: pointer" @onclick=@(() => SelectSuggestion(capturedIndex)) class="suggestion @GetSuggestionClass(capturedIndex)">
             @foreach (SplitWord word in suggestion.Words)
             {
-                <span style="margin: 0 0.25em">@word.Text</span>
-               
+                <span style="margin: 0 0.25em">
+                    @word.Text
+                </span>
             }
         </li>
     }
 </ol>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
+        <span class="underline">O</span>K
+    </FluentButton>
+    <FluentButton OnClick=@(() => CancelAsync()) accesskey="C">
+        <span class="underline">C</span>ancel
+    </FluentButton>
+</FluentDialogFooter>

@@ -42,7 +42,6 @@ sealed class DictionaryService : IDictionaryService
         if (Dictionary.Contains(text))
         {
             yield return [text];
-            yield break;
         }
 
         int length = Math.Min(LongestWordLength, text.Length - 1);
