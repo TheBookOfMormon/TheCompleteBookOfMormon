@@ -39,10 +39,6 @@ public partial class SplitWordsDialog
         return index == SelectedSuggestionIndex ? "--selected" : "";
     }
 
-    private void ListKeyPressed(KeyboardEventArgs e)
-    {
-    }
-
     private void SelectSuggestion(int index)
     {
         SelectedSuggestionIndex = index;
