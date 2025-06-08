@@ -248,7 +248,6 @@ public class ViewModel
         SetNewStateWithUndo("Rescan area of page", state);
         await LoadRowDataDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
-
     }
 
     public async Task SaveChangesAsync()
@@ -367,7 +366,6 @@ public class ViewModel
         SetNewStateWithUndo(description, newState);
         await LoadRowDataDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
-
     }
 
     public bool ToggleWordSelected(WordReference wordReference)
