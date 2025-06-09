@@ -134,6 +134,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -270,10 +273,23 @@
           "Bounds": {
             "X": 953,
             "Y": 318,
-            "Width": 108,
+            "Width": 30,
             "Height": 36
           },
-          "Text": "ofbrass"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 983,
+            "Y": 318,
+            "Width": 79,
+            "Height": 36
+          },
+          "Text": "brass"
         }
       ]
     },
@@ -361,10 +377,10 @@
           "Bounds": {
             "X": 659,
             "Y": 356,
-            "Width": 46,
-            "Height": 29
+            "Width": 68,
+            "Height": 28
           },
-          "Text": "sail"
+          "Text": "said"
         }
       ]
     },
@@ -782,10 +798,23 @@
           "Bounds": {
             "X": 860,
             "Y": 474,
-            "Width": 158,
+            "Width": 94,
             "Height": 37
           },
-          "Text": "spiritand"
+          "Text": "spirit"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 954,
+            "Y": 474,
+            "Width": 65,
+            "Height": 37
+          },
+          "Text": "and"
         }
       ]
     },
@@ -945,6 +974,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1456,6 +1486,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 122,
+            "Y": 708,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 145,
             "Y": 708,
             "Width": 75,
@@ -1710,23 +1753,10 @@
           "Bounds": {
             "X": 977,
             "Y": 748,
-            "Width": 15,
+            "Width": 95,
             "Height": 28
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 994,
-            "Y": 748,
-            "Width": 58,
-            "Height": 35
-          },
-          "Text": "srael"
+          "Text": "Israel"
         }
       ]
     },
@@ -2087,10 +2117,23 @@
           "Bounds": {
             "X": 581,
             "Y": 863,
-            "Width": 145,
+            "Width": 86,
             "Height": 38
           },
-          "Text": "fromthe"
+          "Text": "from"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 667,
+            "Y": 863,
+            "Width": 60,
+            "Height": 38
+          },
+          "Text": "the"
         }
       ]
     },
@@ -2220,7 +2263,7 @@
             "Width": 84,
             "Height": 28
           },
-          "Text": "moze"
+          "Text": "more"
         }
       ]
     },
@@ -2607,10 +2650,23 @@
           "Bounds": {
             "X": 218,
             "Y": 1020,
-            "Width": 227,
+            "Width": 147,
             "Height": 28
           },
-          "Text": "knowethsave"
+          "Text": "knoweth"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 365,
+            "Y": 1020,
+            "Width": 81,
+            "Height": 28
+          },
+          "Text": "save"
         }
       ]
     },
@@ -2620,10 +2676,23 @@
           "Bounds": {
             "X": 457,
             "Y": 1019,
-            "Width": 124,
+            "Width": 73,
             "Height": 29
           },
-          "Text": "thatwe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 530,
+            "Y": 1019,
+            "Width": 52,
+            "Height": 29
+          },
+          "Text": "we"
         }
       ]
     },
@@ -2724,13 +2793,27 @@
           "Bounds": {
             "X": 261,
             "Y": 1058,
-            "Width": 158,
+            "Width": 67,
             "Height": 29
           },
-          "Text": "Andsince"
+          "Text": "And"
         }
       ]
     },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 328,
+            "Y": 1058,
+            "Width": 92,
+            "Height": 29
+          },
+          "Text": "since"
+        }
+      ]
+    },
+    null,
     {
       "Elements": [
         {
@@ -3158,23 +3241,10 @@
           "Bounds": {
             "X": 785,
             "Y": 1175,
-            "Width": 15,
-            "Height": 29
+            "Width": 95,
+            "Height": 28
           },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 803,
-            "Y": 1175,
-            "Width": 60,
-            "Height": 36
-          },
-          "Text": "srael"
+          "Text": "Israel"
         }
       ]
     },
