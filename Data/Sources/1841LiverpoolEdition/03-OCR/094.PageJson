@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1182,
+  "ManuallyEdited": true,
   "PageNumber": 94,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 436,
-            "Y": 91,
-            "Width": 118,
-            "Height": 19
-          },
-          "Text": "SILCOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 583,
-            "Y": 91,
-            "Width": 78,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 691,
-            "Y": 91,
-            "Width": 34,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 754,
-            "Y": 91,
-            "Width": 90,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -429,11 +378,16 @@
             "Height": 28
           },
           "Text": "Re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1115,
+            "Y": 239,
+            "Width": 23,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 180,
@@ -1646,37 +1600,11 @@
         {
           "Bounds": {
             "X": 573,
-            "Y": 627,
-            "Width": 93,
-            "Height": 37
+            "Y": 631,
+            "Width": 217,
+            "Height": 28
           },
-          "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 671,
-            "Y": 645,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 683,
-            "Y": 625,
-            "Width": 93,
-            "Height": 39
-          },
-          "Text": "crafts"
+          "Text": "priest-crafts"
         }
       ]
     },
@@ -3614,11 +3542,16 @@
             "Height": 29
           },
           "Text": "Gen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1126,
+            "Y": 1209,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 186,
@@ -3688,10 +3621,23 @@
           "Bounds": {
             "X": 683,
             "Y": 1247,
-            "Width": 155,
+            "Width": 74,
             "Height": 29
           },
-          "Text": "untothem"
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 757,
+            "Y": 1247,
+            "Width": 82,
+            "Height": 29
+          },
+          "Text": "them"
         }
       ]
     },

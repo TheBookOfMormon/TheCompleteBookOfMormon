@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1160,
+  "ManuallyEdited": true,
   "PageNumber": 81,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 351,
-            "Y": 96,
-            "Width": 122,
-            "Height": 21
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 96,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 97,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 667,
-            "Y": 96,
-            "Width": 94,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -289,6 +238,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -848,6 +798,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1144,11 +1095,7 @@
             "Height": 29
           },
           "Text": "command"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1037,
@@ -1157,11 +1104,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 97,
@@ -2475,11 +2418,7 @@
             "Height": 27
           },
           "Text": "exceed"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1039,
@@ -2488,11 +2427,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 95,
@@ -3329,10 +3264,23 @@
           "Bounds": {
             "X": 97,
             "Y": 1099,
-            "Width": 136,
+            "Width": 90,
             "Height": 39
           },
-          "Text": "teachmy"
+          "Text": "teach"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 187,
+            "Y": 1099,
+            "Width": 47,
+            "Height": 39
+          },
+          "Text": "my"
         }
       ]
     },
@@ -3362,6 +3310,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3414,16 +3364,31 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 785,
             "Y": 1100,
-            "Width": 116,
+            "Width": 85,
             "Height": 28
           },
-          "Text": "workin"
+          "Text": "work"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 870,
+            "Y": 1100,
+            "Width": 32,
+            "Height": 28
+          },
+          "Text": "in"
         }
       ]
     },
@@ -3433,15 +3398,24 @@
           "Bounds": {
             "X": 919,
             "Y": 1099,
-            "Width": 113,
+            "Width": 43,
             "Height": 29
           },
-          "Text": "allman"
+          "Text": "all"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 962,
+            "Y": 1099,
+            "Width": 71,
+            "Height": 29
+          },
+          "Text": "man"
+        },
         {
           "Bounds": {
             "X": 1043,
@@ -3450,11 +3424,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 97,
@@ -4217,11 +4187,7 @@
             "Height": 28
           },
           "Text": "pre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1043,
@@ -4230,11 +4196,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 99,
@@ -4486,10 +4448,23 @@
           "Bounds": {
             "X": 712,
             "Y": 1372,
-            "Width": 251,
-            "Height": 29
+            "Width": 73,
+            "Height": 28
           },
-          "Text": "untoSolomon's"
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 795,
+            "Y": 1372,
+            "Width": 183,
+            "Height": 28
+          },
+          "Text": "Solomon\u0027s"
         }
       ]
     },
@@ -4503,11 +4478,7 @@
             "Height": 23
           },
           "Text": "tem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1045,
@@ -4516,11 +4487,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 99,
@@ -4945,11 +4912,7 @@
             "Height": 28
           },
           "Text": "peo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1044,
@@ -4958,11 +4921,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 99,
@@ -4987,6 +4946,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5039,6 +5000,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5455,6 +5418,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

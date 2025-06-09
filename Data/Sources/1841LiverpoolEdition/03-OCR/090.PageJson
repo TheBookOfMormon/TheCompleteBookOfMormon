@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1206,
+  "ManuallyEdited": true,
   "PageNumber": 90,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 62,
-            "Width": 120,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 546,
-            "Y": 62,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 653,
-            "Y": 62,
-            "Width": 35,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 716,
-            "Y": 62,
-            "Width": 96,
-            "Height": 22
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -445,6 +394,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -598,11 +548,7 @@
             "Height": 37
           },
           "Text": "right"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1084,
@@ -611,11 +557,7 @@
             "Height": 25
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 138,
@@ -763,10 +705,23 @@
           "Bounds": {
             "X": 228,
             "Y": 328,
-            "Width": 131,
+            "Width": 40,
             "Height": 39
           },
-          "Text": "befilthy"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 268,
+            "Y": 328,
+            "Width": 92,
+            "Height": 39
+          },
+          "Text": "filthy"
         }
       ]
     },
@@ -1014,11 +969,16 @@
             "Height": 20
           },
           "Text": "ever"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1092,
+            "Y": 373,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 134,
@@ -3250,11 +3210,16 @@
             "Height": 28
           },
           "Text": "know"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1092,
+            "Y": 1032,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 138,
@@ -4161,10 +4126,23 @@
           "Bounds": {
             "X": 534,
             "Y": 1312,
-            "Width": 159,
+            "Width": 77,
             "Height": 33
           },
-          "Text": "passsapon"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 611,
+            "Y": 1312,
+            "Width": 83,
+            "Height": 33
+          },
+          "Text": "upon"
         }
       ]
     },
@@ -5504,11 +5482,7 @@
             "Height": 38
           },
           "Text": "punish"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1097,
@@ -5517,11 +5491,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 132,
@@ -5660,11 +5630,7 @@
             "Height": 19
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1095,
@@ -5673,11 +5639,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 127,
@@ -5715,6 +5677,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5864,10 +5827,23 @@
           "Bounds": {
             "X": 584,
             "Y": 1776,
-            "Width": 166,
+            "Width": 80,
             "Height": 29
           },
-          "Text": "haveclaim"
+          "Text": "have"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 664,
+            "Y": 1776,
+            "Width": 87,
+            "Height": 29
+          },
+          "Text": "claim"
         }
       ]
     },
@@ -5880,7 +5856,7 @@
             "Width": 78,
             "Height": 29
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },

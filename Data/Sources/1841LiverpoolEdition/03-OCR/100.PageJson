@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 100,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 412,
-            "Y": 88,
-            "Width": 121,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 88,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 668,
-            "Y": 87,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 728,
-            "Y": 88,
-            "Width": 88,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -442,11 +391,7 @@
             "Height": 39
           },
           "Text": "daugh"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1072,
@@ -455,11 +400,7 @@
             "Height": 28
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 140,
@@ -598,11 +539,7 @@
             "Height": 30
           },
           "Text": "Jerusa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1092,
@@ -611,11 +548,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 138,
@@ -918,37 +851,11 @@
         {
           "Bounds": {
             "X": 343,
-            "Y": 391,
-            "Width": 143,
-            "Height": 38
+            "Y": 396,
+            "Width": 251,
+            "Height": 28
           },
-          "Text": "dwelling"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 412,
-            "Width": 9,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 392,
-            "Width": 85,
-            "Height": 37
-          },
-          "Text": "place"
+          "Text": "dwelling-place"
         }
       ]
     },
@@ -1529,40 +1436,15 @@
         {
           "Bounds": {
             "X": 427,
-            "Y": 548,
-            "Width": 58,
-            "Height": 38
+            "Y": 553,
+            "Width": 154,
+            "Height": 28
           },
-          "Text": "day"
+          "Text": "day-time"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 567,
-            "Width": 9,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 549,
-            "Width": 71,
-            "Height": 27
-          },
-          "Text": "time"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -1892,19 +1774,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 731,
-            "Y": 646,
-            "Width": 8,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 743,
             "Y": 626,
             "Width": 128,
@@ -2092,20 +1961,7 @@
             "Width": 140,
             "Height": 56
           },
-          "Text": "yineyard"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 303,
-            "Y": 704,
-            "Width": 2,
-            "Height": 5
-          },
-          "Text": "i"
+          "Text": "vineyard"
         }
       ]
     },
@@ -2569,37 +2425,11 @@
         {
           "Bounds": {
             "X": 364,
-            "Y": 822,
-            "Width": 81,
-            "Height": 30
-          },
-          "Text": "wine"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 842,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 831,
-            "Width": 85,
+            "Y": 823,
+            "Width": 194,
             "Height": 28
           },
-          "Text": "press"
+          "Text": "wine-press"
         }
       ]
     },
@@ -2651,7 +2481,7 @@
             "Width": 111,
             "Height": 28
           },
-          "Text": "locked"
+          "Text": "looked"
         }
       ]
     },
@@ -3639,7 +3469,7 @@
             "Width": 41,
             "Height": 35
           },
-          "Text": "ny"
+          "Text": "my"
         }
       ]
     },
@@ -3678,7 +3508,7 @@
             "Width": 71,
             "Height": 45
           },
-          "Text": "wall"
+          "Text": "will"
         }
       ]
     },
@@ -3795,7 +3625,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4778,30 +4608,13 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1000,
-            "Y": 1416,
-            "Width": 9,
-            "Height": 6
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 1013,
             "Y": 1406,
             "Width": 63,
             "Height": 38
           },
           "Text": "judg"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1069,
@@ -4810,11 +4623,7 @@
             "Height": 28
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 135,
@@ -5560,10 +5369,23 @@
           "Bounds": {
             "X": 237,
             "Y": 1674,
-            "Width": 313,
+            "Width": 136,
             "Height": 36
           },
-          "Text": "withoutinhabitant"
+          "Text": "without"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 373,
+            "Y": 1674,
+            "Width": 178,
+            "Height": 36
+          },
+          "Text": "inhabitant"
         }
       ]
     },
@@ -5576,7 +5398,7 @@
             "Width": 57,
             "Height": 28
           },
-          "Text": "Yed"
+          "Text": "Yea"
         }
       ]
     },
@@ -5742,10 +5564,36 @@
           "Bounds": {
             "X": 631,
             "Y": 1721,
-            "Width": 216,
+            "Width": 20,
             "Height": 28
           },
-          "Text": "ahomershall"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 651,
+            "Y": 1721,
+            "Width": 111,
+            "Height": 28
+          },
+          "Text": "homer"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 762,
+            "Y": 1721,
+            "Width": 87,
+            "Height": 28
+          },
+          "Text": "shall"
         }
       ]
     },
