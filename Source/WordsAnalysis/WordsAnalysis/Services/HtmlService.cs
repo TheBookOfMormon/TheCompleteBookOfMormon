@@ -3,10 +3,16 @@ using Microsoft.JSInterop;
 
 namespace WordsAnalysis.Services;
 
+public readonly record struct WordGridLocation(int RowIndex, int ColumnIndex)
+{
+    public readonly static WordGridLocation None = new WordGridLocation(-1, -1);
+}
+
 public interface IHtmlService
 {
     Task<bool> FirstColumnHasErrorOrWarningAsync();
     Task FocusFirstElementAsync(ElementReference container);
+    Task<WordGridLocation> GetWordGridLocationAsync();
     Task InitializeAsync();
     Task ScrollBodyToTopLeftAsync();
     Task<bool> ScrollToNextWarningOrErrorAsync();
@@ -43,6 +49,11 @@ sealed class HtmlService : IAsyncDisposable, IHtmlService
     public async Task FocusFirstElementAsync(ElementReference container)
     {
         await Module!.InvokeVoidAsync("focusFirstElement", container);
+    }
+
+    public async Task<WordGridLocation> GetWordGridLocationAsync()
+    {
+        return await Module!.InvokeAsync<WordGridLocation>("getWordGridLocation");
     }
 
     public async Task ScrollBodyToTopLeftAsync()

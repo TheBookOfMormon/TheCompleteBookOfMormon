@@ -1,4 +1,7 @@
-﻿export function focusFirstElement(container) {
+﻿var mousePosition = { x: 0, y: 0 };
+const nullGridLocation = { ColumnIndex: -1, RowIndex: -1 };
+
+export function focusFirstElement(container) {
    if (!container) return;
 
    const element = container instanceof HTMLElement ? container : document.getElementById(container);
@@ -37,6 +40,24 @@ export function firstColumnHasErrorOrWarning() {
    }
    return false;
 }
+
+// Function to call from Blazor (or anywhere) to get the cell under the mouse
+export function getWordGridLocation() {
+   let el = document.elementFromPoint(mousePosition.x, mousePosition.y);
+
+   while (el && el.nodeType === Node.ELEMENT_NODE && el.tagName !== 'TD') {
+      el = el.parentElement;
+   }
+   if (!el || el.tagName !== 'TD') return nullGridLocation;
+   const row = el.getAttribute('data-row');
+   const column = el.getAttribute('data-column');
+   if (row === null || column === null) return nullGridLocation;
+   return {
+      ColumnIndex: Number(column),
+      RowIndex: Number(row),
+   };
+};
+
 
 export function scrollToNextWarningOrError() {
    const rows = getSelectedTableRows();
@@ -97,3 +118,10 @@ function tableCellHasErrorOrWarning(td, multipleRowsSelected) {
 function getBodyElement() {
    return document.getElementById('body');
 }
+
+
+document.addEventListener('mousemove', function (e) {
+   mousePosition.x = e.clientX;
+   mousePosition.y = e.clientY;
+});
+

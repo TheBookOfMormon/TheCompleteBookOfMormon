@@ -70,6 +70,15 @@
                 <span style="margin-left: 1rem">@ViewModel.SelectedWords.Count selected word(s)</span>
             }
         </IconPanel>
+        <div style="display:none">
+        <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync()) style="display:none;" />
+        <button accesskey="e" @onclick=@(() => ViewModel.EditWordAsync()) style="display:none;"/>
+        <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync()) style="display:none;" />
+        <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync()) style="display:none;" />
+        <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync()) style="display:none;" />
+        <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) style="display:none;" />
+        <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) style="display:none;" />
+        </div>
     </PageHeader>
 
     <table class="word-table">
@@ -80,13 +89,12 @@
                     var mostWordsInSection = ViewModel.RowData.Max(x => x.Words.Count);
                     for (int index = 0; index < mostWordsInSection; index++)
                     {
-                        int capturedIndex = index;
                         <th class="word-table_word-index @GetWordIndexClass(index)">
                             <div class="word-table_word-index-actions" @onclick:stopPropagation>
                                 <FluentButton IconStart=@SharedIcons.ViewColumnImages
                                               Class="word-table_word-action-button"
                                               title="View column images"
-                                              OnClick=@(() => ViewModel.ShowColumnImagesAsync(capturedIndex)) />
+                                              OnClick=@(() => ViewModel.ShowColumnImagesAsync()) />
                             </div>
                             <div class="word-table_word-index-number">
                                 @(index + 1)
@@ -98,8 +106,9 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (RowData rowData in ViewModel.RowData)
+            @for(int rowIndex = 0; rowIndex < ViewModel.RowData.Length; rowIndex++)
             {
+                RowData rowData = ViewModel.RowData[rowIndex];
                 EditionState editionState = ViewModel.Editions[rowData.BookInfo];
                 <tr @key=rowData.BookInfo.Code>
                     <th class="word-table_edition @GetEditionClass(rowData.BookInfo)" @onclick=@(() => ToggleEditionSelected(rowData.BookInfo))>
@@ -112,7 +121,7 @@
                         OcrWord? word = wordReference.GetWord(editionState);
                         string? displayText = word?.GetDisplayText();
                         bool isAlignmentSpacer = displayText == null;
-                        <td @key=i id=@wordReference.GetGlobalReference() class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)" @onmouseenter=@(() => WordMouseEnter(wordReference)) @onmousemove=@(() => WordMouseEnter(wordReference)) @onmouseout=@(() => WordMouseOut(wordReference))>
+                        <td @key=i id=@wordReference.GetGlobalReference() class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)" data-row=@rowIndex data-column=@columnIndex>
                             <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference))>
                                 @if (displayText != null)
                                 {
@@ -123,16 +132,6 @@
                                     <text>&nbsp;</text>
                                 }
                             </div>
-                            @if (wordReference == ActiveWordReference)
-                            {
-                                <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync(wordReference, columnIndex)) style="display:none;" />
-                                <button accesskey="e" @onclick=@(() => ViewModel.EditWordAsync(wordReference, columnIndex)) style="display:none;" disabled=@isAlignmentSpacer />
-                                <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync(columnIndex)) style="display:none;" />
-                                <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync(wordReference)) style="display:none;" />
-                                <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync(wordReference)) style="display:none;" />
-                                <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync(wordReference)) style="display:none;" />
-                                <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync(wordReference)) style="display:none;" />
-                            }
                         </td>
                     }
                 </tr>

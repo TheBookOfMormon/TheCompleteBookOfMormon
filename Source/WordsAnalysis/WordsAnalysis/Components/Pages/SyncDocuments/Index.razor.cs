@@ -2,7 +2,6 @@ using DocumentsModel;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
-using System.Text;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Services;
 
@@ -10,7 +9,6 @@ namespace WordsAnalysis.Components.Pages.SyncDocuments;
 
 public partial class Index
 {
-    private WordReference? ActiveWordReference;
     private const string LastEditedCellClass = "--last-edited-cell";
     private const string LastEditedRowClass = "--last-edited-row";
     private int LoadingCount;
@@ -34,7 +32,7 @@ public partial class Index
         await base.OnInitializedAsync();
         FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
         var stateHasChangedCallback = EventCallback.Factory.Create(this, RefreshGrid);
-        ViewModel = new ViewModel(state, DialogService, DictionaryService, stateHasChangedCallback);
+        ViewModel = new ViewModel(state, DialogService, DictionaryService, HtmlService, stateHasChangedCallback);
         await ViewModel.LoadRowDataDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;
@@ -186,15 +184,5 @@ public partial class Index
                 ViewModel.ToggleWordSelected(wordReference);
             }
         }
-    }
-
-    private void WordMouseEnter(WordReference wordReference)
-    {
-        ActiveWordReference = wordReference;
-    }
-
-    private void WordMouseOut(WordReference wordReference)
-    {
-        ActiveWordReference = null;
     }
 }
