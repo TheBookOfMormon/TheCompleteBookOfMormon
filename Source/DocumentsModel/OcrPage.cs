@@ -1,5 +1,6 @@
 ﻿using DocumentsModel.Helpers;
 using System.Collections.Immutable;
+using System.Diagnostics;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -22,6 +23,7 @@ public record OcrPage
         newOcrPage = newOcrPage with {
             Words = newOcrPage.Words.Insert(wordIndex, word)
         };
+        Debug.Assert(newOcrPage.Words.Count == originalOcrPage.Words.Count + 1);
         return newOcrPage;
     }
 
@@ -32,22 +34,18 @@ public record OcrPage
             ManuallyEdited = true,
             Words = newOcrPage.Words.RemoveAt(wordIndex)
         };
+        Debug.Assert(newOcrPage.Words.Count == originalOcrPage.Words.Count - 1);
         return newOcrPage;
     }
 
-    public static OcrPage ReplaceWord(OcrPage originalOcrPage, int wordIndex, IEnumerable<OcrWord> newWords)
+    public static OcrPage ReplaceWord(OcrPage originalOcrPage, int wordIndex, OcrWord? newWord)
     {
         OcrPage newOcrPage = originalOcrPage;
         newOcrPage = newOcrPage with {
             ManuallyEdited = true,
-            Words = newOcrPage.Words.RemoveAt(wordIndex)
+            Words = newOcrPage.Words.SetItem(wordIndex, newWord)
         };
-        foreach(var newWord in newWords.Reverse())
-        {
-            newOcrPage = newOcrPage with {
-                Words = newOcrPage.Words.Insert(wordIndex, newWord)
-            };
-        }
+        Debug.Assert(newOcrPage.Words.Count == originalOcrPage.Words.Count);
         return newOcrPage;
     }
 

@@ -163,16 +163,22 @@ public record EditionState
         return newEditionState;
     }
 
-    public static EditionState ReplaceWord(EditionState originalEditionState, WordReference wordReference, IEnumerable<OcrWord> newWords)
+    public static EditionState ReplaceWord(EditionState originalEditionState, WordReference wordReference, IEnumerable<OcrWord?> newWords)
     {
         EditionState newEditionState = originalEditionState;
         PageState newPageState = newEditionState.LoadedPages[wordReference.PageNumber];
         OcrPage newOcrPage = newPageState.Page;
-        newOcrPage = OcrPage.ReplaceWord(newOcrPage, wordReference.WordIndex, newWords);
+        newOcrPage = OcrPage.ReplaceWord(newOcrPage, wordReference.WordIndex, newWords.First());
         newPageState = new PageState(newOcrPage);
         newEditionState = newEditionState with { 
-            LoadedPages = newEditionState.LoadedPages.SetItem(wordReference.PageNumber, newPageState)
+            LoadedPages = newEditionState.LoadedPages.SetItem(wordReference.PageNumber, newPageState),
+            
         };
+        IEnumerable<OcrWord?> addedWords = newWords.Skip(1).Reverse();
+        foreach(OcrWord? word in addedWords)
+        {
+            newEditionState = EditionState.AddWordInternal(newEditionState, wordReference, word, true);
+        }
         return newEditionState;
     }
 
