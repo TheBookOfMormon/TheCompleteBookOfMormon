@@ -317,7 +317,7 @@ public class ViewModel
     public void SelectColumn(int columnIndex)
     {
         FeatureState newState = State;
-        newState = FeatureState.SelectNone(newState);
+        newState = FeatureState.DeselectAll(newState);
         var wordsToSelect = new List<WordReference>();
         foreach(RowData dataRow in RowData)
         {

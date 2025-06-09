@@ -251,15 +251,6 @@ public record FeatureState
         return newFeatureState;
     }
 
-    public static FeatureState SelectNone(FeatureState originalFeatureState)
-    {
-        return originalFeatureState with {
-            SelectedWords = []
-        };
-    }
-
-
-
     public static FeatureState SelectWordRangeInColumn(FeatureState newState, int columnIndex, OcrBookInfo firstEdition, OcrBookInfo lastEdition)
     {
         if (firstEdition.CompareTo(lastEdition) == -1)
