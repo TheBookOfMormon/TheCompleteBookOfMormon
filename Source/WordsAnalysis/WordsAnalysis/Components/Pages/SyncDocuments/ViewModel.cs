@@ -314,8 +314,13 @@ public class ViewModel
             SavedPageVersions[entry.Key] = entry.Value;
     }
 
-    public void SelectColumn(int columnIndex)
+    public async Task SelectColumnAsync()
     {
+        WordReferenceAndColumnIndex? wordInfo = await GetWordReferenceUnderMouseAsync();
+        if (wordInfo == null) return;
+
+        int columnIndex = wordInfo.Value.ColumnIndex;
+
         FeatureState newState = State;
         newState = FeatureState.DeselectAll(newState);
         var wordsToSelect = new List<WordReference>();

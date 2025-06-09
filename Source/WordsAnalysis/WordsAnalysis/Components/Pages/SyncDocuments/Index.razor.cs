@@ -79,13 +79,14 @@ public partial class Index
         return $"""
             Page {wordReference.PageNumber} Word {wordReference.WordIndex}
             =============
-            Edit word (ALT + E)
-            Add word (ALT + A)
-            Delete word (ALT + D)
-            Reveal column word images (ALT + R)
-            Insert blank before word (ALT + I)
-            Merge composite word (ALT + M)
-            Split words (ALT + X)
+            Edit word (ALT E)
+            Add word (ALT A)
+            Delete word (ALT D)
+            Reveal column word images (ALT R)
+            Insert blank before word (ALT I)
+            Merge composite word (ALT M)
+            Split words (ALT X)
+            Select column (ALT C)
             """;
     }
 

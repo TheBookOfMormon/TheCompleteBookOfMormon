@@ -71,13 +71,14 @@
             }
         </IconPanel>
         <div style="display:none">
-        <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync()) style="display:none;" />
-        <button accesskey="e" @onclick=@(() => ViewModel.EditWordAsync()) style="display:none;"/>
-        <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync()) style="display:none;" />
-        <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync()) style="display:none;" />
-        <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync()) style="display:none;" />
-        <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) style="display:none;" />
-        <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) style="display:none;" />
+            <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync()) style="display:none;" />
+            <button accesskey="e" @onclick=@(() => ViewModel.EditWordAsync()) style="display:none;" />
+            <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync()) style="display:none;" />
+            <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync()) style="display:none;" />
+            <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync()) style="display:none;" />
+            <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) style="display:none;" />
+            <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) style="display:none;" />
+            <button accesskey="c" @onclick=@(() => ViewModel.SelectColumnAsync()) style="display:none;" />
         </div>
     </PageHeader>
 
@@ -89,14 +90,7 @@
                     var mostWordsInSection = ViewModel.RowData.Max(x => x.Words.Count);
                     for (int index = 0; index < mostWordsInSection; index++)
                     {
-                        int capturedColumIndex = index;
                         <th class="word-table_word-index @GetWordIndexClass(index)">
-                            <div class="word-table_word-index-actions" @onclick:stopPropagation>
-                                <FluentButton IconStart=@SharedIcons.SelectColumn
-                                              Class="word-table_word-action-button"
-                                              title="Select column"
-                                              OnClick=@(() => ViewModel.SelectColumn(capturedColumIndex)) />
-                            </div>
                             <div class="word-table_word-index-number">
                                 @(index + 1)
                             </div>
@@ -107,7 +101,7 @@
             </tr>
         </thead>
         <tbody>
-            @for(int rowIndex = 0; rowIndex < ViewModel.RowData.Length; rowIndex++)
+            @for (int rowIndex = 0; rowIndex < ViewModel.RowData.Length; rowIndex++)
             {
                 RowData rowData = ViewModel.RowData[rowIndex];
                 EditionState editionState = ViewModel.Editions[rowData.BookInfo];
