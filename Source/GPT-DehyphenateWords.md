@@ -145,7 +145,7 @@ Candidate words are Combined Words where all of the following are true:
 - the dehyphenated word is in the dictionary lookup table
 
 ### Output
-First output a table of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
+First output a *table* of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
 I will then either tell you which entries to remove from the list of Candidate Words or Valid Composite words or tell you to continue
 
 Then recalculate the list of Candidate Words and present output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.

@@ -341,7 +341,7 @@ public partial class OcrProcessor : EditionsProcessorBase
             }
 
             //string fulltext = string.Join("", characterElements.Select(x => x.Text)).ToUpper();
-            //if (fulltext.Contains("RING"))
+            //if (fulltext.Contains("SRAEL"))
             //    System.Diagnostics.Debugger.Break();
 
             if (firstCharIsSuperScript())
