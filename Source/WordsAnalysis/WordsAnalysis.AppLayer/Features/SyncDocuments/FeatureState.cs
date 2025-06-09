@@ -1,5 +1,6 @@
 ﻿using DocumentsModel;
 using System.Collections.Immutable;
+using System.Runtime.CompilerServices;
 
 namespace WordsAnalysis.AppLayer.Features.SyncDocuments;
 
@@ -211,6 +212,17 @@ public record FeatureState
         return newFeatureState;
     }
 
+    public static FeatureState SelectWords(FeatureState originalFeatureState, IEnumerable<WordReference> wordsToSelect)
+    {
+        FeatureState newState = originalFeatureState;
+        foreach(WordReference wordToSelect in wordsToSelect)
+        {
+            newState = FeatureState.SelectWord(newState, wordToSelect);
+        }
+        return newState;
+    }
+
+
     public static FeatureState ToggleWordSelected(FeatureState originalFeatureState, WordReference wordReference)
     {
         FeatureState newFeatureState = originalFeatureState;
@@ -238,6 +250,15 @@ public record FeatureState
         };
         return newFeatureState;
     }
+
+    public static FeatureState SelectNone(FeatureState originalFeatureState)
+    {
+        return originalFeatureState with {
+            SelectedWords = []
+        };
+    }
+
+
 
     public static FeatureState SelectWordRangeInColumn(FeatureState newState, int columnIndex, OcrBookInfo firstEdition, OcrBookInfo lastEdition)
     {

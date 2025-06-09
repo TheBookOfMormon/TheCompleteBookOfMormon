@@ -4,21 +4,7 @@
     Split text into words - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
 </FluentDialogHeader>
 
-<ol>
-    @for(int i = 0; i < Content.Suggestions.Length; i++)
-    {
-        SplitWordSuggestion suggestion = Content.Suggestions[i];
-        int capturedIndex = i;
-        <li style="cursor: pointer" @onclick=@(() => SelectSuggestion(capturedIndex)) class="suggestion @GetSuggestionClass(capturedIndex)">
-            @foreach (SplitWord word in suggestion.Words)
-            {
-                <span style="margin: 0 0.25em">
-                    @word.Text
-                </span>
-            }
-        </li>
-    }
-</ol>
+<FluentSelect Autofocus TOption="KeyValuePair<int, SplitWordSuggestion>" Items=@Data OptionValue=@(x => x.Key.ToString()) OptionText=GetOptionText @bind-SelectedOption=SelectedSuggestion />
 
 <FluentDialogFooter>
     <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">

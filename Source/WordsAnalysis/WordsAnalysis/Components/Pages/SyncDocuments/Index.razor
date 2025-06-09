@@ -89,12 +89,13 @@
                     var mostWordsInSection = ViewModel.RowData.Max(x => x.Words.Count);
                     for (int index = 0; index < mostWordsInSection; index++)
                     {
+                        int capturedColumIndex = index;
                         <th class="word-table_word-index @GetWordIndexClass(index)">
                             <div class="word-table_word-index-actions" @onclick:stopPropagation>
-                                <FluentButton IconStart=@SharedIcons.ViewColumnImages
+                                <FluentButton IconStart=@SharedIcons.SelectColumn
                                               Class="word-table_word-action-button"
-                                              title="View column images"
-                                              OnClick=@(() => ViewModel.ShowColumnImagesAsync()) />
+                                              title="Select column"
+                                              OnClick=@(() => ViewModel.SelectColumn(capturedColumIndex)) />
                             </div>
                             <div class="word-table_word-index-number">
                                 @(index + 1)

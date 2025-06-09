@@ -314,6 +314,22 @@ public class ViewModel
             SavedPageVersions[entry.Key] = entry.Value;
     }
 
+    public void SelectColumn(int columnIndex)
+    {
+        FeatureState newState = State;
+        newState = FeatureState.SelectNone(newState);
+        var wordsToSelect = new List<WordReference>();
+        foreach(RowData dataRow in RowData)
+        {
+            if (dataRow.Words.Count > columnIndex)
+            {
+                wordsToSelect.Add(dataRow.Words[columnIndex]);
+            }
+        }
+        newState = FeatureState.SelectWords(newState, wordsToSelect);
+        SetNewStateWithUndo("Select column", newState);
+    }
+
     public void SelectWord(WordReference wordReference)
     {
         if (!IsWordSelected(wordReference))

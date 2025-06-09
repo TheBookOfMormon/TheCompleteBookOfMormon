@@ -63,35 +63,18 @@ When the word does not start with `name:`
 For each word in the Dictionary lookup-table, derive ALL APPLICABLE forms and add them into the same lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
   - Each word ending with "e" 
       1. add a derivation with "th" appended ("have" => "haveth")
-      2. also add a derivation with "e" dropped and "ing" appended ("have" => "having")
-      3. also add a derivation with "e" dropped and "ings" appended ("engrave" => "engravings")
-      4. also add a derivation with "d" appended ("motivate" => "motivated")
-      5. also add a derivation with "n" appended ("overtake" => "overtaken")
-      6. also add a derivation with "st" appended ("believe" => "believest")
+      2. also add a derivation with "st" appended ("believe" => "believest")
   - Each word ending with "ing" add a derivation with "ly" appended ("exceeding" => "exceedingly") 
   - Each word ending with a single "l"
       1. add a derivation with "leth" appended ("compel" => "compelleth")
-      2. also add a derivation with "ling" appended ("complel" => "compelling")
   - Each word ending with a double "ll" add a derivation with "eth" appended ("spell" => "spelleth")
   - Each word ending with a single "n" 
       1. add a derivation with "neth" appended ("begin" => "beginneth")
-      2. also add a derivation with append "ning" appended ("begin" => "beginning")
-  - Each word ending with "ss" add a derivation with "es" appended ("witness" => "witnesses")
   - Each word ending with "y"
       1. add a derivation with "eth" added ("say" => "sayeth")
-      2. also add a derivation with "y" dropped and "ies" appended ("iniquity" => "iniquities")
       2. also add a derivation with "y" dropped and "ieth" appended ("testify" => "testifieth")
-      3. also add a derivation with "y" dropped and "ied" appended ("testify" => "testified")
-  - For words ending in consonant-vowel-consonant (CVC), double the final consonant and append "ing" (e.g., "commit" → "committing")
-  - For words ending in consonant-vowel-"l", double the "l" and append "ed" (e.g., "compel" → "compelled")
   - Each word not ending with "e"
       1. add a derivation with "eth" appended ("say" => "sayeth")
-      2. also add a derivation with "ing" appended ("jump" => "jumping")
-      3. also add a derivation with "ings" appended ("find" => "findings")
-      4. also add a derivation with "est" appended ("great" => "greatest")
-      5. also add a derivation with  "es" appended ("establish" => "establishes")
-      6. if the word also doesn't end with "ed" then also add a derivation with "ed" appended ("jump" => "jumped")
-  - Each word not ending with "s" append "s" ("engraving" => "engravings")
 
 Next, scan all `*.PageJson` files to identify `[word] - [word]` sequences
 
@@ -131,9 +114,8 @@ B's Text must be a single hyphen (-).
 
 A and C must satisfy all of the following
    1: Be alphabetic
-   2: Must NOT be present in the Names lookup-table
-   3: Must be present in the Dictionary lookup-table
-   4: Must appear on the same line
+   2: Must be present in the Dictionary lookup-table
+   3: Must appear on the same line
 
 → If all these conditions are met, add the combined A.Text + "-" + C.Text to the Valid Composite Words set.
 → Also record the page number it appears on.

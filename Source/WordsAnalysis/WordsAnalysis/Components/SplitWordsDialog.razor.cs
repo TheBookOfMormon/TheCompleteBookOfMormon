@@ -1,6 +1,5 @@
 using DocumentsModel;
 using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 
@@ -11,8 +10,6 @@ public partial class SplitWordsDialog
     public record SplitWordSuggestion(SplitWord[] Words);
     public record SplitWord(string Text, OcrRect Bounds);
 
-    private int SelectedSuggestionIndex = 0;
-
     public record SplitWordsDialogResult(SplitWordSuggestion? Suggestion);
 
     [Parameter]
@@ -20,6 +17,16 @@ public partial class SplitWordsDialog
 
     [CascadingParameter]
     public FluentDialog Dialog { get; set; } = default!;
+
+    private KeyValuePair<int, SplitWordSuggestion>[] Data = null!;
+    private KeyValuePair<int, SplitWordSuggestion> SelectedSuggestion;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Data = Content.Suggestions.Select((suggestion, i) => new KeyValuePair<int, SplitWordSuggestion>(i, suggestion)).ToArray();
+        SelectedSuggestion = new KeyValuePair<int, SplitWordSuggestion>(0, Content.Suggestions[0]);
+    }
 
     private async Task CancelAsync()
     {
@@ -29,18 +36,12 @@ public partial class SplitWordsDialog
 
     private async Task ConfirmAsync()
     {
-        SplitWordSuggestion suggestion = Content.Suggestions[SelectedSuggestionIndex];
-        var result = new SplitWordsDialogResult(suggestion);
+        var result = new SplitWordsDialogResult(SelectedSuggestion.Value);
         await Dialog.CloseAsync(result);
     }
 
-    private string GetSuggestionClass(int index)
+    private string GetOptionText(KeyValuePair<int, SplitWordSuggestion> item)
     {
-        return index == SelectedSuggestionIndex ? "--selected" : "";
-    }
-
-    private void SelectSuggestion(int index)
-    {
-        SelectedSuggestionIndex = index;
+        return string.Join(' ', item.Value.Words.Select(x => x.Text));
     }
 }
