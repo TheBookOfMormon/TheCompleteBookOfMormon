@@ -120,6 +120,11 @@ sealed class DictionaryService : IDictionaryService
                 dictionary.Add(entry[..^1] + "ied");
             }
 
+            if (upper.EndsWith("ED"))
+            {
+                dictionary.Add(entry[..^1] + "eth");
+            }
+
             if (EndsInCvc(upper))
             {
                 dictionary.Add(entry + upper[^1] + "ing");
