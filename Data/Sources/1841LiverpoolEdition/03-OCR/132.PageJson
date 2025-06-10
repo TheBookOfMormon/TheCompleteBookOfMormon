@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1265,
+  "ManuallyEdited": true,
   "PageNumber": 132,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 63,
-            "Width": 123,
-            "Height": 21
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 603,
-            "Y": 62,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 712,
-            "Y": 61,
-            "Width": 35,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 774,
-            "Y": 60,
-            "Width": 96,
-            "Height": 23
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -299,11 +248,16 @@
             "Height": 28
           },
           "Text": "notwith"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1133,
+            "Y": 174,
+            "Width": 125,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 172,
@@ -793,11 +747,16 @@
             "Height": 28
           },
           "Text": "command"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1127,
+            "Y": 330,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 173,
@@ -835,6 +794,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2734,7 +2694,7 @@
             "Width": 137,
             "Height": 29
           },
-          "Text": "hrethren"
+          "Text": "brethren"
         }
       ]
     },
@@ -4285,6 +4245,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5599,4 +5560,4 @@
       ]
     }
   ]
-}
+}

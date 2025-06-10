@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2012,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 130,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 427,
-            "Y": 93,
-            "Width": 119,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 573,
-            "Y": 92,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 681,
-            "Y": 93,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 741,
-            "Y": 93,
-            "Width": 104,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -702,11 +651,16 @@
             "Height": 28
           },
           "Text": "writ"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1109,
+            "Y": 323,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 156,
@@ -1105,11 +1059,7 @@
             "Height": 28
           },
           "Text": "Jerusa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1089,
@@ -1118,11 +1068,7 @@
             "Height": 20
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 148,
@@ -1186,6 +1132,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2170,7 +2117,7 @@
             "Width": 196,
             "Height": 44
           },
-          "Text": "g&herations"
+          "Text": "generations"
         }
       ]
     },
@@ -4328,7 +4275,7 @@
             "Width": 48,
             "Height": 28
           },
-          "Text": "bis"
+          "Text": "his"
         }
       ]
     },
@@ -5568,4 +5515,4 @@
       ]
     }
   ]
-}
+}

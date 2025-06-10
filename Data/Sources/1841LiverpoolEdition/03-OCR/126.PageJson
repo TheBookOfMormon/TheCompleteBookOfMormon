@@ -1,73 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1208,
+  "ManuallyEdited": true,
   "PageNumber": 126,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 161,
-            "Y": 68,
-            "Width": 54,
-            "Height": 34
-          },
-          "Text": "i1i8"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 78,
-            "Width": 122,
-            "Height": 21
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 78,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 676,
-            "Y": 78,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 731,
-            "Y": 78,
-            "Width": 92,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -207,7 +143,7 @@
             "Width": 118,
             "Height": 30
           },
-          "Text": "irom"
+          "Text": "from"
         }
       ]
     },
@@ -338,19 +274,6 @@
             "Height": 29
           },
           "Text": "dark"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 104,
-            "Y": 236,
-            "Width": 2,
-            "Height": 3
-          },
-          "Text": "I"
         }
       ]
     },
@@ -2038,11 +1961,16 @@
             "Height": 28
           },
           "Text": "neverthe"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1098,
+            "Y": 694,
+            "Width": 125,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 150,
@@ -2714,11 +2642,7 @@
             "Height": 29
           },
           "Text": "whore"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1091,
@@ -2727,11 +2651,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 151,
@@ -3393,6 +3313,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4265,7 +4186,7 @@
             "Width": 194,
             "Height": 29
           },
-          "Text": "ahominable"
+          "Text": "abominable"
         }
       ]
     },
@@ -4535,10 +4456,23 @@
           "Bounds": {
             "X": 488,
             "Y": 1439,
-            "Width": 202,
+            "Width": 57,
             "Height": 39
           },
-          "Text": "thedingdom"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 545,
+            "Y": 1439,
+            "Width": 146,
+            "Height": 39
+          },
+          "Text": "kingdom"
         }
       ]
     },
@@ -5435,7 +5369,7 @@
             "Width": 105,
             "Height": 37
           },
-          "Text": "pacity"
+          "Text": "pacify"
         }
       ]
     },
@@ -5869,4 +5803,4 @@
       ]
     }
   ]
-}
+}

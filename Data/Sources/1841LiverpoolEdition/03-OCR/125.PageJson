@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1200,
+  "ManuallyEdited": true,
   "PageNumber": 125,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 357,
-            "Y": 87,
-            "Width": 123,
-            "Height": 21
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 508,
-            "Y": 87,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 87,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 678,
-            "Y": 88,
-            "Width": 95,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -371,38 +320,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 425,
-            "Y": 393,
-            "Width": 202,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 655,
-            "Y": 393,
-            "Width": 70,
-            "Height": 29
-          },
-          "Text": "XIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 133,
             "Y": 475,
             "Width": 65,
             "Height": 28
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -762,6 +685,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1673,7 +1597,7 @@
             "Width": 102,
             "Height": 29
           },
-          "Text": "Lord's"
+          "Text": "Lord\u0027s"
         }
       ]
     },
@@ -1803,7 +1727,7 @@
             "Width": 103,
             "Height": 29
           },
-          "Text": "Lord's"
+          "Text": "Lord\u0027s"
         }
       ]
     },
@@ -2844,37 +2768,11 @@
         {
           "Bounds": {
             "X": 697,
-            "Y": 1147,
-            "Width": 27,
-            "Height": 25
+            "Y": 1146,
+            "Width": 116,
+            "Height": 28
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 731,
-            "Y": 1164,
-            "Width": 10,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 744,
-            "Y": 1144,
-            "Width": 60,
-            "Height": 39
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -3837,37 +3735,11 @@
         {
           "Bounds": {
             "X": 279,
-            "Y": 1423,
-            "Width": 26,
-            "Height": 24
+            "Y": 1421,
+            "Width": 181,
+            "Height": 28
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 313,
-            "Y": 1440,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 325,
-            "Y": 1429,
-            "Width": 122,
-            "Height": 19
-          },
-          "Text": "morrow"
+          "Text": "to-morrow"
         }
       ]
     },
@@ -4721,37 +4593,11 @@
         {
           "Bounds": {
             "X": 287,
-            "Y": 1660,
-            "Width": 27,
-            "Height": 25
+            "Y": 1659,
+            "Width": 181,
+            "Height": 28
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 321,
-            "Y": 1677,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 333,
-            "Y": 1665,
-            "Width": 123,
-            "Height": 20
-          },
-          "Text": "morrow"
+          "Text": "to-morrow"
         }
       ]
     },
@@ -5440,7 +5286,7 @@
             "Width": 105,
             "Height": 40
           },
-          "Text": "pufted"
+          "Text": "puffed"
         }
       ]
     },
@@ -5471,4 +5317,4 @@
       ]
     }
   ]
-}
+}

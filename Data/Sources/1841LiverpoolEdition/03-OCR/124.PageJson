@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1191,
+  "ManuallyEdited": true,
   "PageNumber": 124,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 416,
-            "Y": 88,
-            "Width": 121,
-            "Height": 21
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 89,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 675,
-            "Y": 90,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 736,
-            "Y": 89,
-            "Width": 92,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -463,37 +412,11 @@
         {
           "Bounds": {
             "X": 839,
-            "Y": 241,
-            "Width": 26,
-            "Height": 25
+            "Y": 240,
+            "Width": 116,
+            "Height": 28
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 873,
-            "Y": 257,
-            "Width": 5,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 886,
-            "Y": 237,
-            "Width": 58,
-            "Height": 39
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -1087,6 +1010,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1869,11 +1793,16 @@
             "Height": 27
           },
           "Text": "wis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1087,
+            "Y": 632,
+            "Width": 38,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 140,
@@ -2731,7 +2660,7 @@
             "Width": 123,
             "Height": 33
           },
-          "Text": "potter's"
+          "Text": "potter\u0027s"
         }
       ]
     },
@@ -5037,7 +4966,7 @@
             "Width": 30,
             "Height": 25
           },
-          "Text": "cat"
+          "Text": "cut"
         }
       ]
     },
@@ -5814,10 +5743,23 @@
           "Bounds": {
             "X": 635,
             "Y": 1735,
-            "Width": 151,
+            "Width": 58,
             "Height": 29
           },
-          "Text": "Butwhen"
+          "Text": "But"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 693,
+            "Y": 1735,
+            "Width": 94,
+            "Height": 29
+          },
+          "Text": "when"
         }
       ]
     },
@@ -5897,10 +5839,23 @@
           "Bounds": {
             "X": 214,
             "Y": 1772,
-            "Width": 145,
+            "Width": 58,
             "Height": 31
           },
-          "Text": "thework"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 272,
+            "Y": 1772,
+            "Width": 87,
+            "Height": 31
+          },
+          "Text": "work"
         }
       ]
     },
@@ -5949,10 +5904,23 @@
           "Bounds": {
             "X": 602,
             "Y": 1775,
-            "Width": 90,
+            "Width": 33,
             "Height": 29
           },
-          "Text": "inthe"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 635,
+            "Y": 1775,
+            "Width": 58,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -6152,4 +6120,4 @@
       ]
     }
   ]
-}
+}

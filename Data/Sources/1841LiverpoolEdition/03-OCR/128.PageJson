@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1182,
+  "ManuallyEdited": true,
   "PageNumber": 128,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 402,
-            "Y": 76,
-            "Width": 122,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 550,
-            "Y": 76,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 658,
-            "Y": 77,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 717,
-            "Y": 77,
-            "Width": 88,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1182,7 +1131,7 @@
             "Width": 64,
             "Height": 29
           },
-          "Text": "kiss"
+          "Text": "hiss"
         }
       ]
     },
@@ -1364,7 +1313,7 @@
             "Width": 51,
             "Height": 55
           },
-          "Text": "oot"
+          "Text": "got"
         }
       ]
     },
@@ -1442,7 +1391,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -1780,7 +1729,7 @@
             "Width": 123,
             "Height": 27
           },
-          "Text": "aneient"
+          "Text": "ancient"
         }
       ]
     },
@@ -4105,11 +4054,16 @@
             "Height": 28
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1095,
+            "Y": 1278,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 138,
@@ -5484,23 +5438,10 @@
           "Bounds": {
             "X": 135,
             "Y": 1715,
-            "Width": 53,
-            "Height": 29
+            "Width": 186,
+            "Height": 28
           },
-          "Text": "yes"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 196,
-            "Y": 1705,
-            "Width": 110,
-            "Height": 39
-          },
-          "Text": "terday"
+          "Text": "yes terday"
         }
       ]
     },
@@ -5509,37 +5450,11 @@
         {
           "Bounds": {
             "X": 329,
-            "Y": 1708,
-            "Width": 28,
-            "Height": 26
+            "Y": 1707,
+            "Width": 116,
+            "Height": 28
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 364,
-            "Y": 1710,
-            "Width": 10,
-            "Height": 19
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 377,
-            "Y": 1705,
-            "Width": 59,
-            "Height": 38
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -5908,4 +5823,4 @@
       ]
     }
   ]
-}
+}
