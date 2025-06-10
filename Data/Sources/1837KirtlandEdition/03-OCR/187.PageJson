@@ -4364,14 +4364,26 @@
           "Bounds": {
             "X": 124,
             "Y": 848,
-            "Width": 38,
+            "Width": 15,
             "Height": 15
           },
-          "Text": "ofthe"
+          "Text": "of"
         }
       ]
     },
-    null,
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 139,
+            "Y": 848,
+            "Width": 24,
+            "Height": 15
+          },
+          "Text": "the"
+        }
+      ]
+    },
     {
       "Elements": [
         {

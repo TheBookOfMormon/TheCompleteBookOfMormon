@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 152,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 456,
-            "Y": 82,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 562,
-            "Y": 83,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 620,
-            "Y": 75,
-            "Width": 90,
-            "Height": 28
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2933,6 +2895,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3003,11 +2966,11 @@
         {
           "Bounds": {
             "X": 341,
-            "Y": 980,
-            "Width": 44,
-            "Height": 70
+            "Y": 1016,
+            "Width": 59,
+            "Height": 28
           },
-          "Text": "That"
+          "Text": "last"
         }
       ]
     },
@@ -4455,7 +4418,7 @@
             "Width": 74,
             "Height": 28
           },
-          "Text": "frait"
+          "Text": "fruit"
         }
       ]
     },
@@ -5079,7 +5042,7 @@
             "Width": 130,
             "Height": 60
           },
-          "Text": "Vineyard"
+          "Text": "vineyard"
         }
       ]
     },
@@ -5089,10 +5052,23 @@
           "Bounds": {
             "X": 581,
             "Y": 1556,
-            "Width": 88,
+            "Width": 62,
             "Height": 29
           },
-          "Text": "Forit"
+          "Text": "For"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 643,
+            "Y": 1556,
+            "Width": 27,
+            "Height": 29
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5508,7 +5484,7 @@
             "Width": 34,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5522,6 +5498,19 @@
             "Height": 38
           },
           "Text": "equal"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 654,
+            "Y": 1678,
+            "Width": 30,
+            "Height": 28
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6033,4 +6022,4 @@
       ]
     }
   ]
-}
+}

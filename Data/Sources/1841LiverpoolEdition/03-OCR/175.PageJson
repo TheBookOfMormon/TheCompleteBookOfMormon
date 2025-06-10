@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2020,
   "ImageWidth": 1161,
+  "ManuallyEdited": true,
   "PageNumber": 175,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 2,
-            "Width": 10,
-            "Height": 16
-          },
-          "Text": "EE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 360,
-            "Y": 93,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 93,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 527,
-            "Y": 93,
-            "Width": 117,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1169,6 +1118,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 133,
+            "Y": 478,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 165,
             "Y": 476,
             "Width": 105,
@@ -2077,11 +2039,7 @@
             "Height": 19
           },
           "Text": "com"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1000,
@@ -2090,19 +2048,15 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 47,
+            "X": 63,
             "Y": 751,
-            "Width": 195,
+            "Width": 179,
             "Height": 29
           },
-          "Text": "'mandments"
+          "Text": "mandments"
         }
       ]
     },
@@ -2913,7 +2867,7 @@
             "Width": 92,
             "Height": 37
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -3659,7 +3613,7 @@
             "Width": 14,
             "Height": 28
           },
-          "Text": "TI"
+          "Text": "I"
         }
       ]
     },
@@ -4647,7 +4601,7 @@
             "Width": 158,
             "Height": 36
           },
-          "Text": "Jernsalem"
+          "Text": "Jerusalem"
         }
       ]
     },
@@ -5397,11 +5351,11 @@
         {
           "Bounds": {
             "X": 511,
-            "Y": 1733,
-            "Width": 99,
-            "Height": 24
+            "Y": 1731,
+            "Width": 135,
+            "Height": 28
           },
-          "Text": "contra"
+          "Text": "contrary"
         }
       ]
     },
@@ -5744,4 +5698,4 @@
       ]
     }
   ]
-}
+}

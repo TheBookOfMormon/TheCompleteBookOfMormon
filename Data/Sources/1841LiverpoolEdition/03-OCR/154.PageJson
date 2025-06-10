@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1211,
+  "ManuallyEdited": true,
   "PageNumber": 154,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 468,
-            "Y": 75,
-            "Width": 81,
-            "Height": 26
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 80,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 638,
-            "Y": 80,
-            "Width": 93,
-            "Height": 21
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -120,6 +82,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -996,24 +959,11 @@
         {
           "Bounds": {
             "X": 856,
-            "Y": 387,
-            "Width": 74,
-            "Height": 37
+            "Y": 391,
+            "Width": 139,
+            "Height": 28
           },
-          "Text": "viney"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 948,
-            "Y": 369,
-            "Width": 55,
-            "Height": 46
-          },
-          "Text": "ard"
+          "Text": "vineyard"
         }
       ]
     },
@@ -2542,38 +2492,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 464,
-            "Y": 975,
-            "Width": 202,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 694,
-            "Y": 976,
-            "Width": 30,
-            "Height": 28
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 165,
             "Y": 1055,
             "Width": 66,
             "Height": 28
           },
-          "Text": "Anxp"
+          "Text": "And"
         }
       ]
     },
@@ -4699,10 +4623,23 @@
           "Bounds": {
             "X": 873,
             "Y": 1642,
-            "Width": 107,
+            "Width": 52,
             "Height": 38
           },
-          "Text": "theday"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 925,
+            "Y": 1642,
+            "Width": 56,
+            "Height": 38
+          },
+          "Text": "day"
         }
       ]
     },
@@ -5027,7 +4964,7 @@
             "Width": 145,
             "Height": 38
           },
-          "Text": "kingdoin"
+          "Text": "kingdom"
         }
       ]
     },
@@ -5136,7 +5073,7 @@
             "Width": 15,
             "Height": 28
           },
-          "Text": "IT"
+          "Text": "I"
         }
       ]
     },
@@ -5258,4 +5195,4 @@
       ]
     }
   ]
-}
+}

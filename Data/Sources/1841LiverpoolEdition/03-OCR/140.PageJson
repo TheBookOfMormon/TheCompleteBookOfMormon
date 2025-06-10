@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1186,
+  "ManuallyEdited": true,
   "PageNumber": 140,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 473,
-            "Y": 102,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 581,
-            "Y": 102,
-            "Width": 35,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 642,
-            "Y": 102,
-            "Width": 83,
-            "Height": 21
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 119,
-            "Y": 180,
-            "Width": 87,
-            "Height": 20
-          },
-          "Text": "cause"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -198,6 +147,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2119,6 +2069,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3086,6 +3037,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4449,10 +4401,36 @@
           "Bounds": {
             "X": 422,
             "Y": 1469,
-            "Width": 312,
+            "Width": 90,
             "Height": 37
           },
-          "Text": "heartwouldrejoice"
+          "Text": "heart"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 512,
+            "Y": 1469,
+            "Width": 104,
+            "Height": 37
+          },
+          "Text": "would"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 616,
+            "Y": 1469,
+            "Width": 120,
+            "Height": 37
+          },
+          "Text": "rejoice"
         }
       ]
     },
@@ -4514,10 +4492,23 @@
           "Bounds": {
             "X": 257,
             "Y": 1507,
-            "Width": 119,
+            "Width": 61,
             "Height": 29
           },
-          "Text": "Butthe"
+          "Text": "But"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 318,
+            "Y": 1507,
+            "Width": 59,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -4579,10 +4570,23 @@
           "Bounds": {
             "X": 775,
             "Y": 1509,
-            "Width": 184,
+            "Width": 47,
             "Height": 28
           },
-          "Text": "mebecause"
+          "Text": "me"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 822,
+            "Y": 1509,
+            "Width": 138,
+            "Height": 28
+          },
+          "Text": "because"
         }
       ]
     },
@@ -5497,4 +5501,4 @@
       ]
     }
   ]
-}
+}

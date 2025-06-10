@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2018,
   "ImageWidth": 1220,
+  "ManuallyEdited": true,
   "PageNumber": 145,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 450,
-            "Y": 85,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 85,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 622,
-            "Y": 85,
-            "Width": 95,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -716,10 +678,23 @@
           "Bounds": {
             "X": 446,
             "Y": 355,
-            "Width": 223,
+            "Width": 19,
             "Height": 29
           },
-          "Text": "aresurrection"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 465,
+            "Y": 355,
+            "Width": 205,
+            "Height": 29
+          },
+          "Text": "resurrection"
         }
       ]
     },
@@ -1020,10 +995,23 @@
           "Bounds": {
             "X": 837,
             "Y": 435,
-            "Width": 246,
+            "Width": 91,
             "Height": 37
           },
-          "Text": "spiritspeaketh"
+          "Text": "spirit"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 928,
+            "Y": 435,
+            "Width": 156,
+            "Height": 37
+          },
+          "Text": "speaketh"
         }
       ]
     },
@@ -2666,7 +2654,7 @@
             "Width": 129,
             "Height": 29
           },
-          "Text": "hecause"
+          "Text": "because"
         }
       ]
     },
@@ -2861,7 +2849,7 @@
             "Width": 99,
             "Height": 29
           },
-          "Text": "Jacoh"
+          "Text": "Jacob"
         }
       ]
     },
@@ -3123,10 +3111,23 @@
           "Bounds": {
             "X": 222,
             "Y": 1153,
-            "Width": 62,
+            "Width": 31,
             "Height": 27
           },
-          "Text": "isin"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 253,
+            "Y": 1153,
+            "Width": 32,
+            "Height": 27
+          },
+          "Text": "in"
         }
       ]
     },
@@ -3413,19 +3414,6 @@
             "Height": 30
           },
           "Text": "foundation"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 508,
-            "Y": 1228,
-            "Width": 14,
-            "Height": 42
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4833,6 +4821,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5458,4 +5447,4 @@
       ]
     }
   ]
-}
+}

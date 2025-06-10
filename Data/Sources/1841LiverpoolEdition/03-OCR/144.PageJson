@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1199,
+  "ManuallyEdited": true,
   "PageNumber": 144,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 77,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 594,
-            "Y": 77,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 655,
-            "Y": 77,
-            "Width": 90,
-            "Height": 21
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -246,7 +208,7 @@
             "Width": 63,
             "Height": 29
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -987,7 +949,7 @@
             "Width": 26,
             "Height": 27
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -1000,7 +962,7 @@
             "Width": 25,
             "Height": 27
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -1127,10 +1089,23 @@
           "Bounds": {
             "X": 138,
             "Y": 461,
-            "Width": 245,
+            "Width": 171,
             "Height": 30
           },
-          "Text": "accountedunto"
+          "Text": "accounted"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 309,
+            "Y": 461,
+            "Width": 75,
+            "Height": 30
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -2406,10 +2381,23 @@
           "Bounds": {
             "X": 246,
             "Y": 855,
-            "Width": 101,
+            "Width": 75,
             "Height": 30
           },
-          "Text": "thatit"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 321,
+            "Y": 855,
+            "Width": 27,
+            "Height": 30
+          },
+          "Text": "it"
         }
       ]
     },
@@ -4816,7 +4804,7 @@
             "Width": 82,
             "Height": 34
           },
-          "Text": "fores"
+          "Text": "fore"
         }
       ]
     },
@@ -5419,4 +5407,4 @@
       ]
     }
   ]
-}
+}

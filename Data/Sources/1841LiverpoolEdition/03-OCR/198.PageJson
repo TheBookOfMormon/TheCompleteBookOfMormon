@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1175,
+  "ManuallyEdited": true,
   "PageNumber": 198,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 493,
-            "Y": 102,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 596,
-            "Y": 102,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 655,
-            "Y": 102,
-            "Width": 115,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -893,10 +855,23 @@
           "Bounds": {
             "X": 875,
             "Y": 365,
-            "Width": 144,
+            "Width": 69,
             "Height": 39
           },
-          "Text": "thatthey"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 944,
+            "Y": 365,
+            "Width": 76,
+            "Height": 39
+          },
+          "Text": "they"
         }
       ]
     },
@@ -1377,7 +1352,7 @@
             "Width": 161,
             "Height": 36
           },
-          "Text": "afilictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -3821,19 +3796,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 816,
-            "Y": 1239,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 828,
             "Y": 1222,
             "Width": 91,
@@ -4181,6 +4143,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5454,11 +5417,7 @@
             "Height": 27
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1089,
@@ -5467,11 +5426,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 145,
@@ -5479,7 +5434,7 @@
             "Width": 124,
             "Height": 37
           },
-          "Text": "1quities"
+          "Text": "iquities"
         }
       ]
     },
@@ -5544,7 +5499,7 @@
             "Width": 137,
             "Height": 38
           },
-          "Text": "hondage"
+          "Text": "bondage"
         }
       ]
     },
@@ -6017,4 +5972,4 @@
       ]
     }
   ]
-}
+}

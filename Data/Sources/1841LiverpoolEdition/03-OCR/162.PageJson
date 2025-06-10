@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1183,
+  "ManuallyEdited": true,
   "PageNumber": 162,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 86,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 556,
-            "Y": 86,
-            "Width": 34,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 87,
-            "Width": 96,
-            "Height": 20
-          },
-          "Text": "JAROM"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -839,19 +801,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 975,
-            "Y": 372,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 983,
             "Y": 364,
             "Width": 89,
@@ -1108,6 +1057,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3407,10 +3357,49 @@
           "Bounds": {
             "X": 108,
             "Y": 1218,
-            "Width": 385,
+            "Width": 93,
             "Height": 38
           },
-          "Text": "placeofourinheritance"
+          "Text": "place"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 201,
+            "Y": 1218,
+            "Width": 36,
+            "Height": 38
+          },
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 237,
+            "Y": 1218,
+            "Width": 60,
+            "Height": 38
+          },
+          "Text": "our"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 297,
+            "Y": 1218,
+            "Width": 198,
+            "Height": 38
+          },
+          "Text": "inheritance"
         }
       ]
     },
@@ -4521,11 +4510,16 @@
             "Height": 28
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1077,
+            "Y": 1532,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 111,
@@ -5344,4 +5338,4 @@
       ]
     }
   ]
-}
+}

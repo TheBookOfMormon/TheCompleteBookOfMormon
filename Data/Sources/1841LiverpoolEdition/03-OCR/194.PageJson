@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1207,
+  "ManuallyEdited": true,
   "PageNumber": 194,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 510,
-            "Y": 70,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 69,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 677,
-            "Y": 70,
-            "Width": 116,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -100,8 +62,8 @@
           "Bounds": {
             "X": 474,
             "Y": 138,
-            "Width": 146,
-            "Height": 29
+            "Width": 158,
+            "Height": 28
           },
           "Text": "Shemlom"
         }
@@ -559,19 +521,6 @@
             "Height": 30
           },
           "Text": "north"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 153,
-            "Y": 309,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1121,6 +1070,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1502,19 +1452,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 154,
-            "Y": 627,
-            "Width": 4,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 167,
             "Y": 608,
             "Width": 62,
@@ -1664,19 +1601,6 @@
             "Height": 30
           },
           "Text": "bear"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 156,
-            "Y": 658,
-            "Width": 6,
-            "Height": 12
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1840,19 +1764,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 155,
-            "Y": 698,
-            "Width": 7,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 167,
             "Y": 696,
             "Width": 81,
@@ -1963,19 +1874,6 @@
             "Height": 30
           },
           "Text": "battle"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 154,
-            "Y": 737,
-            "Width": 7,
-            "Height": 14
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2535,6 +2433,19 @@
             "Height": 28
           },
           "Text": "up"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 158,
+            "Y": 882,
+            "Width": 31,
+            "Height": 28
+          },
+          "Text": "to"
         }
       ]
     },
@@ -3363,36 +3274,10 @@
           "Bounds": {
             "X": 616,
             "Y": 1118,
-            "Width": 92,
-            "Height": 29
+            "Width": 225,
+            "Height": 28
           },
-          "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 710,
-            "Y": 1139,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 722,
-            "Y": 1119,
-            "Width": 108,
-            "Height": 38
-          },
-          "Text": "thirsty"
+          "Text": "blood-thirsty"
         }
       ]
     },
@@ -5560,4 +5445,4 @@
       ]
     }
   ]
-}
+}

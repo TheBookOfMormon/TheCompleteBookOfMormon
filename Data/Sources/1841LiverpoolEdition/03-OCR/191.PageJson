@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1175,
+  "ManuallyEdited": true,
   "PageNumber": 191,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 90,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 90,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 89,
-            "Width": 111,
-            "Height": 19
-          },
-          "Text": "MOSTAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -155,7 +117,7 @@
             "Width": 75,
             "Height": 28
           },
-          "Text": "sach"
+          "Text": "such"
         }
       ]
     },
@@ -1203,32 +1165,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 401,
-            "Y": 660,
-            "Width": 198,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 625,
-            "Y": 660,
-            "Width": 43,
-            "Height": 28
-          },
-          "Text": "VI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 184,
             "Y": 741,
             "Width": 104,
@@ -1663,7 +1599,7 @@
             "Width": 113,
             "Height": 29
           },
-          "Text": "Zen1rF"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -2014,7 +1950,7 @@
             "Width": 121,
             "Height": 29
           },
-          "Text": "fathers"
+          "Text": "fathers\u0027"
         }
       ]
     },
@@ -2057,6 +1993,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3012,36 +2949,10 @@
           "Bounds": {
             "X": 329,
             "Y": 1375,
-            "Width": 93,
-            "Height": 29
+            "Width": 225,
+            "Height": 28
           },
-          "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 424,
-            "Y": 1396,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 435,
-            "Y": 1375,
-            "Width": 111,
-            "Height": 39
-          },
-          "Text": "thirsty"
+          "Text": "blood-thirsty"
         }
       ]
     },
@@ -3077,10 +2988,23 @@
           "Bounds": {
             "X": 906,
             "Y": 1374,
-            "Width": 107,
+            "Width": 88,
             "Height": 36
           },
-          "Text": "thatgl"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 994,
+            "Y": 1374,
+            "Width": 20,
+            "Height": 36
+          },
+          "Text": "I"
         }
       ]
     },
@@ -4676,4 +4600,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1169,
+  "ManuallyEdited": true,
   "PageNumber": 190,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 46,
-            "Width": 76,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 607,
-            "Y": 47,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 667,
-            "Y": 47,
-            "Width": 117,
-            "Height": 21
-          },
-          "Text": "MOSTAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -602,7 +564,7 @@
             "Width": 27,
             "Height": 27
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -1288,10 +1250,23 @@
           "Bounds": {
             "X": 536,
             "Y": 472,
-            "Width": 108,
+            "Width": 68,
             "Height": 37
           },
-          "Text": "giveus"
+          "Text": "give"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 604,
+            "Y": 472,
+            "Width": 41,
+            "Height": 37
+          },
+          "Text": "us"
         }
       ]
     },
@@ -2777,6 +2752,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3087,10 +3063,10 @@
           "Bounds": {
             "X": 677,
             "Y": 983,
-            "Width": 33,
+            "Width": 52,
             "Height": 28
           },
-          "Text": "th"
+          "Text": "the"
         }
       ]
     },
@@ -5874,4 +5850,4 @@
       ]
     }
   ]
-}
+}

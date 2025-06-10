@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2020,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 179,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 379,
-            "Y": 106,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 106,
-            "Width": 32,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 105,
-            "Width": 120,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 76,
-            "Y": 182,
-            "Width": 121,
-            "Height": 33
-          },
-          "Text": "inations"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1018,7 +967,7 @@
             "Width": 73,
             "Height": 30
           },
-          "Text": "frit"
+          "Text": "fruit"
         }
       ]
     },
@@ -1223,10 +1172,23 @@
           "Bounds": {
             "X": 119,
             "Y": 526,
-            "Width": 60,
+            "Width": 40,
             "Height": 44
           },
-          "Text": "asea"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 159,
+            "Y": 526,
+            "Width": 20,
+            "Height": 44
+          },
+          "Text": "a"
         }
       ]
     },
@@ -1552,32 +1514,6 @@
             "Height": 28
           },
           "Text": "Amen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 410,
-            "Y": 769,
-            "Width": 201,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 638,
-            "Y": 769,
-            "Width": 37,
-            "Height": 29
-          },
-          "Text": "IIL"
         }
       ]
     },
@@ -4823,6 +4759,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5074,19 +5011,6 @@
           "Text": "of"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 183,
-            "Y": 1876,
-            "Width": 57,
-            "Height": 27
-          },
-          "Text": "GO"
-        }
-      ]
     }
   ]
-}
+}

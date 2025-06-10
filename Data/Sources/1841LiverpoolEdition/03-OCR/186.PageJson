@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2001,
   "ImageWidth": 1214,
+  "ManuallyEdited": true,
   "PageNumber": 186,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 73,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 583,
-            "Y": 74,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 641,
-            "Y": 74,
-            "Width": 116,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -204,36 +166,10 @@
           "Bounds": {
             "X": 135,
             "Y": 182,
-            "Width": 77,
-            "Height": 29
+            "Width": 191,
+            "Height": 28
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 216,
-            "Y": 202,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 230,
-            "Y": 181,
-            "Width": 100,
-            "Height": 38
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -333,11 +269,11 @@
         {
           "Bounds": {
             "X": 132,
-            "Y": 192,
-            "Width": 164,
-            "Height": 58
+            "Y": 222,
+            "Width": 176,
+            "Height": 28
           },
-          "Text": "res"
+          "Text": "wilderness"
         }
       ]
     },
@@ -1442,7 +1378,7 @@
             "Width": 100,
             "Height": 37
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -1673,10 +1609,23 @@
           "Bounds": {
             "X": 925,
             "Y": 575,
-            "Width": 163,
+            "Width": 90,
             "Height": 37
           },
-          "Text": "whenthey"
+          "Text": "when"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1015,
+            "Y": 575,
+            "Width": 74,
+            "Height": 37
+          },
+          "Text": "they"
         }
       ]
     },
@@ -2679,10 +2628,23 @@
           "Bounds": {
             "X": 347,
             "Y": 888,
-            "Width": 119,
+            "Width": 66,
             "Height": 28
           },
-          "Text": "wasthe"
+          "Text": "was"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 413,
+            "Y": 888,
+            "Width": 54,
+            "Height": 28
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3134,10 +3096,23 @@
           "Bounds": {
             "X": 307,
             "Y": 1005,
-            "Width": 87,
+            "Width": 34,
             "Height": 29
           },
-          "Text": "ofthe"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 341,
+            "Y": 1005,
+            "Width": 54,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -4114,10 +4089,23 @@
           "Bounds": {
             "X": 421,
             "Y": 1279,
-            "Width": 112,
+            "Width": 42,
             "Height": 34
           },
-          "Text": "hesaid"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 463,
+            "Y": 1279,
+            "Width": 71,
+            "Height": 34
+          },
+          "Text": "said"
         }
       ]
     },
@@ -4455,7 +4443,7 @@
             "Width": 90,
             "Height": 58
           },
-          "Text": "spealk"
+          "Text": "speak"
         }
       ]
     },
@@ -4495,6 +4483,19 @@
             "Height": 29
           },
           "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 140,
+            "Y": 1402,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
         }
       ]
     },
@@ -4946,10 +4947,23 @@
           "Bounds": {
             "X": 292,
             "Y": 1514,
-            "Width": 90,
+            "Width": 56,
             "Height": 28
           },
-          "Text": "outof"
+          "Text": "out"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 348,
+            "Y": 1514,
+            "Width": 35,
+            "Height": 28
+          },
+          "Text": "of"
         }
       ]
     },
@@ -5110,7 +5124,7 @@
             "Width": 100,
             "Height": 28
           },
-          "Text": "Zenift"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -5120,10 +5134,23 @@
           "Bounds": {
             "X": 655,
             "Y": 1553,
-            "Width": 178,
+            "Width": 135,
             "Height": 38
           },
-          "Text": "broughtup"
+          "Text": "brought"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 790,
+            "Y": 1553,
+            "Width": 44,
+            "Height": 38
+          },
+          "Text": "up"
         }
       ]
     },
@@ -5133,10 +5160,23 @@
           "Bounds": {
             "X": 843,
             "Y": 1553,
-            "Width": 81,
+            "Width": 50,
             "Height": 28
           },
-          "Text": "outof"
+          "Text": "out"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 893,
+            "Y": 1553,
+            "Width": 32,
+            "Height": 28
+          },
+          "Text": "of"
         }
       ]
     },
@@ -5146,10 +5186,23 @@
           "Bounds": {
             "X": 942,
             "Y": 1552,
-            "Width": 124,
+            "Width": 60,
             "Height": 29
           },
-          "Text": "thatland"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1002,
+            "Y": 1552,
+            "Width": 65,
+            "Height": 29
+          },
+          "Text": "land"
         }
       ]
     },
@@ -6012,4 +6065,4 @@
       ]
     }
   ]
-}
+}

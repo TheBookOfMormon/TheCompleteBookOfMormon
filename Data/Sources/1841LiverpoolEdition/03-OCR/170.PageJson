@@ -1,47 +1,10 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1176,
+  "ManuallyEdited": true,
   "PageNumber": 170,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 104,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 601,
-            "Y": 105,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 662,
-            "Y": 105,
-            "Width": 119,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -715,11 +678,16 @@
             "Height": 39
           },
           "Text": "Egypt"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1110,
+            "Y": 339,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 155,
@@ -971,10 +939,36 @@
           "Bounds": {
             "X": 247,
             "Y": 450,
-            "Width": 255,
+            "Width": 33,
             "Height": 29
           },
-          "Text": "totheirchildren"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 280,
+            "Y": 450,
+            "Width": 82,
+            "Height": 29
+          },
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 362,
+            "Y": 450,
+            "Width": 142,
+            "Height": 29
+          },
+          "Text": "children"
         }
       ]
     },
@@ -1153,10 +1147,23 @@
           "Bounds": {
             "X": 874,
             "Y": 489,
-            "Width": 78,
+            "Width": 16,
             "Height": 38
           },
-          "Text": "Isay"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 890,
+            "Y": 489,
+            "Width": 63,
+            "Height": 38
+          },
+          "Text": "say"
         }
       ]
     },
@@ -2202,11 +2209,16 @@
             "Height": 29
           },
           "Text": "tradi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1100,
+            "Y": 804,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 152,
@@ -2878,11 +2890,7 @@
             "Height": 28
           },
           "Text": "Jerusa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1082,
@@ -2891,11 +2899,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 150,
@@ -4759,10 +4763,23 @@
           "Bounds": {
             "X": 518,
             "Y": 1587,
-            "Width": 163,
+            "Width": 104,
             "Height": 28
           },
-          "Text": "beforehim"
+          "Text": "before"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 622,
+            "Y": 1587,
+            "Width": 60,
+            "Height": 28
+          },
+          "Text": "him"
         }
       ]
     },
@@ -5742,4 +5759,4 @@
       ]
     }
   ]
-}
+}

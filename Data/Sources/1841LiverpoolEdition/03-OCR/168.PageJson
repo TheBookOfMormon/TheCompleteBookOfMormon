@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1220,
+  "ManuallyEdited": true,
   "PageNumber": 168,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 81,
-            "Width": 111,
-            "Height": 20
-          },
-          "Text": "WORDS"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 80,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 667,
-            "Y": 80,
-            "Width": 131,
-            "Height": 21
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -194,12 +156,17 @@
             "Width": 32,
             "Height": 22
           },
-          "Text": "cai"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "can"
+        },
+        {
+          "Bounds": {
+            "X": 1104,
+            "Y": 159,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 169,
@@ -1299,7 +1266,7 @@
             "Width": 51,
             "Height": 29
           },
-          "Text": "hut"
+          "Text": "but"
         }
       ]
     },
@@ -1980,7 +1947,7 @@
             "Width": 32,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -3189,7 +3156,7 @@
             "Width": 68,
             "Height": 28
           },
-          "Text": "irom"
+          "Text": "from"
         }
       ]
     },
@@ -3593,6 +3560,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4256,6 +4224,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5684,4 +5653,4 @@
       ]
     }
   ]
-}
+}

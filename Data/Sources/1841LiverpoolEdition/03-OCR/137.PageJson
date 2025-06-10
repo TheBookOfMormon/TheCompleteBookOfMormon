@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1187,
+  "ManuallyEdited": true,
   "PageNumber": 137,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 412,
-            "Y": 107,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 107,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 107,
-            "Width": 91,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -729,10 +691,23 @@
           "Bounds": {
             "X": 289,
             "Y": 372,
-            "Width": 201,
+            "Width": 34,
             "Height": 29
           },
-          "Text": "orrevelation"
+          "Text": "or"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 323,
+            "Y": 372,
+            "Width": 167,
+            "Height": 29
+          },
+          "Text": "revelation"
         }
       ]
     },
@@ -1096,7 +1071,7 @@
             "Width": 123,
             "Height": 29
           },
-          "Text": "Christ's"
+          "Text": "Christ\u0027s"
         }
       ]
     },
@@ -2903,7 +2878,7 @@
             "Width": 89,
             "Height": 35
           },
-          "Text": "aner"
+          "Text": "anger"
         }
       ]
     },
@@ -4413,10 +4388,23 @@
           "Bounds": {
             "X": 510,
             "Y": 1510,
-            "Width": 131,
+            "Width": 100,
             "Height": 28
           },
-          "Text": "retainin"
+          "Text": "retain"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 610,
+            "Y": 1510,
+            "Width": 32,
+            "Height": 28
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4676,10 +4664,12 @@
             "Width": 40,
             "Height": 27
           },
-          "Text": "&ec"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5301,11 +5291,7 @@
             "Height": 28
           },
           "Text": "Zoram"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1059,
@@ -5314,11 +5300,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 110,
@@ -5409,4 +5391,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2020,
   "ImageWidth": 1220,
+  "ManuallyEdited": true,
   "PageNumber": 139,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 110,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 111,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 613,
-            "Y": 111,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -943,19 +905,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 75,
-            "Y": 481,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 98,
             "Y": 463,
             "Width": 14,
@@ -1312,7 +1261,7 @@
             "Width": 96,
             "Height": 29
           },
-          "Text": "hefore"
+          "Text": "before"
         }
       ]
     },
@@ -4389,6 +4338,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4974,6 +4924,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5295,7 +5246,7 @@
             "Width": 63,
             "Height": 43
           },
-          "Text": "stifi"
+          "Text": "stiff"
         }
       ]
     },
@@ -5361,11 +5312,7 @@
             "Height": 29
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1055,
@@ -5374,8 +5321,18 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 119,
+            "Y": 180,
+            "Width": 87,
+            "Height": 20
+          },
+          "IsOnNextPage": true,
+          "Text": "cause"
         }
       ]
     }
   ]
-}
+}

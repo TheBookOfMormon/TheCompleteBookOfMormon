@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1176,
+  "ManuallyEdited": true,
   "PageNumber": 136,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 413,
-            "Y": 112,
-            "Width": 120,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 112,
-            "Width": 77,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 663,
-            "Y": 112,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 724,
-            "Y": 112,
-            "Width": 94,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -268,11 +217,11 @@
         {
           "Bounds": {
             "X": 645,
-            "Y": 191,
-            "Width": 41,
-            "Height": 57
+            "Y": 221,
+            "Width": 58,
+            "Height": 28
           },
-          "Text": "ng"
+          "Text": "and"
         }
       ]
     },
@@ -529,10 +478,23 @@
           "Bounds": {
             "X": 270,
             "Y": 297,
-            "Width": 173,
+            "Width": 70,
             "Height": 29
           },
-          "Text": "facebefore"
+          "Text": "face"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 340,
+            "Y": 297,
+            "Width": 104,
+            "Height": 29
+          },
+          "Text": "before"
         }
       ]
     },
@@ -662,7 +624,7 @@
             "Width": 71,
             "Height": 28
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -898,10 +860,23 @@
           "Bounds": {
             "X": 959,
             "Y": 375,
-            "Width": 140,
+            "Width": 54,
             "Height": 30
           },
-          "Text": "thename"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1013,
+            "Y": 375,
+            "Width": 87,
+            "Height": 30
+          },
+          "Text": "name"
         }
       ]
     },
@@ -1915,19 +1890,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1131,
-            "Y": 659,
-            "Width": 4,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 145,
             "Y": 687,
             "Width": 98,
@@ -1999,19 +1961,6 @@
             "Height": 28
           },
           "Text": "also"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 644,
-            "Y": 704,
-            "Width": 3,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2649,11 +2598,7 @@
             "Height": 39
           },
           "Text": "judg"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1093,
@@ -2662,11 +2607,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 147,
@@ -2851,19 +2792,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 599,
-            "Y": 1000,
-            "Width": 22,
-            "Height": 31
-          },
-          "Text": "pe"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 213,
             "Y": 1076,
             "Width": 151,
@@ -2961,32 +2889,6 @@
             "Height": 30
           },
           "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 1306,
-            "Width": 198,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 730,
-            "Y": 1307,
-            "Width": 14,
-            "Height": 28
-          },
-          "Text": "I"
         }
       ]
     },
@@ -4231,7 +4133,7 @@
             "Width": 34,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4431,4 +4333,4 @@
       ]
     }
   ]
-}
+}

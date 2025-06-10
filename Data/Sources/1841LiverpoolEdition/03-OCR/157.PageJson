@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2023,
   "ImageWidth": 1186,
+  "ManuallyEdited": true,
   "PageNumber": 157,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 406,
-            "Y": 71,
-            "Width": 81,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 71,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 576,
-            "Y": 72,
-            "Width": 91,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -233,7 +195,7 @@
             "Width": 37,
             "Height": 37
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -2038,9 +2000,9 @@
             "X": 724,
             "Y": 665,
             "Width": 93,
-            "Height": 58
+            "Height": 28
           },
-          "Text": "MALY"
+          "Text": "many"
         }
       ]
     },
@@ -2470,6 +2432,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2626,6 +2589,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3155,7 +3119,7 @@
             "Width": 62,
             "Height": 25
           },
-          "Text": "nnto"
+          "Text": "unto"
         }
       ]
     },
@@ -3983,6 +3947,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4288,10 +4253,23 @@
           "Bounds": {
             "X": 317,
             "Y": 1331,
-            "Width": 109,
+            "Width": 32,
             "Height": 34
           },
-          "Text": "topass"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 349,
+            "Y": 1331,
+            "Width": 78,
+            "Height": 34
+          },
+          "Text": "pass"
         }
       ]
     },
@@ -5895,4 +5873,4 @@
       ]
     }
   ]
-}
+}

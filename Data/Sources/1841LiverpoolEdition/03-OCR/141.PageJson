@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2027,
   "ImageWidth": 1191,
+  "ManuallyEdited": true,
   "PageNumber": 141,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 108,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 538,
-            "Y": 109,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 109,
-            "Width": 93,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1047,19 +1009,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 59,
-            "Y": 473,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 86,
             "Y": 463,
             "Width": 50,
@@ -1169,7 +1118,7 @@
             "Width": 55,
             "Height": 29
           },
-          "Text": "Kor"
+          "Text": "For"
         }
       ]
     },
@@ -2100,6 +2049,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 294,
+            "Y": 767,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 329,
             "Y": 767,
             "Width": 51,
@@ -2599,7 +2561,7 @@
             "Width": 150,
             "Height": 36
           },
-          "Text": "hushands"
+          "Text": "husbands"
         }
       ]
     },
@@ -3610,10 +3572,23 @@
           "Bounds": {
             "X": 249,
             "Y": 1200,
-            "Width": 186,
+            "Width": 57,
             "Height": 28
           },
-          "Text": "notcommit"
+          "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 306,
+            "Y": 1200,
+            "Width": 130,
+            "Height": 28
+          },
+          "Text": "commit"
         }
       ]
     },
@@ -4720,10 +4695,10 @@
           "Bounds": {
             "X": 978,
             "Y": 1552,
-            "Width": 62,
+            "Width": 63,
             "Height": 28
           },
-          "Text": "had"
+          "Text": "bad"
         }
       ]
     },
@@ -5599,4 +5574,4 @@
       ]
     }
   ]
-}
+}

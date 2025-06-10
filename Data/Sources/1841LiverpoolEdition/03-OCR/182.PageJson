@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1185,
+  "ManuallyEdited": true,
   "PageNumber": 182,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 468,
-            "Y": 97,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 572,
-            "Y": 97,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 632,
-            "Y": 95,
-            "Width": 110,
-            "Height": 22
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -393,6 +355,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -490,10 +453,36 @@
           "Bounds": {
             "X": 453,
             "Y": 284,
-            "Width": 158,
+            "Width": 16,
             "Height": 37
           },
-          "Text": "Isayunto"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 469,
+            "Y": 284,
+            "Width": 62,
+            "Height": 37
+          },
+          "Text": "say"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 531,
+            "Y": 284,
+            "Width": 81,
+            "Height": 37
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -2183,6 +2172,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 988,
+            "Y": 750,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1015,
             "Y": 751,
             "Width": 69,
@@ -3450,6 +3452,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5101,6 +5104,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5614,4 +5619,4 @@
       ]
     }
   ]
-}
+}

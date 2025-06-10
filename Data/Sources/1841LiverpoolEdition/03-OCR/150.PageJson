@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1198,
+  "ManuallyEdited": true,
   "PageNumber": 150,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 66,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 564,
-            "Y": 66,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 621,
-            "Y": 65,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -312,11 +274,16 @@
             "Height": 29
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1065,
+            "Y": 175,
+            "Width": 33,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 106,
@@ -2001,7 +1968,7 @@
             "Width": 114,
             "Height": 29
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -2139,19 +2106,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1044,
-            "Y": 722,
-            "Width": 1,
-            "Height": 4
-          },
-          "Text": "i"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 1041,
             "Y": 730,
             "Width": 26,
@@ -2183,7 +2137,7 @@
             "Width": 81,
             "Height": 56
           },
-          "Text": "200d"
+          "Text": "good"
         }
       ]
     },
@@ -2313,7 +2267,7 @@
             "Width": 75,
             "Height": 58
           },
-          "Text": "SH"
+          "Text": "unto"
         }
       ]
     },
@@ -2508,7 +2462,7 @@
             "Width": 68,
             "Height": 29
           },
-          "Text": "tliat"
+          "Text": "that"
         }
       ]
     },
@@ -3051,13 +3005,14 @@
           "Bounds": {
             "X": 904,
             "Y": 995,
-            "Width": 70,
+            "Width": 135,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "because"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3419,11 +3374,16 @@
             "Height": 25
           },
           "Text": "not"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1075,
+            "Y": 1114,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 114,
@@ -3626,7 +3586,7 @@
             "Width": 123,
             "Height": 28
           },
-          "Text": "hecome"
+          "Text": "become"
         }
       ]
     },
@@ -4398,7 +4358,7 @@
             "Width": 137,
             "Height": 55
           },
-          "Text": "orieveth"
+          "Text": "grieveth"
         }
       ]
     },
@@ -5677,7 +5637,7 @@
             "Width": 163,
             "Height": 39
           },
-          "Text": "corrnpted"
+          "Text": "corrupted"
         }
       ]
     },
@@ -5708,4 +5668,4 @@
       ]
     }
   ]
-}
+}

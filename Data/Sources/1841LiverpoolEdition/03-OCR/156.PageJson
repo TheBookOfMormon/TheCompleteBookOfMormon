@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 156,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 68,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 599,
-            "Y": 68,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 658,
-            "Y": 68,
-            "Width": 83,
-            "Height": 19
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1020,
-            "Y": 84,
-            "Width": 12,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -406,6 +355,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -715,11 +665,11 @@
         {
           "Bounds": {
             "X": 959,
-            "Y": 293,
-            "Width": 132,
-            "Height": 40
+            "Y": 299,
+            "Width": 148,
+            "Height": 28
           },
-          "Text": "langnage"
+          "Text": "language"
         }
       ]
     },
@@ -1145,10 +1095,36 @@
           "Bounds": {
             "X": 431,
             "Y": 450,
-            "Width": 337,
+            "Width": 56,
             "Height": 39
           },
-          "Text": "themanyrevelations"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 487,
+            "Y": 450,
+            "Width": 90,
+            "Height": 39
+          },
+          "Text": "many"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 577,
+            "Y": 450,
+            "Width": 192,
+            "Height": 39
+          },
+          "Text": "revelations"
         }
       ]
     },
@@ -1171,10 +1147,23 @@
           "Bounds": {
             "X": 852,
             "Y": 450,
-            "Width": 151,
+            "Width": 58,
             "Height": 39
           },
-          "Text": "themany"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 910,
+            "Y": 450,
+            "Width": 94,
+            "Height": 39
+          },
+          "Text": "many"
         }
       ]
     },
@@ -1304,7 +1293,7 @@
             "Width": 14,
             "Height": 28
           },
-          "Text": "TI"
+          "Text": "I"
         }
       ]
     },
@@ -2289,7 +2278,7 @@
           "Bounds": {
             "X": 710,
             "Y": 803,
-            "Width": 105,
+            "Width": 122,
             "Height": 28
           },
           "Text": "known"
@@ -3285,7 +3274,7 @@
             "Width": 51,
             "Height": 33
           },
-          "Text": "yot"
+          "Text": "you"
         }
       ]
     },
@@ -4564,7 +4553,7 @@
             "Width": 128,
             "Height": 29
           },
-          "Text": "belicvest"
+          "Text": "believest"
         }
       ]
     },
@@ -5748,11 +5737,16 @@
             "Height": 21
           },
           "Text": "man"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1103,
+            "Y": 1789,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 147,
@@ -5804,4 +5798,4 @@
       ]
     }
   ]
-}
+}

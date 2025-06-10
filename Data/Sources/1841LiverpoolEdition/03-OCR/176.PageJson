@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1172,
+  "ManuallyEdited": true,
   "PageNumber": 176,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 497,
-            "Y": 106,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 604,
-            "Y": 105,
-            "Width": 36,
-            "Height": 21
-          },
-          "Text": "OR"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 665,
-            "Y": 105,
-            "Width": 120,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -90,7 +52,7 @@
             "Width": 152,
             "Height": 29
           },
-          "Text": "wisdom's"
+          "Text": "wisdom\u0027s"
         }
       ]
     },
@@ -944,11 +906,11 @@
         {
           "Bounds": {
             "X": 215,
-            "Y": 420,
+            "Y": 450,
             "Width": 170,
-            "Height": 58
+            "Height": 28
           },
-          "Text": "domaineth"
+          "Text": "remaineth"
         }
       ]
     },
@@ -1845,7 +1807,7 @@
             "Width": 101,
             "Height": 29
           },
-          "Text": "merey"
+          "Text": "mercy"
         }
       ]
     },
@@ -2570,10 +2532,23 @@
           "Bounds": {
             "X": 623,
             "Y": 917,
-            "Width": 282,
+            "Width": 245,
             "Height": 38
           },
-          "Text": "remembrancegof"
+          "Text": "remembrance"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 868,
+            "Y": 917,
+            "Width": 38,
+            "Height": 38
+          },
+          "Text": "of"
         }
       ]
     },
@@ -3420,23 +3395,10 @@
           "Bounds": {
             "X": 450,
             "Y": 1190,
-            "Width": 37,
-            "Height": 29
+            "Width": 86,
+            "Height": 28
           },
-          "Text": "dw"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 1173,
-            "Width": 50,
-            "Height": 45
-          },
-          "Text": "ell"
+          "Text": "dwell"
         }
       ]
     },
@@ -4244,10 +4206,23 @@
           "Bounds": {
             "X": 677,
             "Y": 1424,
-            "Width": 102,
+            "Width": 16,
             "Height": 29
           },
-          "Text": "Ishall"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 693,
+            "Y": 1424,
+            "Width": 87,
+            "Height": 29
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -4993,7 +4968,7 @@
             "Width": 90,
             "Height": 55
           },
-          "Text": "oreat"
+          "Text": "great"
         }
       ]
     },
@@ -5045,7 +5020,7 @@
             "Width": 54,
             "Height": 28
           },
-          "Text": "ord"
+          "Text": "Lord"
         }
       ]
     },
@@ -5249,11 +5224,11 @@
         {
           "Bounds": {
             "X": 738,
-            "Y": 1668,
+            "Y": 1698,
             "Width": 128,
-            "Height": 57
+            "Height": 27
           },
-          "Text": "dbolnts"
+          "Text": "declare"
         }
       ]
     },
@@ -5409,7 +5384,7 @@
             "Width": 66,
             "Height": 24
           },
-          "Text": "nnto"
+          "Text": "unto"
         }
       ]
     },
@@ -5700,4 +5675,4 @@
       ]
     }
   ]
-}
+}

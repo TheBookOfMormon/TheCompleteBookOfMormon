@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 184,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 456,
-            "Y": 120,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 121,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 620,
-            "Y": 121,
-            "Width": 115,
-            "Height": 20
-          },
-          "Text": "MOSJAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -412,10 +374,23 @@
           "Bounds": {
             "X": 161,
             "Y": 306,
-            "Width": 137,
+            "Width": 67,
             "Height": 29
           },
-          "Text": "Andnow"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 228,
+            "Y": 306,
+            "Width": 71,
+            "Height": 29
+          },
+          "Text": "now"
         }
       ]
     },
@@ -438,10 +413,36 @@
           "Bounds": {
             "X": 363,
             "Y": 308,
-            "Width": 204,
+            "Width": 84,
             "Height": 29
           },
-          "Text": "shallcometo"
+          "Text": "shall"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 447,
+            "Y": 308,
+            "Width": 89,
+            "Height": 29
+          },
+          "Text": "come"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 536,
+            "Y": 308,
+            "Width": 33,
+            "Height": 29
+          },
+          "Text": "to"
         }
       ]
     },
@@ -451,10 +452,23 @@
           "Bounds": {
             "X": 585,
             "Y": 308,
-            "Width": 144,
+            "Width": 79,
             "Height": 38
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 664,
+            "Y": 308,
+            "Width": 66,
+            "Height": 38
+          },
+          "Text": "that"
         }
       ]
     },
@@ -2006,19 +2020,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 528,
-            "Y": 760,
-            "Width": 2,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 542,
             "Y": 742,
             "Width": 102,
@@ -2978,7 +2979,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -4356,38 +4357,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 487,
-            "Y": 1529,
-            "Width": 199,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 713,
-            "Y": 1529,
-            "Width": 40,
-            "Height": 28
-          },
-          "Text": "1V"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 173,
             "Y": 1604,
             "Width": 68,
             "Height": 29
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -4436,10 +4411,23 @@
           "Bounds": {
             "X": 655,
             "Y": 1607,
-            "Width": 165,
+            "Width": 141,
             "Height": 37
           },
-          "Text": "thoughtit"
+          "Text": "thought"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 796,
+            "Y": 1607,
+            "Width": 25,
+            "Height": 37
+          },
+          "Text": "it"
         }
       ]
     },
@@ -4764,7 +4752,7 @@
             "Width": 70,
             "Height": 28
           },
-          "Text": "wih"
+          "Text": "with"
         }
       ]
     },
@@ -5250,4 +5238,4 @@
       ]
     }
   ]
-}
+}

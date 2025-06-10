@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1149,
+  "ManuallyEdited": true,
   "PageNumber": 199,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 379,
-            "Y": 89,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 89,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 88,
-            "Width": 113,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -662,7 +624,7 @@
             "Width": 168,
             "Height": 37
           },
-          "Text": "afllictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -675,7 +637,7 @@
             "Width": 27,
             "Height": 20
           },
-          "Text": "ea"
+          "Text": "yea"
         }
       ]
     },
@@ -1300,6 +1262,19 @@
             "Height": 28
           },
           "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 629,
+            "Y": 471,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
         }
       ]
     },
@@ -1933,10 +1908,23 @@
           "Bounds": {
             "X": 419,
             "Y": 667,
-            "Width": 110,
+            "Width": 33,
             "Height": 28
           },
-          "Text": "oftheir"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 452,
+            "Y": 667,
+            "Width": 77,
+            "Height": 28
+          },
+          "Text": "their"
         }
       ]
     },
@@ -4520,10 +4508,23 @@
           "Bounds": {
             "X": 728,
             "Y": 1411,
-            "Width": 64,
+            "Width": 28,
             "Height": 28
           },
-          "Text": "itis"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 756,
+            "Y": 1411,
+            "Width": 37,
+            "Height": 28
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4965,7 +4966,7 @@
             "Width": 134,
             "Height": 37
           },
-          "Text": "Iniquities"
+          "Text": "iniquities"
         }
       ]
     },
@@ -5737,4 +5738,4 @@
       ]
     }
   ]
-}
+}

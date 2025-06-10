@@ -2865,11 +2865,7 @@
             "Height": 34
           },
           "Text": "stop"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1119,
@@ -2878,11 +2874,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 163,
@@ -2968,7 +2960,7 @@
             "Width": 54,
             "Height": 29
           },
-          "Text": "leit"
+          "Text": "left"
         }
       ]
     },
@@ -3160,36 +3152,10 @@
           "Bounds": {
             "X": 247,
             "Y": 1035,
-            "Width": 64,
+            "Width": 270,
             "Height": 28
           },
-          "Text": "stiff"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 311,
-            "Y": 1052,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 323,
-            "Y": 1035,
-            "Width": 188,
-            "Height": 29
-          },
-          "Text": "neckedness"
+          "Text": "stiff-neckedness"
         }
       ]
     },
@@ -3394,10 +3360,23 @@
           "Bounds": {
             "X": 163,
             "Y": 1114,
-            "Width": 170,
+            "Width": 93,
             "Height": 38
           },
-          "Text": "givenunto"
+          "Text": "given"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 256,
+            "Y": 1114,
+            "Width": 78,
+            "Height": 38
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -3485,10 +3464,23 @@
           "Bounds": {
             "X": 886,
             "Y": 1113,
-            "Width": 125,
+            "Width": 40,
             "Height": 28
           },
-          "Text": "asword"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 926,
+            "Y": 1113,
+            "Width": 86,
+            "Height": 28
+          },
+          "Text": "word"
         }
       ]
     },
@@ -3917,7 +3909,7 @@
             "Width": 75,
             "Height": 32
           },
-          "Text": "untq"
+          "Text": "unto"
         }
       ]
     },

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2024,
   "ImageWidth": 1152,
+  "ManuallyEdited": true,
   "PageNumber": 195,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 379,
-            "Y": 101,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 102,
-            "Width": 34,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 545,
-            "Y": 102,
-            "Width": 113,
-            "Height": 20
-          },
-          "Text": "MOSTAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1581,6 +1543,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3662,38 +3625,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 402,
-            "Y": 1390,
-            "Width": 201,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 630,
-            "Y": 1390,
-            "Width": 45,
-            "Height": 29
-          },
-          "Text": "VII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 112,
             "Y": 1467,
             "Width": 62,
             "Height": 28
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -4340,10 +4277,23 @@
           "Bounds": {
             "X": 764,
             "Y": 1626,
-            "Width": 131,
+            "Width": 79,
             "Height": 29
           },
-          "Text": "afterthe"
+          "Text": "after"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 843,
+            "Y": 1626,
+            "Width": 53,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -4366,10 +4316,36 @@
           "Bounds": {
             "X": 77,
             "Y": 1660,
-            "Width": 142,
+            "Width": 32,
             "Height": 32
           },
-          "Text": "ofhisown"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 109,
+            "Y": 1660,
+            "Width": 49,
+            "Height": 32
+          },
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 158,
+            "Y": 1660,
+            "Width": 63,
+            "Height": 32
+          },
+          "Text": "own"
         }
       ]
     },
@@ -5037,4 +5013,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2006,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 178,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 61,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 592,
-            "Y": 61,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 653,
-            "Y": 61,
-            "Width": 118,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -649,7 +611,7 @@
             "Width": 14,
             "Height": 28
           },
-          "Text": "TI"
+          "Text": "I"
         }
       ]
     },
@@ -3659,8 +3621,8 @@
           "Bounds": {
             "X": 225,
             "Y": 1200,
-            "Width": 121,
-            "Height": 29
+            "Width": 123,
+            "Height": 28
           },
           "Text": "Saviour"
         }
@@ -5776,11 +5738,7 @@
             "Height": 29
           },
           "Text": "abom"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1103,
@@ -5789,8 +5747,18 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 76,
+            "Y": 182,
+            "Width": 121,
+            "Height": 33
+          },
+          "IsOnNextPage": true,
+          "Text": "inations"
         }
       ]
     }
   ]
-}
+}

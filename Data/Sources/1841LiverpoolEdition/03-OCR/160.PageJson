@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1181,
+  "ManuallyEdited": true,
   "PageNumber": 160,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 508,
-            "Y": 75,
-            "Width": 78,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 612,
-            "Y": 78,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 671,
-            "Y": 78,
-            "Width": 83,
-            "Height": 20
-          },
-          "Text": "ENOS"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -64,7 +26,7 @@
             "Width": 35,
             "Height": 29
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -1776,24 +1738,11 @@
         {
           "Bounds": {
             "X": 480,
-            "Y": 665,
-            "Width": 12,
-            "Height": 19
+            "Y": 661,
+            "Width": 160,
+            "Height": 28
           },
-          "Text": "a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 655,
-            "Width": 129,
-            "Height": 38
-          },
-          "Text": "cording"
+          "Text": "according"
         }
       ]
     },
@@ -2001,7 +1950,7 @@
             "Width": 68,
             "Height": 29
           },
-          "Text": "sald"
+          "Text": "said"
         }
       ]
     },
@@ -3415,36 +3364,10 @@
           "Bounds": {
             "X": 898,
             "Y": 1123,
-            "Width": 94,
-            "Height": 29
+            "Width": 225,
+            "Height": 28
           },
-          "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 993,
-            "Y": 1136,
-            "Width": 10,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1005,
-            "Y": 1123,
-            "Width": 105,
-            "Height": 38
-          },
-          "Text": "thirsty"
+          "Text": "blood-thirsty"
         }
       ]
     },
@@ -3548,7 +3471,7 @@
             "Width": 71,
             "Height": 28
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -4250,7 +4173,7 @@
             "Width": 190,
             "Height": 39
           },
-          "Text": "continnally"
+          "Text": "continually"
         }
       ]
     },
@@ -5079,36 +5002,10 @@
           "Bounds": {
             "X": 568,
             "Y": 1635,
-            "Width": 63,
-            "Height": 29
-          },
-          "Text": "stiff"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 630,
-            "Y": 1636,
-            "Width": 25,
-            "Height": 27
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 655,
-            "Y": 1635,
-            "Width": 108,
+            "Width": 211,
             "Height": 28
           },
-          "Text": "necked"
+          "Text": "stiff-necked"
         }
       ]
     },
@@ -5613,11 +5510,7 @@
             "Height": 39
           },
           "Text": "judg"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1109,
@@ -5626,8 +5519,18 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 91,
+            "Y": 167,
+            "Width": 89,
+            "Height": 27
+          },
+          "IsOnNextPage": true,
+          "Text": "ments"
         }
       ]
     }
   ]
-}
+}
