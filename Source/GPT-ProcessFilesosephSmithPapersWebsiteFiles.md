@@ -1,14 +1,13 @@
-﻿# Book of Mormon 1830 HTML to JSON Page Conversion Prompt
+﻿# Book of Mormon HTML to JSON Page Conversion Prompt
 
-You are given a ZIP file containing HTML pages from the 1830 edition of the Book of Mormon.  
+You are given a ZIP file containing HTML pages from the Book of Mormon.  
 Each HTML file corresponds to a printed page. Your task is to process them and output structured JSON files with precise formatting.
 
 ---
 
 ## ✅ Required Input:
-- The ZIP contains HTML files named like `007.html` to `623.html`
-- The actual printed page number is `HTML filename - 6`, zero-padded (e.g. `007.html` → `001.PageJson`)
-
+- The ZIP contains HTML files named like `007.html`, `008.html`, etc.
+- These should be processed in alphabetical order.
 ---
 
 ## ✅ What To Extract:
@@ -53,6 +52,8 @@ Find and replace all `<span class="line-break">`
 For each page, generate **two files**:
 1. `{PageNumber}.PageJson`
 2. `{PageNumber}.PageMetaJson`
+
+The PageNumber starts at 001 and increments for each `.html` file
 
 ### 📄 {PageNumber}.PageJson:
 ```json

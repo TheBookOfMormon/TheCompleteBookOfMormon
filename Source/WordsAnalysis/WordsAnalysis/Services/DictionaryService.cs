@@ -152,6 +152,17 @@ sealed class DictionaryService : IDictionaryService
             {
                 dictionary.Add(entry + "s");
             }
+
+            // US / British spelling
+            if (upper.Contains("OUR") && upper.Length > 3)
+            {
+                dictionary.Add(entry.Replace("our", "or"));
+            }
+
+            if (upper.Contains("ise"))
+            {
+                dictionary.Add(entry.Replace("ise", "ize"));
+            }    
         }
     }
 
