@@ -9,7 +9,7 @@ Each HTML file corresponds to a printed page. Your task is to process them and o
 - I have attached a ZIP file
     1. It contains HTML files named like `007.html`, `008.html`, etc.
     2. Each *.html file must be processed in alphabetical order
-- I have also attached dictionary.txt
+- I have also attached dictionary.txt (utf-8 encoded)
     1. This is the Dictionary.
     2. You must convert every line to uppercase and use it as a lookup of valid words.
     3. For each base word, derive additional valid entries using the following logic:
@@ -62,7 +62,8 @@ If the entry is **not** a name, apply the following transformations:
   - `{entry[..^1]}ied`
 
 - - If it ends in `ED`, add:
-  - `{entry[..^1]}eth`
+  - `{entry[..^2]}eth`
+  - `{entry[..^2]}est`
 
 - If it ends in a consonant-vowel-consonant pattern (CVC), add:
   - `{entry}{lastChar}ing`
@@ -97,6 +98,9 @@ All base words and derivations are valid dictionary entries and must be used in 
 - Replace en dash `–` with `-`
 - Replace em dashes `—` with a space
 - Replace all `[ ... ]` (including the brackets and contents) with a space
+- Replace all `<div>` elements with their inner html followed by a space
+    - Note that this should be recursive into the `<div>`s child elements too (no trailing spaces added)
+    - A trailing space should only be added after a `<div>` with class `wasptag`
 - Only keep these "Allowed Chars", other chars should be replaced with a space
   - A–Z a–z
   - 0–9
@@ -110,32 +114,45 @@ All base words and derivations are valid dictionary entries and must be used in 
    - Find the `<div>` with `id="paper-summary-transcript"`.
 
 2. **Span Replacement**:
-   - Find each `<span>` in the div's inner html that has the class `line-break`
-       - If the char before the `<span>` is NOT a space then replace the span with the marker character `⧙`.
-       - Otherwise replace it with a single space
+   - Find each `<span>` in the div's inner html (recursively) that has the class `line-break`
+   - Replace the span with the marker character ¬.
 
 3. **Text Extraction**:
-   - Now get the inner text of the transcript div's new content
+   - Now find every child `<div>` that has `wasptag` in its class list
+   - Traverse all descendant nodes recursively.
+   - Concatenate all inline text (e.g., within <span>, <i>, <b>, etc.) into a continuous string without inserting spaces between them.
+   - Only insert a space after the entire wasptag <div> content (i.e., between wasptag blocks), or when encountering:
    - Only retain characters from this allow-list:
      - A–Z a–z
      - 0–9
      - space
      - `'`, `&`, `-`
-     - the marker character
+     - the marker character `¬`
    - All others must be replaced with spaces.
    - Collapse multiple spaces into one.
 
 4. **Hyphenated Word Merging**:
-   - For every `⧙` marker:
-     - Get the word fragment immediately before and immediately after the marker (this is the "Source Text")
-     - Trim both, and concatenate them (this is the "Candidate Word").
-     - Convert the candidate word to uppercase (this is the "Lookup Word") and check if the Lookup Word exists in the dictionary
-        - If the Lookup Word exists in the dictionary then replace the entire match (Source Text) with the Candidate Word.
-        - Otherwise replace marker character in the Source Text with a space (i.e. do not join the words)
+   - For every `¬` marker inside a word (e.g., MOR¬MON):
+     - Treat the text on either side of the ¬ as word fragments.
+     - Concatenate the two fragments to form a Candidate Word, e.g. MORMON.
+     - Convert the candidate word to uppercase and check if it exists in the dictionary.
+       - If it does, replace the entire match (e.g., MOR¬MON) with the Candidate Word (MORMON).
+       - If it does not (e.g., this¬is), replace the marker with a space (e.g., this is).
+
+Do not tokenize or split on spaces before checking for inline ¬ markers. The merging logic must operate on the raw text, not on pre-tokenized words.
+
+   - For any ¬ marker that appears inside or between word fragments (including across HTML tags), attempt to merge the adjacent fragments.
+   - Specifically:
+      - Search the text for patterns where ¬ is surrounded by alphanumeric characters (even across DOM boundaries).
+      - Extract the left and right fragments around the ¬.
+      - Combine the two parts and convert to uppercase.
+      - If the result exists in the dictionary (base or derived), replace the full fragment (e.g., "behold¬est") with the combined word ("beholdest").
+      - If the combined word is not found in the dictionary, replace the ¬ with a space.
+Important: This logic must apply before replacing ¬ with spaces and before tokenization. Do not rely on whitespace to find fragments.
 
 5. **Final Word List**:
-   - Split the final cleaned text by spaces.
-   - Replace each remaining word markers with a space
+   - Replace each remaining word marker `¬` with a space
+   - Split the final cleaned text by spaces (excluding empty words)
    - Each token is a valid word.
 ---
 

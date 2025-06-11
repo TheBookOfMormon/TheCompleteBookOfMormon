@@ -51,7 +51,7 @@ Each `*.PageJson` file contains a top-level JSON object with at least the follow
 ### Create Dictionary and Names lookups
 Create two in-memory lookup-tables (hash tables); one named "Names" and the other named "Dictionary"
 
-Extract dictionary.txt from dictionary.zip
+I have attached dictionary.txt (utf-8 encoded)
 Read each word in the file, when a word starts with `name:`
    1: Strip off the leading `name:` text
    2: Put it into the Names look-up table
@@ -61,22 +61,83 @@ When the word does not start with `name:`
 
 ### Add derivations
 For each word in the Dictionary lookup-table, derive ALL APPLICABLE forms and add them into the same lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
-  - Each word ending with "e" 
-      1. add a derivation with "th" appended ("have" => "haveth")
-      2. also add a derivation with "st" appended ("believe" => "believest")
-  - Each word ending with "ing" add a derivation with "ly" appended ("exceeding" => "exceedingly") 
-  - Each word ending with a single "l"
-      1. add a derivation with "leth" appended ("compel" => "compelleth")
-  - Each word ending with a double "ll" add a derivation with "eth" appended ("spell" => "spelleth")
-  - Each word ending with a single "n" 
-      1. add a derivation with "neth" appended ("begin" => "beginneth")
-  - Each word ending with "y"
-      1. add a derivation with "eth" added ("say" => "sayeth")
-      2. also add a derivation with "y" dropped and "ieth" appended ("testify" => "testifieth")
-  - Each word not ending with "e"
-      1. add a derivation with "eth" appended ("say" => "sayeth")
+If the entry is marked as a **name**, apply the following derivations:
+- If it ends in `S`, add:
+  - `{entry}'`
+- Always add:
+  - `{entry}'s`
 
+### General Words (lines not starting with `name:`)
+For each entry not starting with `name:`, apply the following transformations:
+
+   - If it ends in `E`, add:
+     - `{entry}th`
+     - `{entry[..^1]}ing`
+     - `{entry[..^1]}ings`
+     - `{entry}d`
+     - `{entry}n`
+     - `{entry}st`
+
+   - If it ends in `ING`, add:
+     - `{entry}ly`
+
+   - If it ends in `LL`, add:
+     - `{entry}eth`
+
+   - If it ends in `L` (but not `LL`), add:
+     - `{entry}leth`
+     - `{entry}ling`
+
+   - If it ends in `N`, add:
+     - `{entry}neth`
+     - `{entry}ning`
+
+   - If it ends in `SS`, add:
+     - `{entry}es`
+
+   - If it ends in `EY`, add:
+     - `{entry}eth`
+     - `{entry[..^2]}ies`
+     - `{entry[..^2]}ieth`
+     - `{entry[..^2]}ied`
+
+   - If it ends with `Y` and NOT `EY`, add:
+     - `{entry}eth`
+     - `{entry[..^1]}ies`
+     - `{entry[..^1]}ieth`
+     - `{entry[..^1]}ied`
+
+   - - If it ends in `ED`, add:
+     - `{entry[..^2]}eth`
+     - `{entry[..^2]}est`
+
+   - If it ends in a consonant-vowel-consonant pattern (CVC), add:
+     - `{entry}{lastChar}ing`
+
+   - If it ends in a consonant followed by `L`, add:
+     - `{entry}led`
+
+   - If it does **not** end in `E`, add:
+     - `{entry}eth`
+     - `{entry}ing`
+     - `{entry}ings`
+     - `{entry}est`
+     - `{entry}es`
+     - `{entry}ed` (unless it already ends in `ed`)
+
+   - If it does **not** end in `S`, add:
+     - `{entry}s`
+
+   - If it contains `our`, add:
+     - `{entry}` with `our` replaced by `or`
+
+   - If it contains `ise`, add:
+     - `{entry}` with `ise` replaced by `ize`
+
+
+## Scan for combinable words
 Next, scan all `*.PageJson` files to identify `[word] - [word]` sequences
+
 
 ### Simple Word:
 A Simple Word is any object in the Words array that has only a single object in its Elements array.
