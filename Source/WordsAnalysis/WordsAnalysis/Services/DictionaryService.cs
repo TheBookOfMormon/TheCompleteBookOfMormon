@@ -112,7 +112,13 @@ sealed class DictionaryService : IDictionaryService
                 dictionary.Add(entry + "es");
             }
 
-            if (upper.EndsWith("Y"))
+            if (upper.EndsWith("EY"))
+            {
+                dictionary.Add(entry + "eth");
+                dictionary.Add(entry[..^2] + "ies");
+                dictionary.Add(entry[..^2] + "ieth");
+                dictionary.Add(entry[..^2] + "ied");
+            } else if (upper.EndsWith("Y"))
             {
                 dictionary.Add(entry + "eth");
                 dictionary.Add(entry[..^1] + "ies");
