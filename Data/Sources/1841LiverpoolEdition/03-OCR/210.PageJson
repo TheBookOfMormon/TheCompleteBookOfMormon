@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1219,
+  "ManuallyEdited": true,
   "PageNumber": 210,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 460,
-            "Y": 72,
-            "Width": 78,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 72,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 70,
-            "Width": 112,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -55,6 +17,12 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4239,7 +4207,7 @@
             "Width": 123,
             "Height": 19
           },
-          "Text": "seasoms"
+          "Text": "seasons"
         }
       ]
     },
@@ -4690,24 +4658,11 @@
         {
           "Bounds": {
             "X": 225,
-            "Y": 1528,
-            "Width": 57,
-            "Height": 38
+            "Y": 1533,
+            "Width": 154,
+            "Height": 28
           },
-          "Text": "day"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 286,
-            "Y": 1545,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
+          "Text": "day-time"
         }
       ]
     },
@@ -5765,4 +5720,4 @@
       ]
     }
   ]
-}
+}

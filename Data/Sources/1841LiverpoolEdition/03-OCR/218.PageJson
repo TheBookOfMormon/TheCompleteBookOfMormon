@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1194,
+  "ManuallyEdited": true,
   "PageNumber": 218,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 78,
-            "Width": 74,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 78,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 647,
-            "Y": 79,
-            "Width": 115,
-            "Height": 19
-          },
-          "Text": "DMOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -922,7 +884,7 @@
             "Width": 127,
             "Height": 28
           },
-          "Text": "hecause"
+          "Text": "because"
         }
       ]
     },
@@ -1517,10 +1479,10 @@
           "Bounds": {
             "X": 644,
             "Y": 540,
-            "Width": 62,
+            "Width": 80,
             "Height": 29
           },
-          "Text": "dene"
+          "Text": "done"
         }
       ]
     },
@@ -1689,7 +1651,7 @@
             "Width": 166,
             "Height": 29
           },
-          "Text": "afilictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -1976,11 +1938,7 @@
             "Height": 29
           },
           "Text": "La"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1079,
@@ -1989,11 +1947,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 122,
@@ -2027,7 +1981,7 @@
             "Width": 190,
             "Height": 30
           },
-          "Text": "surronnded"
+          "Text": "surrounded"
         }
       ]
     },
@@ -3113,7 +3067,7 @@
           "Bounds": {
             "X": 996,
             "Y": 1012,
-            "Width": 74,
+            "Width": 78,
             "Height": 29
           },
           "Text": "Land"
@@ -3620,10 +3574,10 @@
           "Bounds": {
             "X": 861,
             "Y": 1169,
-            "Width": 50,
+            "Width": 56,
             "Height": 29
           },
-          "Text": "ner"
+          "Text": "her"
         }
       ]
     },
@@ -3636,7 +3590,7 @@
             "Width": 149,
             "Height": 37
           },
-          "Text": "hushand"
+          "Text": "husband"
         }
       ]
     },
@@ -4483,10 +4437,10 @@
           "Bounds": {
             "X": 123,
             "Y": 1443,
-            "Width": 91,
+            "Width": 109,
             "Height": 29
           },
-          "Text": "Limbhi"
+          "Text": "Limhi"
         }
       ]
     },
@@ -4721,11 +4675,16 @@
             "Height": 29
           },
           "Text": "suffer"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1083,
+            "Y": 1482,
+            "Width": 29,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 119,
@@ -5492,7 +5451,7 @@
             "Width": 40,
             "Height": 25
           },
-          "Text": "iro"
+          "Text": "fro"
         }
       ]
     },
@@ -5544,7 +5503,7 @@
             "Width": 37,
             "Height": 37
           },
-          "Text": "ito"
+          "Text": "to"
         }
       ]
     },
@@ -5731,4 +5690,4 @@
       ]
     }
   ]
-}
+}

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2024,
   "ImageWidth": 1189,
+  "ManuallyEdited": true,
   "PageNumber": 207,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 82,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 488,
-            "Y": 83,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 549,
-            "Y": 82,
-            "Width": 113,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 62,
-            "Y": 155,
-            "Width": 30,
-            "Height": 33
-          },
-          "Text": "ed"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1163,10 +1112,23 @@
           "Bounds": {
             "X": 284,
             "Y": 515,
-            "Width": 134,
+            "Width": 59,
             "Height": 35
           },
-          "Text": "sayunto"
+          "Text": "say"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 343,
+            "Y": 515,
+            "Width": 76,
+            "Height": 35
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -2905,7 +2867,7 @@
             "Width": 47,
             "Height": 19
           },
-          "Text": "sce"
+          "Text": "see"
         }
       ]
     },
@@ -4995,10 +4957,23 @@
           "Bounds": {
             "X": 49,
             "Y": 1699,
-            "Width": 63,
+            "Width": 36,
             "Height": 28
           },
-          "Text": "onin"
+          "Text": "on"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 85,
+            "Y": 1699,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "in"
         }
       ]
     },
@@ -5106,6 +5081,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5562,4 +5538,4 @@
       ]
     }
   ]
-}
+}

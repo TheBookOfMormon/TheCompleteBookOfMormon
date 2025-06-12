@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1170,
+  "ManuallyEdited": true,
   "PageNumber": 200,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 112,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 111,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 664,
-            "Y": 110,
-            "Width": 117,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -850,11 +812,16 @@
             "Height": 30
           },
           "Text": "Abina"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1087,
+            "Y": 376,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 150,
@@ -1616,7 +1583,7 @@
             "Width": 101,
             "Height": 29
           },
-          "Text": "hefore"
+          "Text": "before"
         }
       ]
     },
@@ -3602,10 +3569,23 @@
           "Bounds": {
             "X": 635,
             "Y": 1274,
-            "Width": 105,
+            "Width": 50,
             "Height": 29
           },
-          "Text": "forthe"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 685,
+            "Y": 1274,
+            "Width": 56,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3918,11 +3898,7 @@
             "Height": 19
           },
           "Text": "na"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1071,
@@ -3931,11 +3907,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 150,
@@ -4915,7 +4887,7 @@
             "Width": 109,
             "Height": 37
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -5596,4 +5568,4 @@
       ]
     }
   ]
-}
+}

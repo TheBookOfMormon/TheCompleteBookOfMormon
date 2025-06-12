@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1203,
+  "ManuallyEdited": true,
   "PageNumber": 206,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 71,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOR"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 629,
-            "Y": 70,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 689,
-            "Y": 71,
-            "Width": 118,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -165,15 +127,20 @@
           "Bounds": {
             "X": 1035,
             "Y": 145,
-            "Width": 58,
-            "Height": 29
+            "Width": 83,
+            "Height": 28
           },
           "Text": "trans"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1110,
+            "Y": 145,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 167,
@@ -572,19 +539,6 @@
             "Height": 30
           },
           "Text": "have"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 146,
-            "Y": 316,
-            "Width": 2,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1488,10 +1442,23 @@
           "Bounds": {
             "X": 344,
             "Y": 578,
-            "Width": 120,
+            "Width": 49,
             "Height": 29
           },
-          "Text": "forever"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 393,
+            "Y": 578,
+            "Width": 72,
+            "Height": 29
+          },
+          "Text": "ever"
         }
       ]
     },
@@ -2561,6 +2528,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3853,6 +3821,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4171,10 +4140,23 @@
           "Bounds": {
             "X": 704,
             "Y": 1374,
-            "Width": 149,
+            "Width": 76,
             "Height": 39
           },
-          "Text": "thusthey"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 780,
+            "Y": 1374,
+            "Width": 74,
+            "Height": 39
+          },
+          "Text": "they"
         }
       ]
     },
@@ -4197,10 +4179,23 @@
           "Bounds": {
             "X": 960,
             "Y": 1371,
-            "Width": 169,
+            "Width": 115,
             "Height": 31
           },
-          "Text": "eternallife"
+          "Text": "eternal"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1075,
+            "Y": 1371,
+            "Width": 55,
+            "Height": 31
+          },
+          "Text": "life"
         }
       ]
     },
@@ -5296,6 +5291,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5618,11 +5614,7 @@
             "Height": 41
           },
           "Text": "perish"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1129,
@@ -5631,8 +5623,18 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 62,
+            "Y": 155,
+            "Width": 30,
+            "Height": 33
+          },
+          "IsOnNextPage": true,
+          "Text": "ed"
         }
       ]
     }
   ]
-}
+}

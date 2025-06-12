@@ -1,73 +1,9 @@
 {
   "ImageHeight": 2023,
   "ImageWidth": 1170,
+  "ManuallyEdited": true,
   "PageNumber": 205,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 2,
-            "Y": 0,
-            "Width": 17,
-            "Height": 9
-          },
-          "Text": "me"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 92,
-            "Y": 1,
-            "Width": 0,
-            "Height": 1
-          },
-          "Text": "BN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 65,
-            "Width": 76,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 480,
-            "Y": 65,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 540,
-            "Y": 66,
-            "Width": 111,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1828,6 +1764,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2536,10 +2473,23 @@
           "Bounds": {
             "X": 236,
             "Y": 845,
-            "Width": 161,
+            "Width": 65,
             "Height": 39
           },
-          "Text": "Sonbeing"
+          "Text": "Son"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 301,
+            "Y": 845,
+            "Width": 97,
+            "Height": 39
+          },
+          "Text": "being"
         }
       ]
     },
@@ -3456,10 +3406,23 @@
           "Bounds": {
             "X": 805,
             "Y": 1122,
-            "Width": 202,
+            "Width": 138,
             "Height": 39
           },
-          "Text": "iniquityand"
+          "Text": "iniquity"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 943,
+            "Y": 1122,
+            "Width": 65,
+            "Height": 39
+          },
+          "Text": "and"
         }
       ]
     },
@@ -5194,6 +5157,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5806,4 +5770,4 @@
       ]
     }
   ]
-}
+}

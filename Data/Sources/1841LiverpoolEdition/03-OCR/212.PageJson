@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1194,
+  "ManuallyEdited": true,
   "PageNumber": 212,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 101,
-            "Width": 75,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 102,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 103,
-            "Width": 111,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -458,6 +420,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2248,19 +2211,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 724,
-            "Y": 857,
-            "Width": 2,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 734,
             "Y": 837,
             "Width": 63,
@@ -2372,10 +2322,23 @@
           "Bounds": {
             "X": 503,
             "Y": 877,
-            "Width": 112,
+            "Width": 73,
             "Height": 29
           },
-          "Text": "thushe"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 576,
+            "Y": 877,
+            "Width": 40,
+            "Height": 29
+          },
+          "Text": "he"
         }
       ]
     },
@@ -4846,16 +4809,30 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 665,
             "Y": 1621,
-            "Width": 137,
+            "Width": 71,
             "Height": 29
           },
-          "Text": "thathad"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 736,
+            "Y": 1621,
+            "Width": 67,
+            "Height": 29
+          },
+          "Text": "had"
         }
       ]
     },
@@ -4865,10 +4842,23 @@
           "Bounds": {
             "X": 810,
             "Y": 1621,
-            "Width": 136,
+            "Width": 57,
             "Height": 34
           },
-          "Text": "butlittle"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 867,
+            "Y": 1621,
+            "Width": 80,
+            "Height": 34
+          },
+          "Text": "little"
         }
       ]
     },
@@ -4878,10 +4868,23 @@
           "Bounds": {
             "X": 968,
             "Y": 1619,
-            "Width": 130,
+            "Width": 55,
             "Height": 29
           },
-          "Text": "butlittle"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1023,
+            "Y": 1619,
+            "Width": 76,
+            "Height": 29
+          },
+          "Text": "little"
         }
       ]
     },
@@ -5060,10 +5063,23 @@
           "Bounds": {
             "X": 350,
             "Y": 1700,
-            "Width": 147,
+            "Width": 76,
             "Height": 38
           },
-          "Text": "thusthey"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 426,
+            "Y": 1700,
+            "Width": 72,
+            "Height": 38
+          },
+          "Text": "they"
         }
       ]
     },
@@ -5557,22 +5573,9 @@
             "Width": 67,
             "Height": 27
           },
-          "Text": "heen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 299,
-            "Y": 1858,
-            "Width": 19,
-            "Height": 26
-          },
-          "Text": "OD"
+          "Text": "been"
         }
       ]
     }
   ]
-}
+}

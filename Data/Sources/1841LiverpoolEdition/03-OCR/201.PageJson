@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2014,
   "ImageWidth": 1172,
+  "ManuallyEdited": true,
   "PageNumber": 201,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 367,
-            "Y": 106,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 105,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 105,
-            "Width": 114,
-            "Height": 21
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -996,6 +958,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1045,19 +1008,6 @@
             "Height": 29
           },
           "Text": "before"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 173,
-            "Y": 475,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2920,6 +2870,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5271,10 +5222,23 @@
           "Bounds": {
             "X": 403,
             "Y": 1674,
-            "Width": 133,
+            "Width": 81,
             "Height": 28
           },
-          "Text": "withme"
+          "Text": "with"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 484,
+            "Y": 1674,
+            "Width": 53,
+            "Height": 28
+          },
+          "Text": "me"
         }
       ]
     },
@@ -5534,7 +5498,7 @@
             "Width": 23,
             "Height": 27
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -5786,4 +5750,4 @@
       ]
     }
   ]
-}
+}

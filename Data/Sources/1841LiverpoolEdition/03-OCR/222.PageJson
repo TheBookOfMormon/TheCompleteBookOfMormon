@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1221,
+  "ManuallyEdited": true,
   "PageNumber": 222,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 469,
-            "Y": 66,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 577,
-            "Y": 66,
-            "Width": 37,
-            "Height": 20
-          },
-          "Text": "OR"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 642,
-            "Y": 66,
-            "Width": 115,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -269,10 +231,23 @@
           "Bounds": {
             "X": 671,
             "Y": 176,
-            "Width": 126,
+            "Width": 70,
             "Height": 30
           },
-          "Text": "thatthe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 741,
+            "Y": 176,
+            "Width": 57,
+            "Height": 30
+          },
+          "Text": "the"
         }
       ]
     },
@@ -380,6 +355,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1260,7 +1240,7 @@
             "Width": 93,
             "Height": 29
           },
-          "Text": "fiocks"
+          "Text": "flocks"
         }
       ]
     },
@@ -2262,11 +2242,16 @@
             "Height": 28
           },
           "Text": "Zara"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1071,
+            "Y": 808,
+            "Width": 29,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 107,
@@ -3535,32 +3520,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 454,
-            "Y": 1360,
-            "Width": 203,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 686,
-            "Y": 1360,
-            "Width": 51,
-            "Height": 29
-          },
-          "Text": "XL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 116,
             "Y": 1442,
             "Width": 40,
@@ -4738,4 +4697,4 @@
       ]
     }
   ]
-}
+}
