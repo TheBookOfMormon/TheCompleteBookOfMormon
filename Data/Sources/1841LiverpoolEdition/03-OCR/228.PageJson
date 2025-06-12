@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1199,
+  "ManuallyEdited": true,
   "PageNumber": 228,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 87,
-            "Width": 87,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 619,
-            "Y": 88,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 681,
-            "Y": 88,
-            "Width": 109,
-            "Height": 20
-          },
-          "Text": "MOSTAI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -269,10 +231,23 @@
           "Bounds": {
             "X": 968,
             "Y": 201,
-            "Width": 164,
+            "Width": 135,
             "Height": 36
           },
-          "Text": "togetherin"
+          "Text": "together"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1103,
+            "Y": 201,
+            "Width": 30,
+            "Height": 36
+          },
+          "Text": "in"
         }
       ]
     },
@@ -532,7 +507,7 @@
             "Width": 99,
             "Height": 28
           },
-          "Text": "Zenifl"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -697,11 +672,11 @@
         {
           "Bounds": {
             "X": 764,
-            "Y": 356,
-            "Width": 93,
-            "Height": 35
+            "Y": 359,
+            "Width": 101,
+            "Height": 29
           },
-          "Text": "Zenifl"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -835,6 +810,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -883,7 +860,7 @@
             "Width": 65,
             "Height": 29
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -1686,10 +1663,23 @@
           "Bounds": {
             "X": 292,
             "Y": 672,
-            "Width": 139,
+            "Width": 49,
             "Height": 29
           },
-          "Text": "forwhen"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 341,
+            "Y": 672,
+            "Width": 90,
+            "Height": 29
+          },
+          "Text": "when"
         }
       ]
     },
@@ -3168,10 +3158,23 @@
           "Bounds": {
             "X": 961,
             "Y": 1106,
-            "Width": 146,
+            "Width": 68,
             "Height": 29
           },
-          "Text": "theirsouls"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1029,
+            "Y": 1106,
+            "Width": 79,
+            "Height": 29
+          },
+          "Text": "souls"
         }
       ]
     },
@@ -3253,6 +3256,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3513,6 +3517,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4512,10 +4517,23 @@
           "Bounds": {
             "X": 768,
             "Y": 1540,
-            "Width": 244,
+            "Width": 210,
             "Height": 30
           },
-          "Text": "descendantsof"
+          "Text": "descendants"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 978,
+            "Y": 1540,
+            "Width": 35,
+            "Height": 30
+          },
+          "Text": "of"
         }
       ]
     },
@@ -4772,10 +4790,23 @@
           "Bounds": {
             "X": 767,
             "Y": 1620,
-            "Width": 166,
+            "Width": 55,
             "Height": 38
           },
-          "Text": "thepeople"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 822,
+            "Y": 1620,
+            "Width": 112,
+            "Height": 38
+          },
+          "Text": "people"
         }
       ]
     },
@@ -4922,6 +4953,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5456,4 +5492,4 @@
       ]
     }
   ]
-}
+}

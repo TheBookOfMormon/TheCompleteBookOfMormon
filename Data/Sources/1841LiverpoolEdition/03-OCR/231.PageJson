@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1148,
+  "ManuallyEdited": true,
   "PageNumber": 231,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 369,
-            "Y": 72,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 73,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 73,
-            "Width": 113,
-            "Height": 20
-          },
-          "Text": "MOSI1AH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1373,6 +1335,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1951,10 +1914,23 @@
           "Bounds": {
             "X": 923,
             "Y": 649,
-            "Width": 61,
+            "Width": 27,
             "Height": 28
           },
-          "Text": "itis"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 950,
+            "Y": 649,
+            "Width": 35,
+            "Height": 28
+          },
+          "Text": "is"
         }
       ]
     },
@@ -2900,10 +2876,23 @@
           "Bounds": {
             "X": 677,
             "Y": 921,
-            "Width": 154,
+            "Width": 82,
             "Height": 38
           },
-          "Text": "shallthey"
+          "Text": "shall"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 759,
+            "Y": 921,
+            "Width": 73,
+            "Height": 38
+          },
+          "Text": "they"
         }
       ]
     },
@@ -2939,10 +2928,23 @@
           "Bounds": {
             "X": 78,
             "Y": 959,
-            "Width": 58,
+            "Width": 14,
             "Height": 28
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 92,
+            "Y": 959,
+            "Width": 45,
+            "Height": 28
+          },
+          "Text": "am"
         }
       ]
     },
@@ -3008,6 +3010,19 @@
             "Height": 29
           },
           "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 582,
+            "Y": 961,
+            "Width": 15,
+            "Height": 29
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5058,7 +5073,7 @@
             "Width": 195,
             "Height": 38
           },
-          "Text": "neighbour's"
+          "Text": "neighbour\u0027s"
         }
       ]
     },
@@ -5487,7 +5502,7 @@
             "Width": 32,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5661,4 +5676,4 @@
       ]
     }
   ]
-}
+}

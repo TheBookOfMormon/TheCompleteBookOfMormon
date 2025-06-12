@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1205,
+  "ManuallyEdited": true,
   "PageNumber": 230,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 74,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 75,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 659,
-            "Y": 74,
-            "Width": 120,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1062,10 +1024,23 @@
           "Bounds": {
             "X": 808,
             "Y": 420,
-            "Width": 113,
+            "Width": 82,
             "Height": 28
           },
-          "Text": "werein"
+          "Text": "were"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 890,
+            "Y": 420,
+            "Width": 32,
+            "Height": 28
+          },
+          "Text": "in"
         }
       ]
     },
@@ -2401,10 +2376,23 @@
           "Bounds": {
             "X": 586,
             "Y": 852,
-            "Width": 225,
+            "Width": 33,
             "Height": 28
           },
-          "Text": "inabundance"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 619,
+            "Y": 852,
+            "Width": 193,
+            "Height": 28
+          },
+          "Text": "abundance"
         }
       ]
     },
@@ -3662,10 +3650,49 @@
           "Bounds": {
             "X": 731,
             "Y": 1244,
-            "Width": 370,
+            "Width": 157,
             "Height": 29
           },
-          "Text": "thereforeIdeliverthem"
+          "Text": "therefore"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 888,
+            "Y": 1244,
+            "Width": 15,
+            "Height": 29
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 903,
+            "Y": 1244,
+            "Width": 115,
+            "Height": 29
+          },
+          "Text": "deliver"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1018,
+            "Y": 1244,
+            "Width": 83,
+            "Height": 29
+          },
+          "Text": "them"
         }
       ]
     },
@@ -5529,4 +5556,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1219,
+  "ManuallyEdited": true,
   "PageNumber": 236,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 88,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 611,
-            "Y": 89,
-            "Width": 35,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 677,
-            "Y": 89,
-            "Width": 113,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -315,6 +277,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -328,6 +291,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1845,32 +1809,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 496,
-            "Y": 870,
-            "Width": 202,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 725,
-            "Y": 870,
-            "Width": 57,
-            "Height": 29
-          },
-          "Text": "XII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 202,
             "Y": 949,
             "Width": 67,
@@ -2717,11 +2655,11 @@
         {
           "Bounds": {
             "X": 159,
-            "Y": 1157,
-            "Width": 99,
-            "Height": 58
+            "Y": 1187,
+            "Width": 96,
+            "Height": 29
           },
-          "Text": "Band"
+          "Text": "heard"
         }
       ]
     },
@@ -3085,7 +3023,7 @@
             "Width": 62,
             "Height": 40
           },
-          "Text": "Gogl"
+          "Text": "God"
         }
       ]
     },
@@ -3332,7 +3270,7 @@
             "Width": 87,
             "Height": 45
           },
-          "Text": "atred"
+          "Text": "hatred"
         }
       ]
     },
@@ -3991,11 +3929,11 @@
         {
           "Bounds": {
             "X": 163,
-            "Y": 1551,
-            "Width": 112,
-            "Height": 60
+            "Y": 1581,
+            "Width": 114,
+            "Height": 29
           },
-          "Text": "shonld"
+          "Text": "should"
         }
       ]
     },
@@ -4819,12 +4757,8 @@
             "Width": 50,
             "Height": 30
           },
-          "Text": "infl"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "infi"
+        },
         {
           "Bounds": {
             "X": 1127,
@@ -4833,11 +4767,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 163,
@@ -4954,4 +4884,4 @@
       ]
     }
   ]
-}
+}
