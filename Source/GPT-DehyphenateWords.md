@@ -61,7 +61,7 @@ When the word does not start with `name:`
 
 ### Add derivations
 For each word in the Dictionary lookup-table, derive ALL APPLICABLE forms and add them into the same lookup table. DO NOT MAKE DERIVATIONS OF WORDS THAT CONTAIN APOSTROPHE (`'`)
-If the entry is marked as a **name**, apply the following derivations:
+If the entry is marked as a **name** (it starts with `name:`), apply the following derivations:
 - If it ends in `S`, add:
   - `{entry}'`
 - Always add:
