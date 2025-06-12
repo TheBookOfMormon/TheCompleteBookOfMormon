@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1184,
+  "ManuallyEdited": true,
   "PageNumber": 314,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 528,
-            "Y": 74,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 637,
-            "Y": 74,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 697,
-            "Y": 74,
-            "Width": 70,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -852,6 +814,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 281,
+            "Y": 339,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 309,
             "Y": 348,
             "Width": 119,
@@ -971,10 +946,23 @@
           "Bounds": {
             "X": 172,
             "Y": 377,
-            "Width": 221,
+            "Width": 97,
             "Height": 39
           },
-          "Text": "nightreceive"
+          "Text": "might"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 269,
+            "Y": 377,
+            "Width": 125,
+            "Height": 39
+          },
+          "Text": "receive"
         }
       ]
     },
@@ -1104,7 +1092,7 @@
             "Width": 71,
             "Height": 24
           },
-          "Text": "tnou"
+          "Text": "thou"
         }
       ]
     },
@@ -1368,6 +1356,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1949,7 +1938,7 @@
             "Width": 78,
             "Height": 28
           },
-          "Text": "ILord"
+          "Text": "Lord"
         }
       ]
     },
@@ -2109,6 +2098,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4224,7 +4214,7 @@
             "Width": 97,
             "Height": 37
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -5836,7 +5826,7 @@
             "Width": 36,
             "Height": 29
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5876,11 +5866,7 @@
             "Height": 27
           },
           "Text": "conten"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1087,
@@ -5889,8 +5875,18 @@
             "Height": 19
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 100,
+            "Y": 113,
+            "Width": 51,
+            "Height": 38
+          },
+          "IsOnNextPage": true,
+          "Text": "tion"
         }
       ]
     }
   ]
-}
+}

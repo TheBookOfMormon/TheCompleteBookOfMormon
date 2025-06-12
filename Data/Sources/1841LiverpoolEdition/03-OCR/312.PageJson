@@ -1,21 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1219,
+  "ManuallyEdited": true,
   "PageNumber": 312,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 914,
-            "Y": 1,
-            "Width": 69,
-            "Height": 53
-          },
-          "Text": "LS"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -142,46 +130,7 @@
             "Width": 33,
             "Height": 30
           },
-          "Text": "he"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 521,
-            "Y": 45,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 46,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 686,
-            "Y": 46,
-            "Width": 70,
-            "Height": 20
-          },
-          "Text": "ALMA"
+          "Text": "be"
         }
       ]
     },
@@ -985,11 +934,16 @@
             "Height": 28
           },
           "Text": "peo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1124,
+            "Y": 362,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 163,
@@ -1168,10 +1122,23 @@
           "Bounds": {
             "X": 260,
             "Y": 430,
-            "Width": 152,
+            "Width": 73,
             "Height": 38
           },
-          "Text": "thatthey"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 333,
+            "Y": 430,
+            "Width": 80,
+            "Height": 38
+          },
+          "Text": "they"
         }
       ]
     },
@@ -2151,7 +2118,7 @@
             "Width": 106,
             "Height": 28
           },
-          "Text": "whieh"
+          "Text": "which"
         }
       ]
     },
@@ -4082,7 +4049,7 @@
             "Width": 101,
             "Height": 39
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },

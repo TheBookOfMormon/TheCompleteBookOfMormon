@@ -34,7 +34,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private string? PageImageData;
     private PageState PageState = null!;
     private bool ShowDashes;
-    private static bool LastShowSurroundingText = true;
+    private bool LastShowSurroundingText = true;
     private bool ShowSurroundingText = true;
     private RequiredText[] Texts = [];
     private OcrWord Word = null!;

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1184,
+  "ManuallyEdited": true,
   "PageNumber": 272,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 101,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 595,
-            "Y": 101,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 656,
-            "Y": 101,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2476,39 +2438,14 @@
           "Bounds": {
             "X": 876,
             "Y": 842,
-            "Width": 80,
+            "Width": 234,
             "Height": 29
           },
-          "Text": "hard"
+          "Text": "hard-hearted"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 958,
-            "Y": 862,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 970,
-            "Y": 842,
-            "Width": 117,
-            "Height": 30
-          },
-          "Text": "hearted"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -3386,10 +3323,23 @@
           "Bounds": {
             "X": 287,
             "Y": 1123,
-            "Width": 120,
+            "Width": 88,
             "Height": 25
           },
-          "Text": "cameto"
+          "Text": "came"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 375,
+            "Y": 1123,
+            "Width": 33,
+            "Height": 25
+          },
+          "Text": "to"
         }
       ]
     },
@@ -3845,32 +3795,6 @@
             "Height": 30
           },
           "Text": "book"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 458,
-            "Y": 1395,
-            "Width": 204,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 689,
-            "Y": 1395,
-            "Width": 84,
-            "Height": 29
-          },
-          "Text": "VIII"
         }
       ]
     },
@@ -4391,11 +4315,7 @@
             "Height": 28
           },
           "Text": "Amin"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1087,
@@ -4404,11 +4324,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 130,
@@ -5232,4 +5148,4 @@
       ]
     }
   ]
-}
+}

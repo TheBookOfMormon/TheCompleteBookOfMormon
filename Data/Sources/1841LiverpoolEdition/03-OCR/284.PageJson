@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2009,
   "ImageWidth": 1195,
+  "ManuallyEdited": true,
   "PageNumber": 284,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 131,
-            "Width": 77,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 132,
-            "Width": 34,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 666,
-            "Y": 132,
-            "Width": 70,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -61,10 +23,36 @@
           "Bounds": {
             "X": 196,
             "Y": 195,
-            "Width": 309,
+            "Width": 64,
             "Height": 44
           },
-          "Text": "Sonforredemption"
+          "Text": "Son"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 260,
+            "Y": 195,
+            "Width": 51,
+            "Height": 44
+          },
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 311,
+            "Y": 195,
+            "Width": 195,
+            "Height": 44
+          },
+          "Text": "redemption"
         }
       ]
     },
@@ -87,10 +75,36 @@
           "Bounds": {
             "X": 618,
             "Y": 202,
-            "Width": 151,
+            "Width": 67,
             "Height": 31
           },
-          "Text": "thisisthe"
+          "Text": "this"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 685,
+            "Y": 202,
+            "Width": 31,
+            "Height": 31
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 716,
+            "Y": 202,
+            "Width": 55,
+            "Height": 31
+          },
+          "Text": "the"
         }
       ]
     },
@@ -636,7 +650,7 @@
             "Width": 72,
             "Height": 36
           },
-          "Text": "2v1l"
+          "Text": "evil"
         }
       ]
     },
@@ -727,7 +741,7 @@
             "Width": 167,
             "Height": 37
           },
-          "Text": "exereising"
+          "Text": "exercising"
         }
       ]
     },
@@ -845,11 +859,7 @@
             "Height": 28
           },
           "Text": "call"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1095,
@@ -858,11 +868,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 124,
@@ -870,7 +876,7 @@
             "Width": 66,
             "Height": 32
           },
-          "Text": "ng"
+          "Text": "ing"
         }
       ]
     },
@@ -1693,6 +1699,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4264,6 +4271,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4364,7 +4372,7 @@
             "Width": 23,
             "Height": 19
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -4645,19 +4653,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 494,
-            "Y": 1743,
-            "Width": 202,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 180,
             "Y": 1820,
             "Width": 67,
@@ -4902,4 +4897,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1215,
+  "ManuallyEdited": true,
   "PageNumber": 334,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 529,
-            "Y": 66,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 637,
-            "Y": 66,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 698,
-            "Y": 66,
-            "Width": 71,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -295,10 +257,23 @@
           "Bounds": {
             "X": 865,
             "Y": 178,
-            "Width": 116,
+            "Width": 90,
             "Height": 29
           },
-          "Text": "untilit"
+          "Text": "until"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 955,
+            "Y": 178,
+            "Width": 27,
+            "Height": 29
+          },
+          "Text": "it"
         }
       ]
     },
@@ -718,6 +693,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -731,6 +707,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1231,36 +1210,10 @@
           "Bounds": {
             "X": 194,
             "Y": 498,
-            "Width": 76,
+            "Width": 190,
             "Height": 28
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 276,
-            "Y": 517,
-            "Width": 8,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 290,
-            "Y": 496,
-            "Width": 104,
-            "Height": 30
-          },
-          "Text": "Christ"
+          "Text": "Anti-Christ"
         }
       ]
     },
@@ -1663,7 +1616,7 @@
             "Width": 98,
             "Height": 27
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -3249,7 +3202,7 @@
             "Width": 44,
             "Height": 29
           },
-          "Text": "four"
+          "Text": "for"
         }
       ]
     },
@@ -3522,7 +3475,7 @@
             "Width": 99,
             "Height": 26
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -3831,36 +3784,10 @@
           "Bounds": {
             "X": 264,
             "Y": 1257,
-            "Width": 75,
+            "Width": 190,
             "Height": 28
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 346,
-            "Y": 1273,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 357,
-            "Y": 1256,
-            "Width": 106,
-            "Height": 29
-          },
-          "Text": "Christ"
+          "Text": "Anti-Christ"
         }
       ]
     },
@@ -4033,6 +3960,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5352,10 +5281,23 @@
           "Bounds": {
             "X": 319,
             "Y": 1694,
-            "Width": 113,
+            "Width": 54,
             "Height": 29
           },
-          "Text": "not'see"
+          "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 373,
+            "Y": 1694,
+            "Width": 60,
+            "Height": 29
+          },
+          "Text": "see"
         }
       ]
     },
@@ -5495,10 +5437,23 @@
           "Bounds": {
             "X": 443,
             "Y": 1734,
-            "Width": 131,
+            "Width": 49,
             "Height": 29
           },
-          "Text": "Yelook"
+          "Text": "Ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 492,
+            "Y": 1734,
+            "Width": 83,
+            "Height": 29
+          },
+          "Text": "look"
         }
       ]
     },
@@ -5576,7 +5531,7 @@
             "Width": 45,
             "Height": 20
           },
-          "Text": "sce"
+          "Text": "see"
         }
       ]
     },
@@ -5854,4 +5809,4 @@
       ]
     }
   ]
-}
+}

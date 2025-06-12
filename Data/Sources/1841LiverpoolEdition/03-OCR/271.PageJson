@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1160,
+  "ManuallyEdited": true,
   "PageNumber": 271,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 73,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 74,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 557,
-            "Y": 73,
-            "Width": 71,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3287,10 +3249,23 @@
           "Bounds": {
             "X": 65,
             "Y": 1124,
-            "Width": 64,
+            "Width": 13,
             "Height": 40
           },
-          "Text": "Isay"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 78,
+            "Y": 1124,
+            "Width": 52,
+            "Height": 40
+          },
+          "Text": "say"
         }
       ]
     },
@@ -3875,7 +3850,7 @@
             "Width": 71,
             "Height": 24
           },
-          "Text": "nnto"
+          "Text": "unto"
         }
       ]
     },
@@ -3885,10 +3860,10 @@
           "Bounds": {
             "X": 429,
             "Y": 1295,
-            "Width": 47,
-            "Height": 28
+            "Width": 62,
+            "Height": 29
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -4933,7 +4908,7 @@
             "Width": 19,
             "Height": 19
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -5791,19 +5766,6 @@
           "Text": "redeem"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1,
-            "Y": 1970,
-            "Width": 23,
-            "Height": 34
-          },
-          "Text": "To"
-        }
-      ]
     }
   ]
-}
+}

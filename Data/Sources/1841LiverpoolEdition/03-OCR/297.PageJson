@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 297,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 79,
-            "Width": 76,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 79,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 596,
-            "Y": 79,
-            "Width": 72,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -755,10 +717,23 @@
           "Bounds": {
             "X": 113,
             "Y": 386,
-            "Width": 264,
+            "Width": 116,
             "Height": 40
           },
-          "Text": "havingimparted"
+          "Text": "having"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 229,
+            "Y": 386,
+            "Width": 149,
+            "Height": 40
+          },
+          "Text": "imparted"
         }
       ]
     },
@@ -846,15 +821,24 @@
           "Bounds": {
             "X": 849,
             "Y": 386,
-            "Width": 219,
+            "Width": 36,
             "Height": 30
           },
-          "Text": "oradminister"
+          "Text": "or"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 885,
+            "Y": 386,
+            "Width": 183,
+            "Height": 30
+          },
+          "Text": "administer"
+        },
         {
           "Bounds": {
             "X": 1076,
@@ -863,11 +847,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 113,
@@ -2266,7 +2246,7 @@
             "Width": 28,
             "Height": 26
           },
-          "Text": "ta"
+          "Text": "to"
         }
       ]
     },
@@ -3384,12 +3364,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 623,
+            "X": 640,
             "Y": 1138,
-            "Width": 89,
+            "Width": 72,
             "Height": 38
           },
-          "Text": "'king"
+          "Text": "king"
         }
       ]
     },
@@ -3439,9 +3419,9 @@
             "X": 119,
             "Y": 1177,
             "Width": 115,
-            "Height": 67
+            "Height": 37
           },
-          "Text": "gy"
+          "Text": "pleased"
         }
       ]
     },
@@ -3546,6 +3526,19 @@
             "Height": 29
           },
           "Text": "should"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 117,
+            "Y": 1216,
+            "Width": 40,
+            "Height": 29
+          },
+          "Text": "be"
         }
       ]
     },
@@ -4329,6 +4322,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4465,13 +4463,27 @@
           "Bounds": {
             "X": 858,
             "Y": 1455,
-            "Width": 165,
+            "Width": 88,
             "Height": 37
           },
-          "Text": "three'days"
+          "Text": "three"
         }
       ]
     },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 946,
+            "Y": 1455,
+            "Width": 78,
+            "Height": 37
+          },
+          "Text": "days"
+        }
+      ]
+    },
+    null,
     {
       "Elements": [
         {
@@ -4563,6 +4575,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5695,4 +5708,4 @@
       ]
     }
   ]
-}
+}

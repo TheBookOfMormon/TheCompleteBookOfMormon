@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 331,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 72,
-            "Width": 81,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 555,
-            "Y": 75,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 615,
-            "Y": 76,
-            "Width": 63,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 999,
-            "Y": 67,
-            "Width": 58,
-            "Height": 28
-          },
-          "Text": "O23"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -403,11 +352,16 @@
             "Height": 38
           },
           "Text": "slaugh"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1051,
+            "Y": 229,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 98,
@@ -1821,10 +1775,23 @@
           "Bounds": {
             "X": 832,
             "Y": 659,
-            "Width": 99,
+            "Width": 21,
             "Height": 28
           },
-          "Text": "atime"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 853,
+            "Y": 659,
+            "Width": 79,
+            "Height": 28
+          },
+          "Text": "time"
         }
       ]
     },
@@ -1851,11 +1818,16 @@
             "Height": 19
           },
           "Text": "so"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1048,
+            "Y": 664,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 98,
@@ -4374,7 +4346,7 @@
             "Width": 127,
             "Height": 38
           },
-          "Text": "ljecause"
+          "Text": "because"
         }
       ]
     },
@@ -4751,7 +4723,7 @@
             "Width": 98,
             "Height": 19
           },
-          "Text": "mown"
+          "Text": "mourn"
         }
       ]
     },

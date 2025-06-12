@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2023,
   "ImageWidth": 1179,
+  "ManuallyEdited": true,
   "PageNumber": 337,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 403,
-            "Y": 106,
-            "Width": 82,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 112,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 112,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 95,
-            "Y": 181,
-            "Width": 118,
-            "Height": 39
-          },
-          "Text": "cording"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -727,7 +676,7 @@
             "Width": 68,
             "Height": 28
           },
-          "Text": "thon"
+          "Text": "thou"
         }
       ]
     },
@@ -1845,7 +1794,7 @@
             "Width": 27,
             "Height": 28
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -2031,6 +1980,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2353,6 +2303,19 @@
             "Height": 29
           },
           "Text": "behold"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 519,
+            "Y": 806,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
         }
       ]
     },
@@ -2878,11 +2841,16 @@
             "Height": 29
           },
           "Text": "Be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1043,
+            "Y": 919,
+            "Width": 41,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 98,
@@ -3176,7 +3144,7 @@
             "Width": 70,
             "Height": 29
           },
-          "Text": "Ged"
+          "Text": "God"
         }
       ]
     },
@@ -3483,12 +3451,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1071,
-            "Y": 1095,
-            "Width": 7,
-            "Height": 6
+            "X": 98,
+            "Y": 1118,
+            "Width": 60,
+            "Height": 29
           },
-          "Text": "-"
+          "Text": "that"
         }
       ]
     },
@@ -3496,12 +3464,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 98,
+            "X": 158,
             "Y": 1118,
-            "Width": 98,
+            "Width": 39,
             "Height": 29
           },
-          "Text": "thathe"
+          "Text": "he"
         }
       ]
     },
@@ -3514,7 +3482,7 @@
             "Width": 58,
             "Height": 46
           },
-          "Text": "nfay"
+          "Text": "may"
         }
       ]
     },
@@ -3589,10 +3557,23 @@
           "Bounds": {
             "X": 760,
             "Y": 1117,
-            "Width": 139,
+            "Width": 68,
             "Height": 29
           },
-          "Text": "Andnow"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 828,
+            "Y": 1117,
+            "Width": 72,
+            "Height": 29
+          },
+          "Text": "now"
         }
       ]
     },
@@ -6080,6 +6061,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 230,
+            "Y": 1819,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 267,
             "Y": 1830,
             "Width": 40,
@@ -6322,19 +6316,6 @@
           "Text": "the"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 0,
-            "Y": 1981,
-            "Width": 27,
-            "Height": 41
-          },
-          "Text": "Ic"
-        }
-      ]
     }
   ]
-}
+}

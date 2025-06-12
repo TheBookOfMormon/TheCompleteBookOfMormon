@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1209,
+  "ManuallyEdited": true,
   "PageNumber": 300,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 521,
-            "Y": 50,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 50,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 686,
-            "Y": 49,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1317,7 +1279,7 @@
             "Width": 22,
             "Height": 26
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -1556,7 +1518,7 @@
             "Width": 95,
             "Height": 28
           },
-          "Text": "fiocks"
+          "Text": "flocks"
         }
       ]
     },
@@ -2788,10 +2750,23 @@
           "Bounds": {
             "X": 744,
             "Y": 944,
-            "Width": 156,
+            "Width": 92,
             "Height": 29
           },
-          "Text": "therehad"
+          "Text": "there"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 836,
+            "Y": 944,
+            "Width": 65,
+            "Height": 29
+          },
+          "Text": "had"
         }
       ]
     },
@@ -3779,7 +3754,7 @@
             "Width": 124,
             "Height": 29
           },
-          "Text": "execnte"
+          "Text": "execute"
         }
       ]
     },
@@ -4134,6 +4109,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4829,7 +4805,7 @@
             "Width": 30,
             "Height": 28
           },
-          "Text": "oi"
+          "Text": "of"
         }
       ]
     },
@@ -4855,7 +4831,7 @@
             "Width": 101,
             "Height": 36
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -5494,4 +5470,4 @@
       ]
     }
   ]
-}
+}

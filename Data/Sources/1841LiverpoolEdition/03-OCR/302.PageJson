@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1225,
+  "ManuallyEdited": true,
   "PageNumber": 302,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 531,
-            "Y": 51,
-            "Width": 82,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 641,
-            "Y": 52,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 701,
-            "Y": 51,
-            "Width": 71,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1559,6 +1521,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 994,
+            "Y": 515,
+            "Width": 15,
+            "Height": 29
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1034,
             "Y": 526,
             "Width": 38,
@@ -1720,7 +1695,7 @@
             "Width": 110,
             "Height": 37
           },
-          "Text": "Amage"
+          "Text": "image"
         }
       ]
     },
@@ -2006,7 +1981,7 @@
             "Width": 122,
             "Height": 39
           },
-          "Text": "bronght"
+          "Text": "brought"
         }
       ]
     },
@@ -2144,19 +2119,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 138,
-            "Y": 723,
-            "Width": 5,
-            "Height": 14
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 144,
             "Y": 712,
             "Width": 67,
@@ -2250,10 +2212,23 @@
           "Bounds": {
             "X": 784,
             "Y": 713,
-            "Width": 89,
+            "Width": 36,
             "Height": 28
           },
-          "Text": "inme"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 820,
+            "Y": 713,
+            "Width": 54,
+            "Height": 28
+          },
+          "Text": "me"
         }
       ]
     },
@@ -2699,6 +2674,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3125,6 +3101,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3836,10 +3813,12 @@
             "Width": 40,
             "Height": 26
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4817,19 +4796,6 @@
             "Height": 27
           },
           "Text": "he"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1211,
-            "Y": 1455,
-            "Width": 13,
-            "Height": 24
-          },
-          "Text": "I"
         }
       ]
     },

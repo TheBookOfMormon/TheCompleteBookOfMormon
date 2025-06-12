@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2020,
   "ImageWidth": 1195,
+  "ManuallyEdited": true,
   "PageNumber": 285,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 120,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 563,
-            "Y": 120,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 623,
-            "Y": 120,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -355,7 +317,7 @@
             "Width": 151,
             "Height": 36
           },
-          "Text": "choesing"
+          "Text": "choosing"
         }
       ]
     },
@@ -1556,7 +1518,7 @@
             "Width": 34,
             "Height": 28
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -1808,7 +1770,7 @@
             "Width": 63,
             "Height": 29
           },
-          "Text": "info"
+          "Text": "into"
         }
       ]
     },
@@ -2069,6 +2031,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4144,10 +4107,23 @@
           "Bounds": {
             "X": 775,
             "Y": 1453,
-            "Width": 163,
+            "Width": 74,
             "Height": 39
           },
-          "Text": "holyorder"
+          "Text": "holy"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 849,
+            "Y": 1453,
+            "Width": 90,
+            "Height": 39
+          },
+          "Text": "order"
         }
       ]
     },
@@ -5208,9 +5184,9 @@
             "X": 198,
             "Y": 1804,
             "Width": 79,
-            "Height": 72
+            "Height": 42
           },
-          "Text": "st"
+          "Text": "what"
         }
       ]
     },
@@ -5315,6 +5291,25 @@
             "Height": 39
           },
           "Text": "scrip"
+        },
+        {
+          "Bounds": {
+            "X": 1079,
+            "Y": 1815,
+            "Width": 29,
+            "Height": 29
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 140,
+            "Y": 152,
+            "Width": 84,
+            "Height": 26
+          },
+          "IsOnNextPage": true,
+          "Text": "tures"
         }
       ]
     }

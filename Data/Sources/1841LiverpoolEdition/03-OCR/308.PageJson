@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1217,
+  "ManuallyEdited": true,
   "PageNumber": 308,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 121,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 670,
-            "Y": 121,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 730,
-            "Y": 121,
-            "Width": 73,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -394,7 +356,7 @@
             "Width": 119,
             "Height": 28
           },
-          "Text": "Behola"
+          "Text": "Behold"
         }
       ]
     },
@@ -1695,6 +1657,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2516,11 +2479,16 @@
             "Height": 28
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1138,
+            "Y": 866,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 180,
@@ -3893,7 +3861,7 @@
             "Width": 14,
             "Height": 28
           },
-          "Text": "TI"
+          "Text": "I"
         }
       ]
     },
@@ -5197,6 +5165,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5483,6 +5452,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

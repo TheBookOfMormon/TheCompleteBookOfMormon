@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1184,
+  "ManuallyEdited": true,
   "PageNumber": 307,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 399,
-            "Y": 77,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 78,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 78,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -533,11 +495,16 @@
             "Height": 28
           },
           "Text": "Am"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1020,
+            "Y": 263,
+            "Width": 47,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 79,
@@ -783,6 +750,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1052,7 +1024,7 @@
             "Width": 115,
             "Height": 28
           },
-          "Text": "behcld"
+          "Text": "behold"
         }
       ]
     },
@@ -1296,10 +1268,23 @@
           "Bounds": {
             "X": 82,
             "Y": 501,
-            "Width": 207,
+            "Width": 117,
             "Height": 29
           },
-          "Text": "brotherAaron"
+          "Text": "brother"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 199,
+            "Y": 501,
+            "Width": 91,
+            "Height": 29
+          },
+          "Text": "Aaron"
         }
       ]
     },
@@ -4277,6 +4262,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5102,10 +5088,23 @@
           "Bounds": {
             "X": 847,
             "Y": 1559,
-            "Width": 87,
+            "Width": 34,
             "Height": 28
           },
-          "Text": "ofthe"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 881,
+            "Y": 1559,
+            "Width": 54,
+            "Height": 28
+          },
+          "Text": "the"
         }
       ]
     },

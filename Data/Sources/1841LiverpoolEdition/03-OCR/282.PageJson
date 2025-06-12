@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2017,
   "ImageWidth": 1160,
+  "ManuallyEdited": true,
   "PageNumber": 282,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 462,
-            "Y": 91,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 90,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 91,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -399,10 +361,23 @@
           "Bounds": {
             "X": 337,
             "Y": 237,
-            "Width": 204,
+            "Width": 168,
             "Height": 38
           },
-          "Text": "partakingof"
+          "Text": "partaking"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 505,
+            "Y": 237,
+            "Width": 37,
+            "Height": 38
+          },
+          "Text": "of"
         }
       ]
     },
@@ -627,6 +602,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -939,6 +915,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1121,6 +1098,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2440,10 +2418,23 @@
           "Bounds": {
             "X": 291,
             "Y": 822,
-            "Width": 55,
+            "Width": 29,
             "Height": 28
           },
-          "Text": "ifit"
+          "Text": "if"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 320,
+            "Y": 822,
+            "Width": 27,
+            "Height": 28
+          },
+          "Text": "it"
         }
       ]
     },
@@ -3813,7 +3804,7 @@
             "Width": 87,
             "Height": 29
           },
-          "Text": "etltect"
+          "Text": "effect"
         }
       ]
     },
@@ -3875,10 +3866,23 @@
           "Bounds": {
             "X": 941,
             "Y": 1215,
-            "Width": 89,
+            "Width": 52,
             "Height": 24
           },
-          "Text": "notso"
+          "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 993,
+            "Y": 1215,
+            "Width": 38,
+            "Height": 24
+          },
+          "Text": "so"
         }
       ]
     },
@@ -4122,10 +4126,23 @@
           "Bounds": {
             "X": 815,
             "Y": 1273,
-            "Width": 154,
+            "Width": 84,
             "Height": 45
           },
-          "Text": "eventhat"
+          "Text": "even"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 899,
+            "Y": 1273,
+            "Width": 71,
+            "Height": 45
+          },
+          "Text": "that"
         }
       ]
     },
@@ -4684,7 +4701,7 @@
             "Width": 68,
             "Height": 24
           },
-          "Text": "wnto"
+          "Text": "unto"
         }
       ]
     },
@@ -4707,23 +4724,10 @@
           "Bounds": {
             "X": 592,
             "Y": 1484,
-            "Width": 62,
+            "Width": 157,
             "Height": 29
           },
-          "Text": "ther"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 658,
-            "Y": 1469,
-            "Width": 81,
-            "Height": 43
-          },
-          "Text": "efore"
+          "Text": "therefore"
         }
       ]
     },
@@ -4879,7 +4883,7 @@
             "Width": 114,
             "Height": 29
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -5738,11 +5742,7 @@
             "Height": 26
           },
           "Text": "trans"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1036,
@@ -5751,8 +5751,18 @@
             "Height": 19
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 125,
+            "Y": 154,
+            "Width": 111,
+            "Height": 41
+          },
+          "IsOnNextPage": true,
+          "Text": "gressed"
         }
       ]
     }
   ]
-}
+}

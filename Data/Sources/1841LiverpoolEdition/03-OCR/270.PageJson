@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1172,
+  "ManuallyEdited": true,
   "PageNumber": 270,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 520,
-            "Y": 103,
-            "Width": 77,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 624,
-            "Y": 103,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 683,
-            "Y": 103,
-            "Width": 71,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1035,16 +997,21 @@
         {
           "Bounds": {
             "X": 980,
-            "Y": 417,
-            "Width": 98,
-            "Height": 21
+            "Y": 413,
+            "Width": 111,
+            "Height": 29
           },
           "Text": "remem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1089,
+            "Y": 413,
+            "Width": 29,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 144,
@@ -1430,11 +1397,7 @@
             "Height": 29
           },
           "Text": "inas"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1091,
@@ -1443,11 +1406,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 144,
@@ -3813,7 +3772,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4993,7 +4952,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },

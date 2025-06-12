@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1203,
+  "ManuallyEdited": true,
   "PageNumber": 338,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 89,
-            "Width": 78,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 90,
-            "Width": 31,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 677,
-            "Y": 90,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -220,7 +182,7 @@
             "Width": 32,
             "Height": 28
           },
-          "Text": "th"
+          "Text": "thy"
         }
       ]
     },
@@ -1324,10 +1286,23 @@
           "Bounds": {
             "X": 426,
             "Y": 511,
-            "Width": 125,
+            "Width": 94,
             "Height": 28
           },
-          "Text": "thereis"
+          "Text": "there"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 520,
+            "Y": 511,
+            "Width": 32,
+            "Height": 28
+          },
+          "Text": "is"
         }
       ]
     },
@@ -1912,7 +1887,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -2111,6 +2086,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2835,12 +2811,8 @@
             "Width": 107,
             "Height": 27
           },
-          "Text": "convine"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "convinc"
+        },
         {
           "Bounds": {
             "X": 1070,
@@ -2849,11 +2821,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 137,
@@ -3173,7 +3141,7 @@
             "Width": 94,
             "Height": 29
           },
-          "Text": "afilict"
+          "Text": "afflict"
         }
       ]
     },
@@ -4712,7 +4680,7 @@
             "Width": 106,
             "Height": 37
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -4842,7 +4810,7 @@
             "Width": 108,
             "Height": 37
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -5562,7 +5530,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "lre"
+          "Text": "he"
         }
       ]
     },
@@ -6122,11 +6090,16 @@
             "Height": 29
           },
           "Text": "there"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1092,
+            "Y": 1802,
+            "Width": 72,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 138,

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2017,
   "ImageWidth": 1191,
+  "ManuallyEdited": true,
   "PageNumber": 311,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 390,
-            "Y": 77,
-            "Width": 81,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 499,
-            "Y": 76,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 76,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -680,7 +642,7 @@
             "Width": 202,
             "Height": 39
           },
-          "Text": "concerning'"
+          "Text": "concerning"
         }
       ]
     },
@@ -1139,6 +1101,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1860,36 +1823,10 @@
           "Bounds": {
             "X": 782,
             "Y": 702,
-            "Width": 61,
-            "Height": 27
-          },
-          "Text": "Ani"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 846,
-            "Y": 720,
-            "Width": 10,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 859,
-            "Y": 701,
-            "Width": 66,
+            "Width": 153,
             "Height": 28
           },
-          "Text": "anti"
+          "Text": "Ani-anti"
         }
       ]
     },
@@ -1958,6 +1895,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2558,19 +2496,6 @@
             "Height": 30
           },
           "Text": "Middoni"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 277,
-            "Y": 952,
-            "Width": 0,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3998,11 +3923,16 @@
             "Height": 29
           },
           "Text": "whi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1016,
+            "Y": 1338,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 67,
@@ -4374,7 +4304,7 @@
             "Width": 87,
             "Height": 35
           },
-          "Text": "Where"
+          "Text": "where"
         }
       ]
     },
@@ -4847,7 +4777,7 @@
             "Width": 55,
             "Height": 22
           },
-          "Text": "Sos"
+          "Text": "sins"
         }
       ]
     },
@@ -5385,4 +5315,4 @@
       ]
     }
   ]
-}
+}

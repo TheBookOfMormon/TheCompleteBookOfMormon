@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1199,
+  "ManuallyEdited": true,
   "PageNumber": 276,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 543,
-            "Y": 55,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 652,
-            "Y": 55,
-            "Width": 34,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 713,
-            "Y": 54,
-            "Width": 71,
-            "Height": 22
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1612,11 +1574,16 @@
             "Height": 28
           },
           "Text": "evi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1114,
+            "Y": 599,
+            "Width": 29,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 163,
@@ -1859,19 +1826,6 @@
             "Height": 19
           },
           "Text": "or"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1081,
-            "Y": 691,
-            "Width": 3,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4873,10 +4827,23 @@
           "Bounds": {
             "X": 1045,
             "Y": 1500,
-            "Width": 77,
+            "Width": 59,
             "Height": 30
           },
-          "Text": "anda"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1104,
+            "Y": 1500,
+            "Width": 19,
+            "Height": 30
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5046,11 +5013,7 @@
             "Height": 28
           },
           "Text": "lim"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1116,
@@ -5059,11 +5022,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 167,
@@ -5578,7 +5537,7 @@
             "Width": 42,
             "Height": 29
           },
-          "Text": "ail"
+          "Text": "all"
         }
       ]
     },

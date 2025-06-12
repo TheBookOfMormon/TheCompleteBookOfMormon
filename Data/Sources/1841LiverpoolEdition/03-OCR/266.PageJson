@@ -1,73 +1,9 @@
 {
   "ImageHeight": 2024,
   "ImageWidth": 1166,
+  "ManuallyEdited": true,
   "PageNumber": 266,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 81,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 82,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 644,
-            "Y": 82,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 190,
-            "Width": 202,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 708,
-            "Y": 190,
-            "Width": 45,
-            "Height": 29
-          },
-          "Text": "VI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -285,7 +221,7 @@
             "Width": 108,
             "Height": 37
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -1179,10 +1115,23 @@
           "Bounds": {
             "X": 437,
             "Y": 585,
-            "Width": 107,
+            "Width": 77,
             "Height": 36
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 514,
+            "Y": 585,
+            "Width": 31,
+            "Height": 36
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1984,11 +1933,11 @@
         {
           "Bounds": {
             "X": 308,
-            "Y": 804,
-            "Width": 37,
-            "Height": 45
+            "Y": 829,
+            "Width": 29,
+            "Height": 26
           },
-          "Text": "To"
+          "Text": "to"
         }
       ]
     },
@@ -2647,6 +2596,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2865,11 +2819,7 @@
             "Height": 39
           },
           "Text": "Me"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1066,
@@ -2878,11 +2828,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 126,
@@ -2981,7 +2927,7 @@
             "Width": 82,
             "Height": 38
           },
-          "Text": "days'"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -4039,7 +3985,7 @@
             "Width": 93,
             "Height": 38
           },
-          "Text": "hegan"
+          "Text": "began"
         }
       ]
     },
@@ -4508,11 +4454,16 @@
             "Height": 29
           },
           "Text": "Never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1088,
+            "Y": 1529,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 135,
@@ -4546,7 +4497,7 @@
             "Width": 151,
             "Height": 29
           },
-          "Text": "labonred"
+          "Text": "laboured"
         }
       ]
     },
@@ -5258,7 +5209,7 @@
             "Width": 85,
             "Height": 29
           },
-          "Text": "Alina"
+          "Text": "Alma"
         }
       ]
     },
@@ -5419,4 +5370,4 @@
       ]
     }
   ]
-}
+}

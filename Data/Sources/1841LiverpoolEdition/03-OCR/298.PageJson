@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1228,
+  "ManuallyEdited": true,
   "PageNumber": 298,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 44,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 44,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 689,
-            "Y": 44,
-            "Width": 64,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -582,19 +544,6 @@
             "Height": 37
           },
           "Text": "ing"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 204,
-            "Y": 284,
-            "Width": 6,
-            "Height": 5
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1630,6 +1579,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2029,7 +1979,7 @@
             "Width": 40,
             "Height": 39
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -3342,7 +3292,7 @@
             "Width": 78,
             "Height": 29
           },
-          "Text": "tneir"
+          "Text": "their"
         }
       ]
     },
@@ -3706,7 +3656,7 @@
             "Width": 54,
             "Height": 19
           },
-          "Text": "onr"
+          "Text": "our"
         }
       ]
     },
@@ -4074,6 +4024,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4906,6 +4857,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5701,11 +5653,7 @@
             "Height": 29
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1110,
@@ -5714,8 +5662,18 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 99,
+            "Y": 170,
+            "Width": 79,
+            "Height": 21
+          },
+          "IsOnNextPage": true,
+          "Text": "cause"
         }
       ]
     }
   ]
-}
+}

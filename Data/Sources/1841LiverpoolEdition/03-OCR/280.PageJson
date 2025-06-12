@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2026,
   "ImageWidth": 1149,
+  "ManuallyEdited": true,
   "PageNumber": 280,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 69,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 570,
-            "Y": 68,
-            "Width": 32,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 629,
-            "Y": 69,
-            "Width": 82,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1253,11 +1215,16 @@
             "Height": 19
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1042,
+            "Y": 495,
+            "Width": 29,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 94,
@@ -1891,10 +1858,23 @@
           "Bounds": {
             "X": 668,
             "Y": 683,
-            "Width": 121,
+            "Width": 33,
             "Height": 29
           },
-          "Text": "ofthese"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 701,
+            "Y": 683,
+            "Width": 89,
+            "Height": 29
+          },
+          "Text": "these"
         }
       ]
     },
@@ -4059,10 +4039,23 @@
           "Bounds": {
             "X": 534,
             "Y": 1344,
-            "Width": 173,
+            "Width": 54,
             "Height": 37
           },
-          "Text": "thegreater"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 588,
+            "Y": 1344,
+            "Width": 120,
+            "Height": 37
+          },
+          "Text": "greater"
         }
       ]
     },
@@ -4244,7 +4237,7 @@
             "Width": 157,
             "Height": 36
           },
-          "Text": "mysterics"
+          "Text": "mysteries"
         }
       ]
     },
@@ -5081,7 +5074,7 @@
             "Width": 68,
             "Height": 30
           },
-          "Text": "bath"
+          "Text": "hath"
         }
       ]
     },
@@ -5565,32 +5558,6 @@
           "Text": "hardened"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 931,
-            "Y": 1976,
-            "Width": 4,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 943,
-            "Y": 2013,
-            "Width": 14,
-            "Height": 9
-          },
-          "Text": "Th"
-        }
-      ]
     }
   ]
-}
+}
