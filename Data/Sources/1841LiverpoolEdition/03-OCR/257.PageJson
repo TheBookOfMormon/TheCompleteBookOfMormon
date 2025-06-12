@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2022,
   "ImageWidth": 1166,
+  "ManuallyEdited": true,
   "PageNumber": 257,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 393,
-            "Y": 72,
-            "Width": 78,
-            "Height": 30
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 499,
-            "Y": 72,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 73,
-            "Width": 83,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -195,11 +157,16 @@
             "Height": 41
           },
           "Text": "other"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1027,
+            "Y": 148,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 77,
@@ -2588,10 +2555,23 @@
           "Bounds": {
             "X": 511,
             "Y": 850,
-            "Width": 123,
+            "Width": 61,
             "Height": 39
           },
-          "Text": "youfeel"
+          "Text": "you"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 572,
+            "Y": 850,
+            "Width": 63,
+            "Height": 39
+          },
+          "Text": "feel"
         }
       ]
     },
@@ -3163,7 +3143,7 @@
             "Width": 98,
             "Height": 39
           },
-          "Text": "gnilty"
+          "Text": "guilty"
         }
       ]
     },
@@ -3267,7 +3247,7 @@
             "Width": 139,
             "Height": 28
           },
-          "Text": "brethien"
+          "Text": "brethren"
         }
       ]
     },
@@ -4160,6 +4140,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4225,6 +4207,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5916,4 +5900,4 @@
       ]
     }
   ]
-}
+}

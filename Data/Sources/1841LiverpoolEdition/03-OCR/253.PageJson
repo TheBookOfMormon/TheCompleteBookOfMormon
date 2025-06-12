@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1179,
+  "ManuallyEdited": true,
   "PageNumber": 253,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 395,
-            "Y": 77,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 78,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 77,
-            "Width": 74,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +130,7 @@
             "Width": 128,
             "Height": 29
           },
-          "Text": "beeause"
+          "Text": "because"
         }
       ]
     },
@@ -3685,10 +3647,23 @@
           "Bounds": {
             "X": 68,
             "Y": 1250,
-            "Width": 120,
+            "Width": 92,
             "Height": 38
           },
-          "Text": "begunto"
+          "Text": "begun"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 160,
+            "Y": 1250,
+            "Width": 29,
+            "Height": 38
+          },
+          "Text": "to"
         }
       ]
     },
@@ -4295,9 +4270,9 @@
         {
           "Bounds": {
             "X": 217,
-            "Y": 1410,
-            "Width": 93,
-            "Height": 38
+            "Y": 1416,
+            "Width": 92,
+            "Height": 26
           },
           "Text": "hegan"
         }
@@ -4416,7 +4391,7 @@
             "Width": 87,
             "Height": 38
           },
-          "Text": "hegan"
+          "Text": "began"
         }
       ]
     },
@@ -5458,10 +5433,23 @@
           "Bounds": {
             "X": 910,
             "Y": 1725,
-            "Width": 119,
+            "Width": 63,
             "Height": 30
           },
-          "Text": "andthe"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 973,
+            "Y": 1725,
+            "Width": 57,
+            "Height": 30
+          },
+          "Text": "the"
         }
       ]
     },
@@ -5830,4 +5818,4 @@
       ]
     }
   ]
-}
+}

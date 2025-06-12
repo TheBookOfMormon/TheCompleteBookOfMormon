@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2022,
   "ImageWidth": 1168,
+  "ManuallyEdited": true,
   "PageNumber": 249,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 514,
-            "Y": 2,
-            "Width": 49,
-            "Height": 19
-          },
-          "Text": "EE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 360,
-            "Y": 82,
-            "Width": 82,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 470,
-            "Y": 82,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 530,
-            "Y": 81,
-            "Width": 67,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2162,7 +2111,7 @@
             "Width": 147,
             "Height": 38
           },
-          "Text": "INephites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -3198,6 +3147,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3328,6 +3278,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4946,7 +4898,7 @@
             "Width": 106,
             "Height": 29
           },
-          "Text": "hodies"
+          "Text": "bodies"
         }
       ]
     },
@@ -5437,10 +5389,23 @@
           "Bounds": {
             "X": 93,
             "Y": 1804,
-            "Width": 99,
+            "Width": 73,
             "Height": 33
           },
-          "Text": "And'it"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 166,
+            "Y": 1804,
+            "Width": 27,
+            "Height": 33
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5677,32 +5642,6 @@
           "Text": "Amlicites"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1,
-            "Y": 1966,
-            "Width": 447,
-            "Height": 55
-          },
-          "Text": "RR"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 562,
-            "Y": 1966,
-            "Width": 139,
-            "Height": 55
-          },
-          "Text": "Re"
-        }
-      ]
     }
   ]
-}
+}

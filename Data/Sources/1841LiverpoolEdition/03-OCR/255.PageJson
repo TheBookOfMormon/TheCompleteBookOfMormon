@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2013,
   "ImageWidth": 1187,
+  "ManuallyEdited": true,
   "PageNumber": 255,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 429,
-            "Y": 67,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 68,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 597,
-            "Y": 67,
-            "Width": 65,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -550,7 +512,7 @@
             "Width": 41,
             "Height": 28
           },
-          "Text": "np"
+          "Text": "up"
         }
       ]
     },
@@ -1016,32 +978,6 @@
             "Height": 39
           },
           "Text": "prophecy"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 412,
-            "Y": 507,
-            "Width": 204,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 644,
-            "Y": 507,
-            "Width": 44,
-            "Height": 29
-          },
-          "Text": "III"
         }
       ]
     },
@@ -3617,10 +3553,23 @@
           "Bounds": {
             "X": 111,
             "Y": 1367,
-            "Width": 84,
+            "Width": 33,
             "Height": 29
           },
-          "Text": "ofthe"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 144,
+            "Y": 1367,
+            "Width": 52,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3643,10 +3592,23 @@
           "Bounds": {
             "X": 414,
             "Y": 1367,
-            "Width": 93,
+            "Width": 34,
             "Height": 29
           },
-          "Text": "inthe"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 448,
+            "Y": 1367,
+            "Width": 60,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3720,11 +3682,11 @@
         {
           "Bounds": {
             "X": 1008,
-            "Y": 1379,
-            "Width": 49,
-            "Height": 28
+            "Y": 1380,
+            "Width": 55,
+            "Height": 26
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -3880,7 +3842,7 @@
             "Width": 50,
             "Height": 25
           },
-          "Text": "ont"
+          "Text": "out"
         }
       ]
     },
@@ -4696,7 +4658,7 @@
             "Width": 173,
             "Height": 40
           },
-          "Text": "sufliciently"
+          "Text": "sufficiently"
         }
       ]
     },
@@ -4788,11 +4750,7 @@
             "Height": 37
           },
           "Text": "long"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1080,
@@ -4801,11 +4759,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 118,
@@ -4815,8 +4769,10 @@
           },
           "Text": "suffering"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -4904,12 +4860,8 @@
             "Width": 63,
             "Height": 28
           },
-          "Text": "sufii"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "suffi"
+        },
         {
           "Bounds": {
             "X": 1079,
@@ -4918,11 +4870,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 117,
@@ -5139,19 +5087,6 @@
             "Height": 37
           },
           "Text": "hearts"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 238,
-            "Y": 1844,
-            "Width": 49,
-            "Height": 26
-          },
-          "Text": "By"
         }
       ]
     }

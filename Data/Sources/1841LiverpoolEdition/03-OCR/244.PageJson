@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1166,
+  "ManuallyEdited": true,
   "PageNumber": 244,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 529,
-            "Y": 80,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 638,
-            "Y": 79,
-            "Width": 35,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 700,
-            "Y": 79,
-            "Width": 70,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +130,7 @@
             "Width": 27,
             "Height": 27
           },
-          "Text": "fo"
+          "Text": "to"
         }
       ]
     },
@@ -181,7 +143,7 @@
             "Width": 31,
             "Height": 33
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -898,10 +860,23 @@
           "Bounds": {
             "X": 348,
             "Y": 385,
-            "Width": 189,
+            "Width": 59,
             "Height": 30
           },
-          "Text": "the'church"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 407,
+            "Y": 385,
+            "Width": 131,
+            "Height": 30
+          },
+          "Text": "church"
         }
       ]
     },
@@ -1005,7 +980,7 @@
             "Width": 140,
             "Height": 28
           },
-          "Text": "teaciiers"
+          "Text": "teachers"
         }
       ]
     },
@@ -2253,7 +2228,7 @@
             "Width": 67,
             "Height": 30
           },
-          "Text": "ahle"
+          "Text": "able"
         }
       ]
     },
@@ -2448,7 +2423,7 @@
             "Width": 75,
             "Height": 28
           },
-          "Text": "'who"
+          "Text": "who"
         }
       ]
     },
@@ -2666,10 +2641,23 @@
           "Bounds": {
             "X": 909,
             "Y": 900,
-            "Width": 157,
+            "Width": 40,
             "Height": 38
           },
-          "Text": "bejudged"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 949,
+            "Y": 900,
+            "Width": 118,
+            "Height": 38
+          },
+          "Text": "judged"
         }
       ]
     },
@@ -2683,11 +2671,16 @@
             "Height": 19
           },
           "Text": "ac"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1093,
+            "Y": 907,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 160,
@@ -2796,10 +2789,23 @@
           "Bounds": {
             "X": 1021,
             "Y": 940,
-            "Width": 85,
+            "Width": 63,
             "Height": 29
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1084,
+            "Y": 940,
+            "Width": 23,
+            "Height": 29
+          },
+          "Text": "it"
         }
       ]
     },
@@ -2848,10 +2854,23 @@
           "Bounds": {
             "X": 418,
             "Y": 980,
-            "Width": 113,
+            "Width": 70,
             "Height": 29
           },
-          "Text": "thathe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 488,
+            "Y": 980,
+            "Width": 44,
+            "Height": 29
+          },
+          "Text": "he"
         }
       ]
     },
@@ -3042,11 +3061,11 @@
         {
           "Bounds": {
             "X": 1046,
-            "Y": 1019,
-            "Width": 44,
-            "Height": 28
+            "Y": 1020,
+            "Width": 56,
+            "Height": 26
           },
-          "Text": "hin"
+          "Text": "him"
         }
       ]
     },
@@ -3190,11 +3209,16 @@
             "Height": 28
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1108,
+            "Y": 1059,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 157,
@@ -3215,7 +3239,7 @@
             "Width": 116,
             "Height": 28
           },
-          "Text": "ameng"
+          "Text": "among"
         }
       ]
     },
@@ -3514,7 +3538,7 @@
             "Width": 175,
             "Height": 38
           },
-          "Text": "priesteraft"
+          "Text": "priestcraft"
         }
       ]
     },
@@ -3671,11 +3695,16 @@
             "Height": 28
           },
           "Text": "destruc"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1103,
+            "Y": 1217,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 156,
@@ -4044,10 +4073,23 @@
           "Bounds": {
             "X": 764,
             "Y": 1334,
-            "Width": 151,
+            "Width": 56,
             "Height": 30
           },
-          "Text": "hisblood"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 820,
+            "Y": 1334,
+            "Width": 96,
+            "Height": 30
+          },
+          "Text": "blood"
         }
       ]
     },
@@ -4147,11 +4189,11 @@
         {
           "Bounds": {
             "X": 770,
-            "Y": 1375,
-            "Width": 68,
-            "Height": 29
+            "Y": 1376,
+            "Width": 76,
+            "Height": 26
           },
-          "Text": "thon"
+          "Text": "thou"
         }
       ]
     },
@@ -5557,4 +5599,4 @@
       ]
     }
   ]
-}
+}

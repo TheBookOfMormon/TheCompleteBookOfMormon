@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2013,
   "ImageWidth": 1153,
+  "ManuallyEdited": true,
   "PageNumber": 259,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 71,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 495,
-            "Y": 71,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 72,
-            "Width": 71,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 968,
-            "Y": 61,
-            "Width": 56,
-            "Height": 29
-          },
-          "Text": "vip"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -90,7 +39,7 @@
             "Width": 70,
             "Height": 25
           },
-          "Text": "unte"
+          "Text": "unto"
         }
       ]
     },
@@ -2020,11 +1969,16 @@
             "Height": 19
           },
           "Text": "concern"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1013,
+            "Y": 693,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 76,
@@ -2270,6 +2224,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2379,11 +2334,11 @@
         {
           "Bounds": {
             "X": 465,
-            "Y": 814,
-            "Width": 52,
-            "Height": 28
+            "Y": 815,
+            "Width": 55,
+            "Height": 26
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -3900,11 +3855,11 @@
         {
           "Bounds": {
             "X": 974,
-            "Y": 1205,
-            "Width": 50,
-            "Height": 19
+            "Y": 1202,
+            "Width": 51,
+            "Height": 26
           },
-          "Text": "cur"
+          "Text": "our"
         }
       ]
     },
@@ -3992,10 +3947,23 @@
           "Bounds": {
             "X": 690,
             "Y": 1234,
-            "Width": 88,
+            "Width": 33,
             "Height": 29
           },
-          "Text": "tothe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 723,
+            "Y": 1234,
+            "Width": 56,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -4257,10 +4225,49 @@
           "Bounds": {
             "X": 408,
             "Y": 1313,
-            "Width": 217,
+            "Width": 16,
             "Height": 37
           },
-          "Text": "Isayuntoyou"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 424,
+            "Y": 1313,
+            "Width": 60,
+            "Height": 37
+          },
+          "Text": "say"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 484,
+            "Y": 1313,
+            "Width": 78,
+            "Height": 37
+          },
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 562,
+            "Y": 1313,
+            "Width": 64,
+            "Height": 37
+          },
+          "Text": "you"
         }
       ]
     },
@@ -4732,6 +4739,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4871,7 +4879,7 @@
             "Width": 94,
             "Height": 28
           },
-          "Text": "merey"
+          "Text": "mercy"
         }
       ]
     },
@@ -4923,7 +4931,7 @@
             "Width": 104,
             "Height": 29
           },
-          "Text": "beheld"
+          "Text": "behold"
         }
       ]
     },
@@ -5560,7 +5568,7 @@
             "Width": 50,
             "Height": 29
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -5966,19 +5974,6 @@
           "Text": "the"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 184,
-            "Y": 1829,
-            "Width": 10,
-            "Height": 19
-          },
-          "Text": "I"
-        }
-      ]
     }
   ]
-}
+}

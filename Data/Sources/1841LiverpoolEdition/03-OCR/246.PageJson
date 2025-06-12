@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2024,
   "ImageWidth": 1169,
+  "ManuallyEdited": true,
   "PageNumber": 246,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 509,
-            "Y": 100,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 616,
-            "Y": 101,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 677,
-            "Y": 102,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -971,7 +933,7 @@
             "Width": 139,
             "Height": 37
           },
-          "Text": "afllicted"
+          "Text": "afflicted"
         }
       ]
     },
@@ -2915,10 +2877,23 @@
           "Bounds": {
             "X": 123,
             "Y": 1036,
-            "Width": 182,
+            "Width": 79,
             "Height": 29
           },
-          "Text": "wereliberal"
+          "Text": "were"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 202,
+            "Y": 1036,
+            "Width": 104,
+            "Height": 29
+          },
+          "Text": "liberal"
         }
       ]
     },
@@ -3123,10 +3098,23 @@
           "Bounds": {
             "X": 662,
             "Y": 1077,
-            "Width": 93,
+            "Width": 58,
             "Height": 27
           },
-          "Text": "outof"
+          "Text": "out"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 720,
+            "Y": 1077,
+            "Width": 36,
+            "Height": 27
+          },
+          "Text": "of"
         }
       ]
     },
@@ -3175,10 +3163,23 @@
           "Bounds": {
             "X": 1003,
             "Y": 1076,
-            "Width": 69,
+            "Width": 26,
             "Height": 28
           },
-          "Text": "inthe"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1029,
+            "Y": 1076,
+            "Width": 44,
+            "Height": 28
+          },
+          "Text": "the"
         }
       ]
     },
@@ -4118,6 +4119,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4808,7 +4810,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "ie"
+          "Text": "he"
         }
       ]
     },
@@ -5541,7 +5543,7 @@
             "Width": 33,
             "Height": 29
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5616,10 +5618,10 @@
           "Bounds": {
             "X": 1014,
             "Y": 1820,
-            "Width": 66,
+            "Width": 48,
             "Height": 30
           },
-          "Text": "fora"
+          "Text": "for"
         }
       ]
     },
@@ -5627,14 +5629,14 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 242,
-            "Y": 1873,
-            "Width": 10,
-            "Height": 19
+            "X": 1062,
+            "Y": 1820,
+            "Width": 19,
+            "Height": 30
           },
-          "Text": "I"
+          "Text": "a"
         }
       ]
     }
   ]
-}
+}

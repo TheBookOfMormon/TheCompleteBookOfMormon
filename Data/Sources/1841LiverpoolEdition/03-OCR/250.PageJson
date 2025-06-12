@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1167,
+  "ManuallyEdited": true,
   "PageNumber": 250,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 67,
-            "Width": 82,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 68,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 671,
-            "Y": 69,
-            "Width": 83,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -958,10 +920,23 @@
           "Bounds": {
             "X": 459,
             "Y": 414,
-            "Width": 154,
+            "Width": 58,
             "Height": 29
           },
-          "Text": "thenorth"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 517,
+            "Y": 414,
+            "Width": 97,
+            "Height": 29
+          },
+          "Text": "north"
         }
       ]
     },
@@ -2369,6 +2344,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3371,7 +3347,7 @@
             "Width": 70,
             "Height": 28
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -3827,11 +3803,7 @@
             "Height": 29
           },
           "Text": "dis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1072,
@@ -3840,11 +3812,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 111,
@@ -3852,7 +3820,7 @@
             "Width": 182,
             "Height": 38
           },
-          "Text": "tingnished"
+          "Text": "tinguished"
         }
       ]
     },
@@ -4757,19 +4725,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 865,
-            "Y": 1606,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 885,
             "Y": 1598,
             "Width": 102,
@@ -4827,10 +4782,12 @@
             "Width": 39,
             "Height": 27
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5521,4 +5478,4 @@
       ]
     }
   ]
-}
+}

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2014,
   "ImageWidth": 1173,
+  "ManuallyEdited": true,
   "PageNumber": 248,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 97,
-            "Width": 76,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 580,
-            "Y": 99,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 640,
-            "Y": 100,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 122,
-            "Y": 160,
-            "Width": 95,
-            "Height": 37
-          },
-          "Text": "pared"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1004,6 +953,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1043,6 +993,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1225,6 +1176,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1394,6 +1346,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1403,7 +1356,7 @@
             "Width": 95,
             "Height": 37
           },
-          "Text": "heing"
+          "Text": "being"
         }
       ]
     },
@@ -1426,10 +1379,23 @@
           "Bounds": {
             "X": 762,
             "Y": 558,
-            "Width": 173,
+            "Width": 82,
             "Height": 38
           },
-          "Text": "chiefjudge"
+          "Text": "chief"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 844,
+            "Y": 558,
+            "Width": 92,
+            "Height": 38
+          },
+          "Text": "judge"
         }
       ]
     },
@@ -1625,19 +1591,6 @@
             "Height": 36
           },
           "Text": "people"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 399,
-            "Y": 645,
-            "Width": 5,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2700,7 +2653,7 @@
             "Width": 101,
             "Height": 28
           },
-          "Text": "hefore"
+          "Text": "before"
         }
       ]
     },
@@ -5557,4 +5510,4 @@
       ]
     }
   ]
-}
+}

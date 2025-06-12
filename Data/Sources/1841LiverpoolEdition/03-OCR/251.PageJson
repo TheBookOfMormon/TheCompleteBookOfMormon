@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2017,
   "ImageWidth": 1170,
+  "ManuallyEdited": true,
   "PageNumber": 251,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 400,
-            "Y": 94,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 509,
-            "Y": 94,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 570,
-            "Y": 95,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -204,10 +166,23 @@
           "Bounds": {
             "X": 187,
             "Y": 205,
-            "Width": 106,
+            "Width": 20,
             "Height": 31
           },
-          "Text": "amark"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 207,
+            "Y": 205,
+            "Width": 87,
+            "Height": 31
+          },
+          "Text": "mark"
         }
       ]
     },
@@ -393,6 +368,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1382,7 +1358,7 @@
             "Width": 38,
             "Height": 37
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -1438,6 +1414,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1937,11 +1914,11 @@
         {
           "Bounds": {
             "X": 498,
-            "Y": 753,
-            "Width": 159,
-            "Height": 36
+            "Y": 758,
+            "Width": 155,
+            "Height": 26
           },
-          "Text": "Jurusalemn"
+          "Text": "Jurusalem"
         }
       ]
     },
@@ -2007,11 +1984,16 @@
             "Height": 25
           },
           "Text": "tra"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1010,
+            "Y": 757,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 69,
@@ -2354,10 +2336,23 @@
           "Bounds": {
             "X": 777,
             "Y": 872,
-            "Width": 153,
+            "Width": 83,
             "Height": 28
           },
-          "Text": "fromthat"
+          "Text": "from"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 860,
+            "Y": 872,
+            "Width": 71,
+            "Height": 28
+          },
+          "Text": "that"
         }
       ]
     },
@@ -4616,10 +4611,36 @@
           "Bounds": {
             "X": 145,
             "Y": 1533,
-            "Width": 209,
+            "Width": 85,
             "Height": 38
           },
-          "Text": "shallnomore"
+          "Text": "shall"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 230,
+            "Y": 1533,
+            "Width": 41,
+            "Height": 38
+          },
+          "Text": "no"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 271,
+            "Y": 1533,
+            "Width": 85,
+            "Height": 38
+          },
+          "Text": "more"
         }
       ]
     },
@@ -4632,7 +4653,7 @@
             "Width": 31,
             "Height": 46
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4655,10 +4676,23 @@
           "Bounds": {
             "X": 520,
             "Y": 1537,
-            "Width": 121,
+            "Width": 50,
             "Height": 38
           },
-          "Text": "thyseed"
+          "Text": "thy"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 570,
+            "Y": 1537,
+            "Width": 72,
+            "Height": 38
+          },
+          "Text": "seed"
         }
       ]
     },
@@ -4681,10 +4715,23 @@
           "Bounds": {
             "X": 761,
             "Y": 1531,
-            "Width": 68,
+            "Width": 14,
             "Height": 46
           },
-          "Text": "Twill"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 775,
+            "Y": 1531,
+            "Width": 55,
+            "Height": 46
+          },
+          "Text": "will"
         }
       ]
     },
@@ -4723,7 +4770,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "&e"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -5334,7 +5381,7 @@
             "Width": 182,
             "Height": 37
           },
-          "Text": "foreheads'"
+          "Text": "foreheads"
         }
       ]
     },
@@ -5558,19 +5605,6 @@
           "Text": "curse"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 0,
-            "Y": 1983,
-            "Width": 23,
-            "Height": 33
-          },
-          "Text": "Ts"
-        }
-      ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2017,
   "ImageWidth": 1176,
+  "ManuallyEdited": true,
   "PageNumber": 247,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 395,
-            "Y": 78,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 503,
-            "Y": 79,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 562,
-            "Y": 80,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -599,10 +561,23 @@
           "Bounds": {
             "X": 76,
             "Y": 308,
-            "Width": 100,
+            "Width": 49,
             "Height": 29
           },
-          "Text": "thelaw"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 125,
+            "Y": 308,
+            "Width": 52,
+            "Height": 29
+          },
+          "Text": "law"
         }
       ]
     },
@@ -1162,24 +1137,11 @@
         {
           "Bounds": {
             "X": 141,
-            "Y": 474,
-            "Width": 12,
-            "Height": 19
+            "Y": 471,
+            "Width": 156,
+            "Height": 26
           },
-          "Text": "a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 168,
-            "Y": 463,
-            "Width": 131,
-            "Height": 38
-          },
-          "Text": "larming"
+          "Text": "a larming"
         }
       ]
     },
@@ -2146,7 +2108,7 @@
             "Width": 39,
             "Height": 34
           },
-          "Text": "&e"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -5214,6 +5176,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5744,6 +5707,25 @@
             "Height": 28
           },
           "Text": "pre"
+        },
+        {
+          "Bounds": {
+            "X": 1011,
+            "Y": 1807,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 122,
+            "Y": 160,
+            "Width": 95,
+            "Height": 37
+          },
+          "IsOnNextPage": true,
+          "Text": "pared"
         }
       ]
     }

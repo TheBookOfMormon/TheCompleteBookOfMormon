@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1158,
+  "ManuallyEdited": true,
   "PageNumber": 261,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 389,
-            "Y": 70,
-            "Width": 81,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 73,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 74,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 957,
-            "Y": 66,
-            "Width": 58,
-            "Height": 28
-          },
-          "Text": "ny"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2192,11 +2141,11 @@
         {
           "Bounds": {
             "X": 741,
-            "Y": 703,
-            "Width": 46,
-            "Height": 28
+            "Y": 704,
+            "Width": 55,
+            "Height": 26
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -2248,7 +2197,7 @@
             "Width": 62,
             "Height": 32
           },
-          "Text": "hot"
+          "Text": "not"
         }
       ]
     },
@@ -2388,10 +2337,23 @@
           "Bounds": {
             "X": 775,
             "Y": 771,
-            "Width": 208,
+            "Width": 55,
             "Height": 38
           },
-          "Text": "thelanguage"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 830,
+            "Y": 771,
+            "Width": 154,
+            "Height": 38
+          },
+          "Text": "language"
         }
       ]
     },
@@ -3296,38 +3258,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 407,
-            "Y": 1204,
-            "Width": 201,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 635,
-            "Y": 1204,
-            "Width": 31,
-            "Height": 28
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 115,
             "Y": 1285,
             "Width": 61,
             "Height": 28
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -3506,10 +3442,36 @@
           "Bounds": {
             "X": 185,
             "Y": 1322,
-            "Width": 285,
+            "Width": 154,
             "Height": 39
           },
-          "Text": "speakinguntothe"
+          "Text": "speaking"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 339,
+            "Y": 1322,
+            "Width": 77,
+            "Height": 39
+          },
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 416,
+            "Y": 1322,
+            "Width": 56,
+            "Height": 39
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3805,10 +3767,23 @@
           "Bounds": {
             "X": 664,
             "Y": 1400,
-            "Width": 200,
+            "Width": 168,
             "Height": 37
           },
-          "Text": "accordingto"
+          "Text": "according"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 832,
+            "Y": 1400,
+            "Width": 33,
+            "Height": 37
+          },
+          "Text": "to"
         }
       ]
     },
@@ -5131,4 +5106,4 @@
       ]
     }
   ]
-}
+}
