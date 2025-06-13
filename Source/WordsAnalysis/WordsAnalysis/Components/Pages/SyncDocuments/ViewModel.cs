@@ -134,6 +134,7 @@ public class ViewModel
     {
         WordReferenceAndColumnIndex? wordInfo = await GetWordReferenceUnderMouseAsync();
         if (wordInfo == null) return;
+        if (wordInfo.Value.WordReference.GetWord(State.Editions[wordInfo.Value.WordReference.BookInfo]) == null) return;
 
         WordReference wordReference = wordInfo.Value.WordReference;
         int columnIndex = wordInfo.Value.ColumnIndex;
