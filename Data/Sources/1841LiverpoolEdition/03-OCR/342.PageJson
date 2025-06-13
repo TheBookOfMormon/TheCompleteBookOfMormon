@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2012,
   "ImageWidth": 1216,
+  "ManuallyEdited": true,
   "PageNumber": 342,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 520,
-            "Y": 78,
-            "Width": 80,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 77,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 686,
-            "Y": 78,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3040,26 +3002,14 @@
           "Bounds": {
             "X": 684,
             "Y": 1015,
-            "Width": 93,
-            "Height": 29
+            "Width": 284,
+            "Height": 28
           },
-          "Text": "fellow"
+          "Text": "fellow-labourers"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 789,
-            "Y": 999,
-            "Width": 171,
-            "Height": 46
-          },
-          "Text": "labourers"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -4370,6 +4320,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4596,11 +4547,11 @@
         {
           "Bounds": {
             "X": 1024,
-            "Y": 1487,
-            "Width": 68,
-            "Height": 39
+            "Y": 1492,
+            "Width": 87,
+            "Height": 28
           },
-          "Text": "agai"
+          "Text": "again"
         }
       ]
     },
@@ -5250,7 +5201,7 @@
             "Width": 55,
             "Height": 19
           },
-          "Text": "ene"
+          "Text": "one"
         }
       ]
     },
@@ -5546,4 +5497,4 @@
       ]
     }
   ]
-}
+}

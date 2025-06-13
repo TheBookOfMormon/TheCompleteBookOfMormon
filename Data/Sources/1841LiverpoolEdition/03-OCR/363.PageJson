@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1209,
+  "ManuallyEdited": true,
   "PageNumber": 363,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 460,
-            "Y": 65,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 568,
-            "Y": 65,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 64,
-            "Width": 62,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1421,7 +1383,7 @@
             "Width": 146,
             "Height": 35
           },
-          "Text": "holdness"
+          "Text": "boldness"
         }
       ]
     },
@@ -1460,7 +1422,7 @@
             "Width": 227,
             "Height": 34
           },
-          "Text": "overhearance"
+          "Text": "overbearance"
         }
       ]
     },
@@ -3109,32 +3071,6 @@
             "Height": 30
           },
           "Text": "farewell"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 454,
-            "Y": 1118,
-            "Width": 204,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 685,
-            "Y": 1117,
-            "Width": 74,
-            "Height": 29
-          },
-          "Text": "XIX"
         }
       ]
     },
@@ -5186,11 +5122,7 @@
             "Height": 20
           },
           "Text": "ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1108,
@@ -5199,8 +5131,18 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 136,
+            "Y": 142,
+            "Width": 67,
+            "Height": 20
+          },
+          "IsOnNextPage": true,
+          "Text": "cuse"
         }
       ]
     }
   ]
-}
+}

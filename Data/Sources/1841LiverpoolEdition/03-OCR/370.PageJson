@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1219,
+  "ManuallyEdited": true,
   "PageNumber": 370,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 521,
-            "Y": 58,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 630,
-            "Y": 59,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 690,
-            "Y": 60,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1134,6 +1096,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1195,7 +1158,7 @@
             "Width": 32,
             "Height": 28
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },
@@ -1364,7 +1327,7 @@
             "Width": 51,
             "Height": 29
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -1429,7 +1392,7 @@
             "Width": 70,
             "Height": 28
           },
-          "Text": "Ana"
+          "Text": "And"
         }
       ]
     },
@@ -2673,6 +2636,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3124,7 +3088,7 @@
             "Width": 125,
             "Height": 29
           },
-          "Text": "hecame"
+          "Text": "became"
         }
       ]
     },
@@ -3346,11 +3310,16 @@
             "Height": 19
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1098,
+            "Y": 1081,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 139,
@@ -3540,7 +3509,7 @@
             "Width": 97,
             "Height": 38
           },
-          "Text": "heing"
+          "Text": "being"
         }
       ]
     },
@@ -3974,7 +3943,7 @@
             "Width": 184,
             "Height": 31
           },
-          "Text": "disohedience"
+          "Text": "disobedience"
         }
       ]
     },
@@ -5674,4 +5643,4 @@
       ]
     }
   ]
-}
+}

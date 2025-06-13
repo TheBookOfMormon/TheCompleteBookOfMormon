@@ -787,10 +787,23 @@
           "Bounds": {
             "X": 674,
             "Y": 343,
-            "Width": 140,
+            "Width": 25,
             "Height": 28
           },
-          "Text": "itknown"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 699,
+            "Y": 343,
+            "Width": 116,
+            "Height": 28
+          },
+          "Text": "known"
         }
       ]
     },
@@ -999,37 +1012,11 @@
         {
           "Bounds": {
             "X": 241,
-            "Y": 426,
-            "Width": 26,
-            "Height": 25
+            "Y": 425,
+            "Width": 116,
+            "Height": 28
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 276,
-            "Y": 438,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 288,
-            "Y": 422,
-            "Width": 58,
-            "Height": 38
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -2590,11 +2577,7 @@
             "Height": 23
           },
           "Text": "asto"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1048,
@@ -2603,24 +2586,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 97,
-            "Y": 902,
-            "Width": 3,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 112,
@@ -2980,11 +2946,16 @@
             "Height": 27
           },
           "Text": "inter"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1052,
+            "Y": 968,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 109,
@@ -3902,7 +3873,7 @@
             "Width": 41,
             "Height": 28
           },
-          "Text": "np"
+          "Text": "up"
         }
       ]
     },

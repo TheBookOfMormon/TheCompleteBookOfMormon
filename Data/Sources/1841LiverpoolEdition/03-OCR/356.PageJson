@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1155,
+  "ManuallyEdited": true,
   "PageNumber": 356,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 82,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 585,
-            "Y": 82,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 82,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -308,10 +270,10 @@
           "Bounds": {
             "X": 911,
             "Y": 192,
-            "Width": 144,
+            "Width": 180,
             "Height": 28
           },
-          "Text": "everlastin"
+          "Text": "everlasting"
         }
       ]
     },
@@ -1659,6 +1621,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2133,10 +2096,10 @@
           "Bounds": {
             "X": 1009,
             "Y": 698,
-            "Width": 68,
+            "Width": 31,
             "Height": 30
           },
-          "Text": "tobe"
+          "Text": "to"
         }
       ]
     },
@@ -2144,12 +2107,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1105,
-            "Y": 714,
-            "Width": 3,
-            "Height": 3
+            "X": 1040,
+            "Y": 698,
+            "Width": 38,
+            "Height": 30
           },
-          "Text": "-"
+          "Text": "be"
         }
       ]
     },
@@ -2814,10 +2777,23 @@
           "Bounds": {
             "X": 997,
             "Y": 893,
-            "Width": 78,
+            "Width": 64,
             "Height": 28
           },
-          "Text": "thatl"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1061,
+            "Y": 893,
+            "Width": 14,
+            "Height": 28
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5370,7 +5346,7 @@
             "Width": 37,
             "Height": 28
           },
-          "Text": "ke"
+          "Text": "he"
         }
       ]
     },
@@ -5942,7 +5918,7 @@
             "Width": 51,
             "Height": 25
           },
-          "Text": "ont"
+          "Text": "out"
         }
       ]
     },
@@ -6194,4 +6170,4 @@
       ]
     }
   ]
-}
+}

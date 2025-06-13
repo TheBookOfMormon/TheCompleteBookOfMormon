@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2023,
   "ImageWidth": 1183,
+  "ManuallyEdited": true,
   "PageNumber": 352,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 96,
-            "Width": 81,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 97,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 646,
-            "Y": 98,
-            "Width": 74,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +143,7 @@
             "Width": 27,
             "Height": 30
           },
-          "Text": "iu"
+          "Text": "in"
         }
       ]
     },
@@ -662,7 +624,7 @@
             "Width": 34,
             "Height": 29
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -1572,7 +1534,7 @@
             "Width": 163,
             "Height": 37
           },
-          "Text": "yourgslves"
+          "Text": "yourselves"
         }
       ]
     },
@@ -1738,10 +1700,23 @@
           "Bounds": {
             "X": 249,
             "Y": 682,
-            "Width": 74,
+            "Width": 42,
             "Height": 28
           },
-          "Text": "bein"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 291,
+            "Y": 682,
+            "Width": 33,
+            "Height": 28
+          },
+          "Text": "in"
         }
       ]
     },
@@ -2249,11 +2224,16 @@
             "Height": 19
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1069,
+            "Y": 807,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 109,
@@ -2677,7 +2657,7 @@
             "Width": 100,
             "Height": 29
           },
-          "Text": "Irehold"
+          "Text": "behold"
         }
       ]
     },
@@ -2755,7 +2735,7 @@
             "Width": 96,
             "Height": 37
           },
-          "Text": "thihg"
+          "Text": "thing"
         }
       ]
     },
@@ -3652,7 +3632,7 @@
             "Width": 150,
             "Height": 30
           },
-          "Text": "afilictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -5321,4 +5301,4 @@
       ]
     }
   ]
-}
+}

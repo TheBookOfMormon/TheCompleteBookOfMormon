@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2013,
   "ImageWidth": 1151,
+  "ManuallyEdited": true,
   "PageNumber": 354,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 97,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 620,
-            "Y": 97,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 679,
-            "Y": 97,
-            "Width": 75,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -151,11 +113,11 @@
         {
           "Bounds": {
             "X": 1063,
-            "Y": 182,
-            "Width": 15,
-            "Height": 22
+            "Y": 179,
+            "Width": 37,
+            "Height": 28
           },
-          "Text": "ag"
+          "Text": "as"
         }
       ]
     },
@@ -658,6 +620,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1785,7 +1748,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -1968,19 +1931,6 @@
             "Height": 38
           },
           "Text": "concerning"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1108,
-            "Y": 734,
-            "Width": 3,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2280,32 +2230,6 @@
             "Height": 20
           },
           "Text": "record"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 997,
-            "Width": 202,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 681,
-            "Y": 997,
-            "Width": 99,
-            "Height": 29
-          },
-          "Text": "XVIL"
         }
       ]
     },
@@ -3152,10 +3076,23 @@
           "Bounds": {
             "X": 314,
             "Y": 1355,
-            "Width": 139,
+            "Width": 116,
             "Height": 36
           },
-          "Text": "exceptit"
+          "Text": "except"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 430,
+            "Y": 1355,
+            "Width": 24,
+            "Height": 36
+          },
+          "Text": "it"
         }
       ]
     },
@@ -3282,10 +3219,10 @@
           "Bounds": {
             "X": 177,
             "Y": 1393,
-            "Width": 84,
-            "Height": 27
+            "Width": 89,
+            "Height": 28
           },
-          "Text": "Isaae"
+          "Text": "Isaac"
         }
       ]
     },
@@ -3724,10 +3661,10 @@
           "Bounds": {
             "X": 295,
             "Y": 1511,
-            "Width": 68,
+            "Width": 75,
             "Height": 28
           },
-          "Text": "thon"
+          "Text": "thou"
         }
       ]
     },
@@ -4143,7 +4080,7 @@
             "Width": 164,
             "Height": 36
           },
-          "Text": "afilictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -4208,7 +4145,7 @@
             "Width": 40,
             "Height": 27
           },
-          "Text": "np"
+          "Text": "up"
         }
       ]
     },
@@ -5032,4 +4969,4 @@
       ]
     }
   ]
-}
+}

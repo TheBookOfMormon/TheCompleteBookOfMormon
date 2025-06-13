@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1207,
+  "ManuallyEdited": true,
   "PageNumber": 350,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 555,
-            "Y": 95,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 662,
-            "Y": 95,
-            "Width": 34,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 723,
-            "Y": 93,
-            "Width": 73,
-            "Height": 23
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -250,6 +212,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -428,7 +391,7 @@
             "Width": 96,
             "Height": 30
           },
-          "Text": "hlood"
+          "Text": "blood"
         }
       ]
     },
@@ -2207,16 +2170,30 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 171,
             "Y": 759,
-            "Width": 189,
+            "Width": 154,
             "Height": 41
           },
-          "Text": "pointinggto"
+          "Text": "pointing"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 325,
+            "Y": 759,
+            "Width": 36,
+            "Height": 41
+          },
+          "Text": "to"
         }
       ]
     },
@@ -4114,7 +4091,7 @@
             "Width": 76,
             "Height": 27
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -4657,10 +4634,23 @@
           "Bounds": {
             "X": 363,
             "Y": 1522,
-            "Width": 116,
+            "Width": 75,
             "Height": 20
           },
-          "Text": "overall"
+          "Text": "over"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 438,
+            "Y": 1522,
+            "Width": 42,
+            "Height": 20
+          },
+          "Text": "all"
         }
       ]
     },
@@ -4696,10 +4686,23 @@
           "Bounds": {
             "X": 695,
             "Y": 1516,
-            "Width": 127,
+            "Width": 53,
             "Height": 35
           },
-          "Text": "eryunto"
+          "Text": "cry"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 748,
+            "Y": 1516,
+            "Width": 75,
+            "Height": 35
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -4735,10 +4738,23 @@
           "Bounds": {
             "X": 950,
             "Y": 1512,
-            "Width": 168,
+            "Width": 65,
             "Height": 39
           },
-          "Text": "yourhouses"
+          "Text": "your"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1015,
+            "Y": 1512,
+            "Width": 104,
+            "Height": 39
+          },
+          "Text": "houses"
         }
       ]
     },
@@ -4839,36 +4855,10 @@
           "Bounds": {
             "X": 925,
             "Y": 1552,
-            "Width": 68,
-            "Height": 29
+            "Width": 143,
+            "Height": 28
           },
-          "Text": "mid"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 995,
-            "Y": 1569,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1007,
-            "Y": 1552,
-            "Width": 58,
-            "Height": 38
-          },
-          "Text": "day"
+          "Text": "mid-day"
         }
       ]
     },
@@ -5141,7 +5131,7 @@
             "Width": 24,
             "Height": 27
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -5578,6 +5568,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1116,
+            "Y": 1748,
+            "Width": 29,
+            "Height": 28
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 169,
             "Y": 1795,
             "Width": 53,
@@ -6004,4 +6007,4 @@
       ]
     }
   ]
-}
+}

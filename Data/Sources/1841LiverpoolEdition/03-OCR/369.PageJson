@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2017,
   "ImageWidth": 1200,
+  "ManuallyEdited": true,
   "PageNumber": 369,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 77,
-            "Width": 83,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 77,
-            "Width": 36,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 77,
-            "Width": 71,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1910,19 +1872,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1102,
-            "Y": 640,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 111,
             "Y": 667,
             "Width": 95,
@@ -2809,10 +2758,10 @@
           "Bounds": {
             "X": 194,
             "Y": 955,
-            "Width": 52,
-            "Height": 29
+            "Width": 60,
+            "Height": 28
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -5574,6 +5523,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6004,4 +5954,4 @@
       ]
     }
   ]
-}
+}

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 2023,
   "ImageWidth": 1192,
+  "ManuallyEdited": true,
   "PageNumber": 361,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1,
-            "Y": 0,
-            "Width": 8,
-            "Height": 12
-          },
-          "Text": "EB"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 2,
-            "Width": 531,
-            "Height": 19
-          },
-          "Text": "EEE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 428,
-            "Y": 76,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 76,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 595,
-            "Y": 76,
-            "Width": 75,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1823,6 +1759,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3106,7 +3043,7 @@
             "Width": 23,
             "Height": 28
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -3223,7 +3160,7 @@
             "Width": 23,
             "Height": 27
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -3396,6 +3333,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3951,7 +3890,7 @@
             "Width": 56,
             "Height": 29
           },
-          "Text": "or"
+          "Text": "For"
         }
       ]
     },
@@ -4707,10 +4646,23 @@
           "Bounds": {
             "X": 277,
             "Y": 1521,
-            "Width": 133,
+            "Width": 60,
             "Height": 40
           },
-          "Text": "thegwvay"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 337,
+            "Y": 1521,
+            "Width": 74,
+            "Height": 40
+          },
+          "Text": "way"
         }
       ]
     },
@@ -4815,6 +4767,19 @@
             "Height": 29
           },
           "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 86,
+            "Y": 1562,
+            "Width": 38,
+            "Height": 28
+          },
+          "Text": "so"
         }
       ]
     },
@@ -5716,4 +5681,4 @@
       ]
     }
   ]
-}
+}

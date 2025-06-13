@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1178,
+  "ManuallyEdited": true,
   "PageNumber": 375,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 435,
-            "Y": 96,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 94,
-            "Width": 32,
-            "Height": 22
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 603,
-            "Y": 96,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -892,6 +854,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1292,11 +1256,16 @@
             "Height": 28
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1030,
+            "Y": 517,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 100,
@@ -2202,16 +2171,25 @@
         {
           "Bounds": {
             "X": 861,
-            "Y": 789,
-            "Width": 169,
-            "Height": 39
+            "Y": 794,
+            "Width": 52,
+            "Height": 28
           },
-          "Text": "theiwilder"
+          "Text": "the"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 933,
+            "Y": 794,
+            "Width": 100,
+            "Height": 28
+          },
+          "Text": "wilder"
+        },
         {
           "Bounds": {
             "X": 1037,
@@ -2220,11 +2198,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 100,
@@ -4296,12 +4270,8 @@
             "Width": 47,
             "Height": 28
           },
-          "Text": "hor"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "bor"
+        },
         {
           "Bounds": {
             "X": 1025,
@@ -4310,11 +4280,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 101,
@@ -4449,10 +4415,10 @@
           "Bounds": {
             "X": 100,
             "Y": 1494,
-            "Width": 41,
-            "Height": 59
+            "Width": 79,
+            "Height": 28
           },
-          "Text": "ri"
+          "Text": "army"
         }
       ]
     },
@@ -4582,7 +4548,7 @@
             "Width": 32,
             "Height": 19
           },
-          "Text": "em"
+          "Text": "them"
         }
       ]
     },
@@ -4907,7 +4873,7 @@
             "Width": 55,
             "Height": 36
           },
-          "Text": "Was"
+          "Text": "was"
         }
       ]
     },
@@ -4937,6 +4903,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
