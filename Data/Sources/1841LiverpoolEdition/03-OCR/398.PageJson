@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1194,
+  "ManuallyEdited": true,
   "PageNumber": 398,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 61,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 610,
-            "Y": 62,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 670,
-            "Y": 62,
-            "Width": 64,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -590,11 +552,16 @@
             "Height": 29
           },
           "Text": "Si"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1070,
+            "Y": 250,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 122,
@@ -5076,7 +5043,7 @@
             "Width": 41,
             "Height": 29
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },
@@ -5479,7 +5446,7 @@
             "Width": 69,
             "Height": 43
           },
-          "Text": "thelr"
+          "Text": "their"
         }
       ]
     },

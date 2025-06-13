@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2018,
   "ImageWidth": 1195,
+  "ManuallyEdited": true,
   "PageNumber": 421,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 66,
-            "Width": 81,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 538,
-            "Y": 68,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 599,
-            "Y": 65,
-            "Width": 71,
-            "Height": 23
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -421,11 +383,16 @@
             "Height": 28
           },
           "Text": "dan"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1037,
+            "Y": 218,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 96,
@@ -1332,10 +1299,23 @@
           "Bounds": {
             "X": 789,
             "Y": 529,
-            "Width": 178,
+            "Width": 121,
             "Height": 30
           },
-          "Text": "shouldifall"
+          "Text": "should"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 910,
+            "Y": 529,
+            "Width": 58,
+            "Height": 30
+          },
+          "Text": "fall"
         }
       ]
     },
@@ -2310,7 +2290,7 @@
             "Width": 61,
             "Height": 28
           },
-          "Text": "inte"
+          "Text": "into"
         }
       ]
     },
@@ -3282,10 +3262,23 @@
           "Bounds": {
             "X": 210,
             "Y": 1119,
-            "Width": 87,
+            "Width": 15,
             "Height": 28
           },
-          "Text": "I'said"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 225,
+            "Y": 1119,
+            "Width": 73,
+            "Height": 28
+          },
+          "Text": "said"
         }
       ]
     },
@@ -3672,10 +3665,23 @@
           "Bounds": {
             "X": 87,
             "Y": 1235,
-            "Width": 139,
+            "Width": 82,
             "Height": 43
           },
-          "Text": "whetsay"
+          "Text": "what"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 169,
+            "Y": 1235,
+            "Width": 58,
+            "Height": 43
+          },
+          "Text": "say"
         }
       ]
     },
@@ -5643,4 +5649,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1192,
+  "ManuallyEdited": true,
   "PageNumber": 391,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 366,
-            "Y": 96,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 472,
-            "Y": 95,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 533,
-            "Y": 96,
-            "Width": 70,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -103,7 +65,7 @@
             "Width": 192,
             "Height": 36
           },
-          "Text": "Information"
+          "Text": "information"
         }
       ]
     },
@@ -1751,10 +1713,23 @@
           "Bounds": {
             "X": 183,
             "Y": 752,
-            "Width": 232,
+            "Width": 54,
             "Height": 28
           },
-          "Text": "thenineteenth"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 237,
+            "Y": 752,
+            "Width": 179,
+            "Height": 28
+          },
+          "Text": "nineteenth"
         }
       ]
     },
@@ -1816,10 +1791,36 @@
           "Bounds": {
             "X": 704,
             "Y": 750,
-            "Width": 200,
+            "Width": 34,
             "Height": 39
           },
-          "Text": "ofthejudges"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 738,
+            "Y": 750,
+            "Width": 54,
+            "Height": 39
+          },
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 792,
+            "Y": 750,
+            "Width": 114,
+            "Height": 39
+          },
+          "Text": "judges"
         }
       ]
     },
@@ -1829,15 +1830,24 @@
           "Bounds": {
             "X": 924,
             "Y": 751,
-            "Width": 99,
-            "Height": 29
+            "Width": 40,
+            "Height": 28
           },
-          "Text": "hehav"
+          "Text": "he"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 974,
+            "Y": 751,
+            "Width": 59,
+            "Height": 28
+          },
+          "Text": "hav"
+        },
         {
           "Bounds": {
             "X": 1031,
@@ -1846,11 +1856,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 89,
@@ -2076,10 +2082,36 @@
           "Bounds": {
             "X": 838,
             "Y": 831,
-            "Width": 198,
+            "Width": 34,
             "Height": 37
           },
-          "Text": "toreignover"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 872,
+            "Y": 831,
+            "Width": 89,
+            "Height": 37
+          },
+          "Text": "reign"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 961,
+            "Y": 831,
+            "Width": 76,
+            "Height": 37
+          },
+          "Text": "over"
         }
       ]
     },
@@ -4205,7 +4237,7 @@
             "Width": 179,
             "Height": 38
           },
-          "Text": "Aimlickiah"
+          "Text": "Amlickiah"
         }
       ]
     },
@@ -4417,6 +4449,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4487,11 +4520,11 @@
         {
           "Bounds": {
             "X": 89,
-            "Y": 1608,
-            "Width": 50,
-            "Height": 64
+            "Y": 1611,
+            "Width": 107,
+            "Height": 28
           },
-          "Text": "A"
+          "Text": "people"
         }
       ]
     },
@@ -4634,7 +4667,7 @@
             "Width": 34,
             "Height": 28
           },
-          "Text": "ad"
+          "Text": "had"
         }
       ]
     },

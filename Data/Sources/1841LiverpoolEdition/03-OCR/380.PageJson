@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1193,
+  "ManuallyEdited": true,
   "PageNumber": 380,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 56,
-            "Width": 77,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 648,
-            "Y": 56,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 710,
-            "Y": 56,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -364,11 +326,16 @@
             "Height": 20
           },
           "Text": "com"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1117,
+            "Y": 218,
+            "Width": 49,
+            "Height": 20
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 173,
@@ -523,6 +490,17 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1524,6 +1502,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2179,6 +2158,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2231,6 +2211,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4081,32 +4066,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 512,
-            "Y": 1507,
-            "Width": 204,
-            "Height": 32
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 743,
-            "Y": 1509,
-            "Width": 85,
-            "Height": 29
-          },
-          "Text": "XXL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 183,
             "Y": 1590,
             "Width": 59,
@@ -4373,11 +4332,16 @@
             "Height": 19
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1126,
+            "Y": 1632,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 217,
@@ -4741,4 +4705,4 @@
       ]
     }
   ]
-}
+}

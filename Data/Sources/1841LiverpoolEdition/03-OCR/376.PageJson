@@ -3606,6 +3606,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3846,10 +3851,23 @@
           "Bounds": {
             "X": 945,
             "Y": 1269,
-            "Width": 147,
+            "Width": 48,
             "Height": 31
           },
-          "Text": "thearmies"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 993,
+            "Y": 1269,
+            "Width": 100,
+            "Height": 31
+          },
+          "Text": "armies"
         }
       ]
     },
@@ -4113,6 +4131,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4135,7 +4154,7 @@
             "Width": 76,
             "Height": 29
           },
-          "Text": "sach"
+          "Text": "such"
         }
       ]
     },
@@ -4538,7 +4557,7 @@
             "Width": 205,
             "Height": 30
           },
-          "Text": "Zerahemnal"
+          "Text": "Zerahemnah"
         }
       ]
     },
@@ -4639,10 +4658,23 @@
           "Bounds": {
             "X": 621,
             "Y": 1549,
-            "Width": 190,
+            "Width": 87,
             "Height": 29
           },
-          "Text": "chiefleader"
+          "Text": "chief"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 708,
+            "Y": 1549,
+            "Width": 104,
+            "Height": 29
+          },
+          "Text": "leader"
         }
       ]
     },
@@ -5016,36 +5048,10 @@
           "Bounds": {
             "X": 635,
             "Y": 1668,
-            "Width": 80,
-            "Height": 29
+            "Width": 206,
+            "Height": 28
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 718,
-            "Y": 1686,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 729,
-            "Y": 1668,
-            "Width": 100,
-            "Height": 38
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -5146,36 +5152,10 @@
           "Bounds": {
             "X": 496,
             "Y": 1708,
-            "Width": 100,
-            "Height": 29
+            "Width": 228,
+            "Height": 28
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 601,
-            "Y": 1728,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 613,
-            "Y": 1708,
-            "Width": 98,
-            "Height": 38
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -5236,11 +5216,11 @@
         {
           "Bounds": {
             "X": 1061,
-            "Y": 1698,
-            "Width": 29,
-            "Height": 48
+            "Y": 1708,
+            "Width": 47,
+            "Height": 28
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },

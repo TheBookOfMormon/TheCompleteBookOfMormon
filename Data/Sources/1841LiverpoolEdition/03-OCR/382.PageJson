@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1207,
+  "ManuallyEdited": true,
   "PageNumber": 382,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 562,
-            "Y": 55,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 668,
-            "Y": 56,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 728,
-            "Y": 56,
-            "Width": 71,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -156,11 +118,16 @@
             "Height": 21
           },
           "Text": "ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1120,
+            "Y": 136,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 181,
@@ -315,6 +282,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -701,7 +669,7 @@
             "Width": 135,
             "Height": 38
           },
-          "Text": "righteous"
+          "Text": "righteous\u0027"
         }
       ]
     },
@@ -1200,7 +1168,7 @@
             "Width": 14,
             "Height": 28
           },
-          "Text": "TI"
+          "Text": "I"
         }
       ]
     },
@@ -2496,6 +2464,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3948,7 +3917,7 @@
             "Width": 119,
             "Height": 29
           },
-          "Text": "cleclare"
+          "Text": "declare"
         }
       ]
     },
@@ -5440,4 +5409,4 @@
       ]
     }
   ]
-}
+}

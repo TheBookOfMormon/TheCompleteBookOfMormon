@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2009,
   "ImageWidth": 1195,
+  "ManuallyEdited": true,
   "PageNumber": 389,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 416,
-            "Y": 83,
-            "Width": 80,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 82,
-            "Width": 36,
-            "Height": 24
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 583,
-            "Y": 83,
-            "Width": 69,
-            "Height": 23
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -251,7 +213,7 @@
             "Width": 155,
             "Height": 29
           },
-          "Text": "Lehonti's"
+          "Text": "Lehonti\u0027s"
         }
       ]
     },
@@ -1662,10 +1624,23 @@
           "Bounds": {
             "X": 85,
             "Y": 627,
-            "Width": 74,
+            "Width": 28,
             "Height": 29
           },
-          "Text": "tothe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 113,
+            "Y": 627,
+            "Width": 47,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3629,6 +3604,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5668,7 +5644,7 @@
             "Width": 21,
             "Height": 24
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -5679,9 +5655,9 @@
             "X": 220,
             "Y": 1809,
             "Width": 81,
-            "Height": 59
+            "Height": 29
           },
-          "Text": "hy"
+          "Text": "came"
         }
       ]
     },

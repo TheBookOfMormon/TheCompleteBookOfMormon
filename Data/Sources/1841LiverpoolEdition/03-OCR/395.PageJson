@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1194,
+  "ManuallyEdited": true,
   "PageNumber": 395,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 412,
-            "Y": 89,
-            "Width": 84,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 89,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 89,
-            "Width": 63,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -589,7 +551,7 @@
             "Width": 27,
             "Height": 19
           },
-          "Text": "ea"
+          "Text": "yea"
         }
       ]
     },
@@ -4015,20 +3977,7 @@
             "Width": 40,
             "Height": 38
           },
-          "Text": "'by"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 313,
-            "Y": 1358,
-            "Width": 7,
-            "Height": 6
-          },
-          "Text": "-"
+          "Text": "by"
         }
       ]
     },
@@ -4379,7 +4328,7 @@
             "Width": 114,
             "Height": 40
           },
-          "Text": "bronght"
+          "Text": "brought"
         }
       ]
     },
@@ -5537,11 +5486,7 @@
             "Height": 28
           },
           "Text": "at"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1047,
@@ -5550,6 +5495,16 @@
             "Height": 6
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 146,
+            "Y": 156,
+            "Width": 111,
+            "Height": 35
+          },
+          "IsOnNextPage": true,
+          "Text": "tempts"
         }
       ]
     }

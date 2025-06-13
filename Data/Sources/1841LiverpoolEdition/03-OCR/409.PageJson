@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2021,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 409,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 428,
-            "Y": 47,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 47,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 595,
-            "Y": 46,
-            "Width": 64,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -568,10 +530,23 @@
           "Bounds": {
             "X": 90,
             "Y": 275,
-            "Width": 90,
+            "Width": 38,
             "Height": 39
           },
-          "Text": "bythe"
+          "Text": "by"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 128,
+            "Y": 275,
+            "Width": 53,
+            "Height": 39
+          },
+          "Text": "the"
         }
       ]
     },
@@ -763,10 +738,23 @@
           "Bounds": {
             "X": 436,
             "Y": 314,
-            "Width": 99,
+            "Width": 43,
             "Height": 28
           },
-          "Text": "onthe"
+          "Text": "on"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 479,
+            "Y": 314,
+            "Width": 57,
+            "Height": 28
+          },
+          "Text": "the"
         }
       ]
     },
@@ -974,7 +962,7 @@
             "Width": 114,
             "Height": 28
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
@@ -1235,19 +1223,6 @@
             "Height": 27
           },
           "Text": "up"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 223,
-            "Y": 480,
-            "Width": 5,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2032,7 +2007,7 @@
             "Width": 106,
             "Height": 29
           },
-          "Text": "Mnlek"
+          "Text": "Mulek"
         }
       ]
     },
@@ -2679,7 +2654,7 @@
             "Width": 99,
             "Height": 29
           },
-          "Text": "Jaeob"
+          "Text": "Jacob"
         }
       ]
     },
@@ -2966,11 +2941,16 @@
             "Height": 29
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1048,
+            "Y": 983,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 92,
@@ -3355,7 +3335,7 @@
             "Width": 61,
             "Height": 25
           },
-          "Text": "wnto"
+          "Text": "unto"
         }
       ]
     },
@@ -4599,6 +4579,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4777,7 +4758,7 @@
             "Width": 55,
             "Height": 25
           },
-          "Text": "nto"
+          "Text": "into"
         }
       ]
     },
@@ -5367,7 +5348,7 @@
             "Width": 113,
             "Height": 40
           },
-          "Text": "gnards"
+          "Text": "guards"
         }
       ]
     },

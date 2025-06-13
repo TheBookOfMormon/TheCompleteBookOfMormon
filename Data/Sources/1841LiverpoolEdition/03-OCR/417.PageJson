@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2015,
   "ImageWidth": 1202,
+  "ManuallyEdited": true,
   "PageNumber": 417,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 384,
-            "Y": 75,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 75,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 549,
-            "Y": 74,
-            "Width": 71,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2663,10 +2625,23 @@
           "Bounds": {
             "X": 830,
             "Y": 933,
-            "Width": 207,
+            "Width": 34,
             "Height": 28
           },
-          "Text": "toremember"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 864,
+            "Y": 933,
+            "Width": 174,
+            "Height": 28
+          },
+          "Text": "remember"
         }
       ]
     },
@@ -3034,6 +3009,13 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4585,38 +4567,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 385,
-            "Y": 1677,
-            "Width": 201,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 614,
-            "Y": 1677,
-            "Width": 112,
-            "Height": 29
-          },
-          "Text": "XXVIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 120,
             "Y": 1753,
             "Width": 62,
             "Height": 45
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -4894,4 +4850,4 @@
       ]
     }
   ]
-}
+}

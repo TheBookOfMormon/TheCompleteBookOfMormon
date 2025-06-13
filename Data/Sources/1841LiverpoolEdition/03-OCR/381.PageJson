@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2006,
   "ImageWidth": 1178,
+  "ManuallyEdited": true,
   "PageNumber": 381,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 418,
-            "Y": 82,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 82,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 81,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 973,
-            "Y": 75,
-            "Width": 57,
-            "Height": 27
-          },
-          "Text": "S973"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,12 +130,8 @@
             "Width": 75,
             "Height": 28
           },
-          "Text": "theve"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "there"
+        },
         {
           "Bounds": {
             "X": 1020,
@@ -195,11 +140,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 83,
@@ -1304,7 +1245,7 @@
             "Width": 87,
             "Height": 29
           },
-          "Text": "Alina"
+          "Text": "Alma"
         }
       ]
     },
@@ -1343,7 +1284,7 @@
             "Width": 144,
             "Height": 28
           },
-          "Text": "bellevest"
+          "Text": "believest"
         }
       ]
     },
@@ -1787,10 +1728,23 @@
           "Bounds": {
             "X": 294,
             "Y": 661,
-            "Width": 112,
+            "Width": 42,
             "Height": 29
           },
-          "Text": "hesaid"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 336,
+            "Y": 661,
+            "Width": 70,
+            "Height": 29
+          },
+          "Text": "said"
         }
       ]
     },
@@ -2540,9 +2494,9 @@
         {
           "Bounds": {
             "X": 927,
-            "Y": 856,
-            "Width": 87,
-            "Height": 31
+            "Y": 857,
+            "Width": 85,
+            "Height": 28
           },
           "Text": "know"
         }
@@ -2736,10 +2690,23 @@
           "Bounds": {
             "X": 527,
             "Y": 934,
-            "Width": 163,
+            "Width": 67,
             "Height": 29
           },
-          "Text": "Andthese"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 594,
+            "Y": 934,
+            "Width": 97,
+            "Height": 29
+          },
+          "Text": "these"
         }
       ]
     },
@@ -3218,11 +3185,16 @@
             "Height": 28
           },
           "Text": "mani"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1034,
+            "Y": 1053,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 86,
@@ -5554,4 +5526,4 @@
       ]
     }
   ]
-}
+}

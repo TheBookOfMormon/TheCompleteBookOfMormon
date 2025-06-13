@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1200,
+  "ManuallyEdited": true,
   "PageNumber": 425,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 450,
-            "Y": 81,
-            "Width": 78,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 555,
-            "Y": 80,
-            "Width": 32,
-            "Height": 22
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 613,
-            "Y": 80,
-            "Width": 64,
-            "Height": 22
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1833,11 +1795,7 @@
             "Height": 20
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1059,
@@ -1846,11 +1804,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 126,
@@ -2574,19 +2528,6 @@
             "Height": 29
           },
           "Text": "my"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 2,
-            "Y": 940,
-            "Width": 10,
-            "Height": 26
-          },
-          "Text": "i"
         }
       ]
     },
@@ -3614,11 +3555,16 @@
             "Height": 28
           },
           "Text": "thou"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1073,
+            "Y": 1212,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 129,
@@ -5074,7 +5020,7 @@
             "Width": 174,
             "Height": 28
           },
-          "Text": "FLamanites"
+          "Text": "Lamanites"
         }
       ]
     },

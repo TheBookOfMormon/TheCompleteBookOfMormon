@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1160,
+  "ManuallyEdited": true,
   "PageNumber": 406,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 469,
-            "Y": 160,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 577,
-            "Y": 159,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 638,
-            "Y": 160,
-            "Width": 70,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -74,10 +36,23 @@
           "Bounds": {
             "X": 330,
             "Y": 228,
-            "Width": 232,
+            "Width": 141,
             "Height": 30
           },
-          "Text": "maintainthose"
+          "Text": "maintain"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 471,
+            "Y": 228,
+            "Width": 92,
+            "Height": 30
+          },
+          "Text": "those"
         }
       ]
     },
@@ -100,10 +75,23 @@
           "Bounds": {
             "X": 691,
             "Y": 229,
-            "Width": 181,
+            "Width": 106,
             "Height": 40
           },
-          "Text": "whichthey"
+          "Text": "which"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 797,
+            "Y": 229,
+            "Width": 76,
+            "Height": 40
+          },
+          "Text": "they"
         }
       ]
     },
@@ -403,11 +391,16 @@
             "Height": 30
           },
           "Text": "Tean"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1035,
+            "Y": 311,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 76,
@@ -415,7 +408,7 @@
             "Width": 58,
             "Height": 24
           },
-          "Text": "cuin"
+          "Text": "cum"
         }
       ]
     },
@@ -3077,7 +3070,7 @@
             "Width": 112,
             "Height": 29
           },
-          "Text": "Moreni"
+          "Text": "Moroni"
         }
       ]
     },
@@ -5323,4 +5316,4 @@
       ]
     }
   ]
-}
+}
