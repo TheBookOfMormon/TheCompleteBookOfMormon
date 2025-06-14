@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 18,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 366,
-            "Y": 91,
-            "Width": 71,
-            "Height": 18
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 452,
-            "Y": 90,
-            "Width": 60,
-            "Height": 23
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 531,
-            "Y": 89,
-            "Width": 26,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 88,
-            "Width": 69,
-            "Height": 24
-          },
-          "Text": "NEPRI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -207,7 +156,7 @@
             "Width": 72,
             "Height": 26
           },
-          "Text": "writs"
+          "Text": "write"
         }
       ]
     },
@@ -514,30 +463,13 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 830,
-            "Y": 222,
-            "Width": 3,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 833,
             "Y": 209,
             "Width": 65,
             "Height": 24
           },
-          "Text": "Abre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Abra"
+        },
         {
           "Bounds": {
             "X": 902,
@@ -546,11 +478,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 110,
@@ -1282,6 +1210,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1391,11 +1320,11 @@
         {
           "Bounds": {
             "X": 881,
-            "Y": 405,
-            "Width": 11,
-            "Height": 16
+            "Y": 401,
+            "Width": 30,
+            "Height": 25
           },
-          "Text": "o"
+          "Text": "of"
         }
       ]
     },
@@ -3115,16 +3044,30 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 468,
             "Y": 837,
-            "Width": 173,
+            "Width": 148,
             "Height": 24
           },
-          "Text": "wildernessto"
+          "Text": "wilderness"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 616,
+            "Y": 837,
+            "Width": 26,
+            "Height": 24
+          },
+          "Text": "to"
         }
       ]
     },
@@ -3878,7 +3821,7 @@
             "Width": 136,
             "Height": 24
           },
-          "Text": "housebold"
+          "Text": "household"
         }
       ]
     },
@@ -4333,7 +4276,7 @@
             "Width": 49,
             "Height": 24
           },
-          "Text": "ond"
+          "Text": "and"
         }
       ]
     },
@@ -6340,12 +6283,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 589,
+            "X": 529,
             "Y": 1559,
-            "Width": 20,
-            "Height": 24
+            "Width": 78,
+            "Height": 25
           },
-          "Text": "apgle"
+          "Text": "angle"
         }
       ]
     },
@@ -6501,7 +6444,7 @@
             "Width": 119,
             "Height": 33
           },
-          "Text": "fdrgotfen"
+          "Text": "forgotten"
         }
       ]
     },
@@ -6527,7 +6470,7 @@
             "Width": 68,
             "Height": 29
           },
-          "Text": "groat"
+          "Text": "great"
         }
       ]
     },
@@ -6541,19 +6484,6 @@
             "Height": 33
           },
           "Text": "things"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 399,
-            "Y": 1662,
-            "Width": 25,
-            "Height": 22
-          },
-          "Text": "wm"
         }
       ]
     }

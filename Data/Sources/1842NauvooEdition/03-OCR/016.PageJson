@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 16,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 383,
-            "Y": 88,
-            "Width": 117,
-            "Height": 35
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 85,
-            "Width": 62,
-            "Height": 39
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 563,
-            "Y": 85,
-            "Width": 29,
-            "Height": 39
-          },
-          "Text": "JF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 88,
-            "Width": 79,
-            "Height": 35
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -207,7 +156,7 @@
             "Width": 50,
             "Height": 25
           },
-          "Text": "osth"
+          "Text": "oath"
         }
       ]
     },
@@ -480,7 +429,7 @@
             "Width": 51,
             "Height": 26
           },
-          "Text": "end"
+          "Text": "and"
         }
       ]
     },
@@ -1132,10 +1081,23 @@
           "Bounds": {
             "X": 852,
             "Y": 376,
-            "Width": 81,
+            "Width": 36,
             "Height": 24
           },
-          "Text": "forshe"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 888,
+            "Y": 376,
+            "Width": 46,
+            "Height": 24
+          },
+          "Text": "she"
         }
       ]
     },
@@ -1522,10 +1484,23 @@
           "Bounds": {
             "X": 861,
             "Y": 478,
-            "Width": 70,
+            "Width": 55,
             "Height": 17
           },
-          "Text": "wasa"
+          "Text": "was"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 916,
+            "Y": 478,
+            "Width": 16,
+            "Height": 17
+          },
+          "Text": "a"
         }
       ]
     },
@@ -1655,7 +1630,7 @@
             "Width": 56,
             "Height": 25
           },
-          "Text": "frem"
+          "Text": "from"
         }
       ]
     },
@@ -3472,7 +3447,7 @@
             "Width": 62,
             "Height": 23
           },
-          "Text": "Liehi"
+          "Text": "Lehi"
         }
       ]
     },
@@ -4393,11 +4368,16 @@
             "Height": 25
           },
           "Text": "wilder"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 923,
+            "Y": 1099,
+            "Width": 22,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 134,
@@ -4717,7 +4697,7 @@
             "Width": 59,
             "Height": 23
           },
-          "Text": "aban"
+          "Text": "Laban"
         }
       ]
     },
@@ -5437,7 +5417,7 @@
             "Width": 62,
             "Height": 24
           },
-          "Text": "lsrael"
+          "Text": "Israel"
         }
       ]
     },
@@ -5467,6 +5447,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6453,10 +6434,23 @@
           "Bounds": {
             "X": 129,
             "Y": 1600,
-            "Width": 136,
+            "Width": 64,
             "Height": 25
           },
-          "Text": "esvendown"
+          "Text": "even"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 193,
+            "Y": 1600,
+            "Width": 73,
+            "Height": 25
+          },
+          "Text": "down"
         }
       ]
     },
@@ -6466,10 +6460,23 @@
           "Bounds": {
             "X": 277,
             "Y": 1602,
-            "Width": 69,
+            "Width": 26,
             "Height": 24
           },
-          "Text": "tothe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 303,
+            "Y": 1602,
+            "Width": 44,
+            "Height": 24
+          },
+          "Text": "the"
         }
       ]
     },
@@ -6543,11 +6550,11 @@
         {
           "Bounds": {
             "X": 783,
-            "Y": 1601,
-            "Width": 76,
-            "Height": 25
+            "Y": 1602,
+            "Width": 116,
+            "Height": 22
           },
-          "Text": "Zedeki"
+          "Text": "Zedekiah"
         }
       ]
     }
