@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1126,
+  "ManuallyEdited": true,
   "PageNumber": 484,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 83,
-            "Width": 73,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 84,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 646,
-            "Y": 84,
-            "Width": 146,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -113,10 +75,23 @@
           "Bounds": {
             "X": 539,
             "Y": 149,
-            "Width": 79,
+            "Width": 16,
             "Height": 44
           },
-          "Text": "Iwill"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 555,
+            "Y": 149,
+            "Width": 64,
+            "Height": 44
+          },
+          "Text": "will"
         }
       ]
     },
@@ -164,11 +139,24 @@
         {
           "Bounds": {
             "X": 906,
-            "Y": 156,
-            "Width": 156,
-            "Height": 37
+            "Y": 159,
+            "Width": 97,
+            "Height": 30
           },
-          "Text": "angersaith"
+          "Text": "anger"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 159,
+            "Width": 87,
+            "Height": 30
+          },
+          "Text": "saith"
         }
       ]
     },
@@ -636,7 +624,7 @@
             "Width": 26,
             "Height": 28
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -1854,11 +1842,11 @@
         {
           "Bounds": {
             "X": 536,
-            "Y": 630,
-            "Width": 163,
-            "Height": 37
+            "Y": 633,
+            "Width": 174,
+            "Height": 30
           },
-          "Text": "righteous"
+          "Text": "righteous\u0027"
         }
       ]
     },
@@ -3228,7 +3216,7 @@
             "Width": 73,
             "Height": 29
           },
-          "Text": "apon"
+          "Text": "upon"
         }
       ]
     },
@@ -3371,7 +3359,7 @@
             "Width": 124,
             "Height": 39
           },
-          "Text": "people's"
+          "Text": "people\u0027s"
         }
       ]
     },
@@ -4130,7 +4118,7 @@
             "Width": 34,
             "Height": 27
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4361,10 +4349,23 @@
           "Bounds": {
             "X": 284,
             "Y": 1381,
-            "Width": 143,
+            "Width": 68,
             "Height": 38
           },
-          "Text": "thatthey"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 352,
+            "Y": 1381,
+            "Width": 76,
+            "Height": 38
+          },
+          "Text": "they"
         }
       ]
     },
@@ -5945,6 +5946,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1022,
+            "Y": 1805,
+            "Width": 53,
+            "Height": 32
+          },
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 100,
             "Y": 1860,
             "Width": 68,
@@ -6063,11 +6077,11 @@
         {
           "Bounds": {
             "X": 955,
-            "Y": 1845,
-            "Width": 72,
-            "Height": 32
+            "Y": 1846,
+            "Width": 120,
+            "Height": 30
           },
-          "Text": "Beho"
+          "Text": "Behold"
         }
       ]
     }

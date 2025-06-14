@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1120,
+  "ManuallyEdited": true,
   "PageNumber": 490,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 73,
-            "Width": 78,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 73,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 622,
-            "Y": 72,
-            "Width": 145,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -272,7 +234,7 @@
             "Width": 56,
             "Height": 31
           },
-          "Text": "haye"
+          "Text": "have"
         }
       ]
     },
@@ -285,7 +247,7 @@
             "Width": 71,
             "Height": 29
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -637,11 +599,16 @@
             "Height": 29
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1066,
+            "Y": 301,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 142,
@@ -672,10 +639,23 @@
           "Bounds": {
             "X": 361,
             "Y": 338,
-            "Width": 115,
+            "Width": 50,
             "Height": 29
           },
-          "Text": "forthis"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 411,
+            "Y": 338,
+            "Width": 66,
+            "Height": 29
+          },
+          "Text": "this"
         }
       ]
     },
@@ -2098,11 +2078,16 @@
             "Height": 29
           },
           "Text": "your"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1072,
+            "Y": 739,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 136,
@@ -2237,10 +2222,23 @@
           "Bounds": {
             "X": 970,
             "Y": 769,
-            "Width": 89,
+            "Width": 62,
             "Height": 29
           },
-          "Text": "themas"
+          "Text": "them"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1032,
+            "Y": 769,
+            "Width": 28,
+            "Height": 29
+          },
+          "Text": "as"
         }
       ]
     },
@@ -2344,7 +2342,7 @@
             "Width": 83,
             "Height": 28
           },
-          "Text": "trnth"
+          "Text": "truth"
         }
       ]
     },
@@ -2639,24 +2637,11 @@
         {
           "Bounds": {
             "X": 137,
-            "Y": 925,
-            "Width": 62,
-            "Height": 69
-          },
-          "Text": "id"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 243,
             "Y": 929,
-            "Width": 78,
-            "Height": 27
+            "Width": 194,
+            "Height": 30
           },
-          "Text": "ecies"
+          "Text": "prophecies"
         }
       ]
     },
@@ -2773,7 +2758,7 @@
             "Width": 110,
             "Height": 28
           },
-          "Text": "eadeth"
+          "Text": "leadeth"
         }
       ]
     },
@@ -3020,7 +3005,7 @@
             "Width": 75,
             "Height": 24
           },
-          "Text": "anto"
+          "Text": "unto"
         }
       ]
     },
@@ -3514,7 +3499,7 @@
             "Width": 108,
             "Height": 28
           },
-          "Text": "huried"
+          "Text": "buried"
         }
       ]
     },
@@ -4633,11 +4618,16 @@
             "Height": 19
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1075,
+            "Y": 1477,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 143,
@@ -5100,7 +5090,7 @@
             "Width": 57,
             "Height": 28
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -5620,7 +5610,7 @@
             "Width": 58,
             "Height": 24
           },
-          "Text": "time"
+          "Text": "times"
         }
       ]
     },

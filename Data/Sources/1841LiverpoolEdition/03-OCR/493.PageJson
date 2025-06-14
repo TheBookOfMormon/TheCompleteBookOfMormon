@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2008,
   "ImageWidth": 1173,
+  "ManuallyEdited": true,
   "PageNumber": 493,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 336,
-            "Y": 75,
-            "Width": 77,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 440,
-            "Y": 74,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 74,
-            "Width": 144,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1538,7 +1500,7 @@
             "Width": 120,
             "Height": 30
           },
-          "Text": "wieked"
+          "Text": "wicked"
         }
       ]
     },
@@ -1808,10 +1770,23 @@
           "Bounds": {
             "X": 438,
             "Y": 615,
-            "Width": 158,
+            "Width": 93,
             "Height": 38
           },
-          "Text": "greatand"
+          "Text": "great"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 531,
+            "Y": 615,
+            "Width": 66,
+            "Height": 38
+          },
+          "Text": "and"
         }
       ]
     },
@@ -2964,6 +2939,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3428,7 +3404,7 @@
             "Width": 22,
             "Height": 26
           },
-          "Text": "mn"
+          "Text": "in"
         }
       ]
     },
@@ -4699,10 +4675,23 @@
           "Bounds": {
             "X": 70,
             "Y": 1474,
-            "Width": 114,
+            "Width": 50,
             "Height": 32
           },
-          "Text": "theland"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 120,
+            "Y": 1474,
+            "Width": 65,
+            "Height": 32
+          },
+          "Text": "land"
         }
       ]
     },
@@ -4829,10 +4818,23 @@
           "Bounds": {
             "X": 72,
             "Y": 1513,
-            "Width": 75,
+            "Width": 30,
             "Height": 30
           },
-          "Text": "ofthe"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 102,
+            "Y": 1513,
+            "Width": 46,
+            "Height": 30
+          },
+          "Text": "the"
         }
       ]
     },
@@ -5137,19 +5139,6 @@
             "Height": 19
           },
           "Text": "sons"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 405,
-            "Y": 1732,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "o"
         }
       ]
     }

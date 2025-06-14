@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1138,
+  "ManuallyEdited": true,
   "PageNumber": 476,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 74,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 74,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 613,
-            "Y": 74,
-            "Width": 158,
-            "Height": 22
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -233,7 +195,7 @@
             "Width": 54,
             "Height": 29
           },
-          "Text": "vou"
+          "Text": "you"
         }
       ]
     },
@@ -892,6 +854,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1123,11 +1086,16 @@
             "Height": 28
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1051,
+            "Y": 421,
+            "Width": 30,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 107,
@@ -1152,6 +1120,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2973,7 +2942,7 @@
             "Width": 186,
             "Height": 37
           },
-          "Text": "coneerning"
+          "Text": "concerning"
         }
       ]
     },
@@ -5484,7 +5453,7 @@
             "Width": 91,
             "Height": 39
           },
-          "Text": "hegan"
+          "Text": "began"
         }
       ]
     },
@@ -5510,7 +5479,7 @@
             "Width": 34,
             "Height": 30
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5588,9 +5557,28 @@
             "Width": 51,
             "Height": 30
           },
-          "Text": "divk"
+          "Text": "divi"
+        },
+        {
+          "Bounds": {
+            "X": 1071,
+            "Y": 1747,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 98,
+            "Y": 148,
+            "Width": 50,
+            "Height": 32
+          },
+          "IsOnNextPage": true,
+          "Text": "ded"
         }
       ]
     }
   ]
-}
+}

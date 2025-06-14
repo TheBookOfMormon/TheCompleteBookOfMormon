@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 489,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 369,
-            "Y": 76,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 77,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 538,
-            "Y": 77,
-            "Width": 146,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -750,10 +712,23 @@
           "Bounds": {
             "X": 513,
             "Y": 344,
-            "Width": 194,
+            "Width": 91,
             "Height": 39
           },
-          "Text": "manyhours"
+          "Text": "many"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 604,
+            "Y": 344,
+            "Width": 104,
+            "Height": 39
+          },
+          "Text": "hours"
         }
       ]
     },
@@ -2687,7 +2662,7 @@
             "Width": 115,
             "Height": 39
           },
-          "Text": "niquity"
+          "Text": "iniquity"
         }
       ]
     },
@@ -3831,7 +3806,7 @@
             "Width": 21,
             "Height": 20
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -4160,6 +4135,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4650,7 +4626,7 @@
             "Width": 37,
             "Height": 21
           },
-          "Text": "Wo"
+          "Text": "wo"
         }
       ]
     },
@@ -5010,11 +4986,24 @@
         {
           "Bounds": {
             "X": 740,
-            "Y": 1610,
-            "Width": 128,
-            "Height": 25
+            "Y": 1608,
+            "Width": 49,
+            "Height": 30
           },
-          "Text": "wounto"
+          "Text": "wo"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 800,
+            "Y": 1608,
+            "Width": 78,
+            "Height": 30
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -5742,6 +5731,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 141,
+            "Y": 1841,
+            "Width": 45,
+            "Height": 28
+          },
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 203,
             "Y": 1838,
             "Width": 47,
@@ -5843,4 +5845,4 @@
       ]
     }
   ]
-}
+}

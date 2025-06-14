@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1167,
+  "ManuallyEdited": true,
   "PageNumber": 480,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 55,
-            "Width": 78,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 603,
-            "Y": 55,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 666,
-            "Y": 55,
-            "Width": 156,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 134,
-            "Y": 134,
-            "Width": 71,
-            "Height": 19
-          },
-          "Text": "ness"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1999,24 +1948,11 @@
         {
           "Bounds": {
             "X": 580,
-            "Y": 724,
-            "Width": 118,
-            "Height": 28
-          },
-          "Text": "insomu"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 714,
             "Y": 723,
-            "Width": 29,
-            "Height": 29
+            "Width": 171,
+            "Height": 30
           },
-          "Text": "th"
+          "Text": "insomuch"
         }
       ]
     },
@@ -2182,10 +2118,23 @@
           "Bounds": {
             "X": 816,
             "Y": 763,
-            "Width": 85,
+            "Width": 34,
             "Height": 30
           },
-          "Text": "ofthe"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 850,
+            "Y": 763,
+            "Width": 52,
+            "Height": 30
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3682,10 +3631,23 @@
           "Bounds": {
             "X": 998,
             "Y": 1198,
-            "Width": 91,
+            "Width": 62,
             "Height": 30
           },
-          "Text": "Andin"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1060,
+            "Y": 1198,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4244,7 +4206,7 @@
             "Width": 19,
             "Height": 19
           },
-          "Text": "mm"
+          "Text": "in"
         }
       ]
     },
@@ -5749,4 +5711,4 @@
       ]
     }
   ]
-}
+}

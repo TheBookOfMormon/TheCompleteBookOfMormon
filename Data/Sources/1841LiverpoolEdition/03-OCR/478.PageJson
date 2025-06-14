@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1174,
+  "ManuallyEdited": true,
   "PageNumber": 478,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 67,
-            "Width": 80,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 69,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 644,
-            "Y": 68,
-            "Width": 158,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -818,7 +780,7 @@
             "Width": 65,
             "Height": 30
           },
-          "Text": "hand"
+          "Text": "band"
         }
       ]
     },
@@ -1998,7 +1960,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -3069,7 +3031,7 @@
             "Width": 51,
             "Height": 29
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -3355,7 +3317,7 @@
             "Width": 69,
             "Height": 24
           },
-          "Text": "unte"
+          "Text": "unto"
         }
       ]
     },
@@ -4764,7 +4726,7 @@
             "Width": 111,
             "Height": 39
           },
-          "Text": "glority"
+          "Text": "glorify"
         }
       ]
     },
@@ -5047,10 +5009,23 @@
           "Bounds": {
             "X": 388,
             "Y": 1566,
-            "Width": 131,
+            "Width": 57,
             "Height": 39
           },
-          "Text": "butthey"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 445,
+            "Y": 1566,
+            "Width": 75,
+            "Height": 39
+          },
+          "Text": "they"
         }
       ]
     },
@@ -5979,11 +5954,7 @@
             "Height": 31
           },
           "Text": "multi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1073,
@@ -5992,8 +5963,18 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 94,
+            "Y": 150,
+            "Width": 44,
+            "Height": 38
+          },
+          "IsOnNextPage": true,
+          "Text": "ply"
         }
       ]
     }
   ]
-}
+}

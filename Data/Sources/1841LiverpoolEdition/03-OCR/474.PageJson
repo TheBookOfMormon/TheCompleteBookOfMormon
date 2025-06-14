@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1179,
+  "ManuallyEdited": true,
   "PageNumber": 474,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 454,
-            "Y": 62,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 62,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 624,
-            "Y": 58,
-            "Width": 159,
-            "Height": 26
-          },
-          "Text": "INELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -195,11 +157,16 @@
             "Height": 29
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1089,
+            "Y": 138,
+            "Width": 32,
+            "Height": 29
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 132,
@@ -263,6 +230,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -598,11 +566,7 @@
             "Height": 30
           },
           "Text": "See"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1080,
@@ -611,11 +575,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 136,
@@ -1014,11 +974,16 @@
             "Height": 28
           },
           "Text": "wit"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1081,
+            "Y": 375,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 132,
@@ -2791,10 +2756,23 @@
           "Bounds": {
             "X": 423,
             "Y": 926,
-            "Width": 127,
+            "Width": 40,
             "Height": 38
           },
-          "Text": "yeshall"
+          "Text": "ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 463,
+            "Y": 926,
+            "Width": 88,
+            "Height": 38
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -5859,9 +5837,9 @@
             "Width": 23,
             "Height": 26
           },
-          "Text": "tv"
+          "Text": "to"
         }
       ]
     }
   ]
-}
+}
