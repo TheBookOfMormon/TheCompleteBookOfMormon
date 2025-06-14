@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1208,
+  "ManuallyEdited": true,
   "PageNumber": 628,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 64,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 64,
-            "Width": 36,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 666,
-            "Y": 62,
-            "Width": 115,
-            "Height": 22
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -325,32 +287,6 @@
             "Height": 30
           },
           "Text": "Ghost"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 468,
-            "Y": 329,
-            "Width": 201,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 707,
-            "Y": 328,
-            "Width": 54,
-            "Height": 30
-          },
-          "Text": "IIL"
         }
       ]
     },
@@ -1114,10 +1050,23 @@
           "Bounds": {
             "X": 711,
             "Y": 606,
-            "Width": 101,
+            "Width": 67,
             "Height": 34
           },
-          "Text": "you'to"
+          "Text": "you"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 778,
+            "Y": 606,
+            "Width": 35,
+            "Height": 34
+          },
+          "Text": "to"
         }
       ]
     },
@@ -1152,11 +1101,11 @@
         {
           "Bounds": {
             "X": 921,
-            "Y": 601,
-            "Width": 120,
-            "Height": 28
+            "Y": 599,
+            "Width": 140,
+            "Height": 32
           },
-          "Text": "teacner"
+          "Text": "teacher"
         }
       ]
     },
@@ -1767,7 +1716,7 @@
             "Width": 39,
             "Height": 38
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -1898,32 +1847,6 @@
             "Height": 28
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 472,
-            "Y": 994,
-            "Width": 202,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 722,
-            "Y": 994,
-            "Width": 30,
-            "Height": 29
-          },
-          "Text": "IV"
         }
       ]
     },
@@ -2317,6 +2240,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3860,7 +3784,7 @@
             "Width": 27,
             "Height": 25
           },
-          "Text": "te"
+          "Text": "to"
         }
       ]
     },
@@ -3917,4 +3841,4 @@
       ]
     }
   ]
-}
+}

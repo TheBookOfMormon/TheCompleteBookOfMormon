@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1131,
+  "ManuallyEdited": true,
   "PageNumber": 554,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 71,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 596,
-            "Y": 71,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 656,
-            "Y": 71,
-            "Width": 94,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -151,11 +113,11 @@
         {
           "Bounds": {
             "X": 1021,
-            "Y": 148,
-            "Width": 41,
-            "Height": 30
+            "Y": 147,
+            "Width": 81,
+            "Height": 32
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -425,10 +387,23 @@
           "Bounds": {
             "X": 606,
             "Y": 260,
-            "Width": 91,
+            "Width": 38,
             "Height": 29
           },
-          "Text": "asthe"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 644,
+            "Y": 260,
+            "Width": 54,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -815,10 +790,23 @@
           "Bounds": {
             "X": 566,
             "Y": 379,
-            "Width": 126,
+            "Width": 70,
             "Height": 29
           },
-          "Text": "thatthe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 636,
+            "Y": 379,
+            "Width": 57,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -2096,6 +2084,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2491,6 +2480,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3735,7 +3725,7 @@
             "Width": 110,
             "Height": 28
           },
-          "Text": "Moses'"
+          "Text": "Moses\u0027"
         }
       ]
     },
@@ -3800,7 +3790,7 @@
             "Width": 88,
             "Height": 29
           },
-          "Text": "Moses"
+          "Text": "Moses\u0027"
         }
       ]
     },
@@ -3966,10 +3956,23 @@
           "Bounds": {
             "X": 980,
             "Y": 1250,
-            "Width": 78,
+            "Width": 60,
             "Height": 29
           },
-          "Text": "thenit"
+          "Text": "then"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1040,
+            "Y": 1250,
+            "Width": 19,
+            "Height": 29
+          },
+          "Text": "it"
         }
       ]
     },
@@ -4018,10 +4021,23 @@
           "Bounds": {
             "X": 385,
             "Y": 1290,
-            "Width": 54,
+            "Width": 35,
             "Height": 29
           },
-          "Text": "ofa"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 420,
+            "Y": 1290,
+            "Width": 20,
+            "Height": 29
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4320,7 +4336,7 @@
             "Width": 60,
             "Height": 29
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -4668,10 +4684,23 @@
           "Bounds": {
             "X": 496,
             "Y": 1448,
-            "Width": 176,
+            "Width": 152,
             "Height": 29
           },
-          "Text": "thereforeif"
+          "Text": "therefore"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 648,
+            "Y": 1448,
+            "Width": 25,
+            "Height": 29
+          },
+          "Text": "if"
         }
       ]
     },
@@ -5295,7 +5324,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "net"
+          "Text": "not"
         }
       ]
     },
@@ -5695,10 +5724,23 @@
           "Bounds": {
             "X": 1000,
             "Y": 1680,
-            "Width": 57,
+            "Width": 42,
             "Height": 29
           },
-          "Text": "fora"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1042,
+            "Y": 1680,
+            "Width": 16,
+            "Height": 29
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5968,10 +6010,23 @@
           "Bounds": {
             "X": 962,
             "Y": 1760,
-            "Width": 91,
+            "Width": 76,
             "Height": 30
           },
-          "Text": "theres"
+          "Text": "there"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1038,
+            "Y": 1760,
+            "Width": 26,
+            "Height": 30
+          },
+          "Text": "is"
         }
       ]
     },
@@ -6111,12 +6166,44 @@
           "Bounds": {
             "X": 990,
             "Y": 1797,
-            "Width": 59,
+            "Width": 26,
             "Height": 31
           },
-          "Text": "isbe"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1016,
+            "Y": 1797,
+            "Width": 34,
+            "Height": 31
+          },
+          "Text": "be"
+        },
+        {
+          "Bounds": {
+            "X": 1062,
+            "Y": 1797,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 81,
+            "Y": 163,
+            "Width": 79,
+            "Height": 20
+          },
+          "IsOnNextPage": true,
+          "Text": "cause"
         }
       ]
     }
   ]
-}
+}

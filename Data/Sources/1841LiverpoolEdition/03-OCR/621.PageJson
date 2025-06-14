@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2018,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 621,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 422,
-            "Y": 90,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 527,
-            "Y": 90,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 90,
-            "Width": 111,
-            "Height": 20
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 84,
-            "Y": 158,
-            "Width": 42,
-            "Height": 30
-          },
-          "Text": "tie"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1677,16 +1626,12 @@
         {
           "Bounds": {
             "X": 994,
-            "Y": 590,
-            "Width": 44,
-            "Height": 28
+            "Y": 588,
+            "Width": 57,
+            "Height": 32
           },
-          "Text": "bhat"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "bat"
+        },
         {
           "Bounds": {
             "X": 1035,
@@ -1695,11 +1640,7 @@
             "Height": 25
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 93,
@@ -2539,7 +2480,7 @@
             "Width": 78,
             "Height": 28
           },
-          "Text": "hack"
+          "Text": "back"
         }
       ]
     },
@@ -2562,10 +2503,23 @@
           "Bounds": {
             "X": 563,
             "Y": 861,
-            "Width": 92,
+            "Width": 34,
             "Height": 33
           },
-          "Text": "tothe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 597,
+            "Y": 861,
+            "Width": 59,
+            "Height": 33
+          },
+          "Text": "the"
         }
       ]
     },
@@ -2764,6 +2718,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3033,7 +2988,7 @@
             "Width": 94,
             "Height": 28
           },
-          "Text": "hattle"
+          "Text": "battle"
         }
       ]
     },
@@ -3098,7 +3053,7 @@
             "Width": 30,
             "Height": 28
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -3141,6 +3096,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3310,6 +3266,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3713,6 +3670,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4393,19 +4351,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 608,
-            "Y": 1388,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 615,
             "Y": 1369,
             "Width": 77,
@@ -4870,6 +4815,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4983,7 +4929,7 @@
             "Width": 73,
             "Height": 29
           },
-          "Text": "afier"
+          "Text": "after"
         }
       ]
     },
@@ -5312,6 +5258,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5330,11 +5277,11 @@
         {
           "Bounds": {
             "X": 492,
-            "Y": 1627,
-            "Width": 195,
-            "Height": 46
+            "Y": 1642,
+            "Width": 205,
+            "Height": 32
           },
-          "Text": "Corigntumr"
+          "Text": "Coriantumr"
         }
       ]
     },
@@ -5942,4 +5889,4 @@
       ]
     }
   ]
-}
+}

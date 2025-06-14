@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1169,
+  "ManuallyEdited": true,
   "PageNumber": 568,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 78,
-            "Width": 60,
-            "Height": 32
-          },
-          "Text": "S560"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 89,
-            "Width": 80,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 89,
-            "Width": 32,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 89,
-            "Width": 130,
-            "Height": 21
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -90,7 +39,7 @@
             "Width": 129,
             "Height": 28
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
@@ -194,7 +143,7 @@
             "Width": 129,
             "Height": 27
           },
-          "Text": "hecause"
+          "Text": "because"
         }
       ]
     },
@@ -1175,11 +1124,7 @@
             "Height": 22
           },
           "Text": "ma"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1055,
@@ -1188,11 +1133,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 122,
@@ -1200,7 +1141,7 @@
             "Width": 64,
             "Height": 37
           },
-          "Text": "aics"
+          "Text": "gics"
         }
       ]
     },
@@ -1275,10 +1216,23 @@
           "Bounds": {
             "X": 582,
             "Y": 514,
-            "Width": 122,
+            "Width": 62,
             "Height": 35
           },
-          "Text": "evilone"
+          "Text": "evil"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 644,
+            "Y": 514,
+            "Width": 61,
+            "Height": 35
+          },
+          "Text": "one"
         }
       ]
     },
@@ -1659,6 +1613,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1743,10 +1698,23 @@
           "Bounds": {
             "X": 979,
             "Y": 633,
-            "Width": 73,
+            "Width": 33,
             "Height": 28
           },
-          "Text": "tobe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1012,
+            "Y": 633,
+            "Width": 41,
+            "Height": 28
+          },
+          "Text": "be"
         }
       ]
     },
@@ -1863,7 +1831,7 @@
             "Width": 152,
             "Height": 28
           },
-          "Text": "ILamanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -2757,10 +2725,23 @@
           "Bounds": {
             "X": 129,
             "Y": 993,
-            "Width": 110,
+            "Width": 32,
             "Height": 32
           },
-          "Text": "topass"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 161,
+            "Y": 993,
+            "Width": 79,
+            "Height": 32
+          },
+          "Text": "pass"
         }
       ]
     },
@@ -3732,7 +3713,7 @@
             "Width": 179,
             "Height": 28
           },
-          "Text": "LLamanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -4899,10 +4880,23 @@
           "Bounds": {
             "X": 930,
             "Y": 1576,
-            "Width": 162,
+            "Width": 133,
             "Height": 39
           },
-          "Text": "togetherin"
+          "Text": "together"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1063,
+            "Y": 1576,
+            "Width": 30,
+            "Height": 39
+          },
+          "Text": "in"
         }
       ]
     },
@@ -5305,7 +5299,7 @@
             "Width": 109,
             "Height": 38
           },
-          "Text": "deings"
+          "Text": "doings"
         }
       ]
     },
@@ -5495,12 +5489,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 131,
-            "Y": 1811,
-            "Width": 86,
-            "Height": 37
+            "X": 144,
+            "Y": 1813,
+            "Width": 83,
+            "Height": 32
           },
-          "Text": "hoth"
+          "Text": "both"
         }
       ]
     },
@@ -5661,4 +5655,4 @@
       ]
     }
   ]
-}
+}

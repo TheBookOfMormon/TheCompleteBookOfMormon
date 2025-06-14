@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1152,
+  "ManuallyEdited": true,
   "PageNumber": 551,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 401,
-            "Y": 91,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 90,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 91,
-            "Width": 103,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -735,6 +697,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 224,
+            "Y": 356,
+            "Width": 16,
+            "Height": 32
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 245,
             "Y": 357,
             "Width": 67,
@@ -1000,7 +975,7 @@
             "Width": 111,
             "Height": 36
           },
-          "Text": "enongh"
+          "Text": "enough"
         }
       ]
     },
@@ -2539,7 +2514,7 @@
             "Width": 51,
             "Height": 29
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -3170,10 +3145,23 @@
           "Bounds": {
             "X": 274,
             "Y": 1100,
-            "Width": 152,
+            "Width": 65,
             "Height": 30
           },
-          "Text": "theLord"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 339,
+            "Y": 1100,
+            "Width": 88,
+            "Height": 30
+          },
+          "Text": "Lord"
         }
       ]
     },
@@ -3694,19 +3682,6 @@
             "Height": 27
           },
           "Text": "him"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 64,
-            "Y": 1276,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -5674,7 +5649,7 @@
             "Width": 96,
             "Height": 29
           },
-          "Text": "Tsrael"
+          "Text": "Israel"
         }
       ]
     },
@@ -5744,4 +5719,4 @@
       ]
     }
   ]
-}
+}

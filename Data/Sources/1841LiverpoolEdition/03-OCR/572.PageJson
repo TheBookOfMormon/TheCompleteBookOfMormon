@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1145,
+  "ManuallyEdited": true,
   "PageNumber": 572,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 427,
-            "Y": 124,
-            "Width": 75,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 529,
-            "Y": 124,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 588,
-            "Y": 124,
-            "Width": 128,
-            "Height": 21
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1436,10 +1398,10 @@
           "Bounds": {
             "X": 332,
             "Y": 621,
-            "Width": 45,
+            "Width": 69,
             "Height": 32
           },
-          "Text": "hag"
+          "Text": "had"
         }
       ]
     },
@@ -3278,6 +3240,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3644,19 +3607,6 @@
             "Height": 28
           },
           "Text": "go"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 997,
-            "Y": 1216,
-            "Width": 5,
-            "Height": 6
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4085,7 +4035,7 @@
             "Width": 55,
             "Height": 29
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -4693,10 +4643,23 @@
           "Bounds": {
             "X": 672,
             "Y": 1515,
-            "Width": 272,
+            "Width": 78,
             "Height": 38
           },
-          "Text": "yourinheritance"
+          "Text": "your"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 750,
+            "Y": 1515,
+            "Width": 195,
+            "Height": 38
+          },
+          "Text": "inheritance"
         }
       ]
     },
@@ -4730,6 +4693,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 222,
+            "Y": 1553,
+            "Width": 33,
+            "Height": 32
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 256,
             "Y": 1556,
             "Width": 83,
@@ -4748,7 +4724,7 @@
             "Width": 68,
             "Height": 23
           },
-          "Text": "nnto"
+          "Text": "unto"
         }
       ]
     },

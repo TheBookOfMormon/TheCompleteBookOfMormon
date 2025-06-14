@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 576,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 441,
-            "Y": 75,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 547,
-            "Y": 76,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 607,
-            "Y": 76,
-            "Width": 138,
-            "Height": 20
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1279,11 +1241,16 @@
             "Height": 28
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1050,
+            "Y": 455,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 100,
@@ -1716,11 +1683,11 @@
         {
           "Bounds": {
             "X": 921,
-            "Y": 572,
-            "Width": 120,
-            "Height": 36
+            "Y": 574,
+            "Width": 154,
+            "Height": 32
           },
-          "Text": "knowin"
+          "Text": "knowing"
         }
       ]
     },
@@ -2856,7 +2823,7 @@
             "Width": 251,
             "Height": 28
           },
-          "Text": "commandnzent"
+          "Text": "commandment"
         }
       ]
     },
@@ -4462,7 +4429,7 @@
             "Width": 127,
             "Height": 29
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
@@ -4631,7 +4598,7 @@
             "Width": 70,
             "Height": 25
           },
-          "Text": "unte"
+          "Text": "unto"
         }
       ]
     },
@@ -5936,7 +5903,7 @@
             "Width": 133,
             "Height": 30
           },
-          "Text": "feternal"
+          "Text": "eternal"
         }
       ]
     },
@@ -5966,6 +5933,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

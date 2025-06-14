@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1177,
+  "ManuallyEdited": true,
   "PageNumber": 570,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 413,
-            "Y": 76,
-            "Width": 76,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 75,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 576,
-            "Y": 76,
-            "Width": 129,
-            "Height": 26
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1387,7 +1349,7 @@
             "Width": 27,
             "Height": 28
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -2858,10 +2820,23 @@
           "Bounds": {
             "X": 263,
             "Y": 974,
-            "Width": 110,
+            "Width": 79,
             "Height": 34
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 342,
+            "Y": 974,
+            "Width": 32,
+            "Height": 34
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4438,6 +4413,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5726,4 +5702,4 @@
       ]
     }
   ]
-}
+}

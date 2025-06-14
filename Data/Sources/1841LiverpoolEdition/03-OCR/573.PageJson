@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 573,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 373,
-            "Y": 104,
-            "Width": 82,
-            "Height": 31
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 104,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 103,
-            "Width": 124,
-            "Height": 23
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1840,32 +1802,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 462,
-            "Y": 852,
-            "Width": 200,
-            "Height": 42
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 691,
-            "Y": 852,
-            "Width": 24,
-            "Height": 40
-          },
-          "Text": "II"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 151,
             "Y": 968,
             "Width": 70,
@@ -2561,11 +2497,7 @@
             "Height": 28
           },
           "Text": "Deso"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1053,
@@ -2574,11 +2506,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 114,
@@ -3385,11 +3313,11 @@
         {
           "Bounds": {
             "X": 363,
-            "Y": 1396,
-            "Width": 66,
-            "Height": 28
+            "Y": 1394,
+            "Width": 79,
+            "Height": 32
           },
-          "Text": "New"
+          "Text": "Now"
         }
       ]
     },
@@ -3424,11 +3352,11 @@
         {
           "Bounds": {
             "X": 656,
-            "Y": 1395,
-            "Width": 147,
-            "Height": 28
+            "Y": 1393,
+            "Width": 166,
+            "Height": 32
           },
-          "Text": "'Teancum"
+          "Text": "Teancum"
         }
       ]
     },
@@ -3675,10 +3603,11 @@
             "Width": 127,
             "Height": 28
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4796,32 +4725,6 @@
           "Text": "Teancum"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 688,
-            "Y": 1824,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "Ad"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 755,
-            "Y": 1854,
-            "Width": 4,
-            "Height": 10
-          },
-          "Text": "I"
-        }
-      ]
     }
   ]
-}
+}

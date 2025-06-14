@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1158,
+  "ManuallyEdited": true,
   "PageNumber": 631,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 393,
-            "Y": 81,
-            "Width": 77,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 497,
-            "Y": 81,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 557,
-            "Y": 82,
-            "Width": 114,
-            "Height": 19
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -724,10 +686,23 @@
           "Bounds": {
             "X": 515,
             "Y": 345,
-            "Width": 137,
+            "Width": 55,
             "Height": 29
           },
-          "Text": "thedevil"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 570,
+            "Y": 345,
+            "Width": 83,
+            "Height": 29
+          },
+          "Text": "devil"
         }
       ]
     },
@@ -1786,19 +1761,6 @@
             "Height": 29
           },
           "Text": "inviteth"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 941,
-            "Y": 657,
-            "Width": 0,
-            "Height": 29
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3840,11 +3802,16 @@
             "Height": 28
           },
           "Text": "what"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1035,
+            "Y": 1201,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 77,
@@ -3878,7 +3845,7 @@
             "Width": 184,
             "Height": 38
           },
-          "Text": "persnadeth"
+          "Text": "persuadeth"
         }
       ]
     },
@@ -4876,10 +4843,23 @@
           "Bounds": {
             "X": 611,
             "Y": 1514,
-            "Width": 111,
+            "Width": 81,
             "Height": 37
           },
-          "Text": "lightis"
+          "Text": "light"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 692,
+            "Y": 1514,
+            "Width": 31,
+            "Height": 37
+          },
+          "Text": "is"
         }
       ]
     },
@@ -5435,10 +5415,23 @@
           "Bounds": {
             "X": 876,
             "Y": 1669,
-            "Width": 157,
+            "Width": 69,
             "Height": 38
           },
-          "Text": "mayknow"
+          "Text": "may"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 945,
+            "Y": 1669,
+            "Width": 89,
+            "Height": 38
+          },
+          "Text": "know"
         }
       ]
     },
@@ -5708,10 +5701,23 @@
           "Bounds": {
             "X": 837,
             "Y": 1748,
-            "Width": 58,
+            "Width": 40,
             "Height": 28
           },
-          "Text": "bea"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 877,
+            "Y": 1748,
+            "Width": 19,
+            "Height": 28
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5872,4 +5878,4 @@
       ]
     }
   ]
-}
+}

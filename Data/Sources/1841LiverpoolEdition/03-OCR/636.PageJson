@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1219,
+  "ManuallyEdited": true,
   "PageNumber": 636,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 74,
-            "Width": 77,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 611,
-            "Y": 75,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 669,
-            "Y": 75,
-            "Width": 118,
-            "Height": 20
-          },
-          "Text": "MORONTI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1071,11 +1033,16 @@
             "Height": 29
           },
           "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1117,
+            "Y": 415,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 170,
@@ -3583,10 +3550,23 @@
           "Bounds": {
             "X": 873,
             "Y": 1155,
-            "Width": 126,
+            "Width": 30,
             "Height": 30
           },
-          "Text": "isunder"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 903,
+            "Y": 1155,
+            "Width": 97,
+            "Height": 30
+          },
+          "Text": "under"
         }
       ]
     },
@@ -4152,10 +4132,24 @@
           "Bounds": {
             "X": 286,
             "Y": 1355,
-            "Width": 85,
+            "Width": 53,
             "Height": 25
           },
-          "Text": "notto"
+          "Text": "not"
+        }
+      ]
+    },
+    null,
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 339,
+            "Y": 1355,
+            "Width": 33,
+            "Height": 25
+          },
+          "Text": "to"
         }
       ]
     },
@@ -4191,10 +4185,36 @@
           "Bounds": {
             "X": 510,
             "Y": 1352,
-            "Width": 293,
+            "Width": 188,
             "Height": 36
           },
-          "Text": "repentanceisunto"
+          "Text": "repentance"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 698,
+            "Y": 1352,
+            "Width": 31,
+            "Height": 36
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 729,
+            "Y": 1352,
+            "Width": 76,
+            "Height": 36
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -4217,10 +4237,23 @@
           "Bounds": {
             "X": 909,
             "Y": 1351,
-            "Width": 123,
+            "Width": 69,
             "Height": 29
           },
-          "Text": "thatare"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 978,
+            "Y": 1351,
+            "Width": 55,
+            "Height": 29
+          },
+          "Text": "are"
         }
       ]
     },
@@ -5470,12 +5503,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 302,
-            "Y": 1781,
-            "Width": 38,
-            "Height": 29
+            "X": 266,
+            "Y": 1780,
+            "Width": 70,
+            "Height": 32
           },
-          "Text": "od"
+          "Text": "God"
         }
       ]
     },
@@ -5613,6 +5646,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 218,
+            "Y": 1822,
+            "Width": 26,
+            "Height": 27
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 256,
             "Y": 1830,
             "Width": 35,
@@ -5714,4 +5760,4 @@
       ]
     }
   ]
-}
+}

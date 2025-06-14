@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1146,
+  "ManuallyEdited": true,
   "PageNumber": 633,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 390,
-            "Y": 101,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 495,
-            "Y": 102,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 102,
-            "Width": 112,
-            "Height": 19
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -636,7 +598,7 @@
             "Width": 101,
             "Height": 36
           },
-          "Text": "Cheist"
+          "Text": "Christ"
         }
       ]
     },
@@ -1452,10 +1414,23 @@
           "Bounds": {
             "X": 483,
             "Y": 556,
-            "Width": 161,
+            "Width": 117,
             "Height": 37
           },
-          "Text": "repentall"
+          "Text": "repent"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 600,
+            "Y": 556,
+            "Width": 45,
+            "Height": 37
+          },
+          "Text": "all"
         }
       ]
     },
@@ -2300,7 +2275,7 @@
             "Width": 63,
             "Height": 25
           },
-          "Text": "trne"
+          "Text": "true"
         }
       ]
     },
@@ -3051,10 +3026,23 @@
           "Bounds": {
             "X": 597,
             "Y": 980,
-            "Width": 152,
+            "Width": 121,
             "Height": 29
           },
-          "Text": "thereofto"
+          "Text": "thereof"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 718,
+            "Y": 980,
+            "Width": 32,
+            "Height": 29
+          },
+          "Text": "to"
         }
       ]
     },
@@ -5562,7 +5550,7 @@
             "Width": 69,
             "Height": 27
           },
-          "Text": "tuto"
+          "Text": "unto"
         }
       ]
     },
@@ -6043,7 +6031,7 @@
             "Width": 24,
             "Height": 27
           },
-          "Text": "it"
+          "Text": "if"
         }
       ]
     },
@@ -6100,4 +6088,4 @@
       ]
     }
   ]
-}
+}

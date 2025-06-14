@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1184,
+  "ManuallyEdited": true,
   "PageNumber": 625,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 76,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 547,
-            "Y": 76,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 607,
-            "Y": 74,
-            "Width": 101,
-            "Height": 22
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -528,11 +490,11 @@
         {
           "Bounds": {
             "X": 482,
-            "Y": 270,
-            "Width": 80,
-            "Height": 19
+            "Y": 264,
+            "Width": 90,
+            "Height": 32
           },
-          "Text": "armv"
+          "Text": "army"
         }
       ]
     },
@@ -1048,11 +1010,11 @@
         {
           "Bounds": {
             "X": 269,
-            "Y": 399,
-            "Width": 104,
-            "Height": 55
+            "Y": 411,
+            "Width": 120,
+            "Height": 32
           },
-          "Text": "cather"
+          "Text": "gather"
         }
       ]
     },
@@ -1945,24 +1907,11 @@
         {
           "Bounds": {
             "X": 815,
-            "Y": 650,
-            "Width": 79,
-            "Height": 28
+            "Y": 648,
+            "Width": 190,
+            "Height": 32
           },
-          "Text": "wher"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 901,
-            "Y": 633,
-            "Width": 79,
-            "Height": 45
-          },
-          "Text": "efore"
+          "Text": "wherefore"
         }
       ]
     },
@@ -2075,11 +2024,11 @@
         {
           "Bounds": {
             "X": 690,
-            "Y": 672,
-            "Width": 164,
-            "Height": 54
+            "Y": 683,
+            "Width": 177,
+            "Height": 32
           },
-          "Text": "cathering"
+          "Text": "gathering"
         }
       ]
     },
@@ -2620,12 +2569,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 698,
-            "Y": 844,
-            "Width": 228,
-            "Height": 38
+            "X": 689,
+            "Y": 847,
+            "Width": 45,
+            "Height": 32
           },
-          "Text": "allgathereing"
+          "Text": "all"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 745,
+            "Y": 847,
+            "Width": 176,
+            "Height": 32
+          },
+          "Text": "gathereing"
         }
       ]
     },
@@ -3011,37 +2973,11 @@
         {
           "Bounds": {
             "X": 124,
-            "Y": 985,
-            "Width": 96,
-            "Height": 44
+            "Y": 999,
+            "Width": 225,
+            "Height": 32
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 231,
-            "Y": 1020,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 243,
-            "Y": 1000,
-            "Width": 102,
-            "Height": 37
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -3063,37 +2999,11 @@
         {
           "Bounds": {
             "X": 453,
-            "Y": 999,
-            "Width": 82,
-            "Height": 29
+            "Y": 998,
+            "Width": 188,
+            "Height": 32
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 1018,
-            "Width": 9,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 999,
-            "Width": 89,
-            "Height": 37
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -3695,6 +3605,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4095,11 +4006,16 @@
             "Height": 29
           },
           "Text": "howl"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1085,
+            "Y": 1271,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 131,
@@ -4628,11 +4544,11 @@
         {
           "Bounds": {
             "X": 1001,
-            "Y": 1411,
-            "Width": 86,
-            "Height": 54
+            "Y": 1422,
+            "Width": 96,
+            "Height": 32
           },
-          "Text": "mght"
+          "Text": "night"
         }
       ]
     },
@@ -5044,11 +4960,11 @@
         {
           "Bounds": {
             "X": 616,
-            "Y": 1584,
-            "Width": 192,
-            "Height": 29
+            "Y": 1583,
+            "Width": 205,
+            "Height": 32
           },
-          "Text": "Coriantnmr"
+          "Text": "Coriantumr"
         }
       ]
     },
@@ -5781,4 +5697,4 @@
       ]
     }
   ]
-}
+}

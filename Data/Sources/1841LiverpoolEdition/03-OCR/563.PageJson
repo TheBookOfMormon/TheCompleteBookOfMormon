@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2012,
   "ImageWidth": 1159,
+  "ManuallyEdited": true,
   "PageNumber": 563,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 63,
-            "Width": 79,
-            "Height": 23
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 65,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 546,
-            "Y": 64,
-            "Width": 93,
-            "Height": 22
-          },
-          "Text": "NIEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1624,7 +1586,7 @@
             "Width": 128,
             "Height": 35
           },
-          "Text": "tummnlts"
+          "Text": "tumults"
         }
       ]
     },
@@ -2140,6 +2102,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4686,10 +4649,23 @@
           "Bounds": {
             "X": 545,
             "Y": 1474,
-            "Width": 129,
+            "Width": 74,
             "Height": 38
           },
-          "Text": "keptthe"
+          "Text": "kept"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 619,
+            "Y": 1474,
+            "Width": 56,
+            "Height": 38
+          },
+          "Text": "the"
         }
       ]
     },
@@ -5011,10 +4987,23 @@
           "Bounds": {
             "X": 671,
             "Y": 1554,
-            "Width": 140,
+            "Width": 109,
             "Height": 28
           },
-          "Text": "whichis"
+          "Text": "which"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 780,
+            "Y": 1554,
+            "Width": 32,
+            "Height": 28
+          },
+          "Text": "is"
         }
       ]
     },
@@ -5326,7 +5315,7 @@
             "Width": 22,
             "Height": 27
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -5838,4 +5827,4 @@
       ]
     }
   ]
-}
+}

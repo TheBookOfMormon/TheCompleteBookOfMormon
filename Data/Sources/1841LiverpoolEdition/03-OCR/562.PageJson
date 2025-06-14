@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1147,
+  "ManuallyEdited": true,
   "PageNumber": 562,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 74,
-            "Width": 83,
-            "Height": 32
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 580,
-            "Y": 87,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 639,
-            "Y": 86,
-            "Width": 94,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -399,10 +361,23 @@
           "Bounds": {
             "X": 520,
             "Y": 233,
-            "Width": 219,
+            "Width": 156,
             "Height": 38
           },
-          "Text": "Nephitesand"
+          "Text": "Nephites"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 676,
+            "Y": 233,
+            "Width": 64,
+            "Height": 38
+          },
+          "Text": "and"
         }
       ]
     },
@@ -1322,10 +1297,23 @@
           "Bounds": {
             "X": 136,
             "Y": 544,
-            "Width": 91,
+            "Width": 34,
             "Height": 29
           },
-          "Text": "inthe"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 170,
+            "Y": 544,
+            "Width": 58,
+            "Height": 29
+          },
+          "Text": "the"
         }
       ]
     },
@@ -1751,10 +1739,23 @@
           "Bounds": {
             "X": 319,
             "Y": 663,
-            "Width": 149,
+            "Width": 59,
             "Height": 29
           },
-          "Text": "theblind"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 378,
+            "Y": 663,
+            "Width": 91,
+            "Height": 29
+          },
+          "Text": "blind"
         }
       ]
     },
@@ -1784,6 +1785,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2044,6 +2046,15 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2330,6 +2341,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2781,7 +2793,7 @@
             "Width": 72,
             "Height": 28
           },
-          "Text": "'and"
+          "Text": "and"
         }
       ]
     },
@@ -4029,12 +4041,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 124,
-            "Y": 1367,
-            "Width": 71,
-            "Height": 28
+            "X": 135,
+            "Y": 1365,
+            "Width": 70,
+            "Height": 32
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -4485,11 +4497,11 @@
         {
           "Bounds": {
             "X": 709,
-            "Y": 1496,
-            "Width": 27,
-            "Height": 17
+            "Y": 1489,
+            "Width": 66,
+            "Height": 32
           },
-          "Text": "ai"
+          "Text": "and"
         }
       ]
     },
@@ -4712,10 +4724,23 @@
           "Bounds": {
             "X": 447,
             "Y": 1563,
-            "Width": 207,
+            "Width": 63,
             "Height": 28
           },
-          "Text": "hadreceived"
+          "Text": "had"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 510,
+            "Y": 1563,
+            "Width": 145,
+            "Height": 28
+          },
+          "Text": "received"
         }
       ]
     },
@@ -5448,4 +5473,4 @@
       ]
     }
   ]
-}
+}

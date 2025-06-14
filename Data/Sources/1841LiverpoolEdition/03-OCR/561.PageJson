@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1148,
+  "ManuallyEdited": true,
   "PageNumber": 561,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 98,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 98,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 99,
-            "Width": 88,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -306,32 +268,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 378,
-            "Y": 362,
-            "Width": 200,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 606,
-            "Y": 362,
-            "Width": 63,
-            "Height": 29
-          },
-          "Text": "XIV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 100,
             "Y": 441,
             "Width": 130,
@@ -455,11 +391,16 @@
             "Height": 27
           },
           "Text": "Je"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1006,
+            "Y": 438,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 67,
@@ -870,7 +811,7 @@
             "Width": 33,
             "Height": 28
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -2071,19 +2012,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 442,
-            "Y": 978,
-            "Width": 138,
-            "Height": 98
-          },
-          "Text": "duro"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 218,
             "Y": 1121,
             "Width": 108,
@@ -2298,19 +2226,6 @@
             "Height": 30
           },
           "Text": "CHRIST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 402,
-            "Y": 1440,
-            "Width": 201,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
         }
       ]
     },
@@ -3155,12 +3070,8 @@
             "Width": 51,
             "Height": 37
           },
-          "Text": "bhap"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "bap"
+        },
         {
           "Bounds": {
             "X": 997,
@@ -3169,11 +3080,7 @@
             "Height": 27
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 77,
@@ -3355,4 +3262,4 @@
       ]
     }
   ]
-}
+}

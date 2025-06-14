@@ -1,73 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1214,
+  "ManuallyEdited": true,
   "PageNumber": 599,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 357,
-            "Y": 84,
-            "Width": 78,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 462,
-            "Y": 85,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 520,
-            "Y": 85,
-            "Width": 110,
-            "Height": 20
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 373,
-            "Y": 192,
-            "Width": 199,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 610,
-            "Y": 194,
-            "Width": 33,
-            "Height": 28
-          },
-          "Text": "1I"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1327,10 +1263,23 @@
           "Bounds": {
             "X": 250,
             "Y": 631,
-            "Width": 159,
+            "Width": 67,
             "Height": 28
           },
-          "Text": "thatthese"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 317,
+            "Y": 631,
+            "Width": 93,
+            "Height": 28
+          },
+          "Text": "these"
         }
       ]
     },
@@ -2648,7 +2597,7 @@
             "Width": 157,
             "Height": 39
           },
-          "Text": "anthority"
+          "Text": "authority"
         }
       ]
     },
@@ -3051,32 +3000,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 405,
-            "Y": 1255,
-            "Width": 199,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 631,
-            "Y": 1255,
-            "Width": 54,
-            "Height": 29
-          },
-          "Text": "IIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 110,
             "Y": 1337,
             "Width": 69,
@@ -3095,7 +3018,7 @@
             "Width": 58,
             "Height": 20
           },
-          "Text": "wow"
+          "Text": "now"
         }
       ]
     },
@@ -3147,7 +3070,7 @@
             "Width": 27,
             "Height": 24
           },
-          "Text": "tn"
+          "Text": "to"
         }
       ]
     },
@@ -3333,6 +3256,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4673,4 +4597,4 @@
       ]
     }
   ]
-}
+}

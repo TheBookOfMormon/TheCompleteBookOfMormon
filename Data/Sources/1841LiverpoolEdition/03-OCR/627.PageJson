@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1149,
+  "ManuallyEdited": true,
   "PageNumber": 627,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 362,
-            "Y": 97,
-            "Width": 75,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 98,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 96,
-            "Width": 116,
-            "Height": 21
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -581,10 +543,23 @@
           "Bounds": {
             "X": 657,
             "Y": 282,
-            "Width": 132,
+            "Width": 51,
             "Height": 35
           },
-          "Text": "theflesh"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 708,
+            "Y": 282,
+            "Width": 82,
+            "Height": 35
+          },
+          "Text": "flesh"
         }
       ]
     },
@@ -858,32 +833,6 @@
             "Height": 44
           },
           "Text": "MORONI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 401,
-            "Y": 640,
-            "Width": 199,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 629,
-            "Y": 641,
-            "Width": 6,
-            "Height": 28
-          },
-          "Text": "I"
         }
       ]
     },
@@ -1560,11 +1509,16 @@
             "Height": 18
           },
           "Text": "ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 994,
+            "Y": 876,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 44,
@@ -2183,7 +2137,7 @@
             "Width": 81,
             "Height": 19
           },
-          "Text": "mere"
+          "Text": "more"
         }
       ]
     },
@@ -2833,32 +2787,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 388,
-            "Y": 1420,
-            "Width": 200,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 615,
-            "Y": 1420,
-            "Width": 35,
-            "Height": 28
-          },
-          "Text": "IL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 77,
             "Y": 1498,
             "Width": 65,
@@ -3463,6 +3391,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3606,6 +3535,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4140,4 +4070,4 @@
       ]
     }
   ]
-}
+}

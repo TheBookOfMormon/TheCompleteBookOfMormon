@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2002,
   "ImageWidth": 1243,
+  "ManuallyEdited": true,
   "PageNumber": 630,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 71,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 618,
-            "Y": 70,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 680,
-            "Y": 70,
-            "Width": 119,
-            "Height": 21
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1113,6 +1075,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1305,32 +1268,6 @@
             "Height": 47
           },
           "Text": "done"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 652,
-            "Width": 204,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 737,
-            "Y": 652,
-            "Width": 63,
-            "Height": 29
-          },
-          "Text": "VII"
         }
       ]
     },
@@ -1785,7 +1722,7 @@
             "Width": 108,
             "Height": 38
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -2007,11 +1944,16 @@
             "Height": 28
           },
           "Text": "Mor"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1111,
+            "Y": 889,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 163,
@@ -3128,6 +3070,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4006,11 +3949,7 @@
             "Height": 19
           },
           "Text": "can"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1120,
@@ -4019,6 +3958,15 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 161,
+            "Y": 1481,
+            "Width": 58,
+            "Height": 32
+          },
+          "Text": "not"
         }
       ]
     },
@@ -4161,7 +4109,7 @@
             "Width": 55,
             "Height": 56
           },
-          "Text": "oift"
+          "Text": "gift"
         }
       ]
     },
@@ -4681,7 +4629,7 @@
             "Width": 179,
             "Height": 39
           },
-          "Text": "erudgingly"
+          "Text": "grudgingly"
         }
       ]
     },
@@ -5284,4 +5232,4 @@
       ]
     }
   ]
-}
+}

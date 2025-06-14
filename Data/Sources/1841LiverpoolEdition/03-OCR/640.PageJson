@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2027,
   "ImageWidth": 1215,
+  "ManuallyEdited": true,
   "PageNumber": 640,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 75,
-            "Width": 78,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 76,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 76,
-            "Width": 119,
-            "Height": 20
-          },
-          "Text": "MORONT"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -489,6 +451,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1565,9 +1528,9 @@
         {
           "Bounds": {
             "X": 1001,
-            "Y": 539,
-            "Width": 90,
-            "Height": 29
+            "Y": 538,
+            "Width": 106,
+            "Height": 32
           },
           "Text": "exhor"
         }
@@ -2041,6 +2004,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3361,37 +3325,11 @@
         {
           "Bounds": {
             "X": 442,
-            "Y": 1054,
-            "Width": 25,
-            "Height": 25
+            "Y": 1051,
+            "Width": 106,
+            "Height": 32
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 475,
-            "Y": 1069,
-            "Width": 8,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 488,
-            "Y": 1050,
-            "Width": 58,
-            "Height": 38
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -3413,37 +3351,11 @@
         {
           "Bounds": {
             "X": 640,
-            "Y": 1054,
-            "Width": 26,
-            "Height": 25
+            "Y": 1051,
+            "Width": 183,
+            "Height": 32
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 674,
-            "Y": 1069,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 687,
-            "Y": 1058,
-            "Width": 124,
-            "Height": 19
-          },
-          "Text": "morrow"
+          "Text": "to-morrow"
         }
       ]
     },
@@ -3960,10 +3872,23 @@
           "Bounds": {
             "X": 534,
             "Y": 1207,
-            "Width": 76,
+            "Width": 54,
             "Height": 28
           },
-          "Text": "butit"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 588,
+            "Y": 1207,
+            "Width": 23,
+            "Height": 28
+          },
+          "Text": "it"
         }
       ]
     },
@@ -6081,4 +6006,4 @@
       ]
     }
   ]
-}
+}

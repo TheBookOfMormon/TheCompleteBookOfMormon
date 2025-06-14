@@ -1,73 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1206,
+  "ManuallyEdited": true,
   "PageNumber": 602,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 158,
-            "Y": 98,
-            "Width": 62,
-            "Height": 27
-          },
-          "Text": "H94"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 497,
-            "Y": 106,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 604,
-            "Y": 106,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 664,
-            "Y": 106,
-            "Width": 111,
-            "Height": 19
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 160,
-            "Y": 183,
-            "Width": 53,
-            "Height": 29
-          },
-          "Text": "oan"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -961,7 +897,7 @@
             "Width": 121,
             "Height": 24
           },
-          "Text": "execnte"
+          "Text": "execute"
         }
       ]
     },
@@ -1179,10 +1115,23 @@
           "Bounds": {
             "X": 685,
             "Y": 484,
-            "Width": 168,
+            "Width": 91,
             "Height": 37
           },
-          "Text": "begatsons"
+          "Text": "begat"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 776,
+            "Y": 484,
+            "Width": 78,
+            "Height": 37
+          },
+          "Text": "sons"
         }
       ]
     },
@@ -1664,11 +1613,16 @@
             "Height": 37
           },
           "Text": "reign"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1100,
+            "Y": 608,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 159,
@@ -3051,10 +3005,23 @@
           "Bounds": {
             "X": 976,
             "Y": 1030,
-            "Width": 130,
+            "Width": 101,
             "Height": 32
           },
-          "Text": "whichis"
+          "Text": "which"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1077,
+            "Y": 1030,
+            "Width": 30,
+            "Height": 32
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4454,6 +4421,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1189,
+  "ManuallyEdited": true,
   "PageNumber": 579,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 411,
-            "Y": 76,
-            "Width": 76,
-            "Height": 23
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 515,
-            "Y": 78,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 576,
-            "Y": 78,
-            "Width": 138,
-            "Height": 21
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 999,
-            "Y": 71,
-            "Width": 55,
-            "Height": 28
-          },
-          "Text": "S71"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -766,7 +715,7 @@
             "Width": 115,
             "Height": 28
           },
-          "Text": "Moroui"
+          "Text": "Moroni"
         }
       ]
     },
@@ -987,20 +936,7 @@
             "Width": 179,
             "Height": 29
           },
-          "Text": "Lamahites"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 713,
-            "Y": 385,
-            "Width": 21,
-            "Height": 27
-          },
-          "Text": "-"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -1117,7 +1053,7 @@
             "Width": 34,
             "Height": 28
           },
-          "Text": "ef"
+          "Text": "of"
         }
       ]
     },
@@ -1433,6 +1369,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2114,6 +2051,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2162,7 +2100,7 @@
             "Width": 75,
             "Height": 28
           },
-          "Text": "witn"
+          "Text": "with"
         }
       ]
     },
@@ -2306,11 +2244,7 @@
             "Height": 29
           },
           "Text": "Shib"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1057,
@@ -2319,11 +2253,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 105,
@@ -2475,19 +2405,6 @@
             "Height": 28
           },
           "Text": "each"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 109,
-            "Y": 925,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -2718,10 +2635,23 @@
           "Bounds": {
             "X": 570,
             "Y": 933,
-            "Width": 135,
+            "Width": 82,
             "Height": 29
           },
-          "Text": "theirten"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 652,
+            "Y": 933,
+            "Width": 54,
+            "Height": 29
+          },
+          "Text": "ten"
         }
       ]
     },
@@ -3223,12 +3153,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 376,
-            "Y": 1090,
-            "Width": 150,
-            "Height": 36
+            "X": 340,
+            "Y": 1092,
+            "Width": 185,
+            "Height": 32
           },
-          "Text": "amanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -3930,7 +3860,7 @@
             "Width": 51,
             "Height": 32
           },
-          "Text": "1y"
+          "Text": "my"
         }
       ]
     },
@@ -4034,7 +3964,7 @@
             "Width": 74,
             "Height": 19
           },
-          "Text": "enes"
+          "Text": "ones"
         }
       ]
     },
@@ -4710,7 +4640,7 @@
             "Width": 60,
             "Height": 29
           },
-          "Text": "less"
+          "Text": "loss"
         }
       ]
     },
@@ -5014,7 +4944,7 @@
             "Width": 32,
             "Height": 28
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -5672,6 +5602,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 791,
+            "Y": 1800,
+            "Width": 49,
+            "Height": 32
+          },
+          "Text": "o"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 864,
             "Y": 1799,
             "Width": 101,
@@ -5708,4 +5651,4 @@
       ]
     }
   ]
-}
+}

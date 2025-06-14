@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1200,
+  "ManuallyEdited": true,
   "PageNumber": 600,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 505,
-            "Y": 75,
-            "Width": 82,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 612,
-            "Y": 75,
-            "Width": 36,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 673,
-            "Y": 72,
-            "Width": 115,
-            "Height": 28
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -585,11 +547,16 @@
             "Height": 20
           },
           "Text": "ves"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1116,
+            "Y": 270,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 170,
@@ -965,6 +932,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2356,6 +2324,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3341,19 +3310,6 @@
             "Height": 29
           },
           "Text": "Jared"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1062,
-            "Y": 1100,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4710,7 +4666,7 @@
             "Width": 72,
             "Height": 28
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -5453,10 +5409,23 @@
           "Bounds": {
             "X": 305,
             "Y": 1744,
-            "Width": 129,
+            "Width": 56,
             "Height": 36
           },
-          "Text": "the'land"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 361,
+            "Y": 1744,
+            "Width": 74,
+            "Height": 36
+          },
+          "Text": "land"
         }
       ]
     },
@@ -5660,11 +5629,11 @@
         {
           "Bounds": {
             "X": 804,
-            "Y": 1793,
-            "Width": 73,
-            "Height": 29
+            "Y": 1792,
+            "Width": 114,
+            "Height": 32
           },
-          "Text": "Jaco"
+          "Text": "Jacom"
         }
       ]
     },
@@ -5695,4 +5664,4 @@
       ]
     }
   ]
-}
+}

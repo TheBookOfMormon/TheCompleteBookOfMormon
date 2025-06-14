@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1214,
+  "ManuallyEdited": true,
   "PageNumber": 638,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 87,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 590,
-            "Y": 87,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 651,
-            "Y": 87,
-            "Width": 117,
-            "Height": 20
-          },
-          "Text": "MORONT"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -64,7 +26,7 @@
             "Width": 228,
             "Height": 38
           },
-          "Text": "nghteousness"
+          "Text": "righteousness"
         }
       ]
     },
@@ -2041,6 +2003,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2327,6 +2290,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4178,6 +4142,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5289,10 +5254,23 @@
           "Bounds": {
             "X": 737,
             "Y": 1757,
-            "Width": 78,
+            "Width": 59,
             "Height": 28
           },
-          "Text": "buta"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 796,
+            "Y": 1757,
+            "Width": 20,
+            "Height": 28
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5501,11 +5479,7 @@
             "Height": 19
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1104,
@@ -5514,8 +5488,18 @@
             "Height": 18
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 85,
+            "Y": 159,
+            "Width": 78,
+            "Height": 29
+          },
+          "IsOnNextPage": true,
+          "Text": "force"
         }
       ]
     }
   ]
-}
+}

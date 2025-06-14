@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2014,
   "ImageWidth": 1214,
+  "ManuallyEdited": true,
   "PageNumber": 608,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 107,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 606,
-            "Y": 108,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 665,
-            "Y": 107,
-            "Width": 110,
-            "Height": 20
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -87,10 +49,23 @@
           "Bounds": {
             "X": 600,
             "Y": 180,
-            "Width": 181,
+            "Width": 105,
             "Height": 25
           },
-          "Text": "swornunto"
+          "Text": "sworn"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 705,
+            "Y": 180,
+            "Width": 77,
+            "Height": 25
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -264,7 +239,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "Le"
+          "Text": "he"
         }
       ]
     },
@@ -619,6 +594,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -927,7 +903,7 @@
             "Width": 33,
             "Height": 28
           },
-          "Text": "6f"
+          "Text": "of"
         }
       ]
     },
@@ -1838,16 +1814,12 @@
         {
           "Bounds": {
             "X": 1058,
-            "Y": 643,
-            "Width": 25,
-            "Height": 29
+            "Y": 642,
+            "Width": 35,
+            "Height": 32
           },
-          "Text": "bhe"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "be"
+        },
         {
           "Bounds": {
             "X": 1078,
@@ -1856,11 +1828,7 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 134,
@@ -2021,10 +1989,23 @@
           "Bounds": {
             "X": 134,
             "Y": 721,
-            "Width": 147,
+            "Width": 55,
             "Height": 31
           },
-          "Text": "hisstead"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 189,
+            "Y": 721,
+            "Width": 93,
+            "Height": 31
+          },
+          "Text": "stead"
         }
       ]
     },
@@ -3649,7 +3630,7 @@
             "Width": 140,
             "Height": 36
           },
-          "Text": "precions"
+          "Text": "precious"
         }
       ]
     },
@@ -4500,11 +4481,16 @@
             "Height": 35
           },
           "Text": "cure"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1102,
+            "Y": 1393,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 132,
@@ -5410,11 +5396,7 @@
             "Height": 39
           },
           "Text": "right"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1089,
@@ -5423,11 +5405,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 135,
@@ -5435,7 +5413,7 @@
             "Width": 130,
             "Height": 28
           },
-          "Text": "cousness"
+          "Text": "eousness"
         }
       ]
     },
@@ -5565,7 +5543,7 @@
             "Width": 167,
             "Height": 39
           },
-          "Text": "danghters"
+          "Text": "daughters"
         }
       ]
     },
@@ -5764,6 +5742,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6134,4 +6113,4 @@
       ]
     }
   ]
-}
+}

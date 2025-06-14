@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1188,
+  "ManuallyEdited": true,
   "PageNumber": 607,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 386,
-            "Y": 111,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 111,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 112,
-            "Width": 102,
-            "Height": 20
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -312,32 +274,6 @@
             "Height": 28
           },
           "Text": "saved"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 418,
-            "Y": 374,
-            "Width": 199,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 376,
-            "Width": 30,
-            "Height": 28
-          },
-          "Text": "IV"
         }
       ]
     },
@@ -1035,6 +971,10 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2787,63 +2727,11 @@
         {
           "Bounds": {
             "X": 653,
-            "Y": 1151,
-            "Width": 96,
-            "Height": 29
+            "Y": 1150,
+            "Width": 220,
+            "Height": 32
           },
-          "Text": "father"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 755,
-            "Y": 1171,
-            "Width": 10,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 768,
-            "Y": 1152,
-            "Width": 26,
-            "Height": 28
-          },
-          "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 804,
-            "Y": 1171,
-            "Width": 10,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 816,
-            "Y": 1152,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "law"
+          "Text": "father-in-law"
         }
       ]
     },
@@ -3143,47 +3031,27 @@
             "Height": 29
           },
           "Text": "father"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1038,
+            "Y": 1228,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 82,
-            "Y": 1270,
-            "Width": 25,
-            "Height": 26
+            "Y": 1267,
+            "Width": 104,
+            "Height": 32
           },
-          "Text": "in"
+          "Text": "in-law"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 1288,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 128,
-            "Y": 1268,
-            "Width": 50,
-            "Height": 28
-          },
-          "Text": "law"
-        }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4121,6 +3989,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4763,11 +4632,11 @@
         {
           "Bounds": {
             "X": 965,
-            "Y": 1695,
-            "Width": 82,
-            "Height": 29
+            "Y": 1694,
+            "Width": 99,
+            "Height": 32
           },
-          "Text": "smail"
+          "Text": "small"
         }
       ]
     },
@@ -5212,19 +5081,6 @@
           "Text": "people"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 180,
-            "Y": 1847,
-            "Width": 58,
-            "Height": 33
-          },
-          "Text": "TS"
-        }
-      ]
     }
   ]
-}
+}

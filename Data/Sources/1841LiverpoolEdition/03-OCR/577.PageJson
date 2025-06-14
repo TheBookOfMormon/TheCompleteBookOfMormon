@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1178,
+  "ManuallyEdited": true,
   "PageNumber": 577,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 420,
-            "Y": 66,
-            "Width": 76,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 66,
-            "Width": 33,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 66,
-            "Width": 128,
-            "Height": 20
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1028,10 +990,23 @@
           "Bounds": {
             "X": 504,
             "Y": 410,
-            "Width": 151,
+            "Width": 82,
             "Height": 29
           },
-          "Text": "eventhat"
+          "Text": "even"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 586,
+            "Y": 410,
+            "Width": 70,
+            "Height": 29
+          },
+          "Text": "that"
         }
       ]
     },
@@ -3182,6 +3157,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4751,7 +4727,7 @@
             "Width": 109,
             "Height": 37
           },
-          "Text": "Justice"
+          "Text": "justice"
         }
       ]
     },
@@ -5133,4 +5109,4 @@
       ]
     }
   ]
-}
+}
