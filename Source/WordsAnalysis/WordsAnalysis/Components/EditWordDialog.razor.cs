@@ -34,8 +34,8 @@ public partial class EditWordDialog : IAsyncDisposable
     private string? PageImageData;
     private PageState PageState = null!;
     private bool ShowDashes;
-    private bool LastShowSurroundingText = true;
-    private bool ShowSurroundingText = true;
+    private bool _ShowSurroundingText = true;
+    public bool ShowSurroundingText { get => _ShowSurroundingText; set => _ShowSurroundingText = value; }
     private RequiredText[] Texts = [];
     private OcrWord Word = null!;
     private string? WordImageData;
@@ -53,7 +53,6 @@ public partial class EditWordDialog : IAsyncDisposable
         LineHeightPreferenceKey = $"{Content.Edition.BookInfo.Code}-LineHeight";
         LineHeight = Preferences.Get(LineHeightPreferenceKey, 12);
 
-        ShowSurroundingText = LastShowSurroundingText;
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
         OriginalBounds = Word.Elements[0].Bounds;
@@ -237,7 +236,6 @@ public partial class EditWordDialog : IAsyncDisposable
     private void ShowSurroundingTextChanged()
     {
         UpdateImageData();
-        LastShowSurroundingText = ShowSurroundingText;
     }
 
     private void UpdateImageData()
