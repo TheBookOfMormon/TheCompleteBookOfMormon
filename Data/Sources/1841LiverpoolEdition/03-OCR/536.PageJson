@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2005,
   "ImageWidth": 1115,
+  "ManuallyEdited": true,
   "PageNumber": 536,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 84,
-            "Width": 77,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 85,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 658,
-            "Y": 85,
-            "Width": 88,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1078,7 +1040,7 @@
             "Width": 33,
             "Height": 28
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -6041,6 +6003,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 698,
+            "Y": 1794,
+            "Width": 106,
+            "Height": 32
+          },
+          "Text": "Jesus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 807,
             "Y": 1793,
             "Width": 62,
@@ -6203,11 +6178,7 @@
             "Height": 32
           },
           "Text": "multi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1054,
@@ -6216,8 +6187,18 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 72,
+            "Y": 148,
+            "Width": 61,
+            "Height": 32
+          },
+          "IsOnNextPage": true,
+          "Text": "tude"
         }
       ]
     }
   ]
-}
+}

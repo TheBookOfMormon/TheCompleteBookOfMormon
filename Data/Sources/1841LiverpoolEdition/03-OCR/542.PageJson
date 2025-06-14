@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1116,
+  "ManuallyEdited": true,
   "PageNumber": 542,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 83,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 84,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 82,
-            "Width": 93,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -156,11 +118,16 @@
             "Height": 30
           },
           "Text": "multi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1056,
+            "Y": 153,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 98,
@@ -4162,6 +4129,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5949,4 +5917,4 @@
       ]
     }
   ]
-}
+}

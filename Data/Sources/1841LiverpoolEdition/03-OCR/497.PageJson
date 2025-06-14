@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2006,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 497,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 296,
-            "Y": 50,
-            "Width": 14,
-            "Height": 38
-          },
-          "Text": "ix"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 59,
-            "Width": 80,
-            "Height": 23
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 61,
-            "Width": 34,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 59,
-            "Width": 97,
-            "Height": 23
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1724,6 +1673,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3684,11 +3634,11 @@
         {
           "Bounds": {
             "X": 89,
-            "Y": 1227,
-            "Width": 43,
-            "Height": 67
+            "Y": 1230,
+            "Width": 69,
+            "Height": 30
           },
-          "Text": "ir"
+          "Text": "that"
         }
       ]
     },
@@ -4179,10 +4129,23 @@
           "Bounds": {
             "X": 716,
             "Y": 1389,
-            "Width": 176,
+            "Width": 85,
             "Height": 37
           },
-          "Text": "moresigns"
+          "Text": "more"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 801,
+            "Y": 1389,
+            "Width": 92,
+            "Height": 37
+          },
+          "Text": "signs"
         }
       ]
     },
@@ -5518,4 +5481,4 @@
       ]
     }
   ]
-}
+}

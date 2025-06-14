@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1167,
+  "ManuallyEdited": true,
   "PageNumber": 514,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 456,
-            "Y": 108,
-            "Width": 79,
-            "Height": 27
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 116,
-            "Width": 35,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 624,
-            "Y": 108,
-            "Width": 105,
-            "Height": 27
-          },
-          "Text": "NEPHT"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -293,38 +255,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 450,
-            "Y": 378,
-            "Width": 201,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 680,
-            "Y": 378,
-            "Width": 28,
-            "Height": 28
-          },
-          "Text": "1V"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 143,
             "Y": 456,
             "Width": 68,
             "Height": 28
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -399,10 +335,23 @@
           "Bounds": {
             "X": 587,
             "Y": 455,
-            "Width": 242,
+            "Width": 70,
             "Height": 38
           },
-          "Text": "thataccording"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 657,
+            "Y": 455,
+            "Width": 173,
+            "Height": 38
+          },
+          "Text": "according"
         }
       ]
     },
@@ -1204,11 +1153,11 @@
         {
           "Bounds": {
             "X": 103,
-            "Y": 693,
-            "Width": 22,
-            "Height": 24
+            "Y": 690,
+            "Width": 24,
+            "Height": 30
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -1507,7 +1456,7 @@
             "Width": 74,
             "Height": 36
           },
-          "Text": "'year"
+          "Text": "year"
         }
       ]
     },
@@ -2669,7 +2618,7 @@
             "Width": 73,
             "Height": 28
           },
-          "Text": "thers"
+          "Text": "there"
         }
       ]
     },
@@ -2760,7 +2709,7 @@
             "Width": 54,
             "Height": 19
           },
-          "Text": "ome"
+          "Text": "one"
         }
       ]
     },
@@ -2812,7 +2761,7 @@
             "Width": 62,
             "Height": 28
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -3073,11 +3022,7 @@
             "Height": 27
           },
           "Text": "inso"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1036,
@@ -3086,19 +3031,15 @@
             "Height": 23
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 95,
+            "X": 113,
             "Y": 1234,
-            "Width": 102,
+            "Width": 84,
             "Height": 29
           },
-          "Text": "'much"
+          "Text": "much"
         }
       ]
     },
@@ -3493,7 +3434,7 @@
             "Width": 38,
             "Height": 29
           },
-          "Text": "2ll"
+          "Text": "all"
         }
       ]
     },
@@ -3930,19 +3871,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 95,
-            "Y": 1481,
-            "Width": 6,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 104,
             "Y": 1468,
             "Width": 119,
@@ -4000,7 +3928,7 @@
             "Width": 60,
             "Height": 37
           },
-          "Text": "dity"
+          "Text": "city"
         }
       ]
     },
@@ -4931,12 +4859,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 93,
+            "X": 111,
             "Y": 1781,
-            "Width": 106,
+            "Width": 88,
             "Height": 29
           },
-          "Text": "'whole"
+          "Text": "whole"
         }
       ]
     },
@@ -5045,4 +4973,4 @@
       ]
     }
   ]
-}
+}

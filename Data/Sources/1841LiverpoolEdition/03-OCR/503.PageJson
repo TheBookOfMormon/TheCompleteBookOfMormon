@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 503,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 385,
-            "Y": 122,
-            "Width": 75,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 488,
-            "Y": 123,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 123,
-            "Width": 88,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2406,10 +2368,23 @@
           "Bounds": {
             "X": 501,
             "Y": 889,
-            "Width": 328,
+            "Width": 250,
             "Height": 28
           },
-          "Text": "commandmentunto"
+          "Text": "commandment"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 751,
+            "Y": 889,
+            "Width": 79,
+            "Height": 28
+          },
+          "Text": "unto"
         }
       ]
     },
@@ -3238,36 +3213,10 @@
           "Bounds": {
             "X": 276,
             "Y": 1160,
-            "Width": 72,
-            "Height": 29
+            "Width": 185,
+            "Height": 30
           },
-          "Text": "lamb"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 350,
-            "Y": 1170,
-            "Width": 21,
-            "Height": 18
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 1161,
-            "Width": 63,
-            "Height": 28
-          },
-          "Text": "skin"
+          "Text": "lamb-skin"
         }
       ]
     },
@@ -3498,36 +3447,10 @@
           "Bounds": {
             "X": 159,
             "Y": 1236,
-            "Width": 75,
+            "Width": 183,
             "Height": 30
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 237,
-            "Y": 1257,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 249,
-            "Y": 1238,
-            "Width": 78,
-            "Height": 37
-          },
-          "Text": "plate"
+          "Text": "head-plate"
         }
       ]
     },
@@ -4879,7 +4802,7 @@
             "Width": 34,
             "Height": 43
           },
-          "Text": "tor"
+          "Text": "for"
         }
       ]
     },
@@ -5009,7 +4932,7 @@
             "Width": 49,
             "Height": 43
           },
-          "Text": "lear"
+          "Text": "fear"
         }
       ]
     },

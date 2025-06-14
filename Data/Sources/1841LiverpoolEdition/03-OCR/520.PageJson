@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1132,
+  "ManuallyEdited": true,
   "PageNumber": 520,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 68,
-            "Y": 76,
-            "Width": 75,
-            "Height": 29
-          },
-          "Text": "S12"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 439,
-            "Y": 88,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 543,
-            "Y": 87,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 87,
-            "Width": 92,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -165,10 +114,23 @@
           "Bounds": {
             "X": 951,
             "Y": 156,
-            "Width": 79,
+            "Width": 59,
             "Height": 31
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1010,
+            "Y": 156,
+            "Width": 21,
+            "Height": 31
+          },
+          "Text": "it"
         }
       ]
     },
@@ -481,11 +443,16 @@
             "Height": 28
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1029,
+            "Y": 234,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 72,
@@ -1476,25 +1443,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 76,
-            "Y": 599,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 92,
             "Y": 595,
             "Width": 50,
             "Height": 29
           },
-          "Text": "10y"
+          "Text": "my"
         }
       ]
     },
@@ -1508,19 +1462,6 @@
             "Height": 37
           },
           "Text": "sayings"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 706,
-            "Width": 203,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
         }
       ]
     },
@@ -1559,10 +1500,11 @@
             "Width": 118,
             "Height": 28
           },
-          "Text": "sheneth"
+          "Text": "sheweth"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1927,6 +1869,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3482,10 +3425,23 @@
           "Bounds": {
             "X": 958,
             "Y": 1407,
-            "Width": 85,
+            "Width": 62,
             "Height": 31
           },
-          "Text": "andit"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1020,
+            "Y": 1407,
+            "Width": 24,
+            "Height": 31
+          },
+          "Text": "it"
         }
       ]
     },
@@ -3790,19 +3746,6 @@
             "Height": 37
           },
           "Text": "pierce"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 265,
-            "Y": 1551,
-            "Width": 10,
-            "Height": 6
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4525,12 +4468,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 81,
+            "X": 99,
             "Y": 1726,
-            "Width": 76,
+            "Width": 58,
             "Height": 29
           },
-          "Text": "'and"
+          "Text": "and"
         }
       ]
     },

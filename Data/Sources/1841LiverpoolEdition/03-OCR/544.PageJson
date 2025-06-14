@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2013,
   "ImageWidth": 1107,
+  "ManuallyEdited": true,
   "PageNumber": 544,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 389,
-            "Y": 60,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 61,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 58,
-            "Width": 95,
-            "Height": 28
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1169,7 +1131,7 @@
             "Width": 50,
             "Height": 29
           },
-          "Text": "tae"
+          "Text": "the"
         }
       ]
     },
@@ -1490,11 +1452,11 @@
         {
           "Bounds": {
             "X": 420,
-            "Y": 560,
-            "Width": 159,
-            "Height": 29
+            "Y": 559,
+            "Width": 185,
+            "Height": 32
           },
-          "Text": "Jernsalem"
+          "Text": "Jerusalem"
         }
       ]
     },
@@ -1837,7 +1799,7 @@
             "Width": 170,
             "Height": 30
           },
-          "Text": "comiorted"
+          "Text": "comforted"
         }
       ]
     },
@@ -3489,11 +3451,16 @@
             "Height": 30
           },
           "Text": "with"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1029,
+            "Y": 1146,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 67,
@@ -4733,7 +4700,7 @@
             "Width": 31,
             "Height": 22
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -4876,7 +4843,7 @@
             "Width": 35,
             "Height": 40
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -5316,9 +5283,9 @@
             "X": 762,
             "Y": 1659,
             "Width": 100,
-            "Height": 67
+            "Height": 37
           },
-          "Text": "belay"
+          "Text": "before"
         }
       ]
     },
@@ -5396,7 +5363,7 @@
             "Width": 87,
             "Height": 29
           },
-          "Text": "Isracl"
+          "Text": "Israel"
         }
       ]
     },
@@ -5500,7 +5467,7 @@
             "Width": 80,
             "Height": 29
           },
-          "Text": "siiall"
+          "Text": "shall"
         }
       ]
     },
@@ -5742,19 +5709,6 @@
           "Text": "at"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 942,
-            "Y": 1958,
-            "Width": 35,
-            "Height": 52
-          },
-          "Text": "aa"
-        }
-      ]
     }
   ]
-}
+}

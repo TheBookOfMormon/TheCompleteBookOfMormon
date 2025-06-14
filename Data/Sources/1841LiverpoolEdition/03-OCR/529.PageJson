@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1260,
+  "ManuallyEdited": true,
   "PageNumber": 529,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 375,
-            "Y": 16,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 15,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 15,
-            "Width": 93,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -584,7 +546,7 @@
             "Width": 31,
             "Height": 25
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -672,10 +634,23 @@
           "Bounds": {
             "X": 678,
             "Y": 242,
-            "Width": 112,
+            "Width": 81,
             "Height": 30
           },
-          "Text": "wideis"
+          "Text": "wide"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 759,
+            "Y": 242,
+            "Width": 31,
+            "Height": 30
+          },
+          "Text": "is"
         }
       ]
     },
@@ -935,7 +910,7 @@
             "Width": 131,
             "Height": 28
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
@@ -1325,7 +1300,7 @@
             "Width": 117,
             "Height": 37
           },
-          "Text": "sheep's"
+          "Text": "sheep\u0027s"
         }
       ]
     },
@@ -3631,7 +3606,7 @@
             "Width": 69,
             "Height": 24
           },
-          "Text": "anto"
+          "Text": "unto"
         }
       ]
     },
@@ -4835,45 +4810,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 792,
-            "Y": 1528,
-            "Width": 4,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 418,
-            "Y": 1584,
-            "Width": 204,
-            "Height": 29
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 654,
-            "Y": 1585,
-            "Width": 48,
-            "Height": 29
-          },
-          "Text": "VII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 130,
             "Y": 1654,
             "Width": 57,
@@ -4892,7 +4828,7 @@
             "Width": 64,
             "Height": 37
           },
-          "Text": "NOW"
+          "Text": "now"
         }
       ]
     },
@@ -5061,7 +4997,7 @@
             "Width": 65,
             "Height": 25
           },
-          "Text": "east"
+          "Text": "cast"
         }
       ]
     },
@@ -5153,11 +5089,7 @@
             "Height": 27
           },
           "Text": "mul"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1036,
@@ -5166,11 +5098,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 103,
@@ -5178,7 +5106,7 @@
             "Width": 78,
             "Height": 29
           },
-          "Text": "Utade"
+          "Text": "titude"
         }
       ]
     },
@@ -5217,7 +5145,7 @@
             "Width": 71,
             "Height": 23
           },
-          "Text": "wnto"
+          "Text": "unto"
         }
       ]
     },
@@ -5300,4 +5228,4 @@
       ]
     }
   ]
-}
+}

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2016,
   "ImageWidth": 1121,
+  "ManuallyEdited": true,
   "PageNumber": 534,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 82,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 600,
-            "Y": 82,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 660,
-            "Y": 80,
-            "Width": 93,
-            "Height": 22
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -918,9 +880,9 @@
         {
           "Bounds": {
             "X": 336,
-            "Y": 398,
-            "Width": 53,
-            "Height": 29
+            "Y": 397,
+            "Width": 66,
+            "Height": 32
           },
           "Text": "yon"
         }
@@ -1143,7 +1105,7 @@
             "Width": 98,
             "Height": 37
           },
-          "Text": "leprons"
+          "Text": "leprous"
         }
       ]
     },
@@ -1299,7 +1261,7 @@
             "Width": 112,
             "Height": 30
           },
-          "Text": "afllicted"
+          "Text": "afflicted"
         }
       ]
     },
@@ -1996,6 +1958,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1055,
+            "Y": 665,
+            "Width": 16,
+            "Height": 32
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 118,
             "Y": 706,
             "Width": 114,
@@ -2365,7 +2340,7 @@
             "Width": 134,
             "Height": 35
           },
-          "Text": "afilicted"
+          "Text": "afflicted"
         }
       ]
     },
@@ -3661,11 +3636,11 @@
         {
           "Bounds": {
             "X": 949,
-            "Y": 1215,
-            "Width": 103,
-            "Height": 39
+            "Y": 1218,
+            "Width": 117,
+            "Height": 32
           },
-          "Text": "bronght"
+          "Text": "brought"
         }
       ]
     },
@@ -3922,10 +3897,23 @@
           "Bounds": {
             "X": 961,
             "Y": 1293,
-            "Width": 98,
+            "Width": 52,
             "Height": 32
           },
-          "Text": "andthe"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1013,
+            "Y": 1293,
+            "Width": 47,
+            "Height": 32
+          },
+          "Text": "the"
         }
       ]
     },
@@ -3938,7 +3926,7 @@
             "Width": 164,
             "Height": 29
           },
-          "Text": "multitnde"
+          "Text": "multitude"
         }
       ]
     },
@@ -4719,6 +4707,19 @@
             "Height": 29
           },
           "Text": "Father"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 348,
+            "Y": 1574,
+            "Width": 32,
+            "Height": 32
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5724,4 +5725,4 @@
       ]
     }
   ]
-}
+}

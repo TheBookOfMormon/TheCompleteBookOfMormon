@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 524,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 508,
-            "Y": 72,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 616,
-            "Y": 72,
-            "Width": 34,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 679,
-            "Y": 73,
-            "Width": 93,
-            "Height": 20
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1663,7 +1625,7 @@
             "Width": 44,
             "Height": 29
           },
-          "Text": "tor"
+          "Text": "for"
         }
       ]
     },
@@ -1803,13 +1765,14 @@
           "Bounds": {
             "X": 124,
             "Y": 660,
-            "Width": 49,
+            "Width": 55,
             "Height": 19
           },
           "Text": "arc"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2140,37 +2103,11 @@
         {
           "Bounds": {
             "X": 449,
-            "Y": 742,
-            "Width": 92,
-            "Height": 28
+            "Y": 741,
+            "Width": 257,
+            "Height": 30
           },
-          "Text": "peace"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 750,
-            "Width": 8,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 733,
-            "Width": 122,
-            "Height": 37
-          },
-          "Text": "makers"
+          "Text": "peace-makers"
         }
       ]
     },
@@ -2426,40 +2363,15 @@
         {
           "Bounds": {
             "X": 455,
-            "Y": 820,
-            "Width": 90,
-            "Height": 20
+            "Y": 815,
+            "Width": 201,
+            "Height": 30
           },
-          "Text": "name"
+          "Text": "name-sake"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 550,
-            "Y": 831,
-            "Width": 9,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 564,
-            "Y": 812,
-            "Width": 70,
-            "Height": 28
-          },
-          "Text": "sake"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -2937,7 +2849,7 @@
             "Width": 54,
             "Height": 38
           },
-          "Text": "Joy"
+          "Text": "joy"
         }
       ]
     },
@@ -2959,11 +2871,11 @@
         {
           "Bounds": {
             "X": 267,
-            "Y": 969,
-            "Width": 23,
-            "Height": 28
+            "Y": 968,
+            "Width": 41,
+            "Height": 30
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -3818,10 +3730,23 @@
           "Bounds": {
             "X": 1018,
             "Y": 1163,
-            "Width": 63,
+            "Width": 29,
             "Height": 38
           },
-          "Text": "tobe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1047,
+            "Y": 1163,
+            "Width": 35,
+            "Height": 38
+          },
+          "Text": "be"
         }
       ]
     },
@@ -4159,7 +4084,7 @@
             "Width": 27,
             "Height": 28
           },
-          "Text": "1s"
+          "Text": "is"
         }
       ]
     },
@@ -4299,10 +4224,23 @@
           "Bounds": {
             "X": 919,
             "Y": 1283,
-            "Width": 95,
+            "Width": 77,
             "Height": 37
           },
-          "Text": "lighta"
+          "Text": "light"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 996,
+            "Y": 1283,
+            "Width": 19,
+            "Height": 37
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4316,11 +4254,16 @@
             "Height": 20
           },
           "Text": "can"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1082,
+            "Y": 1284,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 126,
@@ -4472,11 +4415,16 @@
             "Height": 33
           },
           "Text": "candle"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1087,
+            "Y": 1320,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 127,
@@ -4486,7 +4434,8 @@
           },
           "Text": "stick"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4809,7 +4758,7 @@
             "Width": 72,
             "Height": 29
           },
-          "Text": "vour"
+          "Text": "your"
         }
       ]
     },
@@ -5597,6 +5546,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 378,
+            "Y": 1677,
+            "Width": 32,
+            "Height": 30
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 424,
             "Y": 1677,
             "Width": 75,
@@ -5619,6 +5581,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6249,4 +6212,4 @@
       ]
     }
   ]
-}
+}

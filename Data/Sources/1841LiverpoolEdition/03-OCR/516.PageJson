@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 516,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 517,
-            "Y": 78,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 625,
-            "Y": 75,
-            "Width": 33,
-            "Height": 23
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 687,
-            "Y": 73,
-            "Width": 98,
-            "Height": 25
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +130,7 @@
             "Width": 32,
             "Height": 24
           },
-          "Text": "ou"
+          "Text": "our"
         }
       ]
     },
@@ -2415,6 +2377,24 @@
             "Height": 29
           },
           "Text": "Zara"
+        },
+        {
+          "Bounds": {
+            "X": 1091,
+            "Y": 822,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 141,
+            "Y": 861,
+            "Width": 105,
+            "Height": 30
+          },
+          "Text": "hemla"
         }
       ]
     },
@@ -2422,12 +2402,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 141,
+            "X": 257,
             "Y": 861,
-            "Width": 187,
-            "Height": 29
+            "Width": 84,
+            "Height": 30
           },
-          "Text": "hemlahave"
+          "Text": "have"
         }
       ]
     },
@@ -2645,10 +2625,36 @@
           "Bounds": {
             "X": 915,
             "Y": 900,
-            "Width": 173,
+            "Width": 109,
             "Height": 30
           },
-          "Text": "causedtobe"
+          "Text": "caused"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1024,
+            "Y": 900,
+            "Width": 29,
+            "Height": 30
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1053,
+            "Y": 900,
+            "Width": 36,
+            "Height": 30
+          },
+          "Text": "be"
         }
       ]
     },
@@ -3346,6 +3352,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3814,6 +3821,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4786,11 +4794,16 @@
             "Height": 32
           },
           "Text": "Gadi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1075,
+            "Y": 1529,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 140,
@@ -4928,7 +4941,7 @@
             "Width": 155,
             "Height": 37
           },
-          "Text": "Gimgimnuo"
+          "Text": "Gimgimno"
         }
       ]
     },
@@ -5591,7 +5604,7 @@
             "Width": 108,
             "Height": 32
           },
-          "Text": "sheuld"
+          "Text": "should"
         }
       ]
     },
@@ -5604,7 +5617,7 @@
             "Width": 47,
             "Height": 26
           },
-          "Text": "net"
+          "Text": "not"
         }
       ]
     },
@@ -5617,9 +5630,9 @@
             "Width": 67,
             "Height": 22
           },
-          "Text": "eome"
+          "Text": "come"
         }
       ]
     }
   ]
-}
+}

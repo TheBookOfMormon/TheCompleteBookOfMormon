@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2006,
   "ImageWidth": 1150,
+  "ManuallyEdited": true,
   "PageNumber": 504,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 86,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 582,
-            "Y": 87,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 643,
-            "Y": 72,
-            "Width": 94,
-            "Height": 34
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -195,11 +157,16 @@
             "Height": 19
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1059,
+            "Y": 163,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 107,
@@ -810,7 +777,7 @@
             "Width": 52,
             "Height": 29
           },
-          "Text": "leit"
+          "Text": "left"
         }
       ]
     },
@@ -979,7 +946,7 @@
             "Width": 112,
             "Height": 29
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -1223,10 +1190,23 @@
           "Bounds": {
             "X": 418,
             "Y": 550,
-            "Width": 146,
+            "Width": 80,
             "Height": 38
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 498,
+            "Y": 550,
+            "Width": 67,
+            "Height": 38
+          },
+          "Text": "that"
         }
       ]
     },
@@ -1373,6 +1353,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2284,7 +2265,7 @@
             "Width": 129,
             "Height": 29
           },
-          "Text": "hecause"
+          "Text": "because"
         }
       ]
     },
@@ -3693,7 +3674,7 @@
             "Width": 33,
             "Height": 28
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },
@@ -4707,12 +4688,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 100,
+            "X": 118,
             "Y": 1651,
-            "Width": 74,
+            "Width": 56,
             "Height": 33
           },
-          "Text": "'was"
+          "Text": "was"
         }
       ]
     },
@@ -5060,13 +5041,27 @@
           "Bounds": {
             "X": 946,
             "Y": 1730,
-            "Width": 113,
+            "Width": 31,
             "Height": 29
           },
-          "Text": "1nstors"
+          "Text": "in"
         }
       ]
     },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 977,
+            "Y": 1730,
+            "Width": 83,
+            "Height": 29
+          },
+          "Text": "store"
+        }
+      ]
+    },
+    null,
     {
       "Elements": [
         {
@@ -5154,7 +5149,7 @@
             "Width": 121,
             "Height": 28
           },
-          "Text": "'among"
+          "Text": "among"
         }
       ]
     },

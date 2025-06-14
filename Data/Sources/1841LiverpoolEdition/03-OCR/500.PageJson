@@ -1,60 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1122,
+  "ManuallyEdited": true,
   "PageNumber": 500,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 102,
-            "Width": 79,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 557,
-            "Y": 102,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 618,
-            "Y": 101,
-            "Width": 103,
-            "Height": 21
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 973,
-            "Y": 94,
-            "Width": 30,
-            "Height": 35
-          },
-          "Text": "BEL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1307,12 +1256,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 911,
+            "X": 929,
             "Y": 523,
-            "Width": 68,
+            "Width": 50,
             "Height": 29
           },
-          "Text": "sand"
+          "Text": "and"
         }
       ]
     },
@@ -1509,10 +1458,23 @@
           "Bounds": {
             "X": 212,
             "Y": 601,
-            "Width": 111,
+            "Width": 55,
             "Height": 29
           },
-          "Text": "butour"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 267,
+            "Y": 601,
+            "Width": 57,
+            "Height": 29
+          },
+          "Text": "our"
         }
       ]
     },
@@ -2644,11 +2606,16 @@
             "Height": 28
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1036,
+            "Y": 874,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 97,
@@ -3050,6 +3017,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3321,10 +3289,23 @@
           "Bounds": {
             "X": 956,
             "Y": 1066,
-            "Width": 85,
+            "Width": 13,
             "Height": 39
           },
-          "Text": "Ihope"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 969,
+            "Y": 1066,
+            "Width": 73,
+            "Height": 39
+          },
+          "Text": "hope"
         }
       ]
     },
@@ -4023,10 +4004,23 @@
           "Bounds": {
             "X": 687,
             "Y": 1305,
-            "Width": 66,
+            "Width": 16,
             "Height": 28
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 703,
+            "Y": 1305,
+            "Width": 51,
+            "Height": 28
+          },
+          "Text": "am"
         }
       ]
     },
@@ -4625,11 +4619,16 @@
             "Height": 19
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1041,
+            "Y": 1498,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 96,
@@ -5233,11 +5232,16 @@
             "Height": 44
           },
           "Text": "there"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1040,
+            "Y": 1697,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 95,
@@ -5651,19 +5655,6 @@
           "Text": "time"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1044,
-            "Y": 1959,
-            "Width": 25,
-            "Height": 50
-          },
-          "Text": "rr"
-        }
-      ]
     }
   ]
-}
+}
