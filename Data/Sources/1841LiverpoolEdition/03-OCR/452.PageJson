@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1174,
+  "ManuallyEdited": true,
   "PageNumber": 452,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 81,
-            "Width": 81,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 599,
-            "Y": 82,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 661,
-            "Y": 81,
-            "Width": 145,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -142,7 +104,7 @@
             "Width": 58,
             "Height": 32
           },
-          "Text": "they"
+          "Text": "their"
         }
       ]
     },
@@ -350,12 +312,17 @@
             "Width": 43,
             "Height": 22
           },
-          "Text": "map"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "man"
+        },
+        {
+          "Bounds": {
+            "X": 1103,
+            "Y": 244,
+            "Width": 43,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 174,
@@ -454,12 +421,17 @@
             "Width": 34,
             "Height": 21
           },
-          "Text": "cop"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "con"
+        },
+        {
+          "Bounds": {
+            "X": 1108,
+            "Y": 280,
+            "Width": 27,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 173,
@@ -714,7 +686,7 @@
             "Width": 56,
             "Height": 29
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -831,7 +803,7 @@
             "Width": 56,
             "Height": 31
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -1053,11 +1025,16 @@
             "Height": 36
           },
           "Text": "transgres"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1104,
+            "Y": 474,
+            "Width": 27,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 172,
@@ -1537,6 +1514,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1845,7 +1824,7 @@
             "Width": 56,
             "Height": 29
           },
-          "Text": "heen"
+          "Text": "been"
         }
       ]
     },
@@ -2605,11 +2584,16 @@
             "Height": 28
           },
           "Text": "He"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1115,
+            "Y": 976,
+            "Width": 27,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 173,
@@ -3143,11 +3127,16 @@
             "Height": 19
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1111,
+            "Y": 1137,
+            "Width": 27,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 172,
@@ -4448,11 +4437,16 @@
             "Height": 29
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1116,
+            "Y": 1484,
+            "Width": 27,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 172,
@@ -5154,7 +5148,7 @@
             "Width": 54,
             "Height": 25
           },
-          "Text": "nant"
+          "Text": "not"
         }
       ]
     },
@@ -5280,11 +5274,11 @@
         {
           "Bounds": {
             "X": 225,
-            "Y": 1769,
-            "Width": 134,
-            "Height": 28
+            "Y": 1768,
+            "Width": 202,
+            "Height": 30
           },
-          "Text": "governm"
+          "Text": "government"
         }
       ]
     },
@@ -5362,7 +5356,7 @@
             "Width": 38,
             "Height": 28
           },
-          "Text": "ont"
+          "Text": "out"
         }
       ]
     },
@@ -5406,4 +5400,4 @@
       ]
     }
   ]
-}
+}

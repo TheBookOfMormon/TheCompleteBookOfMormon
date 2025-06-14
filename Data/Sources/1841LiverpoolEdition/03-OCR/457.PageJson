@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1177,
+  "ManuallyEdited": true,
   "PageNumber": 457,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 361,
-            "Y": 81,
-            "Width": 81,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 81,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 533,
-            "Y": 81,
-            "Width": 147,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -810,7 +772,7 @@
             "Width": 180,
             "Height": 29
           },
-          "Text": "destrnction"
+          "Text": "destruction"
         }
       ]
     },
@@ -3042,6 +3004,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3702,11 +3665,16 @@
             "Height": 27
           },
           "Text": "writ"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1003,
+            "Y": 1211,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 71,
@@ -3909,7 +3877,7 @@
             "Width": 112,
             "Height": 28
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -4533,7 +4501,7 @@
             "Width": 46,
             "Height": 29
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -4845,12 +4813,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 93,
+            "X": 111,
             "Y": 1557,
-            "Width": 35,
+            "Width": 17,
             "Height": 43
           },
-          "Text": "'O"
+          "Text": "O"
         }
       ]
     },
@@ -5198,10 +5166,23 @@
           "Bounds": {
             "X": 75,
             "Y": 1672,
-            "Width": 107,
+            "Width": 31,
             "Height": 33
           },
-          "Text": "besaved"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 106,
+            "Y": 1672,
+            "Width": 77,
+            "Height": 33
+          },
+          "Text": "saved"
         }
       ]
     },
@@ -5292,7 +5273,7 @@
             "Width": 88,
             "Height": 27
           },
-          "Text": "Jesns"
+          "Text": "Jesus"
         }
       ]
     },
@@ -5679,4 +5660,4 @@
       ]
     }
   ]
-}
+}

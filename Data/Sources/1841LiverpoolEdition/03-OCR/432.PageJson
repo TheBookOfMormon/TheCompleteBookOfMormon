@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1154,
+  "ManuallyEdited": true,
   "PageNumber": 432,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 499,
-            "Y": 70,
-            "Width": 79,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 606,
-            "Y": 70,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 667,
-            "Y": 70,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -169,11 +131,16 @@
             "Height": 29
           },
           "Text": "Mo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1075,
+            "Y": 140,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 132,
@@ -1444,10 +1411,23 @@
           "Bounds": {
             "X": 628,
             "Y": 528,
-            "Width": 96,
+            "Width": 41,
             "Height": 38
           },
-          "Text": "bythe"
+          "Text": "by"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 669,
+            "Y": 528,
+            "Width": 56,
+            "Height": 38
+          },
+          "Text": "the"
         }
       ]
     },
@@ -2128,19 +2108,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1114,
-            "Y": 734,
-            "Width": 8,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 150,
             "Y": 761,
             "Width": 77,
@@ -2601,7 +2568,7 @@
             "Width": 162,
             "Height": 28
           },
-          "Text": "afilictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -2848,7 +2815,7 @@
             "Width": 113,
             "Height": 29
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -3745,7 +3712,7 @@
             "Width": 33,
             "Height": 19
           },
-          "Text": "ou"
+          "Text": "you"
         }
       ]
     },
@@ -3889,11 +3856,16 @@
             "Height": 38
           },
           "Text": "thought"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1110,
+            "Y": 1269,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 183,
@@ -3901,7 +3873,7 @@
             "Width": 45,
             "Height": 19
           },
-          "Text": "ess"
+          "Text": "less"
         }
       ]
     },
@@ -4473,7 +4445,7 @@
             "Width": 167,
             "Height": 28
           },
-          "Text": "succonred"
+          "Text": "succoured"
         }
       ]
     },
@@ -5019,7 +4991,7 @@
             "Width": 108,
             "Height": 39
           },
-          "Text": "tonght"
+          "Text": "fought"
         }
       ]
     },
@@ -5605,11 +5577,11 @@
         {
           "Bounds": {
             "X": 649,
-            "Y": 1823,
-            "Width": 33,
-            "Height": 20
+            "Y": 1819,
+            "Width": 46,
+            "Height": 34
           },
-          "Text": "mv"
+          "Text": "my"
         }
       ]
     },
@@ -5649,6 +5621,19 @@
             "Height": 29
           },
           "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1084,
+            "Y": 1809,
+            "Width": 37,
+            "Height": 29
+          },
+          "Text": "ye"
         }
       ]
     }

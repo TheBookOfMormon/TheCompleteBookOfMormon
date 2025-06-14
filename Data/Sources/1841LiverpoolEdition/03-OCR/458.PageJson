@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2007,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 458,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 81,
-            "Width": 82,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 625,
-            "Y": 83,
-            "Width": 31,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 686,
-            "Y": 84,
-            "Width": 160,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -764,11 +726,16 @@
             "Height": 37
           },
           "Text": "repen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1121,
+            "Y": 320,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 163,
@@ -2450,10 +2417,88 @@
           "Bounds": {
             "X": 206,
             "Y": 870,
-            "Width": 475,
+            "Width": 68,
             "Height": 37
           },
-          "Text": "Anditcametopassthatthese"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 274,
+            "Y": 870,
+            "Width": 25,
+            "Height": 37
+          },
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 299,
+            "Y": 870,
+            "Width": 94,
+            "Height": 37
+          },
+          "Text": "came"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 393,
+            "Y": 870,
+            "Width": 35,
+            "Height": 37
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 428,
+            "Y": 870,
+            "Width": 84,
+            "Height": 37
+          },
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 512,
+            "Y": 870,
+            "Width": 72,
+            "Height": 37
+          },
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 584,
+            "Y": 870,
+            "Width": 100,
+            "Height": 37
+          },
+          "Text": "these"
         }
       ]
     },
@@ -2549,7 +2594,7 @@
             "Width": 111,
             "Height": 39
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -2611,10 +2656,23 @@
           "Bounds": {
             "X": 645,
             "Y": 909,
-            "Width": 98,
+            "Width": 44,
             "Height": 30
           },
-          "Text": "hedid"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 689,
+            "Y": 909,
+            "Width": 55,
+            "Height": 30
+          },
+          "Text": "did"
         }
       ]
     },
@@ -2845,10 +2903,23 @@
           "Bounds": {
             "X": 485,
             "Y": 989,
-            "Width": 229,
+            "Width": 55,
             "Height": 30
           },
-          "Text": "didremember"
+          "Text": "did"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 540,
+            "Y": 989,
+            "Width": 175,
+            "Height": 30
+          },
+          "Text": "remember"
         }
       ]
     },
@@ -3268,6 +3339,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4304,12 +4376,8 @@
             "Width": 52,
             "Height": 21
           },
-          "Text": "11ns0"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "inso"
+        },
         {
           "Bounds": {
             "X": 1109,
@@ -4318,11 +4386,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 167,
@@ -4683,10 +4747,23 @@
           "Bounds": {
             "X": 1004,
             "Y": 1541,
-            "Width": 113,
+            "Width": 69,
             "Height": 33
           },
-          "Text": "themthe"
+          "Text": "them"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1073,
+            "Y": 1541,
+            "Width": 45,
+            "Height": 33
+          },
+          "Text": "the"
         }
       ]
     },

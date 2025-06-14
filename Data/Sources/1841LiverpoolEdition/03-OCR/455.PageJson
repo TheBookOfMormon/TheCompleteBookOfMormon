@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2004,
   "ImageWidth": 1193,
+  "ManuallyEdited": true,
   "PageNumber": 455,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 351,
-            "Y": 78,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 78,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 78,
-            "Width": 148,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1964,10 +1926,23 @@
           "Bounds": {
             "X": 879,
             "Y": 743,
-            "Width": 132,
+            "Width": 51,
             "Height": 30
           },
-          "Text": "fortheir"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 930,
+            "Y": 743,
+            "Width": 82,
+            "Height": 30
+          },
+          "Text": "their"
         }
       ]
     },
@@ -3737,7 +3712,7 @@
             "Width": 54,
             "Height": 26
           },
-          "Text": "mot"
+          "Text": "not"
         }
       ]
     },
@@ -3789,7 +3764,7 @@
             "Width": 111,
             "Height": 30
           },
-          "Text": "afilicted"
+          "Text": "afflicted"
         }
       ]
     },

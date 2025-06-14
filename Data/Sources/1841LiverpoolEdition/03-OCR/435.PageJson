@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 435,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 408,
-            "Y": 91,
-            "Width": 78,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 90,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 577,
-            "Y": 91,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -64,7 +26,7 @@
             "Width": 74,
             "Height": 21
           },
-          "Text": "nome"
+          "Text": "none"
         }
       ]
     },
@@ -571,7 +533,7 @@
             "Width": 35,
             "Height": 19
           },
-          "Text": "ea"
+          "Text": "yea"
         }
       ]
     },
@@ -2263,10 +2225,10 @@
           "Bounds": {
             "X": 206,
             "Y": 800,
-            "Width": 50,
-            "Height": 29
+            "Width": 60,
+            "Height": 28
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -5198,7 +5160,7 @@
             "Width": 102,
             "Height": 29
           },
-          "Text": "wonld"
+          "Text": "would"
         }
       ]
     },
@@ -5523,12 +5485,8 @@
             "Width": 79,
             "Height": 29
           },
-          "Text": "Hele"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Hela"
+        },
         {
           "Bounds": {
             "X": 1080,
@@ -5537,11 +5495,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 127,
@@ -5942,84 +5896,6 @@
           "Text": "unto"
         }
       ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 206,
-            "Y": 1863,
-            "Width": 16,
-            "Height": 17
-          },
-          "Text": "O"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 1997,
-            "Width": 3,
-            "Height": 4
-          },
-          "Text": "Te"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 533,
-            "Y": 2001,
-            "Width": 9,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 732,
-            "Y": 2000,
-            "Width": 2,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 762,
-            "Y": 2000,
-            "Width": 3,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 781,
-            "Y": 2000,
-            "Width": 0,
-            "Height": 1
-          },
-          "Text": "a"
-        }
-      ]
     }
   ]
-}
+}

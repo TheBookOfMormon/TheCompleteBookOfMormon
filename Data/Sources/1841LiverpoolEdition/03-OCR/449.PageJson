@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2020,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 449,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 353,
-            "Y": 60,
-            "Width": 81,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 462,
-            "Y": 59,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 61,
-            "Width": 148,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -363,7 +325,7 @@
             "Width": 191,
             "Height": 29
           },
-          "Text": "Moronthah"
+          "Text": "Moronihah"
         }
       ]
     },
@@ -1191,6 +1153,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1848,11 +1811,7 @@
             "Height": 29
           },
           "Text": "He"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1018,
@@ -1861,11 +1820,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 88,
@@ -1873,7 +1828,7 @@
             "Width": 86,
             "Height": 34
           },
-          "Text": "Jaman"
+          "Text": "laman"
         }
       ]
     },
@@ -2492,19 +2447,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 63,
-            "Y": 887,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 93,
             "Y": 879,
             "Width": 39,
@@ -2857,6 +2799,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3674,10 +3617,36 @@
           "Bounds": {
             "X": 401,
             "Y": 1232,
-            "Width": 160,
+            "Width": 80,
             "Height": 38
           },
-          "Text": "pass'ashe"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 481,
+            "Y": 1232,
+            "Width": 39,
+            "Height": 38
+          },
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 520,
+            "Y": 1232,
+            "Width": 43,
+            "Height": 38
+          },
+          "Text": "he"
         }
       ]
     },
@@ -3848,10 +3817,36 @@
           "Bounds": {
             "X": 828,
             "Y": 1272,
-            "Width": 224,
+            "Width": 33,
             "Height": 29
           },
-          "Text": "oftheservants"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 861,
+            "Y": 1272,
+            "Width": 53,
+            "Height": 29
+          },
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 914,
+            "Y": 1272,
+            "Width": 140,
+            "Height": 29
+          },
+          "Text": "servants"
         }
       ]
     },
@@ -3913,10 +3908,36 @@
           "Bounds": {
             "X": 505,
             "Y": 1312,
-            "Width": 178,
+            "Width": 54,
             "Height": 38
           },
-          "Text": "outbynight"
+          "Text": "out"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 559,
+            "Y": 1312,
+            "Width": 39,
+            "Height": 38
+          },
+          "Text": "by"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 598,
+            "Y": 1312,
+            "Width": 86,
+            "Height": 38
+          },
+          "Text": "night"
         }
       ]
     },
@@ -4739,6 +4760,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5438,11 +5464,7 @@
             "Height": 29
           },
           "Text": "combina"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1061,
@@ -5451,6 +5473,16 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 130,
+            "Y": 120,
+            "Width": 57,
+            "Height": 27
+          },
+          "IsOnNextPage": true,
+          "Text": "tion"
         }
       ]
     }

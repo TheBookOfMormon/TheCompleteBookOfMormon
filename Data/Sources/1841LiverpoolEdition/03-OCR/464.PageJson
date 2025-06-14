@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 464,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 59,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 583,
-            "Y": 47,
-            "Width": 40,
-            "Height": 32
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 59,
-            "Width": 148,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -94,6 +56,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1400,10 +1363,23 @@
           "Bounds": {
             "X": 967,
             "Y": 529,
-            "Width": 111,
+            "Width": 52,
             "Height": 30
           },
-          "Text": "andalso"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1019,
+            "Y": 529,
+            "Width": 60,
+            "Height": 30
+          },
+          "Text": "also"
         }
       ]
     },
@@ -1916,11 +1892,16 @@
             "Height": 20
           },
           "Text": "ac"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1083,
+            "Y": 692,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 123,
@@ -3004,7 +2985,7 @@
             "Width": 40,
             "Height": 39
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -5419,7 +5400,7 @@
             "Width": 44,
             "Height": 30
           },
-          "Text": "ail"
+          "Text": "all"
         }
       ]
     },
@@ -5758,6 +5739,25 @@
             "Height": 24
           },
           "Text": "cove"
+        },
+        {
+          "Bounds": {
+            "X": 1088,
+            "Y": 1800,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 81,
+            "Y": 172,
+            "Width": 78,
+            "Height": 26
+          },
+          "IsOnNextPage": true,
+          "Text": "nants"
         }
       ]
     }

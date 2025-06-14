@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2012,
   "ImageWidth": 1200,
+  "ManuallyEdited": true,
   "PageNumber": 445,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 379,
-            "Y": 76,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 77,
-            "Width": 32,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 75,
-            "Width": 148,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1424,19 +1386,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 572,
-            "Y": 623,
-            "Width": 39,
-            "Height": 32
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 211,
             "Y": 729,
             "Width": 107,
@@ -1482,19 +1431,6 @@
             "Height": 44
           },
           "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 894,
-            "Width": 205,
-            "Height": 30
-          },
-          "Text": "CHAPTER"
         }
       ]
     },
@@ -2150,11 +2086,11 @@
         {
           "Bounds": {
             "X": 718,
-            "Y": 1134,
-            "Width": 68,
-            "Height": 28
+            "Y": 1133,
+            "Width": 92,
+            "Height": 30
           },
-          "Text": "donn"
+          "Text": "down"
         }
       ]
     },
@@ -2398,10 +2334,23 @@
           "Bounds": {
             "X": 542,
             "Y": 1213,
-            "Width": 161,
+            "Width": 40,
             "Height": 28
           },
-          "Text": "Anaccount"
+          "Text": "An"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 582,
+            "Y": 1213,
+            "Width": 122,
+            "Height": 28
+          },
+          "Text": "account"
         }
       ]
     },
@@ -2895,10 +2844,12 @@
             "Width": 26,
             "Height": 32
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4205,4 +4156,4 @@
       ]
     }
   ]
-}
+}

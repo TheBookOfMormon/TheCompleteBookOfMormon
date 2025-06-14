@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1189,
+  "ManuallyEdited": true,
   "PageNumber": 448,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 42,
-            "Width": 82,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 595,
-            "Y": 43,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 659,
-            "Y": 42,
-            "Width": 147,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -906,7 +868,7 @@
             "Width": 32,
             "Height": 28
           },
-          "Text": "oi"
+          "Text": "of"
         }
       ]
     },
@@ -1570,11 +1532,16 @@
             "Height": 29
           },
           "Text": "Mo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1095,
+            "Y": 510,
+            "Width": 27,
+            "Height": 27
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 147,
@@ -1968,9 +1935,9 @@
         {
           "Bounds": {
             "X": 582,
-            "Y": 669,
-            "Width": 93,
-            "Height": 24
+            "Y": 668,
+            "Width": 98,
+            "Height": 27
           },
           "Text": "centre"
         }
@@ -2792,11 +2759,16 @@
             "Height": 36
           },
           "Text": "capi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1099,
+            "Y": 902,
+            "Width": 49,
+            "Height": 36
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 149,
@@ -2869,7 +2841,7 @@
             "Width": 60,
             "Height": 38
           },
-          "Text": "citv"
+          "Text": "city"
         }
       ]
     },
@@ -3584,7 +3556,7 @@
             "Width": 101,
             "Height": 29
           },
-          "Text": "hefore"
+          "Text": "before"
         }
       ]
     },
@@ -5225,11 +5197,16 @@
             "Height": 28
           },
           "Text": "Cori"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1094,
+            "Y": 1648,
+            "Width": 46,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 147,

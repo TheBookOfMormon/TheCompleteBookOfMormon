@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1139,
+  "ManuallyEdited": true,
   "PageNumber": 470,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 72,
-            "Width": 85,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 73,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 627,
-            "Y": 72,
-            "Width": 156,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -182,11 +144,16 @@
             "Height": 21
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1075,
+            "Y": 151,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 127,
@@ -1372,19 +1339,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 120,
-            "Y": 586,
-            "Width": 9,
-            "Height": 14
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 132,
             "Y": 574,
             "Width": 62,
@@ -1645,19 +1599,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 122,
-            "Y": 664,
-            "Width": 21,
-            "Height": 18
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 142,
             "Y": 663,
             "Width": 65,
@@ -1806,7 +1747,7 @@
             "Width": 61,
             "Height": 29
           },
-          "Text": "amy"
+          "Text": "my"
         }
       ]
     },
@@ -5074,12 +5015,17 @@
             "Width": 54,
             "Height": 41
           },
-          "Text": "test"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "testi"
+        },
+        {
+          "Bounds": {
+            "X": 1076,
+            "Y": 1602,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 130,

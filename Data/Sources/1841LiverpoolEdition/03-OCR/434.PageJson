@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2011,
   "ImageWidth": 1119,
+  "ManuallyEdited": true,
   "PageNumber": 434,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 60,
-            "Width": 79,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 596,
-            "Y": 62,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 656,
-            "Y": 60,
-            "Width": 71,
-            "Height": 23
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -624,37 +586,11 @@
         {
           "Bounds": {
             "X": 892,
-            "Y": 289,
-            "Width": 75,
-            "Height": 38
+            "Y": 294,
+            "Width": 163,
+            "Height": 28
           },
-          "Text": "king"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 968,
-            "Y": 310,
-            "Width": 8,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 980,
-            "Y": 289,
-            "Width": 50,
-            "Height": 38
-          },
-          "Text": "men"
+          "Text": "king-men"
         }
       ]
     },
@@ -2180,32 +2116,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1074,
-            "Y": 741,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1088,
-            "Y": 730,
-            "Width": 8,
-            "Height": 6
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 91,
             "Y": 761,
             "Width": 66,
@@ -3699,11 +3609,16 @@
             "Height": 27
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1037,
+            "Y": 1154,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 89,
@@ -3750,7 +3665,7 @@
             "Width": 35,
             "Height": 28
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4423,10 +4338,23 @@
           "Bounds": {
             "X": 299,
             "Y": 1392,
-            "Width": 148,
+            "Width": 106,
             "Height": 39
           },
-          "Text": "whichhe"
+          "Text": "which"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 405,
+            "Y": 1392,
+            "Width": 43,
+            "Height": 39
+          },
+          "Text": "he"
         }
       ]
     },
@@ -4894,12 +4822,8 @@
             "Width": 24,
             "Height": 27
           },
-          "Text": "1n"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "in"
+        },
         {
           "Bounds": {
             "X": 1037,
@@ -4908,11 +4832,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 88,
@@ -5038,11 +4958,16 @@
             "Height": 31
           },
           "Text": "govern"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1030,
+            "Y": 1554,
+            "Width": 28,
+            "Height": 28
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 87,
@@ -5129,19 +5054,6 @@
             "Height": 37
           },
           "Text": "epistle"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 802,
-            "Y": 1587,
-            "Width": 11,
-            "Height": 38
-          },
-          "Text": "-"
         }
       ]
     },
@@ -5384,11 +5296,11 @@
         {
           "Bounds": {
             "X": 516,
-            "Y": 1677,
-            "Width": 52,
-            "Height": 18
+            "Y": 1672,
+            "Width": 55,
+            "Height": 28
           },
-          "Text": "onr"
+          "Text": "our"
         }
       ]
     },
@@ -5887,4 +5799,4 @@
       ]
     }
   ]
-}
+}

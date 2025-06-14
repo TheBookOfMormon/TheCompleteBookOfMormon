@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2003,
   "ImageWidth": 1141,
+  "ManuallyEdited": true,
   "PageNumber": 456,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 84,
-            "Width": 79,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 593,
-            "Y": 84,
-            "Width": 32,
-            "Height": 22
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 654,
-            "Y": 81,
-            "Width": 159,
-            "Height": 25
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -428,7 +390,7 @@
             "Width": 69,
             "Height": 29
           },
-          "Text": "vear"
+          "Text": "year"
         }
       ]
     },
@@ -792,7 +754,7 @@
             "Width": 25,
             "Height": 19
           },
-          "Text": "ne"
+          "Text": "no"
         }
       ]
     },
@@ -1144,11 +1106,16 @@
             "Height": 29
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1104,
+            "Y": 470,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 168,
@@ -3920,6 +3887,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1074,
+            "Y": 1331,
+            "Width": 37,
+            "Height": 37
+          },
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 166,
             "Y": 1372,
             "Width": 64,
@@ -4536,7 +4516,7 @@
             "Width": 141,
             "Height": 29
           },
-          "Text": "Lamamtes"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -5186,7 +5166,7 @@
             "Width": 47,
             "Height": 29
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -5399,4 +5379,4 @@
       ]
     }
   ]
-}
+}

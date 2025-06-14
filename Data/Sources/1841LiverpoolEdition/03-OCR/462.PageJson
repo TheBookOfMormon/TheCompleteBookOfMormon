@@ -1,47 +1,9 @@
 {
   "ImageHeight": 2010,
   "ImageWidth": 1130,
+  "ManuallyEdited": true,
   "PageNumber": 462,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 452,
-            "Y": 78,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 80,
-            "Width": 33,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 622,
-            "Y": 78,
-            "Width": 157,
-            "Height": 21
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1834,7 +1796,7 @@
             "Width": 61,
             "Height": 27
           },
-          "Text": "inte"
+          "Text": "into"
         }
       ]
     },
@@ -1939,19 +1901,6 @@
             "Height": 30
           },
           "Text": "humble"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1072,
-            "Y": 720,
-            "Width": 8,
-            "Height": 5
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3426,6 +3375,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4787,7 +4737,7 @@
             "Width": 71,
             "Height": 29
           },
-          "Text": "hoth"
+          "Text": "both"
         }
       ]
     },
@@ -5490,11 +5440,16 @@
             "Height": 43
           },
           "Text": "exceeding"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1068,
+            "Y": 1773,
+            "Width": 30,
+            "Height": 30
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 111,
