@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 37,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 336,
-            "Y": 91,
-            "Width": 78,
-            "Height": 25
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 429,
-            "Y": 91,
-            "Width": 60,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 90,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 89,
-            "Width": 58,
-            "Height": 22
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -312,11 +261,16 @@
             "Height": 24
           },
           "Text": "command"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 878,
+            "Y": 179,
+            "Width": 127,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 94,
@@ -386,10 +340,23 @@
           "Bounds": {
             "X": 536,
             "Y": 208,
-            "Width": 103,
+            "Width": 33,
             "Height": 24
           },
-          "Text": "beimads"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 569,
+            "Y": 208,
+            "Width": 71,
+            "Height": 24
+          },
+          "Text": "made"
         }
       ]
     },
@@ -412,10 +379,23 @@
           "Bounds": {
             "X": 752,
             "Y": 210,
-            "Width": 95,
+            "Width": 53,
             "Height": 30
           },
-          "Text": "untoyou"
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 805,
+            "Y": 210,
+            "Width": 43,
+            "Height": 30
+          },
+          "Text": "you"
         }
       ]
     },
@@ -810,7 +790,7 @@
             "Width": 89,
             "Height": 24
           },
-          "Text": "bchoid"
+          "Text": "behold"
         }
       ]
     },
@@ -1327,7 +1307,7 @@
           "Bounds": {
             "X": 144,
             "Y": 429,
-            "Width": 89,
+            "Width": 119,
             "Height": 25
           },
           "Text": "fullness"
@@ -1698,6 +1678,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1763,6 +1744,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4685,6 +4667,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4707,7 +4690,7 @@
             "Width": 37,
             "Height": 16
           },
-          "Text": "aro"
+          "Text": "are"
         }
       ]
     },
@@ -5687,7 +5670,7 @@
             "Width": 57,
             "Height": 32
           },
-          "Text": "daya"
+          "Text": "days"
         }
       ]
     },

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 48,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 73,
-            "Width": 70,
-            "Height": 18
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 462,
-            "Y": 73,
-            "Width": 58,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 539,
-            "Y": 73,
-            "Width": 26,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 72,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1294,6 +1243,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 580,
+            "Y": 411,
+            "Width": 13,
+            "Height": 25
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 601,
             "Y": 411,
             "Width": 49,
@@ -2218,6 +2180,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3286,11 +3249,16 @@
             "Height": 25
           },
           "Text": "wilder"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 928,
+            "Y": 884,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 141,
@@ -3502,6 +3470,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3680,7 +3649,7 @@
             "Width": 35,
             "Height": 19
           },
-          "Text": "us'"
+          "Text": "us"
         }
       ]
     },
@@ -4061,6 +4030,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4575,9 +4545,9 @@
             "X": 175,
             "Y": 1196,
             "Width": 55,
-            "Height": 56
+            "Height": 30
           },
-          "Text": "Sing"
+          "Text": "sing"
         }
       ]
     },
@@ -4685,6 +4655,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5481,10 +5452,23 @@
           "Bounds": {
             "X": 422,
             "Y": 1386,
-            "Width": 104,
+            "Width": 26,
             "Height": 32
           },
-          "Text": "tospeak"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 448,
+            "Y": 1386,
+            "Width": 79,
+            "Height": 32
+          },
+          "Text": "speak"
         }
       ]
     },
@@ -6209,10 +6193,23 @@
           "Bounds": {
             "X": 644,
             "Y": 1543,
-            "Width": 96,
+            "Width": 79,
             "Height": 33
           },
-          "Text": "sufferit"
+          "Text": "suffer"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 723,
+            "Y": 1543,
+            "Width": 18,
+            "Height": 33
+          },
+          "Text": "it"
         }
       ]
     },

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 53,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 336,
-            "Y": 113,
-            "Width": 69,
-            "Height": 18
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 422,
-            "Y": 114,
-            "Width": 60,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 114,
-            "Width": 25,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 547,
-            "Y": 107,
-            "Width": 74,
-            "Height": 24
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -463,6 +412,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -777,11 +727,11 @@
         {
           "Bounds": {
             "X": 578,
-            "Y": 272,
+            "Y": 297,
             "Width": 70,
-            "Height": 47
+            "Height": 25
           },
-          "Text": "Hiken"
+          "Text": "liken"
         }
       ]
     },
@@ -3564,11 +3514,11 @@
         {
           "Bounds": {
             "X": 85,
-            "Y": 923,
-            "Width": 67,
-            "Height": 23
+            "Y": 922,
+            "Width": 72,
+            "Height": 25
           },
-          "Text": "then"
+          "Text": "them"
         }
       ]
     },
@@ -4115,11 +4065,7 @@
             "Height": 23
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 872,
@@ -4128,11 +4074,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 104,
@@ -4140,7 +4082,7 @@
             "Width": 89,
             "Height": 36
           },
-          "Text": "inning"
+          "Text": "ginning"
         }
       ]
     },
@@ -4179,7 +4121,7 @@
             "Width": 38,
             "Height": 24
           },
-          "Text": "thre"
+          "Text": "the"
         }
       ]
     },
@@ -4270,7 +4212,7 @@
             "Width": 29,
             "Height": 24
           },
-          "Text": "ey"
+          "Text": "they"
         }
       ]
     },
@@ -4457,7 +4399,7 @@
             "Width": 52,
             "Height": 24
           },
-          "Text": "Yes"
+          "Text": "Yea"
         }
       ]
     },
@@ -4480,10 +4422,23 @@
           "Bounds": {
             "X": 498,
             "Y": 1111,
-            "Width": 180,
+            "Width": 63,
             "Height": 25
           },
-          "Text": "thouheardest"
+          "Text": "thou"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 561,
+            "Y": 1111,
+            "Width": 118,
+            "Height": 25
+          },
+          "Text": "heardest"
         }
       ]
     },
@@ -4649,10 +4604,23 @@
           "Bounds": {
             "X": 727,
             "Y": 1142,
-            "Width": 142,
+            "Width": 43,
             "Height": 24
           },
-          "Text": "notopened"
+          "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 770,
+            "Y": 1142,
+            "Width": 100,
+            "Height": 24
+          },
+          "Text": "opened"
         }
       ]
     },
@@ -4886,7 +4854,7 @@
             "Width": 173,
             "Height": 24
           },
-          "Text": "Neverthelese"
+          "Text": "Nevertheless"
         }
       ]
     },
@@ -4925,7 +4893,7 @@
             "Width": 88,
             "Height": 22
           },
-          "Text": "names"
+          "Text": "name\u0027s"
         }
       ]
     },
@@ -5004,11 +4972,7 @@
             "Height": 16
           },
           "Text": "an"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 872,
@@ -5017,11 +4981,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 104,
@@ -5029,7 +4989,7 @@
             "Width": 25,
             "Height": 18
           },
-          "Text": "er"
+          "Text": "ger"
         }
       ]
     },
@@ -5817,19 +5777,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 161,
-            "Y": 1436,
-            "Width": 5,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 170,
             "Y": 1429,
             "Width": 57,
@@ -6021,6 +5968,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6057,19 +6005,6 @@
             "Height": 23
           },
           "Text": "the"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 317,
-            "Y": 1496,
-            "Width": 4,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -6277,7 +6212,7 @@
             "Width": 48,
             "Height": 28
           },
-          "Text": "thd"
+          "Text": "the"
         }
       ]
     },
@@ -6398,6 +6333,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6537,7 +6473,7 @@
             "Width": 45,
             "Height": 40
           },
-          "Text": "Jes"
+          "Text": "ye"
         }
       ]
     },
@@ -6550,7 +6486,7 @@
             "Width": 121,
             "Height": 25
           },
-          "Text": "assemblo"
+          "Text": "assemble"
         }
       ]
     },
