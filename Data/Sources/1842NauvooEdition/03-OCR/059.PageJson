@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 59,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 152,
-            "Y": 23,
-            "Width": 20,
-            "Height": 23
-          },
-          "Text": "ei"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 313,
-            "Y": 108,
-            "Width": 69,
-            "Height": 18
-          },
-          "Text": "SEOOXD"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 416,
-            "Y": 107,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 494,
-            "Y": 108,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 541,
-            "Y": 108,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2376,11 +2312,11 @@
         {
           "Bounds": {
             "X": 211,
-            "Y": 676,
+            "Y": 702,
             "Width": 13,
-            "Height": 47
+            "Height": 21
           },
-          "Text": "i"
+          "Text": "I"
         }
       ]
     },
@@ -3329,19 +3265,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 886,
-            "Y": 901,
-            "Width": 2,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 64,
             "Y": 918,
             "Width": 81,
@@ -3422,10 +3345,36 @@
           "Bounds": {
             "X": 459,
             "Y": 918,
-            "Width": 117,
+            "Width": 69,
             "Height": 24
           },
-          "Text": "thusitis"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 528,
+            "Y": 918,
+            "Width": 21,
+            "Height": 24
+          },
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 549,
+            "Y": 918,
+            "Width": 28,
+            "Height": 24
+          },
+          "Text": "is"
         }
       ]
     },
@@ -3439,19 +3388,6 @@
             "Height": 22
           },
           "Text": "Amen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 404,
-            "Y": 1007,
-            "Width": 87,
-            "Height": 27
-          },
-          "Text": "PeC"
         }
       ]
     },
@@ -3517,32 +3453,6 @@
             "Height": 24
           },
           "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 361,
-            "Y": 1143,
-            "Width": 159,
-            "Height": 24
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 539,
-            "Y": 1142,
-            "Width": 6,
-            "Height": 24
-          },
-          "Text": "I"
         }
       ]
     },
@@ -3646,7 +3556,7 @@
             "Width": 98,
             "Height": 32
           },
-          "Text": "Nephv's"
+          "Text": "Nephi\u0027s"
         }
       ]
     },
@@ -3819,6 +3729,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3893,10 +3804,12 @@
             "Width": 25,
             "Height": 23
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3906,7 +3819,7 @@
             "Width": 60,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -3975,6 +3888,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4235,6 +4149,10 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4960,11 +4878,11 @@
         {
           "Bounds": {
             "X": 583,
-            "Y": 1514,
+            "Y": 1540,
             "Width": 39,
-            "Height": 47
+            "Height": 21
           },
-          "Text": "tho"
+          "Text": "the"
         }
       ]
     },
@@ -5303,11 +5221,7 @@
             "Height": 25
           },
           "Text": "Jeru"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 845,
@@ -5316,6 +5230,16 @@
             "Height": 7
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 143,
+            "Y": 143,
+            "Width": 70,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "salem"
         }
       ]
     }
