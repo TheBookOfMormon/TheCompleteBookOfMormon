@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 119,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 325,
-            "Y": 98,
-            "Width": 87,
-            "Height": 19
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 429,
-            "Y": 99,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 99,
-            "Width": 26,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 98,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "NEPRI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 72,
-            "Y": 153,
-            "Width": 50,
-            "Height": 31
-          },
-          "Text": "fore"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -523,6 +459,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1075,10 +1012,23 @@
           "Bounds": {
             "X": 283,
             "Y": 374,
-            "Width": 81,
+            "Width": 59,
             "Height": 25
           },
-          "Text": "thatif"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 342,
+            "Y": 374,
+            "Width": 23,
+            "Height": 25
+          },
+          "Text": "if"
         }
       ]
     },
@@ -1620,6 +1570,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1863,7 +1814,7 @@
             "Width": 50,
             "Height": 24
           },
-          "Text": "the'"
+          "Text": "the"
         }
       ]
     },
@@ -2463,36 +2414,10 @@
           "Bounds": {
             "X": 60,
             "Y": 689,
-            "Width": 51,
+            "Width": 227,
             "Height": 25
           },
-          "Text": "stiff"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 117,
-            "Y": 703,
-            "Width": 12,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 130,
-            "Y": 689,
-            "Width": 142,
-            "Height": 25
-          },
-          "Text": "neckedness"
+          "Text": "stiff-neckedness"
         }
       ]
     },
@@ -2987,16 +2912,21 @@
         {
           "Bounds": {
             "X": 806,
-            "Y": 790,
+            "Y": 789,
             "Width": 53,
-            "Height": 23
+            "Height": 25
           },
-          "Text": "pons"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "pon"
+        },
+        {
+          "Bounds": {
+            "X": 868,
+            "Y": 789,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 57,
@@ -3612,10 +3542,23 @@
           "Bounds": {
             "X": 250,
             "Y": 940,
-            "Width": 162,
+            "Width": 44,
             "Height": 24
           },
-          "Text": "butteacheth"
+          "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 294,
+            "Y": 940,
+            "Width": 119,
+            "Height": 24
+          },
+          "Text": "teacheth"
         }
       ]
     },
@@ -4304,7 +4247,7 @@
             "Width": 69,
             "Height": 20
           },
-          "Text": "nnto"
+          "Text": "unto"
         }
       ]
     },
@@ -4468,51 +4411,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 477,
-            "Y": 1218,
-            "Width": 31,
-            "Height": 16
-          },
-          "Text": "Cre"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 351,
-            "Y": 1290,
-            "Width": 160,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 529,
-            "Y": 1289,
-            "Width": 33,
-            "Height": 26
-          },
-          "Text": "XV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 99,
             "Y": 1345,
             "Width": 61,
             "Height": 27
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -4785,7 +4689,7 @@
             "Width": 49,
             "Height": 24
           },
-          "Text": "liko"
+          "Text": "like"
         }
       ]
     },
@@ -5539,7 +5443,7 @@
             "Width": 37,
             "Height": 22
           },
-          "Text": "ate"
+          "Text": "are"
         }
       ]
     },
@@ -5726,7 +5630,26 @@
             "Width": 59,
             "Height": 21
           },
-          "Text": "write"
+          "Text": "writ"
+        },
+        {
+          "Bounds": {
+            "X": 862,
+            "Y": 1600,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 164,
+            "Y": 149,
+            "Width": 40,
+            "Height": 20
+          },
+          "IsOnNextPage": true,
+          "Text": "ten"
         }
       ]
     }

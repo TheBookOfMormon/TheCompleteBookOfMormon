@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 129,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 396,
-            "Y": 103,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 475,
-            "Y": 103,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 521,
-            "Y": 103,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -737,7 +699,7 @@
             "Width": 26,
             "Height": 17
           },
-          "Text": "anr"
+          "Text": "am"
         }
       ]
     },
@@ -933,11 +895,11 @@
         {
           "Bounds": {
             "X": 636,
-            "Y": 356,
-            "Width": 14,
-            "Height": 16
+            "Y": 352,
+            "Width": 30,
+            "Height": 25
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -1306,7 +1268,7 @@
             "Width": 132,
             "Height": 26
           },
-          "Text": "oundation"
+          "Text": "foundation"
         }
       ]
     },
@@ -2546,7 +2508,7 @@
             "Width": 110,
             "Height": 28
           },
-          "Text": "hrethren"
+          "Text": "brethren"
         }
       ]
     },
@@ -2732,6 +2694,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3990,11 +3953,11 @@
         {
           "Bounds": {
             "X": 716,
-            "Y": 1009,
-            "Width": 56,
-            "Height": 23
+            "Y": 1008,
+            "Width": 82,
+            "Height": 25
           },
-          "Text": "ebout"
+          "Text": "about"
         }
       ]
     },
@@ -4033,7 +3996,7 @@
             "Width": 103,
             "Height": 26
           },
-          "Text": "nounsh"
+          "Text": "nourish"
         }
       ]
     },
@@ -5052,17 +5015,22 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 843,
+            "X": 823,
             "Y": 1229,
-            "Width": 26,
-            "Height": 26
+            "Width": 60,
+            "Height": 25
           },
-          "Text": "wn"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "vine"
+        },
+        {
+          "Bounds": {
+            "X": 892,
+            "Y": 1229,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 98,
@@ -5196,11 +5164,11 @@
         {
           "Bounds": {
             "X": 727,
-            "Y": 1234,
-            "Width": 79,
-            "Height": 66
+            "Y": 1260,
+            "Width": 120,
+            "Height": 25
           },
-          "Text": "grieve"
+          "Text": "grieveth"
         }
       ]
     },
@@ -5208,12 +5176,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 831,
-            "Y": 1234,
-            "Width": 61,
-            "Height": 66
+            "X": 856,
+            "Y": 1260,
+            "Width": 41,
+            "Height": 25
           },
-          "Text": "IWE"
+          "Text": "me"
         }
       ]
     },
@@ -5785,7 +5753,7 @@
             "Width": 41,
             "Height": 26
           },
-          "Text": "tha"
+          "Text": "the"
         }
       ]
     },
@@ -5968,6 +5936,19 @@
             "Height": 32
           },
           "Text": "vineyard"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 331,
+            "Y": 1450,
+            "Width": 13,
+            "Height": 25
+          },
+          "Text": "I"
         }
       ]
     },
@@ -6206,7 +6187,7 @@
             "Width": 65,
             "Height": 26
           },
-          "Text": "wills"
+          "Text": "will"
         }
       ]
     },
@@ -6532,11 +6513,16 @@
             "Height": 16
           },
           "Text": "my"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 904,
+            "Y": 1546,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 101,
@@ -6658,15 +6644,20 @@
           "Bounds": {
             "X": 793,
             "Y": 1573,
-            "Width": 54,
-            "Height": 24
+            "Width": 80,
+            "Height": 25
           },
-          "Text": "bran"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "branch"
+        },
+        {
+          "Bounds": {
+            "X": 882,
+            "Y": 1573,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 103,
@@ -6804,20 +6795,7 @@
             "Width": 54,
             "Height": 33
           },
-          "Text": "thot"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 869,
-            "Y": 1598,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
+          "Text": "thou"
         }
       ]
     }

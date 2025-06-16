@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 112,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 394,
-            "Y": 94,
-            "Width": 89,
-            "Height": 44
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 115,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 115,
-            "Width": 26,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 623,
-            "Y": 115,
-            "Width": 67,
-            "Height": 18
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -64,7 +13,7 @@
             "Width": 64,
             "Height": 26
           },
-          "Text": "uffed"
+          "Text": "puffed"
         }
       ]
     },
@@ -100,10 +49,49 @@
           "Bounds": {
             "X": 401,
             "Y": 171,
-            "Width": 260,
+            "Width": 68,
             "Height": 26
           },
-          "Text": "wearstiffnecksand"
+          "Text": "wear"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 469,
+            "Y": 171,
+            "Width": 60,
+            "Height": 26
+          },
+          "Text": "stiff"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 529,
+            "Y": 171,
+            "Width": 83,
+            "Height": 26
+          },
+          "Text": "necks"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 612,
+            "Y": 171,
+            "Width": 51,
+            "Height": 26
+          },
+          "Text": "and"
         }
       ]
     },
@@ -164,11 +152,11 @@
         {
           "Bounds": {
             "X": 160,
-            "Y": 178,
+            "Y": 204,
             "Width": 105,
-            "Height": 58
+            "Height": 32
           },
-          "Text": "Decuria"
+          "Text": "because"
         }
       ]
     },
@@ -909,12 +897,8 @@
             "Width": 48,
             "Height": 32
           },
-          "Text": "pufi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "puff"
+        },
         {
           "Bounds": {
             "X": 940,
@@ -923,11 +907,7 @@
             "Height": 32
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 159,
@@ -3879,11 +3859,16 @@
             "Height": 25
           },
           "Text": "oth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 939,
+            "Y": 1022,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 154,
@@ -5183,7 +5168,7 @@
             "Width": 51,
             "Height": 26
           },
-          "Text": "snd"
+          "Text": "and"
         }
       ]
     },
@@ -5763,6 +5748,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 150,
+            "Y": 1461,
+            "Width": 26,
+            "Height": 25
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 187,
             "Y": 1461,
             "Width": 95,
@@ -5898,7 +5896,7 @@
             "Width": 52,
             "Height": 17
           },
-          "Text": "easc"
+          "Text": "ease"
         }
       ]
     },
@@ -6025,10 +6023,23 @@
           "Bounds": {
             "X": 774,
             "Y": 1492,
-            "Width": 84,
+            "Width": 26,
             "Height": 28
           },
-          "Text": "iswell"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 800,
+            "Y": 1492,
+            "Width": 59,
+            "Height": 28
+          },
+          "Text": "well"
         }
       ]
     },
@@ -6666,11 +6677,7 @@
             "Height": 22
           },
           "Text": "trem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 928,
@@ -6679,6 +6686,16 @@
             "Height": 22
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 88,
+            "Y": 150,
+            "Width": 34,
+            "Height": 29
+          },
+          "IsOnNextPage": true,
+          "Text": "ble"
         }
       ]
     }

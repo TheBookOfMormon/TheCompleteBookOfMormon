@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 136,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 441,
-            "Y": 92,
-            "Width": 94,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 79,
-            "Width": 27,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 92,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -419,6 +381,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1001,11 +965,16 @@
             "Height": 19
           },
           "Text": "natu"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 942,
+            "Y": 342,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 142,
@@ -1819,7 +1788,7 @@
             "Width": 72,
             "Height": 24
           },
-          "Text": "sway"
+          "Text": "away"
         }
       ]
     },
@@ -2166,24 +2135,11 @@
         {
           "Bounds": {
             "X": 598,
-            "Y": 623,
-            "Width": 28,
-            "Height": 23
+            "Y": 622,
+            "Width": 69,
+            "Height": 25
           },
-          "Text": "bo"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 643,
-            "Y": 631,
-            "Width": 33,
-            "Height": 47
-          },
-          "Text": "yi"
+          "Text": "body"
         }
       ]
     },
@@ -2921,10 +2877,23 @@
           "Bounds": {
             "X": 503,
             "Y": 812,
-            "Width": 146,
+            "Width": 40,
             "Height": 25
           },
-          "Text": "hisservants"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 543,
+            "Y": 812,
+            "Width": 107,
+            "Height": 25
+          },
+          "Text": "servants"
         }
       ]
     },
@@ -2947,10 +2916,10 @@
           "Bounds": {
             "X": 728,
             "Y": 812,
-            "Width": 33,
+            "Width": 60,
             "Height": 25
           },
-          "Text": "sajd"
+          "Text": "said"
         }
       ]
     },
@@ -3374,6 +3343,32 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 760,
+            "Y": 907,
+            "Width": 26,
+            "Height": 25
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 795,
+            "Y": 907,
+            "Width": 70,
+            "Height": 25
+          },
+          "Text": "good"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 879,
             "Y": 915,
             "Width": 60,
@@ -3552,6 +3547,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4068,7 +4064,7 @@
             "Width": 31,
             "Height": 26
           },
-          "Text": "yo"
+          "Text": "ye"
         }
       ]
     },
@@ -4414,6 +4410,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 897,
+            "Y": 1128,
+            "Width": 41,
+            "Height": 25
+          },
+          "Text": "my"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 136,
             "Y": 1158,
             "Width": 120,
@@ -4520,10 +4529,10 @@
           "Bounds": {
             "X": 853,
             "Y": 1160,
-            "Width": 66,
+            "Width": 89,
             "Height": 25
           },
-          "Text": "whic"
+          "Text": "which"
         }
       ]
     },
@@ -5858,11 +5867,11 @@
         {
           "Bounds": {
             "X": 924,
-            "Y": 1443,
-            "Width": 18,
-            "Height": 27
+            "Y": 1444,
+            "Width": 13,
+            "Height": 25
           },
-          "Text": "kX"
+          "Text": "I"
         }
       ]
     },

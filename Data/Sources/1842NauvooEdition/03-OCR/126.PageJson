@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 126,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 89,
-            "Width": 63,
-            "Height": 32
-          },
-          "Text": "poor"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 99,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "oF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 569,
-            "Y": 98,
-            "Width": 82,
-            "Height": 21
-          },
-          "Text": "IAc0B"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -705,6 +667,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -776,10 +739,23 @@
           "Bounds": {
             "X": 278,
             "Y": 311,
-            "Width": 102,
+            "Width": 57,
             "Height": 26
           },
-          "Text": "that'are"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 335,
+            "Y": 311,
+            "Width": 46,
+            "Height": 26
+          },
+          "Text": "are"
         }
       ]
     },
@@ -965,6 +941,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -974,7 +951,7 @@
             "Width": 83,
             "Height": 27
           },
-          "Text": "repgnt"
+          "Text": "repent"
         }
       ]
     },
@@ -1100,11 +1077,11 @@
         {
           "Bounds": {
             "X": 439,
-            "Y": 350,
+            "Y": 376,
             "Width": 137,
-            "Height": 59
+            "Height": 33
           },
-          "Text": "faidazites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -1286,7 +1263,7 @@
             "Width": 53,
             "Height": 17
           },
-          "Text": "sere"
+          "Text": "sore"
         }
       ]
     },
@@ -1460,7 +1437,7 @@
             "Width": 98,
             "Height": 23
           },
-          "Text": "comcth"
+          "Text": "cometh"
         }
       ]
     },
@@ -1551,7 +1528,7 @@
             "Width": 73,
             "Height": 17
           },
-          "Text": "ossess"
+          "Text": "possess"
         }
       ]
     },
@@ -1694,7 +1671,7 @@
             "Width": 45,
             "Height": 25
           },
-          "Text": "ead"
+          "Text": "lead"
         }
       ]
     },
@@ -2019,7 +1996,7 @@
             "Width": 67,
             "Height": 18
           },
-          "Text": "eome"
+          "Text": "come"
         }
       ]
     },
@@ -3888,6 +3865,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 178,
+            "Y": 1107,
+            "Width": 25,
+            "Height": 16
+          },
+          "Text": "O"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 211,
             "Y": 1107,
             "Width": 25,
@@ -3984,7 +3974,7 @@
             "Width": 63,
             "Height": 25
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -4297,19 +4287,6 @@
             "Height": 24
           },
           "Text": "God"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 932,
-            "Y": 1165,
-            "Width": 24,
-            "Height": 24
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4643,11 +4620,11 @@
         {
           "Bounds": {
             "X": 393,
-            "Y": 1235,
+            "Y": 1261,
             "Width": 61,
-            "Height": 47
+            "Height": 21
           },
-          "Text": "Heir"
+          "Text": "their"
         }
       ]
     },
@@ -5806,15 +5783,20 @@
           "Bounds": {
             "X": 907,
             "Y": 1543,
-            "Width": 55,
-            "Height": 26
+            "Width": 46,
+            "Height": 25
           },
-          "Text": "face"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "fac"
+        },
+        {
+          "Bounds": {
+            "X": 962,
+            "Y": 1543,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 155,
@@ -6056,7 +6038,7 @@
             "Width": 30,
             "Height": 20
           },
-          "Text": "trom"
+          "Text": "from"
         }
       ]
     },

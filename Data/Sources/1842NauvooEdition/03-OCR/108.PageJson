@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1773,
   "ImageWidth": 1038,
+  "ManuallyEdited": true,
   "PageNumber": 108,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 426,
-            "Y": 104,
-            "Width": 89,
-            "Height": 19
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 530,
-            "Y": 103,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 606,
-            "Y": 104,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 654,
-            "Y": 103,
-            "Width": 68,
-            "Height": 18
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 184,
-            "Y": 160,
-            "Width": 146,
-            "Height": 30
-          },
-          "Text": "membereth"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -246,7 +182,7 @@
             "Width": 89,
             "Height": 25
           },
-          "Text": "bebold"
+          "Text": "behold"
         }
       ]
     },
@@ -866,11 +802,11 @@
         {
           "Bounds": {
             "X": 707,
-            "Y": 291,
+            "Y": 317,
             "Width": 68,
-            "Height": 59
+            "Height": 33
           },
-          "Text": "arth"
+          "Text": "earth"
         }
       ]
     },
@@ -1026,12 +962,8 @@
             "Width": 69,
             "Height": 24
           },
-          "Text": "abomn"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "abomi"
+        },
         {
           "Bounds": {
             "X": 973,
@@ -1040,11 +972,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 184,
@@ -1504,7 +1432,7 @@
             "Width": 48,
             "Height": 27
           },
-          "Text": "agd"
+          "Text": "and"
         }
       ]
     },
@@ -1774,10 +1702,23 @@
           "Bounds": {
             "X": 228,
             "Y": 546,
-            "Width": 43,
+            "Width": 30,
             "Height": 16
           },
-          "Text": "asa"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 258,
+            "Y": 546,
+            "Width": 14,
+            "Height": 16
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2138,10 +2079,23 @@
           "Bounds": {
             "X": 620,
             "Y": 600,
-            "Width": 101,
+            "Width": 43,
             "Height": 25
           },
-          "Text": "hissoul"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 663,
+            "Y": 600,
+            "Width": 59,
+            "Height": 25
+          },
+          "Text": "soul"
         }
       ]
     },
@@ -2913,7 +2867,7 @@
             "Width": 31,
             "Height": 24
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -3316,7 +3270,7 @@
             "Width": 69,
             "Height": 32
           },
-          "Text": "spint"
+          "Text": "spirit"
         }
       ]
     },
@@ -4292,19 +4246,6 @@
             "Height": 24
           },
           "Text": "revelation"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 162,
-            "Y": 1110,
-            "Width": 2,
-            "Height": 1
-          },
-          "Text": "-"
         }
       ]
     },
@@ -5402,11 +5343,16 @@
             "Height": 25
           },
           "Text": "deli"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 967,
+            "Y": 1322,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 184,
@@ -5973,7 +5919,7 @@
             "Width": 63,
             "Height": 26
           },
-          "Text": "baok"
+          "Text": "book"
         }
       ]
     },
@@ -6601,6 +6547,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
