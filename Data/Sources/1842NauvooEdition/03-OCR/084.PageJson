@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 84,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 398,
-            "Y": 95,
-            "Width": 93,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 86,
-            "Width": 60,
-            "Height": 31
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 582,
-            "Y": 86,
-            "Width": 13,
-            "Height": 31
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 626,
-            "Y": 94,
-            "Width": 73,
-            "Height": 19
-          },
-          "Text": "NEFEL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -506,7 +455,7 @@
             "Width": 83,
             "Height": 24
           },
-          "Text": "raseth"
+          "Text": "raiseth"
         }
       ]
     },
@@ -815,10 +764,23 @@
           "Bounds": {
             "X": 269,
             "Y": 310,
-            "Width": 87,
+            "Width": 18,
             "Height": 32
           },
-          "Text": "alight"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 287,
+            "Y": 310,
+            "Width": 70,
+            "Height": 32
+          },
+          "Text": "light"
         }
       ]
     },
@@ -861,6 +823,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1577,7 +1540,7 @@
             "Width": 104,
             "Height": 32
           },
-          "Text": "ighteth"
+          "Text": "fighteth"
         }
       ]
     },
@@ -2045,7 +2008,7 @@
             "Width": 40,
             "Height": 18
           },
-          "Text": "ara"
+          "Text": "are"
         }
       ]
     },
@@ -3411,6 +3374,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3689,11 +3653,11 @@
         {
           "Bounds": {
             "X": 942,
-            "Y": 926,
+            "Y": 940,
             "Width": 14,
-            "Height": 38
+            "Height": 24
           },
-          "Text": "i"
+          "Text": "I"
         }
       ]
     },
@@ -3837,11 +3801,16 @@
             "Height": 17
           },
           "Text": "wor"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 948,
+            "Y": 974,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 156,
@@ -4422,11 +4391,16 @@
             "Height": 17
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 949,
+            "Y": 1131,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 156,
@@ -4464,6 +4438,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4946,7 +4921,7 @@
             "Width": 39,
             "Height": 25
           },
-          "Text": "sca"
+          "Text": "sea"
         }
       ]
     },
@@ -5940,11 +5915,11 @@
         {
           "Bounds": {
             "X": 905,
-            "Y": 1444,
-            "Width": 56,
-            "Height": 31
+            "Y": 1447,
+            "Width": 42,
+            "Height": 25
           },
-          "Text": "offs"
+          "Text": "off"
         }
       ]
     },
@@ -6205,11 +6180,16 @@
             "Height": 23
           },
           "Text": "your"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 949,
+            "Y": 1513,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 157,
@@ -6243,7 +6223,7 @@
             "Width": 86,
             "Height": 25
           },
-          "Text": "choese"
+          "Text": "choose"
         }
       ]
     },
@@ -6452,19 +6432,6 @@
             "Height": 27
           },
           "Text": "reconcile"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 984,
-            "Y": 1584,
-            "Width": 3,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 104,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 76,
-            "Width": 94,
-            "Height": 27
-          },
-          "Text": "'SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 76,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 581,
-            "Y": 77,
-            "Width": 25,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 626,
-            "Y": 76,
-            "Width": 74,
-            "Height": 29
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1644,10 +1593,23 @@
           "Bounds": {
             "X": 642,
             "Y": 480,
-            "Width": 49,
+            "Width": 22,
             "Height": 24
           },
-          "Text": "itis"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 664,
+            "Y": 480,
+            "Width": 28,
+            "Height": 24
+          },
+          "Text": "is"
         }
       ]
     },
@@ -1755,6 +1717,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2830,7 +2793,7 @@
             "Width": 34,
             "Height": 16
           },
-          "Text": "wo"
+          "Text": "we"
         }
       ]
     },
@@ -2896,11 +2859,16 @@
             "Height": 17
           },
           "Text": "pro"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 944,
+            "Y": 767,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 152,
@@ -3207,7 +3175,7 @@
             "Width": 40,
             "Height": 24
           },
-          "Text": "Jaw"
+          "Text": "law"
         }
       ]
     },
@@ -3298,7 +3266,7 @@
             "Width": 88,
             "Height": 24
           },
-          "Text": "eadness"
+          "Text": "deadness"
         }
       ]
     },
@@ -3731,6 +3699,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3844,7 +3813,7 @@
             "Width": 64,
             "Height": 24
           },
-          "Text": "nced"
+          "Text": "need"
         }
       ]
     },
@@ -3983,6 +3952,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4136,6 +4106,19 @@
             "Height": 17
           },
           "Text": "are"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 697,
+            "Y": 1081,
+            "Width": 16,
+            "Height": 25
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5216,7 +5199,7 @@
             "Width": 79,
             "Height": 29
           },
-          "Text": "Chriet"
+          "Text": "Christ"
         }
       ]
     },
@@ -5606,7 +5589,7 @@
             "Width": 49,
             "Height": 24
           },
-          "Text": "und"
+          "Text": "and"
         }
       ]
     },
@@ -6195,6 +6178,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6439,11 +6423,7 @@
             "Height": 26
           },
           "Text": "breth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 942,
@@ -6452,6 +6432,16 @@
             "Height": 6
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 86,
+            "Y": 168,
+            "Width": 39,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "ren"
         }
       ]
     }

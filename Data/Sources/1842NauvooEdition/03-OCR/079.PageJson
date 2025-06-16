@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 79,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 338,
-            "Y": 83,
-            "Width": 91,
-            "Height": 31
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 444,
-            "Y": 83,
-            "Width": 58,
-            "Height": 31
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 522,
-            "Y": 83,
-            "Width": 31,
-            "Height": 31
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 83,
-            "Width": 69,
-            "Height": 31
-          },
-          "Text": "MEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -814,11 +763,11 @@
         {
           "Bounds": {
             "X": 777,
-            "Y": 303,
-            "Width": 108,
-            "Height": 29
+            "Y": 305,
+            "Width": 121,
+            "Height": 25
           },
-          "Text": "becausg"
+          "Text": "because"
         }
       ]
     },
@@ -905,11 +854,11 @@
         {
           "Bounds": {
             "X": 489,
-            "Y": 342,
-            "Width": 42,
-            "Height": 17
+            "Y": 338,
+            "Width": 49,
+            "Height": 25
           },
-          "Text": "eur"
+          "Text": "our"
         }
       ]
     },
@@ -1319,23 +1268,10 @@
           "Bounds": {
             "X": 163,
             "Y": 429,
-            "Width": 46,
+            "Width": 56,
             "Height": 25
           },
-          "Text": "thig"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 213,
-            "Y": 429,
-            "Width": 12,
-            "Height": 25
-          },
-          "Text": "-"
+          "Text": "this"
         }
       ]
     },
@@ -2636,11 +2572,11 @@
         {
           "Bounds": {
             "X": 630,
-            "Y": 711,
-            "Width": 72,
-            "Height": 32
+            "Y": 714,
+            "Width": 93,
+            "Height": 25
           },
-          "Text": "epirita"
+          "Text": "spirits"
         }
       ]
     },
@@ -2680,11 +2616,16 @@
             "Height": 32
           },
           "Text": "right"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 880,
+            "Y": 715,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 90,
@@ -3366,9 +3307,9 @@
             "X": 770,
             "Y": 867,
             "Width": 115,
-            "Height": 56
+            "Height": 30
           },
-          "Text": "perfects"
+          "Text": "perfect"
         }
       ]
     },
@@ -4244,7 +4185,7 @@
             "Width": 81,
             "Height": 17
           },
-          "Text": "ecome"
+          "Text": "become"
         }
       ]
     },
@@ -4743,7 +4684,7 @@
             "Width": 64,
             "Height": 25
           },
-          "Text": "Lard"
+          "Text": "Lord"
         }
       ]
     },
@@ -5658,7 +5599,7 @@
             "Width": 113,
             "Height": 29
           },
-          "Text": "rimstone"
+          "Text": "brimstone"
         }
       ]
     },
@@ -5727,6 +5668,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5928,10 +5870,23 @@
           "Bounds": {
             "X": 740,
             "Y": 1496,
-            "Width": 82,
+            "Width": 46,
             "Height": 25
           },
-          "Text": "Forhe"
+          "Text": "For"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 786,
+            "Y": 1496,
+            "Width": 37,
+            "Height": 25
+          },
+          "Text": "he"
         }
       ]
     },
@@ -6352,7 +6307,7 @@
             "Width": 75,
             "Height": 32
           },
-          "Text": "Isracl"
+          "Text": "Israel"
         }
       ]
     },

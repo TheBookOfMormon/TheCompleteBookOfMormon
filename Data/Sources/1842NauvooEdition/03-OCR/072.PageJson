@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 72,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 149,
-            "Y": 74,
-            "Width": 20,
-            "Height": 28
-          },
-          "Text": "Yb"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 178,
-            "Y": 74,
-            "Width": 7,
-            "Height": 28
-          },
-          "Text": "A"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 80,
-            "Width": 88,
-            "Height": 19
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 80,
-            "Width": 59,
-            "Height": 18
-          },
-          "Text": "BOOX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 580,
-            "Y": 79,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 626,
-            "Y": 79,
-            "Width": 74,
-            "Height": 18
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -415,12 +338,8 @@
             "Width": 121,
             "Height": 33
           },
-          "Text": "excecding"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "exceeding"
+        },
         {
           "Bounds": {
             "X": 933,
@@ -429,11 +348,7 @@
             "Height": 33
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 151,
@@ -632,11 +547,11 @@
         {
           "Bounds": {
             "X": 337,
-            "Y": 239,
-            "Width": 79,
-            "Height": 47
+            "Y": 263,
+            "Width": 84,
+            "Height": 25
           },
-          "Text": "Laben"
+          "Text": "Laban"
         }
       ]
     },
@@ -1316,6 +1231,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1368,6 +1285,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1425,11 +1344,11 @@
         {
           "Bounds": {
             "X": 824,
-            "Y": 426,
-            "Width": 14,
-            "Height": 17
+            "Y": 422,
+            "Width": 30,
+            "Height": 25
           },
-          "Text": "otf"
+          "Text": "of"
         }
       ]
     },
@@ -1780,7 +1699,7 @@
             "Width": 50,
             "Height": 19
           },
-          "Text": "reat"
+          "Text": "great"
         }
       ]
     },
@@ -1898,6 +1817,19 @@
             "Height": 25
           },
           "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 154,
+            "Y": 545,
+            "Width": 13,
+            "Height": 25
+          },
+          "Text": "I"
         }
       ]
     },
@@ -2041,11 +1973,16 @@
             "Height": 24
           },
           "Text": "Solo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 943,
+            "Y": 545,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 154,
@@ -2115,10 +2052,10 @@
           "Bounds": {
             "X": 449,
             "Y": 576,
-            "Width": 61,
-            "Height": 24
+            "Width": 66,
+            "Height": 25
           },
-          "Text": "bailt"
+          "Text": "built"
         }
       ]
     },
@@ -2181,9 +2118,9 @@
             "X": 800,
             "Y": 574,
             "Width": 83,
-            "Height": 58
+            "Height": 32
           },
-          "Text": "thinge"
+          "Text": "things"
         }
       ]
     },
@@ -2430,7 +2367,7 @@
             "Width": 136,
             "Height": 25
           },
-          "Text": "Solomon's"
+          "Text": "Solomon\u0027s"
         }
       ]
     },
@@ -2876,6 +2813,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2928,6 +2867,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3103,10 +3044,23 @@
           "Bounds": {
             "X": 640,
             "Y": 796,
-            "Width": 109,
+            "Width": 13,
             "Height": 24
           },
-          "Text": "Ishould"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 653,
+            "Y": 796,
+            "Width": 97,
+            "Height": 24
+          },
+          "Text": "should"
         }
       ]
     },
@@ -3331,6 +3285,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4077,6 +4032,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5491,6 +5447,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5513,7 +5470,7 @@
             "Width": 64,
             "Height": 25
           },
-          "Text": "Liord"
+          "Text": "Lord"
         }
       ]
     },
@@ -5968,7 +5925,7 @@
             "Width": 123,
             "Height": 32
           },
-          "Text": "iniquitiea"
+          "Text": "iniquities"
         }
       ]
     },
@@ -5994,7 +5951,7 @@
             "Width": 85,
             "Height": 24
           },
-          "Text": "cureed"
+          "Text": "cursed"
         }
       ]
     },
@@ -6202,7 +6159,7 @@
             "Width": 86,
             "Height": 24
           },
-          "Text": "curged"
+          "Text": "cursed"
         }
       ]
     },
@@ -6397,7 +6354,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
