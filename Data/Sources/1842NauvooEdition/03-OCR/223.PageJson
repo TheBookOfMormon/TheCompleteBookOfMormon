@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 223,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 366,
-            "Y": 112,
-            "Width": 60,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 102,
-            "Width": 29,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 114,
-            "Width": 63,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 85,
-            "Y": 172,
-            "Width": 110,
-            "Height": 25
-          },
-          "Text": "manites"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -527,19 +476,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 79,
-            "Y": 312,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 87,
             "Y": 297,
             "Width": 56,
@@ -831,7 +767,7 @@
             "Width": 36,
             "Height": 19
           },
-          "Text": "sct"
+          "Text": "set"
         }
       ]
     },
@@ -1043,6 +979,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1330,7 +1267,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "'the"
+          "Text": "the"
         }
       ]
     },
@@ -1604,19 +1541,6 @@
             "Height": 25
           },
           "Text": "destruction"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 813,
-            "Y": 558,
-            "Width": 2,
-            "Height": 2
-          },
-          "Text": "SE"
         }
       ]
     },
@@ -2032,7 +1956,7 @@
             "Width": 75,
             "Height": 26
           },
-          "Text": "sway"
+          "Text": "away"
         }
       ]
     },
@@ -2302,10 +2226,23 @@
           "Bounds": {
             "X": 769,
             "Y": 707,
-            "Width": 113,
+            "Width": 62,
             "Height": 30
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 831,
+            "Y": 707,
+            "Width": 52,
+            "Height": 30
+          },
+          "Text": "that"
         }
       ]
     },
@@ -2606,10 +2543,10 @@
           "Bounds": {
             "X": 207,
             "Y": 800,
-            "Width": 13,
-            "Height": 27
+            "Width": 31,
+            "Height": 26
           },
-          "Text": "pf"
+          "Text": "of"
         }
       ]
     },
@@ -3123,10 +3060,36 @@
           "Bounds": {
             "X": 772,
             "Y": 894,
-            "Width": 113,
+            "Width": 21,
             "Height": 32
           },
-          "Text": "itisthey"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 793,
+            "Y": 894,
+            "Width": 27,
+            "Height": 32
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 820,
+            "Y": 894,
+            "Width": 66,
+            "Height": 32
+          },
+          "Text": "they"
         }
       ]
     },
@@ -3997,7 +3960,7 @@
             "Width": 66,
             "Height": 24
           },
-          "Text": "maid"
+          "Text": "said"
         }
       ]
     },
@@ -4456,6 +4419,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5453,7 +5417,7 @@
             "Width": 37,
             "Height": 24
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -5587,6 +5551,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5995,11 +5960,11 @@
         {
           "Bounds": {
             "X": 286,
-            "Y": 1565,
-            "Width": 10,
-            "Height": 15
+            "Y": 1560,
+            "Width": 73,
+            "Height": 26
           },
-          "Text": "a"
+          "Text": "mark"
         }
       ]
     },
@@ -6199,7 +6164,7 @@
             "Width": 56,
             "Height": 25
           },
-          "Text": "Ged"
+          "Text": "God"
         }
       ]
     },
@@ -6329,7 +6294,7 @@
             "Width": 65,
             "Height": 27
           },
-          "Text": "mpon"
+          "Text": "upon"
         }
       ]
     }

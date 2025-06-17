@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 195,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 358,
-            "Y": 70,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 437,
-            "Y": 69,
-            "Width": 26,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 69,
-            "Width": 80,
-            "Height": 22
-          },
-          "Text": "MOSIAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 64,
-            "Y": 131,
-            "Width": 60,
-            "Height": 26
-          },
-          "Text": "grees"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -580,11 +529,11 @@
         {
           "Bounds": {
             "X": 789,
-            "Y": 230,
-            "Width": 41,
-            "Height": 15
+            "Y": 226,
+            "Width": 73,
+            "Height": 23
           },
-          "Text": "eve"
+          "Text": "every"
         }
       ]
     },
@@ -2353,11 +2302,11 @@
         {
           "Bounds": {
             "X": 519,
-            "Y": 607,
+            "Y": 633,
             "Width": 145,
-            "Height": 47
+            "Height": 21
           },
-          "Text": "oolinckion"
+          "Text": "destruction"
         }
       ]
     },
@@ -2743,14 +2692,15 @@
         {
           "Bounds": {
             "X": 326,
-            "Y": 731,
-            "Width": 13,
-            "Height": 15
+            "Y": 727,
+            "Width": 39,
+            "Height": 23
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3567,6 +3517,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3914,7 +3865,7 @@
             "Width": 61,
             "Height": 24
           },
-          "Text": "rison"
+          "Text": "prison"
         }
       ]
     },
@@ -4057,7 +4008,7 @@
             "Width": 42,
             "Height": 15
           },
-          "Text": "ave"
+          "Text": "have"
         }
       ]
     },
@@ -5047,10 +4998,10 @@
           "Bounds": {
             "X": 801,
             "Y": 1225,
-            "Width": 38,
+            "Width": 58,
             "Height": 23
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -5086,10 +5037,23 @@
           "Bounds": {
             "X": 187,
             "Y": 1255,
-            "Width": 77,
+            "Width": 17,
             "Height": 24
           },
-          "Text": "aland"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 204,
+            "Y": 1255,
+            "Width": 61,
+            "Height": 24
+          },
+          "Text": "land"
         }
       ]
     },
@@ -5462,11 +5426,11 @@
         {
           "Bounds": {
             "X": 66,
-            "Y": 1348,
-            "Width": 126,
-            "Height": 56
+            "Y": 1351,
+            "Width": 129,
+            "Height": 23
           },
-          "Text": "gopposes"
+          "Text": "supposed"
         }
       ]
     },
@@ -6309,9 +6273,9 @@
             "X": 115,
             "Y": 1538,
             "Width": 111,
-            "Height": 56
+            "Height": 30
           },
-          "Text": "jesraing"
+          "Text": "learning"
         }
       ]
     },
@@ -6559,11 +6523,7 @@
             "Height": 17
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 848,
@@ -6572,6 +6532,16 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 159,
+            "Y": 140,
+            "Width": 113,
+            "Height": 34
+          },
+          "IsOnNextPage": true,
+          "Text": "gravings"
         }
       ]
     }

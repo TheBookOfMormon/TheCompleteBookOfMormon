@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 222,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 101,
-            "Width": 66,
-            "Height": 23
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 527,
-            "Y": 106,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 103,
-            "Width": 67,
-            "Height": 22
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 143,
-            "Y": 163,
-            "Width": 59,
-            "Height": 26
-          },
-          "Text": "tend"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -233,9 +182,10 @@
             "Width": 62,
             "Height": 31
           },
-          "Text": "ling"
+          "Text": "king"
         }
-      ]
+      ],
+      "Notes": "mold"
     },
     {
       "Elements": [
@@ -294,11 +244,11 @@
         {
           "Bounds": {
             "X": 911,
-            "Y": 194,
-            "Width": 16,
-            "Height": 23
+            "Y": 193,
+            "Width": 37,
+            "Height": 26
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -611,11 +561,7 @@
             "Height": 24
           },
           "Text": "Si"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 933,
@@ -624,24 +570,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 134,
-            "Y": 302,
-            "Width": 2,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 142,
@@ -1387,10 +1316,23 @@
           "Bounds": {
             "X": 419,
             "Y": 445,
-            "Width": 199,
+            "Width": 147,
             "Height": 25
           },
-          "Text": "Lamanitesand"
+          "Text": "Lamanites"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 566,
+            "Y": 445,
+            "Width": 53,
+            "Height": 25
+          },
+          "Text": "and"
         }
       ]
     },
@@ -1426,10 +1368,23 @@
           "Bounds": {
             "X": 827,
             "Y": 446,
-            "Width": 106,
+            "Width": 92,
             "Height": 31
           },
-          "Text": "beganto"
+          "Text": "began"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 919,
+            "Y": 446,
+            "Width": 30,
+            "Height": 31
+          },
+          "Text": "to"
         }
       ]
     },
@@ -1508,6 +1463,19 @@
             "Height": 18
           },
           "Text": "were"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 755,
+            "Y": 482,
+            "Width": 62,
+            "Height": 18
+          },
+          "Text": "so"
         }
       ]
     },
@@ -2097,7 +2065,7 @@
             "Width": 62,
             "Height": 21
           },
-          "Text": "wete"
+          "Text": "were"
         }
       ]
     },
@@ -2357,12 +2325,8 @@
             "Width": 28,
             "Height": 16
           },
-          "Text": "nn"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "un"
+        },
         {
           "Bounds": {
             "X": 933,
@@ -2371,11 +2335,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 143,
@@ -3280,7 +3240,7 @@
             "Width": 67,
             "Height": 16
           },
-          "Text": "caine"
+          "Text": "came"
         }
       ]
     },
@@ -3306,7 +3266,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "puss"
+          "Text": "pass"
         }
       ]
     },
@@ -3778,6 +3738,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5413,11 +5374,11 @@
         {
           "Bounds": {
             "X": 365,
-            "Y": 1396,
-            "Width": 16,
-            "Height": 54
+            "Y": 1423,
+            "Width": 71,
+            "Height": 26
           },
-          "Text": "wy"
+          "Text": "after"
         }
       ]
     },
@@ -5496,11 +5457,16 @@
             "Height": 16
           },
           "Text": "nev"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 933,
+            "Y": 1425,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 141,
@@ -5695,7 +5661,7 @@
             "Width": 75,
             "Height": 24
           },
-          "Text": "hcads"
+          "Text": "heads"
         }
       ]
     },
@@ -6160,10 +6126,10 @@
           "Bounds": {
             "X": 874,
             "Y": 1579,
-            "Width": 59,
-            "Height": 25
+            "Width": 71,
+            "Height": 26
           },
-          "Text": "thcir"
+          "Text": "their"
         }
       ]
     },
@@ -6228,10 +6194,12 @@
             "Width": 36,
             "Height": 25
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6307,11 +6275,7 @@
             "Height": 24
           },
           "Text": "La"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 916,
@@ -6320,6 +6284,16 @@
             "Height": 17
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 85,
+            "Y": 172,
+            "Width": 110,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "manites"
         }
       ]
     }

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 225,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 371,
-            "Y": 98,
-            "Width": 65,
-            "Height": 33
-          },
-          "Text": "BUCK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 456,
-            "Y": 98,
-            "Width": 14,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 98,
-            "Width": 62,
-            "Height": 33
-          },
-          "Text": "ALXA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 824,
-            "Y": 102,
-            "Width": 23,
-            "Height": 28
-          },
-          "Text": "Nn"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 68,
-            "Y": 164,
-            "Width": 52,
-            "Height": 27
-          },
-          "Text": "lish"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2170,9 +2106,10 @@
             "Width": 48,
             "Height": 24
           },
-          "Text": "end"
+          "Text": "and"
         }
-      ]
+      ],
+      "Notes": "Mold"
     },
     {
       "Elements": [
@@ -2417,7 +2354,7 @@
             "Width": 68,
             "Height": 23
           },
-          "Text": "theses"
+          "Text": "these"
         }
       ]
     },
@@ -3991,11 +3928,11 @@
         {
           "Bounds": {
             "X": 825,
-            "Y": 1053,
-            "Width": 15,
-            "Height": 17
+            "Y": 1049,
+            "Width": 54,
+            "Height": 26
           },
-          "Text": "an"
+          "Text": "and"
         }
       ]
     },
@@ -5111,11 +5048,16 @@
             "Height": 25
           },
           "Text": "wicked"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 875,
+            "Y": 1298,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 81,
@@ -5513,7 +5455,7 @@
             "Width": 67,
             "Height": 16
           },
-          "Text": "come"
+          "Text": "came"
         }
       ]
     },
@@ -6398,11 +6340,30 @@
         {
           "Bounds": {
             "X": 812,
-            "Y": 1618,
+            "Y": 1615,
             "Width": 62,
-            "Height": 19
+            "Height": 26
           },
-          "Text": "turne"
+          "Text": "turn"
+        },
+        {
+          "Bounds": {
+            "X": 883,
+            "Y": 1615,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 150,
+            "Y": 161,
+            "Width": 45,
+            "Height": 31
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

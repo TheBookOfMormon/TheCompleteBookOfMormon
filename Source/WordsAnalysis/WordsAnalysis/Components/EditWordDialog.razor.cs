@@ -29,6 +29,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private bool HasEstimatedSize;
     private int LineHeight;
     private string LineHeightPreferenceKey = "";
+    private string? Notes;
     private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
     private string? PageImageData;
@@ -68,6 +69,7 @@ public partial class EditWordDialog : IAsyncDisposable
             Texts = Word.Elements.Select(x => new RequiredText(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
             ShowDashes = Word.ShowDashes;
         }
+        Notes = Word.Notes;
         LoadImageData();
     }
 
@@ -94,8 +96,9 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private OcrWord CreateWord()
     {
+        string? notes = String.IsNullOrWhiteSpace(Notes) ? null : Notes;
         ImmutableList<OcrElement> newElements = Texts.Select(x => new OcrElement { Text = x.Text, Bounds = x.Bounds, IsOnNextPage = x.IsOnNextPage }).ToImmutableList();
-        OcrWord result = Word with { Elements = newElements, ShowDashes = ShowDashes };
+        OcrWord result = Word with { Elements = newElements, ShowDashes = ShowDashes, Notes = notes };
         return result;
     }
 

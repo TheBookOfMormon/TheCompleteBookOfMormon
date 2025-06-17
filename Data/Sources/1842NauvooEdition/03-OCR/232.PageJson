@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 232,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 458,
-            "Y": 86,
-            "Width": 60,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 541,
-            "Y": 86,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 588,
-            "Y": 86,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -953,7 +915,7 @@
             "Width": 97,
             "Height": 24
           },
-          "Text": "witked"
+          "Text": "wicked"
         }
       ]
     },
@@ -1188,11 +1150,16 @@
             "Height": 25
           },
           "Text": "ful"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 955,
+            "Y": 362,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 159,
@@ -1535,10 +1502,23 @@
           "Bounds": {
             "X": 461,
             "Y": 457,
-            "Width": 125,
+            "Width": 99,
             "Height": 24
           },
-          "Text": "writtenin"
+          "Text": "written"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 560,
+            "Y": 457,
+            "Width": 27,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1928,7 +1908,7 @@
             "Width": 56,
             "Height": 19
           },
-          "Text": "unte"
+          "Text": "unto"
         }
       ]
     },
@@ -4536,64 +4516,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 485,
-            "Y": 1174,
-            "Width": 46,
-            "Height": 21
-          },
-          "Text": "te"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 1174,
-            "Width": 30,
-            "Height": 21
-          },
-          "Text": "PEI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 434,
-            "Y": 1247,
-            "Width": 159,
-            "Height": 26
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 615,
-            "Y": 1248,
-            "Width": 33,
-            "Height": 24
-          },
-          "Text": "1V"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 180,
             "Y": 1309,
             "Width": 57,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -5686,6 +5614,19 @@
             "Height": 19
           },
           "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 874,
+            "Y": 1534,
+            "Width": 70,
+            "Height": 26
+          },
+          "Text": "pass"
         }
       ]
     },

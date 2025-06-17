@@ -19,6 +19,7 @@
             <div>
                 <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged Label="Show surrounding text" />
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=50 Label="Line height" />
+                <FluentTextField @bind-Value=Notes Label="Notes"/>
             </div>
 
             @if (Texts.Length > 1)
