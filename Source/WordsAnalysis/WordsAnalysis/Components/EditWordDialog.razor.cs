@@ -28,6 +28,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private EditForm EditForm = null!;
     private bool HasEstimatedSize;
     private int LineHeight;
+    private int LineHeightAdjustment;
     private string LineHeightPreferenceKey = "";
     private string? Notes;
     private OcrRect OriginalBounds = OcrRect.Empty;
@@ -40,7 +41,6 @@ public partial class EditWordDialog : IAsyncDisposable
     private RequiredText[] Texts = [];
     private OcrWord Word = null!;
     private string? WordImageData;
-    private static readonly ImmutableArray<double> WordWidthFactors = [0.8, 0.6, 0.4];
 
     ValueTask IAsyncDisposable.DisposeAsync()
     {
@@ -53,6 +53,7 @@ public partial class EditWordDialog : IAsyncDisposable
         await base.OnInitializedAsync();
         LineHeightPreferenceKey = $"{Content.Edition.BookInfo.Code}-LineHeight";
         LineHeight = Preferences.Get(LineHeightPreferenceKey, 12);
+        ResetLineHeightAdjustment();
 
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
@@ -125,35 +126,20 @@ public partial class EditWordDialog : IAsyncDisposable
         RequiredText item = Texts[elementIndex];
         string text = item.Text;
 
-        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, text);
-        if (!HasEstimatedSize)
+        if (HasEstimatedSize)
         {
-            HasEstimatedSize = true;
-        }
-        else
-        {
-            if (estimatedSize.Height == item.Bounds.Height)
+            LineHeightAdjustment-=2;
+            if (Math.Abs(LineHeightAdjustment) > LineHeight / 2)
             {
-                if (item.Bounds.Width > estimatedSize.Width)
-                    estimatedSize = new System.Drawing.Size { Width = estimatedSize.Width, Height = estimatedSize.Height };
-                else
-                {
-                    foreach (double widthFactor in WordWidthFactors)
-                    {
-                        int w = (int)(estimatedSize.Width * widthFactor);
-                        if (item.Bounds.Width > w)
-                        {
-                            estimatedSize = new System.Drawing.Size { Width = w, Height = estimatedSize.Height };
-                            break;
-                        }
-                    }
-                }
+                LineHeightAdjustment = LineHeight / 2;
             }
         }
-            
+        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + LineHeightAdjustment, item.Bounds.Height, text);
         int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
         Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
         UpdateImageData();
+
+        HasEstimatedSize = true;
     }
 
     private string GetActionName()
@@ -174,6 +160,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void Move(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
     {
+        ResetLineHeightAdjustment();
         bool wasAfter = elementIndex != 0 || isAfter();
         int xSize = e.CtrlKey ? (Content.PageWidth / 66) : 1;
         int ySize = e.CtrlKey ? (Content.PageHeight / 66) : 1;
@@ -234,6 +221,12 @@ public partial class EditWordDialog : IAsyncDisposable
     private void MoveUp(MouseEventArgs e, int elementIndex)
     {
         Move(e, elementIndex, 0, -1);
+    }
+
+    private void ResetLineHeightAdjustment()
+    {
+        LineHeightAdjustment = 0;
+        HasEstimatedSize = false;
     }
 
     private void ShowSurroundingTextChanged()

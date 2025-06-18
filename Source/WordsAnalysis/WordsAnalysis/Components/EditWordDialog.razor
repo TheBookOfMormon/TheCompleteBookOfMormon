@@ -18,7 +18,7 @@
             <ObjectGraphDataAnnotationsValidator />
             <div>
                 <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged Label="Show surrounding text" />
-                <FluentNumberField @bind-Value=LineHeight Min=8 Max=50 Label="Line height" />
+                <FluentNumberField @bind-Value=LineHeight Min=8 Max=50 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
                 <FluentTextField @bind-Value=Notes Label="Notes"/>
             </div>
 
