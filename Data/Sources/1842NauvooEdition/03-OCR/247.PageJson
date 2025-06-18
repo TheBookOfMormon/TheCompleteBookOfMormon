@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 247,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 385,
-            "Y": 51,
-            "Width": 59,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 463,
-            "Y": 51,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 510,
-            "Y": 51,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -887,6 +849,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1907,7 +1870,7 @@
             "Width": 63,
             "Height": 24
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -1998,7 +1961,7 @@
             "Width": 50,
             "Height": 26
           },
-          "Text": "sina"
+          "Text": "sins"
         }
       ]
     },
@@ -2336,19 +2299,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 95,
-            "Y": 633,
-            "Width": 2,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 115,
             "Y": 610,
             "Width": 58,
@@ -2472,11 +2422,16 @@
             "Height": 17
           },
           "Text": "remem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 873,
+            "Y": 615,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 82,
@@ -3446,6 +3401,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 510,
+            "Y": 830,
+            "Width": 13,
+            "Height": 26
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 534,
             "Y": 839,
             "Width": 42,
@@ -3490,7 +3458,7 @@
             "Width": 67,
             "Height": 32
           },
-          "Text": "agsin"
+          "Text": "again"
         }
       ]
     },
@@ -4049,7 +4017,7 @@
             "Width": 28,
             "Height": 23
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -4111,10 +4079,23 @@
           "Bounds": {
             "X": 374,
             "Y": 994,
-            "Width": 100,
+            "Width": 53,
             "Height": 16
           },
-          "Text": "yoursins"
+          "Text": "your"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 427,
+            "Y": 994,
+            "Width": 48,
+            "Height": 16
+          },
+          "Text": "sins"
         }
       ]
     },
@@ -4466,11 +4447,16 @@
             "Height": 24
           },
           "Text": "Fa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 879,
+            "Y": 1049,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 88,
@@ -4622,6 +4608,19 @@
             "Height": 24
           },
           "Text": "them"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 85,
+            "Y": 1113,
+            "Width": 27,
+            "Height": 26
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4916,11 +4915,11 @@
         {
           "Bounds": {
             "X": 782,
-            "Y": 1145,
-            "Width": 106,
-            "Height": 32
+            "Y": 1148,
+            "Width": 99,
+            "Height": 26
           },
-          "Text": "peoples"
+          "Text": "people"
         }
       ]
     },
@@ -6508,7 +6507,7 @@
             "Width": 18,
             "Height": 24
           },
-          "Text": "ir"
+          "Text": "in"
         }
       ]
     },

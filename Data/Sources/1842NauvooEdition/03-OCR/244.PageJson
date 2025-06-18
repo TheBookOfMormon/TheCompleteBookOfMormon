@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 244,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 434,
-            "Y": 108,
-            "Width": 59,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 108,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 104,
-            "Width": 70,
-            "Height": 22
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2280,11 +2242,11 @@
         {
           "Bounds": {
             "X": 389,
-            "Y": 666,
-            "Width": 54,
-            "Height": 24
+            "Y": 665,
+            "Width": 73,
+            "Height": 26
           },
-          "Text": "devi"
+          "Text": "devil"
         }
       ]
     },
@@ -2346,10 +2308,23 @@
           "Bounds": {
             "X": 716,
             "Y": 666,
-            "Width": 121,
+            "Width": 72,
             "Height": 32
           },
-          "Text": "trapsand"
+          "Text": "traps"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 788,
+            "Y": 666,
+            "Width": 50,
+            "Height": 32
+          },
+          "Text": "and"
         }
       ]
     },
@@ -3576,12 +3551,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 861,
-            "Y": 895,
-            "Width": 70,
-            "Height": 55
+            "X": 846,
+            "Y": 922,
+            "Width": 99,
+            "Height": 26
           },
-          "Text": "sapla"
+          "Text": "people"
         }
       ]
     },
@@ -3594,7 +3569,7 @@
             "Width": 88,
             "Height": 25
           },
-          "Text": "rhould"
+          "Text": "should"
         }
       ]
     },
@@ -3907,6 +3882,19 @@
             "Height": 24
           },
           "Text": "now"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 599,
+            "Y": 1013,
+            "Width": 13,
+            "Height": 26
+          },
+          "Text": "I"
         }
       ]
     },
@@ -4426,12 +4414,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 153,
-            "Y": 1137,
-            "Width": 42,
-            "Height": 23
+            "X": 138,
+            "Y": 1136,
+            "Width": 68,
+            "Height": 26
           },
-          "Text": "oth"
+          "Text": "doth"
         }
       ]
     },
@@ -5546,10 +5534,23 @@
           "Bounds": {
             "X": 364,
             "Y": 1357,
-            "Width": 49,
+            "Width": 22,
             "Height": 25
           },
-          "Text": "itis"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 386,
+            "Y": 1357,
+            "Width": 28,
+            "Height": 25
+          },
+          "Text": "is"
         }
       ]
     },
@@ -6165,7 +6166,7 @@
             "Width": 94,
             "Height": 25
           },
-          "Text": "amitten"
+          "Text": "smitten"
         }
       ]
     },
@@ -6555,7 +6556,7 @@
             "Width": 65,
             "Height": 17
           },
-          "Text": "mere"
+          "Text": "more"
         }
       ]
     },
@@ -6694,11 +6695,11 @@
         {
           "Bounds": {
             "X": 871,
-            "Y": 1579,
-            "Width": 42,
-            "Height": 24
+            "Y": 1578,
+            "Width": 68,
+            "Height": 26
           },
-          "Text": "dot"
+          "Text": "doth"
         }
       ]
     },
@@ -6842,11 +6843,7 @@
             "Height": 24
           },
           "Text": "law"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 922,
@@ -6855,6 +6852,16 @@
             "Height": 7
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 94,
+            "Y": 110,
+            "Width": 46,
+            "Height": 29
+          },
+          "IsOnNextPage": true,
+          "Text": "yers"
         }
       ]
     }
