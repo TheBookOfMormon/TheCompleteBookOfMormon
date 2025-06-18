@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 293,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 105,
-            "Width": 59,
-            "Height": 25
-          },
-          "Text": "POOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 108,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 104,
-            "Width": 62,
-            "Height": 25
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -103,7 +65,7 @@
             "Width": 58,
             "Height": 22
           },
-          "Text": "evin"
+          "Text": "even"
         }
       ]
     },
@@ -338,11 +300,16 @@
             "Height": 25
           },
           "Text": "exceed"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 876,
+            "Y": 198,
+            "Width": 23,
+            "Height": 23
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 78,
@@ -1244,23 +1211,10 @@
           "Bounds": {
             "X": 489,
             "Y": 417,
-            "Width": 110,
-            "Height": 24
+            "Width": 140,
+            "Height": 23
           },
-          "Text": "Zarahem"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 426,
-            "Width": 10,
-            "Height": 15
-          },
-          "Text": "a"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -1342,6 +1296,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2107,62 +2066,10 @@
           "Bounds": {
             "X": 274,
             "Y": 636,
-            "Width": 61,
+            "Width": 233,
             "Height": 23
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 337,
-            "Y": 650,
-            "Width": 10,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 347,
-            "Y": 637,
-            "Width": 81,
-            "Height": 31
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 431,
-            "Y": 650,
-            "Width": 9,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 637,
-            "Width": 61,
-            "Height": 23
-          },
-          "Text": "Lehi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -3658,6 +3565,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4076,11 +3984,16 @@
             "Height": 23
           },
           "Text": "breth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 875,
+            "Y": 1046,
+            "Width": 23,
+            "Height": 23
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 77,
@@ -4088,7 +4001,7 @@
             "Width": 39,
             "Height": 21
           },
-          "Text": "ten"
+          "Text": "ren"
         }
       ]
     },
@@ -4370,6 +4283,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4535,7 +4449,7 @@
             "Width": 51,
             "Height": 24
           },
-          "Text": "tht"
+          "Text": "that"
         }
       ]
     },
@@ -4831,62 +4745,10 @@
           "Bounds": {
             "X": 504,
             "Y": 1236,
-            "Width": 61,
+            "Width": 233,
             "Height": 23
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 1249,
-            "Width": 10,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 1236,
-            "Width": 80,
-            "Height": 31
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 660,
-            "Y": 1249,
-            "Width": 10,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 672,
-            "Y": 1236,
-            "Width": 59,
-            "Height": 24
-          },
-          "Text": "Lehi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -5377,10 +5239,23 @@
           "Bounds": {
             "X": 715,
             "Y": 1362,
-            "Width": 84,
+            "Width": 62,
             "Height": 23
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 777,
+            "Y": 1362,
+            "Width": 23,
+            "Height": 23
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5406,7 +5281,7 @@
             "Width": 25,
             "Height": 23
           },
-          "Text": "go"
+          "Text": "to"
         }
       ]
     },
@@ -5540,6 +5415,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5636,11 +5516,11 @@
         {
           "Bounds": {
             "X": 475,
-            "Y": 1401,
+            "Y": 1427,
             "Width": 105,
-            "Height": 47
+            "Height": 21
           },
-          "Text": "Jervhon"
+          "Text": "Jershon"
         }
       ]
     },
@@ -5836,11 +5716,7 @@
             "Height": 27
           },
           "Text": "Ne"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 857,
@@ -5849,11 +5725,7 @@
             "Height": 17
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 97,
@@ -5861,7 +5733,7 @@
             "Width": 50,
             "Height": 24
           },
-          "Text": "hites"
+          "Text": "phites"
         }
       ]
     },
@@ -6113,7 +5985,7 @@
             "Width": 27,
             "Height": 22
           },
-          "Text": "he"
+          "Text": "the"
         }
       ]
     },
@@ -6178,7 +6050,7 @@
             "Width": 50,
             "Height": 24
           },
-          "Text": "aleo"
+          "Text": "also"
         }
       ]
     },
@@ -6316,25 +6188,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 445,
+            "X": 447,
             "Y": 1582,
-            "Width": 55,
-            "Height": 58
+            "Width": 50,
+            "Height": 23
           },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 1600,
-            "Width": 16,
-            "Height": 30
-          },
-          "Text": "-"
+          "Text": "God"
         }
       ]
     },
@@ -6400,6 +6259,25 @@
             "Height": 25
           },
           "Text": "distin"
+        },
+        {
+          "Bounds": {
+            "X": 875,
+            "Y": 1583,
+            "Width": 23,
+            "Height": 23
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 183,
+            "Y": 169,
+            "Width": 86,
+            "Height": 26
+          },
+          "IsOnNextPage": true,
+          "Text": "guished"
         }
       ]
     }
