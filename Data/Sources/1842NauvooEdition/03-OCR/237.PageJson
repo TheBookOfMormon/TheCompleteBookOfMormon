@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 237,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 373,
-            "Y": 94,
-            "Width": 60,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 97,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 97,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -948,7 +910,7 @@
             "Width": 33,
             "Height": 24
           },
-          "Text": "nd"
+          "Text": "And"
         }
       ]
     },
@@ -1183,11 +1145,11 @@
         {
           "Bounds": {
             "X": 435,
-            "Y": 375,
-            "Width": 37,
-            "Height": 23
+            "Y": 374,
+            "Width": 64,
+            "Height": 26
           },
-          "Text": "lan"
+          "Text": "land"
         }
       ]
     },
@@ -1300,6 +1262,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1400,7 +1367,7 @@
             "Width": 27,
             "Height": 16
           },
-          "Text": "eo"
+          "Text": "so"
         }
       ]
     },
@@ -1604,11 +1571,11 @@
         {
           "Bounds": {
             "X": 577,
-            "Y": 468,
-            "Width": 62,
-            "Height": 33
+            "Y": 471,
+            "Width": 76,
+            "Height": 26
           },
-          "Text": "days"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -1777,7 +1744,7 @@
             "Width": 21,
             "Height": 19
           },
-          "Text": "te"
+          "Text": "to"
         }
       ]
     },
@@ -2401,7 +2368,7 @@
             "Width": 59,
             "Height": 26
           },
-          "Text": "Jand"
+          "Text": "land"
         }
       ]
     },
@@ -3208,11 +3175,11 @@
         {
           "Bounds": {
             "X": 577,
-            "Y": 845,
-            "Width": 67,
-            "Height": 28
+            "Y": 846,
+            "Width": 79,
+            "Height": 26
           },
-          "Text": "spint"
+          "Text": "spirit"
         }
       ]
     },
@@ -3342,7 +3309,7 @@
             "Width": 57,
             "Height": 24
           },
-          "Text": "peur"
+          "Text": "pour"
         }
       ]
     },
@@ -3747,10 +3714,23 @@
           "Bounds": {
             "X": 673,
             "Y": 971,
-            "Width": 119,
+            "Width": 70,
             "Height": 24
           },
-          "Text": "untohim"
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 743,
+            "Y": 971,
+            "Width": 59,
+            "Height": 24
+          },
+          "Text": "him"
         }
       ]
     },
@@ -4050,16 +4030,21 @@
         {
           "Bounds": {
             "X": 784,
-            "Y": 1035,
-            "Width": 66,
-            "Height": 23
+            "Y": 1034,
+            "Width": 64,
+            "Height": 26
           },
-          "Text": "estaba"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "estab"
+        },
+        {
+          "Bounds": {
+            "X": 857,
+            "Y": 1034,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 66,
@@ -5642,6 +5627,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 315,
+            "Y": 1412,
+            "Width": 70,
+            "Height": 26
+          },
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 384,
             "Y": 1411,
             "Width": 51,
@@ -6103,6 +6101,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6385,7 +6384,7 @@
             "Width": 46,
             "Height": 36
           },
-          "Text": "fim"
+          "Text": "him"
         }
       ]
     },
