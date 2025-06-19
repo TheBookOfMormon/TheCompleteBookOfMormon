@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1766,
   "ImageWidth": 1026,
+  "ManuallyEdited": true,
   "PageNumber": 333,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 378,
-            "Y": 105,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "DOSX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 104,
-            "Width": 27,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 103,
-            "Width": 70,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -87,10 +49,10 @@
           "Bounds": {
             "X": 206,
             "Y": 161,
-            "Width": 76,
-            "Height": 25
+            "Width": 93,
+            "Height": 24
           },
-          "Text": "svmies"
+          "Text": "armies"
         }
       ]
     },
@@ -190,16 +152,12 @@
         {
           "Bounds": {
             "X": 822,
-            "Y": 160,
-            "Width": 22,
-            "Height": 27
+            "Y": 161,
+            "Width": 40,
+            "Height": 24
           },
           "Text": "Mo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 859,
@@ -208,11 +166,7 @@
             "Height": 27
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 68,
@@ -220,7 +174,7 @@
             "Width": 54,
             "Height": 28
           },
-          "Text": "soni"
+          "Text": "roni"
         }
       ]
     },
@@ -338,11 +292,16 @@
             "Height": 24
           },
           "Text": "govern"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 872,
+            "Y": 201,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 67,
@@ -428,7 +387,7 @@
             "Width": 50,
             "Height": 17
           },
-          "Text": "wos"
+          "Text": "was"
         }
       ]
     },
@@ -670,19 +629,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 546,
-            "Y": 292,
-            "Width": 7,
-            "Height": 11
-          },
-          "Text": "a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 107,
             "Y": 319,
             "Width": 45,
@@ -805,7 +751,7 @@
             "Width": 139,
             "Height": 24
           },
-          "Text": "Lemanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -841,10 +787,23 @@
           "Bounds": {
             "X": 71,
             "Y": 350,
-            "Width": 140,
+            "Width": 111,
             "Height": 25
           },
-          "Text": "bordersof"
+          "Text": "borders"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 182,
+            "Y": 350,
+            "Width": 30,
+            "Height": 25
+          },
+          "Text": "of"
         }
       ]
     },
@@ -1095,6 +1054,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1299,7 +1263,7 @@
             "Width": 49,
             "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -1365,11 +1329,7 @@
             "Height": 25
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 864,
@@ -1378,21 +1338,18 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 99,
-            "Y": 482,
-            "Width": 53,
-            "Height": 19
+            "X": 68,
+            "Y": 480,
+            "Width": 84,
+            "Height": 24
           },
-          "Text": "ates"
+          "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -1425,37 +1382,11 @@
         {
           "Bounds": {
             "X": 307,
-            "Y": 485,
-            "Width": 46,
-            "Height": 17
+            "Y": 484,
+            "Width": 148,
+            "Height": 20
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 360,
-            "Y": 491,
-            "Width": 10,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 371,
-            "Y": 477,
-            "Width": 91,
-            "Height": 29
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -1534,11 +1465,7 @@
             "Height": 24
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 849,
@@ -1547,6 +1474,15 @@
             "Height": 16
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 70,
+            "Y": 509,
+            "Width": 63,
+            "Height": 24
+          },
+          "Text": "fend"
         }
       ]
     },
@@ -1676,7 +1612,7 @@
             "Width": 125,
             "Height": 33
           },
-          "Text": "elothing"
+          "Text": "clothing"
         }
       ]
     },
@@ -2079,7 +2015,7 @@
             "Width": 44,
             "Height": 23
           },
-          "Text": "bat"
+          "Text": "but"
         }
       ]
     },
@@ -2456,7 +2392,7 @@
             "Width": 73,
             "Height": 18
           },
-          "Text": "wera"
+          "Text": "were"
         }
       ]
     },
@@ -2504,37 +2440,11 @@
         {
           "Bounds": {
             "X": 383,
-            "Y": 729,
-            "Width": 82,
-            "Height": 27
+            "Y": 731,
+            "Width": 179,
+            "Height": 22
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 742,
-            "Width": 9,
-            "Height": 6
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 729,
-            "Width": 76,
-            "Height": 27
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -2612,7 +2522,7 @@
             "Width": 140,
             "Height": 31
           },
-          "Text": "exceoding"
+          "Text": "exceeding"
         }
       ]
     },
@@ -2781,7 +2691,7 @@
             "Width": 61,
             "Height": 24
           },
-          "Text": "titeir"
+          "Text": "their"
         }
       ]
     },
@@ -3028,7 +2938,7 @@
             "Width": 77,
             "Height": 22
           },
-          "Text": "'come"
+          "Text": "come"
         }
       ]
     },
@@ -3249,7 +3159,7 @@
             "Width": 131,
             "Height": 30
           },
-          "Text": "Antiopum"
+          "Text": "Antionum"
         }
       ]
     },
@@ -3289,11 +3199,16 @@
             "Height": 24
           },
           "Text": "wil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 871,
+            "Y": 919,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 71,
@@ -3683,7 +3598,7 @@
             "Width": 58,
             "Height": 23
           },
-          "Text": "tske"
+          "Text": "take"
         }
       ]
     },
@@ -3956,7 +3871,7 @@
             "Width": 46,
             "Height": 23
           },
-          "Text": "Bat"
+          "Text": "But"
         }
       ]
     },
@@ -4151,7 +4066,7 @@
             "Width": 54,
             "Height": 19
           },
-          "Text": "rent"
+          "Text": "sent"
         }
       ]
     },
@@ -4164,7 +4079,7 @@
             "Width": 63,
             "Height": 32
           },
-          "Text": "spics"
+          "Text": "spies"
         }
       ]
     },
@@ -4281,7 +4196,7 @@
             "Width": 79,
             "Height": 29
           },
-          "Text": "Morom"
+          "Text": "Moroni"
         }
       ]
     },
@@ -4759,10 +4674,23 @@
           "Bounds": {
             "X": 775,
             "Y": 1266,
-            "Width": 92,
+            "Width": 20,
             "Height": 24
           },
-          "Text": "itcame"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 795,
+            "Y": 1266,
+            "Width": 73,
+            "Height": 24
+          },
+          "Text": "came"
         }
       ]
     },
@@ -5184,11 +5112,16 @@
             "Height": 24
           },
           "Text": "wilder"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 867,
+            "Y": 1359,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 76,
@@ -5196,7 +5129,7 @@
             "Width": 44,
             "Height": 21
           },
-          "Text": "nese"
+          "Text": "ness"
         }
       ]
     },
@@ -5248,7 +5181,7 @@
             "Width": 67,
             "Height": 16
           },
-          "Text": "eome"
+          "Text": "come"
         }
       ]
     },
@@ -5300,7 +5233,7 @@
             "Width": 58,
             "Height": 29
           },
-          "Text": "lapd"
+          "Text": "land"
         }
       ]
     },
@@ -5464,12 +5397,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 108,
-            "Y": 1460,
-            "Width": 19,
-            "Height": 18
+            "X": 77,
+            "Y": 1457,
+            "Width": 55,
+            "Height": 24
           },
-          "Text": "rt"
+          "Text": "part"
         }
       ]
     },
@@ -5587,11 +5520,7 @@
             "Height": 25
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 861,
@@ -5600,11 +5529,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 88,
@@ -5612,7 +5537,7 @@
             "Width": 79,
             "Height": 25
           },
-          "Text": "ivered"
+          "Text": "livered"
         }
       ]
     },
@@ -5704,6 +5629,19 @@
             "Height": 33
           },
           "Text": "leaving"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 411,
+            "Y": 1521,
+            "Width": 16,
+            "Height": 24
+          },
+          "Text": "a"
         }
       ]
     },
@@ -5963,7 +5901,7 @@
             "Width": 66,
             "Height": 17
           },
-          "Text": "ceme"
+          "Text": "come"
         }
       ]
     },
@@ -6084,6 +6022,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6119,7 +6059,7 @@
             "Width": 133,
             "Height": 25
           },
-          "Text": "zemainder"
+          "Text": "remainder"
         }
       ]
     },
@@ -6132,7 +6072,7 @@
             "Width": 57,
             "Height": 27
           },
-          "Text": "pars"
+          "Text": "part"
         }
       ]
     },

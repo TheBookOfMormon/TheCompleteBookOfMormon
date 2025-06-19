@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1768,
   "ImageWidth": 1029,
+  "ManuallyEdited": true,
   "PageNumber": 344,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 435,
-            "Y": 106,
-            "Width": 60,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 107,
-            "Width": 27,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 104,
-            "Width": 69,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 138,
-            "Y": 166,
-            "Width": 80,
-            "Height": 29
-          },
-          "Text": "selves"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -164,11 +113,11 @@
         {
           "Bounds": {
             "X": 849,
-            "Y": 161,
-            "Width": 86,
-            "Height": 34
+            "Y": 167,
+            "Width": 74,
+            "Height": 22
           },
-          "Text": "peacel"
+          "Text": "peace"
         }
       ]
     },
@@ -341,6 +290,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -649,6 +601,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 754,
+            "Y": 296,
+            "Width": 24,
+            "Height": 22
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 789,
             "Y": 290,
             "Width": 38,
@@ -771,7 +736,7 @@
             "Width": 98,
             "Height": 24
           },
-          "Text": "hedded"
+          "Text": "headed"
         }
       ]
     },
@@ -915,11 +880,7 @@
             "Height": 23
           },
           "Text": "Amalic"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 928,
@@ -928,11 +889,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 140,
@@ -940,7 +897,7 @@
             "Width": 58,
             "Height": 25
           },
-          "Text": "kiali"
+          "Text": "kiah"
         }
       ]
     },
@@ -1348,7 +1305,7 @@
             "Width": 96,
             "Height": 24
           },
-          "Text": "Moront"
+          "Text": "Moroni"
         }
       ]
     },
@@ -2016,7 +1973,7 @@
             "Width": 82,
             "Height": 24
           },
-          "Text": "wduld"
+          "Text": "would"
         }
       ]
     },
@@ -2645,7 +2602,7 @@
             "Width": 59,
             "Height": 25
           },
-          "Text": "'title"
+          "Text": "title"
         }
       ]
     },
@@ -3139,7 +3096,7 @@
             "Width": 68,
             "Height": 32
           },
-          "Text": "agin"
+          "Text": "again"
         }
       ]
     },
@@ -3943,9 +3900,9 @@
             "X": 393,
             "Y": 1088,
             "Width": 56,
-            "Height": 49
+            "Height": 27
           },
-          "Text": "pase"
+          "Text": "pass"
         }
       ]
     },
@@ -4327,7 +4284,7 @@
             "Width": 65,
             "Height": 23
           },
-          "Text": "therc"
+          "Text": "there"
         }
       ]
     },
@@ -5446,16 +5403,21 @@
         {
           "Bounds": {
             "X": 887,
-            "Y": 1407,
-            "Width": 25,
-            "Height": 16
+            "Y": 1405,
+            "Width": 43,
+            "Height": 20
           },
-          "Text": "su"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "sup"
+        },
+        {
+          "Bounds": {
+            "X": 938,
+            "Y": 1404,
+            "Width": 22,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 142,
@@ -5554,7 +5516,7 @@
             "Width": 84,
             "Height": 24
           },
-          "Text": "reoord"
+          "Text": "record"
         }
       ]
     },
@@ -6318,10 +6280,23 @@
           "Bounds": {
             "X": 536,
             "Y": 1617,
-            "Width": 105,
+            "Width": 46,
             "Height": 25
           },
-          "Text": "hisland"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 582,
+            "Y": 1617,
+            "Width": 60,
+            "Height": 25
+          },
+          "Text": "land"
         }
       ]
     },
@@ -6369,11 +6344,11 @@
         {
           "Bounds": {
             "X": 842,
-            "Y": 1619,
+            "Y": 1624,
             "Width": 84,
-            "Height": 32
+            "Height": 22
           },
-          "Text": "peoples"
+          "Text": "people"
         }
       ]
     }

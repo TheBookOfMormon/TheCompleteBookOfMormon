@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 335,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 89,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 459,
-            "Y": 88,
-            "Width": 26,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 89,
-            "Width": 59,
-            "Height": 18
-          },
-          "Text": "ALKA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -73,37 +35,11 @@
         {
           "Bounds": {
             "X": 215,
-            "Y": 144,
-            "Width": 83,
-            "Height": 33
+            "Y": 150,
+            "Width": 163,
+            "Height": 20
           },
-          "Text": "breasi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 288,
-            "Y": 148,
-            "Width": 35,
-            "Height": 29
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 308,
-            "Y": 144,
-            "Width": 80,
-            "Height": 33
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -138,11 +74,11 @@
         {
           "Bounds": {
             "X": 567,
-            "Y": 145,
-            "Width": 145,
-            "Height": 30
+            "Y": 150,
+            "Width": 148,
+            "Height": 20
           },
-          "Text": "armeshields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -177,37 +113,11 @@
         {
           "Bounds": {
             "X": 73,
-            "Y": 175,
-            "Width": 73,
-            "Height": 34
+            "Y": 180,
+            "Width": 176,
+            "Height": 24
           },
-          "Text": "Yead"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 149,
-            "Y": 191,
-            "Width": 9,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 159,
-            "Y": 178,
-            "Width": 78,
-            "Height": 31
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -351,19 +261,6 @@
             "Height": 24
           },
           "Text": "death"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 200,
-            "Y": 223,
-            "Width": 5,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -584,7 +481,7 @@
             "Width": 66,
             "Height": 28
           },
-          "Text": "gteat"
+          "Text": "great"
         }
       ]
     },
@@ -1672,6 +1569,15 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1802,6 +1708,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1824,7 +1735,7 @@
             "Width": 119,
             "Height": 31
           },
-          "Text": "amanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -2292,7 +2203,7 @@
             "Width": 86,
             "Height": 24
           },
-          "Text": "knowa"
+          "Text": "known"
         }
       ]
     },
@@ -2322,6 +2233,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3260,11 +3172,7 @@
             "Height": 24
           },
           "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 866,
@@ -3273,11 +3181,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 75,
@@ -3287,7 +3191,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -3385,37 +3290,11 @@
         {
           "Bounds": {
             "X": 693,
-            "Y": 907,
-            "Width": 80,
-            "Height": 23
+            "Y": 909,
+            "Width": 163,
+            "Height": 20
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 774,
-            "Y": 918,
-            "Width": 10,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 785,
-            "Y": 906,
-            "Width": 76,
-            "Height": 31
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -4355,6 +4234,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4872,11 +4752,11 @@
         {
           "Bounds": {
             "X": 485,
-            "Y": 1228,
-            "Width": 71,
-            "Height": 59
+            "Y": 1258,
+            "Width": 79,
+            "Height": 22
           },
-          "Text": "suffor"
+          "Text": "suffer"
         }
       ]
     },
@@ -6283,6 +6163,25 @@
             "Height": 24
           },
           "Text": "liber"
+        },
+        {
+          "Bounds": {
+            "X": 868,
+            "Y": 1599,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 151,
+            "Y": 142,
+            "Width": 26,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "ty"
         }
       ]
     }

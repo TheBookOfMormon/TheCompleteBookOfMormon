@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 353,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 367,
-            "Y": 82,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 80,
-            "Width": 29,
-            "Height": 22
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 491,
-            "Y": 83,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +130,7 @@
             "Width": 71,
             "Height": 26
           },
-          "Text": "dak"
+          "Text": "drink"
         }
       ]
     },
@@ -620,7 +582,7 @@
             "Width": 72,
             "Height": 31
           },
-          "Text": "eopie"
+          "Text": "people"
         }
       ]
     },
@@ -759,11 +721,11 @@
         {
           "Bounds": {
             "X": 65,
-            "Y": 276,
+            "Y": 298,
             "Width": 40,
-            "Height": 48
+            "Height": 26
           },
-          "Text": "Bis"
+          "Text": "his"
         }
       ]
     },
@@ -1756,7 +1718,7 @@
             "Width": 33,
             "Height": 23
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -1977,7 +1939,7 @@
             "Width": 113,
             "Height": 32
           },
-          "Text": "baptiged"
+          "Text": "baptized"
         }
       ]
     },
@@ -2120,59 +2082,7 @@
             "Width": 30,
             "Height": 24
           },
-          "Text": "&c"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 407,
-            "Y": 700,
-            "Width": 59,
-            "Height": 23
-          },
-          "Text": "tp"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 700,
-            "Width": 47,
-            "Height": 23
-          },
-          "Text": "Corre"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 366,
-            "Y": 773,
-            "Width": 159,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 543,
-            "Y": 773,
-            "Width": 59,
-            "Height": 25
-          },
-          "Text": "XXII"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -2185,7 +2095,7 @@
             "Width": 62,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -2489,7 +2399,7 @@
             "Width": 123,
             "Height": 26
           },
-          "Text": "arnanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -2593,12 +2503,17 @@
             "Width": 46,
             "Height": 16
           },
-          "Text": "come"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "com"
+        },
+        {
+          "Bounds": {
+            "X": 850,
+            "Y": 906,
+            "Width": 22,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 59,
@@ -2849,16 +2764,21 @@
         {
           "Bounds": {
             "X": 808,
-            "Y": 964,
-            "Width": 23,
-            "Height": 24
+            "Y": 965,
+            "Width": 39,
+            "Height": 22
           },
-          "Text": "di"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "dig"
+        },
+        {
+          "Bounds": {
+            "X": 855,
+            "Y": 965,
+            "Width": 22,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 62,
@@ -2879,7 +2799,7 @@
             "Width": 43,
             "Height": 24
           },
-          "Text": "Op"
+          "Text": "up"
         }
       ]
     },
@@ -2992,16 +2912,21 @@
         {
           "Bounds": {
             "X": 743,
-            "Y": 971,
-            "Width": 97,
-            "Height": 56
+            "Y": 999,
+            "Width": 103,
+            "Height": 22
           },
           "Text": "through"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 854,
+            "Y": 999,
+            "Width": 22,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 60,
@@ -3438,7 +3363,7 @@
             "Width": 39,
             "Height": 24
           },
-          "Text": "tho"
+          "Text": "the"
         }
       ]
     },
@@ -3633,7 +3558,7 @@
             "Width": 80,
             "Height": 23
           },
-          "Text": "worke"
+          "Text": "works"
         }
       ]
     },
@@ -3663,6 +3588,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3984,7 +3910,7 @@
             "Width": 25,
             "Height": 23
           },
-          "Text": "bas"
+          "Text": "be"
         }
       ]
     },
@@ -4348,7 +4274,7 @@
             "Width": 102,
             "Height": 26
           },
-          "Text": "Lamanjtes"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -5110,19 +5036,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 688,
-            "Y": 1508,
-            "Width": 29,
-            "Height": 8
-          },
-          "Text": "oo"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 97,
             "Y": 1531,
             "Width": 61,
@@ -5271,7 +5184,7 @@
             "Width": 87,
             "Height": 27
           },
-          "Text": "stiould"
+          "Text": "should"
         }
       ]
     },
@@ -5324,6 +5237,19 @@
             "Height": 25
           },
           "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 417,
+            "Y": 1563,
+            "Width": 53,
+            "Height": 22
+          },
+          "Text": "east"
         }
       ]
     },
