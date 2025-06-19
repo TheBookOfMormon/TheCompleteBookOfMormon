@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1766,
   "ImageWidth": 1026,
+  "ManuallyEdited": true,
   "PageNumber": 361,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 377,
-            "Y": 101,
-            "Width": 62,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 100,
-            "Width": 26,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 101,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -51,7 +13,7 @@
             "Width": 84,
             "Height": 30
           },
-          "Text": "When"
+          "Text": "when"
         }
       ]
     },
@@ -311,7 +273,7 @@
             "Width": 52,
             "Height": 16
           },
-          "Text": "ewn"
+          "Text": "own"
         }
       ]
     },
@@ -1327,10 +1289,10 @@
           "Bounds": {
             "X": 814,
             "Y": 443,
-            "Width": 39,
+            "Width": 59,
             "Height": 24
           },
-          "Text": "kin"
+          "Text": "king"
         }
       ]
     },
@@ -1430,11 +1392,11 @@
         {
           "Bounds": {
             "X": 743,
-            "Y": 474,
-            "Width": 112,
-            "Height": 31
+            "Y": 477,
+            "Width": 136,
+            "Height": 24
           },
-          "Text": "appoiate"
+          "Text": "appointed"
         }
       ]
     },
@@ -1447,7 +1409,7 @@
             "Width": 21,
             "Height": 30
           },
-          "Text": "fo"
+          "Text": "to"
         }
       ]
     },
@@ -2267,11 +2229,11 @@
         {
           "Bounds": {
             "X": 549,
-            "Y": 698,
-            "Width": 61,
-            "Height": 50
+            "Y": 699,
+            "Width": 71,
+            "Height": 24
           },
-          "Text": "pane"
+          "Text": "parts"
         }
       ]
     },
@@ -3005,11 +2967,7 @@
             "Height": 24
           },
           "Text": "him"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 862,
@@ -3018,11 +2976,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 66,
@@ -3030,7 +2984,7 @@
             "Width": 55,
             "Height": 26
           },
-          "Text": "gelf"
+          "Text": "self"
         }
       ]
     },
@@ -4308,6 +4262,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4447,7 +4402,7 @@
             "Width": 52,
             "Height": 24
           },
-          "Text": "lana"
+          "Text": "land"
         }
       ]
     },
@@ -4461,11 +4416,16 @@
             "Height": 24
           },
           "Text": "north"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 864,
+            "Y": 1198,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 71,
@@ -4977,10 +4937,23 @@
           "Bounds": {
             "X": 778,
             "Y": 1322,
-            "Width": 85,
+            "Width": 52,
             "Height": 24
           },
-          "Text": "thathe"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 830,
+            "Y": 1322,
+            "Width": 34,
+            "Height": 24
+          },
+          "Text": "he"
         }
       ]
     },
