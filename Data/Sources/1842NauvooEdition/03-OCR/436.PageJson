@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 436,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 96,
-            "Width": 70,
-            "Height": 32
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 96,
-            "Width": 31,
-            "Height": 32
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 105,
-            "Width": 115,
-            "Height": 19
-          },
-          "Text": "HELAAX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -407,7 +369,7 @@
             "Width": 38,
             "Height": 15
           },
-          "Text": "sec"
+          "Text": "see"
         }
       ]
     },
@@ -1148,7 +1110,7 @@
             "Width": 135,
             "Height": 25
           },
-          "Text": "Lamamnites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -1279,11 +1241,16 @@
             "Height": 24
           },
           "Text": "contin"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 934,
+            "Y": 414,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 141,
@@ -1730,10 +1697,23 @@
           "Bounds": {
             "X": 485,
             "Y": 542,
-            "Width": 131,
+            "Width": 66,
             "Height": 32
           },
-          "Text": "theirdays"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 551,
+            "Y": 542,
+            "Width": 66,
+            "Height": 32
+          },
+          "Text": "days"
         }
       ]
     },
@@ -1795,10 +1775,10 @@
           "Bounds": {
             "X": 910,
             "Y": 547,
-            "Width": 16,
-            "Height": 25
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "ys"
+          "Text": "ye"
         }
       ]
     },
@@ -3289,11 +3269,11 @@
         {
           "Bounds": {
             "X": 685,
-            "Y": 889,
-            "Width": 58,
-            "Height": 28
+            "Y": 891,
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "trush"
+          "Text": "truth"
         }
       ]
     },
@@ -3688,7 +3668,7 @@
             "Width": 36,
             "Height": 18
           },
-          "Text": "dre"
+          "Text": "are"
         }
       ]
     },
@@ -4751,7 +4731,7 @@
             "Width": 34,
             "Height": 24
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -4921,11 +4901,7 @@
             "Height": 26
           },
           "Text": "suf"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 917,
@@ -4934,11 +4910,7 @@
             "Height": 25
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 139,
@@ -4946,7 +4918,7 @@
             "Width": 33,
             "Height": 25
           },
-          "Text": "ter"
+          "Text": "fer"
         }
       ]
     },
@@ -5136,12 +5108,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 467,
+            "X": 443,
             "Y": 1300,
-            "Width": 18,
+            "Width": 46,
             "Height": 24
           },
-          "Text": "ft"
+          "Text": "lift"
         }
       ]
     },
@@ -5336,7 +5308,7 @@
             "Width": 106,
             "Height": 23
           },
-          "Text": "becauss"
+          "Text": "because"
         }
       ]
     },

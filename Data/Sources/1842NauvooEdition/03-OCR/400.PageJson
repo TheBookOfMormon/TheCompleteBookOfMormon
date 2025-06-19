@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1767,
   "ImageWidth": 1027,
+  "ManuallyEdited": true,
   "PageNumber": 400,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 399,
-            "Y": 94,
-            "Width": 57,
-            "Height": 20
-          },
-          "Text": "BOOE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 97,
-            "Width": 28,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 90,
-            "Width": 107,
-            "Height": 25
-          },
-          "Text": "HELAMAX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -51,7 +13,7 @@
             "Width": 66,
             "Height": 26
           },
-          "Text": "bend"
+          "Text": "band"
         }
       ]
     },
@@ -86,11 +48,11 @@
         {
           "Bounds": {
             "X": 438,
-            "Y": 152,
-            "Width": 108,
-            "Height": 27
+            "Y": 153,
+            "Width": 130,
+            "Height": 24
           },
-          "Text": "therefor"
+          "Text": "therefore"
         }
       ]
     },
@@ -308,10 +270,10 @@
           "Bounds": {
             "X": 273,
             "Y": 222,
-            "Width": 34,
-            "Height": 23
+            "Width": 58,
+            "Height": 24
           },
-          "Text": "seut"
+          "Text": "seat"
         }
       ]
     },
@@ -683,19 +645,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 587,
-            "Y": 315,
-            "Width": 101,
-            "Height": 7
-          },
-          "Text": "te"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 157,
             "Y": 343,
             "Width": 59,
@@ -927,7 +876,7 @@
             "Width": 89,
             "Height": 27
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -1110,11 +1059,16 @@
             "Height": 23
           },
           "Text": "ob"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 937,
+            "Y": 407,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 124,
@@ -1906,6 +1860,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1941,7 +1900,7 @@
             "Width": 97,
             "Height": 19
           },
-          "Text": "scrvant"
+          "Text": "servant"
         }
       ]
     },
@@ -2072,19 +2031,6 @@
             "Height": 26
           },
           "Text": "and"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 487,
-            "Y": 666,
-            "Width": 5,
-            "Height": 5
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3715,11 +3661,11 @@
         {
           "Bounds": {
             "X": 376,
-            "Y": 1041,
-            "Width": 42,
-            "Height": 29
+            "Y": 1043,
+            "Width": 65,
+            "Height": 24
           },
-          "Text": "pdass"
+          "Text": "pass"
         }
       ]
     },
@@ -3745,7 +3691,7 @@
             "Width": 118,
             "Height": 25
           },
-          "Text": "Helatnan"
+          "Text": "Helaman"
         }
       ]
     },
@@ -5065,10 +5011,23 @@
           "Bounds": {
             "X": 484,
             "Y": 1355,
-            "Width": 120,
+            "Width": 47,
             "Height": 31
           },
-          "Text": "theireign"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 531,
+            "Y": 1355,
+            "Width": 74,
+            "Height": 31
+          },
+          "Text": "reign"
         }
       ]
     },
@@ -5853,7 +5812,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "ftom"
+          "Text": "from"
         }
       ]
     },

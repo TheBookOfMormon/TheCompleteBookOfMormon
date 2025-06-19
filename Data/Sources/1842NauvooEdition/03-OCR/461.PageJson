@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1773,
   "ImageWidth": 1038,
+  "ManuallyEdited": true,
   "PageNumber": 461,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 403,
-            "Y": 131,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "BOOX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 132,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 528,
-            "Y": 131,
-            "Width": 74,
-            "Height": 19
-          },
-          "Text": "NBPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +130,7 @@
             "Width": 65,
             "Height": 32
           },
-          "Text": "dong"
+          "Text": "done"
         }
       ]
     },
@@ -1299,7 +1261,7 @@
             "Width": 68,
             "Height": 17
           },
-          "Text": "coms"
+          "Text": "come"
         }
       ]
     },
@@ -1478,10 +1440,23 @@
           "Bounds": {
             "X": 254,
             "Y": 505,
-            "Width": 102,
+            "Width": 62,
             "Height": 24
           },
-          "Text": "fromein"
+          "Text": "from"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 316,
+            "Y": 505,
+            "Width": 41,
+            "Height": 24
+          },
+          "Text": "sin"
         }
       ]
     },
@@ -2625,7 +2600,7 @@
             "Width": 71,
             "Height": 23
           },
-          "Text": "epace"
+          "Text": "space"
         }
       ]
     },
@@ -3700,6 +3675,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3843,6 +3819,14 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3904,7 +3888,7 @@
             "Width": 120,
             "Height": 32
           },
-          "Text": "gnthered"
+          "Text": "gathered"
         }
       ]
     },
@@ -4481,7 +4465,7 @@
             "Width": 60,
             "Height": 24
           },
-          "Text": "bave"
+          "Text": "have"
         }
       ]
     },
@@ -4676,7 +4660,7 @@
             "Width": 113,
             "Height": 24
           },
-          "Text": "erusalem"
+          "Text": "Jerusalem"
         }
       ]
     },
@@ -5105,7 +5089,7 @@
             "Width": 31,
             "Height": 15
           },
-          "Text": "ow"
+          "Text": "how"
         }
       ]
     },
@@ -5295,12 +5279,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 351,
+            "X": 363,
             "Y": 1359,
-            "Width": 34,
+            "Width": 21,
             "Height": 24
           },
-          "Text": "'if"
+          "Text": "if"
         }
       ]
     },
@@ -5729,7 +5713,7 @@
             "Width": 121,
             "Height": 32
           },
-          "Text": "fulfilhng"
+          "Text": "fulfilling"
         }
       ]
     },
@@ -5738,11 +5722,11 @@
         {
           "Bounds": {
             "X": 452,
-            "Y": 1432,
-            "Width": 36,
-            "Height": 47
+            "Y": 1456,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -6206,11 +6190,11 @@
         {
           "Bounds": {
             "X": 811,
-            "Y": 1546,
-            "Width": 86,
-            "Height": 27
+            "Y": 1547,
+            "Width": 99,
+            "Height": 24
           },
-          "Text": "friende"
+          "Text": "friends"
         }
       ]
     },
@@ -6510,11 +6494,7 @@
             "Height": 25
           },
           "Text": "dis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 900,
@@ -6523,6 +6503,16 @@
             "Height": 25
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 129,
+            "Y": 175,
+            "Width": 86,
+            "Height": 35
+          },
+          "IsOnNextPage": true,
+          "Text": "persed"
         }
       ]
     }

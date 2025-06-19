@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1769,
   "ImageWidth": 1031,
+  "ManuallyEdited": true,
   "PageNumber": 413,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 347,
-            "Y": 78,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 425,
-            "Y": 79,
-            "Width": 26,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 472,
-            "Y": 79,
-            "Width": 100,
-            "Height": 17
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -103,7 +65,7 @@
             "Width": 101,
             "Height": 24
           },
-          "Text": "hanner"
+          "Text": "manner"
         }
       ]
     },
@@ -277,7 +239,7 @@
             "Width": 38,
             "Height": 26
           },
-          "Text": "ths"
+          "Text": "the"
         }
       ]
     },
@@ -407,7 +369,7 @@
             "Width": 123,
             "Height": 24
           },
-          "Text": "helonged"
+          "Text": "belonged"
         }
       ]
     },
@@ -511,7 +473,7 @@
             "Width": 78,
             "Height": 24
           },
-          "Text": "warld"
+          "Text": "world"
         }
       ]
     },
@@ -836,12 +798,17 @@
             "Width": 72,
             "Height": 25
           },
-          "Text": "wicks"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "wick"
+        },
+        {
+          "Bounds": {
+            "X": 886,
+            "Y": 292,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 87,
@@ -1746,12 +1713,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 365,
+            "X": 343,
             "Y": 545,
-            "Width": 79,
+            "Width": 48,
             "Height": 24
           },
-          "Text": "putinto"
+          "Text": "put"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 391,
+            "Y": 545,
+            "Width": 56,
+            "Height": 24
+          },
+          "Text": "into"
         }
       ]
     },
@@ -2297,7 +2277,7 @@
             "Width": 89,
             "Height": 28
           },
-          "Text": "kgown"
+          "Text": "known"
         }
       ]
     },
@@ -3529,10 +3509,23 @@
           "Bounds": {
             "X": 836,
             "Y": 923,
-            "Width": 46,
+            "Width": 20,
             "Height": 24
           },
-          "Text": "itis"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 856,
+            "Y": 923,
+            "Width": 27,
+            "Height": 24
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4507,7 +4500,7 @@
             "Width": 64,
             "Height": 26
           },
-          "Text": "theiy"
+          "Text": "their"
         }
       ]
     },
@@ -4707,7 +4700,7 @@
             "Width": 27,
             "Height": 23
           },
-          "Text": "Ire"
+          "Text": "he"
         }
       ]
     },
@@ -6077,7 +6070,7 @@
             "Width": 19,
             "Height": 24
           },
-          "Text": "ir"
+          "Text": "it"
         }
       ]
     },
@@ -6270,9 +6263,9 @@
             "X": 495,
             "Y": 1555,
             "Width": 37,
-            "Height": 56
+            "Height": 32
           },
-          "Text": "fhe"
+          "Text": "the"
         }
       ]
     },
