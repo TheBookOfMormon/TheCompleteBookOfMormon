@@ -200,9 +200,10 @@ Once the candidate list is confirmed:
 
 - For each `*.PageJson` file:
   - Scan the `Words` array for `[word] - [word]` triplets that are Candidate Words
-  - Merge the triplet into a single `Word` object with three `Elements` if the recombined form is in the approved list.
-  - Make sure you do not change the case of the word, the character casing must be preserved
-  - Do not merge if the recombined word is not in the approved list or violates the structure rules.
+      - Merge the triplet into a single `Word` object with three `Elements` if the recombined form is in the approved list.
+      - Make sure you do not change the case of the word, the character casing must be preserved
+      - Do not merge if the recombined word is not in the approved list or violates the structure rules.
+  - Scan the `Words` array for Valid Composite Words and merge them into a single word with a single element with the text set to the hyphenated word
 
 ### Output:
 - A modified `.PageJson` file with updated `Words`. You are modifying only the Words property, all other properties in the PageJson must remain unchanged and their order preserved.
