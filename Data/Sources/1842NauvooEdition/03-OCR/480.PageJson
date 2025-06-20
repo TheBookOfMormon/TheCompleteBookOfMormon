@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 480,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 83,
-            "Width": 64,
-            "Height": 32
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 495,
-            "Y": 92,
-            "Width": 27,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 540,
-            "Y": 92,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -51,7 +13,7 @@
             "Width": 126,
             "Height": 25
           },
-          "Text": "Zedokiah"
+          "Text": "Zedekiah"
         }
       ]
     },
@@ -293,6 +255,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 863,
+            "Y": 184,
+            "Width": 65,
+            "Height": 24
+          },
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 119,
             "Y": 211,
             "Width": 52,
@@ -441,12 +416,8 @@
             "Width": 62,
             "Height": 24
           },
-          "Text": "mult"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "multi"
+        },
         {
           "Bounds": {
             "X": 896,
@@ -455,11 +426,7 @@
             "Height": 23
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 118,
@@ -2367,10 +2334,10 @@
           "Bounds": {
             "X": 861,
             "Y": 653,
-            "Width": 39,
-            "Height": 25
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -2435,7 +2402,7 @@
             "Width": 95,
             "Height": 21
           },
-          "Text": "water's"
+          "Text": "water\u0027s"
         }
       ]
     },
@@ -3601,6 +3568,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4489,19 +4457,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 88,
-            "Y": 1180,
-            "Width": 1,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 110,
             "Y": 1157,
             "Width": 162,
@@ -5140,11 +5095,11 @@
         {
           "Bounds": {
             "X": 798,
-            "Y": 1287,
-            "Width": 21,
-            "Height": 19
+            "Y": 1285,
+            "Width": 26,
+            "Height": 24
           },
-          "Text": "te"
+          "Text": "to"
         }
       ]
     },
@@ -5152,12 +5107,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 825,
+            "X": 837,
             "Y": 1290,
-            "Width": 85,
-            "Height": 48
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "prays"
+          "Text": "pray"
         }
       ]
     },
@@ -5327,19 +5282,6 @@
             "Height": 25
           },
           "Text": "God"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 1363,
-            "Width": 0,
-            "Height": 1
-          },
-          "Text": "oo"
         }
       ]
     },
@@ -6457,7 +6399,7 @@
             "Width": 79,
             "Height": 25
           },
-          "Text": "worde"
+          "Text": "words"
         }
       ]
     },
