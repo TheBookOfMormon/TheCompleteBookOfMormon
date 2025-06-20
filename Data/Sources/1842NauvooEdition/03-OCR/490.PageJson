@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 490,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 425,
-            "Y": 76,
-            "Width": 60,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 505,
-            "Y": 76,
-            "Width": 25,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 551,
-            "Y": 75,
-            "Width": 78,
-            "Height": 18
-          },
-          "Text": "NEPHIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 117,
-            "Y": 140,
-            "Width": 59,
-            "Height": 17
-          },
-          "Text": "ness"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -179,9 +128,9 @@
             "X": 114,
             "Y": 162,
             "Width": 113,
-            "Height": 59
+            "Height": 35
           },
-          "Text": "ploasant"
+          "Text": "pleasant"
         }
       ]
     },
@@ -321,10 +270,23 @@
           "Bounds": {
             "X": 861,
             "Y": 164,
-            "Width": 59,
+            "Width": 33,
             "Height": 26
           },
-          "Text": "asin"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 894,
+            "Y": 164,
+            "Width": 27,
+            "Height": 26
+          },
+          "Text": "in"
         }
       ]
     },
@@ -337,7 +299,7 @@
             "Width": 77,
             "Height": 17
           },
-          "Text": "ormer"
+          "Text": "former"
         }
       ]
     },
@@ -740,7 +702,7 @@
             "Width": 69,
             "Height": 24
           },
-          "Text": "thoee"
+          "Text": "those"
         }
       ]
     },
@@ -896,7 +858,7 @@
             "Width": 130,
             "Height": 30
           },
-          "Text": "fatheriess"
+          "Text": "fatherless"
         }
       ]
     },
@@ -4806,19 +4768,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 732,
-            "Y": 1194,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 738,
             "Y": 1175,
             "Width": 64,
@@ -4937,11 +4886,11 @@
         {
           "Bounds": {
             "X": 656,
-            "Y": 1188,
+            "Y": 1212,
             "Width": 78,
-            "Height": 48
+            "Height": 24
           },
-          "Text": "Beard"
+          "Text": "heard"
         }
       ]
     },
@@ -6398,11 +6347,11 @@
         {
           "Bounds": {
             "X": 630,
-            "Y": 1530,
-            "Width": 15,
-            "Height": 31
+            "Y": 1533,
+            "Width": 35,
+            "Height": 24
           },
-          "Text": "fp"
+          "Text": "up"
         }
       ]
     },
@@ -6506,7 +6455,7 @@
             "Width": 63,
             "Height": 24
           },
-          "Text": "shali"
+          "Text": "shall"
         }
       ]
     },
@@ -6597,7 +6546,7 @@
             "Width": 25,
             "Height": 19
           },
-          "Text": "ut"
+          "Text": "But"
         }
       ]
     },
@@ -6741,11 +6690,7 @@
             "Height": 33
           },
           "Text": "right"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 911,
@@ -6754,6 +6699,16 @@
             "Height": 7
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 113,
+            "Y": 172,
+            "Width": 116,
+            "Height": 18
+          },
+          "IsOnNextPage": true,
+          "Text": "eousness"
         }
       ]
     }

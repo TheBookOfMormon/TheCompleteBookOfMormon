@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 508,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 405,
-            "Y": 89,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 88,
-            "Width": 25,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 530,
-            "Y": 81,
-            "Width": 101,
-            "Height": 26
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 121,
-            "Y": 152,
-            "Width": 38,
-            "Height": 24
-          },
-          "Text": "ton"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -99,11 +48,11 @@
         {
           "Bounds": {
             "X": 376,
-            "Y": 145,
-            "Width": 70,
-            "Height": 32
+            "Y": 149,
+            "Width": 75,
+            "Height": 24
           },
-          "Text": "agsin"
+          "Text": "again"
         }
       ]
     },
@@ -640,6 +589,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3039,11 +2989,11 @@
         {
           "Bounds": {
             "X": 435,
-            "Y": 807,
-            "Width": 80,
-            "Height": 57
+            "Y": 811,
+            "Width": 71,
+            "Height": 24
           },
-          "Text": "aways"
+          "Text": "away"
         }
       ]
     },
@@ -4291,7 +4241,7 @@
             "Width": 141,
             "Height": 28
           },
-          "Text": "Liamanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -4370,11 +4320,16 @@
             "Height": 24
           },
           "Text": "posses"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 921,
+            "Y": 1099,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 120,
@@ -4551,7 +4506,7 @@
             "Width": 31,
             "Height": 23
           },
-          "Text": "ail"
+          "Text": "all"
         }
       ]
     },
@@ -5448,7 +5403,7 @@
             "Width": 71,
             "Height": 34
           },
-          "Text": "bgain"
+          "Text": "again"
         }
       ]
     },

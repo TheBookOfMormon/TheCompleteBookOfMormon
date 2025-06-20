@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 495,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 24,
-            "Width": 5,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 23,
-            "Width": 6,
-            "Height": 9
-          },
-          "Text": "EE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 655,
-            "Y": 23,
-            "Width": 3,
-            "Height": 5
-          },
-          "Text": "Tr"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 393,
-            "Y": 101,
-            "Width": 59,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 102,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 102,
-            "Width": 78,
-            "Height": 25
-          },
-          "Text": "NEFPRI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -159,6 +82,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -256,10 +180,23 @@
           "Bounds": {
             "X": 165,
             "Y": 198,
-            "Width": 97,
+            "Width": 66,
             "Height": 16
           },
-          "Text": "evenas"
+          "Text": "even"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 231,
+            "Y": 198,
+            "Width": 32,
+            "Height": 16
+          },
+          "Text": "as"
         }
       ]
     },
@@ -970,11 +907,11 @@
         {
           "Bounds": {
             "X": 92,
-            "Y": 325,
+            "Y": 349,
             "Width": 130,
-            "Height": 47
+            "Height": 23
           },
-          "Text": "knocheth"
+          "Text": "knocketh"
         }
       ]
     },
@@ -1312,7 +1249,7 @@
             "Width": 89,
             "Height": 25
           },
-          "Text": "Iather"
+          "Text": "Father"
         }
       ]
     },
@@ -1949,7 +1886,7 @@
             "Width": 93,
             "Height": 23
           },
-          "Text": "ullness"
+          "Text": "fullness"
         }
       ]
     },
@@ -2599,7 +2536,7 @@
             "Width": 93,
             "Height": 23
           },
-          "Text": "thicves"
+          "Text": "thieves"
         }
       ]
     },
@@ -2765,10 +2702,10 @@
           "Bounds": {
             "X": 819,
             "Y": 726,
-            "Width": 50,
-            "Height": 23
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "thew"
+          "Text": "them"
         }
       ]
     },
@@ -3470,7 +3407,7 @@
             "Width": 18,
             "Height": 22
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -4156,10 +4093,23 @@
           "Bounds": {
             "X": 175,
             "Y": 1071,
-            "Width": 45,
+            "Width": 26,
             "Height": 22
           },
-          "Text": "isit"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 201,
+            "Y": 1071,
+            "Width": 20,
+            "Height": 22
+          },
+          "Text": "it"
         }
       ]
     },
@@ -4436,6 +4386,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4645,7 +4596,7 @@
             "Width": 114,
             "Height": 32
           },
-          "Text": "mimstry"
+          "Text": "ministry"
         }
       ]
     },
@@ -5036,11 +4987,7 @@
             "Height": 23
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 890,
@@ -5049,11 +4996,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 99,
@@ -5061,7 +5004,7 @@
             "Width": 66,
             "Height": 25
           },
-          "Text": "gired"
+          "Text": "sired"
         }
       ]
     },
@@ -6504,7 +6447,7 @@
             "Width": 39,
             "Height": 15
           },
-          "Text": "wae"
+          "Text": "was"
         }
       ]
     },

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1767,
   "ImageWidth": 1027,
+  "ManuallyEdited": true,
   "PageNumber": 515,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 372,
-            "Y": 83,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 84,
-            "Width": 26,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 85,
-            "Width": 89,
-            "Height": 20
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -51,7 +13,7 @@
             "Width": 44,
             "Height": 32
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -568,10 +530,10 @@
           "Bounds": {
             "X": 431,
             "Y": 237,
-            "Width": 23,
-            "Height": 23
+            "Width": 34,
+            "Height": 24
           },
-          "Text": "al"
+          "Text": "all"
         }
       ]
     },
@@ -2284,23 +2246,10 @@
           "Bounds": {
             "X": 80,
             "Y": 650,
-            "Width": 18,
-            "Height": 23
-          },
-          "Text": "A"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 648,
-            "Width": 104,
+            "Width": 143,
             "Height": 24
           },
-          "Text": "ntionum"
+          "Text": "Antionum"
         }
       ]
     },
@@ -5894,11 +5843,16 @@
             "Height": 32
           },
           "Text": "right"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 874,
+            "Y": 1443,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 87,
@@ -6044,19 +5998,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 64,
-            "Y": 1515,
-            "Width": 4,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 87,
             "Y": 1502,
             "Width": 83,
@@ -6157,6 +6098,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6193,11 +6135,16 @@
             "Height": 25
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 874,
+            "Y": 1503,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 87,
@@ -6453,11 +6400,7 @@
             "Height": 25
           },
           "Text": "know"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 868,
@@ -6466,6 +6409,16 @@
             "Height": 7
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 130,
+            "Y": 133,
+            "Width": 42,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "eth"
         }
       ]
     }
