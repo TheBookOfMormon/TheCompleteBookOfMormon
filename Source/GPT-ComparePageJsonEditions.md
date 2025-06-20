@@ -166,6 +166,7 @@ Lamoni
 Lebanon
 Lehi
 Lehi-Nephi
+Lehonti
 Lemuel
 Lemuelite
 Lemuelites
@@ -221,12 +222,14 @@ Pacumeni
 Pahoran
 Remalia
 Remaliah
+Ramath
 Rezin
 Riplakish
 Salem
 Satan
 Sam
 Samaria
+Samuel
 Sariah
 Seeric
 Seezoram
