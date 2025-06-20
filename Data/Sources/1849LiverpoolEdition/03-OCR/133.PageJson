@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3232,
   "ImageWidth": 2054,
+  "ManuallyEdited": true,
   "PageNumber": 133,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 787,
-            "Y": 83,
-            "Width": 133,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 966,
-            "Y": 84,
-            "Width": 56,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1065,
-            "Y": 83,
-            "Width": 141,
-            "Height": 36
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -233,7 +195,7 @@
             "Width": 131,
             "Height": 46
           },
-          "Text": "dewn"
+          "Text": "down"
         }
       ]
     },
@@ -546,11 +508,7 @@
             "Height": 48
           },
           "Text": "vine"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1807,
@@ -559,11 +517,7 @@
             "Height": 13
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 186,
@@ -597,7 +551,7 @@
             "Width": 16,
             "Height": 44
           },
-          "Text": "Il"
+          "Text": "I"
         }
       ]
     },
@@ -1658,19 +1612,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 227,
-            "Y": 823,
-            "Width": 9,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 244,
             "Y": 800,
             "Width": 112,
@@ -1932,9 +1873,9 @@
         {
           "Bounds": {
             "X": 1261,
-            "Y": 867,
-            "Width": 54,
-            "Height": 45
+            "Y": 866,
+            "Width": 102,
+            "Height": 48
           },
           "Text": "has"
         }
@@ -2096,6 +2037,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2187,6 +2129,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2317,6 +2260,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2756,11 +2700,7 @@
             "Height": 32
           },
           "Text": "un"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1796,
@@ -2769,11 +2709,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 171,
@@ -3107,11 +3043,7 @@
             "Height": 32
           },
           "Text": "cum"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1795,
@@ -3120,11 +3052,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 168,
@@ -5268,6 +5196,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6035,6 +5964,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6760,11 +6690,7 @@
             "Height": 34
           },
           "Text": "na"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1756,
@@ -6773,6 +6699,16 @@
             "Height": 33
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 178,
+            "Y": 131,
+            "Width": 133,
+            "Height": 47
+          },
+          "IsOnNextPage": true,
+          "Text": "tural"
         }
       ]
     }

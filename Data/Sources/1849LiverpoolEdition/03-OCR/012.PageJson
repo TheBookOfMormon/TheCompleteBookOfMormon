@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3212,
   "ImageWidth": 2048,
+  "ManuallyEdited": true,
   "PageNumber": 12,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 685,
-            "Y": 65,
-            "Width": 139,
-            "Height": 32
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 866,
-            "Y": 64,
-            "Width": 134,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1050,
-            "Y": 65,
-            "Width": 55,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1148,
-            "Y": 65,
-            "Width": 145,
-            "Height": 35
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -610,7 +559,7 @@
             "Width": 114,
             "Height": 46
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -1027,11 +976,7 @@
             "Height": 45
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1810,
@@ -1040,11 +985,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 174,
@@ -2820,7 +2761,7 @@
             "Width": 232,
             "Height": 64
           },
-          "Text": "kfiowing"
+          "Text": "knowing"
         }
       ]
     },
@@ -2977,19 +2918,6 @@
             "Height": 59
           },
           "Text": "people"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 199,
-            "Y": 1529,
-            "Width": 3,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3253,6 +3181,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3887,11 +3816,7 @@
             "Height": 44
           },
           "Text": "lan"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1807,
@@ -3900,11 +3825,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 172,
@@ -5294,6 +5215,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5407,7 +5329,7 @@
             "Width": 65,
             "Height": 44
           },
-          "Text": "np"
+          "Text": "up"
         }
       ]
     },
@@ -5655,11 +5577,7 @@
             "Height": 45
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1803,
@@ -5668,11 +5586,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 168,
@@ -6403,17 +6317,26 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1621,
+            "Y": 2979,
+            "Width": 38,
+            "Height": 48
+          },
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1690,
             "Y": 2979,
             "Width": 102,
             "Height": 46
           },
           "Text": "inso"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1803,
@@ -6422,19 +6345,16 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 149,
-            "Y": 3075,
-            "Width": 19,
-            "Height": 74
+            "X": 206,
+            "Y": 169,
+            "Width": 145,
+            "Height": 46
           },
-          "Text": "hb"
+          "IsOnNextPage": true,
+          "Text": "much"
         }
       ]
     }

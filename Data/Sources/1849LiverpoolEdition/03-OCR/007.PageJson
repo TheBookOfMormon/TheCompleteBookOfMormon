@@ -1,8 +1,12 @@
 {
   "ImageHeight": 3216,
   "ImageWidth": 2054,
+  "ManuallyEdited": true,
   "PageNumber": 7,
   "Words": [
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -103,7 +107,7 @@
             "Width": 109,
             "Height": 38
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -117,32 +121,6 @@
             "Height": 41
           },
           "Text": "MINISTRY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 831,
-            "Y": 655,
-            "Width": 319,
-            "Height": 48
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1193,
-            "Y": 658,
-            "Width": 12,
-            "Height": 44
-          },
-          "Text": "I"
         }
       ]
     },
@@ -194,7 +172,7 @@
             "Width": 121,
             "Height": 47
           },
-          "Text": "Leht"
+          "Text": "Lehi"
         }
       ]
     },
@@ -689,11 +667,7 @@
             "Height": 34
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1840,
@@ -702,11 +676,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 258,
@@ -883,7 +853,7 @@
             "Width": 117,
             "Height": 57
           },
-          "Text": "days"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -987,7 +957,7 @@
             "Width": 179,
             "Height": 61
           },
-          "Text": "Nepht"
+          "Text": "Nephi"
         }
       ]
     },
@@ -1039,7 +1009,7 @@
             "Width": 100,
             "Height": 48
           },
-          "Text": "ard"
+          "Text": "and"
         }
       ]
     },
@@ -1118,11 +1088,7 @@
             "Height": 46
           },
           "Text": "Jeru"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1841,
@@ -1131,11 +1097,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 260,
@@ -1663,7 +1625,7 @@
             "Width": 171,
             "Height": 47
           },
-          "Text": "iravels"
+          "Text": "travels"
         }
       ]
     },
@@ -1689,7 +1651,7 @@
             "Width": 120,
             "Height": 32
           },
-          "Text": "eome"
+          "Text": "come"
         }
       ]
     },
@@ -1927,6 +1889,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2088,14 +2053,16 @@
         {
           "Bounds": {
             "X": 1778,
-            "Y": 1679,
-            "Width": 58,
-            "Height": 61
+            "Y": 1693,
+            "Width": 53,
+            "Height": 32
           },
-          "Text": "\u0026e"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2339,7 +2306,7 @@
             "Width": 177,
             "Height": 45
           },
-          "Text": "NepHI"
+          "Text": "Nephi"
         }
       ]
     },
@@ -3302,11 +3269,7 @@
             "Height": 43
           },
           "Text": "lan"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1849,
@@ -3315,11 +3278,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 222,
@@ -3682,6 +3641,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4740,24 +4700,11 @@
         {
           "Bounds": {
             "X": 1745,
-            "Y": 2959,
-            "Width": 92,
-            "Height": 44
+            "Y": 2957,
+            "Width": 118,
+            "Height": 48
           },
-          "Text": "Lebi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 147,
-            "Y": 3107,
-            "Width": 27,
-            "Height": 35
-          },
-          "Text": "A"
+          "Text": "Lehi"
         }
       ]
     }

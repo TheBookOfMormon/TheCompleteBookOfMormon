@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3228,
   "ImageWidth": 2048,
+  "ManuallyEdited": true,
   "PageNumber": 154,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 779,
-            "Y": 101,
-            "Width": 136,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 961,
-            "Y": 103,
-            "Width": 56,
-            "Height": 32
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1062,
-            "Y": 103,
-            "Width": 186,
-            "Height": 33
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -195,11 +157,7 @@
             "Height": 44
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1842,
@@ -208,11 +166,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 210,
@@ -464,10 +418,23 @@
           "Bounds": {
             "X": 1248,
             "Y": 308,
-            "Width": 223,
+            "Width": 108,
             "Height": 45
           },
-          "Text": "Andnow"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1356,
+            "Y": 308,
+            "Width": 116,
+            "Height": 45
+          },
+          "Text": "now"
         }
       ]
     },
@@ -649,7 +616,7 @@
             "Width": 175,
             "Height": 41
           },
-          "Text": "caonot"
+          "Text": "cannot"
         }
       ]
     },
@@ -1075,10 +1042,23 @@
           "Bounds": {
             "X": 949,
             "Y": 566,
-            "Width": 146,
+            "Width": 139,
             "Height": 55
           },
-          "Text": "AndlI"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1088,
+            "Y": 566,
+            "Width": 32,
+            "Height": 55
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5018,11 +4998,7 @@
             "Height": 32
           },
           "Text": "ene"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1839,
@@ -5031,11 +5007,7 @@
             "Height": 8
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 214,
@@ -5745,7 +5717,7 @@
             "Width": 79,
             "Height": 44
           },
-          "Text": "lst"
+          "Text": "list"
         }
       ]
     },
@@ -5915,11 +5887,7 @@
             "Height": 45
           },
           "Text": "Mo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1839,
@@ -5928,11 +5896,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 217,
@@ -6526,11 +6490,7 @@
             "Height": 45
           },
           "Text": "everlast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1841,
@@ -6539,11 +6499,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 222,
@@ -6551,7 +6507,7 @@
             "Width": 82,
             "Height": 44
           },
-          "Text": "Ing"
+          "Text": "ing"
         }
       ]
     },
@@ -6656,11 +6612,7 @@
             "Height": 32
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1840,
@@ -6669,6 +6621,16 @@
             "Height": 9
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 225,
+            "Y": 174,
+            "Width": 135,
+            "Height": 57
+          },
+          "IsOnNextPage": true,
+          "Text": "trary"
         }
       ]
     }

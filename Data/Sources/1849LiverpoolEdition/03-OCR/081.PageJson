@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3212,
   "ImageWidth": 2048,
+  "ManuallyEdited": true,
   "PageNumber": 81,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 675,
-            "Y": 107,
-            "Width": 187,
-            "Height": 37
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 904,
-            "Y": 110,
-            "Width": 137,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1089,
-            "Y": 109,
-            "Width": 55,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1189,
-            "Y": 109,
-            "Width": 166,
-            "Height": 33
-          },
-          "Text": "NEPIIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -581,10 +530,23 @@
           "Bounds": {
             "X": 1331,
             "Y": 375,
-            "Width": 319,
+            "Width": 270,
             "Height": 45
           },
-          "Text": "awfulnessin"
+          "Text": "awfulness"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1601,
+            "Y": 375,
+            "Width": 49,
+            "Height": 45
+          },
+          "Text": "in"
         }
       ]
     },
@@ -598,11 +560,16 @@
             "Height": 43
           },
           "Text": "trans"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1827,
+            "Y": 377,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 183,
@@ -2431,11 +2398,7 @@
             "Height": 45
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1822,
@@ -2444,11 +2407,7 @@
             "Height": 15
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 178,
@@ -2626,11 +2585,7 @@
             "Height": 43
           },
           "Text": "Is"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1815,
@@ -2639,11 +2594,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 178,
@@ -4675,16 +4626,12 @@
         {
           "Bounds": {
             "X": 1541,
-            "Y": 2233,
-            "Width": 66,
-            "Height": 44
+            "Y": 2235,
+            "Width": 256,
+            "Height": 40
           },
-          "Text": "all"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "all-search"
+        },
         {
           "Bounds": {
             "X": 1609,
@@ -4693,43 +4640,13 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 1635,
-            "Y": 2233,
-            "Width": 169,
-            "Height": 45
-          },
-          "Text": "search"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1808,
-            "Y": 2260,
-            "Width": 22,
-            "Height": 11
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 171,
-            "Y": 2295,
-            "Width": 84,
-            "Height": 60
+            "X": 172,
+            "Y": 2301,
+            "Width": 86,
+            "Height": 48
           },
           "Text": "ing"
         }
@@ -6070,7 +5987,7 @@
             "Width": 186,
             "Height": 61
           },
-          "Text": "abyink"
+          "Text": "shrink"
         }
       ]
     },
@@ -6200,7 +6117,7 @@
             "Width": 156,
             "Height": 67
           },
-          "Text": "awfal"
+          "Text": "awful"
         }
       ]
     },

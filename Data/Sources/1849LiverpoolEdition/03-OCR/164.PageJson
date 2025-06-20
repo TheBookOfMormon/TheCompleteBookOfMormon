@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3219,
   "ImageWidth": 2057,
+  "ManuallyEdited": true,
   "PageNumber": 164,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 780,
-            "Y": 95,
-            "Width": 139,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 964,
-            "Y": 95,
-            "Width": 58,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1065,
-            "Y": 91,
-            "Width": 190,
-            "Height": 41
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -372,37 +334,11 @@
         {
           "Bounds": {
             "X": 438,
-            "Y": 304,
-            "Width": 119,
-            "Height": 61
+            "Y": 311,
+            "Width": 314,
+            "Height": 46
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 332,
-            "Width": 23,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 304,
-            "Width": 153,
-            "Height": 61
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -477,36 +413,10 @@
           "Bounds": {
             "X": 1287,
             "Y": 305,
-            "Width": 119,
+            "Width": 314,
             "Height": 46
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1411,
-            "Y": 332,
-            "Width": 22,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1435,
-            "Y": 303,
-            "Width": 160,
-            "Height": 60
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -962,11 +872,7 @@
             "Height": 46
           },
           "Text": "six"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1831,
@@ -975,11 +881,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 200,
@@ -1138,30 +1040,22 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1711,
+            "Y": 625,
+            "Width": 118,
+            "Height": 48
+          },
+          "Text": "Lehi"
+        },
+        {
+          "Bounds": {
             "X": 1684,
             "Y": 651,
             "Width": 7,
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1704,
-            "Y": 625,
-            "Width": 95,
-            "Height": 47
-          },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 202,
@@ -1171,7 +1065,8 @@
           },
           "Text": "Nephi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -1716,11 +1611,7 @@
             "Height": 45
           },
           "Text": "lea"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1823,
@@ -1729,11 +1620,7 @@
             "Height": 45
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 205,
@@ -2010,37 +1897,11 @@
         {
           "Bounds": {
             "X": 1329,
-            "Y": 1012,
-            "Width": 121,
-            "Height": 59
+            "Y": 1018,
+            "Width": 314,
+            "Height": 46
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1453,
-            "Y": 1040,
-            "Width": 21,
-            "Height": 8
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1478,
-            "Y": 1012,
-            "Width": 160,
-            "Height": 59
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -2054,11 +1915,7 @@
             "Height": 46
           },
           "Text": "there"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1833,
@@ -2067,11 +1924,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 204,
@@ -2509,11 +2362,7 @@
             "Height": 45
           },
           "Text": "Shi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1815,
@@ -2522,11 +2371,7 @@
             "Height": 45
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 205,
@@ -3263,11 +3108,7 @@
             "Height": 32
           },
           "Text": "sur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1835,
@@ -3276,11 +3117,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 207,
@@ -3617,6 +3454,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4467,24 +4305,11 @@
         {
           "Bounds": {
             "X": 1023,
-            "Y": 2110,
-            "Width": 219,
-            "Height": 46
+            "Y": 2109,
+            "Width": 292,
+            "Height": 48
           },
-          "Text": "Zarahem"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1261,
-            "Y": 2110,
-            "Width": 29,
-            "Height": 46
-          },
-          "Text": "la"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -6435,11 +6260,7 @@
             "Height": 32
           },
           "Text": "as"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1838,
@@ -6448,11 +6269,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 214,

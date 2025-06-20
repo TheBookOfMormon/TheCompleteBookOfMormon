@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3229,
   "ImageWidth": 2053,
+  "ManuallyEdited": true,
   "PageNumber": 67,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 668,
-            "Y": 101,
-            "Width": 193,
-            "Height": 37
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 907,
-            "Y": 100,
-            "Width": 139,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1095,
-            "Y": 100,
-            "Width": 55,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1195,
-            "Y": 102,
-            "Width": 145,
-            "Height": 34
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -571,7 +520,7 @@
             "Width": 114,
             "Height": 51
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -1001,11 +950,7 @@
             "Height": 45
           },
           "Text": "pro"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1821,
@@ -1014,11 +959,7 @@
             "Height": 13
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 184,
@@ -1439,10 +1380,23 @@
           "Bounds": {
             "X": 930,
             "Y": 692,
-            "Width": 201,
+            "Width": 109,
             "Height": 48
           },
-          "Text": "Andthe"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1039,
+            "Y": 692,
+            "Width": 93,
+            "Height": 48
+          },
+          "Text": "the"
         }
       ]
     },
@@ -1534,6 +1488,19 @@
             "Height": 45
           },
           "Text": "up"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 274,
+            "Y": 770,
+            "Width": 32,
+            "Height": 48
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2014,7 +1981,7 @@
             "Width": 139,
             "Height": 52
           },
-          "Text": "wake"
+          "Text": "make"
         }
       ]
     },
@@ -2079,7 +2046,7 @@
             "Width": 96,
             "Height": 48
           },
-          "Text": "Bunt"
+          "Text": "But"
         }
       ]
     },
@@ -2154,10 +2121,10 @@
           "Bounds": {
             "X": 186,
             "Y": 1027,
-            "Width": 81,
-            "Height": 47
+            "Width": 80,
+            "Height": 48
           },
-          "Text": "wy"
+          "Text": "my"
         }
       ]
     },
@@ -2417,7 +2384,7 @@
             "Width": 104,
             "Height": 48
           },
-          "Text": "seid"
+          "Text": "said"
         }
       ]
     },
@@ -2681,6 +2648,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2820,7 +2788,7 @@
             "Width": 64,
             "Height": 54
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -3327,7 +3295,7 @@
             "Width": 255,
             "Height": 57
           },
-          "Text": "xpedient"
+          "Text": "expedient"
         }
       ]
     },
@@ -3756,7 +3724,7 @@
             "Width": 130,
             "Height": 47
           },
-          "Text": "kmow"
+          "Text": "know"
         }
       ]
     },
@@ -3834,7 +3802,7 @@
             "Width": 88,
             "Height": 45
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -3925,7 +3893,7 @@
             "Width": 117,
             "Height": 41
           },
-          "Text": "anto"
+          "Text": "unto"
         }
       ]
     },
@@ -3968,6 +3936,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4185,7 +4154,7 @@
             "Width": 129,
             "Height": 47
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -4641,11 +4610,7 @@
             "Height": 43
           },
           "Text": "weak"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1821,
@@ -4654,11 +4619,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 188,
@@ -5456,10 +5417,23 @@
           "Bounds": {
             "X": 1024,
             "Y": 2362,
-            "Width": 220,
+            "Width": 89,
             "Height": 47
           },
-          "Text": "thebook"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1113,
+            "Y": 2362,
+            "Width": 132,
+            "Height": 47
+          },
+          "Text": "book"
         }
       ]
     },
@@ -5472,7 +5446,7 @@
             "Width": 115,
             "Height": 48
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -5654,7 +5628,7 @@
             "Width": 116,
             "Height": 44
           },
-          "Text": "beth"
+          "Text": "both"
         }
       ]
     },
@@ -6122,7 +6096,7 @@
             "Width": 48,
             "Height": 39
           },
-          "Text": "ta"
+          "Text": "to"
         }
       ]
     },
@@ -6148,7 +6122,7 @@
             "Width": 146,
             "Height": 49
           },
-          "Text": "mach"
+          "Text": "much"
         }
       ]
     },
@@ -6409,11 +6383,7 @@
             "Height": 46
           },
           "Text": "Be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1825,
@@ -6422,11 +6392,7 @@
             "Height": 15
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 181,
@@ -6668,7 +6634,7 @@
             "Width": 114,
             "Height": 44
           },
-          "Text": "uato"
+          "Text": "unto"
         }
       ]
     },
@@ -6708,11 +6674,7 @@
             "Height": 45
           },
           "Text": "accord"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1825,
@@ -6721,11 +6683,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 177,

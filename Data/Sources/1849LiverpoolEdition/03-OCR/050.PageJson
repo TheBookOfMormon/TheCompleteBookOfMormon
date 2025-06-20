@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3230,
   "ImageWidth": 2054,
+  "ManuallyEdited": true,
   "PageNumber": 50,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 701,
-            "Y": 94,
-            "Width": 138,
-            "Height": 34
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 881,
-            "Y": 93,
-            "Width": 134,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1064,
-            "Y": 93,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1164,
-            "Y": 93,
-            "Width": 130,
-            "Height": 33
-          },
-          "Text": "NEPNI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -234,11 +183,7 @@
             "Height": 46
           },
           "Text": "pro"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1821,
@@ -247,11 +192,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 190,
@@ -1248,11 +1189,7 @@
             "Height": 45
           },
           "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1818,
@@ -1261,11 +1198,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 184,
@@ -1537,6 +1470,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1741,7 +1675,7 @@
             "Width": 324,
             "Height": 61
           },
-          "Text": "Journeyings"
+          "Text": "journeyings"
         }
       ]
     },
@@ -2613,11 +2547,7 @@
             "Height": 45
           },
           "Text": "wil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1812,
@@ -2626,11 +2556,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 178,
@@ -2694,6 +2620,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2850,6 +2777,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3084,6 +3012,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4553,6 +4482,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4732,11 +4662,7 @@
             "Height": 44
           },
           "Text": "gene"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1809,
@@ -4745,11 +4671,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 174,
@@ -4869,12 +4791,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1507,
+            "X": 1496,
             "Y": 2296,
-            "Width": 313,
+            "Width": 131,
             "Height": 46
           },
-          "Text": "untilfurther"
+          "Text": "until"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1627,
+            "Y": 2296,
+            "Width": 206,
+            "Height": 46
+          },
+          "Text": "further"
         }
       ]
     },
@@ -5148,11 +5083,7 @@
             "Height": 46
           },
           "Text": "pro"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1808,
@@ -5161,11 +5092,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 174,
@@ -5329,7 +5256,7 @@
             "Width": 119,
             "Height": 44
           },
-          "Text": "\u0027that"
+          "Text": "that"
         }
       ]
     },
@@ -5967,11 +5894,7 @@
             "Height": 46
           },
           "Text": "my"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1806,
@@ -5980,11 +5903,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 174,
@@ -6131,11 +6050,11 @@
         {
           "Bounds": {
             "X": 173,
-            "Y": 2870,
-            "Width": 42,
-            "Height": 44
+            "Y": 2869,
+            "Width": 48,
+            "Height": 46
           },
-          "Text": "i8"
+          "Text": "is"
         }
       ]
     },

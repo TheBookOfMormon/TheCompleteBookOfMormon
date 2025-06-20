@@ -44,12 +44,9 @@ sealed class DictionaryService : IDictionaryService
         {
             string firstPart = text.Substring(0, indexOfSpace);
             string secondPart = text.Substring(indexOfSpace + 1);
-            foreach (string[] firstPartResults in SplitTextIntoWords(firstPart))
+            foreach (string[] secondPartResults in SplitTextIntoWords(secondPart))
             {
-                foreach (string[] secondPartResults in SplitTextIntoWords(secondPart))
-                {
-                    yield return [.. firstPartResults, .. secondPartResults];
-                }
+                yield return [firstPart, .. secondPartResults];
             }
             yield break;
         }
@@ -134,7 +131,8 @@ sealed class DictionaryService : IDictionaryService
                 dictionary.Add(entry[..^2] + "ies");
                 dictionary.Add(entry[..^2] + "ieth");
                 dictionary.Add(entry[..^2] + "ied");
-            } else if (upper.EndsWith("Y"))
+            }
+            else if (upper.EndsWith("Y"))
             {
                 dictionary.Add(entry + "eth");
                 dictionary.Add(entry[..^1] + "ies");
@@ -185,7 +183,7 @@ sealed class DictionaryService : IDictionaryService
             if (upper.Contains("ise"))
             {
                 dictionary.Add(entry.Replace("ise", "ize"));
-            }    
+            }
         }
     }
 
