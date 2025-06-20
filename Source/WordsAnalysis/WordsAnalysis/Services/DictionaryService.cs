@@ -39,6 +39,22 @@ sealed class DictionaryService : IDictionaryService
         if (string.IsNullOrEmpty(text))
             yield break;
 
+        int indexOfSpace = text.IndexOf(' ');
+        if (indexOfSpace > -1)
+        {
+            string firstPart = text.Substring(0, indexOfSpace);
+            string secondPart = text.Substring(indexOfSpace + 1);
+            foreach (string[] firstPartResults in SplitTextIntoWords(firstPart))
+            {
+                foreach (string[] secondPartResults in SplitTextIntoWords(secondPart))
+                {
+                    yield return [.. firstPartResults, .. secondPartResults];
+                }
+            }
+            yield break;
+        }
+
+
         if (Dictionary.Contains(text))
         {
             yield return [text];

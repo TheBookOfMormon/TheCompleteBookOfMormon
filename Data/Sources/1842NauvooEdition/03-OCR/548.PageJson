@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 548,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 436,
-            "Y": 123,
-            "Width": 60,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 514,
-            "Y": 122,
-            "Width": 26,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 123,
-            "Width": 76,
-            "Height": 16
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -281,11 +243,11 @@
         {
           "Bounds": {
             "X": 854,
-            "Y": 209,
-            "Width": 65,
-            "Height": 30
+            "Y": 214,
+            "Width": 70,
+            "Height": 20
           },
-          "Text": "Chnast"
+          "Text": "Christ"
         }
       ]
     },
@@ -961,12 +923,8 @@
             "Width": 59,
             "Height": 24
           },
-          "Text": "beliey"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "believ"
+        },
         {
           "Bounds": {
             "X": 921,
@@ -975,11 +933,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 152,
@@ -2460,6 +2414,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2687,10 +2642,23 @@
           "Bounds": {
             "X": 757,
             "Y": 744,
-            "Width": 127,
+            "Width": 100,
             "Height": 24
           },
-          "Text": "brotherof"
+          "Text": "brother"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 857,
+            "Y": 744,
+            "Width": 28,
+            "Height": 24
+          },
+          "Text": "of"
         }
       ]
     },
@@ -3134,10 +3102,23 @@
           "Bounds": {
             "X": 900,
             "Y": 840,
-            "Width": 40,
+            "Width": 18,
             "Height": 23
           },
-          "Text": "itis"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 918,
+            "Y": 840,
+            "Width": 23,
+            "Height": 23
+          },
+          "Text": "is"
         }
       ]
     },
@@ -3763,10 +3744,23 @@
           "Bounds": {
             "X": 780,
             "Y": 996,
-            "Width": 163,
+            "Width": 137,
             "Height": 24
           },
-          "Text": "weaknessin"
+          "Text": "weakness"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 917,
+            "Y": 996,
+            "Width": 27,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6546,11 +6540,7 @@
             "Height": 26
           },
           "Text": "hum"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 941,
@@ -6559,6 +6549,16 @@
             "Height": 26
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 130,
+            "Y": 150,
+            "Width": 37,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "ble"
         }
       ]
     }

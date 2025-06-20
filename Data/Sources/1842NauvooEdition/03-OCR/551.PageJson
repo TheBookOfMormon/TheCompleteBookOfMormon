@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 551,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 401,
-            "Y": 100,
-            "Width": 59,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 480,
-            "Y": 100,
-            "Width": 25,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 526,
-            "Y": 100,
-            "Width": 62,
-            "Height": 17
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -503,10 +465,10 @@
           "Bounds": {
             "X": 422,
             "Y": 251,
-            "Width": 38,
-            "Height": 23
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "thc"
+          "Text": "the"
         }
       ]
     },
@@ -688,7 +650,7 @@
             "Width": 58,
             "Height": 23
           },
-          "Text": "sced"
+          "Text": "seed"
         }
       ]
     },
@@ -1261,11 +1223,16 @@
             "Height": 30
           },
           "Text": "gather"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 900,
+            "Y": 412,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 105,
@@ -1925,10 +1892,10 @@
           "Bounds": {
             "X": 840,
             "Y": 566,
-            "Width": 56,
+            "Width": 69,
             "Height": 24
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -3341,6 +3308,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3945,23 +3913,10 @@
           "Bounds": {
             "X": 106,
             "Y": 1037,
-            "Width": 16,
+            "Width": 53,
             "Height": 24
           },
-          "Text": "A"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 134,
-            "Y": 1038,
-            "Width": 32,
-            "Height": 23
-          },
-          "Text": "nd"
+          "Text": "And"
         }
       ]
     },
@@ -4637,7 +4592,7 @@
             "Width": 50,
             "Height": 24
           },
-          "Text": "end"
+          "Text": "and"
         }
       ]
     },
@@ -5217,6 +5172,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 109,
+            "Y": 1321,
+            "Width": 16,
+            "Height": 24
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 137,
             "Y": 1321,
             "Width": 59,
@@ -5706,9 +5674,9 @@
             "X": 106,
             "Y": 1446,
             "Width": 50,
-            "Height": 25
+            "Height": 24
           },
-          "Text": "end"
+          "Text": "and"
         }
       ]
     },
@@ -5744,10 +5712,23 @@
           "Bounds": {
             "X": 351,
             "Y": 1447,
-            "Width": 90,
+            "Width": 61,
             "Height": 25
           },
-          "Text": "Andin"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 412,
+            "Y": 1447,
+            "Width": 30,
+            "Height": 25
+          },
+          "Text": "in"
         }
       ]
     },
@@ -5994,7 +5975,7 @@
             "Width": 148,
             "Height": 28
           },
-          "Text": "Cortantumr"
+          "Text": "Coriantumr"
         }
       ]
     },
@@ -6111,7 +6092,7 @@
             "Width": 118,
             "Height": 24
           },
-          "Text": "ousehold"
+          "Text": "household"
         }
       ]
     },
@@ -6384,7 +6365,7 @@
             "Width": 111,
             "Height": 34
           },
-          "Text": "ousehold"
+          "Text": "household"
         }
       ]
     },

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1765,
   "ImageWidth": 1024,
+  "ManuallyEdited": true,
   "PageNumber": 562,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 404,
-            "Y": 101,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 101,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 532,
-            "Y": 101,
-            "Width": 89,
-            "Height": 18
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -859,10 +821,10 @@
           "Bounds": {
             "X": 831,
             "Y": 316,
-            "Width": 55,
-            "Height": 23
+            "Width": 100,
+            "Height": 24
           },
-          "Text": "comi"
+          "Text": "coming"
         }
       ]
     },
@@ -980,6 +942,19 @@
             "Height": 24
           },
           "Text": "every"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 858,
+            "Y": 354,
+            "Width": 67,
+            "Height": 24
+          },
+          "Text": "good"
         }
       ]
     },
@@ -2175,7 +2150,7 @@
             "Width": 72,
             "Height": 24
           },
-          "Text": "overy"
+          "Text": "every"
         }
       ]
     },
@@ -3241,7 +3216,7 @@
             "Width": 77,
             "Height": 29
           },
-          "Text": "cessed"
+          "Text": "ceased"
         }
       ]
     },
@@ -3258,6 +3233,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4337,6 +4313,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4502,7 +4479,7 @@
             "Width": 44,
             "Height": 29
           },
-          "Text": "sdy"
+          "Text": "say"
         }
       ]
     },
@@ -6372,11 +6349,7 @@
             "Height": 26
           },
           "Text": "accord"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 902,
@@ -6385,45 +6358,16 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 809,
-            "Y": 1736,
-            "Width": 18,
-            "Height": 9
+            "X": 102,
+            "Y": 152,
+            "Width": 47,
+            "Height": 31
           },
-          "Text": "WS"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 848,
-            "Y": 1731,
-            "Width": 18,
-            "Height": 18
-          },
-          "Text": "gy"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 868,
-            "Y": 1733,
-            "Width": 16,
-            "Height": 12
-          },
-          "Text": "eg"
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }
