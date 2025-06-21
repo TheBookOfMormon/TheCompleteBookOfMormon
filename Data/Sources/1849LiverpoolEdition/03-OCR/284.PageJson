@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3225,
   "ImageWidth": 2076,
+  "ManuallyEdited": true,
   "PageNumber": 284,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 834,
-            "Y": 78,
-            "Width": 137,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1018,
-            "Y": 78,
-            "Width": 55,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1111,
-            "Y": 78,
-            "Width": 125,
-            "Height": 34
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -784,7 +746,7 @@
             "Width": 145,
             "Height": 45
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -1304,7 +1266,7 @@
             "Width": 146,
             "Height": 46
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -1477,6 +1439,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1685,6 +1648,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1872,6 +1836,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2249,6 +2214,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2392,6 +2358,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3283,11 +3250,7 @@
             "Height": 48
           },
           "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1849,
@@ -3296,47 +3259,18 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 224,
-            "Y": 1631,
-            "Width": 165,
-            "Height": 61
+            "Y": 1638,
+            "Width": 314,
+            "Height": 46
           },
-          "Text": "Nephi"
+          "Text": "Nephi-Lehi"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 1660,
-            "Width": 22,
-            "Height": 8
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 1631,
-            "Width": 123,
-            "Height": 47
-          },
-          "Text": "Lehi"
-        }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -3403,6 +3337,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6340,19 +6279,6 @@
             "Height": 46
           },
           "Text": "mercies"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 210,
-            "Y": 3000,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },

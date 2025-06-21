@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3227,
   "ImageWidth": 2085,
+  "ManuallyEdited": true,
   "PageNumber": 274,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 808,
-            "Y": 98,
-            "Width": 137,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 992,
-            "Y": 98,
-            "Width": 55,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1091,
-            "Y": 97,
-            "Width": 119,
-            "Height": 35
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1967,19 +1929,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 467,
-            "Y": 1027,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 482,
             "Y": 1017,
             "Width": 131,
@@ -2197,6 +2146,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4356,32 +4310,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 788,
-            "Y": 2293,
-            "Width": 315,
-            "Height": 50
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1144,
-            "Y": 2293,
-            "Width": 136,
-            "Height": 50
-          },
-          "Text": "XIII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 207,
             "Y": 2422,
             "Width": 65,
@@ -5107,7 +5035,7 @@
             "Width": 145,
             "Height": 46
           },
-          "Text": "thers"
+          "Text": "thers\u0027"
         }
       ]
     },
@@ -5534,11 +5462,7 @@
             "Height": 49
           },
           "Text": "Jeru"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1838,
@@ -5547,6 +5471,16 @@
             "Height": 10
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 254,
+            "Y": 209,
+            "Width": 141,
+            "Height": 45
+          },
+          "IsOnNextPage": true,
+          "Text": "salem"
         }
       ]
     }

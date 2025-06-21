@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3213,
   "ImageWidth": 2082,
+  "ManuallyEdited": true,
   "PageNumber": 277,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 880,
-            "Y": 103,
-            "Width": 135,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1064,
-            "Y": 103,
-            "Width": 54,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1162,
-            "Y": 104,
-            "Width": 131,
-            "Height": 35
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -480,7 +442,7 @@
             "Width": 158,
             "Height": 61
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -5734,7 +5696,7 @@
             "Width": 266,
             "Height": 58
           },
-          "Text": "seriptures"
+          "Text": "scriptures"
         }
       ]
     },
@@ -6632,11 +6594,7 @@
             "Height": 45
           },
           "Text": "who"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1883,
@@ -6645,6 +6603,16 @@
             "Height": 9
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 175,
+            "Y": 191,
+            "Width": 160,
+            "Height": 38
+          },
+          "IsOnNextPage": true,
+          "Text": "soever"
         }
       ]
     }
