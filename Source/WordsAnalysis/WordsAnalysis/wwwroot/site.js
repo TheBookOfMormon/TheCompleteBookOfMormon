@@ -123,7 +123,10 @@ function getSelectedTableRows() {
 }
 
 function tableCellHasErrorOrWarning(td, multipleRowsSelected) {
-   const cls = td.className || '';
+   const container = td.querySelector('.word-table_word-container');
+   if (!container) return false;
+
+   const cls = container.className || '';
    return cls.includes('--warning')
 	  || cls.includes('--error')
 	  || cls.includes('--outlier')

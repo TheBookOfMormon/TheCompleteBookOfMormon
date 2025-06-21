@@ -103,6 +103,7 @@
         <tbody>
             @for (int rowIndex = 0; rowIndex < ViewModel.RowData.Length; rowIndex++)
             {
+                string? previousDisplayText = "###";
                 RowData rowData = ViewModel.RowData[rowIndex];
                 EditionState editionState = ViewModel.Editions[rowData.BookInfo];
                 <tr @key=rowData.BookInfo.Code>
@@ -116,18 +117,29 @@
                         OcrWord? word = wordReference.GetWord(editionState);
                         string? displayText = word?.GetDisplayText();
                         bool isAlignmentSpacer = displayText == null;
-                        <td @key=i id=@wordReference.GetGlobalReference() class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)" data-row=@rowIndex data-column=@columnIndex>
-                            <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference))>
-                                @if (displayText != null)
-                                {
-                                    <text>@displayText</text>
-                                }
-                                else
-                                {
-                                    <text>&nbsp;</text>
-                                }
+                        <td @key=i id=@wordReference.GetGlobalReference() data-row=@rowIndex data-column=@columnIndex>
+                            <div class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)">
+                                <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference))>
+                                    @{
+                                        if (displayText != null)
+                                        {
+                                            <text>@displayText</text>
+                                        }
+                                        else
+                                        {
+                                            <text>&nbsp;</text>
+                                        }
+                                    }
+                                </div>
+                                <div class="word-table_word-markers">
+                                    @if (previousDisplayText != null && previousDisplayText == displayText)
+                                    {
+                                        <div title="Duplicate word">+</div>
+                                    }
+                                </div>
                             </div>
                         </td>
+                        previousDisplayText = displayText;
                     }
                 </tr>
             }
