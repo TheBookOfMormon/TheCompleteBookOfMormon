@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3211,
   "ImageWidth": 2079,
+  "ManuallyEdited": true,
   "PageNumber": 221,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 860,
-            "Y": 83,
-            "Width": 135,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1032,
-            "Y": 83,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1122,
-            "Y": 84,
-            "Width": 132,
-            "Height": 33
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -133,6 +95,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -263,6 +226,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -962,19 +927,6 @@
             "Height": 45
           },
           "Text": "with"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1018,
-            "Y": 546,
-            "Width": 16,
-            "Height": 45
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1916,11 +1868,16 @@
             "Height": 45
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1873,
+            "Y": 929,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 238,
@@ -5010,6 +4967,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6402,12 +6360,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1811,
-            "Y": 2979,
-            "Width": 79,
-            "Height": 45
+            "X": 1805,
+            "Y": 2983,
+            "Width": 88,
+            "Height": 48
           },
-          "Text": "dre"
+          "Text": "are"
         }
       ]
     }

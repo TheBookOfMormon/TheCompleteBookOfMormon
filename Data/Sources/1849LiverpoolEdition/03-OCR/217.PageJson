@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3227,
   "ImageWidth": 2085,
+  "ManuallyEdited": true,
   "PageNumber": 217,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 841,
-            "Y": 56,
-            "Width": 137,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1024,
-            "Y": 56,
-            "Width": 63,
-            "Height": 46
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1123,
-            "Y": 56,
-            "Width": 138,
-            "Height": 35
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -60,11 +22,11 @@
         {
           "Bounds": {
             "X": 392,
-            "Y": 135,
-            "Width": 56,
-            "Height": 51
+            "Y": 136,
+            "Width": 87,
+            "Height": 48
           },
-          "Text": "pot"
+          "Text": "not"
         }
       ]
     },
@@ -73,11 +35,11 @@
         {
           "Bounds": {
             "X": 493,
-            "Y": 132,
-            "Width": 65,
-            "Height": 64
+            "Y": 140,
+            "Width": 68,
+            "Height": 48
           },
-          "Text": "lle"
+          "Text": "lie"
         }
       ]
     },
@@ -1720,7 +1682,7 @@
             "Width": 40,
             "Height": 44
           },
-          "Text": "In"
+          "Text": "in"
         }
       ]
     },
@@ -4347,6 +4309,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5229,10 +5192,49 @@
           "Bounds": {
             "X": 217,
             "Y": 2512,
-            "Width": 511,
+            "Width": 111,
             "Height": 59
           },
-          "Text": "wastheteacherany"
+          "Text": "was"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 328,
+            "Y": 2512,
+            "Width": 91,
+            "Height": 59
+          },
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 419,
+            "Y": 2512,
+            "Width": 213,
+            "Height": 59
+          },
+          "Text": "teacher"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 632,
+            "Y": 2512,
+            "Width": 99,
+            "Height": 59
+          },
+          "Text": "any"
         }
       ]
     },
@@ -5307,10 +5309,23 @@
           "Bounds": {
             "X": 1484,
             "Y": 2508,
-            "Width": 241,
+            "Width": 123,
             "Height": 59
           },
-          "Text": "thusthey"
+          "Text": "thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1607,
+            "Y": 2508,
+            "Width": 119,
+            "Height": 59
+          },
+          "Text": "they"
         }
       ]
     },
@@ -6312,11 +6327,7 @@
             "Height": 47
           },
           "Text": "perse"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1847,
@@ -6325,6 +6336,16 @@
             "Height": 11
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 168,
+            "Y": 165,
+            "Width": 190,
+            "Height": 45
+          },
+          "IsOnNextPage": true,
+          "Text": "cutions"
         }
       ]
     }

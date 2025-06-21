@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3227,
   "ImageWidth": 2085,
+  "ManuallyEdited": true,
   "PageNumber": 224,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 839,
-            "Y": 96,
-            "Width": 134,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1016,
-            "Y": 95,
-            "Width": 53,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1103,
-            "Y": 96,
-            "Width": 120,
-            "Height": 33
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 226,
-            "Y": 177,
-            "Width": 163,
-            "Height": 54
-          },
-          "Text": "flicted"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -901,7 +850,7 @@
             "Width": 125,
             "Height": 45
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -1105,6 +1054,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3672,7 +3622,7 @@
             "Width": 66,
             "Height": 44
           },
-          "Text": "np"
+          "Text": "up"
         }
       ]
     },
@@ -5336,7 +5286,7 @@
             "Width": 100,
             "Height": 30
           },
-          "Text": "ewn"
+          "Text": "own"
         }
       ]
     },
@@ -6374,11 +6324,7 @@
             "Height": 42
           },
           "Text": "stum"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1792,
@@ -6387,6 +6333,16 @@
             "Height": 31
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 220,
+            "Y": 187,
+            "Width": 139,
+            "Height": 59
+          },
+          "IsOnNextPage": true,
+          "Text": "bling"
         }
       ]
     }
