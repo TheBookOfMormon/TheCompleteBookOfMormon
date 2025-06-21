@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3211,
   "ImageWidth": 2079,
+  "ManuallyEdited": true,
   "PageNumber": 216,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 793,
-            "Y": 69,
-            "Width": 135,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 976,
-            "Y": 70,
-            "Width": 55,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1080,
-            "Y": 69,
-            "Width": 118,
-            "Height": 55
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -194,7 +156,7 @@
             "Width": 189,
             "Height": 61
           },
-          "Text": "helleve"
+          "Text": "believe"
         }
       ]
     },
@@ -247,6 +209,19 @@
             "Height": 32
           },
           "Text": "even"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 707,
+            "Y": 216,
+            "Width": 65,
+            "Height": 48
+          },
+          "Text": "so"
         }
       ]
     },
@@ -997,10 +972,23 @@
           "Bounds": {
             "X": 188,
             "Y": 596,
-            "Width": 345,
+            "Width": 116,
             "Height": 46
           },
-          "Text": "who'believed"
+          "Text": "who"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 304,
+            "Y": 596,
+            "Width": 230,
+            "Height": 46
+          },
+          "Text": "believed"
         }
       ]
     },

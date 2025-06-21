@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3227,
   "ImageWidth": 2085,
+  "ManuallyEdited": true,
   "PageNumber": 210,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 777,
-            "Y": 102,
-            "Width": 139,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 963,
-            "Y": 101,
-            "Width": 57,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1062,
-            "Y": 100,
-            "Width": 157,
-            "Height": 36
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -367,6 +329,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1131,11 +1098,16 @@
             "Height": 48
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1855,
+            "Y": 563,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 197,
@@ -2543,6 +2515,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4184,10 +4157,23 @@
           "Bounds": {
             "X": 1052,
             "Y": 2037,
-            "Width": 275,
+            "Width": 225,
             "Height": 46
           },
-          "Text": "discoverto"
+          "Text": "discover"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1277,
+            "Y": 2037,
+            "Width": 51,
+            "Height": 46
+          },
+          "Text": "to"
         }
       ]
     },
@@ -5392,6 +5378,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
