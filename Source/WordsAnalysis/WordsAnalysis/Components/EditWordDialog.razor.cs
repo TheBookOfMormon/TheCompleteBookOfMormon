@@ -162,10 +162,9 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         ResetLineHeightAdjustment();
         bool wasAfter = elementIndex != 0 || isAfter();
-        int xSize = e.CtrlKey ? (LineHeight / 2) : 1;
-        int ySize = e.CtrlKey ? LineHeight : 1;
-        int xAdjustment = xFactor * xSize;
-        int yAdjustment = yFactor * ySize;
+        int changeSize = e.CtrlKey ? (LineHeight / 2) : 1;
+        int xAdjustment = xFactor * changeSize;
+        int yAdjustment = yFactor * changeSize;
         OcrRect bounds = Texts[elementIndex].Bounds;
         if (e.AltKey && yAdjustment == 0 && e.ShiftKey)
         {
