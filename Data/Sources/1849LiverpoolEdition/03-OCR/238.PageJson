@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3228,
   "ImageWidth": 2086,
+  "ManuallyEdited": true,
   "PageNumber": 238,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 807,
-            "Y": 82,
-            "Width": 135,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 995,
-            "Y": 83,
-            "Width": 56,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1092,
-            "Y": 81,
-            "Width": 122,
-            "Height": 34
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1082,6 +1044,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2555,32 +2522,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 783,
-            "Y": 1578,
-            "Width": 312,
-            "Height": 47
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1144,
-            "Y": 1578,
-            "Width": 73,
-            "Height": 45
-          },
-          "Text": "VII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 206,
             "Y": 1705,
             "Width": 77,
@@ -2703,7 +2644,7 @@
             "Width": 197,
             "Height": 46
           },
-          "Text": "AmuleR"
+          "Text": "Amulek"
         }
       ]
     },
@@ -3028,12 +2969,8 @@
             "Width": 62,
             "Height": 43
           },
-          "Text": "ini"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "mi"
+        },
         {
           "Bounds": {
             "X": 1827,
@@ -3042,11 +2979,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 262,
@@ -3132,7 +3065,7 @@
             "Width": 45,
             "Height": 47
           },
-          "Text": "tn"
+          "Text": "in"
         }
       ]
     },
@@ -3656,6 +3589,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3790,12 +3724,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1320,
-            "Y": 2288,
-            "Width": 94,
-            "Height": 44
+            "X": 1296,
+            "Y": 2286,
+            "Width": 138,
+            "Height": 48
           },
-          "Text": "hem"
+          "Text": "them"
         }
       ]
     },
@@ -3951,7 +3885,7 @@
             "Width": 51,
             "Height": 45
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -4094,7 +4028,7 @@
             "Width": 58,
             "Height": 47
           },
-          "Text": "ha"
+          "Text": "he"
         }
       ]
     },
@@ -4640,7 +4574,7 @@
             "Width": 216,
             "Height": 45
           },
-          "Text": "shonldst"
+          "Text": "shouldst"
         }
       ]
     },
@@ -5105,10 +5039,23 @@
           "Bounds": {
             "X": 1669,
             "Y": 2869,
-            "Width": 173,
+            "Width": 122,
             "Height": 47
           },
-          "Text": "whois"
+          "Text": "who"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1791,
+            "Y": 2869,
+            "Width": 52,
+            "Height": 47
+          },
+          "Text": "is"
         }
       ]
     },
