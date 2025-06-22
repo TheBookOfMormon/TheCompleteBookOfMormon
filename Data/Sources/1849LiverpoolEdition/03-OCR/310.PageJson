@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3213,
   "ImageWidth": 2069,
+  "ManuallyEdited": true,
   "PageNumber": 310,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 780,
-            "Y": 101,
-            "Width": 138,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 967,
-            "Y": 101,
-            "Width": 55,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1066,
-            "Y": 101,
-            "Width": 122,
-            "Height": 34
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3303,6 +3265,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 177,
+            "Y": 1596,
+            "Width": 32,
+            "Height": 48
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 234,
             "Y": 1597,
             "Width": 141,
@@ -3416,6 +3391,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4041,7 +4017,7 @@
             "Width": 97,
             "Height": 45
           },
-          "Text": "Bat"
+          "Text": "But"
         }
       ]
     },
@@ -5332,6 +5308,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6517,11 +6494,16 @@
             "Height": 33
           },
           "Text": "exer"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1804,
+            "Y": 2956,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 174,

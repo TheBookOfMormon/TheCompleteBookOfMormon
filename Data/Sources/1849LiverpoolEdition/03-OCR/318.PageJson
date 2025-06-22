@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3225,
   "ImageWidth": 2075,
+  "ManuallyEdited": true,
   "PageNumber": 318,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 803,
-            "Y": 110,
-            "Width": 136,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 993,
-            "Y": 111,
-            "Width": 56,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1092,
-            "Y": 109,
-            "Width": 135,
-            "Height": 34
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 204,
-            "Y": 188,
-            "Width": 118,
-            "Height": 57
-          },
-          "Text": "cred"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -519,7 +468,7 @@
             "Width": 117,
             "Height": 47
           },
-          "Text": "thas"
+          "Text": "that"
         }
       ]
     },
@@ -766,7 +715,7 @@
             "Width": 97,
             "Height": 45
           },
-          "Text": "yom"
+          "Text": "you"
         }
       ]
     },
@@ -3868,11 +3817,7 @@
             "Height": 60
           },
           "Text": "twenty"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1837,
@@ -3881,11 +3826,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 201,
@@ -3895,8 +3836,10 @@
           },
           "Text": "four"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -4535,7 +4478,7 @@
             "Width": 301,
             "Height": 59
           },
-          "Text": "wickedneas"
+          "Text": "wickedness"
         }
       ]
     },

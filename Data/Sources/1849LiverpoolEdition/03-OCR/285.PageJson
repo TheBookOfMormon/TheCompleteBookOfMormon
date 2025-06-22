@@ -2622,6 +2622,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3199,42 +3200,12 @@
         {
           "Bounds": {
             "X": 1515,
-            "Y": 1734,
-            "Width": 121,
-            "Height": 46
-          },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1639,
-            "Y": 1762,
-            "Width": 22,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1664,
             "Y": 1733,
-            "Width": 160,
-            "Height": 60
+            "Width": 320,
+            "Height": 48
           },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Anti-Nephi"
+        },
         {
           "Bounds": {
             "X": 1827,
@@ -3243,11 +3214,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 206,
@@ -3257,7 +3224,8 @@
           },
           "Text": "Lehi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4998,6 +4966,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6036,7 +6005,7 @@
             "Width": 177,
             "Height": 45
           },
-          "Text": "cansed"
+          "Text": "caused"
         }
       ]
     },
@@ -6089,19 +6058,6 @@
             "Height": 45
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1453,
-            "Y": 3087,
-            "Width": 76,
-            "Height": 46
-          },
-          "Text": "2B"
         }
       ]
     }

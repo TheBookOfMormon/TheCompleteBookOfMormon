@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3225,
   "ImageWidth": 2076,
+  "ManuallyEdited": true,
   "PageNumber": 300,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 786,
-            "Y": 55,
-            "Width": 139,
-            "Height": 39
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 970,
-            "Y": 56,
-            "Width": 58,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1070,
-            "Y": 56,
-            "Width": 122,
-            "Height": 35
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -380,6 +342,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -602,7 +565,7 @@
             "Width": 97,
             "Height": 46
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -3360,7 +3323,7 @@
             "Width": 175,
             "Height": 59
           },
-          "Text": "tanght"
+          "Text": "taught"
         }
       ]
     },
@@ -4890,6 +4853,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6299,6 +6263,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6530,11 +6495,7 @@
             "Height": 48
           },
           "Text": "peo"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1840,
@@ -6543,6 +6504,16 @@
             "Height": 11
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 227,
+            "Y": 137,
+            "Width": 77,
+            "Height": 63
+          },
+          "IsOnNextPage": true,
+          "Text": "ple"
         }
       ]
     }
