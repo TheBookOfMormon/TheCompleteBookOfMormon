@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3229,
   "ImageWidth": 2081,
+  "ManuallyEdited": true,
   "PageNumber": 332,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 816,
-            "Y": 108,
-            "Width": 137,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1005,
-            "Y": 107,
-            "Width": 57,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1103,
-            "Y": 108,
-            "Width": 136,
-            "Height": 37
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -315,6 +277,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -585,11 +552,7 @@
             "Height": 46
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1838,
@@ -598,11 +561,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 210,
@@ -612,7 +571,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -645,37 +605,11 @@
         {
           "Bounds": {
             "X": 670,
-            "Y": 455,
-            "Width": 85,
-            "Height": 32
+            "Y": 450,
+            "Width": 312,
+            "Height": 42
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 777,
-            "Y": 470,
-            "Width": 17,
-            "Height": 8
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 800,
-            "Y": 441,
-            "Width": 184,
-            "Height": 56
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -1139,9 +1073,9 @@
         {
           "Bounds": {
             "X": 1607,
-            "Y": 639,
-            "Width": 225,
-            "Height": 57
+            "Y": 644,
+            "Width": 246,
+            "Height": 46
           },
           "Text": "scimitars"
         }
@@ -1729,37 +1663,11 @@
         {
           "Bounds": {
             "X": 207,
-            "Y": 958,
-            "Width": 162,
-            "Height": 60
+            "Y": 966,
+            "Width": 359,
+            "Height": 44
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 377,
-            "Y": 987,
-            "Width": 24,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 403,
-            "Y": 959,
-            "Width": 155,
-            "Height": 59
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -2111,19 +2019,6 @@
             "Height": 59
           },
           "Text": "Nephites"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 218,
-            "Y": 1264,
-            "Width": 4,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3610,7 +3505,7 @@
             "Width": 105,
             "Height": 38
           },
-          "Text": "sont"
+          "Text": "sent"
         }
       ]
     },
@@ -5314,6 +5209,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {

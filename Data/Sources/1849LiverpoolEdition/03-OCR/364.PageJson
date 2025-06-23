@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3213,
   "ImageWidth": 2069,
+  "ManuallyEdited": true,
   "PageNumber": 364,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 843,
-            "Y": 109,
-            "Width": 138,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1026,
-            "Y": 109,
-            "Width": 57,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1125,
-            "Y": 111,
-            "Width": 133,
-            "Height": 36
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -875,7 +837,7 @@
             "Width": 263,
             "Height": 61
           },
-          "Text": "exeeeding"
+          "Text": "exceeding"
         }
       ]
     },
@@ -2149,7 +2111,7 @@
             "Width": 273,
             "Height": 56
           },
-          "Text": "Lamanttes"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -2279,7 +2241,7 @@
             "Width": 158,
             "Height": 45
           },
-          "Text": "whieh"
+          "Text": "which"
         }
       ]
     },
@@ -3043,10 +3005,23 @@
           "Bounds": {
             "X": 1027,
             "Y": 1474,
-            "Width": 253,
+            "Width": 53,
             "Height": 60
           },
-          "Text": "inmaking"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1080,
+            "Y": 1474,
+            "Width": 201,
+            "Height": 60
+          },
+          "Text": "making"
         }
       ]
     },
@@ -3059,7 +3034,7 @@
             "Width": 339,
             "Height": 46
           },
-          "Text": "fortifieattons"
+          "Text": "fortifications"
         }
       ]
     },
@@ -4242,7 +4217,7 @@
             "Width": 208,
             "Height": 62
           },
-          "Text": "iciquity"
+          "Text": "iniquity"
         }
       ]
     },
@@ -4294,7 +4269,7 @@
             "Width": 205,
             "Height": 45
           },
-          "Text": "beeause"
+          "Text": "because"
         }
       ]
     },
@@ -4426,10 +4401,23 @@
           "Bounds": {
             "X": 1625,
             "Y": 2181,
-            "Width": 219,
+            "Width": 190,
             "Height": 61
           },
-          "Text": "placedin"
+          "Text": "placed"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1815,
+            "Y": 2181,
+            "Width": 54,
+            "Height": 61
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6172,11 +6160,7 @@
             "Height": 50
           },
           "Text": "breth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1841,
@@ -6185,6 +6169,16 @@
             "Height": 13
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 197,
+            "Y": 191,
+            "Width": 82,
+            "Height": 34
+          },
+          "IsOnNextPage": true,
+          "Text": "ren"
         }
       ]
     }

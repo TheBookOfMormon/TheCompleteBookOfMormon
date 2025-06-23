@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3226,
   "ImageWidth": 2076,
+  "ManuallyEdited": true,
   "PageNumber": 361,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 824,
-            "Y": 86,
-            "Width": 138,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1008,
-            "Y": 80,
-            "Width": 62,
-            "Height": 44
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1107,
-            "Y": 86,
-            "Width": 96,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -352,15 +314,20 @@
           "Bounds": {
             "X": 1785,
             "Y": 241,
-            "Width": 24,
+            "Width": 56,
             "Height": 33
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1851,
+            "Y": 234,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 211,
@@ -420,7 +387,7 @@
             "Width": 244,
             "Height": 61
           },
-          "Text": "Nepliites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -668,11 +635,16 @@
             "Height": 32
           },
           "Text": "com"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1844,
+            "Y": 362,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 213,
@@ -1538,7 +1510,7 @@
             "Width": 136,
             "Height": 44
           },
-          "Text": "eixth"
+          "Text": "sixth"
         }
       ]
     },
@@ -1625,9 +1597,9 @@
         {
           "Bounds": {
             "X": 1104,
-            "Y": 807,
-            "Width": 166,
-            "Height": 59
+            "Y": 812,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -1924,9 +1896,9 @@
         {
           "Bounds": {
             "X": 776,
-            "Y": 1001,
-            "Width": 188,
-            "Height": 57
+            "Y": 1005,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -2218,6 +2190,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2275,16 +2248,21 @@
         {
           "Bounds": {
             "X": 1786,
-            "Y": 1131,
-            "Width": 72,
-            "Height": 41
+            "Y": 1128,
+            "Width": 53,
+            "Height": 48
           },
-          "Text": "tos"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "to"
+        },
+        {
+          "Bounds": {
+            "X": 1857,
+            "Y": 1128,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 212,
@@ -3693,19 +3671,6 @@
           "Bounds": {
             "X": 201,
             "Y": 1833,
-            "Width": 21,
-            "Height": 45
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 201,
-            "Y": 1833,
             "Width": 67,
             "Height": 45
           },
@@ -4251,9 +4216,9 @@
         {
           "Bounds": {
             "X": 1141,
-            "Y": 2025,
-            "Width": 161,
-            "Height": 60
+            "Y": 2031,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -5278,6 +5243,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5937,19 +5903,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 187,
-            "Y": 2891,
-            "Width": 5,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 212,
             "Y": 2860,
             "Width": 174,
@@ -6211,11 +6164,11 @@
         {
           "Bounds": {
             "X": 1202,
-            "Y": 2989,
-            "Width": 150,
-            "Height": 62
+            "Y": 2996,
+            "Width": 188,
+            "Height": 48
           },
-          "Text": "hiaving"
+          "Text": "having"
         }
       ]
     },
@@ -6268,11 +6221,7 @@
             "Height": 45
           },
           "Text": "meet"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1846,
@@ -6281,6 +6230,16 @@
             "Height": 45
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 190,
+            "Y": 162,
+            "Width": 87,
+            "Height": 59
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

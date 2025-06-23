@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3218,
   "ImageWidth": 2077,
+  "ManuallyEdited": true,
   "PageNumber": 331,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 842,
-            "Y": 94,
-            "Width": 135,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1023,
-            "Y": 95,
-            "Width": 59,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1124,
-            "Y": 94,
-            "Width": 126,
-            "Height": 47
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 234,
-            "Y": 171,
-            "Width": 207,
-            "Height": 55
-          },
-          "Text": "manites"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -146,6 +95,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -688,7 +638,7 @@
             "Width": 205,
             "Height": 59
           },
-          "Text": "Nepbites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -1039,7 +989,7 @@
             "Width": 68,
             "Height": 48
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -2496,63 +2446,11 @@
         {
           "Bounds": {
             "X": 1420,
-            "Y": 1263,
-            "Width": 126,
-            "Height": 62
+            "Y": 1271,
+            "Width": 466,
+            "Height": 46
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1546,
-            "Y": 1290,
-            "Width": 19,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1570,
-            "Y": 1263,
-            "Width": 131,
-            "Height": 62
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1734,
-            "Y": 1294,
-            "Width": 22,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1758,
-            "Y": 1263,
-            "Width": 110,
-            "Height": 62
-          },
-          "Text": "Lebi"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -4819,7 +4717,7 @@
             "Width": 180,
             "Height": 49
           },
-          "Text": "bebold"
+          "Text": "behold"
         }
       ]
     },
@@ -5896,11 +5794,16 @@
             "Height": 46
           },
           "Text": "ap"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1879,
+            "Y": 2885,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 232,
@@ -6169,19 +6072,6 @@
             "Height": 46
           },
           "Text": "the"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1547,
-            "Y": 3063,
-            "Width": 70,
-            "Height": 42
-          },
-          "Text": "2r"
         }
       ]
     }

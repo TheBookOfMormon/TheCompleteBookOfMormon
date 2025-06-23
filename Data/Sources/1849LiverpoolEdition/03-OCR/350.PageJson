@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3213,
   "ImageWidth": 2069,
+  "ManuallyEdited": true,
   "PageNumber": 350,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 779,
-            "Y": 127,
-            "Width": 135,
-            "Height": 33
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 964,
-            "Y": 127,
-            "Width": 55,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1062,
-            "Y": 127,
-            "Width": 133,
-            "Height": 32
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -86,37 +48,11 @@
         {
           "Bounds": {
             "X": 664,
-            "Y": 203,
-            "Width": 161,
-            "Height": 58
+            "Y": 210,
+            "Width": 359,
+            "Height": 44
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 835,
-            "Y": 230,
-            "Width": 19,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 860,
-            "Y": 204,
-            "Width": 155,
-            "Height": 57
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -991,6 +927,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3560,10 +3497,23 @@
           "Bounds": {
             "X": 1714,
             "Y": 1809,
-            "Width": 132,
+            "Width": 57,
             "Height": 44
           },
-          "Text": "inall"
+          "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1771,
+            "Y": 1809,
+            "Width": 76,
+            "Height": 44
+          },
+          "Text": "all"
         }
       ]
     },
