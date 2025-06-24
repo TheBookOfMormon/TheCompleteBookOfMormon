@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3236,
   "ImageWidth": 2068,
+  "ManuallyEdited": true,
   "PageNumber": 479,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 766,
-            "Y": 163,
-            "Width": 137,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 950,
-            "Y": 164,
-            "Width": 56,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1048,
-            "Y": 164,
-            "Width": 164,
-            "Height": 33
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -604,10 +566,23 @@
           "Bounds": {
             "X": 1297,
             "Y": 434,
-            "Width": 162,
+            "Width": 120,
             "Height": 47
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1417,
+            "Y": 434,
+            "Width": 43,
+            "Height": 47
+          },
+          "Text": "it"
         }
       ]
     },
@@ -1201,6 +1176,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5156,10 +5132,23 @@
           "Bounds": {
             "X": 228,
             "Y": 2429,
-            "Width": 159,
+            "Width": 117,
             "Height": 47
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 345,
+            "Y": 2429,
+            "Width": 43,
+            "Height": 47
+          },
+          "Text": "it"
         }
       ]
     },
@@ -6704,19 +6693,6 @@
             "Height": 46
           },
           "Text": "upon"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1427,
-            "Y": 3143,
-            "Width": 121,
-            "Height": 46
-          },
-          "Text": "2s3"
         }
       ]
     }

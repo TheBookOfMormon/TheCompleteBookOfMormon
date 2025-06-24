@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3219,
   "ImageWidth": 2422,
+  "ManuallyEdited": true,
   "PageNumber": 472,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1208,
-            "Y": 121,
-            "Width": 138,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1393,
-            "Y": 123,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1492,
-            "Y": 124,
-            "Width": 148,
-            "Height": 35
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2830,7 +2792,7 @@
             "Width": 124,
             "Height": 46
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -3068,6 +3030,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3129,7 +3092,7 @@
             "Width": 126,
             "Height": 44
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -4781,37 +4744,11 @@
         {
           "Bounds": {
             "X": 1839,
-            "Y": 2133,
-            "Width": 61,
-            "Height": 59
+            "Y": 2140,
+            "Width": 231,
+            "Height": 44
           },
-          "Text": "by"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1903,
-            "Y": 2158,
-            "Width": 23,
-            "Height": 11
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1928,
-            "Y": 2132,
-            "Width": 138,
-            "Height": 45
-          },
-          "Text": "word"
+          "Text": "by-word"
         }
       ]
     },
@@ -5127,6 +5064,14 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5448,7 +5393,7 @@
             "Width": 125,
             "Height": 44
           },
-          "Text": "shalt"
+          "Text": "shall"
         }
       ]
     },
@@ -6294,16 +6239,12 @@
         {
           "Bounds": {
             "X": 2181,
-            "Y": 2778,
-            "Width": 23,
-            "Height": 43
+            "Y": 2776,
+            "Width": 56,
+            "Height": 48
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 2238,
@@ -6312,11 +6253,7 @@
             "Height": 43
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 607,
@@ -6324,7 +6261,7 @@
             "Width": 206,
             "Height": 45
           },
-          "Text": "rnember"
+          "Text": "member"
         }
       ]
     },
@@ -6897,11 +6834,7 @@
             "Height": 35
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 2226,
@@ -6910,6 +6843,16 @@
             "Height": 35
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 351,
+            "Y": 218,
+            "Width": 186,
+            "Height": 48
+          },
+          "IsOnNextPage": true,
+          "Text": "member"
         }
       ]
     }

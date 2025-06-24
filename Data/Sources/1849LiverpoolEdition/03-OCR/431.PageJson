@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3219,
   "ImageWidth": 2058,
+  "ManuallyEdited": true,
   "PageNumber": 431,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 779,
-            "Y": 98,
-            "Width": 137,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 962,
-            "Y": 98,
-            "Width": 56,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1063,
-            "Y": 97,
-            "Width": 240,
-            "Height": 34
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 226,
-            "Y": 188,
-            "Width": 144,
-            "Height": 33
-          },
-          "Text": "cause"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -224,6 +173,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1468,7 +1418,7 @@
             "Width": 174,
             "Height": 41
           },
-          "Text": "eannot"
+          "Text": "cannot"
         }
       ]
     },
@@ -1602,6 +1552,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4590,7 +4541,7 @@
             "Width": 178,
             "Height": 59
           },
-          "Text": "songht"
+          "Text": "sought"
         }
       ]
     },
@@ -6668,11 +6619,7 @@
             "Height": 43
           },
           "Text": "writ"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1831,
@@ -6681,6 +6628,16 @@
             "Height": 41
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 187,
+            "Y": 149,
+            "Width": 74,
+            "Height": 41
+          },
+          "IsOnNextPage": true,
+          "Text": "ten"
         }
       ]
     }

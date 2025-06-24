@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3215,
   "ImageWidth": 2052,
+  "ManuallyEdited": true,
   "PageNumber": 470,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 843,
-            "Y": 112,
-            "Width": 134,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1024,
-            "Y": 113,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1125,
-            "Y": 113,
-            "Width": 144,
-            "Height": 34
-          },
-          "Text": "NEPKI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -64,7 +26,7 @@
             "Width": 164,
             "Height": 47
           },
-          "Text": "whoeo"
+          "Text": "whoso"
         }
       ]
     },
@@ -826,12 +788,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 734,
-            "Y": 511,
-            "Width": 73,
-            "Height": 45
+            "X": 601,
+            "Y": 510,
+            "Width": 57,
+            "Height": 48
           },
-          "Text": "ine"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 686,
+            "Y": 510,
+            "Width": 132,
+            "Height": 48
+          },
+          "Text": "mine"
         }
       ]
     },
@@ -1417,32 +1392,6 @@
             "Height": 45
           },
           "Text": "it"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 810,
-            "Y": 961,
-            "Width": 312,
-            "Height": 49
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1176,
-            "Y": 961,
-            "Width": 110,
-            "Height": 48
-          },
-          "Text": "VIL"
         }
       ]
     },
@@ -4540,6 +4489,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4923,10 +4873,23 @@
           "Bounds": {
             "X": 975,
             "Y": 2573,
-            "Width": 147,
+            "Width": 97,
             "Height": 45
           },
-          "Text": "endin"
+          "Text": "end"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1072,
+            "Y": 2573,
+            "Width": 51,
+            "Height": 45
+          },
+          "Text": "in"
         }
       ]
     },

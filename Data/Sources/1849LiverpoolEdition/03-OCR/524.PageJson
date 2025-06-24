@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3235,
   "ImageWidth": 2067,
+  "ManuallyEdited": true,
   "PageNumber": 524,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 799,
-            "Y": 113,
-            "Width": 136,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 984,
-            "Y": 112,
-            "Width": 56,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1083,
-            "Y": 110,
-            "Width": 173,
-            "Height": 45
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -367,6 +329,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -406,6 +369,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -727,12 +691,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1064,
-            "Y": 411,
-            "Width": 117,
-            "Height": 91
+            "X": 1040,
+            "Y": 456,
+            "Width": 148,
+            "Height": 48
           },
-          "Text": "ared"
+          "Text": "Jared"
         }
       ]
     },
@@ -1361,7 +1325,7 @@
             "Width": 79,
             "Height": 64
           },
-          "Text": "lady"
+          "Text": "lay"
         }
       ]
     },
@@ -1578,6 +1542,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3555,7 +3520,7 @@
             "Width": 177,
             "Height": 46
           },
-          "Text": "shouid"
+          "Text": "should"
         }
       ]
     },
@@ -3829,6 +3794,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4033,7 +3999,7 @@
             "Width": 114,
             "Height": 47
           },
-          "Text": "Ard"
+          "Text": "And"
         }
       ]
     },
@@ -4436,7 +4402,7 @@
             "Width": 98,
             "Height": 63
           },
-          "Text": "wali"
+          "Text": "was"
         }
       ]
     },
@@ -4475,7 +4441,7 @@
             "Width": 65,
             "Height": 46
           },
-          "Text": "'all"
+          "Text": "all"
         }
       ]
     },
@@ -4722,7 +4688,7 @@
             "Width": 160,
             "Height": 65
           },
-          "Text": "wath"
+          "Text": "wrath"
         }
       ]
     },
@@ -5780,7 +5746,7 @@
             "Width": 95,
             "Height": 45
           },
-          "Text": "'the"
+          "Text": "the"
         }
       ]
     },
@@ -6852,11 +6818,7 @@
             "Height": 33
           },
           "Text": "com"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1846,
@@ -6865,6 +6827,16 @@
             "Height": 18
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 234,
+            "Y": 156,
+            "Width": 88,
+            "Height": 67
+          },
+          "IsOnNextPage": true,
+          "Text": "eth"
         }
       ]
     }

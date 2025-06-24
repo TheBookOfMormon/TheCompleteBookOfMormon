@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3217,
   "ImageWidth": 2055,
+  "ManuallyEdited": true,
   "PageNumber": 480,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 816,
-            "Y": 131,
-            "Width": 136,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 999,
-            "Y": 132,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1101,
-            "Y": 132,
-            "Width": 148,
-            "Height": 34
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -64,7 +26,7 @@
             "Width": 57,
             "Height": 33
           },
-          "Text": "s0"
+          "Text": "so"
         }
       ]
     },
@@ -1516,6 +1478,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2049,6 +2012,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4031,6 +3999,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 242,
+            "Y": 2025,
+            "Width": 65,
+            "Height": 48
+          },
+          "Text": "so"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 325,
             "Y": 2022,
             "Width": 139,
@@ -4756,7 +4737,7 @@
             "Width": 150,
             "Height": 54
           },
-          "Text": "herd"
+          "Text": "heard"
         }
       ]
     },
@@ -5956,6 +5937,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6334,7 +6316,7 @@
             "Width": 258,
             "Height": 46
           },
-          "Text": "multitnde"
+          "Text": "multitude"
         }
       ]
     },
@@ -6491,11 +6473,7 @@
             "Height": 48
           },
           "Text": "disci"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1902,
@@ -6504,6 +6482,16 @@
             "Height": 11
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 244,
+            "Y": 224,
+            "Width": 79,
+            "Height": 61
+          },
+          "IsOnNextPage": true,
+          "Text": "ples"
         }
       ]
     }

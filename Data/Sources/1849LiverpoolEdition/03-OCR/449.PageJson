@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3214,
   "ImageWidth": 2050,
+  "ManuallyEdited": true,
   "PageNumber": 449,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 786,
-            "Y": 119,
-            "Width": 139,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 961,
-            "Y": 121,
-            "Width": 56,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1057,
-            "Y": 119,
-            "Width": 162,
-            "Height": 37
-          },
-          "Text": "NEPNI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -445,6 +407,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3546,16 +3510,12 @@
         {
           "Bounds": {
             "X": 1666,
-            "Y": 1733,
-            "Width": 122,
-            "Height": 44
+            "Y": 1732,
+            "Width": 159,
+            "Height": 46
           },
-          "Text": "eombi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "combi"
+        },
         {
           "Bounds": {
             "X": 1826,
@@ -3564,11 +3524,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 202,
@@ -6312,11 +6268,7 @@
             "Height": 41
           },
           "Text": "trans"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1792,
@@ -6325,6 +6277,16 @@
             "Height": 30
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 403,
+            "Y": 178,
+            "Width": 213,
+            "Height": 61
+          },
+          "IsOnNextPage": true,
+          "Text": "gression"
         }
       ]
     }

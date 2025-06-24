@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3214,
   "ImageWidth": 2050,
+  "ManuallyEdited": true,
   "PageNumber": 464,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 791,
-            "Y": 123,
-            "Width": 136,
-            "Height": 43
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 973,
-            "Y": 124,
-            "Width": 62,
-            "Height": 36
-          },
-          "Text": "OP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1074,
-            "Y": 124,
-            "Width": 162,
-            "Height": 36
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -445,6 +407,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6618,7 +6581,7 @@
             "Width": 173,
             "Height": 52
           },
-          "Text": "Melieve"
+          "Text": "believe"
         }
       ]
     },
@@ -6762,6 +6725,25 @@
             "Height": 46
           },
           "Text": "hu"
+        },
+        {
+          "Bounds": {
+            "X": 1831,
+            "Y": 3031,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 405,
+            "Y": 188,
+            "Width": 158,
+            "Height": 61
+          },
+          "IsOnNextPage": true,
+          "Text": "mility"
         }
       ]
     }

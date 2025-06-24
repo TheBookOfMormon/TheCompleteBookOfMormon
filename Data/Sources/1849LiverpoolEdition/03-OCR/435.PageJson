@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3216,
   "ImageWidth": 2053,
+  "ManuallyEdited": true,
   "PageNumber": 435,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 759,
-            "Y": 117,
-            "Width": 140,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 934,
-            "Y": 117,
-            "Width": 57,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1024,
-            "Y": 116,
-            "Width": 226,
-            "Height": 35
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -361,19 +323,6 @@
             "Height": 44
           },
           "Text": "many"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 734,
-            "Y": 346,
-            "Width": 17,
-            "Height": 13
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1392,7 +1341,7 @@
             "Width": 96,
             "Height": 45
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -2733,10 +2682,23 @@
           "Bounds": {
             "X": 651,
             "Y": 1353,
-            "Width": 179,
+            "Width": 129,
             "Height": 45
           },
-          "Text": "faithin"
+          "Text": "faith"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 780,
+            "Y": 1353,
+            "Width": 51,
+            "Height": 45
+          },
+          "Text": "in"
         }
       ]
     },
@@ -3869,10 +3831,10 @@
           "Bounds": {
             "X": 1734,
             "Y": 1870,
-            "Width": 45,
+            "Width": 59,
             "Height": 46
           },
-          "Text": "la"
+          "Text": "La"
         },
         {
           "Bounds": {
@@ -3886,9 +3848,9 @@
         {
           "Bounds": {
             "X": 173,
-            "Y": 1934,
-            "Width": 204,
-            "Height": 45
+            "Y": 1933,
+            "Width": 216,
+            "Height": 48
           },
           "Text": "manites"
         }
@@ -4746,11 +4708,16 @@
             "Height": 40
           },
           "Text": "scat"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1813,
+            "Y": 2260,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 171,
@@ -5061,6 +5028,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5282,6 +5250,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
