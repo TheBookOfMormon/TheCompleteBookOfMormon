@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3233,
   "ImageWidth": 2063,
+  "ManuallyEdited": true,
   "PageNumber": 552,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 804,
-            "Y": 130,
-            "Width": 138,
-            "Height": 33
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 989,
-            "Y": 129,
-            "Width": 58,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1088,
-            "Y": 131,
-            "Width": 168,
-            "Height": 34
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -5731,10 +5693,23 @@
           "Bounds": {
             "X": 1179,
             "Y": 2658,
-            "Width": 242,
+            "Width": 129,
             "Height": 45
           },
-          "Text": "whoyhad"
+          "Text": "who"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1308,
+            "Y": 2658,
+            "Width": 114,
+            "Height": 45
+          },
+          "Text": "had"
         }
       ]
     },
@@ -6624,19 +6599,25 @@
             "Height": 64
           },
           "Text": "sea"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 1852,
-            "Y": 3069,
-            "Width": 23,
-            "Height": 11
+            "X": 1861,
+            "Y": 3049,
+            "Width": 48,
+            "Height": 48
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 206,
+            "Y": 241,
+            "Width": 138,
+            "Height": 46
+          },
+          "IsOnNextPage": true,
+          "Text": "shore"
         }
       ]
     }

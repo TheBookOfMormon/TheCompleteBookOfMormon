@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3233,
   "ImageWidth": 2063,
+  "ManuallyEdited": true,
   "PageNumber": 554,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 704,
-            "Y": 139,
-            "Width": 5,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 796,
-            "Y": 124,
-            "Width": 140,
-            "Height": 40
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 981,
-            "Y": 129,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1081,
-            "Y": 128,
-            "Width": 156,
-            "Height": 35
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -190,11 +139,11 @@
         {
           "Bounds": {
             "X": 1646,
-            "Y": 221,
-            "Width": 29,
-            "Height": 30
+            "Y": 212,
+            "Width": 57,
+            "Height": 48
           },
-          "Text": "O"
+          "Text": "of"
         }
       ]
     },
@@ -377,11 +326,7 @@
             "Height": 59
           },
           "Text": "Riplian"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1842,
@@ -390,11 +335,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 210,
@@ -402,7 +343,7 @@
             "Width": 100,
             "Height": 41
           },
-          "Text": "eum"
+          "Text": "cum"
         }
       ]
     },
@@ -1082,6 +1023,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2079,7 +2021,7 @@
             "Width": 186,
             "Height": 66
           },
-          "Text": "Rggnah"
+          "Text": "Ramah"
         }
       ]
     },
@@ -2275,11 +2217,7 @@
             "Height": 33
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1838,
@@ -2288,11 +2226,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 205,
@@ -2300,7 +2234,7 @@
             "Width": 141,
             "Height": 47
           },
-          "Text": "oords"
+          "Text": "cords"
         }
       ]
     },
@@ -3397,7 +3331,7 @@
             "Width": 103,
             "Height": 46
           },
-          "Text": "Bhiz"
+          "Text": "Shiz"
         }
       ]
     },
@@ -3536,11 +3470,11 @@
         {
           "Bounds": {
             "X": 1175,
-            "Y": 1686,
-            "Width": 220,
-            "Height": 58
+            "Y": 1691,
+            "Width": 234,
+            "Height": 48
           },
-          "Text": "togetber"
+          "Text": "together"
         }
       ]
     },
@@ -4490,37 +4424,11 @@
         {
           "Bounds": {
             "X": 743,
-            "Y": 2134,
-            "Width": 165,
-            "Height": 59
+            "Y": 2141,
+            "Width": 359,
+            "Height": 44
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 913,
-            "Y": 2162,
-            "Width": 21,
-            "Height": 9
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 937,
-            "Y": 2134,
-            "Width": 136,
-            "Height": 59
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -4542,37 +4450,11 @@
         {
           "Bounds": {
             "X": 1252,
-            "Y": 2136,
-            "Width": 95,
-            "Height": 58
+            "Y": 2144,
+            "Width": 309,
+            "Height": 42
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1379,
-            "Y": 2162,
-            "Width": 21,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1403,
-            "Y": 2136,
-            "Width": 157,
-            "Height": 58
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -5174,6 +5056,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5336,15 +5219,24 @@
           "Bounds": {
             "X": 1638,
             "Y": 2458,
-            "Width": 189,
+            "Width": 31,
             "Height": 44
           },
-          "Text": "alamen"
+          "Text": "a"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 1669,
+            "Y": 2458,
+            "Width": 159,
+            "Height": 44
+          },
+          "Text": "lamen"
+        },
         {
           "Bounds": {
             "X": 1843,
@@ -5353,11 +5245,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 202,
@@ -6562,11 +6450,7 @@
             "Height": 61
           },
           "Text": "epis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1820,
@@ -6575,6 +6459,16 @@
             "Height": 32
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 199,
+            "Y": 205,
+            "Width": 71,
+            "Height": 45
+          },
+          "IsOnNextPage": true,
+          "Text": "tle"
         }
       ]
     }

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3221,
   "ImageWidth": 2059,
+  "ManuallyEdited": true,
   "PageNumber": 547,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 791,
-            "Y": 102,
-            "Width": 133,
-            "Height": 34
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 974,
-            "Y": 101,
-            "Width": 57,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1076,
-            "Y": 102,
-            "Width": 166,
-            "Height": 33
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -299,11 +261,7 @@
             "Height": 45
           },
           "Text": "Gen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1841,
@@ -312,11 +270,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 203,
@@ -987,7 +941,7 @@
             "Width": 111,
             "Height": 45
           },
-          "Text": "thon"
+          "Text": "thou"
         }
       ]
     },
@@ -1403,7 +1357,7 @@
             "Width": 203,
             "Height": 44
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
@@ -4974,6 +4928,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5135,11 +5090,11 @@
         {
           "Bounds": {
             "X": 1773,
-            "Y": 2426,
-            "Width": 91,
-            "Height": 46
+            "Y": 2425,
+            "Width": 87,
+            "Height": 48
           },
-          "Text": "Foz"
+          "Text": "For"
         }
       ]
     },
@@ -5156,6 +5111,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5439,11 +5395,16 @@
             "Height": 31
           },
           "Text": "remem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1846,
+            "Y": 2558,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 200,
@@ -5728,6 +5689,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6440,19 +6402,6 @@
             "Height": 45
           },
           "Text": "it"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1532,
-            "Y": 3069,
-            "Width": 73,
-            "Height": 43
-          },
-          "Text": "3A"
         }
       ]
     }

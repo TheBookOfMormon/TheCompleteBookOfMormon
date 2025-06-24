@@ -1,47 +1,9 @@
 {
   "ImageHeight": 3234,
   "ImageWidth": 2065,
+  "ManuallyEdited": true,
   "PageNumber": 567,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 821,
-            "Y": 86,
-            "Width": 137,
-            "Height": 40
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1005,
-            "Y": 87,
-            "Width": 57,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1108,
-            "Y": 84,
-            "Width": 188,
-            "Height": 36
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -87,10 +49,23 @@
           "Bounds": {
             "X": 568,
             "Y": 163,
-            "Width": 254,
+            "Width": 204,
             "Height": 48
           },
-          "Text": "faithfulln"
+          "Text": "faithful"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 772,
+            "Y": 163,
+            "Width": 51,
+            "Height": 48
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1463,19 +1438,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 865,
-            "Y": 1002,
-            "Width": 311,
-            "Height": 47
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 306,
             "Y": 1132,
             "Width": 115,
@@ -2148,6 +2110,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3700,6 +3663,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4966,37 +4930,11 @@
         {
           "Bounds": {
             "X": 1050,
-            "Y": 2618,
-            "Width": 59,
-            "Height": 60
+            "Y": 2626,
+            "Width": 183,
+            "Height": 44
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1109,
-            "Y": 2642,
-            "Width": 20,
-            "Height": 12
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1135,
-            "Y": 2618,
-            "Width": 91,
-            "Height": 60
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -5018,37 +4956,11 @@
         {
           "Bounds": {
             "X": 1366,
-            "Y": 2621,
-            "Width": 47,
-            "Height": 43
+            "Y": 2620,
+            "Width": 298,
+            "Height": 46
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1424,
-            "Y": 2643,
-            "Width": 20,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1448,
-            "Y": 2621,
-            "Width": 195,
-            "Height": 56
-          },
-          "Text": "morrow"
+          "Text": "to-morrow"
         }
       ]
     },
