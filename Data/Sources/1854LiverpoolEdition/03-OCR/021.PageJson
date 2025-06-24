@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3581,
   "ImageWidth": 2139,
+  "ManuallyEdited": true,
   "PageNumber": 21,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 155,
-            "Y": 345,
-            "Width": 74,
-            "Height": 47
-          },
-          "Text": "cit"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 700,
-            "Y": 348,
-            "Width": 141,
-            "Height": 42
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 877,
-            "Y": 349,
-            "Width": 132,
-            "Height": 40
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1047,
-            "Y": 349,
-            "Width": 59,
-            "Height": 40
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1149,
-            "Y": 322,
-            "Width": 140,
-            "Height": 66
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -442,6 +378,19 @@
             "Height": 47
           },
           "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 500,
+            "Y": 560,
+            "Width": 65,
+            "Height": 48
+          },
+          "Text": "so"
         }
       ]
     },
@@ -1057,7 +1006,7 @@
             "Width": 133,
             "Height": 47
           },
-          "Text": "liord"
+          "Text": "Lord"
         }
       ]
     },
@@ -1304,12 +1253,17 @@
             "Width": 56,
             "Height": 47
           },
-          "Text": "des"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "de"
+        },
+        {
+          "Bounds": {
+            "X": 1848,
+            "Y": 882,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 158,
@@ -1408,7 +1362,7 @@
             "Width": 186,
             "Height": 58
           },
-          "Text": "beliold"
+          "Text": "behold"
         }
       ]
     },
@@ -1538,7 +1492,7 @@
             "Width": 122,
             "Height": 49
           },
-          "Text": "With"
+          "Text": "with"
         }
       ]
     },
@@ -1578,11 +1532,16 @@
             "Height": 47
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1844,
+            "Y": 1012,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 156,
@@ -4923,7 +4882,7 @@
             "Width": 157,
             "Height": 67
           },
-          "Text": "amgry"
+          "Text": "angry"
         }
       ]
     },
@@ -6071,6 +6030,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

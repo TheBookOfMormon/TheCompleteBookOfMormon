@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3595,
   "ImageWidth": 2150,
+  "ManuallyEdited": true,
   "PageNumber": 105,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 198,
-            "Y": 316,
-            "Width": 126,
-            "Height": 43
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 378,
-            "Y": 298,
-            "Width": 29,
-            "Height": 72
-          },
-          "Text": "XL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 711,
-            "Y": 318,
-            "Width": 193,
-            "Height": 37
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 941,
-            "Y": 316,
-            "Width": 131,
-            "Height": 39
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1115,
-            "Y": 312,
-            "Width": 59,
-            "Height": 42
-          },
-          "Text": "oF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1211,
-            "Y": 310,
-            "Width": 125,
-            "Height": 46
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1470,10 +1393,23 @@
           "Bounds": {
             "X": 607,
             "Y": 977,
-            "Width": 231,
+            "Width": 87,
             "Height": 48
           },
-          "Text": "hisname"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 694,
+            "Y": 977,
+            "Width": 145,
+            "Height": 48
+          },
+          "Text": "name"
         }
       ]
     },
@@ -2119,6 +2055,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4548,8 +4485,8 @@
           "Bounds": {
             "X": 1349,
             "Y": 2336,
-            "Width": 147,
-            "Height": 47
+            "Width": 179,
+            "Height": 48
           },
           "Text": "labour"
         }
@@ -4721,11 +4658,16 @@
             "Height": 47
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1903,
+            "Y": 2398,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 214,
@@ -4743,10 +4685,10 @@
           "Bounds": {
             "X": 374,
             "Y": 2463,
-            "Width": 34,
+            "Width": 52,
             "Height": 48
           },
-          "Text": "1n"
+          "Text": "in"
         }
       ]
     },
@@ -5023,6 +4965,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6072,7 +6015,7 @@
             "Width": 168,
             "Height": 60
           },
-          "Text": "Chnist"
+          "Text": "Christ"
         }
       ]
     },
@@ -6346,11 +6289,7 @@
             "Height": 48
           },
           "Text": "remis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1896,
@@ -6359,11 +6298,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 223,
@@ -6371,7 +6306,7 @@
             "Width": 103,
             "Height": 46
           },
-          "Text": "gion"
+          "Text": "sion"
         }
       ]
     },

@@ -1,60 +1,16 @@
 {
   "ImageHeight": 3597,
   "ImageWidth": 2143,
+  "ManuallyEdited": true,
   "PageNumber": 9,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 313,
-            "Y": 542,
-            "Width": 242,
-            "Height": 93
-          },
-          "Text": "THE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 637,
-            "Y": 541,
-            "Width": 330,
-            "Height": 92
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1047,
-            "Y": 541,
-            "Width": 134,
-            "Height": 91
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1264,
-            "Y": 539,
-            "Width": 502,
-            "Height": 93
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -176,32 +132,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 881,
-            "Y": 1283,
-            "Width": 261,
-            "Height": 51
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1225,
-            "Y": 1282,
-            "Width": 26,
-            "Height": 50
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 217,
             "Y": 1371,
             "Width": 80,
@@ -246,7 +176,7 @@
             "Width": 108,
             "Height": 69
           },
-          "Text": "Lehs"
+          "Text": "Lehi"
         }
       ]
     },
@@ -350,7 +280,7 @@
             "Width": 96,
             "Height": 47
           },
-          "Text": "sone"
+          "Text": "sons"
         }
       ]
     },
@@ -389,7 +319,7 @@
             "Width": 248,
             "Height": 65
           },
-          "Text": "beginming"
+          "Text": "beginning"
         }
       ]
     },
@@ -688,7 +618,7 @@
             "Width": 300,
             "Height": 63
           },
-          "Text": "proplesieth"
+          "Text": "prophesieth"
         }
       ]
     },
@@ -741,11 +671,7 @@
             "Height": 32
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1893,
@@ -754,11 +680,7 @@
             "Height": 32
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 292,
@@ -766,7 +688,7 @@
             "Width": 187,
             "Height": 62
           },
-          "Text": "cermang"
+          "Text": "cerning"
         }
       ]
     },
@@ -792,7 +714,7 @@
             "Width": 213,
             "Height": 65
           },
-          "Text": "wiquity"
+          "Text": "iniquity"
         }
       ]
     },
@@ -935,7 +857,7 @@
             "Width": 130,
             "Height": 63
           },
-          "Text": "days"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -1013,7 +935,7 @@
             "Width": 77,
             "Height": 48
           },
-          "Text": "hiz"
+          "Text": "his"
         }
       ]
     },
@@ -1313,11 +1235,11 @@
         {
           "Bounds": {
             "X": 1803,
-            "Y": 1825,
-            "Width": 97,
-            "Height": 50
+            "Y": 1833,
+            "Width": 93,
+            "Height": 34
           },
-          "Text": "thew"
+          "Text": "their"
         }
       ]
     },
@@ -1473,7 +1395,7 @@
             "Width": 116,
             "Height": 50
           },
-          "Text": "ther"
+          "Text": "their"
         }
       ]
     },
@@ -1525,7 +1447,7 @@
             "Width": 105,
             "Height": 51
           },
-          "Text": "wmto"
+          "Text": "into"
         }
       ]
     },
@@ -1564,7 +1486,7 @@
             "Width": 136,
             "Height": 50
           },
-          "Text": "Ther"
+          "Text": "Their"
         }
       ]
     },
@@ -1616,7 +1538,7 @@
             "Width": 43,
             "Height": 48
           },
-          "Text": "tn"
+          "Text": "in"
         }
       ]
     },
@@ -1798,7 +1720,7 @@
             "Width": 199,
             "Height": 61
           },
-          "Text": "Nephv's"
+          "Text": "Nephi\u0027s"
         }
       ]
     },
@@ -1971,6 +1893,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2132,11 +2057,26 @@
         {
           "Bounds": {
             "X": 1837,
-            "Y": 2281,
-            "Width": 53,
-            "Height": 46
+            "Y": 2286,
+            "Width": 60,
+            "Height": 36
           },
-          "Text": "dc"
+          "Text": "\u0026c"
+        }
+      ]
+    },
+    null,
+    null,
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 289,
+            "Y": 2356,
+            "Width": 131,
+            "Height": 36
+          },
+          "Text": "This"
         }
       ]
     },
@@ -2144,12 +2084,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 289,
-            "Y": 2339,
-            "Width": 108,
-            "Height": 70
+            "X": 420,
+            "Y": 2356,
+            "Width": 53,
+            "Height": 36
           },
-          "Text": "Thas"
+          "Text": "is"
         }
       ]
     },
@@ -2227,7 +2167,7 @@
             "Width": 140,
             "Height": 70
           },
-          "Text": "Nephr"
+          "Text": "Nephi"
         }
       ]
     },
@@ -2253,7 +2193,7 @@
             "Width": 47,
             "Height": 70
           },
-          "Text": "wn"
+          "Text": "in"
         }
       ]
     },
@@ -2352,19 +2292,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 221,
-            "Y": 2498,
-            "Width": 26,
-            "Height": 46
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 304,
             "Y": 2495,
             "Width": 32,
@@ -2379,11 +2306,11 @@
         {
           "Bounds": {
             "X": 370,
-            "Y": 2496,
-            "Width": 150,
-            "Height": 61
+            "Y": 2508,
+            "Width": 175,
+            "Height": 36
           },
-          "Text": "NEPHI"
+          "Text": "Nephi"
         }
       ]
     },
@@ -3718,6 +3645,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3997,10 +3925,23 @@
           "Bounds": {
             "X": 784,
             "Y": 3209,
-            "Width": 173,
+            "Width": 124,
             "Height": 61
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 908,
+            "Y": 3209,
+            "Width": 50,
+            "Height": 61
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4217,11 +4158,11 @@
         {
           "Bounds": {
             "X": 1783,
-            "Y": 3268,
-            "Width": 101,
-            "Height": 54
+            "Y": 3270,
+            "Width": 123,
+            "Height": 50
           },
-          "Text": "Lely"
+          "Text": "Lehi"
         }
       ]
     }

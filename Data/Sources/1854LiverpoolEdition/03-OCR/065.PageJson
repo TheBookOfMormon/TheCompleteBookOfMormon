@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3585,
   "ImageWidth": 2139,
+  "ManuallyEdited": true,
   "PageNumber": 65,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 193,
-            "Y": 342,
-            "Width": 118,
-            "Height": 39
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 369,
-            "Y": 341,
-            "Width": 20,
-            "Height": 36
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 706,
-            "Y": 341,
-            "Width": 189,
-            "Height": 36
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 936,
-            "Y": 340,
-            "Width": 130,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1108,
-            "Y": 340,
-            "Width": 57,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1208,
-            "Y": 339,
-            "Width": 126,
-            "Height": 36
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -377,6 +300,19 @@
             "Height": 48
           },
           "Text": "flesh"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 341,
+            "Y": 547,
+            "Width": 50,
+            "Height": 48
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4358,15 +4294,11 @@
           "Bounds": {
             "X": 1780,
             "Y": 2221,
-            "Width": 80,
-            "Height": 47
+            "Width": 118,
+            "Height": 48
           },
           "Text": "first"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1876,
@@ -4375,11 +4307,7 @@
             "Height": 47
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 206,
@@ -4389,8 +4317,10 @@
           },
           "Text": "born"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -5375,7 +5305,7 @@
             "Width": 120,
             "Height": 48
           },
-          "Text": "bcen"
+          "Text": "been"
         }
       ]
     },
@@ -6506,7 +6436,7 @@
             "Width": 58,
             "Height": 48
           },
-          "Text": "Le"
+          "Text": "be"
         }
       ]
     },

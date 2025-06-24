@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3596,
   "ImageWidth": 2141,
+  "ManuallyEdited": true,
   "PageNumber": 30,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 785,
-            "Y": 373,
-            "Width": 138,
-            "Height": 36
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 960,
-            "Y": 374,
-            "Width": 130,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1132,
-            "Y": 374,
-            "Width": 56,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1231,
-            "Y": 373,
-            "Width": 129,
-            "Height": 37
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1665,
-            "Y": 359,
-            "Width": 140,
-            "Height": 67
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1087,6 +1023,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1282,6 +1219,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1391,9 +1329,9 @@
         {
           "Bounds": {
             "X": 245,
-            "Y": 1049,
-            "Width": 156,
-            "Height": 46
+            "Y": 1048,
+            "Width": 193,
+            "Height": 48
           },
           "Text": "vapour"
         }
@@ -1646,6 +1584,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3939,6 +3878,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4490,11 +4430,11 @@
         {
           "Bounds": {
             "X": 244,
-            "Y": 2469,
-            "Width": 84,
-            "Height": 32
+            "Y": 2461,
+            "Width": 110,
+            "Height": 48
           },
-          "Text": "suw"
+          "Text": "saw"
         }
       ]
     },
@@ -4576,6 +4516,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5575,10 +5516,23 @@
           "Bounds": {
             "X": 1609,
             "Y": 2970,
-            "Width": 321,
+            "Width": 90,
             "Height": 48
           },
-          "Text": "thefountain"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1699,
+            "Y": 2970,
+            "Width": 232,
+            "Height": 48
+          },
+          "Text": "fountain"
         }
       ]
     },

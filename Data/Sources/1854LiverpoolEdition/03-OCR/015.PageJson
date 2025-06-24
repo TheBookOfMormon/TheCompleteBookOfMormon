@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3581,
   "ImageWidth": 2139,
+  "ManuallyEdited": true,
   "PageNumber": 15,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 171,
-            "Y": 323,
-            "Width": 116,
-            "Height": 39
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 344,
-            "Y": 309,
-            "Width": 14,
-            "Height": 65
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 729,
-            "Y": 321,
-            "Width": 138,
-            "Height": 38
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 893,
-            "Y": 321,
-            "Width": 131,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1054,
-            "Y": 321,
-            "Width": 58,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1143,
-            "Y": 319,
-            "Width": 166,
-            "Height": 43
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3151,6 +3074,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3281,6 +3205,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3659,7 +3584,20 @@
             "Width": 44,
             "Height": 49
           },
-          "Text": "i8"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 805,
+            "Y": 1948,
+            "Width": 44,
+            "Height": 49
+          },
+          "Text": "a"
         }
       ]
     },
@@ -6145,11 +6083,11 @@
         {
           "Bounds": {
             "X": 1450,
-            "Y": 2938,
-            "Width": 113,
-            "Height": 108
+            "Y": 2980,
+            "Width": 134,
+            "Height": 48
           },
-          "Text": "wert"
+          "Text": "were"
         }
       ]
     },
@@ -6691,6 +6629,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6740,11 +6679,7 @@
             "Height": 48
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1856,
@@ -6753,6 +6688,16 @@
             "Height": 10
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 254,
+            "Y": 387,
+            "Width": 131,
+            "Height": 57
+          },
+          "IsOnNextPage": true,
+          "Text": "selves"
         }
       ]
     }

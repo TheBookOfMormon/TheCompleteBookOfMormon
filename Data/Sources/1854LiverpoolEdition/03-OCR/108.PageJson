@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3565,
   "ImageWidth": 2147,
+  "ManuallyEdited": true,
   "PageNumber": 108,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 775,
-            "Y": 290,
-            "Width": 189,
-            "Height": 37
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 993,
-            "Y": 289,
-            "Width": 131,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1155,
-            "Y": 290,
-            "Width": 57,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1245,
-            "Y": 292,
-            "Width": 141,
-            "Height": 36
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1701,
-            "Y": 280,
-            "Width": 139,
-            "Height": 64
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1894,
-            "Y": 294,
-            "Width": 29,
-            "Height": 38
-          },
-          "Text": "XI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1478,10 +1401,23 @@
           "Bounds": {
             "X": 578,
             "Y": 1019,
-            "Width": 174,
+            "Width": 38,
             "Height": 48
           },
-          "Text": "itshall"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 616,
+            "Y": 1019,
+            "Width": 137,
+            "Height": 48
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -1569,10 +1505,23 @@
           "Bounds": {
             "X": 1569,
             "Y": 1018,
-            "Width": 391,
+            "Width": 137,
             "Height": 51
           },
-          "Text": "havedwindled"
+          "Text": "have"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1706,
+            "Y": 1018,
+            "Width": 255,
+            "Height": 51
+          },
+          "Text": "dwindled"
         }
       ]
     },
@@ -2200,6 +2149,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3804,6 +3754,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4810,11 +4761,11 @@
         {
           "Bounds": {
             "X": 1132,
-            "Y": 2512,
-            "Width": 225,
-            "Height": 68
+            "Y": 2522,
+            "Width": 213,
+            "Height": 48
           },
-          "Text": "grithout"
+          "Text": "without"
         }
       ]
     },
@@ -6276,11 +6227,7 @@
             "Height": 61
           },
           "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1923,
@@ -6289,11 +6236,7 @@
             "Height": 61
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 262,
@@ -6303,7 +6246,8 @@
           },
           "Text": "crafts"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -6336,37 +6280,11 @@
         {
           "Bounds": {
             "X": 818,
-            "Y": 3225,
-            "Width": 151,
-            "Height": 71
+            "Y": 3239,
+            "Width": 326,
+            "Height": 42
           },
-          "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 974,
-            "Y": 3241,
-            "Width": 43,
-            "Height": 33
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 998,
-            "Y": 3225,
-            "Width": 143,
-            "Height": 71
-          },
-          "Text": "crafts"
+          "Text": "priest-crafts"
         }
       ]
     },

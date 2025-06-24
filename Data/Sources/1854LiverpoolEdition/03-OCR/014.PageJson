@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3591,
   "ImageWidth": 2139,
+  "ManuallyEdited": true,
   "PageNumber": 14,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 754,
-            "Y": 314,
-            "Width": 140,
-            "Height": 39
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 929,
-            "Y": 314,
-            "Width": 130,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1102,
-            "Y": 313,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1202,
-            "Y": 313,
-            "Width": 126,
-            "Height": 36
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1702,
-            "Y": 301,
-            "Width": 133,
-            "Height": 66
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 213,
-            "Y": 392,
-            "Width": 106,
-            "Height": 48
-          },
-          "Text": "ther"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2799,7 +2722,7 @@
             "Width": 199,
             "Height": 48
           },
-          "Text": "father's"
+          "Text": "father\u0027s"
         }
       ]
     },
@@ -3614,6 +3537,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3763,10 +3687,10 @@
           "Bounds": {
             "X": 1853,
             "Y": 2007,
-            "Width": 59,
-            "Height": 49
+            "Width": 70,
+            "Height": 48
           },
-          "Text": "hc"
+          "Text": "he"
         }
       ]
     },
@@ -4008,6 +3932,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1137,
+            "Y": 2136,
+            "Width": 74,
+            "Height": 48
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1240,
             "Y": 2136,
             "Width": 188,
@@ -4078,7 +4015,7 @@
             "Width": 185,
             "Height": 48
           },
-          "Text": "ghould"
+          "Text": "should"
         }
       ]
     },
@@ -4191,11 +4128,11 @@
         {
           "Bounds": {
             "X": 1824,
-            "Y": 2217,
-            "Width": 65,
-            "Height": 34
+            "Y": 2210,
+            "Width": 95,
+            "Height": 48
           },
-          "Text": "ow"
+          "Text": "our"
         }
       ]
     },
@@ -4612,11 +4549,16 @@
             "Height": 48
           },
           "Text": "deli"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1920,
+            "Y": 2395,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 220,
@@ -5629,6 +5571,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5764,9 +5707,9 @@
         {
           "Bounds": {
             "X": 730,
-            "Y": 2981,
-            "Width": 31,
-            "Height": 45
+            "Y": 2980,
+            "Width": 53,
+            "Height": 48
           },
           "Text": "to"
         }
