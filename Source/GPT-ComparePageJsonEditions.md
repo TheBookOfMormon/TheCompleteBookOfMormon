@@ -78,6 +78,7 @@ Antiomno
 Antionah
 Antionum
 Antiparah
+Antipas
 Antipus
 Assyria
 Assyrian
@@ -139,6 +140,7 @@ Jacobites
 Jacom
 Jared
 Jarom
+Jeberechiah
 Jeneum
 Jeremiah
 Jershon
@@ -149,6 +151,7 @@ John
 Joseph
 Josephite
 Josephites
+Jotham
 Judah
 Kib
 Kim
@@ -220,11 +223,15 @@ Paanchi
 Pachus
 Pacumeni
 Pahoran
+Rabbanah
+Raca
+Ramah
+Ramath
 Remalia
 Remaliah
-Ramath
 Rezin
 Riplakish
+Ripliancum
 Salem
 Satan
 Sam
@@ -239,6 +246,7 @@ Shez
 Shemlon
 Shiblom
 Shiblon
+Shimnilom
 Shiz
 Shule
 Sidom
@@ -249,6 +257,7 @@ Teancum
 Teomner
 Tubaloth
 Zarahemla
+Zebulun
 Zedekiah
 Zeezrom
 Zeezromite
@@ -290,6 +299,11 @@ Christian
       - Phrases that contain `<null>` are treated specially:
         - If all are `<null>`, both sides collapse to `<null>`.
         - Mixed `<null>` and text removes `<null>` entries from the phrase.
+        - If a word has a `-` in it and the following word is `<null`> then you should combine the words' texts in both files
+            For example, the words here should be "sea-shore" and "sea shore"
+                | {filename1} Text | {filename2} Text |
+                | sea-shore        | <null>           |
+                | sea              | shore            |
 
 5. **Context Extraction**
    - For each phrase, extract up to 5 non-null words before and after the phrase from each version.
