@@ -163,7 +163,7 @@ If an entry matches all of the following criteria
    3. it's Text is at least 4 characters long (after removing the hyphen)
 
 Then you should
-   → add its exact Text value (case-insensitive) to the Valid Composite Words set,
+   → add its exact Text value to the Valid Composite Words set
    → and record the page number it appears on.
 
 Pass 2: Compound [word] - [word] Triplets
@@ -216,7 +216,7 @@ Once the candidate list is confirmed:
 Note that those values are both integers, so the values must remain unquoted.
 
 #### IMPORTANT!
-   If the source PageJson has `"ManuallyEdited": true` or has no objects in its Words array then do not generate a PageJson or PageMetaJson file for that page.
+   If the source PageJson has `"ManuallyEdited": true` or has no objects in its Words array then this file has already been processed manually, so do not generate a PageJson or PageMetaJson file for that page.
 
 ### Final Packaging:
 Zip the updated `.PageJson` and `.PageMetaJson` files and generate a hotlink button for me to click in the browser and download it
