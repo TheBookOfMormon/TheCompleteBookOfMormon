@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3574,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 185,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 210,
-            "Y": 307,
-            "Width": 126,
-            "Height": 40
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 293,
-            "Width": 122,
-            "Height": 65
-          },
-          "Text": "VIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 817,
-            "Y": 304,
-            "Width": 130,
-            "Height": 39
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 988,
-            "Y": 305,
-            "Width": 58,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1086,
-            "Y": 305,
-            "Width": 150,
-            "Height": 39
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 206,
-            "Y": 383,
-            "Width": 139,
-            "Height": 50
-          },
-          "Text": "lieved"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -268,6 +191,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -902,11 +826,16 @@
             "Height": 35
           },
           "Text": "resur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1891,
+            "Y": 712,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 214,
@@ -1750,6 +1679,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2723,10 +2653,23 @@
           "Bounds": {
             "X": 516,
             "Y": 1601,
-            "Width": 266,
+            "Width": 131,
             "Height": 49
           },
-          "Text": "nonesuch"
+          "Text": "none"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 647,
+            "Y": 1601,
+            "Width": 136,
+            "Height": 49
+          },
+          "Text": "such"
         }
       ]
     },
@@ -2830,7 +2773,7 @@
             "Width": 56,
             "Height": 44
           },
-          "Text": "ea"
+          "Text": "yea"
         }
       ]
     },
@@ -2973,7 +2916,7 @@
             "Width": 152,
             "Height": 60
           },
-          "Text": "imself"
+          "Text": "himself"
         }
       ]
     },
@@ -5396,7 +5339,7 @@
             "Width": 54,
             "Height": 32
           },
-          "Text": "ve"
+          "Text": "have"
         }
       ]
     },
@@ -6346,11 +6289,7 @@
             "Height": 47
           },
           "Text": "know"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1878,
@@ -6359,6 +6298,16 @@
             "Height": 8
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 271,
+            "Y": 384,
+            "Width": 87,
+            "Height": 62
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

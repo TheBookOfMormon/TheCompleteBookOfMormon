@@ -6035,11 +6035,16 @@
             "Height": 61
           },
           "Text": "forty"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1840,
+            "Y": 2783,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 197,
@@ -6049,8 +6054,10 @@
           },
           "Text": "three"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3555,
   "ImageWidth": 2170,
+  "ManuallyEdited": true,
   "PageNumber": 184,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 845,
-            "Y": 300,
-            "Width": 132,
-            "Height": 41
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1004,
-            "Y": 299,
-            "Width": 60,
-            "Height": 40
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1094,
-            "Y": 297,
-            "Width": 169,
-            "Height": 41
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1650,
-            "Y": 286,
-            "Width": 99,
-            "Height": 67
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1823,
-            "Y": 299,
-            "Width": 93,
-            "Height": 40
-          },
-          "Text": "VIII"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1327,10 +1263,36 @@
           "Bounds": {
             "X": 571,
             "Y": 954,
-            "Width": 502,
+            "Width": 108,
             "Height": 51
           },
-          "Text": "thatwhosoeverhas"
+          "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 679,
+            "Y": 954,
+            "Width": 296,
+            "Height": 51
+          },
+          "Text": "whosoever"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 975,
+            "Y": 954,
+            "Width": 100,
+            "Height": 51
+          },
+          "Text": "has"
         }
       ]
     },
@@ -5389,6 +5351,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6404,19 +6367,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 633,
-            "Y": 3234,
-            "Width": 4,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 642,
             "Y": 3208,
             "Width": 53,
@@ -6540,11 +6490,7 @@
             "Height": 49
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1929,
@@ -6553,6 +6499,16 @@
             "Height": 49
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 206,
+            "Y": 383,
+            "Width": 139,
+            "Height": 50
+          },
+          "IsOnNextPage": true,
+          "Text": "lieved"
         }
       ]
     }

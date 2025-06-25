@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3556,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 203,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 224,
-            "Y": 315,
-            "Width": 127,
-            "Height": 39
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 403,
-            "Y": 301,
-            "Width": 92,
-            "Height": 66
-          },
-          "Text": "XLJ"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 823,
-            "Y": 313,
-            "Width": 131,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 994,
-            "Y": 315,
-            "Width": 57,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1093,
-            "Y": 314,
-            "Width": 175,
-            "Height": 37
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1929,11 +1865,7 @@
             "Height": 48
           },
           "Text": "task"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1896,
@@ -1942,11 +1874,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 231,
@@ -1956,7 +1884,8 @@
           },
           "Text": "masters"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -2036,6 +1965,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3524,10 +3458,10 @@
           "Bounds": {
             "X": 230,
             "Y": 1939,
-            "Width": 71,
-            "Height": 49
+            "Width": 105,
+            "Height": 48
           },
-          "Text": "Go"
+          "Text": "God"
         }
       ]
     },
@@ -3605,7 +3539,7 @@
             "Width": 121,
             "Height": 46
           },
-          "Text": "uato"
+          "Text": "unto"
         }
       ]
     },
@@ -4493,6 +4427,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5626,6 +5565,19 @@
             "Height": 43
           },
           "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1436,
+            "Y": 2912,
+            "Width": 86,
+            "Height": 43
+          },
+          "Text": "so"
         }
       ]
     },

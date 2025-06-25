@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3570,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 172,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 860,
-            "Y": 325,
-            "Width": 129,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1030,
-            "Y": 325,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1129,
-            "Y": 325,
-            "Width": 147,
-            "Height": 37
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1677,
-            "Y": 312,
-            "Width": 151,
-            "Height": 65
-          },
-          "Text": "caAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1876,
-            "Y": 327,
-            "Width": 25,
-            "Height": 37
-          },
-          "Text": "VI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -398,37 +334,11 @@
         {
           "Bounds": {
             "X": 270,
-            "Y": 529,
-            "Width": 100,
-            "Height": 63
+            "Y": 537,
+            "Width": 314,
+            "Height": 46
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 398,
-            "Y": 559,
-            "Width": 14,
-            "Height": 6
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 529,
-            "Width": 165,
-            "Height": 63
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -2691,11 +2601,11 @@
         {
           "Bounds": {
             "X": 462,
-            "Y": 1558,
-            "Width": 81,
-            "Height": 49
+            "Y": 1560,
+            "Width": 145,
+            "Height": 44
           },
-          "Text": "fiel"
+          "Text": "fields"
         }
       ]
     },
@@ -3697,11 +3607,24 @@
         {
           "Bounds": {
             "X": 1586,
-            "Y": 2025,
-            "Width": 22,
-            "Height": 32
+            "Y": 2017,
+            "Width": 100,
+            "Height": 48
           },
-          "Text": "an"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1704,
+            "Y": 2017,
+            "Width": 166,
+            "Height": 48
+          },
+          "Text": "began"
         }
       ]
     },
@@ -4503,9 +4426,9 @@
         {
           "Bounds": {
             "X": 1263,
-            "Y": 2395,
-            "Width": 202,
-            "Height": 59
+            "Y": 2400,
+            "Width": 239,
+            "Height": 48
           },
           "Text": "cimeters"
         }
@@ -5835,8 +5758,8 @@
           "Bounds": {
             "X": 678,
             "Y": 2993,
-            "Width": 65,
-            "Height": 47
+            "Width": 96,
+            "Height": 48
           },
           "Text": "yea"
         }
@@ -6112,11 +6035,7 @@
             "Height": 63
           },
           "Text": "forty"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1937,
@@ -6125,11 +6044,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 279,
@@ -6139,8 +6054,10 @@
           },
           "Text": "three"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {

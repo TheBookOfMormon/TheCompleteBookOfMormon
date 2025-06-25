@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3563,
   "ImageWidth": 2163,
+  "ManuallyEdited": true,
   "PageNumber": 180,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 883,
-            "Y": 322,
-            "Width": 130,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1056,
-            "Y": 323,
-            "Width": 55,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1154,
-            "Y": 323,
-            "Width": 178,
-            "Height": 35
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1696,
-            "Y": 310,
-            "Width": 121,
-            "Height": 64
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1872,
-            "Y": 327,
-            "Width": 79,
-            "Height": 38
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 273,
-            "Y": 401,
-            "Width": 143,
-            "Height": 47
-          },
-          "Text": "doms"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -770,6 +693,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1855,10 +1779,10 @@
           "Bounds": {
             "X": 1715,
             "Y": 1185,
-            "Width": 67,
-            "Height": 47
+            "Width": 96,
+            "Height": 48
           },
-          "Text": "yeas"
+          "Text": "yea"
         }
       ]
     },
@@ -1881,10 +1805,10 @@
           "Bounds": {
             "X": 1896,
             "Y": 1185,
-            "Width": 60,
+            "Width": 64,
             "Height": 48
           },
-          "Text": "yo"
+          "Text": "ye"
         }
       ]
     },
@@ -2681,6 +2605,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4081,7 +4006,7 @@
             "Width": 126,
             "Height": 48
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -5841,7 +5766,7 @@
             "Width": 177,
             "Height": 47
           },
-          "Text": "Moses'"
+          "Text": "Moses\u0027"
         }
       ]
     },
@@ -6622,11 +6547,7 @@
             "Height": 36
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1941,
@@ -6635,6 +6556,16 @@
             "Height": 12
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 193,
+            "Y": 410,
+            "Width": 208,
+            "Height": 63
+          },
+          "IsOnNextPage": true,
+          "Text": "cerning"
         }
       ]
     }
