@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3568,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 226,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 898,
-            "Y": 298,
-            "Width": 130,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1071,
-            "Y": 298,
-            "Width": 57,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1170,
-            "Y": 298,
-            "Width": 126,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1727,
-            "Y": 285,
-            "Width": 100,
-            "Height": 65
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 273,
-            "Y": 373,
-            "Width": 168,
-            "Height": 61
-          },
-          "Text": "flicted"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1118,6 +1054,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1734,11 +1671,11 @@
         {
           "Bounds": {
             "X": 273,
-            "Y": 1142,
-            "Width": 114,
-            "Height": 116
+            "Y": 1140,
+            "Width": 121,
+            "Height": 48
           },
-          "Text": "qrer"
+          "Text": "over"
         }
       ]
     },
@@ -1894,7 +1831,7 @@
             "Width": 58,
             "Height": 32
           },
-          "Text": "ma"
+          "Text": "Alma"
         }
       ]
     },
@@ -2506,9 +2443,9 @@
         {
           "Bounds": {
             "X": 280,
-            "Y": 1531,
-            "Width": 162,
-            "Height": 62
+            "Y": 1538,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -2883,9 +2820,9 @@
         {
           "Bounds": {
             "X": 280,
-            "Y": 1724,
-            "Width": 179,
-            "Height": 62
+            "Y": 1731,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -5540,9 +5477,9 @@
         {
           "Bounds": {
             "X": 790,
-            "Y": 2885,
-            "Width": 161,
-            "Height": 62
+            "Y": 2892,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -6064,7 +6001,7 @@
             "Width": 112,
             "Height": 53
           },
-          "Text": "Rod"
+          "Text": "God"
         }
       ]
     },
@@ -6216,9 +6153,9 @@
         {
           "Bounds": {
             "X": 298,
-            "Y": 3202,
-            "Width": 162,
-            "Height": 65
+            "Y": 3210,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -6351,11 +6288,7 @@
             "Height": 58
           },
           "Text": "stum"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1967,
@@ -6364,6 +6297,16 @@
             "Height": 38
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 199,
+            "Y": 400,
+            "Width": 308,
+            "Height": 44
+          },
+          "IsOnNextPage": true,
+          "Text": "bling-block"
         }
       ]
     }

@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3569,
   "ImageWidth": 2163,
+  "ManuallyEdited": true,
   "PageNumber": 228,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 887,
-            "Y": 314,
-            "Width": 130,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1058,
-            "Y": 316,
-            "Width": 59,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1157,
-            "Y": 316,
-            "Width": 122,
-            "Height": 36
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1693,
-            "Y": 305,
-            "Width": 136,
-            "Height": 65
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -592,32 +541,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 883,
-            "Y": 841,
-            "Width": 294,
-            "Height": 52
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1225,
-            "Y": 842,
-            "Width": 87,
-            "Height": 52
-          },
-          "Text": "IIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 263,
             "Y": 971,
             "Width": 103,
@@ -949,19 +872,6 @@
             "Height": 50
           },
           "Text": "land"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 326,
-            "Y": 1232,
-            "Width": 25,
-            "Height": 45
-          },
-          "Text": "I"
         }
       ]
     },
@@ -2903,7 +2813,7 @@
             "Width": 135,
             "Height": 63
           },
-          "Text": "eople"
+          "Text": "people"
         }
       ]
     },
@@ -3073,19 +2983,6 @@
             "Height": 48
           },
           "Text": "after"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 625,
-            "Y": 2163,
-            "Width": 11,
-            "Height": 9
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4391,11 +4288,7 @@
             "Height": 63
           },
           "Text": "long"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1932,
@@ -4404,11 +4297,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 254,
@@ -4418,8 +4307,10 @@
           },
           "Text": "suffering"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -4633,11 +4524,11 @@
         {
           "Bounds": {
             "X": 1810,
-            "Y": 2848,
-            "Width": 112,
-            "Height": 44
+            "Y": 2846,
+            "Width": 129,
+            "Height": 48
           },
-          "Text": "trom"
+          "Text": "from"
         }
       ]
     },

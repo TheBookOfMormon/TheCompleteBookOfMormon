@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3577,
   "ImageWidth": 2164,
+  "ManuallyEdited": true,
   "PageNumber": 238,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 925,
-            "Y": 347,
-            "Width": 131,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1098,
-            "Y": 345,
-            "Width": 56,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1198,
-            "Y": 345,
-            "Width": 95,
-            "Height": 37
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1733,
-            "Y": 326,
-            "Width": 133,
-            "Height": 69
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1902,
-            "Y": 341,
-            "Width": 28,
-            "Height": 39
-          },
-          "Text": "VL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -203,9 +139,9 @@
         {
           "Bounds": {
             "X": 1644,
-            "Y": 418,
-            "Width": 160,
-            "Height": 62
+            "Y": 425,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -502,9 +438,9 @@
         {
           "Bounds": {
             "X": 1019,
-            "Y": 613,
-            "Width": 190,
-            "Height": 60
+            "Y": 619,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -567,11 +503,11 @@
         {
           "Bounds": {
             "X": 1791,
-            "Y": 611,
-            "Width": 142,
-            "Height": 62
+            "Y": 618,
+            "Width": 162,
+            "Height": 48
           },
-          "Text": "Neph"
+          "Text": "Nephi"
         }
       ]
     },
@@ -1797,6 +1733,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2105,7 +2046,7 @@
             "Width": 134,
             "Height": 61
           },
-          "Text": "days'"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -5456,7 +5397,7 @@
             "Width": 124,
             "Height": 61
           },
-          "Text": "eople"
+          "Text": "people"
         }
       ]
     },
@@ -5512,6 +5453,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5599,7 +5541,7 @@
             "Width": 59,
             "Height": 59
           },
-          "Text": "im"
+          "Text": "him"
         }
       ]
     },
@@ -5984,19 +5926,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 367,
-            "Y": 3172,
-            "Width": 31,
-            "Height": 74
-          },
-          "Text": "o"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 444,
             "Y": 3175,
             "Width": 118,
@@ -6245,11 +6174,30 @@
         {
           "Bounds": {
             "X": 1891,
-            "Y": 3244,
-            "Width": 43,
-            "Height": 49
+            "Y": 3245,
+            "Width": 59,
+            "Height": 46
           },
           "Text": "tri"
+        },
+        {
+          "Bounds": {
+            "X": 1968,
+            "Y": 3244,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 220,
+            "Y": 380,
+            "Width": 222,
+            "Height": 51
+          },
+          "IsOnNextPage": true,
+          "Text": "bulation"
         }
       ]
     }

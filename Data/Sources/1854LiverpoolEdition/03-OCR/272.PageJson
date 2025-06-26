@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3575,
   "ImageWidth": 2177,
+  "ManuallyEdited": true,
   "PageNumber": 272,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 941,
-            "Y": 277,
-            "Width": 130,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1113,
-            "Y": 276,
-            "Width": 57,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1212,
-            "Y": 275,
-            "Width": 98,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1714,
-            "Y": 263,
-            "Width": 153,
-            "Height": 66
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1908,
-            "Y": 278,
-            "Width": 73,
-            "Height": 37
-          },
-          "Text": "XII"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1212,6 +1148,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1494,7 +1431,7 @@
             "Width": 97,
             "Height": 62
           },
-          "Text": "algo"
+          "Text": "also"
         }
       ]
     },
@@ -2489,10 +2426,23 @@
           "Bounds": {
             "X": 798,
             "Y": 1449,
-            "Width": 545,
+            "Width": 247,
             "Height": 48
           },
-          "Text": "assemblethemselves"
+          "Text": "assemble"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1045,
+            "Y": 1449,
+            "Width": 299,
+            "Height": 48
+          },
+          "Text": "themselves"
         }
       ]
     },
@@ -3296,16 +3246,21 @@
         {
           "Bounds": {
             "X": 1871,
-            "Y": 1788,
-            "Width": 73,
-            "Height": 33
+            "Y": 1781,
+            "Width": 109,
+            "Height": 48
           },
           "Text": "mur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1986,
+            "Y": 1781,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 318,

@@ -4602,10 +4602,23 @@
           "Bounds": {
             "X": 1674,
             "Y": 2417,
-            "Width": 209,
+            "Width": 122,
             "Height": 49
           },
-          "Text": "hearthe"
+          "Text": "hear"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1796,
+            "Y": 2417,
+            "Width": 88,
+            "Height": 49
+          },
+          "Text": "the"
         }
       ]
     },
@@ -4749,19 +4762,6 @@
             "Height": 48
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1946,
-            "Y": 2506,
-            "Width": 7,
-            "Height": 8
-          },
-          "Text": "-"
         }
       ]
     },
@@ -5468,7 +5468,7 @@
             "Width": 262,
             "Height": 60
           },
-          "Text": "aecording"
+          "Text": "according"
         }
       ]
     },
@@ -6327,11 +6327,7 @@
             "Height": 48
           },
           "Text": "perse"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1864,
@@ -6340,6 +6336,16 @@
             "Height": 48
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 276,
+            "Y": 372,
+            "Width": 206,
+            "Height": 47
+          },
+          "IsOnNextPage": true,
+          "Text": "cutions"
         }
       ]
     }

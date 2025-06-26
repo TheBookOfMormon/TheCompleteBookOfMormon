@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3575,
   "ImageWidth": 2177,
+  "ManuallyEdited": true,
   "PageNumber": 287,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 210,
-            "Y": 326,
-            "Width": 121,
-            "Height": 40
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 382,
-            "Y": 311,
-            "Width": 79,
-            "Height": 67
-          },
-          "Text": "XIV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 837,
-            "Y": 325,
-            "Width": 130,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1007,
-            "Y": 325,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1107,
-            "Y": 324,
-            "Width": 94,
-            "Height": 37
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1841,11 +1777,11 @@
         {
           "Bounds": {
             "X": 1694,
-            "Y": 1191,
-            "Width": 96,
-            "Height": 32
+            "Y": 1183,
+            "Width": 134,
+            "Height": 48
           },
-          "Text": "wero"
+          "Text": "were"
         }
       ]
     },
@@ -1971,11 +1907,11 @@
         {
           "Bounds": {
             "X": 1478,
-            "Y": 1237,
-            "Width": 312,
-            "Height": 115
+            "Y": 1246,
+            "Width": 349,
+            "Height": 48
           },
-          "Text": "dependants"
+          "Text": "descendants"
         }
       ]
     },
@@ -2686,6 +2622,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3263,16 +3200,12 @@
         {
           "Bounds": {
             "X": 1574,
-            "Y": 1948,
-            "Width": 100,
-            "Height": 62
+            "Y": 1956,
+            "Width": 307,
+            "Height": 46
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Anti-Nephi"
+        },
         {
           "Bounds": {
             "X": 1700,
@@ -3281,37 +3214,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1717,
-            "Y": 1948,
-            "Width": 132,
-            "Height": 62
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1884,
-            "Y": 1974,
-            "Width": 22,
-            "Height": 10
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 213,
@@ -3321,7 +3224,8 @@
           },
           "Text": "Lehi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5062,6 +4966,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5149,12 +5054,8 @@
             "Width": 181,
             "Height": 32
           },
-          "Text": "remems"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "remem"
+        },
         {
           "Bounds": {
             "X": 1883,
@@ -5163,11 +5064,7 @@
             "Height": 12
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 217,
@@ -5175,7 +5072,7 @@
             "Width": 177,
             "Height": 48
           },
-          "Text": "orance"
+          "Text": "brance"
         }
       ]
     },

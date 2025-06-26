@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3561,
   "ImageWidth": 2177,
+  "ManuallyEdited": true,
   "PageNumber": 279,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 236,
-            "Y": 330,
-            "Width": 126,
-            "Height": 36
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 417,
-            "Y": 313,
-            "Width": 119,
-            "Height": 66
-          },
-          "Text": "XIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 873,
-            "Y": 325,
-            "Width": 128,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1043,
-            "Y": 326,
-            "Width": 58,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1141,
-            "Y": 325,
-            "Width": 127,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -100,10 +36,23 @@
           "Bounds": {
             "X": 547,
             "Y": 403,
-            "Width": 197,
+            "Width": 127,
             "Height": 50
           },
-          "Text": "overall"
+          "Text": "over"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 674,
+            "Y": 403,
+            "Width": 71,
+            "Height": 50
+          },
+          "Text": "all"
         }
       ]
     },
@@ -493,7 +442,7 @@
             "Width": 159,
             "Height": 64
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -5982,9 +5931,9 @@
         {
           "Bounds": {
             "X": 1437,
-            "Y": 2918,
-            "Width": 457,
-            "Height": 58
+            "Y": 2923,
+            "Width": 476,
+            "Height": 48
           },
           "Text": "commmandments"
         }
@@ -6047,9 +5996,9 @@
         {
           "Bounds": {
             "X": 888,
-            "Y": 2984,
-            "Width": 321,
-            "Height": 61
+            "Y": 2991,
+            "Width": 336,
+            "Height": 46
           },
           "Text": "trangression"
         }
@@ -6178,10 +6127,23 @@
           "Bounds": {
             "X": 1063,
             "Y": 3048,
-            "Width": 363,
+            "Width": 87,
             "Height": 63
           },
-          "Text": "thescriptures"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1150,
+            "Y": 3048,
+            "Width": 277,
+            "Height": 63
+          },
+          "Text": "scriptures"
         }
       ]
     },
@@ -6650,6 +6612,25 @@
             "Height": 57
           },
           "Text": "who"
+        },
+        {
+          "Bounds": {
+            "X": 1944,
+            "Y": 3235,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 264,
+            "Y": 427,
+            "Width": 162,
+            "Height": 34
+          },
+          "IsOnNextPage": true,
+          "Text": "soever"
         }
       ]
     }

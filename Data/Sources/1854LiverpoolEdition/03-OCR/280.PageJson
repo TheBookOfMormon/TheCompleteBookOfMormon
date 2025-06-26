@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3573,
   "ImageWidth": 2177,
+  "ManuallyEdited": true,
   "PageNumber": 280,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 884,
-            "Y": 334,
-            "Width": 132,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1055,
-            "Y": 336,
-            "Width": 57,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1154,
-            "Y": 334,
-            "Width": 126,
-            "Height": 37
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1655,
-            "Y": 319,
-            "Width": 128,
-            "Height": 67
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1828,
-            "Y": 336,
-            "Width": 105,
-            "Height": 41
-          },
-          "Text": "XTIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 264,
-            "Y": 427,
-            "Width": 162,
-            "Height": 34
-          },
-          "Text": "soever"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -276,6 +199,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -506,10 +430,12 @@
             "Width": 65,
             "Height": 48
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2726,10 +2652,10 @@
           "Bounds": {
             "X": 1768,
             "Y": 1442,
-            "Width": 140,
+            "Width": 180,
             "Height": 48
           },
-          "Text": "betore"
+          "Text": "before"
         }
       ]
     },
@@ -3316,10 +3242,23 @@
           "Bounds": {
             "X": 1675,
             "Y": 1699,
-            "Width": 234,
+            "Width": 83,
             "Height": 60
           },
-          "Text": "hisknees"
+          "Text": "his"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1758,
+            "Y": 1699,
+            "Width": 152,
+            "Height": 60
+          },
+          "Text": "knees"
         }
       ]
     },
@@ -3600,6 +3539,32 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1839,
+            "Y": 1828,
+            "Width": 50,
+            "Height": 48
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1907,
+            "Y": 1828,
+            "Width": 50,
+            "Height": 48
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 261,
             "Y": 1893,
             "Width": 114,
@@ -3771,10 +3736,10 @@
           "Bounds": {
             "X": 1811,
             "Y": 1892,
-            "Width": 118,
-            "Height": 49
+            "Width": 129,
+            "Height": 48
           },
-          "Text": "thon"
+          "Text": "thou"
         }
       ]
     },
@@ -5542,7 +5507,7 @@
             "Width": 156,
             "Height": 62
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -6917,12 +6882,8 @@
             "Width": 136,
             "Height": 51
           },
-          "Text": "knuw"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "know"
+        },
         {
           "Bounds": {
             "X": 1874,
@@ -6931,6 +6892,16 @@
             "Height": 36
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 229,
+            "Y": 376,
+            "Width": 88,
+            "Height": 63
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

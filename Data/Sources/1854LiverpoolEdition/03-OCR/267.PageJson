@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3575,
   "ImageWidth": 2177,
+  "ManuallyEdited": true,
   "PageNumber": 267,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 245,
-            "Y": 314,
-            "Width": 120,
-            "Height": 41
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 418,
-            "Y": 301,
-            "Width": 91,
-            "Height": 66
-          },
-          "Text": "XII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 877,
-            "Y": 314,
-            "Width": 130,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1049,
-            "Y": 315,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1148,
-            "Y": 314,
-            "Width": 125,
-            "Height": 36
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1879,12 +1815,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 913,
-            "Y": 1163,
-            "Width": 9,
-            "Height": 12
+            "X": 817,
+            "Y": 1170,
+            "Width": 194,
+            "Height": 46
           },
-          "Text": "inst"
+          "Text": "against"
         }
       ]
     },
@@ -2079,7 +2015,7 @@
             "Width": 75,
             "Height": 58
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },
@@ -2872,7 +2808,7 @@
             "Width": 71,
             "Height": 33
           },
-          "Text": "one"
+          "Text": "done"
         }
       ]
     },
@@ -3718,19 +3654,6 @@
             "Height": 47
           },
           "Text": "who"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 189,
-            "Y": 2094,
-            "Width": 5,
-            "Height": 5
-          },
-          "Text": "-"
         }
       ]
     },
@@ -4757,7 +4680,7 @@
             "Width": 156,
             "Height": 63
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -5307,6 +5230,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6583,11 +6507,7 @@
             "Height": 36
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1873,
@@ -6596,6 +6516,16 @@
             "Height": 31
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 263,
+            "Y": 377,
+            "Width": 190,
+            "Height": 58
+          },
+          "IsOnNextPage": true,
+          "Text": "theless"
         }
       ]
     }
