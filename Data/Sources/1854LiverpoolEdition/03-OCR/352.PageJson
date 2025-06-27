@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3563,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 352,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 908,
-            "Y": 331,
-            "Width": 131,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1079,
-            "Y": 331,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1178,
-            "Y": 329,
-            "Width": 97,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1674,
-            "Y": 317,
-            "Width": 134,
-            "Height": 65
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1849,
-            "Y": 330,
-            "Width": 84,
-            "Height": 39
-          },
-          "Text": "XXII"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -112,37 +48,11 @@
         {
           "Bounds": {
             "X": 764,
-            "Y": 408,
-            "Width": 165,
-            "Height": 62
+            "Y": 418,
+            "Width": 342,
+            "Height": 42
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 937,
-            "Y": 436,
-            "Width": 14,
-            "Height": 8
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 951,
-            "Y": 408,
-            "Width": 162,
-            "Height": 62
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -931,9 +841,9 @@
         {
           "Bounds": {
             "X": 1599,
-            "Y": 812,
-            "Width": 133,
-            "Height": 33
+            "Y": 805,
+            "Width": 170,
+            "Height": 48
           },
           "Text": "maner"
         }
@@ -1017,6 +927,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2099,10 +2010,23 @@
           "Bounds": {
             "X": 1210,
             "Y": 1381,
-            "Width": 159,
+            "Width": 72,
             "Height": 48
           },
-          "Text": "hedid"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1282,
+            "Y": 1381,
+            "Width": 88,
+            "Height": 48
+          },
+          "Text": "did"
         }
       ]
     },
@@ -2151,10 +2075,23 @@
           "Bounds": {
             "X": 1696,
             "Y": 1381,
-            "Width": 254,
+            "Width": 95,
             "Height": 49
           },
-          "Text": "theblood"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1791,
+            "Y": 1381,
+            "Width": 160,
+            "Height": 49
+          },
+          "Text": "blood"
         }
       ]
     },

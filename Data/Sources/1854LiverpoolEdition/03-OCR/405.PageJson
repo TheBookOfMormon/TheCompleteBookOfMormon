@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3584,
   "ImageWidth": 2159,
+  "ManuallyEdited": true,
   "PageNumber": 405,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 204,
-            "Y": 327,
-            "Width": 121,
-            "Height": 40
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 778,
-            "Y": 328,
-            "Width": 130,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 950,
-            "Y": 329,
-            "Width": 55,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1049,
-            "Y": 327,
-            "Width": 228,
-            "Height": 37
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3137,7 +3086,7 @@
             "Width": 133,
             "Height": 61
           },
-          "Text": "day's"
+          "Text": "day\u0027s"
         }
       ]
     },
@@ -4043,9 +3992,9 @@
         {
           "Bounds": {
             "X": 358,
-            "Y": 2270,
-            "Width": 150,
-            "Height": 62
+            "Y": 2277,
+            "Width": 192,
+            "Height": 48
           },
           "Text": "judges"
         }
@@ -4238,9 +4187,9 @@
         {
           "Bounds": {
             "X": 296,
-            "Y": 2397,
-            "Width": 154,
-            "Height": 62
+            "Y": 2404,
+            "Width": 192,
+            "Height": 48
           },
           "Text": "judges"
         }
@@ -4672,11 +4621,24 @@
         {
           "Bounds": {
             "X": 736,
-            "Y": 2592,
-            "Width": 158,
-            "Height": 62
+            "Y": 2599,
+            "Width": 130,
+            "Height": 48
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 866,
+            "Y": 2599,
+            "Width": 52,
+            "Height": 48
+          },
+          "Text": "in"
         }
       ]
     },

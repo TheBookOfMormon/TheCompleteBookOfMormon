@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3577,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 396,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 890,
-            "Y": 308,
-            "Width": 129,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1061,
-            "Y": 308,
-            "Width": 58,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1161,
-            "Y": 309,
-            "Width": 124,
-            "Height": 37
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1648,
-            "Y": 295,
-            "Width": 150,
-            "Height": 66
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1840,
-            "Y": 310,
-            "Width": 98,
-            "Height": 41
-          },
-          "Text": "XXX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2305,7 +2241,7 @@
             "Width": 90,
             "Height": 50
           },
-          "Text": "gall"
+          "Text": "sail"
         }
       ]
     },
@@ -3003,9 +2939,9 @@
         {
           "Bounds": {
             "X": 597,
-            "Y": 1748,
-            "Width": 165,
-            "Height": 63
+            "Y": 1755,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -3159,9 +3095,9 @@
         {
           "Bounds": {
             "X": 774,
-            "Y": 1813,
-            "Width": 219,
-            "Height": 60
+            "Y": 1819,
+            "Width": 262,
+            "Height": 48
           },
           "Text": "nothward"
         }
@@ -3255,11 +3191,16 @@
             "Height": 60
           },
           "Text": "provi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1912,
+            "Y": 1820,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 263,
@@ -3407,10 +3348,23 @@
           "Bounds": {
             "X": 262,
             "Y": 1942,
-            "Width": 294,
+            "Width": 257,
             "Height": 49
           },
-          "Text": "thereforeit"
+          "Text": "therefore"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 519,
+            "Y": 1942,
+            "Width": 38,
+            "Height": 49
+          },
+          "Text": "it"
         }
       ]
     },
@@ -3432,11 +3386,24 @@
         {
           "Bounds": {
             "X": 788,
-            "Y": 1942,
-            "Width": 339,
-            "Height": 63
+            "Y": 1949,
+            "Width": 269,
+            "Height": 48
           },
-          "Text": "expedientfor"
+          "Text": "expedient"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1057,
+            "Y": 1949,
+            "Width": 81,
+            "Height": 48
+          },
+          "Text": "for"
         }
       ]
     },
@@ -3484,11 +3451,24 @@
         {
           "Bounds": {
             "X": 1618,
-            "Y": 1942,
-            "Width": 291,
-            "Height": 50
+            "Y": 1943,
+            "Width": 156,
+            "Height": 48
           },
-          "Text": "thosesacred"
+          "Text": "those"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1774,
+            "Y": 1943,
+            "Width": 186,
+            "Height": 48
+          },
+          "Text": "sacred"
         }
       ]
     },
@@ -4392,10 +4372,23 @@
           "Bounds": {
             "X": 1120,
             "Y": 2397,
-            "Width": 120,
+            "Width": 54,
             "Height": 48
           },
-          "Text": "tobe"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1174,
+            "Y": 2397,
+            "Width": 67,
+            "Height": 48
+          },
+          "Text": "be"
         }
       ]
     },

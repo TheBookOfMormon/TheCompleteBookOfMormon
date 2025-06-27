@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3568,
   "ImageWidth": 2167,
+  "ManuallyEdited": true,
   "PageNumber": 348,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 892,
-            "Y": 296,
-            "Width": 133,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1066,
-            "Y": 296,
-            "Width": 57,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1164,
-            "Y": 296,
-            "Width": 124,
-            "Height": 53
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1668,
-            "Y": 282,
-            "Width": 152,
-            "Height": 66
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1861,
-            "Y": 298,
-            "Width": 91,
-            "Height": 39
-          },
-          "Text": "XXL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1299,7 +1235,7 @@
             "Width": 132,
             "Height": 35
           },
-          "Text": "cams"
+          "Text": "came"
         }
       ]
     },
@@ -2400,6 +2336,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4126,11 +4063,16 @@
             "Height": 33
           },
           "Text": "ser"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1937,
+            "Y": 2328,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 244,
@@ -6085,7 +6027,7 @@
             "Width": 142,
             "Height": 52
           },
-          "Text": "theso"
+          "Text": "these"
         }
       ]
     }

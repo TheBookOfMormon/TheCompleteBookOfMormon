@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3575,
   "ImageWidth": 2166,
+  "ManuallyEdited": true,
   "PageNumber": 335,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 288,
-            "Y": 318,
-            "Width": 136,
-            "Height": 42
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 464,
-            "Y": 305,
-            "Width": 30,
-            "Height": 65
-          },
-          "Text": "XX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 955,
-            "Y": 319,
-            "Width": 129,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1126,
-            "Y": 318,
-            "Width": 55,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1224,
-            "Y": 319,
-            "Width": 123,
-            "Height": 36
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -299,6 +235,19 @@
             "Height": 48
           },
           "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1305,
+            "Y": 452,
+            "Width": 132,
+            "Height": 48
+          },
+          "Text": "bank"
         }
       ]
     },
@@ -3185,6 +3134,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5626,11 +5580,7 @@
             "Height": 49
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1944,
@@ -5639,11 +5589,7 @@
             "Height": 49
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 281,
@@ -5653,7 +5599,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5686,37 +5633,11 @@
         {
           "Bounds": {
             "X": 796,
-            "Y": 2966,
-            "Width": 98,
-            "Height": 61
+            "Y": 2975,
+            "Width": 312,
+            "Height": 42
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 894,
-            "Y": 2966,
-            "Width": 28,
-            "Height": 61
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 905,
-            "Y": 2966,
-            "Width": 206,
-            "Height": 61
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -5751,37 +5672,11 @@
         {
           "Bounds": {
             "X": 1485,
-            "Y": 2964,
-            "Width": 97,
-            "Height": 63
+            "Y": 2974,
+            "Width": 309,
+            "Height": 42
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1614,
-            "Y": 2992,
-            "Width": 15,
-            "Height": 8
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1628,
-            "Y": 2964,
-            "Width": 157,
-            "Height": 63
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },

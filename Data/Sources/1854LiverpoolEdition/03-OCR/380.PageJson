@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3583,
   "ImageWidth": 2168,
+  "ManuallyEdited": true,
   "PageNumber": 380,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 889,
-            "Y": 300,
-            "Width": 130,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1061,
-            "Y": 302,
-            "Width": 56,
-            "Height": 34
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1159,
-            "Y": 300,
-            "Width": 97,
-            "Height": 37
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1604,
-            "Y": 286,
-            "Width": 150,
-            "Height": 65
-          },
-          "Text": "TCHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1796,
-            "Y": 302,
-            "Width": 126,
-            "Height": 37
-          },
-          "Text": "XXVL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 251,
-            "Y": 381,
-            "Width": 95,
-            "Height": 48
-          },
-          "Text": "ites"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -94,6 +17,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3952,6 +3876,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4251,6 +4176,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5956,11 +5882,16 @@
             "Height": 49
           },
           "Text": "circum"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1921,
+            "Y": 3032,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 250,
@@ -6098,7 +6029,7 @@
             "Width": 213,
             "Height": 62
           },
-          "Text": "rallying"
+          "Text": "sallying"
         }
       ]
     },

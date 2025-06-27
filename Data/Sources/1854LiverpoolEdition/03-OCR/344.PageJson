@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3576,
   "ImageWidth": 2167,
+  "ManuallyEdited": true,
   "PageNumber": 344,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 905,
-            "Y": 322,
-            "Width": 130,
-            "Height": 39
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1075,
-            "Y": 324,
-            "Width": 57,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1174,
-            "Y": 324,
-            "Width": 127,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1685,
-            "Y": 309,
-            "Width": 144,
-            "Height": 69
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1875,
-            "Y": 320,
-            "Width": 62,
-            "Height": 44
-          },
-          "Text": "xx"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -945,7 +881,7 @@
             "Width": 127,
             "Height": 49
           },
-          "Text": "son's"
+          "Text": "son\u0027s"
         }
       ]
     },
@@ -1114,7 +1050,7 @@
             "Width": 126,
             "Height": 48
           },
-          "Text": "son's"
+          "Text": "son\u0027s"
         }
       ]
     },
@@ -1721,6 +1657,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2337,11 +2274,11 @@
         {
           "Bounds": {
             "X": 285,
-            "Y": 1370,
-            "Width": 99,
-            "Height": 118
+            "Y": 1381,
+            "Width": 130,
+            "Height": 48
           },
-          "Text": "een"
+          "Text": "even"
         }
       ]
     },
@@ -2531,12 +2468,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 393,
-            "Y": 1438,
-            "Width": 54,
-            "Height": 50
+            "X": 289,
+            "Y": 1439,
+            "Width": 168,
+            "Height": 48
           },
-          "Text": "ist"
+          "Text": "Christ"
         }
       ]
     },
@@ -3533,11 +3470,11 @@
         {
           "Bounds": {
             "X": 1564,
-            "Y": 1954,
-            "Width": 379,
-            "Height": 61
+            "Y": 1960,
+            "Width": 409,
+            "Height": 48
           },
-          "Text": "Amalickiabites"
+          "Text": "Amalickiahites"
         }
       ]
     },
@@ -4934,11 +4871,11 @@
         {
           "Bounds": {
             "X": 1446,
-            "Y": 2667,
-            "Width": 167,
-            "Height": 63
+            "Y": 2674,
+            "Width": 203,
+            "Height": 48
           },
-          "Text": "againgt"
+          "Text": "against"
         }
       ]
     },
@@ -5719,6 +5656,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6166,11 +6106,30 @@
         {
           "Bounds": {
             "X": 1900,
-            "Y": 3263,
-            "Width": 69,
-            "Height": 33
+            "Y": 3256,
+            "Width": 56,
+            "Height": 48
           },
-          "Text": "are"
+          "Text": "ar"
+        },
+        {
+          "Bounds": {
+            "X": 1974,
+            "Y": 3256,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 238,
+            "Y": 417,
+            "Width": 123,
+            "Height": 48
+          },
+          "IsOnNextPage": true,
+          "Text": "mies"
         }
       ]
     }

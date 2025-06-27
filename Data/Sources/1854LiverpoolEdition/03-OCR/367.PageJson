@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3613,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 367,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 206,
-            "Y": 342,
-            "Width": 127,
-            "Height": 48
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 369,
-            "Y": 324,
-            "Width": 120,
-            "Height": 69
-          },
-          "Text": "XXIV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 853,
-            "Y": 340,
-            "Width": 132,
-            "Height": 39
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1026,
-            "Y": 340,
-            "Width": 58,
-            "Height": 39
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1124,
-            "Y": 339,
-            "Width": 126,
-            "Height": 40
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -298,7 +234,7 @@
             "Width": 287,
             "Height": 60
           },
-          "Text": "Zarahemia"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -1070,7 +1006,7 @@
             "Width": 109,
             "Height": 48
           },
-          "Text": "sake"
+          "Text": "take"
         }
       ]
     },
@@ -1092,11 +1028,11 @@
         {
           "Bounds": {
             "X": 1339,
-            "Y": 869,
-            "Width": 197,
-            "Height": 114
+            "Y": 878,
+            "Width": 244,
+            "Height": 48
           },
-          "Text": "Weapons"
+          "Text": "weapons"
         }
       ]
     },
@@ -3399,10 +3335,23 @@
           "Bounds": {
             "X": 1029,
             "Y": 2030,
-            "Width": 360,
+            "Width": 100,
             "Height": 50
           },
-          "Text": "twothousand"
+          "Text": "two"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1129,
+            "Y": 2030,
+            "Width": 261,
+            "Height": 50
+          },
+          "Text": "thousand"
         }
       ]
     },
@@ -3419,16 +3368,30 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 1615,
             "Y": 2048,
-            "Width": 281,
+            "Width": 169,
             "Height": 48
           },
-          "Text": "youngmen"
+          "Text": "young"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1784,
+            "Y": 2048,
+            "Width": 113,
+            "Height": 48
+          },
+          "Text": "men"
         }
       ]
     },
@@ -5704,9 +5667,9 @@
         {
           "Bounds": {
             "X": 678,
-            "Y": 3132,
-            "Width": 162,
-            "Height": 63
+            "Y": 3139,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -5786,7 +5749,7 @@
             "Width": 59,
             "Height": 49
           },
-          "Text": "&ec"
+          "Text": "\u0026c"
         }
       ]
     }

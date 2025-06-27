@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3555,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 341,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 215,
-            "Y": 327,
-            "Width": 138,
-            "Height": 37
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 394,
-            "Y": 312,
-            "Width": 83,
-            "Height": 65
-          },
-          "Text": "XXI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 843,
-            "Y": 323,
-            "Width": 132,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1016,
-            "Y": 324,
-            "Width": 57,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1114,
-            "Y": 324,
-            "Width": 122,
-            "Height": 36
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +117,7 @@
             "Width": 270,
             "Height": 63
           },
-          "Text": "righteous'"
+          "Text": "righteous\u0027"
         }
       ]
     },
@@ -233,7 +169,7 @@
             "Width": 108,
             "Height": 58
           },
-          "Text": "gaid"
+          "Text": "said"
         }
       ]
     },
@@ -806,11 +742,16 @@
             "Height": 34
           },
           "Text": "cur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1869,
+            "Y": 671,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 208,
@@ -818,7 +759,7 @@
             "Width": 113,
             "Height": 60
           },
-          "Text": "ging"
+          "Text": "sing"
         }
       ]
     },
@@ -1953,6 +1894,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3237,9 +3179,9 @@
         {
           "Bounds": {
             "X": 1251,
-            "Y": 1760,
-            "Width": 160,
-            "Height": 61
+            "Y": 1766,
+            "Width": 195,
+            "Height": 48
           },
           "Text": "Judges"
         }
@@ -6199,7 +6141,7 @@
             "Width": 98,
             "Height": 41
           },
-          "Text": "pow"
+          "Text": "now"
         }
       ]
     },
