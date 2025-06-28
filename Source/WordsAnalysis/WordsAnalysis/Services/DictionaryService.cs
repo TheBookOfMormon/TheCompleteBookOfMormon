@@ -42,15 +42,9 @@ sealed class DictionaryService : IDictionaryService
         int indexOfSpace = text.IndexOf(' ');
         if (indexOfSpace > -1)
         {
-            string firstPart = text.Substring(0, indexOfSpace);
-            string secondPart = text.Substring(indexOfSpace + 1);
-            foreach (string[] secondPartResults in SplitTextIntoWords(secondPart))
-            {
-                yield return [firstPart, .. secondPartResults];
-            }
+            yield return text.Split(' ');
             yield break;
         }
-
 
         if (Dictionary.Contains(text))
         {
