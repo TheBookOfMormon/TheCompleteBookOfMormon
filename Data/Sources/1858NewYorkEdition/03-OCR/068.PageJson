@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 68,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 336,
-            "Y": 94,
-            "Width": 70,
-            "Height": 14
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 422,
-            "Y": 94,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 95,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 523,
-            "Y": 95,
-            "Width": 59,
-            "Height": 13
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -220,7 +169,7 @@
             "Width": 27,
             "Height": 17
           },
-          "Text": "tho"
+          "Text": "the"
         }
       ]
     },
@@ -307,40 +256,15 @@
         {
           "Bounds": {
             "X": 431,
-            "Y": 160,
-            "Width": 43,
-            "Height": 15
+            "Y": 161,
+            "Width": 102,
+            "Height": 14
           },
-          "Text": "head"
+          "Text": "head-bands"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 475,
-            "Y": 169,
-            "Width": 6,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 481,
-            "Y": 160,
-            "Width": 52,
-            "Height": 15
-          },
-          "Text": "bands"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -416,11 +340,7 @@
             "Height": 11
           },
           "Text": "ear"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 799,
@@ -429,11 +349,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 111,
@@ -443,7 +359,8 @@
           },
           "Text": "rings"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -489,40 +406,15 @@
         {
           "Bounds": {
             "X": 313,
-            "Y": 186,
-            "Width": 39,
-            "Height": 11
+            "Y": 185,
+            "Width": 106,
+            "Height": 14
           },
-          "Text": "nose"
+          "Text": "nose-jewels"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 355,
-            "Y": 190,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 358,
-            "Y": 181,
-            "Width": 54,
-            "Height": 20
-          },
-          "Text": "jewels"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -558,7 +450,7 @@
             "Width": 40,
             "Height": 15
           },
-          "Text": "snits"
+          "Text": "suits"
         }
       ]
     },
@@ -697,37 +589,11 @@
         {
           "Bounds": {
             "X": 448,
-            "Y": 203,
-            "Width": 71,
-            "Height": 20
+            "Y": 206,
+            "Width": 114,
+            "Height": 14
           },
-          "Text": "crisping"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 521,
-            "Y": 212,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 528,
-            "Y": 203,
-            "Width": 34,
-            "Height": 20
-          },
-          "Text": "pins"
+          "Text": "crisping-pins"
         }
       ]
     },
@@ -1806,7 +1672,7 @@
             "Width": 46,
             "Height": 15
           },
-          "Text": "round"
+          "Text": "ground"
         }
       ]
     },
@@ -2560,7 +2426,7 @@
             "Width": 63,
             "Height": 20
           },
-          "Text": "comcly"
+          "Text": "comely"
         }
       ]
     },
@@ -3198,11 +3064,7 @@
             "Height": 20
           },
           "Text": "daugh"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 802,
@@ -3211,11 +3073,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 110,
@@ -4068,7 +3926,7 @@
             "Width": 19,
             "Height": 15
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -4692,7 +4550,7 @@
             "Width": 25,
             "Height": 15
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     },
@@ -5252,11 +5110,7 @@
             "Height": 15
           },
           "Text": "wine"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 809,
@@ -5265,11 +5119,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 111,
@@ -5279,7 +5129,8 @@
           },
           "Text": "press"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5954,11 +5805,7 @@
             "Height": 15
           },
           "Text": "Where"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 809,
@@ -5967,11 +5814,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 111,
@@ -7536,10 +7379,10 @@
           "Bounds": {
             "X": 789,
             "Y": 1020,
-            "Width": 16,
-            "Height": 17
+            "Width": 27,
+            "Height": 16
           },
-          "Text": "fer"
+          "Text": "for"
         }
       ]
     },
@@ -7942,7 +7785,7 @@
             "Width": 46,
             "Height": 15
           },
-          "Text": "carth"
+          "Text": "earth"
         }
       ]
     },
@@ -9424,7 +9267,7 @@
             "Width": 34,
             "Height": 11
           },
-          "Text": "mcn"
+          "Text": "men"
         }
       ]
     },

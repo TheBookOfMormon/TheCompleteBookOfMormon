@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 44,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 314,
-            "Y": 95,
-            "Width": 52,
-            "Height": 13
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 381,
-            "Y": 94,
-            "Width": 48,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 445,
-            "Y": 95,
-            "Width": 21,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 94,
-            "Width": 53,
-            "Height": 14
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 326,
-            "Y": 181,
-            "Width": 141,
-            "Height": 16
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 181,
-            "Width": 32,
-            "Height": 16
-          },
-          "Text": "VI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -468,11 +391,7 @@
             "Height": 10
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 775,
@@ -481,11 +400,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 79,
@@ -1927,6 +1842,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6629,7 +6545,7 @@
             "Width": 7,
             "Height": 15
           },
-          "Text": "IT"
+          "Text": "I"
         }
       ]
     },
@@ -7374,6 +7290,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -7630,7 +7547,7 @@
             "Width": 47,
             "Height": 15
           },
-          "Text": "carth"
+          "Text": "earth"
         }
       ]
     },
@@ -7738,6 +7655,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -7760,7 +7678,7 @@
             "Width": 31,
             "Height": 15
           },
-          "Text": "eall"
+          "Text": "call"
         }
       ]
     },
@@ -9048,11 +8966,7 @@
             "Height": 21
           },
           "Text": "begin"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 784,
@@ -9061,6 +8975,16 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 53,
+            "Y": 134,
+            "Width": 39,
+            "Height": 19
+          },
+          "IsOnNextPage": true,
+          "Text": "ning"
         }
       ]
     }

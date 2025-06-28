@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1413,
   "ImageWidth": 887,
+  "ManuallyEdited": true,
   "PageNumber": 88,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 315,
-            "Y": 103,
-            "Width": 70,
-            "Height": 14
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 400,
-            "Y": 103,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 104,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 103,
-            "Width": 54,
-            "Height": 13
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 90,
-            "Y": 149,
-            "Width": 27,
-            "Height": 20
-          },
-          "Text": "ing"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -250,6 +186,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -793,11 +730,16 @@
             "Height": 18
           },
           "Text": "repent"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 785,
+            "Y": 214,
+            "Width": 15,
+            "Height": 15
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 90,
@@ -1182,7 +1124,7 @@
             "Width": 29,
             "Height": 15
           },
-          "Text": "ath"
+          "Text": "path"
         }
       ]
     },
@@ -1373,11 +1315,11 @@
         {
           "Bounds": {
             "X": 88,
-            "Y": 280,
+            "Y": 294,
             "Width": 41,
-            "Height": 39
+            "Height": 25
           },
-          "Text": "fers"
+          "Text": "have"
         }
       ]
     },
@@ -1572,7 +1514,7 @@
             "Width": 75,
             "Height": 16
           },
-          "Text": "reccived"
+          "Text": "received"
         }
       ]
     },
@@ -1898,11 +1840,7 @@
             "Height": 14
           },
           "Text": "enter"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 786,
@@ -1911,11 +1849,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 90,
@@ -2096,6 +2030,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2600,11 +2535,7 @@
             "Height": 10
           },
           "Text": "un"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 787,
@@ -2613,11 +2544,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 88,
@@ -3987,23 +3914,10 @@
           "Bounds": {
             "X": 587,
             "Y": 598,
-            "Width": 25,
-            "Height": 16
+            "Width": 71,
+            "Height": 15
           },
-          "Text": "dee"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 619,
-            "Y": 595,
-            "Width": 39,
-            "Height": 24
-          },
-          "Text": "irine"
+          "Text": "doctrine"
         }
       ]
     },
@@ -4250,7 +4164,7 @@
             "Width": 44,
             "Height": 21
           },
-          "Text": "lloly"
+          "Text": "Holy"
         }
       ]
     },
@@ -4362,51 +4276,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 406,
-            "Y": 699,
-            "Width": 38,
-            "Height": 9
-          },
-          "Text": "vee"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 326,
-            "Y": 747,
-            "Width": 143,
-            "Height": 17
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 747,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "XIV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 122,
             "Y": 790,
             "Width": 34,
             "Height": 16
           },
-          "Text": "Axp"
+          "Text": "And"
         }
       ]
     },
@@ -4550,11 +4425,7 @@
             "Height": 11
           },
           "Text": "some"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 788,
@@ -4563,6 +4434,15 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 89,
+            "Y": 813,
+            "Width": 44,
+            "Height": 15
+          },
+          "Text": "what"
         }
       ]
     },
@@ -4570,12 +4450,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 89,
+            "X": 133,
             "Y": 813,
-            "Width": 60,
+            "Width": 17,
             "Height": 15
           },
-          "Text": "whatin"
+          "Text": "in"
         }
       ]
     },
@@ -4696,6 +4576,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4732,11 +4613,7 @@
             "Height": 13
           },
           "Text": "enter"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 787,
@@ -4745,11 +4622,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 89,
@@ -6113,6 +5986,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6396,11 +6270,7 @@
             "Height": 16
           },
           "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 788,
@@ -6409,11 +6279,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 89,
@@ -7231,6 +7097,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -7813,11 +7680,7 @@
             "Height": 14
           },
           "Text": "utter"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 788,
@@ -7826,11 +7689,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 89,
@@ -8081,37 +7940,11 @@
         {
           "Bounds": {
             "X": 347,
-            "Y": 1221,
-            "Width": 34,
-            "Height": 15
+            "Y": 1222,
+            "Width": 133,
+            "Height": 13
           },
-          "Text": "stiff"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 382,
-            "Y": 1221,
-            "Width": 6,
-            "Height": 16
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 1221,
-            "Width": 100,
-            "Height": 16
-          },
-          "Text": "neckedness"
+          "Text": "stiff-neckedness"
         }
       ]
     },
@@ -8761,7 +8594,7 @@
             "Width": 99,
             "Height": 22
           },
-          "Text": "concernicg"
+          "Text": "concerning"
         }
       ]
     },

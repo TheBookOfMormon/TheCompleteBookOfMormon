@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 71,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 284,
-            "Y": 90,
-            "Width": 69,
-            "Height": 14
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 370,
-            "Y": 90,
-            "Width": 45,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 433,
-            "Y": 90,
-            "Width": 20,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 469,
-            "Y": 90,
-            "Width": 62,
-            "Height": 14
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -90,7 +39,7 @@
             "Width": 14,
             "Height": 16
           },
-          "Text": "iz"
+          "Text": "is"
         }
       ]
     },
@@ -870,7 +819,7 @@
             "Width": 61,
             "Height": 20
           },
-          "Text": "digcged"
+          "Text": "digged"
         }
       ]
     },
@@ -1568,89 +1517,11 @@
         {
           "Bounds": {
             "X": 428,
-            "Y": 306,
-            "Width": 54,
-            "Height": 16
+            "Y": 308,
+            "Width": 197,
+            "Height": 12
           },
-          "Text": "Maher"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 315,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 306,
-            "Width": 50,
-            "Height": 16
-          },
-          "Text": "shalal"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 315,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 550,
-            "Y": 306,
-            "Width": 40,
-            "Height": 16
-          },
-          "Text": "hash"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 592,
-            "Y": 315,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 307,
-            "Width": 29,
-            "Height": 15
-          },
-          "Text": "baz"
+          "Text": "Maher-shalal-hash-baz"
         }
       ]
     },
@@ -2015,11 +1886,7 @@
             "Height": 11
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 758,
@@ -2028,11 +1895,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 59,
@@ -2223,11 +2086,7 @@
             "Height": 15
           },
           "Text": "Maher"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 758,
@@ -2236,73 +2095,18 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 58,
-            "Y": 394,
-            "Width": 50,
-            "Height": 15
-          },
-          "Text": "shalal"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 110,
-            "Y": 394,
-            "Width": 10,
+            "Y": 395,
+            "Width": 147,
             "Height": 14
           },
-          "Text": "-"
+          "Text": "shalal-hash-baz"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 121,
-            "Y": 394,
-            "Width": 35,
-            "Height": 15
-          },
-          "Text": "hash"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 158,
-            "Y": 402,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 164,
-            "Y": 394,
-            "Width": 29,
-            "Height": 15
-          },
-          "Text": "baz"
-        }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -3081,11 +2885,7 @@
             "Height": 15
           },
           "Text": "Rema"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 757,
@@ -3094,11 +2894,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 57,
@@ -3106,7 +2902,7 @@
             "Width": 45,
             "Height": 15
           },
-          "Text": "liahs"
+          "Text": "liah\u0027s"
         }
       ]
     },
@@ -4641,11 +4437,7 @@
             "Height": 13
           },
           "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 759,
@@ -4654,11 +4446,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 57,
@@ -4718,7 +4506,7 @@
             "Width": 44,
             "Height": 11
           },
-          "Text": "eome"
+          "Text": "come"
         }
       ]
     },
@@ -4887,7 +4675,7 @@
             "Width": 13,
             "Height": 14
           },
-          "Text": "ig"
+          "Text": "is"
         }
       ]
     },
@@ -5317,11 +5105,7 @@
             "Height": 11
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 758,
@@ -5330,11 +5114,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 58,
@@ -6486,7 +6266,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -7032,7 +6812,7 @@
             "Width": 39,
             "Height": 15
           },
-          "Text": "bath"
+          "Text": "hath"
         }
       ]
     },
@@ -8736,11 +8516,7 @@
             "Height": 16
           },
           "Text": "dim"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 761,
@@ -8749,11 +8525,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 61,
@@ -9051,6 +8823,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -9216,7 +8989,7 @@
             "Width": 77,
             "Height": 20
           },
-          "Text": "Naphtalj"
+          "Text": "Naphtali"
         }
       ]
     },
@@ -9385,7 +9158,7 @@
             "Width": 27,
             "Height": 15
           },
-          "Text": "Seca"
+          "Text": "Sea"
         }
       ]
     },
@@ -9580,7 +9353,7 @@
             "Width": 35,
             "Height": 11
           },
-          "Text": "geen"
+          "Text": "seen"
         }
       ]
     },

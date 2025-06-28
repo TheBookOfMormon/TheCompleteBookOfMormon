@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 36,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 331,
-            "Y": 88,
-            "Width": 54,
-            "Height": 14
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 400,
-            "Y": 88,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 464,
-            "Y": 88,
-            "Width": 20,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 88,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -260,11 +209,16 @@
             "Height": 16
           },
           "Text": "wil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 791,
+            "Y": 134,
+            "Width": 16,
+            "Height": 16
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 92,
@@ -302,6 +256,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1082,6 +1037,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2704,11 +2660,7 @@
             "Height": 16
           },
           "Text": "breth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 794,
@@ -2717,11 +2669,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 93,
@@ -3292,6 +3240,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3951,7 +3900,7 @@
             "Width": 42,
             "Height": 21
           },
-          "Text": "ling"
+          "Text": "sling"
         }
       ]
     },
@@ -4121,6 +4070,19 @@
             "Height": 15
           },
           "Text": "go"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 193,
+            "Y": 654,
+            "Width": 17,
+            "Height": 16
+          },
+          "Text": "to"
         }
       ]
     },
@@ -4966,11 +4928,7 @@
             "Height": 15
           },
           "Text": "inso"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 796,
@@ -4979,11 +4937,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 95,
@@ -5251,7 +5205,7 @@
             "Width": 26,
             "Height": 16
           },
-          "Text": "ithe"
+          "Text": "the"
         }
       ]
     },
@@ -5382,11 +5336,7 @@
             "Height": 15
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 797,
@@ -5395,11 +5345,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 95,
@@ -6057,7 +6003,7 @@
             "Width": 60,
             "Height": 16
           },
-          "Text": "bebeld"
+          "Text": "beheld"
         }
       ]
     },
@@ -7995,11 +7941,7 @@
             "Height": 15
           },
           "Text": "bear"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 798,
@@ -8008,11 +7950,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 99,
@@ -8410,7 +8348,7 @@
             "Width": 65,
             "Height": 16
           },
-          "Text": "bumble"
+          "Text": "humble"
         }
       ]
     },
@@ -8843,6 +8781,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -8917,7 +8856,7 @@
             "Width": 47,
             "Height": 15
           },
-          "Text": "gpace"
+          "Text": "space"
         }
       ]
     },
