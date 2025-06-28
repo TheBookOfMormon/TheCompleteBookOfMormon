@@ -2,6 +2,8 @@
 
 This process operates in **two stages** to ensure that hyphenated word corrections are accurate and under my control.
 
+Only stop to ask questions at the point I have instructed you to.
+
 ---
 
 ## JSON File Structure Overview
@@ -49,7 +51,7 @@ Each `*.PageJson` file contains a top-level JSON object with at least the follow
 ## Stage 1: Identify Hyphenated Word Candidates
 
 ### Create Dictionary and Names lookups
-Create two in-memory lookup-tables (hash tables); one named "Names" and the other named "Dictionary"
+Create two in-memory case-insensitive lookup-tables (hash tables); one named "Names" and the other named "Dictionary"
 
 I have attached dictionary.txt (utf-8 encoded)
 Read each word in the file, when a word starts with `name:`
@@ -70,7 +72,7 @@ If the entry is marked as a **name** (it starts with `name:`), apply the followi
 ### General Words (lines not starting with `name:`)
 For each entry not starting with `name:`, apply the following transformations:
 
-   - If it ends in `E`, add:
+   - If it ends in `e, add:
      - `{entry}th`
      - `{entry[..^1]}ing`
      - `{entry[..^1]}ings`
@@ -78,46 +80,46 @@ For each entry not starting with `name:`, apply the following transformations:
      - `{entry}n`
      - `{entry}st`
 
-   - If it ends in `ING`, add:
+   - If it ends in `ing`, add:
      - `{entry}ly`
 
-   - If it ends in `LL`, add:
-     - `{entry}eth`
-
-   - If it ends in `L` (but not `LL`), add:
+   - If it ends in `l` (but not `ll`), add:
      - `{entry}leth`
      - `{entry}ling`
 
-   - If it ends in `N`, add:
+   - If it ends in `ll`, add:
+     - `{entry}eth`
+
+   - If it ends in `n`, add:
      - `{entry}neth`
      - `{entry}ning`
 
-   - If it ends in `SS`, add:
+   - If it ends in `ss`, add:
      - `{entry}es`
 
-   - If it ends in `EY`, add:
+   - If it ends in `ey`, add:
      - `{entry}eth`
      - `{entry[..^2]}ies`
      - `{entry[..^2]}ieth`
      - `{entry[..^2]}ied`
 
-   - If it ends with `Y` and NOT `EY`, add:
+   - If it ends with `y` (but not `ey`), add:
      - `{entry}eth`
      - `{entry[..^1]}ies`
      - `{entry[..^1]}ieth`
      - `{entry[..^1]}ied`
 
-   - - If it ends in `ED`, add:
+   - - If it ends in `ed`, add:
      - `{entry[..^2]}eth`
      - `{entry[..^2]}est`
 
    - If it ends in a consonant-vowel-consonant pattern (CVC), add:
      - `{entry}{lastChar}ing`
 
-   - If it ends in a consonant followed by `L`, add:
+   - If it ends in a consonant followed by `l`, add:
      - `{entry}led`
 
-   - If it does **not** end in `E`, add:
+   - If it does **not** end in `e`, add:
      - `{entry}eth`
      - `{entry}ing`
      - `{entry}ings`
@@ -125,7 +127,7 @@ For each entry not starting with `name:`, apply the following transformations:
      - `{entry}es`
      - `{entry}ed` (unless it already ends in `ed`)
 
-   - If it does **not** end in `S`, add:
+   - If it does **not** end in `s`, add:
      - `{entry}s`
 
    - If it contains `our`, add:
@@ -134,10 +136,8 @@ For each entry not starting with `name:`, apply the following transformations:
    - If it contains `ise`, add:
      - `{entry}` with `ise` replaced by `ize`
 
-
 ## Scan for combinable words
 Next, scan all `*.PageJson` files to identify `[word] - [word]` sequences
-
 
 ### Simple Word:
 A Simple Word is any object in the Words array that has only a single object in its Elements array.
@@ -145,17 +145,19 @@ A Simple Word is any object in the Words array that has only a single object in 
 ### Combined Words:
 - Each item in the triplet must be a simple word.
 - The middle item's element's Text must be a hyphen (`-`).
-- The first and third elements must be alphabetic words.
+- The first and third elements must be alphabetic words (including ')
 
 ### Combined Words Filtering:
 - Recombine the first and third word (e.g., `"command" + "ed" = "commanded"`).
 - Exclude any recombined words that are less than 4 characters long (after removing the hyphen)
 
 ### Valid Composite Words:
+The purpose of Valid Composite Words is to rule out Candidate Words (description below).
+
 Build a set of Valid Composite Words using two separate passes:
 
 Pass 1: Simple Hyphenated Words
-Scan all Words entries in all PageJson files:
+Scan all Words entries in all PageJson files where "ManuallyEdited" is "true":
 
 If an entry matches all of the following criteria
    1. it is a simple word (Elements.length == 1) 
@@ -167,31 +169,47 @@ Then you should
    → and record the page number it appears on.
 
 Pass 2: Compound [word] - [word] Triplets
-Scan all [A] [B] [C] triplets in each file:
+Scan all [A] [B] [C] triplets in ALL PageJson files:
 
-A, B, C must each be simple words.
+A, B, C must each be simple words (only have a single Element).
 
 B's Text must be a single hyphen (-).
 
-A and C must satisfy all of the following
-   1: Be alphabetic
-   2: Must be present in the Dictionary lookup-table
-   3: Must appear on the same line
+A's and C's single element's Text must satisfy all of the following
+   1: Must be present in the Dictionary lookup-table
+   2: Must appear on the same line as each other
 
-→ If all these conditions are met, add the combined A.Text + "-" + C.Text to the Valid Composite Words set.
+→ If all these conditions are met, then add the combined A.Text + "-" + C.Text to the Valid Composite Words set.
 → Also record the page number it appears on.
+→ `father-in-law` should always be considered a Valid Composite Word, not `father-in` or `in-law`
 
 ### Candidate Words:
 Candidate words are Combined Words where all of the following are true:
 - the first and last elements are on different lines
-- it is not in the set of Valid Composite Words (case insensitive comparison)
-- the dehyphenated word is in the dictionary lookup table
+- when the text of the 3 elements is concatenated, it is not in the set of Valid Composite Words (case insensitive comparison)
+- when the text of the 1st and 3rd elements are concatenated, the result is in the dictionary lookup table
+
+#### Valid
+Assuming "split" is in the dictionary, then this text contains a Candidate Word
+```
+The last word is spl-
+it across two lines.
+```
+
+### Invalid
+Assuming "head-plates" is in the list of Valid Composite Words, then this text does NOT contain a candidate word
+```
+He word his head-
+plates to battle
+```
 
 ### Output
 First output a *table* of Valid Composite Words (with hyphens intact) as a sorted set, with the first page on which the word appears.
-I will then either tell you which entries to remove from the list of Candidate Words or Valid Composite words or tell you to continue
+I will then either tell you which entries to remove from the list of Valid Composite Words or tell you to continued
 
 Then recalculate the list of Candidate Words and present output a table of Candidate Words (dehyphenated) as a sorted set, with the first page on which the word appears.
+Ask me which to remove, or to continue.
+
 ---
 
 ## Stage 2: Apply Hyphenation Merges to PageJson Files
