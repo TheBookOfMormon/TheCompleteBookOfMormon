@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3579,
   "ImageWidth": 2157,
+  "ManuallyEdited": true,
   "PageNumber": 438,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 816,
-            "Y": 335,
-            "Width": 129,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 988,
-            "Y": 334,
-            "Width": 58,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1088,
-            "Y": 334,
-            "Width": 230,
-            "Height": 37
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1710,
-            "Y": 322,
-            "Width": 123,
-            "Height": 65
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1312,7 +1261,7 @@
             "Width": 135,
             "Height": 50
           },
-          "Text": "wells"
+          "Text": "walls"
         }
       ]
     },
@@ -4002,10 +3951,23 @@
           "Bounds": {
             "X": 1557,
             "Y": 2152,
-            "Width": 261,
+            "Width": 95,
             "Height": 48
           },
-          "Text": "theintent"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1652,
+            "Y": 2152,
+            "Width": 167,
+            "Height": 48
+          },
+          "Text": "intent"
         }
       ]
     },
@@ -4802,6 +4764,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5994,7 +5957,7 @@
             "Width": 144,
             "Height": 61
           },
-          "Text": "eople"
+          "Text": "people"
         }
       ]
     },
@@ -6137,7 +6100,7 @@
             "Width": 198,
             "Height": 60
           },
-          "Text": "ephites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -6419,9 +6382,9 @@
         {
           "Bounds": {
             "X": 1786,
-            "Y": 3180,
-            "Width": 160,
-            "Height": 63
+            "Y": 3187,
+            "Width": 192,
+            "Height": 48
           },
           "Text": "judges"
         }

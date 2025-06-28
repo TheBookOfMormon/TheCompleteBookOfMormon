@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3575,
   "ImageWidth": 2157,
+  "ManuallyEdited": true,
   "PageNumber": 435,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 191,
-            "Y": 318,
-            "Width": 119,
-            "Height": 39
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 771,
-            "Y": 314,
-            "Width": 129,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 943,
-            "Y": 313,
-            "Width": 55,
-            "Height": 37
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1042,
-            "Y": 314,
-            "Width": 230,
-            "Height": 36
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1301,7 +1250,7 @@
           "Bounds": {
             "X": 512,
             "Y": 969,
-            "Width": 251,
+            "Width": 271,
             "Height": 48
           },
           "Text": "whosover"
@@ -4828,6 +4777,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5337,6 +5287,19 @@
             "Height": 48
           },
           "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 265,
+            "Y": 2771,
+            "Width": 51,
+            "Height": 48
+          },
+          "Text": "is"
         }
       ]
     },
@@ -6403,32 +6366,6 @@
             "Height": 55
           },
           "Text": "should"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1143,
-            "Y": 3397,
-            "Width": 2,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1191,
-            "Y": 3422,
-            "Width": 7,
-            "Height": 10
-          },
-          "Text": "A"
         }
       ]
     }

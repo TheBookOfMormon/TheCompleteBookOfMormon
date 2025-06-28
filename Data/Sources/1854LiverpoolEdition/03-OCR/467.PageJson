@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3587,
   "ImageWidth": 2161,
+  "ManuallyEdited": true,
   "PageNumber": 467,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 230,
-            "Y": 336,
-            "Width": 135,
-            "Height": 41
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 850,
-            "Y": 338,
-            "Width": 132,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1011,
-            "Y": 319,
-            "Width": 69,
-            "Height": 55
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1124,
-            "Y": 339,
-            "Width": 166,
-            "Height": 37
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 228,
-            "Y": 415,
-            "Width": 171,
-            "Height": 61
-          },
-          "Text": "mility"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1225,6 +1161,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1508,11 +1445,16 @@
             "Height": 49
           },
           "Text": "bles"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1882,
+            "Y": 994,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 225,
@@ -1568,37 +1510,11 @@
         {
           "Bounds": {
             "X": 697,
-            "Y": 1058,
-            "Width": 142,
-            "Height": 62
+            "Y": 1068,
+            "Width": 359,
+            "Height": 42
           },
-          "Text": "peace"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 848,
-            "Y": 1058,
-            "Width": 28,
-            "Height": 62
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 862,
-            "Y": 1058,
-            "Width": 167,
-            "Height": 62
-          },
-          "Text": "makers"
+          "Text": "peace-makers"
         }
       ]
     },
@@ -1876,7 +1792,7 @@
             "Width": 179,
             "Height": 49
           },
-          "Text": "name's"
+          "Text": "name\u0027s"
         }
       ]
     },
@@ -3233,7 +3149,7 @@
             "Width": 99,
             "Height": 45
           },
-          "Text": "east"
+          "Text": "cast"
         }
       ]
     },
@@ -4859,11 +4775,7 @@
             "Height": 46
           },
           "Text": "pas"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1872,
@@ -4872,11 +4784,7 @@
             "Height": 46
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 211,
@@ -4884,7 +4792,7 @@
             "Width": 92,
             "Height": 47
           },
-          "Text": "ped"
+          "Text": "sed"
         }
       ]
     },
@@ -5109,6 +5017,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6690,10 +6599,23 @@
           "Bounds": {
             "X": 1623,
             "Y": 3111,
-            "Width": 132,
+            "Width": 74,
             "Height": 48
           },
-          "Text": "bein"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1697,
+            "Y": 3111,
+            "Width": 59,
+            "Height": 48
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6980,11 +6902,11 @@
         {
           "Bounds": {
             "X": 1520,
-            "Y": 3237,
-            "Width": 44,
-            "Height": 111
+            "Y": 3244,
+            "Width": 52,
+            "Height": 48
           },
-          "Text": "io"
+          "Text": "in"
         }
       ]
     },
@@ -6993,11 +6915,11 @@
         {
           "Bounds": {
             "X": 1607,
-            "Y": 3228,
-            "Width": 167,
-            "Height": 119
+            "Y": 3239,
+            "Width": 190,
+            "Height": 48
           },
-          "Text": "Janger"
+          "Text": "danger"
         }
       ]
     },

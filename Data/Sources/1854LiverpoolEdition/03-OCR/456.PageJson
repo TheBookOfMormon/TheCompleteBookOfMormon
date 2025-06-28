@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3563,
   "ImageWidth": 2157,
+  "ManuallyEdited": true,
   "PageNumber": 456,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 879,
-            "Y": 318,
-            "Width": 132,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1052,
-            "Y": 320,
-            "Width": 55,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1151,
-            "Y": 318,
-            "Width": 125,
-            "Height": 36
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1658,
-            "Y": 304,
-            "Width": 154,
-            "Height": 65
-          },
-          "Text": "fcuap"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1866,
-            "Y": 321,
-            "Width": 53,
-            "Height": 38
-          },
-          "Text": "m1"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1823,10 +1759,23 @@
           "Bounds": {
             "X": 1066,
             "Y": 1168,
-            "Width": 226,
+            "Width": 123,
             "Height": 60
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1189,
+            "Y": 1168,
+            "Width": 104,
+            "Height": 60
+          },
+          "Text": "that"
         }
       ]
     },
@@ -2664,11 +2613,11 @@
         {
           "Bounds": {
             "X": 887,
-            "Y": 1557,
-            "Width": 323,
-            "Height": 58
+            "Y": 1562,
+            "Width": 324,
+            "Height": 48
           },
-          "Text": "governinent"
+          "Text": "government"
         }
       ]
     },
@@ -3664,6 +3613,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 269,
+            "Y": 2068,
+            "Width": 64,
+            "Height": 48
+          },
+          "Text": "so"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 393,
             "Y": 2068,
             "Width": 98,
@@ -4129,7 +4091,7 @@
             "Width": 171,
             "Height": 48
           },
-          "Text": "aftairs"
+          "Text": "affairs"
         }
       ]
     },
@@ -6046,6 +6008,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6160,11 +6123,7 @@
             "Height": 30
           },
           "Text": "an"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1934,
@@ -6173,11 +6132,7 @@
             "Height": 9
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 259,
@@ -6185,7 +6140,7 @@
             "Width": 98,
             "Height": 55
           },
-          "Text": "els"
+          "Text": "gels"
         }
       ]
     },

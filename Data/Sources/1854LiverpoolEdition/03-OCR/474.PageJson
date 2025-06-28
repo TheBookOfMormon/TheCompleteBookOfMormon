@@ -1,73 +1,9 @@
 {
   "ImageHeight": 3577,
   "ImageWidth": 2157,
+  "ManuallyEdited": true,
   "PageNumber": 474,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 884,
-            "Y": 338,
-            "Width": 131,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1055,
-            "Y": 338,
-            "Width": 53,
-            "Height": 35
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1152,
-            "Y": 338,
-            "Width": 152,
-            "Height": 37
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1686,
-            "Y": 325,
-            "Width": 134,
-            "Height": 66
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1861,
-            "Y": 341,
-            "Width": 74,
-            "Height": 37
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1579,10 +1515,36 @@
           "Bounds": {
             "X": 1164,
             "Y": 993,
-            "Width": 309,
+            "Width": 110,
             "Height": 62
           },
-          "Text": "willIgather"
+          "Text": "will"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1274,
+            "Y": 993,
+            "Width": 27,
+            "Height": 62
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1301,
+            "Y": 993,
+            "Width": 197,
+            "Height": 62
+          },
+          "Text": "gather"
         }
       ]
     },
@@ -3068,6 +3030,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3234,11 +3197,16 @@
             "Height": 44
           },
           "Text": "scat"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1944,
+            "Y": 1769,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 258,
@@ -3480,7 +3448,7 @@
             "Width": 54,
             "Height": 47
           },
-          "Text": "cf"
+          "Text": "of"
         }
       ]
     },
@@ -3554,11 +3522,11 @@
         {
           "Bounds": {
             "X": 257,
-            "Y": 1908,
-            "Width": 113,
-            "Height": 98
+            "Y": 1957,
+            "Width": 129,
+            "Height": 48
           },
-          "Text": "From"
+          "Text": "from"
         }
       ]
     },
@@ -4546,7 +4514,7 @@
             "Width": 99,
             "Height": 46
           },
-          "Text": "cdst"
+          "Text": "cast"
         }
       ]
     },
@@ -4776,37 +4744,11 @@
         {
           "Bounds": {
             "X": 1484,
-            "Y": 2407,
-            "Width": 91,
-            "Height": 62
+            "Y": 2416,
+            "Width": 260,
+            "Height": 44
           },
-          "Text": "bye"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1586,
-            "Y": 2407,
-            "Width": 28,
-            "Height": 62
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1599,
-            "Y": 2407,
-            "Width": 140,
-            "Height": 62
-          },
-          "Text": "word"
+          "Text": "bye-word"
         }
       ]
     },
@@ -5122,6 +5064,14 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {

@@ -1,86 +1,9 @@
 {
   "ImageHeight": 3559,
   "ImageWidth": 2165,
+  "ManuallyEdited": true,
   "PageNumber": 556,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1099,
-            "Y": 252,
-            "Width": 9,
-            "Height": 9
-          },
-          "Text": "ro"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 916,
-            "Y": 342,
-            "Width": 132,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1089,
-            "Y": 342,
-            "Width": 56,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1188,
-            "Y": 343,
-            "Width": 163,
-            "Height": 35
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1722,
-            "Y": 328,
-            "Width": 152,
-            "Height": 66
-          },
-          "Text": "cHAT"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1915,
-            "Y": 343,
-            "Width": 59,
-            "Height": 36
-          },
-          "Text": "VL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +104,7 @@
             "Width": 173,
             "Height": 56
           },
-          "Text": "bef8re"
+          "Text": "before"
         }
       ]
     },
@@ -1100,6 +1023,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3256,7 +3180,7 @@
             "Width": 81,
             "Height": 46
           },
-          "Text": "she"
+          "Text": "the"
         }
       ]
     },
@@ -4465,7 +4389,7 @@
             "Width": 185,
             "Height": 62
           },
-          "Text": "baving"
+          "Text": "having"
         }
       ]
     },
@@ -4500,37 +4424,11 @@
         {
           "Bounds": {
             "X": 832,
-            "Y": 2354,
-            "Width": 158,
-            "Height": 62
+            "Y": 2364,
+            "Width": 342,
+            "Height": 42
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 999,
-            "Y": 2381,
-            "Width": 13,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1013,
-            "Y": 2354,
-            "Width": 157,
-            "Height": 62
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -4552,37 +4450,11 @@
         {
           "Bounds": {
             "X": 1331,
-            "Y": 2354,
-            "Width": 97,
-            "Height": 62
+            "Y": 2364,
+            "Width": 309,
+            "Height": 42
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1460,
-            "Y": 2381,
-            "Width": 15,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1475,
-            "Y": 2354,
-            "Width": 131,
-            "Height": 62
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -5184,6 +5056,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5800,11 +5673,11 @@
         {
           "Bounds": {
             "X": 277,
-            "Y": 2930,
-            "Width": 82,
-            "Height": 46
+            "Y": 2929,
+            "Width": 90,
+            "Height": 48
           },
-          "Text": "tne"
+          "Text": "the"
         }
       ]
     },
@@ -6095,7 +5968,7 @@
             "Width": 84,
             "Height": 47
           },
-          "Text": "tiie"
+          "Text": "the"
         }
       ]
     },
@@ -6251,7 +6124,7 @@
             "Width": 97,
             "Height": 44
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -6394,7 +6267,7 @@
             "Width": 124,
             "Height": 48
           },
-          "Text": "slaiir"
+          "Text": "slain"
         }
       ]
     },
@@ -6577,11 +6450,7 @@
             "Height": 63
           },
           "Text": "epis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1949,
@@ -6590,6 +6459,16 @@
             "Height": 10
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 202,
+            "Y": 428,
+            "Width": 71,
+            "Height": 48
+          },
+          "IsOnNextPage": true,
+          "Text": "tle"
         }
       ]
     }

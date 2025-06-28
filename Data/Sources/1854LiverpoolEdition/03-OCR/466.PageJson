@@ -1,60 +1,9 @@
 {
   "ImageHeight": 3571,
   "ImageWidth": 2157,
+  "ManuallyEdited": true,
   "PageNumber": 466,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 899,
-            "Y": 309,
-            "Width": 131,
-            "Height": 40
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1071,
-            "Y": 311,
-            "Width": 58,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1171,
-            "Y": 310,
-            "Width": 165,
-            "Height": 38
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1742,
-            "Y": 300,
-            "Width": 135,
-            "Height": 63
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -450,14 +399,15 @@
         {
           "Bounds": {
             "X": 1633,
-            "Y": 517,
-            "Width": 285,
-            "Height": 62
+            "Y": 524,
+            "Width": 324,
+            "Height": 48
           },
           "Text": "everywhere"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2283,11 +2233,24 @@
         {
           "Bounds": {
             "X": 275,
-            "Y": 1364,
-            "Width": 26,
-            "Height": 38
+            "Y": 1363,
+            "Width": 81,
+            "Height": 40
           },
-          "Text": "us"
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 356,
+            "Y": 1363,
+            "Width": 40,
+            "Height": 40
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2440,10 +2403,10 @@
           "Bounds": {
             "X": 1916,
             "Y": 1355,
-            "Width": 48,
+            "Width": 52,
             "Height": 48
           },
-          "Text": "im"
+          "Text": "in"
         }
       ]
     },
@@ -2560,7 +2523,7 @@
             "Width": 127,
             "Height": 44
           },
-          "Text": "unte"
+          "Text": "unto"
         }
       ]
     },
@@ -3067,7 +3030,7 @@
             "Width": 166,
             "Height": 48
           },
-          "Text": "'whoso"
+          "Text": "whoso"
         }
       ]
     },
@@ -3311,10 +3274,10 @@
           "Bounds": {
             "X": 1794,
             "Y": 1740,
-            "Width": 140,
+            "Width": 183,
             "Height": 48
           },
-          "Text": "whose"
+          "Text": "whoso"
         }
       ]
     },
@@ -4003,7 +3966,7 @@
             "Width": 190,
             "Height": 47
           },
-          "Text": "erefore"
+          "Text": "Therefore"
         }
       ]
     },
@@ -5343,11 +5306,16 @@
             "Height": 34
           },
           "Text": "ser"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1960,
+            "Y": 2649,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 270,
@@ -6739,11 +6707,7 @@
             "Height": 48
           },
           "Text": "hu"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1954,
@@ -6752,6 +6716,16 @@
             "Height": 11
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 228,
+            "Y": 415,
+            "Width": 171,
+            "Height": 61
+          },
+          "IsOnNextPage": true,
+          "Text": "mility"
         }
       ]
     }
