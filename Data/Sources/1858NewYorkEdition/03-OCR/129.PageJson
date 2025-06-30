@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1408,
   "ImageWidth": 879,
+  "ManuallyEdited": true,
   "PageNumber": 129,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 323,
-            "Y": 80,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 80,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 425,
-            "Y": 79,
-            "Width": 69,
-            "Height": 13
-          },
-          "Text": "MNOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -931,6 +893,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2878,6 +2841,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4487,11 +4451,16 @@
             "Height": 11
           },
           "Text": "mes"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 767,
+            "Y": 643,
+            "Width": 16,
+            "Height": 16
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 62,
@@ -6810,7 +6779,7 @@
             "Width": 30,
             "Height": 16
           },
-          "Text": "vou"
+          "Text": "you"
         }
       ]
     },
@@ -7288,10 +7257,23 @@
           "Bounds": {
             "X": 500,
             "Y": 986,
-            "Width": 33,
-            "Height": 15
+            "Width": 9,
+            "Height": 16
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 509,
+            "Y": 986,
+            "Width": 27,
+            "Height": 16
+          },
+          "Text": "am"
         }
       ]
     },
@@ -8149,7 +8131,7 @@
             "Width": 26,
             "Height": 11
           },
-          "Text": "our"
+          "Text": "your"
         }
       ]
     },

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 176,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 365,
-            "Y": 94,
-            "Width": 46,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 95,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 95,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -207,7 +169,7 @@
             "Width": 25,
             "Height": 14
           },
-          "Text": "get"
+          "Text": "set"
         }
       ]
     },
@@ -302,6 +264,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -690,10 +653,23 @@
           "Bounds": {
             "X": 269,
             "Y": 203,
-            "Width": 40,
+            "Width": 8,
             "Height": 19
           },
-          "Text": "I'say"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 277,
+            "Y": 203,
+            "Width": 33,
+            "Height": 19
+          },
+          "Text": "say"
         }
       ]
     },
@@ -807,10 +783,23 @@
           "Bounds": {
             "X": 674,
             "Y": 203,
-            "Width": 39,
+            "Width": 8,
             "Height": 20
           },
-          "Text": "Isay"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 682,
+            "Y": 203,
+            "Width": 32,
+            "Height": 20
+          },
+          "Text": "say"
         }
       ]
     },
@@ -832,11 +821,11 @@
         {
           "Bounds": {
             "X": 767,
-            "Y": 209,
-            "Width": 21,
-            "Height": 15
+            "Y": 208,
+            "Width": 36,
+            "Height": 17
           },
-          "Text": "vou"
+          "Text": "you"
         }
       ]
     },
@@ -1227,11 +1216,7 @@
             "Height": 10
           },
           "Text": "en"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 795,
@@ -1240,11 +1225,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 94,
@@ -1252,7 +1233,7 @@
             "Width": 46,
             "Height": 16
           },
-          "Text": "cirele"
+          "Text": "circle"
         }
       ]
     },
@@ -2505,7 +2486,7 @@
             "Width": 72,
             "Height": 16
           },
-          "Text": "Zecezrom"
+          "Text": "Zeezrom"
         }
       ]
     },
@@ -3246,7 +3227,7 @@
             "Width": 19,
             "Height": 15
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5461,7 +5442,7 @@
             "Width": 21,
             "Height": 19
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -5539,7 +5520,7 @@
             "Width": 70,
             "Height": 15
           },
-          "Text": "Amnulek"
+          "Text": "Amulek"
         }
       ]
     },
@@ -6931,6 +6912,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -7980,7 +7962,7 @@
             "Width": 74,
             "Height": 15
           },
-          "Text": "mereiful"
+          "Text": "merciful"
         }
       ]
     },
@@ -8266,7 +8248,7 @@
             "Width": 78,
             "Height": 20
           },
-          "Text": "pringeth"
+          "Text": "bringeth"
         }
       ]
     },
@@ -8721,7 +8703,7 @@
             "Width": 34,
             "Height": 15
           },
-          "Text": "ging"
+          "Text": "sins"
         }
       ]
     },
@@ -8916,7 +8898,7 @@
             "Width": 24,
             "Height": 15
           },
-          "Text": "dic"
+          "Text": "die"
         }
       ]
     },
@@ -9199,23 +9181,10 @@
           "Bounds": {
             "X": 454,
             "Y": 1218,
-            "Width": 18,
-            "Height": 14
+            "Width": 86,
+            "Height": 15
           },
-          "Text": "br"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 1206,
-            "Width": 66,
-            "Height": 32
-          },
-          "Text": "imstone"
+          "Text": "brimstone"
         }
       ]
     },
@@ -9284,6 +9253,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

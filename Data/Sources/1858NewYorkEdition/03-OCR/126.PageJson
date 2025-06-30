@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 126,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 366,
-            "Y": 107,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 107,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 107,
-            "Width": 70,
-            "Height": 13
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -606,16 +568,21 @@
         {
           "Bounds": {
             "X": 747,
-            "Y": 200,
+            "Y": 198,
             "Width": 49,
-            "Height": 10
+            "Height": 14
           },
-          "Text": "concus"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "concu"
+        },
+        {
+          "Bounds": {
+            "X": 802,
+            "Y": 197,
+            "Width": 16,
+            "Height": 16
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 102,
@@ -2071,7 +2038,7 @@
             "Width": 43,
             "Height": 11
           },
-          "Text": "eame"
+          "Text": "came"
         }
       ]
     },
@@ -2682,7 +2649,7 @@
             "Width": 30,
             "Height": 16
           },
-          "Text": "alzo"
+          "Text": "also"
         }
       ]
     },
@@ -4460,7 +4427,7 @@
             "Width": 15,
             "Height": 11
           },
-          "Text": "zo"
+          "Text": "so"
         }
       ]
     },
@@ -4577,7 +4544,7 @@
             "Width": 66,
             "Height": 16
           },
-          "Text": "thercof"
+          "Text": "thereof"
         }
       ]
     },
@@ -4670,10 +4637,10 @@
           "Bounds": {
             "X": 262,
             "Y": 710,
-            "Width": 42,
+            "Width": 63,
             "Height": 16
           },
-          "Text": "Shilo"
+          "Text": "Shilom"
         }
       ]
     },
@@ -6584,7 +6551,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -7026,12 +6993,8 @@
             "Width": 29,
             "Height": 15
           },
-          "Text": "pco"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "peo"
+        },
         {
           "Bounds": {
             "X": 803,
@@ -7040,11 +7003,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 105,
@@ -7078,7 +7037,7 @@
             "Width": 46,
             "Height": 15
           },
-          "Text": "smull"
+          "Text": "small"
         }
       ]
     },
@@ -7759,7 +7718,7 @@
             "Width": 51,
             "Height": 16
           },
-          "Text": "locks"
+          "Text": "flocks"
         }
       ]
     },
@@ -9285,7 +9244,7 @@
             "Width": 43,
             "Height": 16
           },
-          "Text": "riests"
+          "Text": "priests"
         }
       ]
     },

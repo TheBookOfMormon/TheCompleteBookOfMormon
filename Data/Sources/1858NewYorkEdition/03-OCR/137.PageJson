@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 137,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 363,
-            "Y": 80,
-            "Width": 46,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 427,
-            "Y": 80,
-            "Width": 19,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 464,
-            "Y": 80,
-            "Width": 76,
-            "Height": 14
-          },
-          "Text": "MOSIALL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1282,6 +1244,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1998,7 +1961,7 @@
             "Width": 31,
             "Height": 11
           },
-          "Text": "onc"
+          "Text": "one"
         }
       ]
     },
@@ -2778,7 +2741,7 @@
             "Width": 57,
             "Height": 16
           },
-          "Text": "scarch"
+          "Text": "search"
         }
       ]
     },
@@ -3155,7 +3118,7 @@
             "Width": 58,
             "Height": 20
           },
-          "Text": "pricsts"
+          "Text": "priests"
         }
       ]
     },
@@ -3516,10 +3479,10 @@
           "Bounds": {
             "X": 713,
             "Y": 536,
-            "Width": 44,
-            "Height": 15
+            "Width": 52,
+            "Height": 16
           },
-          "Text": "thosze"
+          "Text": "those"
         }
       ]
     },
@@ -3636,7 +3599,7 @@
             "Width": 39,
             "Height": 15
           },
-          "Text": "seck"
+          "Text": "seek"
         }
       ]
     },
@@ -4911,11 +4874,16 @@
             "Height": 15
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 805,
+            "Y": 709,
+            "Width": 16,
+            "Height": 16
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 99,
@@ -6379,7 +6347,7 @@
             "Width": 33,
             "Height": 20
           },
-          "Text": "stay"
+          "Text": "slay"
         }
       ]
     },
@@ -6756,7 +6724,7 @@
             "Width": 24,
             "Height": 16
           },
-          "Text": "bis"
+          "Text": "his"
         }
       ]
     },
@@ -7640,7 +7608,7 @@
             "Width": 25,
             "Height": 16
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     },
@@ -7650,23 +7618,10 @@
           "Bounds": {
             "X": 99,
             "Y": 1081,
-            "Width": 38,
-            "Height": 15
+            "Width": 64,
+            "Height": 16
           },
-          "Text": "guar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 138,
-            "Y": 1067,
-            "Width": 21,
-            "Height": 24
-          },
-          "Text": "ds"
+          "Text": "guards"
         }
       ]
     },
@@ -7952,7 +7907,7 @@
             "Width": 74,
             "Height": 20
           },
-          "Text": "kingdem"
+          "Text": "kingdom"
         }
       ]
     },
@@ -7982,6 +7937,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -8429,6 +8385,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -8929,10 +8886,10 @@
           "Bounds": {
             "X": 239,
             "Y": 1249,
-            "Width": 42,
-            "Height": 15
+            "Width": 47,
+            "Height": 16
           },
-          "Text": "Neal"
+          "Text": "Noah"
         }
       ]
     },

@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 123,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 324,
-            "Y": 95,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 387,
-            "Y": 95,
-            "Width": 21,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 424,
-            "Y": 95,
-            "Width": 65,
-            "Height": 13
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -116,7 +78,7 @@
             "Width": 50,
             "Height": 15
           },
-          "Text": "flecth"
+          "Text": "fleeth"
         }
       ]
     },
@@ -345,38 +307,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 311,
-            "Y": 268,
-            "Width": 142,
-            "Height": 16
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 268,
-            "Width": 31,
-            "Height": 15
-          },
-          "Text": "VI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 267,
             "Y": 311,
             "Width": 40,
             "Height": 16
           },
-          "Text": "Tne"
+          "Text": "The"
         }
       ]
     },
@@ -389,7 +325,7 @@
             "Width": 83,
             "Height": 16
           },
-          "Text": "RECORD"
+          "Text": "Record"
         }
       ]
     },
@@ -402,7 +338,7 @@
             "Width": 22,
             "Height": 12
           },
-          "Text": "OF"
+          "Text": "of"
         }
       ]
     },
@@ -415,7 +351,7 @@
             "Width": 76,
             "Height": 16
           },
-          "Text": "ZENIFF"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -805,7 +741,7 @@
             "Width": 59,
             "Height": 15
           },
-          "Text": "Zexirr"
+          "Text": "Zeniff"
         }
       ]
     },
@@ -1153,10 +1089,10 @@
           "Bounds": {
             "X": 702,
             "Y": 441,
-            "Width": 62,
+            "Width": 83,
             "Height": 16
           },
-          "Text": "fathers"
+          "Text": "fathers\u0027"
         }
       ]
     },
@@ -1199,6 +1135,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1703,11 +1640,7 @@
             "Height": 16
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 754,
@@ -1716,11 +1649,7 @@
             "Height": 11
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 62,
@@ -1728,7 +1657,7 @@
             "Width": 52,
             "Height": 15
           },
-          "Text": "girous"
+          "Text": "sirous"
         }
       ]
     },
@@ -2179,37 +2108,11 @@
         {
           "Bounds": {
             "X": 484,
-            "Y": 570,
-            "Width": 50,
-            "Height": 16
+            "Y": 571,
+            "Width": 112,
+            "Height": 14
           },
-          "Text": "blood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 579,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 570,
-            "Width": 58,
-            "Height": 20
-          },
-          "Text": "thirsty"
+          "Text": "blood-thirsty"
         }
       ]
     },
@@ -3111,7 +3014,7 @@
             "Width": 65,
             "Height": 16
           },
-          "Text": "zcalous"
+          "Text": "zealous"
         }
       ]
     },
@@ -3701,7 +3604,7 @@
             "Width": 85,
             "Height": 15
           },
-          "Text": "afllictions"
+          "Text": "afflictions"
         }
       ]
     },
@@ -3883,7 +3786,7 @@
             "Width": 46,
             "Height": 19
           },
-          "Text": "days'"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -5114,37 +5017,11 @@
         {
           "Bounds": {
             "X": 308,
-            "Y": 915,
-            "Width": 40,
-            "Height": 15
+            "Y": 916,
+            "Width": 95,
+            "Height": 14
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 349,
-            "Y": 924,
-            "Width": 6,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 355,
-            "Y": 915,
-            "Width": 53,
-            "Height": 20
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -5855,37 +5732,11 @@
         {
           "Bounds": {
             "X": 96,
-            "Y": 1001,
-            "Width": 40,
-            "Height": 16
+            "Y": 1002,
+            "Width": 95,
+            "Height": 14
           },
-          "Text": "Lehi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 138,
-            "Y": 1010,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 143,
-            "Y": 1001,
-            "Width": 54,
-            "Height": 20
-          },
-          "Text": "Nephi"
+          "Text": "Lehi-Nephi"
         }
       ]
     },
@@ -6905,19 +6756,6 @@
             "Height": 16
           },
           "Text": "land"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 1120,
-            "Width": 3,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
