@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 238,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 372,
-            "Y": 93,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 436,
-            "Y": 93,
-            "Width": 21,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 93,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -168,7 +130,7 @@
             "Width": 70,
             "Height": 19
           },
-          "Text": "cbildren"
+          "Text": "children"
         }
       ]
     },
@@ -385,37 +347,11 @@
         {
           "Bounds": {
             "X": 666,
-            "Y": 159,
-            "Width": 43,
-            "Height": 16
+            "Y": 160,
+            "Width": 100,
+            "Height": 15
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 710,
-            "Y": 168,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 717,
-            "Y": 159,
-            "Width": 40,
-            "Height": 20
-          },
-          "Text": "plate"
+          "Text": "head-plate"
         }
       ]
     },
@@ -451,36 +387,10 @@
           "Bounds": {
             "X": 135,
             "Y": 181,
-            "Width": 54,
+            "Width": 112,
             "Height": 15
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 191,
-            "Y": 189,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 197,
-            "Y": 180,
-            "Width": 42,
-            "Height": 20
-          },
-          "Text": "plate"
+          "Text": "breast-plate"
         }
       ]
     },
@@ -1910,7 +1820,7 @@
             "Width": 46,
             "Height": 16
           },
-          "Text": "these"
+          "Text": "those"
         }
       ]
     },
@@ -3947,6 +3857,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4194,6 +4105,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5574,6 +5486,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -7075,7 +6988,7 @@
             "Width": 39,
             "Height": 16
           },
-          "Text": "sced"
+          "Text": "seed"
         }
       ]
     },
@@ -7894,7 +7807,7 @@
             "Width": 18,
             "Height": 11
           },
-          "Text": "ag"
+          "Text": "as"
         }
       ]
     },
@@ -8315,7 +8228,7 @@
             "Width": 32,
             "Height": 11
           },
-          "Text": "wag"
+          "Text": "was"
         }
       ]
     },
@@ -8498,11 +8411,16 @@
             "Height": 15
           },
           "Text": "gar"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 808,
+            "Y": 1111,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 107,
@@ -9325,6 +9243,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -9460,11 +9379,11 @@
         {
           "Bounds": {
             "X": 771,
-            "Y": 1215,
-            "Width": 25,
-            "Height": 15
+            "Y": 1214,
+            "Width": 37,
+            "Height": 17
           },
-          "Text": "Ged"
+          "Text": "God"
         }
       ]
     },
@@ -9955,10 +9874,10 @@
           "Bounds": {
             "X": 612,
             "Y": 1280,
-            "Width": 35,
+            "Width": 43,
             "Height": 15
           },
-          "Text": "shal"
+          "Text": "shall"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 208,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 381,
-            "Y": 103,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 103,
-            "Width": 20,
-            "Height": 15
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 103,
-            "Width": 37,
-            "Height": 14
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 343,
-            "Y": 189,
-            "Width": 142,
-            "Height": 16
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 189,
-            "Width": 56,
-            "Height": 17
-          },
-          "Text": "XVI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -77,7 +13,7 @@
             "Width": 68,
             "Height": 16
           },
-          "Text": "BesOLD"
+          "Text": "Behold"
         }
       ]
     },
@@ -970,6 +906,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2349,7 +2286,7 @@
             "Width": 44,
             "Height": 20
           },
-          "Text": "reigu"
+          "Text": "reign"
         }
       ]
     },
@@ -2522,6 +2459,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2535,6 +2473,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2648,7 +2589,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "judres"
+          "Text": "judges"
         }
       ]
     },
@@ -2762,10 +2703,23 @@
           "Bounds": {
             "X": 454,
             "Y": 536,
-            "Width": 57,
+            "Width": 42,
             "Height": 20
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 496,
+            "Y": 536,
+            "Width": 16,
+            "Height": 20
+          },
+          "Text": "in"
         }
       ]
     },
@@ -2856,7 +2810,7 @@
             "Width": 37,
             "Height": 15
           },
-          "Text": "vear"
+          "Text": "year"
         }
       ]
     },
@@ -3022,36 +2976,10 @@
           "Bounds": {
             "X": 707,
             "Y": 559,
-            "Width": 39,
-            "Height": 14
-          },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 747,
-            "Y": 567,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 754,
-            "Y": 559,
-            "Width": 43,
+            "Width": 102,
             "Height": 15
           },
-          "Text": "Christ"
+          "Text": "Anti-Christ"
         }
       ]
     },
@@ -3454,7 +3382,7 @@
             "Width": 50,
             "Height": 15
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -5367,7 +5295,7 @@
             "Width": 51,
             "Height": 16
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -5676,36 +5604,10 @@
           "Bounds": {
             "X": 196,
             "Y": 881,
-            "Width": 41,
+            "Width": 102,
             "Height": 15
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 237,
-            "Y": 890,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 244,
-            "Y": 881,
-            "Width": 53,
-            "Height": 15
-          },
-          "Text": "Christ"
+          "Text": "Anti-Christ"
         }
       ]
     },
@@ -5878,6 +5780,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -7434,7 +7338,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -9105,10 +9009,23 @@
           "Bounds": {
             "X": 692,
             "Y": 1270,
-            "Width": 69,
+            "Width": 53,
             "Height": 16
           },
-          "Text": "beadsin"
+          "Text": "heads"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 745,
+            "Y": 1270,
+            "Width": 17,
+            "Height": 16
+          },
+          "Text": "in"
         }
       ]
     },

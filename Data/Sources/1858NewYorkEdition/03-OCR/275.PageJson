@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 275,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 289,
-            "Y": 96,
-            "Width": 48,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 354,
-            "Y": 96,
-            "Width": 19,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 390,
-            "Y": 96,
-            "Width": 95,
-            "Height": 13
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -364,11 +326,7 @@
             "Height": 21
           },
           "Text": "Judg"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 739,
@@ -377,11 +335,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 39,
@@ -1624,7 +1578,7 @@
             "Width": 23,
             "Height": 15
           },
-          "Text": "Lis"
+          "Text": "his"
         }
       ]
     },
@@ -1763,6 +1717,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1812,6 +1767,19 @@
             "Height": 14
           },
           "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 305,
+            "Y": 355,
+            "Width": 19,
+            "Height": 17
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2474,7 +2442,7 @@
             "Width": 73,
             "Height": 15
           },
-          "Text": "Paloran"
+          "Text": "Pahoran"
         }
       ]
     },
@@ -2887,10 +2855,23 @@
           "Bounds": {
             "X": 214,
             "Y": 484,
-            "Width": 57,
+            "Width": 42,
             "Height": 20
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 256,
+            "Y": 484,
+            "Width": 16,
+            "Height": 20
+          },
+          "Text": "in"
         }
       ]
     },
@@ -3394,36 +3375,10 @@
           "Bounds": {
             "X": 123,
             "Y": 549,
-            "Width": 42,
+            "Width": 110,
             "Height": 15
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 166,
-            "Y": 558,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 173,
-            "Y": 549,
-            "Width": 50,
-            "Height": 20
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -3459,39 +3414,14 @@
           "Bounds": {
             "X": 319,
             "Y": 549,
-            "Width": 55,
+            "Width": 122,
             "Height": 15
           },
-          "Text": "breast"
+          "Text": "breast-plates"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 558,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 382,
-            "Y": 549,
-            "Width": 51,
-            "Height": 20
-          },
-          "Text": "plates"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -3774,7 +3704,7 @@
             "Width": 79,
             "Height": 20
           },
-          "Text": "Neplhites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -3952,11 +3882,11 @@
         {
           "Bounds": {
             "X": 109,
-            "Y": 619,
-            "Width": 25,
-            "Height": 10
+            "Y": 616,
+            "Width": 39,
+            "Height": 17
           },
-          "Text": "wus"
+          "Text": "was"
         }
       ]
     },
@@ -4207,6 +4137,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4441,6 +4372,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4480,6 +4413,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4745,6 +4679,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -7499,7 +7434,7 @@
             "Width": 45,
             "Height": 16
           },
-          "Text": "chiet'"
+          "Text": "chief"
         }
       ]
     },
@@ -7967,7 +7902,7 @@
             "Width": 89,
             "Height": 15
           },
-          "Text": "Pacumneni"
+          "Text": "Pacumeni"
         }
       ]
     },
@@ -8153,6 +8088,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -8163,11 +8099,7 @@
             "Height": 15
           },
           "Text": "Zarahem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 737,
@@ -8176,11 +8108,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 40,
@@ -8188,7 +8116,7 @@
             "Width": 12,
             "Height": 15
           },
-          "Text": "Ia"
+          "Text": "la"
         }
       ]
     },
@@ -9870,7 +9798,7 @@
             "Width": 98,
             "Height": 17
           },
-          "Text": "themselyes"
+          "Text": "themselves"
         }
       ]
     },

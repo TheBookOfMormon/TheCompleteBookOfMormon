@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 246,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 384,
-            "Y": 90,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 90,
-            "Width": 21,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 90,
-            "Width": 46,
-            "Height": 14
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1139,32 +1101,7 @@
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 686,
-            "Y": 246,
-            "Width": 25,
-            "Height": 10
-          },
-          "Text": "sea"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 714,
-            "Y": 249,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -4611,7 +4548,7 @@
             "Width": 36,
             "Height": 15
           },
-          "Text": "vear"
+          "Text": "year"
         }
       ]
     },
@@ -4962,12 +4899,8 @@
             "Width": 25,
             "Height": 11
           },
-          "Text": "sca"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "sea"
+        },
         {
           "Bounds": {
             "X": 814,
@@ -4976,11 +4909,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 113,
@@ -4990,8 +4919,10 @@
           },
           "Text": "shore"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -7226,7 +7157,7 @@
             "Width": 106,
             "Height": 20
           },
-          "Text": "gnarrellings"
+          "Text": "quarrellings"
         }
       ]
     },
@@ -9740,7 +9671,7 @@
             "Width": 40,
             "Height": 16
           },
-          "Text": "Lebi"
+          "Text": "Lehi"
         }
       ]
     },
@@ -9753,7 +9684,7 @@
             "Width": 33,
             "Height": 16
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },

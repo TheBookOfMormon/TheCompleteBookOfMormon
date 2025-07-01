@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 272,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 376,
-            "Y": 103,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 441,
-            "Y": 103,
-            "Width": 20,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 103,
-            "Width": 53,
-            "Height": 14
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 104,
-            "Y": 147,
-            "Width": 70,
-            "Height": 15
-          },
-          "Text": "manites"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -224,6 +173,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2354,19 +2304,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 873,
-            "Y": 437,
-            "Width": 2,
-            "Height": 9
-          },
-          "Text": "i"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 104,
             "Y": 451,
             "Width": 47,
@@ -4322,7 +4259,7 @@
             "Width": 71,
             "Height": 15
           },
-          "Text": "suftered"
+          "Text": "suffered"
         }
       ]
     },
@@ -5861,7 +5798,7 @@
             "Width": 99,
             "Height": 15
           },
-          "Text": "dissensiong"
+          "Text": "dissensions"
         }
       ]
     },
@@ -6043,7 +5980,7 @@
             "Width": 89,
             "Height": 21
           },
-          "Text": "righteous'"
+          "Text": "righteous\u0027"
         }
       ]
     },
@@ -7868,7 +7805,7 @@
             "Width": 96,
             "Height": 16
           },
-          "Text": "Moronibah"
+          "Text": "Moronihah"
         }
       ]
     },
@@ -7908,11 +7845,16 @@
             "Height": 10
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 813,
+            "Y": 1140,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 108,

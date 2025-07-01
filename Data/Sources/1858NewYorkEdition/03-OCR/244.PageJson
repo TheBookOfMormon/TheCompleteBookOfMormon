@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 244,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 383,
-            "Y": 89,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 89,
-            "Width": 21,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 88,
-            "Width": 53,
-            "Height": 14
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -103,7 +65,7 @@
             "Width": 45,
             "Height": 17
           },
-          "Text": "sking"
+          "Text": "skins"
         }
       ]
     },
@@ -848,6 +810,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4314,7 +4277,7 @@
             "Width": 62,
             "Height": 15
           },
-          "Text": "excced"
+          "Text": "exceed"
         }
       ]
     },
@@ -7246,10 +7209,23 @@
           "Bounds": {
             "X": 581,
             "Y": 1036,
-            "Width": 89,
+            "Width": 48,
             "Height": 20
           },
-          "Text": "Thusthey"
+          "Text": "Thus"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 629,
+            "Y": 1036,
+            "Width": 42,
+            "Height": 20
+          },
+          "Text": "they"
         }
       ]
     },
@@ -7991,11 +7967,16 @@
             "Height": 15
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 814,
+            "Y": 1121,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 113,
@@ -8229,7 +8210,7 @@
             "Width": 77,
             "Height": 20
           },
-          "Text": "Nepbhites"
+          "Text": "Nephites"
         }
       ]
     },

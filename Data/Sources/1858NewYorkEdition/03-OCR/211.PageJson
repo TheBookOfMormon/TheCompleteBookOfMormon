@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 211,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 316,
-            "Y": 98,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 98,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 416,
-            "Y": 98,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -594,10 +556,23 @@
           "Bounds": {
             "X": 593,
             "Y": 189,
-            "Width": 43,
+            "Width": 34,
             "Height": 11
           },
-          "Text": "wasa"
+          "Text": "was"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 627,
+            "Y": 189,
+            "Width": 10,
+            "Height": 11
+          },
+          "Text": "a"
         }
       ]
     },
@@ -1221,7 +1196,7 @@
             "Width": 28,
             "Height": 15
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -2976,7 +2951,7 @@
             "Width": 29,
             "Height": 15
           },
-          "Text": "hut"
+          "Text": "but"
         }
       ]
     },
@@ -3123,6 +3098,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3847,7 +3823,7 @@
             "Width": 42,
             "Height": 11
           },
-          "Text": "game"
+          "Text": "same"
         }
       ]
     },
@@ -4393,7 +4369,7 @@
             "Width": 69,
             "Height": 16
           },
-          "Text": "Koribhor"
+          "Text": "Korihor"
         }
       ]
     },
@@ -4514,6 +4490,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4562,7 +4539,7 @@
             "Width": 24,
             "Height": 15
           },
-          "Text": "Lis"
+          "Text": "his"
         }
       ]
     },
@@ -4796,7 +4773,7 @@
             "Width": 56,
             "Height": 20
           },
-          "Text": "pcople"
+          "Text": "people"
         }
       ]
     },
@@ -5464,7 +5441,7 @@
             "Width": 94,
             "Height": 19
           },
-          "Text": "perverteih"
+          "Text": "perverteth"
         }
       ]
     },
@@ -6439,7 +6416,7 @@
             "Width": 18,
             "Height": 18
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -6747,11 +6724,11 @@
         {
           "Bounds": {
             "X": 730,
-            "Y": 941,
-            "Width": 15,
-            "Height": 12
+            "Y": 939,
+            "Width": 19,
+            "Height": 17
           },
-          "Text": "tu"
+          "Text": "to"
         }
       ]
     },
@@ -6908,11 +6885,16 @@
             "Height": 11
           },
           "Text": "sorrow"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 744,
+            "Y": 961,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 43,
@@ -7072,11 +7054,11 @@
         {
           "Bounds": {
             "X": 720,
-            "Y": 981,
-            "Width": 20,
-            "Height": 15
+            "Y": 980,
+            "Width": 31,
+            "Height": 17
           },
-          "Text": "th"
+          "Text": "the"
         }
       ]
     },
@@ -7219,7 +7201,7 @@
             "Width": 51,
             "Height": 15
           },
-          "Text": "eallea"
+          "Text": "called"
         }
       ]
     },
@@ -7441,40 +7423,15 @@
         {
           "Bounds": {
             "X": 198,
-            "Y": 1050,
-            "Width": 25,
-            "Height": 10
+            "Y": 1049,
+            "Width": 82,
+            "Height": 13
           },
-          "Text": "sea"
+          "Text": "sea-shore"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 226,
-            "Y": 1053,
-            "Width": 6,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 233,
-            "Y": 1044,
-            "Width": 45,
-            "Height": 16
-          },
-          "Text": "shore"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -8239,11 +8196,7 @@
             "Height": 19
           },
           "Text": "preach"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 741,
@@ -8252,11 +8205,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 43,
@@ -8264,7 +8213,7 @@
             "Width": 27,
             "Height": 19
           },
-          "Text": "ine"
+          "Text": "ing"
         }
       ]
     },
@@ -8313,10 +8262,23 @@
           "Bounds": {
             "X": 203,
             "Y": 1152,
-            "Width": 44,
+            "Width": 34,
             "Height": 15
           },
-          "Text": "hada"
+          "Text": "had"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 237,
+            "Y": 1152,
+            "Width": 11,
+            "Height": 15
+          },
+          "Text": "a"
         }
       ]
     },
@@ -8485,7 +8447,7 @@
             "Width": 27,
             "Height": 15
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -8550,7 +8512,7 @@
             "Width": 79,
             "Height": 20
           },
-          "Text": "powertul"
+          "Text": "powerful"
         }
       ]
     },
@@ -9161,7 +9123,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -9668,7 +9630,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "hie"
+          "Text": "he"
         }
       ]
     },
@@ -9746,7 +9708,7 @@
             "Width": 25,
             "Height": 16
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     }

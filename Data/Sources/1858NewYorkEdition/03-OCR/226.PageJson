@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 226,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 94,
-            "Width": 46,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 444,
-            "Y": 94,
-            "Width": 21,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 482,
-            "Y": 94,
-            "Width": 52,
-            "Height": 14
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -992,7 +954,7 @@
             "Width": 34,
             "Height": 15
           },
-          "Text": "sing"
+          "Text": "sins"
         }
       ]
     },
@@ -1525,7 +1487,7 @@
             "Width": 21,
             "Height": 16
           },
-          "Text": "gin"
+          "Text": "sin"
         }
       ]
     },
@@ -3778,6 +3740,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4402,6 +4365,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6549,6 +6513,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6558,7 +6523,7 @@
             "Width": 13,
             "Height": 16
           },
-          "Text": "ig"
+          "Text": "is"
         }
       ]
     },
@@ -6571,7 +6536,7 @@
             "Width": 18,
             "Height": 16
           },
-          "Text": "le"
+          "Text": "he"
         }
       ]
     },
@@ -7733,12 +7698,8 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "De"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Be"
+        },
         {
           "Bounds": {
             "X": 800,
@@ -7747,11 +7708,7 @@
             "Height": 10
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 108,
@@ -8838,7 +8795,7 @@
             "Width": 19,
             "Height": 11
           },
-          "Text": "ug"
+          "Text": "us"
         }
       ]
     },
@@ -10178,11 +10135,7 @@
             "Height": 10
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 810,
@@ -10191,6 +10144,16 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 51,
+            "Y": 132,
+            "Width": 61,
+            "Height": 16
+          },
+          "IsOnNextPage": true,
+          "Text": "theless"
         }
       ]
     }

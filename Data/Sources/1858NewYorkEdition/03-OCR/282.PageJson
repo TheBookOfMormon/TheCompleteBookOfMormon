@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 282,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 343,
-            "Y": 74,
-            "Width": 46,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 408,
-            "Y": 74,
-            "Width": 20,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 444,
-            "Y": 74,
-            "Width": 92,
-            "Height": 13
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2487,7 +2449,7 @@
             "Width": 52,
             "Height": 20
           },
-          "Text": "night"
+          "Text": "might"
         }
       ]
     },
@@ -3602,10 +3564,23 @@
           "Bounds": {
             "X": 454,
             "Y": 569,
-            "Width": 76,
+            "Width": 42,
             "Height": 20
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 496,
+            "Y": 569,
+            "Width": 35,
+            "Height": 20
+          },
+          "Text": "that"
         }
       ]
     },
@@ -6205,7 +6180,7 @@
             "Width": 29,
             "Height": 15
           },
-          "Text": "vou"
+          "Text": "you"
         }
       ]
     },
@@ -8703,10 +8678,23 @@
           "Bounds": {
             "X": 460,
             "Y": 1171,
-            "Width": 81,
+            "Width": 41,
             "Height": 21
           },
-          "Text": "verysoul"
+          "Text": "very"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 501,
+            "Y": 1171,
+            "Width": 41,
+            "Height": 21
+          },
+          "Text": "soul"
         }
       ]
     },
@@ -9426,7 +9414,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -9569,7 +9557,7 @@
             "Width": 20,
             "Height": 12
           },
-          "Text": "uno"
+          "Text": "no"
         }
       ]
     },
@@ -9630,11 +9618,30 @@
         {
           "Bounds": {
             "X": 766,
-            "Y": 1284,
-            "Width": 30,
-            "Height": 11
+            "Y": 1282,
+            "Width": 27,
+            "Height": 15
           },
-          "Text": "secre"
+          "Text": "ser"
+        },
+        {
+          "Bounds": {
+            "X": 799,
+            "Y": 1281,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 44,
+            "Y": 160,
+            "Width": 48,
+            "Height": 14
+          },
+          "IsOnNextPage": true,
+          "Text": "vants"
         }
       ]
     }
