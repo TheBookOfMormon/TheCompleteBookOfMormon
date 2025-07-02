@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 130,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 143,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 550,
-            "Y": 143,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 593,
-            "Y": 142,
-            "Width": 73,
-            "Height": 19
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 879,
-            "Y": 134,
-            "Width": 64,
-            "Height": 35
-          },
-          "Text": "crar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 963,
-            "Y": 141,
-            "Width": 18,
-            "Height": 23
-          },
-          "Text": "or"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -138,40 +74,15 @@
         {
           "Bounds": {
             "X": 479,
-            "Y": 180,
-            "Width": 54,
-            "Height": 26
+            "Y": 182,
+            "Width": 141,
+            "Height": 21
           },
-          "Text": "first"
+          "Text": "first-fruits"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 180,
-            "Width": 9,
-            "Height": 26
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 180,
-            "Width": 66,
-            "Height": 26
-          },
-          "Text": "fruits"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -581,10 +492,23 @@
           "Bounds": {
             "X": 823,
             "Y": 277,
-            "Width": 160,
+            "Width": 75,
             "Height": 33
           },
-          "Text": "thesethings"
+          "Text": "these"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 898,
+            "Y": 277,
+            "Width": 86,
+            "Height": 33
+          },
+          "Text": "things"
         }
       ]
     },
@@ -1998,10 +1922,23 @@
           "Bounds": {
             "X": 517,
             "Y": 643,
-            "Width": 79,
+            "Width": 65,
             "Height": 17
           },
-          "Text": "werea"
+          "Text": "were"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 582,
+            "Y": 643,
+            "Width": 15,
+            "Height": 17
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2010,9 +1947,9 @@
         {
           "Bounds": {
             "X": 609,
-            "Y": 635,
-            "Width": 135,
-            "Height": 26
+            "Y": 636,
+            "Width": 151,
+            "Height": 23
           },
           "Text": "stiffnecked"
         }
@@ -2196,7 +2133,7 @@
             "Width": 99,
             "Height": 31
           },
-          "Text": "'sought"
+          "Text": "sought"
         }
       ]
     },
@@ -2679,10 +2616,10 @@
           "Bounds": {
             "X": 937,
             "Y": 798,
-            "Width": 52,
-            "Height": 24
+            "Width": 65,
+            "Height": 25
           },
-          "Text": "unte"
+          "Text": "unto"
         }
       ]
     },
@@ -3148,14 +3085,19 @@
             "X": 865,
             "Y": 925,
             "Width": 134,
-            "Height": 60
+            "Height": 36
           },
           "Text": "prophesy"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 996,
+            "Y": 930,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 151,
@@ -3307,6 +3249,19 @@
             "Height": 7
           },
           "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 971,
+            "Y": 958,
+            "Width": 27,
+            "Height": 25
+          },
+          "Text": "in"
         }
       ]
     },
@@ -5036,6 +4991,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5625,6 +5581,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 395,
+            "Y": 1509,
+            "Width": 16,
+            "Height": 25
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 421,
             "Y": 1517,
             "Width": 49,
@@ -6054,12 +6023,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 167,
+            "X": 155,
             "Y": 1599,
-            "Width": 42,
+            "Width": 57,
             "Height": 25
           },
-          "Text": "hat"
+          "Text": "that"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 129,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 128,
-            "Y": 149,
-            "Width": 59,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 213,
-            "Y": 143,
-            "Width": 14,
-            "Height": 33
-          },
-          "Text": "1L"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 450,
-            "Y": 149,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 530,
-            "Y": 148,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 148,
-            "Width": 73,
-            "Height": 19
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -103,7 +39,7 @@
             "Width": 103,
             "Height": 26
           },
-          "Text": "fatkers"
+          "Text": "fathers"
         }
       ]
     },
@@ -194,7 +130,7 @@
             "Width": 86,
             "Height": 32
           },
-          "Text": "rejuice"
+          "Text": "rejoice"
         }
       ]
     },
@@ -312,6 +248,19 @@
             "Height": 60
           },
           "Text": "upon"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 894,
+            "Y": 223,
+            "Width": 88,
+            "Height": 25
+          },
+          "Text": "plates"
         }
       ]
     },
@@ -710,11 +659,11 @@
         {
           "Bounds": {
             "X": 128,
-            "Y": 351,
-            "Width": 114,
-            "Height": 30
+            "Y": 353,
+            "Width": 132,
+            "Height": 25
           },
-          "Text": "eontempt"
+          "Text": "contempt"
         }
       ]
     },
@@ -1088,10 +1037,10 @@
           "Bounds": {
             "X": 693,
             "Y": 414,
-            "Width": 35,
-            "Height": 24
+            "Width": 46,
+            "Height": 25
           },
-          "Text": "Lis"
+          "Text": "his"
         }
       ]
     },
@@ -1131,11 +1080,16 @@
             "Height": 26
           },
           "Text": "hun"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 956,
+            "Y": 414,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 127,
@@ -2529,12 +2483,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 389,
+            "X": 316,
             "Y": 771,
-            "Width": 39,
+            "Width": 115,
             "Height": 23
           },
-          "Text": "ten"
+          "Text": "begotten"
         }
       ]
     },
@@ -2605,6 +2559,24 @@
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 909,
+            "Y": 769,
+            "Width": 47,
+            "Height": 25
+          },
+          "Text": "pro"
+        },
+        {
+          "Bounds": {
+            "X": 965,
+            "Y": 769,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 127,
@@ -3990,7 +3962,7 @@
             "Width": 48,
             "Height": 25
           },
-          "Text": "ard"
+          "Text": "and"
         }
       ]
     },
@@ -5459,7 +5431,7 @@
             "Width": 58,
             "Height": 26
           },
-          "Text": "fake"
+          "Text": "take"
         }
       ]
     },
@@ -6184,10 +6156,23 @@
           "Bounds": {
             "X": 819,
             "Y": 1600,
-            "Width": 45,
+            "Width": 28,
             "Height": 25
           },
-          "Text": "isin"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 847,
+            "Y": 1600,
+            "Width": 30,
+            "Height": 25
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6201,19 +6186,6 @@
             "Height": 25
           },
           "Text": "Christ"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 829,
-            "Y": 1650,
-            "Width": 5,
-            "Height": 8
-          },
-          "Text": "a"
         }
       ]
     }

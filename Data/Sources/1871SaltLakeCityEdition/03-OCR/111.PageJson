@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 111,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 131,
-            "Y": 122,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 222,
-            "Y": 114,
-            "Width": 47,
-            "Height": 33
-          },
-          "Text": "XLJ"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 399,
-            "Y": 120,
-            "Width": 89,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 120,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 603,
-            "Y": 120,
-            "Width": 30,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 653,
-            "Y": 120,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "NEPEL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -789,10 +712,23 @@
           "Bounds": {
             "X": 547,
             "Y": 288,
-            "Width": 93,
+            "Width": 20,
             "Height": 26
           },
-          "Text": "itshall"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 567,
+            "Y": 288,
+            "Width": 74,
+            "Height": 26
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -3504,37 +3440,11 @@
         {
           "Bounds": {
             "X": 765,
-            "Y": 840,
-            "Width": 28,
-            "Height": 32
+            "Y": 845,
+            "Width": 87,
+            "Height": 21
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 765,
-            "Y": 840,
-            "Width": 69,
-            "Height": 25
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 806,
-            "Y": 840,
-            "Width": 43,
-            "Height": 32
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -3742,7 +3652,7 @@
             "Width": 134,
             "Height": 30
           },
-          "Text": "secording"
+          "Text": "according"
         }
       ]
     },
@@ -3932,6 +3842,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 937,
+            "Y": 938,
+            "Width": 50,
+            "Height": 25
+          },
+          "Text": "say"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 129,
             "Y": 966,
             "Width": 64,
@@ -4097,6 +4020,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4857,10 +4781,10 @@
           "Bounds": {
             "X": 487,
             "Y": 1163,
-            "Width": 95,
+            "Width": 110,
             "Height": 25
           },
-          "Text": "wiadom"
+          "Text": "wisdom"
         }
       ]
     },
@@ -5692,7 +5616,7 @@
             "Width": 102,
             "Height": 30
           },
-          "Text": "potter's"
+          "Text": "potter\u0027s"
         }
       ]
     },
@@ -6702,11 +6626,24 @@
         {
           "Bounds": {
             "X": 914,
-            "Y": 1547,
-            "Width": 68,
-            "Height": 22
+            "Y": 1546,
+            "Width": 56,
+            "Height": 25
           },
-          "Text": "intoa"
+          "Text": "into"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 970,
+            "Y": 1546,
+            "Width": 17,
+            "Height": 25
+          },
+          "Text": "a"
         }
       ]
     },

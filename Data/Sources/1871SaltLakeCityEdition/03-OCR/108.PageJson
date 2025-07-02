@@ -2149,6 +2149,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3753,6 +3754,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4347,7 +4349,7 @@
             "Width": 42,
             "Height": 24
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -5244,6 +5246,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 172,
+            "Y": 1374,
+            "Width": 107,
+            "Height": 25
+          },
+          "Text": "partake"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 291,
             "Y": 1374,
             "Width": 28,
@@ -5259,10 +5274,10 @@
           "Bounds": {
             "X": 336,
             "Y": 1374,
-            "Width": 38,
-            "Height": 24
+            "Width": 46,
+            "Height": 25
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     },
@@ -5367,6 +5382,19 @@
             "Height": 25
           },
           "Text": "but"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 184,
+            "Y": 1405,
+            "Width": 36,
+            "Height": 25
+          },
+          "Text": "he"
         }
       ]
     },
@@ -6199,11 +6227,16 @@
             "Height": 35
           },
           "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1020,
+            "Y": 1575,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 174,
@@ -6213,7 +6246,8 @@
           },
           "Text": "crafts"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -6246,37 +6280,11 @@
         {
           "Bounds": {
             "X": 454,
-            "Y": 1600,
-            "Width": 81,
-            "Height": 34
+            "Y": 1606,
+            "Width": 163,
+            "Height": 21
           },
-          "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 1600,
-            "Width": 10,
-            "Height": 34
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 1600,
-            "Width": 121,
-            "Height": 34
-          },
-          "Text": "crafts"
+          "Text": "priest-crafts"
         }
       ]
     },
@@ -6350,11 +6358,11 @@
         {
           "Bounds": {
             "X": 982,
-            "Y": 1604,
-            "Width": 37,
-            "Height": 28
+            "Y": 1605,
+            "Width": 44,
+            "Height": 25
           },
-          "Text": "sot"
+          "Text": "set"
         }
       ]
     }
