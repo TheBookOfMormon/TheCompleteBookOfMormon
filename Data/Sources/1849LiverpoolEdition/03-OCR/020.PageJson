@@ -2730,11 +2730,16 @@
             "Height": 32
           },
           "Text": "me"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1845,
+            "Y": 1281,
+            "Width": 48,
+            "Height": 48
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 203,
@@ -2746,6 +2751,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
