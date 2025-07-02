@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 58,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 405,
-            "Y": 135,
-            "Width": 69,
-            "Height": 19
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 488,
-            "Y": 135,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 570,
-            "Y": 136,
-            "Width": 27,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 615,
-            "Y": 135,
-            "Width": 73,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 854,
-            "Y": 135,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 940,
-            "Y": 136,
-            "Width": 55,
-            "Height": 20
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -516,10 +439,10 @@
           "Bounds": {
             "X": 936,
             "Y": 241,
-            "Width": 42,
-            "Height": 24
+            "Width": 52,
+            "Height": 25
           },
-          "Text": "wil"
+          "Text": "will"
         }
       ]
     },
@@ -645,24 +568,11 @@
         {
           "Bounds": {
             "X": 814,
-            "Y": 279,
-            "Width": 75,
-            "Height": 23
+            "Y": 278,
+            "Width": 115,
+            "Height": 25
           },
-          "Text": "oppre"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 893,
-            "Y": 282,
-            "Width": 11,
-            "Height": 12
-          },
-          "Text": "-"
+          "Text": "oppress"
         }
       ]
     },
@@ -1151,51 +1061,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 441,
-            "Y": 498,
-            "Width": 154,
-            "Height": 26
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 499,
-            "Width": 55,
-            "Height": 25
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 164,
-            "Y": 566,
-            "Width": 12,
-            "Height": 23
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 203,
             "Y": 565,
             "Width": 56,
             "Height": 25
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -1316,6 +1187,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2135,6 +2009,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3991,6 +3866,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4768,6 +4644,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5896,11 +5773,7 @@
             "Height": 18
           },
           "Text": "mean"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 968,
@@ -5909,6 +5782,16 @@
             "Height": 6
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 152,
+            "Y": 183,
+            "Width": 44,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "eth"
         }
       ]
     }

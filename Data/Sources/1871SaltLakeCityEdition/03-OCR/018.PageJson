@@ -1430,7 +1430,7 @@
             "Width": 51,
             "Height": 24
           },
-          "Text": "hin"
+          "Text": "him"
         }
       ]
     },
@@ -1963,7 +1963,7 @@
             "Width": 157,
             "Height": 30
           },
-          "Text": "complamed"
+          "Text": "complained"
         }
       ]
     },
@@ -4209,7 +4209,7 @@
             "Width": 64,
             "Height": 26
           },
-          "Text": "bath"
+          "Text": "hath"
         }
       ]
     },
@@ -4869,15 +4869,24 @@
           "Bounds": {
             "X": 875,
             "Y": 1257,
-            "Width": 99,
+            "Width": 59,
             "Height": 26
           },
-          "Text": "thisman"
+          "Text": "this"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 934,
+            "Y": 1257,
+            "Width": 62,
+            "Height": 26
+          },
+          "Text": "man"
+        },
         {
           "Bounds": {
             "X": 994,
@@ -4886,11 +4895,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 148,
@@ -5370,6 +5375,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5726,11 +5732,11 @@
         {
           "Bounds": {
             "X": 405,
-            "Y": 1485,
-            "Width": 56,
-            "Height": 24
+            "Y": 1484,
+            "Width": 74,
+            "Height": 26
           },
-          "Text": "then"
+          "Text": "them"
         }
       ]
     },
@@ -6221,10 +6227,23 @@
           "Bounds": {
             "X": 671,
             "Y": 1583,
-            "Width": 68,
+            "Width": 54,
             "Height": 24
           },
-          "Text": "alsoa"
+          "Text": "also"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 725,
+            "Y": 1583,
+            "Width": 15,
+            "Height": 24
+          },
+          "Text": "a"
         }
       ]
     },

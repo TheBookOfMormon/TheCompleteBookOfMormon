@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 24,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 423,
-            "Y": 129,
-            "Width": 71,
-            "Height": 19
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 129,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 128,
-            "Width": 29,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 649,
-            "Y": 129,
-            "Width": 72,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 881,
-            "Y": 123,
-            "Width": 72,
-            "Height": 33
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 978,
-            "Y": 129,
-            "Width": 15,
-            "Height": 21
-          },
-          "Text": "IT"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1251,6 +1174,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2057,6 +1981,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3024,6 +2949,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3212,10 +3138,10 @@
           "Bounds": {
             "X": 952,
             "Y": 857,
-            "Width": 27,
+            "Width": 52,
             "Height": 26
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -3323,6 +3249,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3961,7 +3888,7 @@
             "Width": 54,
             "Height": 27
           },
-          "Text": "tont"
+          "Text": "tent"
         }
       ]
     },
@@ -5795,11 +5722,16 @@
             "Height": 23
           },
           "Text": "conten"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1000,
+            "Y": 1467,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 154,

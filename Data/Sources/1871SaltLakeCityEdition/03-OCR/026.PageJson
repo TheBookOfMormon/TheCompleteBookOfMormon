@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 26,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 435,
-            "Y": 148,
-            "Width": 71,
-            "Height": 18
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 523,
-            "Y": 148,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 610,
-            "Y": 147,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 660,
-            "Y": 147,
-            "Width": 83,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 881,
-            "Y": 139,
-            "Width": 74,
-            "Height": 35
-          },
-          "Text": "coar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 979,
-            "Y": 146,
-            "Width": 16,
-            "Height": 21
-          },
-          "Text": "IL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -325,11 +248,16 @@
             "Height": 18
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 223,
+            "Width": 26,
+            "Height": 26
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 165,
@@ -458,6 +386,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -588,6 +517,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1992,6 +1922,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2218,6 +2149,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2418,40 +2350,15 @@
         {
           "Bounds": {
             "X": 881,
-            "Y": 708,
-            "Width": 64,
-            "Height": 31
+            "Y": 712,
+            "Width": 133,
+            "Height": 22
           },
-          "Text": "olive"
+          "Text": "olive-tree"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 949,
-            "Y": 721,
-            "Width": 7,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 956,
-            "Y": 708,
-            "Width": 35,
-            "Height": 31
-          },
-          "Text": "tree"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -2865,19 +2772,6 @@
             "Height": 32
           },
           "Text": "language"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 968,
-            "Y": 816,
-            "Width": 3,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     },
@@ -3752,6 +3646,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3823,10 +3718,10 @@
           "Bounds": {
             "X": 930,
             "Y": 1032,
-            "Width": 27,
+            "Width": 37,
             "Height": 26
           },
-          "Text": "ail"
+          "Text": "all"
         }
       ]
     },
@@ -3983,6 +3878,19 @@
             "Height": 26
           },
           "Text": "in"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1004,
+            "Y": 1064,
+            "Width": 17,
+            "Height": 26
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4467,6 +4375,12 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5278,37 +5192,11 @@
         {
           "Bounds": {
             "X": 313,
-            "Y": 1356,
-            "Width": 28,
-            "Height": 32
+            "Y": 1361,
+            "Width": 91,
+            "Height": 22
           },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 340,
-            "Y": 1356,
-            "Width": 12,
-            "Height": 32
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 342,
-            "Y": 1356,
-            "Width": 56,
-            "Height": 32
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -5921,10 +5809,23 @@
           "Bounds": {
             "X": 165,
             "Y": 1484,
-            "Width": 81,
+            "Width": 35,
             "Height": 31
           },
-          "Text": "bythe"
+          "Text": "by"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 200,
+            "Y": 1484,
+            "Width": 47,
+            "Height": 31
+          },
+          "Text": "the"
         }
       ]
     },
@@ -5947,10 +5848,23 @@
           "Bounds": {
             "X": 346,
             "Y": 1486,
-            "Width": 71,
+            "Width": 28,
             "Height": 23
           },
-          "Text": "ofthe"
+          "Text": "of"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 374,
+            "Y": 1486,
+            "Width": 44,
+            "Height": 23
+          },
+          "Text": "the"
         }
       ]
     },
@@ -6038,10 +5952,23 @@
           "Bounds": {
             "X": 796,
             "Y": 1487,
-            "Width": 103,
+            "Width": 73,
             "Height": 22
           },
-          "Text": "timesas"
+          "Text": "times"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 869,
+            "Y": 1487,
+            "Width": 31,
+            "Height": 22
+          },
+          "Text": "as"
         }
       ]
     },
@@ -6129,10 +6056,23 @@
           "Bounds": {
             "X": 362,
             "Y": 1518,
-            "Width": 83,
+            "Width": 57,
             "Height": 24
           },
-          "Text": "wellin"
+          "Text": "well"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 419,
+            "Y": 1518,
+            "Width": 26,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6631,7 +6571,7 @@
             "Width": 89,
             "Height": 31
           },
-          "Text": "scught"
+          "Text": "sought"
         }
       ]
     },

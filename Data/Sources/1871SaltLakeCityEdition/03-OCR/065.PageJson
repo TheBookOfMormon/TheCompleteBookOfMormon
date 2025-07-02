@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 65,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 144,
-            "Y": 134,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 233,
-            "Y": 133,
-            "Width": 17,
-            "Height": 19
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 398,
-            "Y": 132,
-            "Width": 104,
-            "Height": 20
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 523,
-            "Y": 131,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 131,
-            "Width": 29,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 659,
-            "Y": 125,
-            "Width": 68,
-            "Height": 26
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -190,11 +113,11 @@
         {
           "Bounds": {
             "X": 941,
-            "Y": 171,
-            "Width": 54,
-            "Height": 27
+            "Y": 172,
+            "Width": 67,
+            "Height": 25
           },
-          "Text": "fron"
+          "Text": "from"
         }
       ]
     },
@@ -4057,19 +3980,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 140,
-            "Y": 1059,
-            "Width": 4,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 147,
             "Y": 1047,
             "Width": 23,
@@ -4388,11 +4298,7 @@
             "Height": 25
           },
           "Text": "first"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 992,
@@ -4401,11 +4307,7 @@
             "Height": 22
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 147,
@@ -4413,10 +4315,12 @@
             "Width": 64,
             "Height": 25
           },
-          "Text": "bern"
+          "Text": "born"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -5154,7 +5058,7 @@
             "Width": 66,
             "Height": 17
           },
-          "Text": "gense"
+          "Text": "sense"
         }
       ]
     },
@@ -5180,7 +5084,7 @@
             "Width": 169,
             "Height": 32
           },
-          "Text": "ingensibility"
+          "Text": "insensibility"
         }
       ]
     },
@@ -6480,7 +6384,7 @@
             "Width": 194,
             "Height": 31
           },
-          "Text": "righteonsness"
+          "Text": "righteousness"
         }
       ]
     },
@@ -6532,7 +6436,7 @@
             "Width": 33,
             "Height": 24
           },
-          "Text": "Le"
+          "Text": "be"
         }
       ]
     },
