@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 310,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 348,
-            "Y": 62,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 412,
-            "Y": 62,
-            "Width": 19,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 62,
-            "Width": 61,
-            "Height": 14
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2304,6 +2266,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2964,11 +2928,7 @@
             "Height": 20
           },
           "Text": "proph"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 778,
@@ -2977,11 +2937,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 79,
@@ -2989,7 +2945,7 @@
             "Width": 25,
             "Height": 14
           },
-          "Text": "cts"
+          "Text": "ets"
         }
       ]
     },
@@ -3379,7 +3335,7 @@
             "Width": 33,
             "Height": 15
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -4380,7 +4336,7 @@
             "Width": 33,
             "Height": 15
           },
-          "Text": "sing"
+          "Text": "sins"
         }
       ]
     },
@@ -4627,7 +4583,7 @@
             "Width": 17,
             "Height": 11
           },
-          "Text": "ag"
+          "Text": "as"
         }
       ]
     },
@@ -4992,19 +4948,6 @@
             "Height": 15
           },
           "Text": "found"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 872,
-            "Y": 688,
-            "Width": 3,
-            "Height": 9
-          },
-          "Text": "i"
         }
       ]
     },
@@ -6369,7 +6312,7 @@
             "Width": 39,
             "Height": 16
           },
-          "Text": "bool"
+          "Text": "book"
         }
       ]
     },
@@ -6408,7 +6351,7 @@
             "Width": 44,
             "Height": 16
           },
-          "Text": "beok"
+          "Text": "book"
         }
       ]
     },
@@ -6838,11 +6781,16 @@
             "Height": 20
           },
           "Text": "proceed"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 785,
+            "Y": 924,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 80,
@@ -7877,7 +7825,7 @@
             "Width": 45,
             "Height": 16
           },
-          "Text": "Alina"
+          "Text": "Alma"
         }
       ]
     },

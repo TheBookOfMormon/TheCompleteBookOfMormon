@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 381,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 343,
-            "Y": 104,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 408,
-            "Y": 104,
-            "Width": 20,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 441,
-            "Y": 104,
-            "Width": 70,
-            "Height": 15
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -4642,7 +4604,7 @@
             "Width": 40,
             "Height": 18
           },
-          "Text": "hedd"
+          "Text": "head"
         }
       ]
     },
@@ -4919,6 +4881,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5279,7 +5242,7 @@
             "Width": 17,
             "Height": 11
           },
-          "Text": "ag"
+          "Text": "as"
         }
       ]
     },
@@ -6522,12 +6485,38 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 694,
+            "Y": 861,
+            "Width": 14,
+            "Height": 17
+          },
+          "Text": "if"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 716,
             "Y": 860,
             "Width": 12,
             "Height": 16
           },
           "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 734,
+            "Y": 860,
+            "Width": 23,
+            "Height": 17
+          },
+          "Text": "so"
         }
       ]
     },
@@ -6723,32 +6712,6 @@
             "Height": 20
           },
           "Text": "MORONI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 337,
-            "Y": 1053,
-            "Width": 144,
-            "Height": 16
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 505,
-            "Y": 1053,
-            "Width": 9,
-            "Height": 16
-          },
-          "Text": "I"
         }
       ]
     },

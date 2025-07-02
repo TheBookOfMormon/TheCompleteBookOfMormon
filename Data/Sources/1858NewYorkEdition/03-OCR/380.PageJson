@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1409,
   "ImageWidth": 880,
+  "ManuallyEdited": true,
   "PageNumber": 380,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 346,
-            "Y": 98,
-            "Width": 47,
-            "Height": 14
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 410,
-            "Y": 98,
-            "Width": 20,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 98,
-            "Width": 57,
-            "Height": 14
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -588,6 +550,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3905,6 +3868,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6363,19 +6327,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 624,
-            "Y": 864,
-            "Width": 2,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 634,
             "Y": 855,
             "Width": 27,
@@ -7300,37 +7251,11 @@
         {
           "Bounds": {
             "X": 78,
-            "Y": 986,
-            "Width": 55,
-            "Height": 15
+            "Y": 987,
+            "Width": 106,
+            "Height": 13
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 135,
-            "Y": 994,
-            "Width": 5,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 141,
-            "Y": 985,
-            "Width": 53,
-            "Height": 20
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -7353,36 +7278,10 @@
           "Bounds": {
             "X": 248,
             "Y": 985,
-            "Width": 43,
+            "Width": 110,
             "Height": 15
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 293,
-            "Y": 994,
-            "Width": 5,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 299,
-            "Y": 985,
-            "Width": 51,
-            "Height": 20
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -7984,6 +7883,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -9038,7 +8938,7 @@
             "Width": 40,
             "Height": 20
           },
-          "Text": "eries"
+          "Text": "cries"
         }
       ]
     },

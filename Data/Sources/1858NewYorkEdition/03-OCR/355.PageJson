@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 355,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 295,
-            "Y": 109,
-            "Width": 48,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 360,
-            "Y": 109,
-            "Width": 21,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 109,
-            "Width": 75,
-            "Height": 14
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -402,7 +364,7 @@
             "Width": 26,
             "Height": 11
           },
-          "Text": "arc"
+          "Text": "are"
         }
       ]
     },
@@ -506,7 +468,7 @@
             "Width": 28,
             "Height": 15
           },
-          "Text": "full"
+          "Text": "fall"
         }
       ]
     },
@@ -2508,7 +2470,7 @@
             "Width": 35,
             "Height": 10
           },
-          "Text": "scen"
+          "Text": "seen"
         }
       ]
     },
@@ -3316,10 +3278,23 @@
           "Bounds": {
             "X": 524,
             "Y": 521,
-            "Width": 35,
-            "Height": 16
+            "Width": 9,
+            "Height": 17
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 533,
+            "Y": 521,
+            "Width": 29,
+            "Height": 17
+          },
+          "Text": "am"
         }
       ]
     },
@@ -3683,7 +3658,7 @@
             "Width": 67,
             "Height": 15
           },
-          "Text": "thercof"
+          "Text": "thereof"
         }
       ]
     },
@@ -3839,7 +3814,7 @@
             "Width": 29,
             "Height": 15
           },
-          "Text": "I'or"
+          "Text": "For"
         }
       ]
     },
@@ -4126,11 +4101,7 @@
             "Height": 15
           },
           "Text": "who"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 744,
@@ -4139,6 +4110,15 @@
             "Height": 3
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 34,
+            "Y": 629,
+            "Width": 23,
+            "Height": 17
+          },
+          "Text": "so"
         }
       ]
     },
@@ -4598,7 +4578,7 @@
             "Width": 18,
             "Height": 15
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -5933,9 +5913,9 @@
         {
           "Bounds": {
             "X": 632,
-            "Y": 802,
-            "Width": 102,
-            "Height": 19
+            "Y": 804,
+            "Width": 112,
+            "Height": 15
           },
           "Text": "nevertheless"
         }
@@ -6839,12 +6819,8 @@
             "Width": 41,
             "Height": 15
           },
-          "Text": "therve"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "there"
+        },
         {
           "Bounds": {
             "X": 746,
@@ -6853,11 +6829,7 @@
             "Height": 2
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 44,
@@ -7983,7 +7955,7 @@
             "Width": 25,
             "Height": 16
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     },
@@ -8334,7 +8306,7 @@
             "Width": 64,
             "Height": 16
           },
-          "Text": "cternal"
+          "Text": "eternal"
         }
       ]
     },
@@ -8412,7 +8384,7 @@
             "Width": 30,
             "Height": 15
           },
-          "Text": "rell"
+          "Text": "roll"
         }
       ]
     },
@@ -8919,7 +8891,7 @@
             "Width": 28,
             "Height": 15
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -9254,10 +9226,23 @@
           "Bounds": {
             "X": 334,
             "Y": 1213,
-            "Width": 85,
+            "Width": 40,
             "Height": 16
           },
-          "Text": "withthem"
+          "Text": "with"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 374,
+            "Y": 1213,
+            "Width": 46,
+            "Height": 16
+          },
+          "Text": "them"
         }
       ]
     },
@@ -9319,10 +9304,10 @@
           "Bounds": {
             "X": 680,
             "Y": 1217,
-            "Width": 57,
+            "Width": 65,
             "Height": 15
           },
-          "Text": "pravers"
+          "Text": "prayers"
         }
       ]
     },
@@ -9378,6 +9363,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

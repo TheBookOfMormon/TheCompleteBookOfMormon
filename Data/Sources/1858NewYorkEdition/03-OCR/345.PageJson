@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1407,
   "ImageWidth": 877,
+  "ManuallyEdited": true,
   "PageNumber": 345,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 324,
-            "Y": 93,
-            "Width": 47,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 389,
-            "Y": 93,
-            "Width": 19,
-            "Height": 13
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 425,
-            "Y": 92,
-            "Width": 59,
-            "Height": 14
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 721,
-            "Y": 87,
-            "Width": 38,
-            "Height": 19
-          },
-          "Text": "33D"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -870,7 +819,7 @@
             "Width": 33,
             "Height": 16
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -2444,11 +2393,16 @@
             "Height": 15
           },
           "Text": "Ish"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 759,
+            "Y": 414,
+            "Width": 17,
+            "Height": 17
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 56,
@@ -3821,7 +3775,7 @@
             "Width": 57,
             "Height": 21
           },
-          "Text": "pcople"
+          "Text": "people"
         }
       ]
     },
@@ -6961,10 +6915,10 @@
           "Bounds": {
             "X": 735,
             "Y": 994,
-            "Width": 25,
-            "Height": 16
+            "Width": 31,
+            "Height": 17
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     },

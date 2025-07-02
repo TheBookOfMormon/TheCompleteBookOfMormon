@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1406,
   "ImageWidth": 876,
+  "ManuallyEdited": true,
   "PageNumber": 327,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 320,
-            "Y": 110,
-            "Width": 46,
-            "Height": 13
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 383,
-            "Y": 109,
-            "Width": 21,
-            "Height": 14
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 420,
-            "Y": 110,
-            "Width": 59,
-            "Height": 13
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3015,7 +2977,7 @@
             "Width": 46,
             "Height": 16
           },
-          "Text": "thesc"
+          "Text": "these"
         }
       ]
     },
@@ -3665,7 +3627,7 @@
             "Width": 25,
             "Height": 11
           },
-          "Text": "car"
+          "Text": "ear"
         }
       ]
     },
@@ -3995,7 +3957,7 @@
             "Width": 27,
             "Height": 10
           },
-          "Text": "ean"
+          "Text": "can"
         }
       ]
     },
@@ -5659,19 +5621,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 215,
-            "Y": 827,
-            "Width": 6,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 220,
             "Y": 819,
             "Width": 46,
@@ -6467,10 +6416,23 @@
           "Bounds": {
             "X": 428,
             "Y": 906,
-            "Width": 85,
+            "Width": 44,
             "Height": 20
           },
-          "Text": "theireyes"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 472,
+            "Y": 906,
+            "Width": 42,
+            "Height": 20
+          },
+          "Text": "eyes"
         }
       ]
     },
@@ -9986,11 +9948,7 @@
             "Height": 16
           },
           "Text": "bro"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 755,
@@ -9999,6 +9957,16 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 97,
+            "Y": 147,
+            "Width": 29,
+            "Height": 16
+          },
+          "IsOnNextPage": true,
+          "Text": "ken"
         }
       ]
     }
