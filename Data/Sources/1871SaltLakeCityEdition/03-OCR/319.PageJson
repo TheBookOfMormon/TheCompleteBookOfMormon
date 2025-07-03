@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 319,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 181,
-            "Y": 144,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 269,
-            "Y": 135,
-            "Width": 76,
-            "Height": 34
-          },
-          "Text": "XVIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 503,
-            "Y": 141,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 590,
-            "Y": 141,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 640,
-            "Y": 141,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -907,11 +843,16 @@
             "Height": 25
           },
           "Text": "kin"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1028,
+            "Y": 342,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 183,
@@ -1881,7 +1822,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "pasa"
+          "Text": "pass"
         }
       ]
     },
@@ -3238,7 +3179,7 @@
             "Width": 44,
             "Height": 22
           },
-          "Text": "mot"
+          "Text": "not"
         }
       ]
     },
@@ -6265,6 +6206,25 @@
             "Height": 17
           },
           "Text": "sa"
+        },
+        {
+          "Bounds": {
+            "X": 1030,
+            "Y": 1605,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 142,
+            "Y": 169,
+            "Width": 56,
+            "Height": 30
+          },
+          "IsOnNextPage": true,
+          "Text": "cred"
         }
       ]
     }

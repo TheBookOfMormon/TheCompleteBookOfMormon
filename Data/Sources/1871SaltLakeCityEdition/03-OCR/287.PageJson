@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 287,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 174,
-            "Y": 124,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 262,
-            "Y": 116,
-            "Width": 39,
-            "Height": 35
-          },
-          "Text": "XIV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 494,
-            "Y": 123,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 580,
-            "Y": 124,
-            "Width": 14,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 631,
-            "Y": 124,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -415,7 +351,7 @@
             "Width": 49,
             "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -2686,6 +2622,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2903,7 +2840,7 @@
             "Width": 144,
             "Height": 26
           },
-          "Text": "Lamanitos"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -3263,42 +3200,12 @@
         {
           "Bounds": {
             "X": 863,
-            "Y": 942,
-            "Width": 50,
-            "Height": 32
+            "Y": 947,
+            "Width": 146,
+            "Height": 22
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 927,
-            "Y": 956,
-            "Width": 9,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 936,
-            "Y": 942,
-            "Width": 66,
-            "Height": 32
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Anti-Nephi"
+        },
         {
           "Bounds": {
             "X": 1011,
@@ -3307,11 +3214,7 @@
             "Height": 24
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 177,
@@ -3321,7 +3224,8 @@
           },
           "Text": "Lehi"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5062,6 +4966,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5150,11 +5055,7 @@
             "Height": 18
           },
           "Text": "remem"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1021,
@@ -5163,11 +5064,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 177,
@@ -5175,7 +5072,7 @@
             "Width": 91,
             "Height": 27
           },
-          "Text": "rance"
+          "Text": "brance"
         }
       ]
     },
@@ -6012,7 +5909,7 @@
             "Width": 116,
             "Height": 26
           },
-          "Text": "remuant"
+          "Text": "remnant"
         }
       ]
     },

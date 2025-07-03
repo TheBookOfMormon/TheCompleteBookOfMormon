@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 310,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 120,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 120,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 616,
-            "Y": 121,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 872,
-            "Y": 122,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 958,
-            "Y": 121,
-            "Width": 43,
-            "Height": 22
-          },
-          "Text": "XVI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -490,10 +426,10 @@
           "Bounds": {
             "X": 761,
             "Y": 225,
-            "Width": 59,
+            "Width": 68,
             "Height": 24
           },
-          "Text": "avord"
+          "Text": "word"
         }
       ]
     },
@@ -1299,19 +1235,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1141,
-            "Y": 395,
-            "Width": 18,
-            "Height": 21
-          },
-          "Text": "oy"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 154,
             "Y": 421,
             "Width": 91,
@@ -1425,6 +1348,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1490,6 +1414,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3633,10 +3558,23 @@
           "Bounds": {
             "X": 647,
             "Y": 900,
-            "Width": 125,
+            "Width": 70,
             "Height": 26
           },
-          "Text": "thou'wilt"
+          "Text": "thou"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 900,
+            "Width": 56,
+            "Height": 26
+          },
+          "Text": "wilt"
         }
       ]
     },
@@ -4889,7 +4827,7 @@
             "Width": 43,
             "Height": 23
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -6420,7 +6358,7 @@
             "Width": 27,
             "Height": 24
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -6689,16 +6627,12 @@
         {
           "Bounds": {
             "X": 955,
-            "Y": 1582,
-            "Width": 18,
-            "Height": 27
+            "Y": 1583,
+            "Width": 33,
+            "Height": 24
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 981,
@@ -6707,32 +6641,16 @@
             "Height": 27
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 222,
-            "Y": 1722,
-            "Width": 25,
-            "Height": 4
+            "X": 166,
+            "Y": 184,
+            "Width": 83,
+            "Height": 24
           },
-          "Text": "SE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1155,
-            "Y": 1714,
-            "Width": 2,
-            "Height": 11
-          },
-          "Text": "I"
+          "IsOnNextPage": true,
+          "Text": "stowed"
         }
       ]
     }

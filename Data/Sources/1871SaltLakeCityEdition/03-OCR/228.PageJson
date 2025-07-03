@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 228,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 113,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 113,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 636,
-            "Y": 113,
-            "Width": 63,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 906,
-            "Y": 115,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 993,
-            "Y": 117,
-            "Width": 33,
-            "Height": 18
-          },
-          "Text": "IL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -311,7 +247,7 @@
             "Width": 44,
             "Height": 25
           },
-          "Text": "tkz"
+          "Text": "the"
         }
       ]
     },
@@ -463,11 +399,11 @@
         {
           "Bounds": {
             "X": 953,
-            "Y": 221,
-            "Width": 15,
-            "Height": 21
+            "Y": 220,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -598,19 +534,6 @@
             "Height": 33
           },
           "Text": "prophecy"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 498,
-            "Y": 377,
-            "Width": 148,
-            "Height": 26
-          },
-          "Text": "CHAPTER"
         }
       ]
     },
@@ -853,11 +776,11 @@
         {
           "Bounds": {
             "X": 795,
-            "Y": 474,
-            "Width": 21,
-            "Height": 26
+            "Y": 475,
+            "Width": 26,
+            "Height": 24
           },
-          "Text": "sn"
+          "Text": "in"
         }
       ]
     },
@@ -949,19 +872,6 @@
             "Height": 24
           },
           "Text": "land"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 219,
-            "Y": 573,
-            "Width": 13,
-            "Height": 24
-          },
-          "Text": "I"
         }
       ]
     },
@@ -4378,11 +4288,7 @@
             "Height": 32
           },
           "Text": "long"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1025,
@@ -4391,11 +4297,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 181,
@@ -4405,8 +4307,10 @@
           },
           "Text": "suffering"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -4468,7 +4372,7 @@
             "Width": 60,
             "Height": 24
           },
-          "Text": "Lave"
+          "Text": "have"
         }
       ]
     },
@@ -4620,11 +4524,11 @@
         {
           "Bounds": {
             "X": 965,
-            "Y": 1384,
-            "Width": 56,
-            "Height": 22
+            "Y": 1383,
+            "Width": 64,
+            "Height": 24
           },
-          "Text": "trom"
+          "Text": "from"
         }
       ]
     },
@@ -5452,11 +5356,11 @@
         {
           "Bounds": {
             "X": 975,
-            "Y": 1583,
-            "Width": 50,
-            "Height": 17
+            "Y": 1580,
+            "Width": 56,
+            "Height": 24
           },
-          "Text": "mow"
+          "Text": "now"
         }
       ]
     }

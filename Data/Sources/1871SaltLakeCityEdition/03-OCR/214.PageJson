@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 214,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 460,
-            "Y": 120,
-            "Width": 66,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 546,
-            "Y": 121,
-            "Width": 28,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 595,
-            "Y": 122,
-            "Width": 91,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 875,
-            "Y": 115,
-            "Width": 64,
-            "Height": 33
-          },
-          "Text": "cHAE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 962,
-            "Y": 121,
-            "Width": 38,
-            "Height": 22
-          },
-          "Text": "XIft"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2847,6 +2783,14 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3585,11 +3529,16 @@
             "Height": 24
           },
           "Text": "destruc"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1020,
+            "Y": 937,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 171,
@@ -4227,11 +4176,7 @@
             "Height": 24
           },
           "Text": "all"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1005,
@@ -4240,11 +4185,7 @@
             "Height": 24
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 173,
@@ -4254,7 +4195,8 @@
           },
           "Text": "wise"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -4382,7 +4324,7 @@
             "Width": 65,
             "Height": 21
           },
-          "Text": "inust"
+          "Text": "must"
         }
       ]
     },
@@ -4399,6 +4341,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6179,11 +6122,7 @@
             "Height": 16
           },
           "Text": "sen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1016,
@@ -6192,11 +6131,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 176,
@@ -6204,7 +6139,7 @@
             "Width": 60,
             "Height": 26
           },
-          "Text": "doth"
+          "Text": "deth"
         }
       ]
     },
@@ -6335,11 +6270,7 @@
             "Height": 18
           },
           "Text": "man"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1015,
@@ -6348,6 +6279,16 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 136,
+            "Y": 157,
+            "Width": 38,
+            "Height": 17
+          },
+          "IsOnNextPage": true,
+          "Text": "ner"
         }
       ]
     }

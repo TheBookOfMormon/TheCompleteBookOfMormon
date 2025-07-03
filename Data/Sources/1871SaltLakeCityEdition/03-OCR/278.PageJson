@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 278,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 495,
-            "Y": 128,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 582,
-            "Y": 128,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 632,
-            "Y": 127,
-            "Width": 63,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 892,
-            "Y": 121,
-            "Width": 64,
-            "Height": 33
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 980,
-            "Y": 127,
-            "Width": 52,
-            "Height": 22
-          },
-          "Text": "XIII"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -338,11 +274,16 @@
             "Height": 25
           },
           "Text": "Never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1033,
+            "Y": 201,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 183,
@@ -3277,10 +3218,10 @@
           "Bounds": {
             "X": 606,
             "Y": 913,
-            "Width": 40,
+            "Width": 44,
             "Height": 24
           },
-          "Text": "bis"
+          "Text": "his"
         }
       ]
     },
@@ -6221,11 +6162,11 @@
         {
           "Bounds": {
             "X": 178,
-            "Y": 1586,
-            "Width": 40,
-            "Height": 29
+            "Y": 1588,
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "bhe"
+          "Text": "the"
         }
       ]
     },
@@ -6316,7 +6257,7 @@
             "Width": 63,
             "Height": 27
           },
-          "Text": "gven"
+          "Text": "even"
         }
       ]
     },
@@ -6351,11 +6292,11 @@
         {
           "Bounds": {
             "X": 788,
-            "Y": 1592,
-            "Width": 73,
-            "Height": 34
+            "Y": 1597,
+            "Width": 86,
+            "Height": 24
           },
-          "Text": "houge"
+          "Text": "house"
         }
       ]
     },

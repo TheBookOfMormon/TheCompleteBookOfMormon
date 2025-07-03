@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 321,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 188,
-            "Y": 122,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 276,
-            "Y": 115,
-            "Width": 76,
-            "Height": 33
-          },
-          "Text": "XVIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 120,
-            "Width": 67,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 593,
-            "Y": 121,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 643,
-            "Y": 121,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -663,11 +599,11 @@
         {
           "Bounds": {
             "X": 973,
-            "Y": 259,
-            "Width": 57,
-            "Height": 34
+            "Y": 264,
+            "Width": 66,
+            "Height": 24
           },
-          "Text": "thelr"
+          "Text": "their"
         }
       ]
     },
@@ -2117,10 +2053,23 @@
           "Bounds": {
             "X": 586,
             "Y": 647,
-            "Width": 94,
+            "Width": 71,
             "Height": 25
           },
-          "Text": "thereis"
+          "Text": "there"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 657,
+            "Y": 647,
+            "Width": 24,
+            "Height": 25
+          },
+          "Text": "is"
         }
       ]
     },
@@ -4875,10 +4824,23 @@
           "Bounds": {
             "X": 524,
             "Y": 1329,
-            "Width": 155,
+            "Width": 74,
             "Height": 25
           },
-          "Text": "thosesecret"
+          "Text": "those"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 598,
+            "Y": 1329,
+            "Width": 82,
+            "Height": 25
+          },
+          "Text": "secret"
         }
       ]
     },
@@ -5945,11 +5907,16 @@
             "Height": 17
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1031,
+            "Y": 1558,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 194,
@@ -6071,10 +6038,10 @@
           "Bounds": {
             "X": 913,
             "Y": 1593,
-            "Width": 34,
+            "Width": 48,
             "Height": 24
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },

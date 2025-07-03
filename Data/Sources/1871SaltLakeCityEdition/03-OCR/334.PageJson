@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 334,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 438,
-            "Y": 111,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 524,
-            "Y": 110,
-            "Width": 29,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 112,
-            "Width": 63,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 858,
-            "Y": 107,
-            "Width": 65,
-            "Height": 32
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 943,
-            "Y": 114,
-            "Width": 15,
-            "Height": 20
-          },
-          "Text": "XX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -341,6 +277,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -611,11 +552,7 @@
             "Height": 24
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 971,
@@ -624,11 +561,7 @@
             "Height": 24
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 133,
@@ -638,7 +571,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -671,37 +605,11 @@
         {
           "Bounds": {
             "X": 366,
-            "Y": 280,
-            "Width": 49,
-            "Height": 25
+            "Y": 281,
+            "Width": 163,
+            "Height": 22
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 421,
-            "Y": 294,
-            "Width": 7,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 428,
-            "Y": 280,
-            "Width": 81,
-            "Height": 25
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -974,7 +882,7 @@
             "Width": 171,
             "Height": 25
           },
-          "Text": "Zarahemmnah"
+          "Text": "Zarahemnah"
         }
       ]
     },
@@ -1755,37 +1663,11 @@
         {
           "Bounds": {
             "X": 129,
-            "Y": 538,
-            "Width": 81,
-            "Height": 33
+            "Y": 543,
+            "Width": 179,
+            "Height": 22
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 215,
-            "Y": 553,
-            "Width": 7,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 221,
-            "Y": 538,
-            "Width": 82,
-            "Height": 33
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -2843,7 +2725,7 @@
             "Width": 55,
             "Height": 26
           },
-          "Text": "foto"
+          "Text": "into"
         }
       ]
     },
@@ -5327,6 +5209,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5515,10 +5399,10 @@
           "Bounds": {
             "X": 160,
             "Y": 1443,
-            "Width": 69,
-            "Height": 25
+            "Width": 76,
+            "Height": 24
           },
-          "Text": "Mant"
+          "Text": "Manti"
         }
       ]
     },
@@ -5905,10 +5789,10 @@
           "Bounds": {
             "X": 120,
             "Y": 1537,
-            "Width": 58,
-            "Height": 25
+            "Width": 66,
+            "Height": 24
           },
-          "Text": "Sheir"
+          "Text": "their"
         }
       ]
     },

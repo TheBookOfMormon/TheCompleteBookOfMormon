@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 203,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 149,
-            "Y": 124,
-            "Width": 57,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 232,
-            "Y": 116,
-            "Width": 16,
-            "Height": 35
-          },
-          "Text": "XL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 452,
-            "Y": 122,
-            "Width": 65,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 123,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 123,
-            "Width": 94,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1929,11 +1865,7 @@
             "Height": 24
           },
           "Text": "task"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 994,
@@ -1942,11 +1874,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 150,
@@ -1956,7 +1884,8 @@
           },
           "Text": "masters"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -2036,6 +1965,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2185,10 +2119,10 @@
           "Bounds": {
             "X": 817,
             "Y": 617,
-            "Width": 36,
+            "Width": 52,
             "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -4294,7 +4228,7 @@
             "Width": 56,
             "Height": 23
           },
-          "Text": "pasa"
+          "Text": "pass"
         }
       ]
     },
@@ -4493,6 +4427,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4698,11 +4637,16 @@
             "Height": 24
           },
           "Text": "Zara"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1003,
+            "Y": 1199,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 149,
@@ -4827,7 +4771,7 @@
             "Width": 36,
             "Height": 32
           },
-          "Text": "jow"
+          "Text": "joy"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 247,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 138,
-            "Y": 127,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 224,
-            "Y": 117,
-            "Width": 52,
-            "Height": 38
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 124,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 124,
-            "Width": 29,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 125,
-            "Width": 46,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2283,11 +2219,24 @@
         {
           "Bounds": {
             "X": 554,
-            "Y": 626,
-            "Width": 124,
-            "Height": 17
+            "Y": 625,
+            "Width": 16,
+            "Height": 20
           },
-          "Text": "aeasure"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 570,
+            "Y": 625,
+            "Width": 117,
+            "Height": 20
+          },
+          "Text": "measure"
         }
       ]
     },
@@ -2310,10 +2259,23 @@
           "Bounds": {
             "X": 727,
             "Y": 618,
-            "Width": 143,
+            "Width": 81,
             "Height": 32
           },
-          "Text": "everykind"
+          "Text": "every"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 808,
+            "Y": 618,
+            "Width": 63,
+            "Height": 32
+          },
+          "Text": "kind"
         }
       ]
     },
@@ -4194,6 +4156,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6423,7 +6386,7 @@
             "Width": 34,
             "Height": 24
           },
-          "Text": "ive"
+          "Text": "give"
         }
       ]
     },
@@ -6579,7 +6542,7 @@
             "Width": 32,
             "Height": 17
           },
-          "Text": "ow"
+          "Text": "Now"
         }
       ]
     },
@@ -6853,11 +6816,7 @@
             "Height": 32
           },
           "Text": "temp"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 966,
@@ -6866,6 +6825,16 @@
             "Height": 27
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 150,
+            "Y": 175,
+            "Width": 94,
+            "Height": 26
+          },
+          "IsOnNextPage": true,
+          "Text": "tations"
         }
       ]
     }

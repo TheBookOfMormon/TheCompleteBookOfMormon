@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 200,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 140,
-            "Width": 67,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 140,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 602,
-            "Y": 140,
-            "Width": 89,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 879,
-            "Y": 133,
-            "Width": 76,
-            "Height": 32
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 975,
-            "Y": 139,
-            "Width": 28,
-            "Height": 20
-          },
-          "Text": "x1"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3603,11 +3539,16 @@
             "Height": 25
           },
           "Text": "Never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1004,
+            "Y": 922,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 162,
@@ -4560,6 +4501,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4994,11 +4936,11 @@
         {
           "Bounds": {
             "X": 484,
-            "Y": 1243,
-            "Width": 15,
-            "Height": 36
+            "Y": 1249,
+            "Width": 26,
+            "Height": 24
           },
-          "Text": "te"
+          "Text": "to"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 315,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 179,
-            "Y": 137,
-            "Width": 60,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 268,
-            "Y": 130,
-            "Width": 47,
-            "Height": 34
-          },
-          "Text": "XVL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 502,
-            "Y": 137,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 589,
-            "Y": 137,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 639,
-            "Y": 137,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -120,6 +56,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1036,7 +973,7 @@
             "Width": 17,
             "Height": 23
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -1990,7 +1927,7 @@
             "Width": 135,
             "Height": 24
           },
-          "Text": "Zorainites"
+          "Text": "Zoramites"
         }
       ]
     },
@@ -3720,11 +3657,16 @@
             "Height": 23
           },
           "Text": "Am"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1023,
+            "Y": 982,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 182,
@@ -4417,9 +4359,9 @@
         {
           "Bounds": {
             "X": 938,
-            "Y": 1142,
-            "Width": 79,
-            "Height": 32
+            "Y": 1146,
+            "Width": 97,
+            "Height": 24
           },
           "Text": "Judges"
         }
@@ -6293,7 +6235,7 @@
             "Width": 150,
             "Height": 25
           },
-          "Text": "inberitance"
+          "Text": "inheritance"
         }
       ]
     },

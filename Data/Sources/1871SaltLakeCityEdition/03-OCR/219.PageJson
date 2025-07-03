@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 219,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 148,
-            "Y": 140,
-            "Width": 63,
-            "Height": 17
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 232,
-            "Y": 140,
-            "Width": 10,
-            "Height": 17
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 139,
-            "Width": 65,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 139,
-            "Width": 28,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 602,
-            "Y": 139,
-            "Width": 62,
-            "Height": 17
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -4104,19 +4040,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 616,
-            "Y": 1080,
-            "Width": 12,
-            "Height": 26
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 614,
             "Y": 1080,
             "Width": 59,
@@ -4386,6 +4309,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4652,10 +4576,49 @@
           "Bounds": {
             "X": 769,
             "Y": 1208,
-            "Width": 226,
+            "Width": 89,
             "Height": 26
           },
-          "Text": "laborstohearthe"
+          "Text": "labors"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 858,
+            "Y": 1208,
+            "Width": 28,
+            "Height": 26
+          },
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 886,
+            "Y": 1208,
+            "Width": 65,
+            "Height": 26
+          },
+          "Text": "hear"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 951,
+            "Y": 1208,
+            "Width": 46,
+            "Height": 26
+          },
+          "Text": "the"
         }
       ]
     },
@@ -5072,11 +5035,16 @@
             "Height": 24
           },
           "Text": "hear"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 983,
+            "Y": 1307,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 150,
@@ -6359,11 +6327,7 @@
             "Height": 25
           },
           "Text": "perse"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 988,
@@ -6372,6 +6336,16 @@
             "Height": 25
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 159,
+            "Y": 164,
+            "Width": 96,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "cutions"
         }
       ]
     }

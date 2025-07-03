@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 240,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 140,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 545,
-            "Y": 140,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 594,
-            "Y": 140,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 853,
-            "Y": 135,
-            "Width": 62,
-            "Height": 33
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 940,
-            "Y": 143,
-            "Width": 42,
-            "Height": 20
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -857,7 +793,7 @@
             "Width": 85,
             "Height": 29
           },
-          "Text": "repeut"
+          "Text": "repent"
         }
       ]
     },
@@ -1108,6 +1044,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1244,10 +1185,23 @@
           "Bounds": {
             "X": 753,
             "Y": 439,
-            "Width": 143,
+            "Width": 100,
             "Height": 25
           },
-          "Text": "declarethe"
+          "Text": "declare"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 853,
+            "Y": 439,
+            "Width": 44,
+            "Height": 25
+          },
+          "Text": "the"
         }
       ]
     },
@@ -1286,7 +1240,7 @@
             "Width": 35,
             "Height": 24
           },
-          "Text": "tod"
+          "Text": "God"
         }
       ]
     },
@@ -2568,32 +2522,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 450,
-            "Y": 890,
-            "Width": 151,
-            "Height": 27
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 624,
-            "Y": 891,
-            "Width": 55,
-            "Height": 25
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 141,
             "Y": 955,
             "Width": 36,
@@ -2768,7 +2696,7 @@
             "Width": 57,
             "Height": 20
           },
-          "Text": "unio"
+          "Text": "unto"
         }
       ]
     },
@@ -2882,10 +2810,10 @@
           "Bounds": {
             "X": 813,
             "Y": 989,
-            "Width": 150,
+            "Width": 163,
             "Height": 24
           },
-          "Text": "Ammonihak"
+          "Text": "Ammonihah"
         }
       ]
     },
@@ -3229,19 +3157,6 @@
             "Height": 26
           },
           "Text": "Alma"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 166,
-            "Y": 1151,
-            "Width": 14,
-            "Height": 23
-          },
-          "Text": "I"
         }
       ]
     },
@@ -3674,6 +3589,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4411,7 +4327,7 @@
             "Width": 39,
             "Height": 23
           },
-          "Text": "uot"
+          "Text": "not"
         }
       ]
     },
@@ -4785,10 +4701,23 @@
           "Bounds": {
             "X": 653,
             "Y": 1473,
-            "Width": 97,
+            "Width": 49,
             "Height": 31
           },
-          "Text": "oneday"
+          "Text": "one"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 702,
+            "Y": 1473,
+            "Width": 49,
+            "Height": 31
+          },
+          "Text": "day"
         }
       ]
     },
@@ -4992,40 +4921,15 @@
         {
           "Bounds": {
             "X": 163,
-            "Y": 1536,
-            "Width": 60,
-            "Height": 25
+            "Y": 1537,
+            "Width": 178,
+            "Height": 22
           },
-          "Text": "hard"
+          "Text": "hard-hearted"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 227,
-            "Y": 1551,
-            "Width": 8,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 235,
-            "Y": 1536,
-            "Width": 88,
-            "Height": 25
-          },
-          "Text": "hearted"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -5152,7 +5056,7 @@
             "Width": 45,
             "Height": 31
           },
-          "Text": "tod"
+          "Text": "God"
         }
       ]
     },
@@ -5282,7 +5186,7 @@
             "Width": 41,
             "Height": 26
           },
-          "Text": "his"
+          "Text": "this"
         }
       ]
     },

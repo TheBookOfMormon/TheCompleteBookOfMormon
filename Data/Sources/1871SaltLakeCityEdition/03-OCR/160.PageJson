@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 160,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 107,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 107,
-            "Width": 28,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 107,
-            "Width": 90,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 904,
-            "Y": 101,
-            "Width": 56,
-            "Height": 34
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 987,
-            "Y": 109,
-            "Width": 14,
-            "Height": 21
-          },
-          "Text": "1x"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1676,51 +1612,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 491,
-            "Y": 630,
-            "Width": 146,
-            "Height": 27
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 664,
-            "Y": 631,
-            "Width": 15,
-            "Height": 25
-          },
-          "Text": "IL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 204,
-            "Y": 697,
-            "Width": 13,
-            "Height": 24
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 242,
             "Y": 695,
-            "Width": 41,
-            "Height": 26
+            "Width": 55,
+            "Height": 25
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -2653,7 +2550,7 @@
             "Width": 49,
             "Height": 25
           },
-          "Text": "leas"
+          "Text": "less"
         }
       ]
     },
@@ -4989,6 +4886,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5379,6 +5277,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5657,11 +5556,30 @@
         {
           "Bounds": {
             "X": 971,
+            "Y": 1574,
+            "Width": 31,
+            "Height": 23
+          },
+          "Text": "pa"
+        },
+        {
+          "Bounds": {
+            "X": 1011,
             "Y": 1573,
-            "Width": 16,
+            "Width": 25,
+            "Height": 25
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 130,
+            "Y": 151,
+            "Width": 83,
             "Height": 24
           },
-          "Text": "pe"
+          "IsOnNextPage": true,
+          "Text": "tience"
         }
       ]
     }

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1753,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 335,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 166,
-            "Y": 138,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 256,
-            "Y": 128,
-            "Width": 17,
-            "Height": 35
-          },
-          "Text": "XX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 136,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 594,
-            "Y": 136,
-            "Width": 27,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 642,
-            "Y": 137,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -3198,6 +3134,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5217,6 +5158,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 213,
+            "Y": 1368,
+            "Width": 43,
+            "Height": 24
+          },
+          "Text": "loss"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 282,
             "Y": 1369,
             "Width": 28,
@@ -5626,11 +5580,7 @@
             "Height": 24
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1007,
@@ -5639,11 +5589,7 @@
             "Height": 24
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 160,
@@ -5653,7 +5599,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5686,37 +5633,11 @@
         {
           "Bounds": {
             "X": 424,
-            "Y": 1466,
-            "Width": 31,
-            "Height": 29
+            "Y": 1469,
+            "Width": 163,
+            "Height": 22
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 472,
-            "Y": 1466,
-            "Width": 16,
-            "Height": 29
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 1466,
-            "Width": 99,
-            "Height": 29
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -5751,37 +5672,11 @@
         {
           "Bounds": {
             "X": 774,
-            "Y": 1464,
-            "Width": 49,
-            "Height": 32
+            "Y": 1469,
+            "Width": 161,
+            "Height": 22
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 839,
-            "Y": 1479,
-            "Width": 7,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 846,
-            "Y": 1464,
-            "Width": 79,
-            "Height": 32
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -6262,7 +6157,7 @@
             "Width": 46,
             "Height": 25
           },
-          "Text": "fiee"
+          "Text": "flee"
         }
       ]
     },

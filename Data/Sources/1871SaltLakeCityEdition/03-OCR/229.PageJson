@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 229,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 136,
-            "Y": 137,
-            "Width": 45,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 135,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 134,
-            "Width": 29,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 591,
-            "Y": 135,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2193,10 +2142,10 @@
           "Bounds": {
             "X": 567,
             "Y": 629,
-            "Width": 39,
-            "Height": 23
+            "Width": 44,
+            "Height": 24
           },
-          "Text": "bis"
+          "Text": "his"
         }
       ]
     },
@@ -6364,11 +6313,11 @@
         {
           "Bounds": {
             "X": 526,
-            "Y": 1571,
-            "Width": 45,
-            "Height": 51
+            "Y": 1567,
+            "Width": 48,
+            "Height": 24
           },
-          "Text": "sy"
+          "Text": "say"
         }
       ]
     },
@@ -6577,11 +6526,7 @@
             "Height": 25
           },
           "Text": "sub"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 954,
@@ -6590,6 +6535,16 @@
             "Height": 25
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 163,
+            "Y": 185,
+            "Width": 64,
+            "Height": 32
+          },
+          "IsOnNextPage": true,
+          "Text": "jects"
         }
       ]
     }

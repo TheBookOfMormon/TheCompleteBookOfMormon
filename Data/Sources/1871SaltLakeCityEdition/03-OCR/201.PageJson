@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 201,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 131,
-            "Y": 129,
-            "Width": 59,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 217,
-            "Y": 121,
-            "Width": 28,
-            "Height": 33
-          },
-          "Text": "X1"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 439,
-            "Y": 128,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 128,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 128,
-            "Width": 88,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -616,11 +552,16 @@
             "Height": 24
           },
           "Text": "posses"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 979,
+            "Y": 273,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 129,
@@ -2101,6 +2042,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3380,6 +3326,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4888,6 +4839,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5261,7 +5213,7 @@
             "Width": 145,
             "Height": 30
           },
-          "Text": "Lamanitea"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -5440,10 +5392,23 @@
           "Bounds": {
             "X": 824,
             "Y": 1364,
-            "Width": 158,
+            "Width": 62,
             "Height": 32
           },
-          "Text": "theyshould"
+          "Text": "they"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 886,
+            "Y": 1364,
+            "Width": 97,
+            "Height": 32
+          },
+          "Text": "should"
         }
       ]
     },
@@ -6054,7 +6019,7 @@
             "Width": 51,
             "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -6445,19 +6410,6 @@
             "Height": 17
           },
           "Text": "was"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 973,
-            "Y": 1709,
-            "Width": 21,
-            "Height": 11
-          },
-          "Text": "al"
         }
       ]
     }

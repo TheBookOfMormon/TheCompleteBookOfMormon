@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 338,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 132,
-            "Width": 67,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 132,
-            "Width": 30,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 133,
-            "Width": 66,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 839,
-            "Y": 126,
-            "Width": 77,
-            "Height": 33
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 941,
-            "Y": 134,
-            "Width": 40,
-            "Height": 28
-          },
-          "Text": "XX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -763,10 +699,23 @@
           "Bounds": {
             "X": 480,
             "Y": 298,
-            "Width": 116,
+            "Width": 63,
             "Height": 35
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 543,
+            "Y": 298,
+            "Width": 54,
+            "Height": 35
+          },
+          "Text": "that"
         }
       ]
     },
@@ -935,7 +884,7 @@
             "Width": 35,
             "Height": 25
           },
-          "Text": "Nis"
+          "Text": "his"
         }
       ]
     },
@@ -2553,37 +2502,11 @@
         {
           "Bounds": {
             "X": 501,
-            "Y": 689,
-            "Width": 81,
-            "Height": 32
+            "Y": 694,
+            "Width": 179,
+            "Height": 22
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 689,
-            "Width": 12,
-            "Height": 32
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 596,
-            "Y": 689,
-            "Width": 77,
-            "Height": 32
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -3625,10 +3548,10 @@
           "Bounds": {
             "X": 172,
             "Y": 956,
-            "Width": 31,
-            "Height": 25
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "yo"
+          "Text": "ye"
         }
       ]
     },
@@ -4439,7 +4362,7 @@
             "Width": 117,
             "Height": 25
           },
-          "Text": "Moroni's"
+          "Text": "Moroni\u0027s"
         }
       ]
     },
@@ -5652,6 +5575,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5760,6 +5684,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 895,
+            "Y": 1402,
+            "Width": 73,
+            "Height": 24
+          },
+          "Text": "earth"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 120,
             "Y": 1434,
             "Width": 83,
@@ -5801,10 +5738,10 @@
           "Bounds": {
             "X": 299,
             "Y": 1433,
-            "Width": 65,
-            "Height": 59
+            "Width": 74,
+            "Height": 24
           },
-          "Text": "aoalp"
+          "Text": "scalp"
         }
       ]
     },
@@ -5844,6 +5781,19 @@
             "Height": 31
           },
           "Text": "chief"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 583,
+            "Y": 1438,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "so"
         }
       ]
     },
@@ -5947,7 +5897,7 @@
             "Width": 29,
             "Height": 25
           },
-          "Text": "yo"
+          "Text": "ye"
         }
       ]
     },
@@ -6546,11 +6496,7 @@
             "Height": 18
           },
           "Text": "wea"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 961,
@@ -6559,6 +6505,16 @@
             "Height": 18
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 124,
+            "Y": 179,
+            "Width": 46,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "pons"
         }
       ]
     }

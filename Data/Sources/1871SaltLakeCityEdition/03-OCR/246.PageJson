@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 246,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 123,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 564,
-            "Y": 123,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 613,
-            "Y": 124,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 861,
-            "Y": 116,
-            "Width": 61,
-            "Height": 36
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 948,
-            "Y": 123,
-            "Width": 42,
-            "Height": 19
-          },
-          "Text": "Vim"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2335,6 +2271,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3402,7 +3339,7 @@
             "Width": 34,
             "Height": 24
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -3692,6 +3629,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6062,6 +6004,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 292,
+            "Y": 1554,
+            "Width": 16,
+            "Height": 24
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 317,
             "Y": 1551,
             "Width": 67,
@@ -6172,6 +6127,19 @@
             "Height": 25
           },
           "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 163,
+            "Y": 1589,
+            "Width": 44,
+            "Height": 24
+          },
+          "Text": "his"
         }
       ]
     },
