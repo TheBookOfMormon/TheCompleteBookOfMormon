@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 371,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 181,
-            "Y": 138,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 269,
-            "Y": 131,
-            "Width": 45,
-            "Height": 33
-          },
-          "Text": "XXV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 507,
-            "Y": 136,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 594,
-            "Y": 138,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 137,
-            "Width": 69,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -380,6 +316,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1316,6 +1253,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1325,7 +1263,7 @@
             "Width": 50,
             "Height": 31
           },
-          "Text": "did"
+          "Text": "Gid"
         }
       ]
     },
@@ -3913,11 +3851,16 @@
             "Height": 24
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1023,
+            "Y": 1019,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 185,
@@ -4029,7 +3972,7 @@
             "Width": 29,
             "Height": 17
           },
-          "Text": "s0"
+          "Text": "so"
         }
       ]
     },
@@ -4082,11 +4025,16 @@
             "Height": 23
           },
           "Text": "La"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1020,
+            "Y": 1052,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 185,
@@ -6025,8 +5973,8 @@
           "Bounds": {
             "X": 948,
             "Y": 1535,
-            "Width": 73,
-            "Height": 25
+            "Width": 89,
+            "Height": 24
           },
           "Text": "labour"
         }
@@ -6314,7 +6262,7 @@
             "Width": 46,
             "Height": 25
           },
-          "Text": "Qid"
+          "Text": "Gid"
         }
       ]
     }

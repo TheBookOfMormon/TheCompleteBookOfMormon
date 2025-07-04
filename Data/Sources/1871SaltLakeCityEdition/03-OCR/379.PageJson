@@ -1,99 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 379,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 142,
-            "Y": 111,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 229,
-            "Y": 102,
-            "Width": 69,
-            "Height": 35
-          },
-          "Text": "XXVL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 108,
-            "Width": 67,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 557,
-            "Y": 100,
-            "Width": 30,
-            "Height": 28
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 608,
-            "Y": 109,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 948,
-            "Y": 102,
-            "Width": 38,
-            "Height": 28
-          },
-          "Text": "8n"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 143,
-            "Y": 150,
-            "Width": 44,
-            "Height": 25
-          },
-          "Text": "der"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -394,7 +304,7 @@
             "Width": 145,
             "Height": 26
           },
-          "Text": "undsunted"
+          "Text": "undaunted"
         }
       ]
     },
@@ -404,10 +314,10 @@
           "Bounds": {
             "X": 325,
             "Y": 221,
-            "Width": 34,
-            "Height": 25
+            "Width": 48,
+            "Height": 24
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -421,6 +331,19 @@
             "Height": 24
           },
           "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 449,
+            "Y": 214,
+            "Width": 61,
+            "Height": 24
+          },
+          "Text": "they"
         }
       ]
     },
@@ -624,16 +547,12 @@
         {
           "Bounds": {
             "X": 958,
-            "Y": 253,
-            "Width": 12,
-            "Height": 18
+            "Y": 250,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "ao"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "ac"
+        },
         {
           "Bounds": {
             "X": 981,
@@ -642,11 +561,7 @@
             "Height": 18
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 144,
@@ -2562,7 +2477,7 @@
             "Width": 69,
             "Height": 32
           },
-          "Text": "eixty"
+          "Text": "sixty"
         }
       ]
     },
@@ -2693,11 +2608,16 @@
             "Height": 18
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 981,
+            "Y": 736,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 146,
@@ -2714,11 +2634,11 @@
         {
           "Bounds": {
             "X": 266,
-            "Y": 762,
-            "Width": 119,
-            "Height": 55
+            "Y": 765,
+            "Width": 137,
+            "Height": 24
           },
-          "Text": "Recordin"
+          "Text": "according"
         }
       ]
     },
@@ -3417,10 +3337,10 @@
           "Bounds": {
             "X": 344,
             "Y": 934,
-            "Width": 42,
-            "Height": 49
+            "Width": 48,
+            "Height": 24
           },
-          "Text": "Jo"
+          "Text": "yea"
         }
       ]
     },
@@ -4837,7 +4757,7 @@
             "Width": 50,
             "Height": 24
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -6385,6 +6305,25 @@
             "Height": 22
           },
           "Text": "Laman"
+        },
+        {
+          "Bounds": {
+            "X": 980,
+            "Y": 1568,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 142,
+            "Y": 181,
+            "Width": 49,
+            "Height": 26
+          },
+          "IsOnNextPage": true,
+          "Text": "ites"
         }
       ]
     }

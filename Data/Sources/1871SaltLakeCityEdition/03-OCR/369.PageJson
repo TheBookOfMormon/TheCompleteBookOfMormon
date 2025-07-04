@@ -1126,6 +1126,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 161,
+            "Y": 400,
+            "Width": 25,
+            "Height": 24
+          },
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 196,
             "Y": 400,
             "Width": 40,
@@ -2206,6 +2219,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2347,10 +2362,23 @@
           "Bounds": {
             "X": 704,
             "Y": 628,
-            "Width": 41,
+            "Width": 15,
             "Height": 24
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 719,
+            "Y": 628,
+            "Width": 50,
+            "Height": 24
+          },
+          "Text": "am"
         }
       ]
     },
@@ -2637,11 +2665,16 @@
             "Height": 17
           },
           "Text": "re"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1019,
+            "Y": 697,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 165,
@@ -6361,7 +6394,7 @@
             "Width": 64,
             "Height": 24
           },
-          "Text": "bath"
+          "Text": "hath"
         }
       ]
     },
@@ -6761,7 +6794,7 @@
             "Width": 143,
             "Height": 26
           },
-          "Text": "Jerusalemn"
+          "Text": "Jerusalem"
         }
       ]
     },
