@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 420,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 113,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 113,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 113,
-            "Width": 117,
-            "Height": 19
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 904,
-            "Y": 107,
-            "Width": 61,
-            "Height": 33
-          },
-          "Text": "orAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 991,
-            "Y": 114,
-            "Width": 23,
-            "Height": 19
-          },
-          "Text": "m1"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1630,11 +1566,16 @@
             "Height": 32
           },
           "Text": "heap"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1029,
+            "Y": 480,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 179,
@@ -1915,12 +1856,17 @@
             "Width": 40,
             "Height": 18
           },
-          "Text": "mun"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "mur"
+        },
+        {
+          "Bounds": {
+            "X": 1012,
+            "Y": 545,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 180,
@@ -2326,12 +2272,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 202,
+            "X": 178,
             "Y": 672,
-            "Width": 41,
-            "Height": 23
+            "Width": 46,
+            "Height": 24
           },
-          "Text": "ein"
+          "Text": "ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 224,
+            "Y": 672,
+            "Width": 37,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -2457,9 +2416,9 @@
         {
           "Bounds": {
             "X": 182,
-            "Y": 677,
+            "Y": 707,
             "Width": 81,
-            "Height": 60
+            "Height": 24
           },
           "Text": "Judge"
         }
@@ -4671,6 +4630,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 951,
+            "Y": 1192,
+            "Width": 65,
+            "Height": 24
+          },
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 178,
             "Y": 1221,
             "Width": 53,
@@ -5218,11 +5190,11 @@
         {
           "Bounds": {
             "X": 966,
-            "Y": 1318,
-            "Width": 42,
-            "Height": 26
+            "Y": 1319,
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "the"
+          "Text": "they"
         }
       ]
     },
@@ -6314,7 +6286,26 @@
             "Width": 51,
             "Height": 30
           },
-          "Text": "pec"
+          "Text": "peo"
+        },
+        {
+          "Bounds": {
+            "X": 1029,
+            "Y": 1585,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 133,
+            "Y": 173,
+            "Width": 40,
+            "Height": 32
+          },
+          "IsOnNextPage": true,
+          "Text": "ple"
         }
       ]
     }

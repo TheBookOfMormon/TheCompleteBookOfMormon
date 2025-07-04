@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 392,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 122,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 122,
-            "Width": 28,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 591,
-            "Y": 122,
-            "Width": 65,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 821,
-            "Y": 115,
-            "Width": 76,
-            "Height": 34
-          },
-          "Text": "oHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 920,
-            "Y": 121,
-            "Width": 62,
-            "Height": 22
-          },
-          "Text": "XXTX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -428,7 +364,7 @@
             "Width": 97,
             "Height": 32
           },
-          "Text": "sgainst"
+          "Text": "against"
         }
       ]
     },
@@ -1469,11 +1405,16 @@
             "Height": 18
           },
           "Text": "wea"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 986,
+            "Y": 458,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 142,
@@ -2599,7 +2540,7 @@
             "Width": 134,
             "Height": 31
           },
-          "Text": "Nephibah"
+          "Text": "Nephihah"
         }
       ]
     },
@@ -2772,6 +2713,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2998,6 +2940,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3789,7 +3732,7 @@
             "Width": 69,
             "Height": 22
           },
-          "Text": "caine"
+          "Text": "came"
         }
       ]
     },
@@ -5013,10 +4956,23 @@
           "Bounds": {
             "X": 403,
             "Y": 1264,
-            "Width": 114,
+            "Width": 62,
             "Height": 31
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 465,
+            "Y": 1264,
+            "Width": 53,
+            "Height": 31
+          },
+          "Text": "that"
         }
       ]
     },

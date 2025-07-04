@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 393,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 160,
-            "Y": 111,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 250,
-            "Y": 103,
-            "Width": 55,
-            "Height": 35
-          },
-          "Text": "XXIX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 108,
-            "Width": 68,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 108,
-            "Width": 30,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 615,
-            "Y": 108,
-            "Width": 63,
-            "Height": 21
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1036,10 +972,23 @@
           "Bounds": {
             "X": 224,
             "Y": 377,
-            "Width": 79,
+            "Width": 69,
             "Height": 24
           },
-          "Text": "Nowit"
+          "Text": "Now"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 293,
+            "Y": 377,
+            "Width": 22,
+            "Height": 24
+          },
+          "Text": "it"
         }
       ]
     },
@@ -1842,7 +1791,7 @@
           "Bounds": {
             "X": 741,
             "Y": 538,
-            "Width": 73,
+            "Width": 89,
             "Height": 24
           },
           "Text": "labour"
@@ -2001,7 +1950,7 @@
             "Width": 48,
             "Height": 24
           },
-          "Text": "snd"
+          "Text": "and"
         }
       ]
     },
@@ -2417,7 +2366,7 @@
             "Width": 55,
             "Height": 24
           },
-          "Text": "pasa"
+          "Text": "pass"
         }
       ]
     },
@@ -2761,11 +2710,16 @@
             "Height": 25
           },
           "Text": "exceed"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1005,
+            "Y": 765,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 160,
@@ -3406,6 +3360,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3949,11 +3904,16 @@
             "Height": 24
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1004,
+            "Y": 1057,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 157,
@@ -5302,7 +5262,7 @@
             "Width": 51,
             "Height": 23
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -5849,11 +5809,16 @@
             "Height": 22
           },
           "Text": "strata"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 995,
+            "Y": 1504,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 155,
@@ -5965,7 +5930,7 @@
             "Width": 115,
             "Height": 23
           },
-          "Text": "Teaneum"
+          "Text": "Teancum"
         }
       ]
     },
@@ -6018,11 +5983,16 @@
             "Height": 16
           },
           "Text": "ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1001,
+            "Y": 1537,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 155,
@@ -6122,19 +6092,6 @@
             "Height": 25
           },
           "Text": "considered"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 230,
-            "Y": 1615,
-            "Width": 30,
-            "Height": 23
-          },
-          "Text": "QA"
         }
       ]
     }

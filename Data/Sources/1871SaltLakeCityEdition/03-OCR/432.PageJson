@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 432,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 97,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 96,
-            "Width": 29,
-            "Height": 22
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 568,
-            "Y": 98,
-            "Width": 118,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 892,
-            "Y": 92,
-            "Width": 60,
-            "Height": 33
-          },
-          "Text": "oBAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2109,6 +2058,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2560,7 +2510,7 @@
             "Width": 70,
             "Height": 25
           },
-          "Text": "awell"
+          "Text": "swell"
         }
       ]
     },
@@ -2648,10 +2598,23 @@
           "Bounds": {
             "X": 210,
             "Y": 721,
-            "Width": 132,
+            "Width": 62,
             "Height": 29
           },
-          "Text": "untogreat"
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 272,
+            "Y": 721,
+            "Width": 71,
+            "Height": 29
+          },
+          "Text": "great"
         }
       ]
     },
@@ -2859,7 +2822,7 @@
             "Width": 63,
             "Height": 25
           },
-          "Text": "bath"
+          "Text": "hath"
         }
       ]
     },
@@ -3591,6 +3554,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6165,6 +6129,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -6248,11 +6214,11 @@
         {
           "Bounds": {
             "X": 144,
-            "Y": 1496,
-            "Width": 32,
-            "Height": 22
+            "Y": 1495,
+            "Width": 48,
+            "Height": 24
           },
-          "Text": "Yes"
+          "Text": "yea"
         }
       ]
     },
@@ -6538,7 +6504,7 @@
             "Width": 61,
             "Height": 32
           },
-          "Text": "goid"
+          "Text": "gold"
         }
       ]
     },
@@ -6721,11 +6687,7 @@
             "Height": 24
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 987,
@@ -6734,6 +6696,16 @@
             "Height": 24
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 168,
+            "Y": 152,
+            "Width": 58,
+            "Height": 17
+          },
+          "IsOnNextPage": true,
+          "Text": "cause"
         }
       ]
     }

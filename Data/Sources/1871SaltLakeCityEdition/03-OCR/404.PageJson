@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 404,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 453,
-            "Y": 132,
-            "Width": 68,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 541,
-            "Y": 132,
-            "Width": 28,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 591,
-            "Y": 133,
-            "Width": 119,
-            "Height": 19
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 891,
-            "Y": 127,
-            "Width": 79,
-            "Height": 33
-          },
-          "Text": "lomAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -298,12 +247,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 560,
-            "Y": 212,
-            "Width": 32,
-            "Height": 31
+            "X": 524,
+            "Y": 215,
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "on"
+          "Text": "upon"
         }
       ]
     },
@@ -827,6 +776,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1573,6 +1523,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1868,7 +1819,7 @@
             "Width": 66,
             "Height": 30
           },
-          "Text": "Isaao"
+          "Text": "Isaac"
         }
       ]
     },
@@ -4262,7 +4213,7 @@
             "Width": 118,
             "Height": 25
           },
-          "Text": "afllictioh"
+          "Text": "affliction"
         }
       ]
     },
@@ -4276,11 +4227,16 @@
             "Height": 17
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1001,
+            "Y": 1052,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 152,
@@ -4717,12 +4673,8 @@
             "Width": 94,
             "Height": 24
           },
-          "Text": "oonsola"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "consola"
+        },
         {
           "Bounds": {
             "X": 987,
@@ -4731,11 +4683,7 @@
             "Height": 24
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 149,
@@ -5580,7 +5528,7 @@
             "Width": 48,
             "Height": 23
           },
-          "Text": "nnd"
+          "Text": "and"
         }
       ]
     },
@@ -5992,9 +5940,9 @@
         {
           "Bounds": {
             "X": 321,
-            "Y": 1467,
-            "Width": 82,
-            "Height": 30
+            "Y": 1470,
+            "Width": 97,
+            "Height": 24
           },
           "Text": "Judges"
         }
@@ -6578,10 +6526,10 @@
           "Bounds": {
             "X": 147,
             "Y": 1585,
-            "Width": 39,
-            "Height": 25
+            "Width": 44,
+            "Height": 24
           },
-          "Text": "Lis"
+          "Text": "his"
         }
       ]
     },

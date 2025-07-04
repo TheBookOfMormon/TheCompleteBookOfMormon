@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1164,
+  "ManuallyEdited": true,
   "PageNumber": 398,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 437,
-            "Y": 126,
-            "Width": 69,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 525,
-            "Y": 127,
-            "Width": 29,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 126,
-            "Width": 121,
-            "Height": 22
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 882,
-            "Y": 122,
-            "Width": 74,
-            "Height": 32
-          },
-          "Text": "ORAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 975,
-            "Y": 119,
-            "Width": 9,
-            "Height": 36
-          },
-          "Text": "I"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -198,6 +134,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -450,11 +387,11 @@
         {
           "Bounds": {
             "X": 146,
-            "Y": 273,
-            "Width": 27,
-            "Height": 16
+            "Y": 269,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "a3"
+          "Text": "as"
         }
       ]
     },
@@ -1719,6 +1656,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2262,9 +2200,9 @@
         {
           "Bounds": {
             "X": 393,
-            "Y": 685,
-            "Width": 80,
-            "Height": 31
+            "Y": 688,
+            "Width": 81,
+            "Height": 24
           },
           "Text": "Judge"
         }
@@ -2632,10 +2570,23 @@
           "Bounds": {
             "X": 648,
             "Y": 750,
-            "Width": 95,
+            "Width": 69,
             "Height": 24
           },
-          "Text": "donein"
+          "Text": "done"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 717,
+            "Y": 750,
+            "Width": 27,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -3034,9 +2985,9 @@
         {
           "Bounds": {
             "X": 317,
-            "Y": 847,
-            "Width": 78,
-            "Height": 31
+            "Y": 850,
+            "Width": 97,
+            "Height": 24
           },
           "Text": "Judges"
         }
@@ -3398,37 +3349,11 @@
         {
           "Bounds": {
             "X": 147,
-            "Y": 943,
-            "Width": 63,
-            "Height": 32
+            "Y": 949,
+            "Width": 147,
+            "Height": 20
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 212,
-            "Y": 957,
-            "Width": 6,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 219,
-            "Y": 943,
-            "Width": 76,
-            "Height": 32
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -4482,6 +4407,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4521,6 +4448,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4786,6 +4714,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5437,7 +5366,7 @@
             "Width": 138,
             "Height": 29
           },
-          "Text": "Zarahemls"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -5822,6 +5751,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 352,
+            "Y": 1492,
+            "Width": 96,
+            "Height": 24
+          },
+          "Text": "guards"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 475,
             "Y": 1492,
             "Width": 22,
@@ -5932,6 +5874,19 @@
             "Height": 29
           },
           "Text": "supposed"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 343,
+            "Y": 1526,
+            "Width": 55,
+            "Height": 24
+          },
+          "Text": "that"
         }
       ]
     },

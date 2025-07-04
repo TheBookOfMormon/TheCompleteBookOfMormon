@@ -186,6 +186,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -261,11 +262,16 @@
             "Height": 26
           },
           "Text": "wilder"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1024,
+            "Y": 185,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 178,
@@ -299,7 +305,7 @@
             "Width": 27,
             "Height": 25
           },
-          "Text": "id"
+          "Text": "Gid"
         }
       ]
     },
@@ -560,11 +566,16 @@
             "Height": 24
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1020,
+            "Y": 250,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 178,
@@ -802,11 +813,11 @@
         {
           "Bounds": {
             "X": 660,
-            "Y": 311,
-            "Width": 113,
-            "Height": 58
+            "Y": 310,
+            "Width": 104,
+            "Height": 24
           },
-          "Text": "Jitehed"
+          "Text": "pitched"
         }
       ]
     },
@@ -2483,6 +2494,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 939,
+            "Y": 734,
+            "Width": 98,
+            "Height": 24
+          },
+          "Text": "passed"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 180,
             "Y": 766,
             "Width": 34,
@@ -3044,10 +3068,10 @@
           "Bounds": {
             "X": 618,
             "Y": 864,
-            "Width": 35,
+            "Width": 52,
             "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -4044,6 +4068,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4326,7 +4351,7 @@
             "Width": 143,
             "Height": 26
           },
-          "Text": "Zarshemla"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -5536,11 +5561,11 @@
         {
           "Bounds": {
             "X": 861,
-            "Y": 1454,
-            "Width": 32,
-            "Height": 17
+            "Y": 1451,
+            "Width": 33,
+            "Height": 24
           },
-          "Text": "mo"
+          "Text": "no"
         }
       ]
     },
@@ -5680,10 +5705,10 @@
           "Bounds": {
             "X": 464,
             "Y": 1517,
-            "Width": 44,
+            "Width": 65,
             "Height": 24
           },
-          "Text": "pess"
+          "Text": "pass"
         }
       ]
     },
