@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1753,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 481,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 168,
-            "Y": 114,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 263,
-            "Y": 105,
-            "Width": 15,
-            "Height": 34
-          },
-          "Text": "IX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 513,
-            "Y": 113,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 600,
-            "Y": 113,
-            "Width": 30,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 650,
-            "Y": 112,
-            "Width": 83,
-            "Height": 21
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1240,6 +1176,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3278,11 +3215,7 @@
             "Height": 25
           },
           "Text": "him"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1017,
@@ -3291,11 +3224,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 172,
@@ -3303,7 +3232,7 @@
             "Width": 51,
             "Height": 25
           },
-          "Text": "gelf"
+          "Text": "self"
         }
       ]
     },
@@ -3638,10 +3567,10 @@
           "Bounds": {
             "X": 267,
             "Y": 929,
-            "Width": 22,
-            "Height": 25
+            "Width": 25,
+            "Height": 24
           },
-          "Text": "i8"
+          "Text": "is"
         }
       ]
     },
@@ -6463,11 +6392,16 @@
             "Height": 23
           },
           "Text": "gar"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1021,
+            "Y": 1519,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 173,

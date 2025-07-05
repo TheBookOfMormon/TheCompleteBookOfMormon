@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 454,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 484,
-            "Y": 129,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 129,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 620,
-            "Y": 129,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 892,
-            "Y": 123,
-            "Width": 64,
-            "Height": 34
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 978,
-            "Y": 129,
-            "Width": 39,
-            "Height": 23
-          },
-          "Text": "IIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -328,6 +264,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -481,11 +418,16 @@
             "Height": 25
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 233,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 170,
@@ -1075,10 +1017,10 @@
           "Bounds": {
             "X": 935,
             "Y": 362,
-            "Width": 16,
-            "Height": 25
+            "Width": 88,
+            "Height": 24
           },
-          "Text": "de"
+          "Text": "depart"
         }
       ]
     },
@@ -1481,7 +1423,7 @@
             "Width": 46,
             "Height": 17
           },
-          "Text": "waa"
+          "Text": "was"
         }
       ]
     },
@@ -1507,7 +1449,7 @@
             "Width": 70,
             "Height": 22
           },
-          "Text": "gatan"
+          "Text": "satan"
         }
       ]
     },
@@ -3301,7 +3243,7 @@
             "Width": 38,
             "Height": 25
           },
-          "Text": "&in"
+          "Text": "sin"
         }
       ]
     },
@@ -4194,11 +4136,24 @@
         {
           "Bounds": {
             "X": 609,
-            "Y": 1106,
-            "Width": 113,
-            "Height": 32
+            "Y": 1110,
+            "Width": 92,
+            "Height": 24
           },
-          "Text": "peoplein"
+          "Text": "people"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 701,
+            "Y": 1110,
+            "Width": 26,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -4892,7 +4847,7 @@
             "Width": 76,
             "Height": 25
           },
-          "Text": "meny"
+          "Text": "many"
         }
       ]
     },
@@ -6258,6 +6213,25 @@
             "Height": 21
           },
           "Text": "se"
+        },
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 1597,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 137,
+            "Y": 168,
+            "Width": 81,
+            "Height": 33
+          },
+          "IsOnNextPage": true,
+          "Text": "cretly"
         }
       ]
     }

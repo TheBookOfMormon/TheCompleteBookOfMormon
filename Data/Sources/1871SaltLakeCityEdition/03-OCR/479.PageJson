@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 479,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 165,
-            "Y": 139,
-            "Width": 63,
-            "Height": 21
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 252,
-            "Y": 133,
-            "Width": 47,
-            "Height": 34
-          },
-          "Text": "VIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 472,
-            "Y": 138,
-            "Width": 68,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 560,
-            "Y": 138,
-            "Width": 29,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 610,
-            "Y": 139,
-            "Width": 65,
-            "Height": 20
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -181,7 +117,7 @@
             "Width": 28,
             "Height": 25
           },
-          "Text": "ef"
+          "Text": "of"
         }
       ]
     },
@@ -624,11 +560,16 @@
             "Height": 26
           },
           "Text": "suffer"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 999,
+            "Y": 279,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 163,
@@ -3028,6 +2969,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 153,
+            "Y": 862,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 204,
             "Y": 861,
             "Width": 96,
@@ -3172,11 +3126,11 @@
         {
           "Bounds": {
             "X": 158,
-            "Y": 867,
+            "Y": 891,
             "Width": 83,
-            "Height": 56
+            "Height": 32
           },
-          "Text": "Liood"
+          "Text": "blood"
         }
       ]
     },
@@ -4849,6 +4803,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

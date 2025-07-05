@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 467,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 156,
-            "Y": 126,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 468,
-            "Y": 126,
-            "Width": 69,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 557,
-            "Y": 127,
-            "Width": 27,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 607,
-            "Y": 127,
-            "Width": 85,
-            "Height": 18
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 154,
-            "Y": 165,
-            "Width": 85,
-            "Height": 31
-          },
-          "Text": "mility"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -363,7 +299,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "gins"
+          "Text": "sins"
         }
       ]
     },
@@ -1212,6 +1148,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1481,7 +1418,7 @@
             "Width": 36,
             "Height": 25
           },
-          "Text": "fod"
+          "Text": "God"
         }
       ]
     },
@@ -1573,37 +1510,11 @@
         {
           "Bounds": {
             "X": 391,
-            "Y": 496,
-            "Width": 72,
-            "Height": 24
+            "Y": 497,
+            "Width": 188,
+            "Height": 22
           },
-          "Text": "peace"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 488,
-            "Width": 15,
-            "Height": 32
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 488,
-            "Width": 84,
-            "Height": 32
-          },
-          "Text": "makers"
+          "Text": "peace-makers"
         }
       ]
     },
@@ -1881,7 +1792,7 @@
             "Width": 90,
             "Height": 24
           },
-          "Text": "name's"
+          "Text": "name\u0027s"
         }
       ]
     },
@@ -5106,6 +5017,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5641,11 +5553,16 @@
             "Height": 24
           },
           "Text": "command"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 997,
+            "Y": 1297,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 144,
@@ -5653,7 +5570,7 @@
             "Width": 75,
             "Height": 22
           },
-          "Text": "masnts"
+          "Text": "ments"
         }
       ]
     },
