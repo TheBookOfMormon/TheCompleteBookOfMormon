@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 522,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 881,
-            "Y": 31,
-            "Width": 6,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 476,
-            "Y": 112,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 563,
-            "Y": 113,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 614,
-            "Y": 113,
-            "Width": 108,
-            "Height": 19
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 891,
-            "Y": 106,
-            "Width": 70,
-            "Height": 32
-          },
-          "Text": "ogAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 988,
-            "Y": 115,
-            "Width": 12,
-            "Height": 19
-          },
-          "Text": "Iv"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -545,7 +468,7 @@
             "Width": 73,
             "Height": 24
           },
-          "Text": "amall"
+          "Text": "small"
         }
       ]
     },
@@ -724,10 +647,10 @@
           "Bounds": {
             "X": 779,
             "Y": 281,
-            "Width": 52,
-            "Height": 23
+            "Width": 64,
+            "Height": 24
           },
-          "Text": "fron"
+          "Text": "from"
         }
       ]
     },
@@ -3580,11 +3503,7 @@
             "Height": 25
           },
           "Text": "mira"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1009,
@@ -3593,11 +3512,7 @@
             "Height": 25
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 176,
@@ -3605,7 +3520,7 @@
             "Width": 51,
             "Height": 24
           },
-          "Text": "clea"
+          "Text": "cles"
         }
       ]
     },
@@ -3917,7 +3832,7 @@
             "Width": 44,
             "Height": 24
           },
-          "Text": "youn"
+          "Text": "you"
         }
       ]
     },
@@ -3939,11 +3854,11 @@
         {
           "Bounds": {
             "X": 220,
-            "Y": 967,
+            "Y": 991,
             "Width": 123,
-            "Height": 59
+            "Height": 35
           },
-          "Text": "changoth"
+          "Text": "changeth"
         }
       ]
     },
@@ -4174,10 +4089,23 @@
           "Bounds": {
             "X": 541,
             "Y": 1024,
-            "Width": 35,
+            "Width": 22,
             "Height": 33
           },
-          "Text": "isa"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 563,
+            "Y": 1024,
+            "Width": 14,
+            "Height": 33
+          },
+          "Text": "a"
         }
       ]
     },
@@ -4408,10 +4336,23 @@
           "Bounds": {
             "X": 179,
             "Y": 1091,
-            "Width": 130,
+            "Width": 23,
             "Height": 25
           },
-          "Text": "iebecause"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 202,
+            "Y": 1091,
+            "Width": 108,
+            "Height": 25
+          },
+          "Text": "because"
         }
       ]
     },
@@ -5127,11 +5068,24 @@
         {
           "Bounds": {
             "X": 912,
-            "Y": 1219,
-            "Width": 94,
-            "Height": 29
+            "Y": 1221,
+            "Width": 62,
+            "Height": 24
           },
-          "Text": "untoall"
+          "Text": "unto"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 974,
+            "Y": 1221,
+            "Width": 34,
+            "Height": 24
+          },
+          "Text": "all"
         }
       ]
     },
@@ -5600,11 +5554,16 @@
             "Height": 25
           },
           "Text": "multi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1013,
+            "Y": 1316,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 174,
@@ -5872,7 +5831,7 @@
             "Width": 118,
             "Height": 32
           },
-          "Text": "baptised"
+          "Text": "baptized"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 486,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 110,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 558,
-            "Y": 110,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OB"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 608,
-            "Y": 111,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 879,
-            "Y": 105,
-            "Width": 78,
-            "Height": 35
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 978,
-            "Y": 112,
-            "Width": 14,
-            "Height": 22
-          },
-          "Text": "Ix"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -582,9 +518,9 @@
             "X": 626,
             "Y": 255,
             "Width": 51,
-            "Height": 49
+            "Height": 24
           },
-          "Text": "Jou"
+          "Text": "you"
         }
       ]
     },
@@ -620,10 +556,23 @@
           "Bounds": {
             "X": 860,
             "Y": 248,
-            "Width": 151,
+            "Width": 85,
             "Height": 32
           },
-          "Text": "thingsshall"
+          "Text": "things"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 945,
+            "Y": 248,
+            "Width": 67,
+            "Height": 32
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -737,10 +686,23 @@
           "Bounds": {
             "X": 734,
             "Y": 280,
-            "Width": 120,
+            "Width": 51,
             "Height": 25
           },
-          "Text": "andahall"
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 785,
+            "Y": 280,
+            "Width": 70,
+            "Height": 25
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -2116,11 +2078,16 @@
             "Height": 25
           },
           "Text": "ini"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1013,
+            "Y": 573,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 164,
@@ -2177,7 +2144,7 @@
           "Bounds": {
             "X": 421,
             "Y": 604,
-            "Width": 116,
+            "Width": 130,
             "Height": 24
           },
           "Text": "behoveth"
@@ -2310,7 +2277,7 @@
             "Width": 100,
             "Height": 30
           },
-          "Text": "'Gentiles"
+          "Text": "Gentiles"
         }
       ]
     },
@@ -4537,6 +4504,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4685,6 +4653,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5006,7 +4975,7 @@
             "Width": 70,
             "Height": 25
           },
-          "Text": "band"
+          "Text": "hand"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 529,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 155,
-            "Y": 122,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 245,
-            "Y": 122,
-            "Width": 17,
-            "Height": 18
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 465,
-            "Y": 121,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 121,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 602,
-            "Y": 121,
-            "Width": 84,
-            "Height": 21
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -182,11 +118,16 @@
             "Height": 25
           },
           "Text": "neverthe"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1000,
+            "Y": 161,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 154,
@@ -715,11 +656,11 @@
         {
           "Bounds": {
             "X": 757,
-            "Y": 298,
-            "Width": 26,
-            "Height": 16
+            "Y": 294,
+            "Width": 34,
+            "Height": 24
           },
-          "Text": "ua"
+          "Text": "us"
         }
       ]
     },
@@ -1582,7 +1523,7 @@
             "Width": 19,
             "Height": 25
           },
-          "Text": "OQ"
+          "Text": "O"
         }
       ]
     },
@@ -4901,6 +4842,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5898,7 +5840,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "zaid"
+          "Text": "said"
         }
       ]
     },
@@ -6670,7 +6612,7 @@
             "Width": 91,
             "Height": 25
           },
-          "Text": "Christe"
+          "Text": "Christ"
         }
       ]
     },

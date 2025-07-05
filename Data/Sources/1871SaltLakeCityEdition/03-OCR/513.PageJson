@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1751,
   "ImageWidth": 1162,
+  "ManuallyEdited": true,
   "PageNumber": 513,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 158,
-            "Y": 132,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 130,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 545,
-            "Y": 130,
-            "Width": 28,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 595,
-            "Y": 130,
-            "Width": 100,
-            "Height": 20
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -425,10 +374,10 @@
           "Bounds": {
             "X": 457,
             "Y": 231,
-            "Width": 68,
-            "Height": 60
+            "Width": 76,
+            "Height": 24
           },
-          "Text": "fight"
+          "Text": "flight"
         }
       ]
     },
@@ -545,7 +494,7 @@
             "Width": 150,
             "Height": 25
           },
-          "Text": "Lemanites"
+          "Text": "Lamanites\u0027"
         }
       ]
     },
@@ -688,7 +637,7 @@
             "Width": 148,
             "Height": 29
           },
-          "Text": "Lamanites'"
+          "Text": "Lamanites\u0027"
         }
       ]
     },
@@ -3501,7 +3450,7 @@
             "Width": 62,
             "Height": 32
           },
-          "Text": "fhey"
+          "Text": "they"
         }
       ]
     },
@@ -5413,6 +5362,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6117,11 +6067,11 @@
         {
           "Bounds": {
             "X": 463,
-            "Y": 1497,
-            "Width": 99,
-            "Height": 30
+            "Y": 1500,
+            "Width": 112,
+            "Height": 24
           },
-          "Text": "entiles"
+          "Text": "Gentiles"
         }
       ]
     },
@@ -6616,11 +6566,30 @@
         {
           "Bounds": {
             "X": 956,
-            "Y": 1592,
-            "Width": 18,
-            "Height": 27
+            "Y": 1593,
+            "Width": 30,
+            "Height": 24
           },
           "Text": "La"
+        },
+        {
+          "Bounds": {
+            "X": 995,
+            "Y": 1593,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 152,
+            "Y": 187,
+            "Width": 123,
+            "Height": 30
+          },
+          "IsOnNextPage": true,
+          "Text": "manites"
         }
       ]
     }
