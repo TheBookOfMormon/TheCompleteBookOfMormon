@@ -43,7 +43,7 @@
                             <FluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
                         </FluentToolbar>
                     </div>
-                    <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) />
+                    <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
                 }
             }
             @if (Content.IsAdd)
