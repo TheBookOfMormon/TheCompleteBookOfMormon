@@ -1,11 +1,17 @@
 ﻿# Compute book hierarchy
 
 ## Context
+I have supplied a file named All.zip
+This zip file contains multiple embedded zip files, for example
+   - 1830PalmyraEdition.zip
+   - 1837KirtlandEdition.zip
+   - 2013SaltLakeCityEdition.zip
+Each of these embedded zip files is an edition of the same book.
+The filename of each embedded zip is a 4 digit year, then the name of the place (Liverpool, NewYork, etc) followed by the word "Edition" or "Manuscript"
+The edition name is the 4 digit year + name of the place. You can drop "Edition.zip" and "Manuscript.zip"
+Each of the embedded zip files contains multiple files that have a filename of 3 digits + "PageJson" extension
 
-You have multiple editions of a book, each stored as a ZIP file named `{year}.zip` based on the edition year.
-
-Each ZIP contains files named `{PageNumber}.PageJson` (where the page number is three digits, e.g. `001.PageJson`). Each is a JSON file with this structure:
-
+Each is a JSON file with this structure:
 ```json
 {
   "Words": [
@@ -49,12 +55,14 @@ Each ZIP contains files named `{PageNumber}.PageJson` (where the page number is 
 
 ## Task
 
+Note: Order editions by year, and then by their name as a secondary sorting column.
+
 1. For each edition, combine the words together into an array as described above.
 2. Then scan the array, and any string with a `-` in it should be replaced with an empty string.
 3. Compare all editions and produce a **2D table** with:
 
-- **First column:** "Year"  
-- **Then a column for each edition's year in chronological order.**  
+- **First column:** "Edition"  
+- **Then a column for each edition in chronological order.**  
 - **Then a "Base" column.**
 
 4. Each row represents an edition (ordered by year).
@@ -69,15 +77,16 @@ Each ZIP contains files named `{PageNumber}.PageJson` (where the page number is 
 
 ## Deliverable
 
-Produce the **2D table** as described above.
+Produce the **2D table** as described above. I want to download it with the filename "edition-similarity-table.csv"
 
-And also an ascii tree in this format
+And also an ascii tree in this format, which I want to download with the filename "edition-similarity-tree.txt"
 ```
-1830
-└── 1837
-    ├── 1840
-    │   └── 1842
-    └── 1841
-        └── 1849
+1830 Palymyra
+└── 1837 Kirland
+    ├── 1840 Nauvoo
+    │   └── 1842 Nauvoo
+    │   └── 1858 New York
+    └── 1841 Liverpool
+        └── 1849 Liverpool
 ```
 
