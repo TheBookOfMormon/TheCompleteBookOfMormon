@@ -4,22 +4,25 @@
 This task compares **multiple editions contained within All.zip**. Each embedded zip is an edition, and comparisons are performed **only between each edition and the edition it was most likely based on**, as determined by the following hierarchy:
 
 ```
-1830
-└── 1837
-    ├── 1840
-    │   ├── 1842
-    │   │   └── 1858
-    │   └── 2013
-    └── 1841
-        └── 1849
-            └── 1854
-                └── 1871
+1830 Palymra
+└── 1837 Kirtland
+    ├── 1840 Nauvoo
+    │   ├── 1842 Nauvoo
+    │   │   └── 1858 NewYork
+    │   └── 2013 SaltLakeCity
+    └── 1841 Liverpool
+        └── 1849 Liverpool
+            └── 1854 Liverpool
+                └── 1871 SaltLakeCity
 ```
+
+**EXCEPT** I always want you to assume
+	- the parent of 1858 NewYork is 1840 Nauvoo
+	- the parent of 1874 Iowa is 1840 Nauvoo
 
 ## Names
 The following list is a collection of names.
 
-```
 Aaron
 Abinadi
 Abinadom
@@ -266,7 +269,6 @@ Zion
 Zoram
 Zoramite
 Zoramites
-```
 
 ## Precondition
 
