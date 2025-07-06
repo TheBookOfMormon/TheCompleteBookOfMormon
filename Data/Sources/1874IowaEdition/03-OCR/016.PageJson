@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1856,
   "ImageWidth": 1209,
+  "ManuallyEdited": true,
   "PageNumber": 16,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 151,
-            "Width": 91,
-            "Height": 22
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 509,
-            "Y": 150,
-            "Width": 84,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 619,
-            "Y": 150,
-            "Width": 35,
-            "Height": 24
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 678,
-            "Y": 151,
-            "Width": 107,
-            "Height": 23
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 924,
-            "Y": 150,
-            "Width": 62,
-            "Height": 32
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1015,
-            "Y": 158,
-            "Width": 1,
-            "Height": 17
-          },
-          "Text": "I"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -272,7 +195,7 @@
             "Width": 88,
             "Height": 29
           },
-          "Text": "Sarigh"
+          "Text": "Sariah"
         }
       ]
     },
@@ -965,6 +888,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1166,8 +1090,8 @@
           "Bounds": {
             "X": 702,
             "Y": 439,
-            "Width": 19,
-            "Height": 23
+            "Width": 23,
+            "Height": 22
           },
           "Text": "in"
         }
@@ -1685,11 +1609,11 @@
         {
           "Bounds": {
             "X": 905,
-            "Y": 533,
-            "Width": 33,
-            "Height": 28
+            "Y": 536,
+            "Width": 41,
+            "Height": 22
           },
-          "Text": "th"
+          "Text": "the"
         }
       ]
     },
@@ -2405,11 +2329,16 @@
             "Height": 16
           },
           "Text": "com"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1025,
+            "Y": 706,
+            "Width": 22,
+            "Height": 22
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 161,
@@ -2772,6 +2701,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2803,11 +2733,11 @@
         {
           "Bounds": {
             "X": 1018,
-            "Y": 807,
-            "Width": 12,
-            "Height": 17
+            "Y": 805,
+            "Width": 14,
+            "Height": 22
           },
-          "Text": "o"
+          "Text": "a"
         }
       ]
     },
@@ -2850,6 +2780,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3132,7 +3064,7 @@
             "Width": 71,
             "Height": 27
           },
-          "Text": "gilver"
+          "Text": "silver"
         }
       ]
     },
@@ -3188,6 +3120,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4992,6 +4925,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6497,32 +6431,6 @@
             "Height": 24
           },
           "Text": "but"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 1828,
-            "Width": 83,
-            "Height": 8
-          },
-          "Text": "eo"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 698,
-            "Y": 1824,
-            "Width": 15,
-            "Height": 10
-          },
-          "Text": "ho"
         }
       ]
     }
