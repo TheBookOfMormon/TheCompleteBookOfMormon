@@ -29,9 +29,9 @@ Get-ChildItem -Path $sourcesPath -Directory | ForEach-Object {
 
     # Zip contents of 03-OCR into c:\temp\bom\{directoryname}.zip
     $zipTarget = Join-Path $bomDir ($dir.Name + '.zip')
-    Compress-Archive -Path (Join-Path $ocrPath '*') -DestinationPath $zipTarget -Force
+    Compress-Archive -Path (Join-Path $ocrPath '*.PageJson') -DestinationPath $zipTarget -CompressionLevel NoCompression -Force
 }
 
 # Zip up all files in c:\temp\bom into All.zip
 $allZipPath = Join-Path $bomDir 'All.zip'
-Compress-Archive -Path (Join-Path $bomDir '*') -DestinationPath $allZipPath -Force
+Compress-Archive -Path (Join-Path $bomDir '*') -DestinationPath $allZipPath -CompressionLevel Optimal -Force
