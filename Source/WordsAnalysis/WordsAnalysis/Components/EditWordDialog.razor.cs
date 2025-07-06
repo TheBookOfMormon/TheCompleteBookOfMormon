@@ -131,7 +131,7 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             if (LineHeightLarger)
             {
-                LineHeightAdjustment -= 1;
+                LineHeightAdjustment -= 2;
                 LineHeightLarger = false;
             }
             else

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 564,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 123,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 124,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 604,
-            "Y": 123,
-            "Width": 103,
-            "Height": 18
-          },
-          "Text": "MORONL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 890,
-            "Y": 123,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "cmAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 976,
-            "Y": 123,
-            "Width": 50,
-            "Height": 19
-          },
-          "Text": "VII"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -844,7 +780,7 @@
             "Width": 92,
             "Height": 29
           },
-          "Text": "romise"
+          "Text": "promise"
         }
       ]
     },
@@ -987,7 +923,7 @@
             "Width": 43,
             "Height": 23
           },
-          "Text": "ope"
+          "Text": "hope"
         }
       ]
     },
@@ -1156,7 +1092,7 @@
             "Width": 43,
             "Height": 24
           },
-          "Text": "ray"
+          "Text": "say"
         }
       ]
     },
@@ -1520,7 +1456,7 @@
             "Width": 62,
             "Height": 25
           },
-          "Text": "nohe"
+          "Text": "none"
         }
       ]
     },
@@ -2600,11 +2536,16 @@
             "Height": 32
           },
           "Text": "rejoice"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1038,
+            "Y": 685,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 187,
@@ -2673,11 +2614,24 @@
         {
           "Bounds": {
             "X": 503,
-            "Y": 712,
-            "Width": 141,
-            "Height": 32
+            "Y": 716,
+            "Width": 126,
+            "Height": 24
           },
-          "Text": "rejoicethin"
+          "Text": "rejoiceth"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 629,
+            "Y": 716,
+            "Width": 26,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -2755,7 +2709,7 @@
             "Width": 128,
             "Height": 24
           },
-          "Text": "helieveth"
+          "Text": "believeth"
         }
       ]
     },
@@ -4700,45 +4654,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 486,
-            "Y": 1232,
-            "Width": 132,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 664,
-            "Y": 1232,
-            "Width": 68,
-            "Height": 25
-          },
-          "Text": "VIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 221,
-            "Y": 1298,
-            "Width": 13,
-            "Height": 25
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 260,
             "Y": 1298,
             "Width": 35,
@@ -4757,7 +4672,7 @@
             "Width": 86,
             "Height": 32
           },
-          "Text": "cpistle"
+          "Text": "epistle"
         }
       ]
     },
@@ -5555,7 +5470,7 @@
             "Width": 69,
             "Height": 25
           },
-          "Text": "worz"
+          "Text": "work"
         }
       ]
     },

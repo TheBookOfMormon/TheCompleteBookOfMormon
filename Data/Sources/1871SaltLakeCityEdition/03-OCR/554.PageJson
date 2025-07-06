@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1753,
   "ImageWidth": 1165,
+  "ManuallyEdited": true,
   "PageNumber": 554,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 455,
-            "Y": 135,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 543,
-            "Y": 135,
-            "Width": 29,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 594,
-            "Y": 135,
-            "Width": 79,
-            "Height": 20
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 871,
-            "Y": 129,
-            "Width": 52,
-            "Height": 33
-          },
-          "Text": "cEAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 958,
-            "Y": 135,
-            "Width": 18,
-            "Height": 23
-          },
-          "Text": "VY"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -220,7 +156,7 @@
             "Width": 29,
             "Height": 24
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -554,9 +490,9 @@
         {
           "Bounds": {
             "X": 511,
-            "Y": 280,
-            "Width": 34,
-            "Height": 16
+            "Y": 276,
+            "Width": 48,
+            "Height": 24
           },
           "Text": "sea"
         }
@@ -1238,6 +1174,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2851,12 +2788,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 256,
-            "Y": 798,
-            "Width": 14,
-            "Height": 22
+            "X": 232,
+            "Y": 797,
+            "Width": 48,
+            "Height": 24
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -3048,10 +2985,10 @@
           "Bounds": {
             "X": 539,
             "Y": 823,
-            "Width": 74,
-            "Height": 25
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "Bhizt"
+          "Text": "Shiz"
         }
       ]
     },
@@ -3241,12 +3178,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 923,
+            "X": 851,
             "Y": 855,
-            "Width": 22,
-            "Height": 25
+            "Width": 92,
+            "Height": 24
           },
-          "Text": "le"
+          "Text": "people"
         }
       ]
     },
@@ -5999,7 +5936,7 @@
             "Width": 44,
             "Height": 25
           },
-          "Text": "full"
+          "Text": "fall"
         }
       ]
     },
@@ -6533,11 +6470,16 @@
             "Height": 25
           },
           "Text": "pur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 986,
+            "Y": 1573,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 148,
@@ -6555,10 +6497,10 @@
           "Bounds": {
             "X": 211,
             "Y": 1595,
-            "Width": 157,
+            "Width": 166,
             "Height": 26
           },
-          "Text": "Conantumr"
+          "Text": "Coriantumr"
         }
       ]
     },
@@ -6663,6 +6605,25 @@
             "Height": 19
           },
           "Text": "sea"
+        },
+        {
+          "Bounds": {
+            "X": 998,
+            "Y": 1603,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 179,
+            "Y": 173,
+            "Width": 59,
+            "Height": 31
+          },
+          "IsOnNextPage": true,
+          "Text": "shore"
         }
       ]
     }

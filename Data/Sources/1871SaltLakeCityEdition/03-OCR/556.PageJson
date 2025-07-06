@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1752,
   "ImageWidth": 1163,
+  "ManuallyEdited": true,
   "PageNumber": 556,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 117,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 538,
-            "Y": 117,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 589,
-            "Y": 117,
-            "Width": 78,
-            "Height": 19
-          },
-          "Text": "KTHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 855,
-            "Y": 111,
-            "Width": 72,
-            "Height": 32
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 952,
-            "Y": 115,
-            "Width": 13,
-            "Height": 20
-          },
-          "Text": "WI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -220,7 +156,7 @@
             "Width": 60,
             "Height": 25
           },
-          "Text": "Shix"
+          "Text": "Shiz"
         }
       ]
     },
@@ -1087,6 +1023,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2713,7 +2650,7 @@
             "Width": 55,
             "Height": 16
           },
-          "Text": "gave"
+          "Text": "save"
         }
       ]
     },
@@ -3304,11 +3241,11 @@
         {
           "Bounds": {
             "X": 842,
-            "Y": 836,
-            "Width": 55,
-            "Height": 30
+            "Y": 839,
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "Shis"
+          "Text": "Shiz"
         }
       ]
     },
@@ -3785,11 +3722,11 @@
         {
           "Bounds": {
             "X": 259,
-            "Y": 966,
-            "Width": 60,
-            "Height": 31
+            "Y": 969,
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "thoy"
+          "Text": "they"
         }
       ]
     },
@@ -4175,11 +4112,11 @@
         {
           "Bounds": {
             "X": 906,
-            "Y": 1038,
-            "Width": 48,
-            "Height": 16
+            "Y": 1034,
+            "Width": 68,
+            "Height": 24
           },
-          "Text": "arm"
+          "Text": "army"
         }
       ]
     },
@@ -4306,10 +4243,10 @@
           "Bounds": {
             "X": 912,
             "Y": 1063,
-            "Width": 16,
+            "Width": 62,
             "Height": 24
           },
-          "Text": "bo"
+          "Text": "both"
         }
       ]
     },
@@ -4487,37 +4424,11 @@
         {
           "Bounds": {
             "X": 407,
-            "Y": 1128,
-            "Width": 81,
-            "Height": 31
+            "Y": 1133,
+            "Width": 163,
+            "Height": 20
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 493,
-            "Y": 1141,
-            "Width": 7,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 500,
-            "Y": 1128,
-            "Width": 79,
-            "Height": 31
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -4539,37 +4450,11 @@
         {
           "Bounds": {
             "X": 660,
-            "Y": 1128,
-            "Width": 50,
-            "Height": 31
+            "Y": 1132,
+            "Width": 161,
+            "Height": 22
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 726,
-            "Y": 1142,
-            "Width": 7,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 733,
-            "Y": 1128,
-            "Width": 67,
-            "Height": 31
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -5171,6 +5056,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6381,7 +6267,7 @@
             "Width": 59,
             "Height": 24
           },
-          "Text": "glain"
+          "Text": "slain"
         }
       ]
     },
@@ -6564,11 +6450,7 @@
             "Height": 34
           },
           "Text": "epis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 978,
@@ -6577,6 +6459,16 @@
             "Height": 34
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 186,
+            "Y": 158,
+            "Width": 34,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "tle"
         }
       ]
     }
