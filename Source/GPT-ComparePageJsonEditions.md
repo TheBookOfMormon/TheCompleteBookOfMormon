@@ -16,10 +16,6 @@ This task compares **multiple editions contained within All.zip**. Each embedded
                 └── 1871 SaltLakeCity
 ```
 
-**EXCEPT** I always want you to assume
-	- the parent of 1858 NewYork is 1840 Nauvoo
-	- the parent of 1874 Iowa is 1840 Nauvoo
-
 ## Names
 The following list is a collection of names.
 
