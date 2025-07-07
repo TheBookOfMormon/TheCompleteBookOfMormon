@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1858,
   "ImageWidth": 1212,
+  "ManuallyEdited": true,
   "PageNumber": 85,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 148,
-            "Y": 161,
-            "Width": 72,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 246,
-            "Y": 155,
-            "Width": 40,
-            "Height": 33
-          },
-          "Text": "VL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 379,
-            "Y": 155,
-            "Width": 127,
-            "Height": 25
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 527,
-            "Y": 156,
-            "Width": 84,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 635,
-            "Y": 155,
-            "Width": 36,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 694,
-            "Y": 156,
-            "Width": 111,
-            "Height": 34
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -928,11 +851,16 @@
             "Height": 26
           },
           "Text": "transgress"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1023,
+            "Y": 383,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 150,
@@ -1084,6 +1012,19 @@
             "Height": 24
           },
           "Text": "awful"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 144,
+            "Y": 444,
+            "Width": 25,
+            "Height": 24
+          },
+          "Text": "is"
         }
       ]
     },
@@ -1997,6 +1938,10 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2309,6 +2254,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2692,10 +2638,10 @@
           "Bounds": {
             "X": 544,
             "Y": 838,
-            "Width": 63,
-            "Height": 23
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -3241,7 +3187,7 @@
             "Width": 122,
             "Height": 30
           },
-          "Text": "iniguities"
+          "Text": "iniquities"
         }
       ]
     },
@@ -3524,10 +3470,10 @@
           "Bounds": {
             "X": 840,
             "Y": 1002,
-            "Width": 37,
-            "Height": 23
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "thie"
+          "Text": "the"
         }
       ]
     },
@@ -3899,19 +3845,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 641,
-            "Y": 1112,
-            "Width": 8,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 656,
             "Y": 1100,
             "Width": 59,
@@ -4190,7 +4123,7 @@
             "Width": 51,
             "Height": 24
           },
-          "Text": "sing"
+          "Text": "sins"
         }
       ]
     },
@@ -4784,11 +4717,11 @@
         {
           "Bounds": {
             "X": 315,
-            "Y": 1330,
-            "Width": 88,
-            "Height": 29
+            "Y": 1332,
+            "Width": 100,
+            "Height": 24
           },
-          "Text": "niinded"
+          "Text": "minded"
         }
       ]
     },
@@ -4905,7 +4838,7 @@
             "Width": 40,
             "Height": 24
           },
-          "Text": "lite"
+          "Text": "life"
         }
       ]
     },
@@ -5048,12 +4981,17 @@
             "Width": 89,
             "Height": 22
           },
-          "Text": "Remen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "Remem"
+        },
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 1395,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 157,
@@ -5165,7 +5103,7 @@
             "Width": 74,
             "Height": 23
           },
-          "Text": "Isruel"
+          "Text": "Israel"
         }
       ]
     },
@@ -5218,6 +5156,19 @@
             "Height": 22
           },
           "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 1428,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5295,7 +5246,7 @@
             "Width": 41,
             "Height": 22
           },
-          "Text": "vou"
+          "Text": "you"
         }
       ]
     },
@@ -5331,10 +5282,10 @@
           "Bounds": {
             "X": 760,
             "Y": 1469,
-            "Width": 27,
-            "Height": 23
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -5901,12 +5852,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 982,
-            "Y": 1594,
-            "Width": 13,
-            "Height": 14
+            "X": 248,
+            "Y": 1627,
+            "Width": 18,
+            "Height": 24
           },
-          "Text": "-"
+          "Text": "O"
         }
       ]
     },
