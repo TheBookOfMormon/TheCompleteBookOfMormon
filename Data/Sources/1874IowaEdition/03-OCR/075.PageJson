@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1859,
   "ImageWidth": 1214,
+  "ManuallyEdited": true,
   "PageNumber": 75,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 144,
-            "Y": 142,
-            "Width": 59,
-            "Height": 29
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 237,
-            "Y": 154,
-            "Width": 24,
-            "Height": 17
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 371,
-            "Y": 146,
-            "Width": 127,
-            "Height": 25
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 146,
-            "Width": 85,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 629,
-            "Y": 145,
-            "Width": 36,
-            "Height": 26
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 688,
-            "Y": 147,
-            "Width": 110,
-            "Height": 25
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -692,6 +615,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1611,7 +1535,7 @@
             "Width": 56,
             "Height": 23
           },
-          "Text": "thon"
+          "Text": "thou"
         }
       ]
     },
@@ -2798,6 +2722,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3019,6 +2944,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3276,11 +3202,16 @@
             "Height": 27
           },
           "Text": "put"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1023,
+            "Y": 835,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 143,
@@ -3929,6 +3860,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4147,11 +4079,7 @@
             "Height": 31
           },
           "Text": "right"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1005,
@@ -4160,19 +4088,15 @@
             "Height": 19
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 141,
-            "Y": 1013,
-            "Width": 115,
-            "Height": 47
+            "Y": 1030,
+            "Width": 132,
+            "Height": 24
           },
-          "Text": "e0USDess"
+          "Text": "eousness"
         }
       ]
     },
@@ -4241,6 +4165,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4388,38 +4313,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 473,
-            "Y": 1200,
-            "Width": 157,
-            "Height": 24
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 645,
-            "Y": 1201,
-            "Width": 29,
-            "Height": 23
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 217,
             "Y": 1258,
             "Width": 102,
             "Height": 29
           },
-          "Text": "BEHOLD"
+          "Text": "Behold"
         }
       ]
     },
@@ -4536,7 +4435,7 @@
             "Width": 42,
             "Height": 23
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -5095,7 +4994,7 @@
             "Width": 24,
             "Height": 26
           },
-          "Text": "tp"
+          "Text": "to"
         }
       ]
     },
@@ -5459,7 +5358,7 @@
             "Width": 39,
             "Height": 25
           },
-          "Text": "hig"
+          "Text": "his"
         }
       ]
     },

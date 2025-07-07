@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1858,
   "ImageWidth": 1213,
+  "ManuallyEdited": true,
   "PageNumber": 46,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 413,
-            "Y": 133,
-            "Width": 93,
-            "Height": 25
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 526,
-            "Y": 132,
-            "Width": 84,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 634,
-            "Y": 132,
-            "Width": 37,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 693,
-            "Y": 133,
-            "Width": 98,
-            "Height": 25
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 936,
-            "Y": 139,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1025,
-            "Y": 140,
-            "Width": 11,
-            "Height": 17
-          },
-          "Text": "Vv"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -276,6 +199,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1013,7 +937,7 @@
             "Width": 43,
             "Height": 23
           },
-          "Text": "tine"
+          "Text": "fine"
         }
       ]
     },
@@ -1056,6 +980,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1156,7 +1081,7 @@
             "Width": 112,
             "Height": 24
           },
-          "Text": "bretliren"
+          "Text": "brethren"
         }
       ]
     },
@@ -2956,11 +2881,16 @@
             "Height": 23
           },
           "Text": "diffi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1054,
+            "Y": 818,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 182,
@@ -3289,6 +3219,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3623,19 +3554,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 392,
-            "Y": 989,
-            "Width": 21,
-            "Height": 16
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 418,
             "Y": 985,
             "Width": 42,
@@ -3654,7 +3572,7 @@
             "Width": 26,
             "Height": 24
           },
-          "Text": "df"
+          "Text": "of"
         }
       ]
     },
@@ -5614,7 +5532,7 @@
             "Width": 76,
             "Height": 24
           },
-          "Text": "fathier"
+          "Text": "father"
         }
       ]
     },
@@ -6689,11 +6607,30 @@
         {
           "Bounds": {
             "X": 943,
-            "Y": 1646,
-            "Width": 87,
-            "Height": 17
+            "Y": 1644,
+            "Width": 101,
+            "Height": 22
           },
-          "Text": "concer"
+          "Text": "concern"
+        },
+        {
+          "Bounds": {
+            "X": 1039,
+            "Y": 1643,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 158,
+            "Y": 197,
+            "Width": 42,
+            "Height": 30
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }
