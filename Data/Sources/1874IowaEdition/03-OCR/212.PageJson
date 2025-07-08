@@ -1,99 +1,9 @@
 {
   "ImageHeight": 1857,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 212,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 779,
-            "Y": 97,
-            "Width": 14,
-            "Height": 13
-          },
-          "Text": "rg"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 148,
-            "Width": 84,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 149,
-            "Width": 36,
-            "Height": 23
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 634,
-            "Y": 148,
-            "Width": 128,
-            "Height": 24
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 904,
-            "Y": 146,
-            "Width": 63,
-            "Height": 34
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1008,
-            "Y": 152,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "XTIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 186,
-            "Y": 213,
-            "Width": 89,
-            "Height": 24
-          },
-          "Text": "graven"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -445,6 +355,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -480,7 +391,7 @@
             "Width": 133,
             "Height": 23
           },
-          "Text": "transla'ed"
+          "Text": "translated"
         }
       ]
     },
@@ -1855,7 +1766,7 @@
             "Width": 147,
             "Height": 30
           },
-          "Text": "intepreting"
+          "Text": "interpreting"
         }
       ]
     },
@@ -3325,6 +3236,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3634,11 +3546,16 @@
             "Height": 18
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1065,
+            "Y": 999,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 190,
@@ -4140,51 +4057,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 504,
-            "Y": 1264,
-            "Width": 155,
-            "Height": 24
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 682,
-            "Y": 1264,
-            "Width": 58,
-            "Height": 24
-          },
-          "Text": "XIII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 198,
-            "Y": 1324,
-            "Width": 41,
-            "Height": 21
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 268,
             "Y": 1323,
             "Width": 58,
             "Height": 22
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -4396,6 +4274,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4474,6 +4353,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4509,7 +4389,7 @@
             "Width": 81,
             "Height": 24
           },
-          "Text": "wliich"
+          "Text": "which"
         }
       ]
     },
@@ -4938,7 +4818,7 @@
             "Width": 88,
             "Height": 23
           },
-          "Text": "sliould"
+          "Text": "should"
         }
       ]
     },
@@ -5155,11 +5035,11 @@
         {
           "Bounds": {
             "X": 681,
-            "Y": 1527,
-            "Width": 42,
-            "Height": 16
+            "Y": 1523,
+            "Width": 49,
+            "Height": 24
           },
-          "Text": "oue"
+          "Text": "one"
         }
       ]
     },
@@ -5207,11 +5087,11 @@
         {
           "Bounds": {
             "X": 193,
-            "Y": 1559,
-            "Width": 53,
-            "Height": 16
+            "Y": 1555,
+            "Width": 65,
+            "Height": 24
           },
-          "Text": "evel"
+          "Text": "even"
         }
       ]
     },

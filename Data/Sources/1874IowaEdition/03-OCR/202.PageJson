@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1857,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 202,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 150,
-            "Width": 84,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 593,
-            "Y": 151,
-            "Width": 36,
-            "Height": 22
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 653,
-            "Y": 150,
-            "Width": 119,
-            "Height": 24
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 956,
-            "Y": 155,
-            "Width": 74,
-            "Height": 18
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1056,
-            "Y": 156,
-            "Width": 31,
-            "Height": 19
-          },
-          "Text": "XI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -295,10 +231,10 @@
           "Bounds": {
             "X": 703,
             "Y": 241,
-            "Width": 27,
-            "Height": 23
+            "Width": 35,
+            "Height": 24
           },
-          "Text": "lie"
+          "Text": "he"
         }
       ]
     },
@@ -672,10 +608,10 @@
           "Bounds": {
             "X": 389,
             "Y": 339,
-            "Width": 32,
-            "Height": 25
+            "Width": 44,
+            "Height": 24
           },
-          "Text": "lis"
+          "Text": "his"
         }
       ]
     },
@@ -1212,6 +1148,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2536,10 +2473,10 @@
           "Bounds": {
             "X": 708,
             "Y": 767,
-            "Width": 102,
-            "Height": 23
+            "Width": 104,
+            "Height": 24
           },
-          "Text": "Amlon"
+          "Text": "Amulon"
         }
       ]
     },
@@ -2994,7 +2931,7 @@
             "Width": 83,
             "Height": 32
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -3069,10 +3006,10 @@
           "Bounds": {
             "X": 533,
             "Y": 898,
-            "Width": 27,
-            "Height": 23
+            "Width": 35,
+            "Height": 24
           },
-          "Text": "le"
+          "Text": "he"
         }
       ]
     },
@@ -3277,10 +3214,10 @@
           "Bounds": {
             "X": 891,
             "Y": 930,
-            "Width": 30,
+            "Width": 35,
             "Height": 24
           },
-          "Text": "lie"
+          "Text": "he"
         }
       ]
     },
@@ -3462,7 +3399,7 @@
             "Width": 131,
             "Height": 25
           },
-          "Text": "excrcised"
+          "Text": "exercised"
         }
       ]
     },
@@ -3606,11 +3543,7 @@
             "Height": 24
           },
           "Text": "task"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1075,
@@ -3619,11 +3552,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 204,
@@ -3633,7 +3562,8 @@
           },
           "Text": "masters"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -3921,6 +3851,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -4337,6 +4272,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5863,11 +5803,11 @@
         {
           "Bounds": {
             "X": 274,
-            "Y": 1530,
-            "Width": 27,
-            "Height": 22
+            "Y": 1529,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
