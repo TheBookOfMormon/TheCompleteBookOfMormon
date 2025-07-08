@@ -61,15 +61,17 @@ public record PageState
     private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word)
     {
         OcrRect lineBounds = GetLineBounds(word);
+        OcrRect wordBounds = word.IsComposite() && !word.Elements[2].IsOnNextPage ? word.Elements[0].Bounds.Union(word.Elements[1].Bounds).Union(word.Elements[2].Bounds) : word.Elements[0].Bounds;
         if (lineBounds == OcrRect.Empty)
         {
-            lineBounds = word.Elements[0].Bounds with {
+            lineBounds = wordBounds with {
                 X = 0,
                 Width = (int)image.Width
             };
             if (lineBounds.Height == 0)
                 lineBounds = lineBounds with { Height = 100 };
         }
+        lineBounds = lineBounds.Union(wordBounds);
         lineBounds = lineBounds with {
             X = 0,
             Width = (int)image.Width,
@@ -83,10 +85,6 @@ public record PageState
             .FillColor(MagickColors.Lime)
             .FillOpacity(new Percentage(50));
 
-        OcrRect wordBounds = OcrRect.Empty;
-        int wordXOffset = -1;
-        int wordYOffset = -1;
-
         foreach (var element in word.Elements)
         {
             OcrRect elementBounds = element.Bounds;
@@ -94,14 +92,6 @@ public record PageState
             int y = elementBounds.Y - lineBounds.Y;
             if (!element.IsOnNextPage)
                 AddDrawRect(rectangleDrawables, x, y, elementBounds);
-
-            if (wordXOffset == -1)
-            {
-                wordXOffset = x;
-                wordYOffset = y;
-            }
-            if (wordBounds == OcrRect.Empty)
-                wordBounds = element.Bounds.Offset(x, y);
         }
         rectangleDrawables.Draw(result);
 
