@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1856,
   "ImageWidth": 1209,
+  "ManuallyEdited": true,
   "PageNumber": 311,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 146,
-            "Y": 144,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 234,
-            "Y": 144,
-            "Width": 46,
-            "Height": 17
-          },
-          "Text": "XVL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 137,
-            "Width": 88,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 551,
-            "Y": 136,
-            "Width": 39,
-            "Height": 26
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 611,
-            "Y": 138,
-            "Width": 85,
-            "Height": 24
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -313,10 +249,10 @@
           "Bounds": {
             "X": 548,
             "Y": 230,
-            "Width": 28,
-            "Height": 23
+            "Width": 35,
+            "Height": 24
           },
-          "Text": "lie"
+          "Text": "he"
         }
       ]
     },
@@ -407,7 +343,7 @@
             "Width": 63,
             "Height": 24
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -1621,7 +1557,7 @@
             "Width": 31,
             "Height": 23
           },
-          "Text": "od"
+          "Text": "God"
         }
       ]
     },
@@ -2011,7 +1947,7 @@
             "Width": 62,
             "Height": 23
           },
-          "Text": "upou"
+          "Text": "upon"
         }
       ]
     },
@@ -2115,7 +2051,7 @@
             "Width": 38,
             "Height": 23
           },
-          "Text": "ny"
+          "Text": "my"
         }
       ]
     },
@@ -2666,7 +2602,7 @@
             "Width": 28,
             "Height": 23
           },
-          "Text": "Lie"
+          "Text": "he"
         }
       ]
     },
@@ -2996,7 +2932,7 @@
             "Width": 98,
             "Height": 16
           },
-          "Text": "mauner"
+          "Text": "manner"
         }
       ]
     },
@@ -3347,7 +3283,7 @@
             "Width": 34,
             "Height": 23
           },
-          "Text": "hut"
+          "Text": "but"
         }
       ]
     },
@@ -3604,10 +3540,10 @@
           "Bounds": {
             "X": 269,
             "Y": 954,
-            "Width": 32,
-            "Height": 25
+            "Width": 64,
+            "Height": 24
           },
-          "Text": "iro"
+          "Text": "from"
         }
       ]
     },
@@ -3685,7 +3621,7 @@
             "Width": 64,
             "Height": 16
           },
-          "Text": "caine"
+          "Text": "came"
         }
       ]
     },
@@ -3971,7 +3907,7 @@
             "Width": 49,
             "Height": 23
           },
-          "Text": "inte"
+          "Text": "into"
         }
       ]
     },
@@ -4023,7 +3959,7 @@
             "Width": 119,
             "Height": 28
           },
-          "Text": "Jershonj"
+          "Text": "Jershon"
         }
       ]
     },
@@ -4335,7 +4271,7 @@
             "Width": 102,
             "Height": 24
           },
-          "Text": "Jershion"
+          "Text": "Jershon"
         }
       ]
     },
@@ -4361,7 +4297,7 @@
             "Width": 19,
             "Height": 24
           },
-          "Text": "if"
+          "Text": "it"
         }
       ]
     },
@@ -4504,7 +4440,7 @@
             "Width": 38,
             "Height": 23
           },
-          "Text": "tiie"
+          "Text": "the"
         }
       ]
     },
@@ -4781,6 +4717,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5038,11 +4975,16 @@
             "Height": 29
           },
           "Text": "through"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1007,
+            "Y": 1286,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 148,
@@ -5177,10 +5119,10 @@
           "Bounds": {
             "X": 883,
             "Y": 1317,
-            "Width": 60,
-            "Height": 23
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "tliem"
+          "Text": "them"
         }
       ]
     },
@@ -5194,11 +5136,16 @@
             "Height": 15
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1014,
+            "Y": 1321,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 148,
@@ -5492,7 +5439,7 @@
             "Width": 147,
             "Height": 29
           },
-          "Text": "goncerning"
+          "Text": "concerning"
         }
       ]
     },
@@ -5531,7 +5478,7 @@
             "Width": 120,
             "Height": 24
           },
-          "Text": "thercfore"
+          "Text": "therefore"
         }
       ]
     },
@@ -5700,7 +5647,7 @@
             "Width": 64,
             "Height": 16
           },
-          "Text": "caine"
+          "Text": "came"
         }
       ]
     },
@@ -5739,7 +5686,7 @@
             "Width": 52,
             "Height": 23
           },
-          "Text": "thet"
+          "Text": "that"
         }
       ]
     },
@@ -5752,7 +5699,7 @@
             "Width": 58,
             "Height": 22
           },
-          "Text": "atter"
+          "Text": "after"
         }
       ]
     },
@@ -5817,7 +5764,7 @@
             "Width": 38,
             "Height": 23
           },
-          "Text": "tlie"
+          "Text": "the"
         }
       ]
     },
@@ -6090,7 +6037,7 @@
             "Width": 32,
             "Height": 23
           },
-          "Text": "ls"
+          "Text": "his"
         }
       ]
     },
@@ -6194,7 +6141,7 @@
             "Width": 46,
             "Height": 23
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -6376,7 +6323,7 @@
             "Width": 54,
             "Height": 22
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -6385,11 +6332,11 @@
         {
           "Bounds": {
             "X": 318,
-            "Y": 1614,
-            "Width": 17,
-            "Height": 22
+            "Y": 1613,
+            "Width": 19,
+            "Height": 24
           },
-          "Text": "tt"
+          "Text": "it"
         }
       ]
     },
@@ -6402,7 +6349,7 @@
             "Width": 65,
             "Height": 15
           },
-          "Text": "caine"
+          "Text": "came"
         }
       ]
     },
@@ -6532,7 +6479,7 @@
             "Width": 54,
             "Height": 18
           },
-          "Text": "uuto"
+          "Text": "unto"
         }
       ]
     },
@@ -6623,7 +6570,7 @@
             "Width": 130,
             "Height": 24
           },
-          "Text": "Zorumites"
+          "Text": "Zoramites"
         }
       ]
     },

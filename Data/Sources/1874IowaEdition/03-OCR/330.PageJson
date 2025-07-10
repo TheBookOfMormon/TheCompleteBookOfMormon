@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1857,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 330,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 135,
-            "Width": 88,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 596,
-            "Y": 135,
-            "Width": 39,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 657,
-            "Y": 135,
-            "Width": 82,
-            "Height": 24
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 929,
-            "Y": 135,
-            "Width": 63,
-            "Height": 34
-          },
-          "Text": "oBAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1017,
-            "Y": 142,
-            "Width": 16,
-            "Height": 19
-          },
-          "Text": "XX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -194,7 +130,7 @@
             "Width": 140,
             "Height": 25
           },
-          "Text": "Jamanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -428,7 +364,7 @@
             "Width": 98,
             "Height": 16
           },
-          "Text": "manoer"
+          "Text": "manner"
         }
       ]
     },
@@ -497,6 +433,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -767,11 +708,7 @@
             "Height": 24
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1046,
@@ -780,11 +717,7 @@
             "Height": 21
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 193,
@@ -794,7 +727,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -827,37 +761,11 @@
         {
           "Bounds": {
             "X": 434,
-            "Y": 367,
-            "Width": 44,
-            "Height": 16
+            "Y": 364,
+            "Width": 163,
+            "Height": 22
           },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 486,
-            "Y": 371,
-            "Width": 8,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 360,
-            "Width": 89,
-            "Height": 23
-          },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -1650,7 +1558,7 @@
             "Width": 61,
             "Height": 23
           },
-          "Text": "loing"
+          "Text": "loins"
         }
       ]
     },
@@ -1893,37 +1801,11 @@
         {
           "Bounds": {
             "X": 829,
-            "Y": 591,
-            "Width": 81,
-            "Height": 30
+            "Y": 595,
+            "Width": 179,
+            "Height": 22
           },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 912,
-            "Y": 604,
-            "Width": 8,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 921,
-            "Y": 591,
-            "Width": 77,
-            "Height": 30
-          },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -2638,7 +2520,7 @@
             "Width": 127,
             "Height": 23
           },
-          "Text": "Autionum"
+          "Text": "Antionum"
         }
       ]
     },
@@ -3670,7 +3552,7 @@
             "Width": 47,
             "Height": 22
           },
-          "Text": "aiso"
+          "Text": "also"
         }
       ]
     },
@@ -5429,6 +5311,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {

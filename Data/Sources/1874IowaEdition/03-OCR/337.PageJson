@@ -1,86 +1,9 @@
 {
   "ImageHeight": 1857,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 337,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 143,
-            "Y": 138,
-            "Width": 67,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 232,
-            "Y": 125,
-            "Width": 43,
-            "Height": 40
-          },
-          "Text": "XXI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 441,
-            "Y": 131,
-            "Width": 86,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 549,
-            "Y": 131,
-            "Width": 40,
-            "Height": 23
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 611,
-            "Y": 131,
-            "Width": 94,
-            "Height": 23
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 143,
-            "Y": 190,
-            "Width": 66,
-            "Height": 30
-          },
-          "Text": "hemla"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -259,7 +182,7 @@
             "Width": 55,
             "Height": 25
           },
-          "Text": "puss"
+          "Text": "pass"
         }
       ]
     },
@@ -272,7 +195,7 @@
             "Width": 52,
             "Height": 23
           },
-          "Text": "tliat"
+          "Text": "that"
         }
       ]
     },
@@ -419,6 +342,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -493,7 +417,7 @@
             "Width": 95,
             "Height": 24
           },
-          "Text": "Beliold"
+          "Text": "Behold"
         }
       ]
     },
@@ -597,7 +521,7 @@
             "Width": 127,
             "Height": 31
           },
-          "Text": "rightcous"
+          "Text": "righteous"
         }
       ]
     },
@@ -711,10 +635,10 @@
           "Bounds": {
             "X": 734,
             "Y": 289,
-            "Width": 84,
+            "Width": 100,
             "Height": 24
           },
-          "Text": "clhwrch"
+          "Text": "church"
         }
       ]
     },
@@ -1221,7 +1145,7 @@
             "Width": 68,
             "Height": 23
           },
-          "Text": "Alina"
+          "Text": "Alma"
         }
       ]
     },
@@ -1390,7 +1314,7 @@
             "Width": 148,
             "Height": 30
           },
-          "Text": "coucerning"
+          "Text": "concerning"
         }
       ]
     },
@@ -1455,7 +1379,7 @@
             "Width": 56,
             "Height": 22
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -2521,7 +2445,7 @@
             "Width": 93,
             "Height": 24
           },
-          "Text": "cliurch"
+          "Text": "church"
         }
       ]
     },
@@ -3384,7 +3308,7 @@
             "Width": 49,
             "Height": 23
           },
-          "Text": "Lad"
+          "Text": "had"
         }
       ]
     },
@@ -3839,7 +3763,7 @@
             "Width": 32,
             "Height": 22
           },
-          "Text": "np"
+          "Text": "up"
         }
       ]
     },
@@ -4372,7 +4296,7 @@
             "Width": 41,
             "Height": 19
           },
-          "Text": "vot"
+          "Text": "not"
         }
       ]
     },
@@ -4645,7 +4569,7 @@
             "Width": 135,
             "Height": 31
           },
-          "Text": "exceoding"
+          "Text": "exceeding"
         }
       ]
     },
@@ -5061,7 +4985,7 @@
             "Width": 152,
             "Height": 24
           },
-          "Text": "Awmalickiali"
+          "Text": "Amalickiah"
         }
       ]
     },
@@ -5724,7 +5648,7 @@
             "Width": 113,
             "Height": 23
           },
-          "Text": "fatteries"
+          "Text": "flatteries"
         }
       ]
     },
@@ -5747,10 +5671,10 @@
           "Bounds": {
             "X": 469,
             "Y": 1506,
-            "Width": 142,
+            "Width": 153,
             "Height": 24
           },
-          "Text": "Amalickial"
+          "Text": "Amalickiah"
         }
       ]
     },
@@ -6310,11 +6234,7 @@
             "Height": 26
           },
           "Text": "exceed"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1008,
@@ -6323,6 +6243,16 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 235,
+            "Y": 189,
+            "Width": 41,
+            "Height": 30
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

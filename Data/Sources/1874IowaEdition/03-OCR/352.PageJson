@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1857,
   "ImageWidth": 1210,
+  "ManuallyEdited": true,
   "PageNumber": 352,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 468,
-            "Y": 123,
-            "Width": 89,
-            "Height": 25
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 579,
-            "Y": 123,
-            "Width": 39,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 642,
-            "Y": 123,
-            "Width": 94,
-            "Height": 24
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 880,
-            "Y": 116,
-            "Width": 77,
-            "Height": 41
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 983,
-            "Y": 116,
-            "Width": 66,
-            "Height": 41
-          },
-          "Text": "XXIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -424,6 +360,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -767,11 +704,11 @@
         {
           "Bounds": {
             "X": 173,
-            "Y": 350,
-            "Width": 27,
-            "Height": 21
+            "Y": 349,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "or"
+          "Text": "of"
         }
       ]
     },
@@ -793,40 +730,15 @@
         {
           "Bounds": {
             "X": 265,
-            "Y": 348,
-            "Width": 63,
-            "Height": 24
+            "Y": 349,
+            "Width": 192,
+            "Height": 22
           },
-          "Text": "maid"
+          "Text": "maid-servants"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 330,
-            "Y": 362,
-            "Width": 7,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 338,
-            "Y": 348,
-            "Width": 104,
-            "Height": 30
-          },
-          "Text": "servants"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -1078,6 +990,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 792,
+            "Y": 384,
+            "Width": 60,
+            "Height": 24
+          },
+          "Text": "over"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 876,
             "Y": 383,
             "Width": 25,
@@ -1239,7 +1164,7 @@
             "Width": 85,
             "Height": 26
           },
-          "Text": "matier"
+          "Text": "matter"
         }
       ]
     },
@@ -1383,11 +1308,16 @@
             "Height": 25
           },
           "Text": "north"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1047,
+            "Y": 445,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 175,
@@ -1647,7 +1577,7 @@
             "Width": 104,
             "Height": 24
           },
-          "Text": "lLearken"
+          "Text": "hearken"
         }
       ]
     },
@@ -1790,7 +1720,7 @@
             "Width": 46,
             "Height": 23
           },
-          "Text": "und"
+          "Text": "and"
         }
       ]
     },
@@ -2934,7 +2864,7 @@
             "Width": 90,
             "Height": 16
           },
-          "Text": "mirrow"
+          "Text": "narrow"
         }
       ]
     },
@@ -2970,10 +2900,10 @@
           "Bounds": {
             "X": 1008,
             "Y": 807,
-            "Width": 25,
-            "Height": 25
+            "Width": 42,
+            "Height": 24
           },
-          "Text": "le"
+          "Text": "led"
         }
       ]
     },
@@ -3139,10 +3069,10 @@
           "Bounds": {
             "X": 1004,
             "Y": 841,
-            "Width": 30,
+            "Width": 45,
             "Height": 24
           },
-          "Text": "th"
+          "Text": "the"
         }
       ]
     },
@@ -3584,7 +3514,7 @@
             "Width": 132,
             "Height": 24
           },
-          "Text": "Moriaunton"
+          "Text": "Morianton"
         }
       ]
     },
@@ -4130,7 +4060,7 @@
             "Width": 38,
             "Height": 23
           },
-          "Text": "tlie"
+          "Text": "the"
         }
       ]
     },
@@ -5002,19 +4932,6 @@
             "Height": 24
           },
           "Text": "lands"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 209,
-            "Y": 1334,
-            "Width": 10,
-            "Height": 22
-          },
-          "Text": "I"
         }
       ]
     },
