@@ -149,6 +149,10 @@ public partial class EditWordDialog : IAsyncDisposable
         System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), item.Bounds.Height, text);
         int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
         Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
+
+        if (Texts.Length == 1 && Texts[0].Text.Length == 1)
+            Texts[0].Bounds = Texts[0].Bounds with { Width = Texts[0].Bounds.Width * 2 };
+
         UpdateImageData();
 
         HasEstimatedSize = true;
