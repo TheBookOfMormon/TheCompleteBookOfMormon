@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1858,
   "ImageWidth": 1212,
+  "ManuallyEdited": true,
   "PageNumber": 502,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 132,
-            "Width": 87,
-            "Height": 30
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 581,
-            "Y": 137,
-            "Width": 38,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 643,
-            "Y": 135,
-            "Width": 126,
-            "Height": 26
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 960,
-            "Y": 134,
-            "Width": 61,
-            "Height": 34
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -562,6 +511,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1742,11 +1692,11 @@
         {
           "Bounds": {
             "X": 409,
-            "Y": 566,
-            "Width": 40,
-            "Height": 16
+            "Y": 562,
+            "Width": 43,
+            "Height": 24
           },
-          "Text": "nor"
+          "Text": "not"
         }
       ]
     },
@@ -3792,7 +3742,7 @@
             "Width": 74,
             "Height": 24
           },
-          "Text": "liouse"
+          "Text": "house"
         }
       ]
     },
@@ -4586,11 +4536,16 @@
             "Height": 24
           },
           "Text": "writ"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1071,
+            "Y": 1183,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 204,
@@ -4811,7 +4766,7 @@
             "Width": 98,
             "Height": 17
           },
-          "Text": "manuer"
+          "Text": "manner"
         }
       ]
     },
@@ -5045,7 +5000,7 @@
             "Width": 38,
             "Height": 16
           },
-          "Text": "ure"
+          "Text": "are"
         }
       ]
     },
@@ -5331,7 +5286,7 @@
             "Width": 194,
             "Height": 23
           },
-          "Text": "commaudment"
+          "Text": "commandment"
         }
       ]
     },
@@ -5396,7 +5351,7 @@
             "Width": 42,
             "Height": 24
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -5812,7 +5767,7 @@
             "Width": 49,
             "Height": 23
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -6293,7 +6248,7 @@
             "Width": 79,
             "Height": 23
           },
-          "Text": "urpose"
+          "Text": "purpose"
         }
       ]
     },
@@ -6310,6 +6265,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6450,6 +6406,19 @@
             "Height": 25
           },
           "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 201,
+            "Y": 1611,
+            "Width": 59,
+            "Height": 24
+          },
+          "Text": "land"
         }
       ]
     },

@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1856,
   "ImageWidth": 1209,
+  "ManuallyEdited": true,
   "PageNumber": 462,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 126,
-            "Width": 87,
-            "Height": 26
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 126,
-            "Width": 38,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 648,
-            "Y": 126,
-            "Width": 108,
-            "Height": 25
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 922,
-            "Y": 133,
-            "Width": 71,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1016,
-            "Y": 133,
-            "Width": 14,
-            "Height": 19
-          },
-          "Text": "VI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -159,6 +95,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -354,6 +291,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -428,7 +366,7 @@
             "Width": 120,
             "Height": 24
           },
-          "Text": "brother's"
+          "Text": "brother\u0027s"
         }
       ]
     },
@@ -1299,7 +1237,7 @@
             "Width": 115,
             "Height": 24
           },
-          "Text": "kuocketl"
+          "Text": "knocketh"
         }
       ]
     },
@@ -1452,10 +1390,10 @@
           "Bounds": {
             "X": 187,
             "Y": 483,
-            "Width": 65,
-            "Height": 23
+            "Width": 82,
+            "Height": 24
           },
-          "Text": "whiom"
+          "Text": "whom"
         }
       ]
     },
@@ -2781,7 +2719,7 @@
             "Width": 145,
             "Height": 23
           },
-          "Text": "destructiop"
+          "Text": "destruction"
         }
       ]
     },
@@ -2986,10 +2924,10 @@
           "Bounds": {
             "X": 185,
             "Y": 813,
-            "Width": 19,
-            "Height": 23
+            "Width": 25,
+            "Height": 24
           },
-          "Text": "i8"
+          "Text": "is"
         }
       ]
     },
@@ -3223,7 +3161,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "wlio"
+          "Text": "who"
         }
       ]
     },
@@ -3288,7 +3226,7 @@
             "Width": 97,
             "Height": 30
           },
-          "Text": "sheep's"
+          "Text": "sheep\u0027s"
         }
       ]
     },
@@ -3892,11 +3830,16 @@
             "Height": 17
           },
           "Text": "can"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1047,
+            "Y": 982,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 183,
@@ -5469,7 +5412,7 @@
             "Width": 102,
             "Height": 24
           },
-          "Text": "lieareth"
+          "Text": "heareth"
         }
       ]
     },
@@ -6103,10 +6046,23 @@
           "Bounds": {
             "X": 381,
             "Y": 1505,
-            "Width": 81,
+            "Width": 18,
             "Height": 24
           },
-          "Text": "arock"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 399,
+            "Y": 1505,
+            "Width": 64,
+            "Height": 24
+          },
+          "Text": "rock"
         }
       ]
     },
@@ -6436,7 +6392,7 @@
             "Width": 74,
             "Height": 23
           },
-          "Text": "louse"
+          "Text": "house"
         }
       ]
     },

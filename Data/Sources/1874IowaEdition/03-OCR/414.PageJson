@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1856,
   "ImageWidth": 1209,
+  "ManuallyEdited": true,
   "PageNumber": 414,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 457,
-            "Y": 126,
-            "Width": 87,
-            "Height": 24
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 126,
-            "Width": 39,
-            "Height": 24
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 629,
-            "Y": 125,
-            "Width": 158,
-            "Height": 25
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 922,
-            "Y": 132,
-            "Width": 72,
-            "Height": 18
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1208,7 +1157,7 @@
             "Width": 68,
             "Height": 23
           },
-          "Text": "eartli"
+          "Text": "earth"
         }
       ]
     },
@@ -1309,10 +1258,10 @@
           "Bounds": {
             "X": 981,
             "Y": 416,
-            "Width": 68,
+            "Width": 86,
             "Height": 24
           },
-          "Text": "whic"
+          "Text": "which"
         }
       ]
     },
@@ -1676,7 +1625,7 @@
             "Width": 89,
             "Height": 23
           },
-          "Text": "shiould"
+          "Text": "should"
         }
       ]
     },
@@ -2705,7 +2654,7 @@
             "Width": 43,
             "Height": 23
           },
-          "Text": "tive"
+          "Text": "five"
         }
       ]
     },
@@ -3136,7 +3085,7 @@
           "Bounds": {
             "X": 914,
             "Y": 844,
-            "Width": 76,
+            "Width": 84,
             "Height": 24
           },
           "Text": "These"
@@ -3279,10 +3228,10 @@
           "Bounds": {
             "X": 908,
             "Y": 877,
-            "Width": 28,
+            "Width": 51,
             "Height": 24
           },
-          "Text": "las"
+          "Text": "has"
         }
       ]
     },
@@ -4318,6 +4267,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5519,11 +5469,11 @@
         {
           "Bounds": {
             "X": 674,
-            "Y": 1411,
-            "Width": 64,
-            "Height": 17
+            "Y": 1408,
+            "Width": 72,
+            "Height": 24
           },
-          "Text": "caine"
+          "Text": "came"
         }
       ]
     },
@@ -5887,7 +5837,7 @@
             "Width": 88,
             "Height": 30
           },
-          "Text": "Judges"
+          "Text": "judges"
         }
       ]
     },
@@ -6274,10 +6224,10 @@
           "Bounds": {
             "X": 652,
             "Y": 1568,
-            "Width": 71,
+            "Width": 75,
             "Height": 24
           },
-          "Text": "wheu"
+          "Text": "when"
         }
       ]
     },
@@ -6394,7 +6344,7 @@
             "Width": 104,
             "Height": 27
           },
-          "Text": "testitied"
+          "Text": "testified"
         }
       ]
     },
@@ -6629,11 +6579,7 @@
             "Height": 18
           },
           "Text": "aston"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1052,
@@ -6642,6 +6588,16 @@
             "Height": 4
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 169,
+            "Y": 197,
+            "Width": 100,
+            "Height": 29
+          },
+          "IsOnNextPage": true,
+          "Text": "ishment"
         }
       ]
     }
