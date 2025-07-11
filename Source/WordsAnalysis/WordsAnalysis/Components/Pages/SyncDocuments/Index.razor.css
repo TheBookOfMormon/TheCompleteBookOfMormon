@@ -1,6 +1,7 @@
 ﻿.word-table {
 	border-collapse: collapse;
 	line-height: 1.1em;
+	cursor: crosshair;
 }
 
 	.word-table > thead > tr > th,
@@ -91,11 +92,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	cursor: pointer;
 	font-family: Georgia;
 	min-width: 2em;
 	padding: 0.1rem 0.25rem;
+	border: 1px solid transparent;
 }
+	.word-table_word-container:hover {
+		border: 1px solid lime;
+	}
 
 	.word-table_word-container.--last-edited-cell {
 		border-bottom: 4px solid transparent;
