@@ -69,7 +69,7 @@ Note: Order editions by year, and then by their name as a secondary sorting colu
 
 5. For each cell:
    - If `row.Year <= column.Year`, leave it blank.
-   - Otherwise, show a **percentage (to 2 decimal places)** indicating how similar the row edition is to the column edition.
+   - Otherwise, show a **percentage (to 4 decimal places)** indicating how similar the row edition is to the column edition.
 
 6. For the final **"Base"** column, indicate the year of the edition the row is most similar to (and therefore most likely to be based off).
 
@@ -82,11 +82,11 @@ Produce the **2D table** as described above. I want to download it with the file
 And also an ascii tree in this format, which I want to download with the filename "edition-similarity-tree.txt"
 ```
 1830 Palymyra
-└── 1837 Kirland
-    ├── 1840 Nauvoo
-    │   └── 1842 Nauvoo
-    │   └── 1858 New York
-    └── 1841 Liverpool
-        └── 1849 Liverpool
+└─── 1837 Kirland
+     ├─── 1840 Nauvoo
+     │     └─── 1842 Nauvoo
+     │     └─── 1858 New York
+     │          └─── 2013 Salt Lake City
+     └─── 1841 Liverpool
+          └─── 1849 Liverpool
 ```
-
