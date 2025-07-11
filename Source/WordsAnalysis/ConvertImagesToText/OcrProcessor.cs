@@ -67,6 +67,7 @@ public partial class OcrProcessor : EditionsProcessorBase
         { 'x', 0.67d },
         { 'y', 0.67d },
         { 'z', 0.67d },
+        { '-', 0.5d }
     };
 
     public OcrProcessor(string sourcesDirectoryPath) : base(sourcesDirectoryPath)

@@ -150,8 +150,16 @@ public partial class EditWordDialog : IAsyncDisposable
         int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
         Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
 
-        if (Texts.Length == 1 && Texts[0].Text.Length == 1)
-            Texts[0].Bounds = Texts[0].Bounds with { Width = Texts[0].Bounds.Width * 2 };
+        if (Texts.Length == 1)
+        {
+            double factor = Texts[0].Text switch {
+                "I" => 2,
+                "A" => 2,
+                "a" => 2,
+                _ => 1
+            };
+            Texts[0].Bounds = Texts[0].Bounds with { Width = (int)(Texts[0].Bounds.Width * factor) };
+        }
 
         UpdateImageData();
 
