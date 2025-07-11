@@ -196,7 +196,8 @@ public partial class EditWordDialog : IAsyncDisposable
             {
                 var page = Content.Edition.LoadedPages[Content.WordReference.PageNumber].Page;
                 var wordsBefore = page.Words.Where((x, index) => x != null && index < Content.WordReference.WordIndex);
-                int leftMost = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X).Min();
+                var leftPositions = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X);
+                int leftMost = leftPositions.Any() ? leftPositions.Min() : 0;
                 Texts[elementIndex].Bounds = Texts[elementIndex].Bounds = (bounds.Offset(0, bounds.Height) with { X = leftMost });
             }
         }
@@ -283,6 +284,7 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             Text = text;
             Bounds = bounds;
+            IsOnNextPage = isOnNextPage;
         }
     }
 }
