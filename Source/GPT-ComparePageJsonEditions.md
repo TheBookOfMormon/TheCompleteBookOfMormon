@@ -4,12 +4,13 @@
 This task compares **multiple editions contained within All.zip**. Each embedded zip is an edition, and comparisons are performed **only between each edition and the edition it was most likely based on**, as determined by the following hierarchy:
 
 ```
-1830 Palymra
+1830 Palmyra
 └── 1837 Kirtland
     ├── 1840 Nauvoo
-    │   ├── 1842 Nauvoo
-    │   │   └── 1858 NewYork
-    │   └── 2013 SaltLakeCity
+    │   └── 1842 Nauvoo
+    │       └── 1858 NewYork
+    │           └── 1874 Iowa
+    │               └── 2013 SaltLakeCity
     └── 1841 Liverpool
         └── 1849 Liverpool
             └── 1854 Liverpool
