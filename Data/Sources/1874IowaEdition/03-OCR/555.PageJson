@@ -1,73 +1,9 @@
 {
   "ImageHeight": 1857,
   "ImageWidth": 1211,
+  "ManuallyEdited": true,
   "PageNumber": 555,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 182,
-            "Y": 161,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 463,
-            "Y": 152,
-            "Width": 89,
-            "Height": 27
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 573,
-            "Y": 153,
-            "Width": 38,
-            "Height": 25
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 635,
-            "Y": 153,
-            "Width": 121,
-            "Height": 26
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 183,
-            "Y": 213,
-            "Width": 82,
-            "Height": 24
-          },
-          "Text": "minds"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -259,7 +195,7 @@
             "Width": 60,
             "Height": 17
           },
-          "Text": "nowe"
+          "Text": "none"
         }
       ]
     },
@@ -532,7 +468,7 @@
             "Width": 91,
             "Height": 18
           },
-          "Text": "wownen"
+          "Text": "women"
         }
       ]
     },
@@ -1361,7 +1297,7 @@
             "Width": 41,
             "Height": 23
           },
-          "Text": "tlie"
+          "Text": "the"
         }
       ]
     },
@@ -1478,7 +1414,7 @@
             "Width": 54,
             "Height": 20
           },
-          "Text": "anto"
+          "Text": "unto"
         }
       ]
     },
@@ -1634,7 +1570,7 @@
             "Width": 156,
             "Height": 23
           },
-          "Text": "recominend"
+          "Text": "recommend"
         }
       ]
     },
@@ -2770,7 +2706,7 @@
             "Width": 69,
             "Height": 23
           },
-          "Text": "inany"
+          "Text": "many"
         }
       ]
     },
@@ -3079,7 +3015,7 @@
             "Width": 137,
             "Height": 24
           },
-          "Text": "somewliat"
+          "Text": "somewhat"
         }
       ]
     },
@@ -3872,7 +3808,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "way"
+          "Text": "may"
         }
       ]
     },
@@ -4383,6 +4319,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4942,6 +4879,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4952,19 +4890,6 @@
             "Height": 23
           },
           "Text": "Amen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 1395,
-            "Width": 157,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
         }
       ]
     },
@@ -5644,6 +5569,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5731,7 +5657,7 @@
             "Width": 28,
             "Height": 29
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },
@@ -5910,10 +5836,10 @@
           "Bounds": {
             "X": 435,
             "Y": 1634,
-            "Width": 61,
+            "Width": 69,
             "Height": 24
           },
-          "Text": "sha'l"
+          "Text": "shall"
         }
       ]
     },
@@ -5991,7 +5917,7 @@
             "Width": 27,
             "Height": 22
           },
-          "Text": "he"
+          "Text": "be"
         }
       ]
     },
@@ -6170,15 +6096,11 @@
           "Bounds": {
             "X": 972,
             "Y": 1667,
-            "Width": 57,
-            "Height": 23
+            "Width": 77,
+            "Height": 24
           },
-          "Text": "inerci"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "merci"
+        },
         {
           "Bounds": {
             "X": 1039,
@@ -6187,6 +6109,16 @@
             "Height": 22
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 180,
+            "Y": 202,
+            "Width": 34,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "ful"
         }
       ]
     }
