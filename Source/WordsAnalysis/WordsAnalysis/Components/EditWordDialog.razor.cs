@@ -185,7 +185,12 @@ public partial class EditWordDialog : IAsyncDisposable
         if (e.AltKey && yAdjustment == 0 && e.ShiftKey)
         {
             if (xAdjustment < 0)
-                Texts[elementIndex].Bounds = bounds.Offset(-bounds.X, bounds.Height);
+            {
+                var page = Content.Edition.LoadedPages[Content.WordReference.PageNumber].Page;
+                var wordsBefore = page.Words.Where((x, index) => x != null && index < Content.WordReference.WordIndex);
+                int leftMost = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X).Min();
+                Texts[elementIndex].Bounds = Texts[elementIndex].Bounds = (bounds.Offset(0, bounds.Height) with { X = leftMost });
+            }
         }
         else
         {
