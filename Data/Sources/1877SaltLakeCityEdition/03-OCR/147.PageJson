@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 147,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 112,
-            "Y": 123,
-            "Width": 58,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 199,
-            "Y": 115,
-            "Width": 9,
-            "Height": 32
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 422,
-            "Y": 122,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 508,
-            "Y": 122,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 557,
-            "Y": 122,
-            "Width": 86,
-            "Height": 18
-          },
-          "Text": "JAROM"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -264,6 +199,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -456,11 +392,16 @@
             "Height": 24
           },
           "Text": "chil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 951,
+            "Y": 225,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 113,
@@ -5433,10 +5374,10 @@
           "Bounds": {
             "X": 577,
             "Y": 1415,
-            "Width": 49,
-            "Height": 23
+            "Width": 50,
+            "Height": 24
           },
-          "Text": "acd"
+          "Text": "and"
         }
       ]
     },
@@ -5537,10 +5478,10 @@
           "Bounds": {
             "X": 269,
             "Y": 1447,
-            "Width": 30,
-            "Height": 23
+            "Width": 35,
+            "Height": 24
           },
-          "Text": "ho"
+          "Text": "he"
         }
       ]
     },

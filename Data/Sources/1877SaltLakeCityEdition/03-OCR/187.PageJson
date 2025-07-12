@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 187,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 98,
-            "Y": 141,
-            "Width": 60,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 184,
-            "Y": 136,
-            "Width": 51,
-            "Height": 32
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 142,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 483,
-            "Y": 142,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 142,
-            "Width": 75,
-            "Height": 19
-          },
-          "Text": "MOGIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 96,
-            "Y": 180,
-            "Width": 65,
-            "Height": 24
-          },
-          "Text": "lieved"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -269,6 +191,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -903,11 +826,16 @@
             "Height": 16
           },
           "Text": "resur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 939,
+            "Y": 346,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 94,
@@ -1692,10 +1620,10 @@
           "Bounds": {
             "X": 835,
             "Y": 535,
-            "Width": 105,
+            "Width": 104,
             "Height": 24
           },
-          "Text": "treble"
+          "Text": "tremble"
         }
       ]
     },
@@ -1751,6 +1679,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2839,12 +2768,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 112,
-            "Y": 831,
-            "Width": 14,
-            "Height": 22
+            "X": 100,
+            "Y": 830,
+            "Width": 36,
+            "Height": 24
           },
-          "Text": "ea"
+          "Text": "yea"
         }
       ]
     },
@@ -2983,11 +2912,11 @@
         {
           "Bounds": {
             "X": 93,
-            "Y": 829,
-            "Width": 97,
-            "Height": 59
+            "Y": 858,
+            "Width": 105,
+            "Height": 24
           },
-          "Text": "Limself"
+          "Text": "himself"
         }
       ]
     },
@@ -4015,11 +3944,11 @@
         {
           "Bounds": {
             "X": 134,
-            "Y": 1079,
-            "Width": 133,
-            "Height": 26
+            "Y": 1080,
+            "Width": 141,
+            "Height": 24
           },
-          "Text": "Jrusalem"
+          "Text": "Jerusalem"
         }
       ]
     },
@@ -5249,12 +5178,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 109,
-            "Y": 1372,
-            "Width": 53,
-            "Height": 27
+            "X": 97,
+            "Y": 1373,
+            "Width": 56,
+            "Height": 24
           },
-          "Text": "ust"
+          "Text": "just"
         }
       ]
     },
@@ -5405,12 +5334,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 130,
-            "Y": 1410,
-            "Width": 26,
-            "Height": 16
+            "X": 94,
+            "Y": 1406,
+            "Width": 67,
+            "Height": 24
           },
-          "Text": "ve"
+          "Text": "have"
         }
       ]
     },
@@ -5527,7 +5456,7 @@
             "Width": 78,
             "Height": 29
           },
-          "Text": "grpash"
+          "Text": "gnash"
         }
       ]
     },
@@ -5683,7 +5612,7 @@
             "Width": 71,
             "Height": 24
           },
-          "Text": "'voice"
+          "Text": "voice"
         }
       ]
     },
@@ -6316,11 +6245,11 @@
         {
           "Bounds": {
             "X": 524,
-            "Y": 1595,
-            "Width": 67,
-            "Height": 27
+            "Y": 1596,
+            "Width": 86,
+            "Height": 24
           },
-          "Text": "carpal"
+          "Text": "carnal"
         }
       ]
     },
@@ -6360,11 +6289,7 @@
             "Height": 24
           },
           "Text": "know"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 933,
@@ -6373,6 +6298,16 @@
             "Height": 6
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 135,
+            "Y": 159,
+            "Width": 42,
+            "Height": 29
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

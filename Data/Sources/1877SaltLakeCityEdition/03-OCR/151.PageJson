@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 151,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 110,
-            "Y": 109,
-            "Width": 60,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 197,
-            "Y": 107,
-            "Width": 7,
-            "Height": 28
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 408,
-            "Y": 108,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 494,
-            "Y": 109,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 109,
-            "Width": 90,
-            "Height": 19
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1197,11 +1132,7 @@
             "Height": 23
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 943,
@@ -1210,11 +1141,7 @@
             "Height": 15
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 111,
@@ -1222,7 +1149,7 @@
             "Width": 82,
             "Height": 23
           },
-          "Text": "girous"
+          "Text": "sirous"
         }
       ]
     },
@@ -1499,6 +1426,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1959,11 +1887,11 @@
         {
           "Bounds": {
             "X": 380,
-            "Y": 594,
-            "Width": 15,
-            "Height": 33
+            "Y": 598,
+            "Width": 26,
+            "Height": 24
           },
-          "Text": "ta"
+          "Text": "to"
         }
       ]
     },
@@ -2467,7 +2395,7 @@
             "Width": 151,
             "Height": 29
           },
-          "Text": "goncerning"
+          "Text": "concerning"
         }
       ]
     },
@@ -2787,32 +2715,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 401,
-            "Y": 825,
-            "Width": 25,
-            "Height": 9
-          },
-          "Text": "rn"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 639,
-            "Y": 832,
-            "Width": 2,
-            "Height": 3
-          },
-          "Text": "jp"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 270,
             "Y": 877,
             "Width": 80,
@@ -2858,32 +2760,6 @@
             "Height": 45
           },
           "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 1015,
-            "Width": 187,
-            "Height": 26
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 150,
-            "Y": 1079,
-            "Width": 14,
-            "Height": 24
-          },
-          "Text": "I"
         }
       ]
     },
@@ -3178,11 +3054,11 @@
         {
           "Bounds": {
             "X": 860,
-            "Y": 1112,
-            "Width": 78,
-            "Height": 29
+            "Y": 1114,
+            "Width": 95,
+            "Height": 24
           },
-          "Text": "Moront"
+          "Text": "Moroni"
         }
       ]
     },
@@ -3295,11 +3171,11 @@
         {
           "Bounds": {
             "X": 878,
-            "Y": 1148,
-            "Width": 25,
-            "Height": 20
+            "Y": 1146,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -4124,11 +4000,16 @@
             "Height": 25
           },
           "Text": "per"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 965,
+            "Y": 1344,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 118,
@@ -4387,6 +4268,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4916,7 +4798,7 @@
             "Width": 140,
             "Height": 25
           },
-          "Text": "oontained"
+          "Text": "contained"
         }
       ]
     },

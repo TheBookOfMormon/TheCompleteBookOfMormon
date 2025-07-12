@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 181,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 67,
-            "Y": 131,
-            "Width": 53,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 142,
-            "Y": 123,
-            "Width": 40,
-            "Height": 33
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 357,
-            "Y": 132,
-            "Width": 67,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 132,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 496,
-            "Y": 132,
-            "Width": 87,
-            "Height": 18
-          },
-          "Text": "MOSIAR"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1335,11 +1270,11 @@
         {
           "Bounds": {
             "X": 62,
-            "Y": 489,
-            "Width": 86,
-            "Height": 58
+            "Y": 494,
+            "Width": 96,
+            "Height": 24
           },
-          "Text": "pricsta"
+          "Text": "priests"
         }
       ]
     },
@@ -1443,7 +1378,7 @@
             "Width": 40,
             "Height": 23
           },
-          "Text": "old"
+          "Text": "hold"
         }
       ]
     },
@@ -1872,7 +1807,7 @@
             "Width": 164,
             "Height": 23
           },
-          "Text": "cominanded"
+          "Text": "commanded"
         }
       ]
     },
@@ -2029,11 +1964,16 @@
             "Height": 23
           },
           "Text": "ques"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 904,
+            "Y": 628,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 62,
@@ -4612,7 +4552,7 @@
             "Width": 80,
             "Height": 31
           },
-          "Text": "Priests"
+          "Text": "priests"
         }
       ]
     },
@@ -5050,11 +4990,11 @@
         {
           "Bounds": {
             "X": 65,
-            "Y": 1359,
-            "Width": 131,
-            "Height": 33
+            "Y": 1363,
+            "Width": 142,
+            "Height": 24
           },
-          "Text": "Perverting"
+          "Text": "perverting"
         }
       ]
     },
@@ -5236,7 +5176,7 @@
             "Width": 42,
             "Height": 21
           },
-          "Text": "mot"
+          "Text": "not"
         }
       ]
     },
@@ -5978,11 +5918,11 @@
         {
           "Bounds": {
             "X": 546,
-            "Y": 1560,
-            "Width": 27,
-            "Height": 22
+            "Y": 1559,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -6187,15 +6127,11 @@
           "Bounds": {
             "X": 808,
             "Y": 1582,
-            "Width": 68,
-            "Height": 23
+            "Width": 86,
+            "Height": 24
           },
           "Text": "whore"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 887,
@@ -6204,6 +6140,16 @@
             "Height": 23
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 163,
+            "Y": 158,
+            "Width": 71,
+            "Height": 23
+          },
+          "IsOnNextPage": true,
+          "Text": "doms"
         }
       ]
     }

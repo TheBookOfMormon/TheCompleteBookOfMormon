@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 192,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 426,
-            "Y": 124,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 124,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 562,
-            "Y": 123,
-            "Width": 91,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 851,
-            "Y": 116,
-            "Width": 62,
-            "Height": 32
-          },
-          "Text": "oHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 938,
-            "Y": 124,
-            "Width": 15,
-            "Height": 19
-          },
-          "Text": "IX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1088,9 +1023,9 @@
         {
           "Bounds": {
             "X": 353,
-            "Y": 389,
-            "Width": 83,
-            "Height": 22
+            "Y": 388,
+            "Width": 89,
+            "Height": 24
           },
           "Text": "labour"
         }
@@ -1141,10 +1076,36 @@
           "Bounds": {
             "X": 651,
             "Y": 388,
-            "Width": 188,
-            "Height": 23
+            "Width": 86,
+            "Height": 24
           },
-          "Text": "handsfortheir"
+          "Text": "hands"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 737,
+            "Y": 388,
+            "Width": 41,
+            "Height": 24
+          },
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 778,
+            "Y": 388,
+            "Width": 67,
+            "Height": 24
+          },
+          "Text": "their"
         }
       ]
     },
@@ -1352,7 +1313,7 @@
             "Width": 90,
             "Height": 23
           },
-          "Text": "shold"
+          "Text": "should"
         }
       ]
     },
@@ -1907,11 +1868,11 @@
         {
           "Bounds": {
             "X": 187,
-            "Y": 582,
-            "Width": 34,
-            "Height": 22
+            "Y": 581,
+            "Width": 40,
+            "Height": 24
           },
-          "Text": "tor"
+          "Text": "for"
         }
       ]
     },
@@ -1934,8 +1895,8 @@
           "Bounds": {
             "X": 314,
             "Y": 581,
-            "Width": 84,
-            "Height": 23
+            "Width": 89,
+            "Height": 24
           },
           "Text": "labour"
         }
@@ -2211,11 +2172,11 @@
         {
           "Bounds": {
             "X": 213,
-            "Y": 649,
-            "Width": 26,
-            "Height": 20
+            "Y": 647,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "or"
+          "Text": "of"
         }
       ]
     },
@@ -2619,11 +2580,24 @@
         {
           "Bounds": {
             "X": 175,
-            "Y": 743,
-            "Width": 83,
-            "Height": 22
+            "Y": 742,
+            "Width": 27,
+            "Height": 24
           },
-          "Text": "tothat"
+          "Text": "to"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 202,
+            "Y": 742,
+            "Width": 56,
+            "Height": 24
+          },
+          "Text": "that"
         }
       ]
     },
@@ -2822,6 +2796,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3938,10 +3913,23 @@
           "Bounds": {
             "X": 199,
             "Y": 1064,
-            "Width": 110,
+            "Width": 53,
             "Height": 23
           },
-          "Text": "Andnow"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 252,
+            "Y": 1064,
+            "Width": 58,
+            "Height": 23
+          },
+          "Text": "now"
         }
       ]
     },
@@ -4042,10 +4030,23 @@
           "Bounds": {
             "X": 690,
             "Y": 1064,
-            "Width": 114,
+            "Width": 52,
             "Height": 23
           },
-          "Text": "wasdone"
+          "Text": "was"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 742,
+            "Y": 1064,
+            "Width": 63,
+            "Height": 23
+          },
+          "Text": "done"
         }
       ]
     },
@@ -5939,6 +5940,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6351,7 +6353,7 @@
             "Width": 77,
             "Height": 30
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -6386,11 +6388,11 @@
         {
           "Bounds": {
             "X": 768,
-            "Y": 1578,
-            "Width": 46,
-            "Height": 27
+            "Y": 1579,
+            "Width": 61,
+            "Height": 24
           },
-          "Text": "thay"
+          "Text": "they"
         }
       ]
     },

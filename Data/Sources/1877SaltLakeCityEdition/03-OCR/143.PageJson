@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 143,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 125,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 124,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 517,
-            "Y": 125,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 124,
-            "Width": 74,
-            "Height": 19
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -507,7 +455,7 @@
             "Width": 40,
             "Height": 29
           },
-          "Text": "gin"
+          "Text": "sin"
         }
       ]
     },
@@ -849,6 +797,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1664,7 +1613,7 @@
             "Width": 67,
             "Height": 30
           },
-          "Text": "ghout"
+          "Text": "ghost"
         }
       ]
     },
@@ -1717,11 +1666,7 @@
             "Height": 17
           },
           "Text": "ex"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 938,
@@ -1730,19 +1675,15 @@
             "Height": 17
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 209,
-            "Y": 515,
-            "Width": 42,
-            "Height": 31
+            "X": 113,
+            "Y": 518,
+            "Width": 133,
+            "Height": 24
           },
-          "Text": "gly"
+          "Text": "ceedingly"
         }
       ]
     },
@@ -2457,7 +2398,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "vass"
+          "Text": "pass"
         }
       ]
     },
@@ -3102,19 +3043,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 967,
-            "Y": 801,
-            "Width": 9,
-            "Height": 36
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 117,
             "Y": 836,
             "Width": 43,
@@ -3263,7 +3191,7 @@
             "Width": 55,
             "Height": 17
           },
-          "Text": "ware"
+          "Text": "wars"
         }
       ]
     },
@@ -3649,11 +3577,11 @@
         {
           "Bounds": {
             "X": 878,
-            "Y": 932,
-            "Width": 77,
-            "Height": 30
+            "Y": 935,
+            "Width": 81,
+            "Height": 24
           },
-          "Text": "Nepht"
+          "Text": "Nephi"
         }
       ]
     },
@@ -3878,6 +3806,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4935,12 +4864,25 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 941,
+            "Y": 1224,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 130,
             "Y": 1260,
             "Width": 116,
             "Height": 16
           },
-          "Text": "onesome"
+          "Text": "lonesome"
         }
       ]
     },
@@ -5279,11 +5221,16 @@
             "Height": 23
           },
           "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 947,
+            "Y": 1318,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 119,
@@ -5522,10 +5469,23 @@
           "Bounds": {
             "X": 825,
             "Y": 1388,
-            "Width": 120,
+            "Width": 41,
             "Height": 25
           },
-          "Text": "mygrave"
+          "Text": "my"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 866,
+            "Y": 1388,
+            "Width": 80,
+            "Height": 25
+          },
+          "Text": "grave"
         }
       ]
     },
@@ -5551,7 +5511,7 @@
             "Width": 22,
             "Height": 37
           },
-          "Text": "'T"
+          "Text": "I"
         }
       ]
     },
@@ -5676,12 +5636,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 118,
+            "X": 113,
+            "Y": 1445,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 132,
             "Y": 1444,
-            "Width": 75,
+            "Width": 61,
             "Height": 25
           },
-          "Text": "Itold"
+          "Text": "told"
         }
       ]
     },
@@ -5702,12 +5675,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 259,
-            "Y": 1429,
-            "Width": 126,
-            "Height": 47
+            "X": 265,
+            "Y": 1448,
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "thethings"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 310,
+            "Y": 1448,
+            "Width": 88,
+            "Height": 24
+          },
+          "Text": "things"
         }
       ]
     },
@@ -5729,11 +5715,24 @@
         {
           "Bounds": {
             "X": 492,
-            "Y": 1433,
-            "Width": 146,
-            "Height": 43
+            "Y": 1442,
+            "Width": 44,
+            "Height": 24
           },
-          "Text": "mybrother"
+          "Text": "my"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 536,
+            "Y": 1442,
+            "Width": 112,
+            "Height": 24
+          },
+          "Text": "brother"
         }
       ]
     },
