@@ -277,7 +277,6 @@ public partial class EditWordDialog : IAsyncDisposable
 
         public bool IsOnNextPage { get; set; }
 
-        [Required]
         public string Text { get; set; } = null!;
 
         public RequiredText(string text, OcrRect bounds, bool isOnNextPage)
