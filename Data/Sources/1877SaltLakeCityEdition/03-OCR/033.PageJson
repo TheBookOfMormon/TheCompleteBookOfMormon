@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 33,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 108,
-            "Y": 148,
-            "Width": 59,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 192,
-            "Y": 142,
-            "Width": 18,
-            "Height": 33
-          },
-          "Text": "mL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 149,
-            "Width": 79,
-            "Height": 19
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 482,
-            "Y": 150,
-            "Width": 68,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 563,
-            "Y": 150,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 605,
-            "Y": 152,
-            "Width": 83,
-            "Height": 17
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -108,6 +30,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2691,6 +2614,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 364,
+            "Y": 762,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 394,
             "Y": 771,
             "Width": 42,
@@ -2735,7 +2671,7 @@
             "Width": 55,
             "Height": 22
           },
-          "Text": "pasa"
+          "Text": "pass"
         }
       ]
     },
@@ -3012,6 +2948,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3744,12 +3681,38 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 944,
+            "Y": 987,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 107,
             "Y": 1019,
             "Width": 53,
             "Height": 24
           },
           "Text": "said"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 169,
+            "Y": 1019,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },
@@ -4828,7 +4791,7 @@
             "Width": 106,
             "Height": 31
           },
-          "Text": "briugeth"
+          "Text": "bringeth"
         }
       ]
     },
@@ -4890,10 +4853,23 @@
           "Bounds": {
             "X": 199,
             "Y": 1306,
-            "Width": 82,
+            "Width": 61,
             "Height": 24
           },
-          "Text": "Andit"
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 260,
+            "Y": 1306,
+            "Width": 22,
+            "Height": 24
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5184,7 +5160,7 @@
             "Width": 144,
             "Height": 23
           },
-          "Text": "fonudation"
+          "Text": "foundation"
         }
       ]
     },
@@ -5349,11 +5325,11 @@
         {
           "Bounds": {
             "X": 850,
-            "Y": 1371,
-            "Width": 94,
-            "Height": 28
+            "Y": 1373,
+            "Width": 111,
+            "Height": 24
           },
-          "Text": "acarlets"
+          "Text": "scarlets"
         }
       ]
     },
@@ -5497,6 +5473,19 @@
             "Height": 23
           },
           "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 168,
+            "Y": 1435,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },
@@ -6199,11 +6188,16 @@
             "Height": 34
           },
           "Text": "des"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 946,
+            "Y": 1566,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 113,
@@ -6237,7 +6231,7 @@
             "Width": 68,
             "Height": 24
           },
-          "Text": "saiuts"
+          "Text": "saints"
         }
       ]
     },

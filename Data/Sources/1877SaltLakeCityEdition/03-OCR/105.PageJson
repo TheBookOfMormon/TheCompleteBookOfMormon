@@ -1,100 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 105,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 92,
-            "Y": 121,
-            "Width": 72,
-            "Height": 27
-          },
-          "Text": "OHAY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 169,
-            "Y": 113,
-            "Width": 15,
-            "Height": 36
-          },
-          "Text": "xt"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 328,
-            "Y": 123,
-            "Width": 80,
-            "Height": 18
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 443,
-            "Y": 123,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 531,
-            "Y": 123,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 583,
-            "Y": 123,
-            "Width": 79,
-            "Height": 18
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 913,
-            "Y": 117,
-            "Width": 17,
-            "Height": 25
-          },
-          "Text": "9b"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1548,6 +1457,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4106,11 +4016,11 @@
         {
           "Bounds": {
             "X": 840,
-            "Y": 1035,
-            "Width": 24,
-            "Height": 21
+            "Y": 1034,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -5802,10 +5712,23 @@
           "Bounds": {
             "X": 338,
             "Y": 1452,
-            "Width": 220,
+            "Width": 62,
             "Height": 31
           },
-          "Text": "theyunderstand"
+          "Text": "they"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 400,
+            "Y": 1452,
+            "Width": 159,
+            "Height": 31
+          },
+          "Text": "understand"
         }
       ]
     },

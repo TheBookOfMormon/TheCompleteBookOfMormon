@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 60,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 406,
-            "Y": 99,
-            "Width": 70,
-            "Height": 19
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 489,
-            "Y": 100,
-            "Width": 65,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 570,
-            "Y": 100,
-            "Width": 28,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 614,
-            "Y": 99,
-            "Width": 83,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 842,
-            "Y": 92,
-            "Width": 72,
-            "Height": 34
-          },
-          "Text": "omar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 938,
-            "Y": 100,
-            "Width": 40,
-            "Height": 21
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -516,11 +438,11 @@
         {
           "Bounds": {
             "X": 933,
-            "Y": 202,
-            "Width": 40,
-            "Height": 27
+            "Y": 203,
+            "Width": 50,
+            "Height": 24
           },
-          "Text": "wil"
+          "Text": "will"
         }
       ]
     },
@@ -1024,7 +946,7 @@
           "Bounds": {
             "X": 378,
             "Y": 330,
-            "Width": 87,
+            "Width": 105,
             "Height": 24
           },
           "Text": "Saviour"
@@ -1139,51 +1061,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 441,
-            "Y": 458,
-            "Width": 152,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 608,
-            "Y": 458,
-            "Width": 55,
-            "Height": 25
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 165,
-            "Y": 523,
-            "Width": 13,
-            "Height": 25
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 204,
             "Y": 523,
             "Width": 61,
             "Height": 25
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -1304,6 +1187,9 @@
         }
       ]
     },
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1785,6 +1671,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2123,6 +2010,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2705,11 +2593,16 @@
             "Height": 25
           },
           "Text": "per"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 978,
+            "Y": 851,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 130,
@@ -3974,6 +3867,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4751,6 +4645,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5731,11 +5626,11 @@
         {
           "Bounds": {
             "X": 124,
-            "Y": 1552,
-            "Width": 32,
-            "Height": 18
+            "Y": 1549,
+            "Width": 47,
+            "Height": 24
           },
-          "Text": "ow"
+          "Text": "our"
         }
       ]
     },
@@ -5879,11 +5774,7 @@
             "Height": 19
           },
           "Text": "mean"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 960,
@@ -5892,6 +5783,16 @@
             "Height": 19
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 114,
+            "Y": 139,
+            "Width": 44,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "eth"
         }
       ]
     }

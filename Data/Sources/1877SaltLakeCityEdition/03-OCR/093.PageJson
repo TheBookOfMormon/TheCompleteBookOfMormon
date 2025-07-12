@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 93,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 135,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 196,
-            "Y": 127,
-            "Width": 54,
-            "Height": 33
-          },
-          "Text": "YIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 363,
-            "Y": 134,
-            "Width": 96,
-            "Height": 18
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 477,
-            "Y": 134,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 565,
-            "Y": 134,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 616,
-            "Y": 135,
-            "Width": 74,
-            "Height": 18
-          },
-          "Text": "NRPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -598,7 +520,7 @@
             "Width": 70,
             "Height": 29
           },
-          "Text": "nicht"
+          "Text": "night"
         }
       ]
     },
@@ -1170,7 +1092,7 @@
             "Width": 101,
             "Height": 23
           },
-          "Text": "becanse"
+          "Text": "because"
         }
       ]
     },
@@ -2147,8 +2069,8 @@
           "Bounds": {
             "X": 287,
             "Y": 656,
-            "Width": 76,
-            "Height": 23
+            "Width": 78,
+            "Height": 24
           },
           "Text": "Hosts"
         }
@@ -2845,11 +2767,16 @@
             "Height": 22
           },
           "Text": "cart"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 963,
+            "Y": 787,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 115,
@@ -2859,8 +2786,10 @@
           },
           "Text": "rope"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {
@@ -4725,9 +4654,9 @@
         {
           "Bounds": {
             "X": 235,
-            "Y": 1235,
-            "Width": 69,
-            "Height": 28
+            "Y": 1237,
+            "Width": 78,
+            "Height": 24
           },
           "Text": "Hosts"
         }
@@ -5539,6 +5468,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5795,7 +5725,7 @@
             "Width": 64,
             "Height": 23
           },
-          "Text": "thein"
+          "Text": "them"
         }
       ]
     },

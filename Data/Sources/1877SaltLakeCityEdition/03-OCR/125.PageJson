@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 125,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 112,
-            "Y": 119,
-            "Width": 58,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 195,
-            "Y": 119,
-            "Width": 18,
-            "Height": 18
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 429,
-            "Y": 118,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 510,
-            "Y": 119,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 118,
-            "Width": 73,
-            "Height": 19
-          },
-          "Text": "JAOCOR"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -130,7 +65,7 @@
             "Width": 67,
             "Height": 24
           },
-          "Text": "Land"
+          "Text": "hand"
         }
       ]
     },
@@ -179,10 +114,23 @@
           "Bounds": {
             "X": 769,
             "Y": 158,
-            "Width": 103,
+            "Width": 40,
             "Height": 30
           },
-          "Text": "myseed"
+          "Text": "my"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 809,
+            "Y": 158,
+            "Width": 64,
+            "Height": 30
+          },
+          "Text": "seed"
         }
       ]
     },
@@ -430,11 +378,7 @@
             "Height": 30
           },
           "Text": "prophe"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 947,
@@ -443,11 +387,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 113,
@@ -455,7 +395,7 @@
             "Width": 71,
             "Height": 30
           },
-          "Text": "gying"
+          "Text": "sying"
         }
       ]
     },
@@ -754,7 +694,7 @@
             "Width": 101,
             "Height": 23
           },
-          "Text": "Christ's"
+          "Text": "Christ\u0027s"
         }
       ]
     },
@@ -893,11 +833,11 @@
         {
           "Bounds": {
             "X": 928,
-            "Y": 323,
-            "Width": 24,
-            "Height": 20
+            "Y": 321,
+            "Width": 28,
+            "Height": 24
           },
-          "Text": "ot"
+          "Text": "of"
         }
       ]
     },
@@ -1825,7 +1765,7 @@
             "Width": 76,
             "Height": 29
           },
-          "Text": "mizht"
+          "Text": "might"
         }
       ]
     },
@@ -2761,7 +2701,7 @@
             "Width": 71,
             "Height": 23
           },
-          "Text": "sufler"
+          "Text": "suffer"
         }
       ]
     },
@@ -3463,7 +3403,7 @@
             "Width": 49,
             "Height": 16
           },
-          "Text": "naw"
+          "Text": "now"
         }
       ]
     },
@@ -3567,7 +3507,7 @@
             "Width": 51,
             "Height": 24
           },
-          "Text": "Ths"
+          "Text": "The"
         }
       ]
     },
@@ -4365,10 +4305,12 @@
             "Width": 28,
             "Height": 28
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5080,7 +5022,7 @@
             "Width": 78,
             "Height": 24
           },
-          "Text": "Jacoo"
+          "Text": "Jacob"
         }
       ]
     },
@@ -5116,10 +5058,10 @@
           "Bounds": {
             "X": 163,
             "Y": 1373,
-            "Width": 121,
-            "Height": 23
+            "Width": 129,
+            "Height": 24
           },
-          "Text": "hercafter"
+          "Text": "hereafter"
         }
       ]
     },
@@ -5266,6 +5208,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5458,6 +5401,19 @@
             "Height": 29
           },
           "Text": "Nephi"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 623,
+            "Y": 1440,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },

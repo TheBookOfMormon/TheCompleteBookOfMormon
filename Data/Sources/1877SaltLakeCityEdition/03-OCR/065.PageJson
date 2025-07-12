@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 65,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 124,
-            "Y": 137,
-            "Width": 59,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 380,
-            "Y": 138,
-            "Width": 80,
-            "Height": 20
-          },
-          "Text": "SXCOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 492,
-            "Y": 139,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 574,
-            "Y": 139,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 620,
-            "Y": 139,
-            "Width": 73,
-            "Height": 20
-          },
-          "Text": "NXPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -372,12 +307,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 165,
-            "Y": 253,
-            "Width": 28,
-            "Height": 17
+            "X": 105,
+            "Y": 250,
+            "Width": 77,
+            "Height": 24
           },
-          "Text": "ve"
+          "Text": "grave"
         }
       ]
     },
@@ -502,12 +437,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 153,
+            "X": 117,
             "Y": 286,
-            "Width": 15,
-            "Height": 23
+            "Width": 65,
+            "Height": 24
           },
-          "Text": "ys"
+          "Text": "days"
         }
       ]
     },
@@ -958,11 +893,11 @@
         {
           "Bounds": {
             "X": 936,
-            "Y": 342,
-            "Width": 33,
-            "Height": 26
+            "Y": 343,
+            "Width": 44,
+            "Height": 24
           },
-          "Text": "bis"
+          "Text": "his"
         }
       ]
     },
@@ -1655,6 +1590,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2145,12 +2081,17 @@
             "Width": 98,
             "Height": 24
           },
-          "Text": "generar"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "genera"
+        },
+        {
+          "Bounds": {
+            "X": 982,
+            "Y": 606,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 118,
@@ -3211,7 +3152,7 @@
             "Width": 26,
             "Height": 22
           },
-          "Text": "ut"
+          "Text": "but"
         }
       ]
     },
@@ -3510,7 +3451,7 @@
             "Width": 59,
             "Height": 24
           },
-          "Text": "bave"
+          "Text": "have"
         }
       ]
     },
@@ -4221,11 +4162,11 @@
         {
           "Bounds": {
             "X": 638,
-            "Y": 1057,
-            "Width": 27,
-            "Height": 22
+            "Y": 1056,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "ys"
+          "Text": "ye"
         }
       ]
     },
@@ -4907,9 +4848,9 @@
         {
           "Bounds": {
             "X": 113,
-            "Y": 1215,
-            "Width": 97,
-            "Height": 17
+            "Y": 1212,
+            "Width": 99,
+            "Height": 24
           },
           "Text": "armour"
         }

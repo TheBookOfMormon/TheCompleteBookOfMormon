@@ -2767,11 +2767,16 @@
             "Height": 22
           },
           "Text": "cart"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 971,
+            "Y": 799,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 119,
@@ -2781,8 +2786,10 @@
           },
           "Text": "rope"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
+    null,
     {
       "Elements": [
         {

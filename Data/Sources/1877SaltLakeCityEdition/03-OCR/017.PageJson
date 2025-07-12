@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 17,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 128,
-            "Width": 47,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 128,
-            "Width": 71,
-            "Height": 19
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 129,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 555,
-            "Y": 128,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 600,
-            "Y": 128,
-            "Width": 85,
-            "Height": 18
-          },
-          "Text": "NEPHIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -871,12 +806,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 151,
-            "Y": 325,
-            "Width": 76,
-            "Height": 59
+            "X": 163,
+            "Y": 330,
+            "Width": 73,
+            "Height": 24
           },
-          "Text": "Jeave"
+          "Text": "leave"
         }
       ]
     },
@@ -1014,12 +949,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 168,
-            "Y": 368,
-            "Width": 11,
-            "Height": 16
+            "X": 120,
+            "Y": 364,
+            "Width": 81,
+            "Height": 24
           },
-          "Text": "an"
+          "Text": "Laban"
         }
       ]
     },
@@ -2224,11 +2159,11 @@
         {
           "Bounds": {
             "X": 809,
-            "Y": 618,
-            "Width": 22,
-            "Height": 30
+            "Y": 621,
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "rv"
+          "Text": "rod"
         }
       ]
     },
@@ -2871,11 +2806,7 @@
             "Height": 32
           },
           "Text": "iniqui"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 961,
@@ -2884,11 +2815,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 115,
@@ -2896,7 +2823,7 @@
             "Width": 45,
             "Height": 23
           },
-          "Text": "tiea"
+          "Text": "ties"
         }
       ]
     },
@@ -3147,6 +3074,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3277,6 +3205,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3326,11 +3255,7 @@
             "Height": 25
           },
           "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 947,
@@ -3339,6 +3264,15 @@
             "Height": 18
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 117,
+            "Y": 875,
+            "Width": 88,
+            "Height": 24
+          },
+          "Text": "parted"
         }
       ]
     },
@@ -3439,10 +3373,10 @@
           "Bounds": {
             "X": 882,
             "Y": 877,
-            "Width": 47,
-            "Height": 23
+            "Width": 91,
+            "Height": 24
           },
-          "Text": "sayi"
+          "Text": "saying"
         }
       ]
     },
@@ -3455,7 +3389,7 @@
             "Width": 30,
             "Height": 16
           },
-          "Text": "ow"
+          "Text": "how"
         }
       ]
     },
@@ -3741,7 +3675,7 @@
             "Width": 132,
             "Height": 25
           },
-          "Text": "coramand"
+          "Text": "command"
         }
       ]
     },
@@ -6202,10 +6136,10 @@
           "Bounds": {
             "X": 175,
             "Y": 1487,
-            "Width": 40,
-            "Height": 25
+            "Width": 43,
+            "Height": 24
           },
-          "Text": "dil"
+          "Text": "did"
         }
       ]
     },
@@ -6665,7 +6599,7 @@
             "Width": 73,
             "Height": 25
           },
-          "Text": "walla"
+          "Text": "walls"
         }
       ]
     },
@@ -6695,6 +6629,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6744,11 +6679,7 @@
             "Height": 24
           },
           "Text": "them"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 950,
@@ -6757,6 +6688,16 @@
             "Height": 24
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 151,
+            "Y": 154,
+            "Width": 69,
+            "Height": 28
+          },
+          "IsOnNextPage": true,
+          "Text": "selves"
         }
       ]
     }

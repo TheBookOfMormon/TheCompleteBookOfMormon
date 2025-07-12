@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 113,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 137,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 198,
-            "Y": 130,
-            "Width": 17,
-            "Height": 32
-          },
-          "Text": "XI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 378,
-            "Y": 136,
-            "Width": 96,
-            "Height": 18
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 493,
-            "Y": 136,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 580,
-            "Y": 136,
-            "Width": 28,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 630,
-            "Y": 136,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -790,10 +712,23 @@
           "Bounds": {
             "X": 525,
             "Y": 303,
-            "Width": 90,
+            "Width": 20,
             "Height": 24
           },
-          "Text": "itshall"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 545,
+            "Y": 303,
+            "Width": 71,
+            "Height": 24
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -1895,7 +1830,7 @@
             "Width": 81,
             "Height": 28
           },
-          "Text": "scaled"
+          "Text": "sealed"
         }
       ]
     },
@@ -2451,12 +2386,8 @@
             "Width": 132,
             "Height": 23
           },
-          "Text": "eommand"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "command"
+        },
         {
           "Bounds": {
             "X": 954,
@@ -2465,11 +2396,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 111,
@@ -3513,37 +3440,11 @@
         {
           "Bounds": {
             "X": 743,
-            "Y": 852,
-            "Width": 24,
-            "Height": 22
-          },
-          "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 770,
             "Y": 851,
-            "Width": 14,
-            "Height": 30
+            "Width": 88,
+            "Height": 24
           },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 780,
-            "Y": 851,
-            "Width": 45,
-            "Height": 30
-          },
-          "Text": "day"
+          "Text": "to-day"
         }
       ]
     },
@@ -4119,6 +4020,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4320,7 +4222,7 @@
           "Bounds": {
             "X": 540,
             "Y": 1042,
-            "Width": 83,
+            "Width": 100,
             "Height": 24
           },
           "Text": "honour"
@@ -4532,19 +4434,6 @@
             "Height": 30
           },
           "Text": "taught"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 92,
-            "Y": 1124,
-            "Width": 0,
-            "Height": 1
-          },
-          "Text": "-"
         }
       ]
     },
@@ -5727,7 +5616,7 @@
             "Width": 102,
             "Height": 30
           },
-          "Text": "potter's"
+          "Text": "potter\u0027s"
         }
       ]
     },
@@ -6738,10 +6627,23 @@
           "Bounds": {
             "X": 892,
             "Y": 1556,
-            "Width": 67,
+            "Width": 52,
             "Height": 24
           },
-          "Text": "intoa"
+          "Text": "into"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 944,
+            "Y": 1556,
+            "Width": 16,
+            "Height": 24
+          },
+          "Text": "a"
         }
       ]
     },

@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 94,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 390,
-            "Y": 125,
-            "Width": 94,
-            "Height": 18
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 506,
-            "Y": 125,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BUOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 591,
-            "Y": 125,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 642,
-            "Y": 125,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "NEBPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 866,
-            "Y": 122,
-            "Width": 59,
-            "Height": 28
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 949,
-            "Y": 123,
-            "Width": 23,
-            "Height": 20
-          },
-          "Text": "1X"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -645,6 +567,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 903,
+            "Y": 260,
+            "Width": 72,
+            "Height": 24
+          },
+          "Text": "carry"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 139,
             "Y": 301,
             "Width": 67,
@@ -1178,51 +1113,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 453,
-            "Y": 502,
-            "Width": 153,
-            "Height": 24
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 625,
-            "Y": 502,
-            "Width": 34,
-            "Height": 24
-          },
-          "Text": "IX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 174,
-            "Y": 548,
-            "Width": 12,
-            "Height": 23
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 213,
             "Y": 547,
             "Width": 28,
             "Height": 24
           },
-          "Text": "IN"
+          "Text": "In"
         }
       ]
     },
@@ -2116,7 +2012,7 @@
           "Bounds": {
             "X": 142,
             "Y": 741,
-            "Width": 68,
+            "Width": 78,
             "Height": 24
           },
           "Text": "Hosts"
@@ -2583,11 +2479,11 @@
         {
           "Bounds": {
             "X": 544,
-            "Y": 844,
-            "Width": 38,
-            "Height": 16
+            "Y": 840,
+            "Width": 40,
+            "Height": 24
           },
-          "Text": "we"
+          "Text": "me"
         }
       ]
     },
@@ -5361,7 +5257,7 @@
             "Width": 63,
             "Height": 24
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -5521,6 +5417,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5722,39 +5620,14 @@
           "Bounds": {
             "X": 492,
             "Y": 1511,
-            "Width": 42,
-            "Height": 23
+            "Width": 110,
+            "Height": 24
           },
-          "Text": "teil"
+          "Text": "teil-tree"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 1525,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 1514,
-            "Width": 50,
-            "Height": 20
-          },
-          "Text": "tree"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -5830,11 +5703,7 @@
             "Height": 26
           },
           "Text": "sub"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 963,
@@ -5843,19 +5712,15 @@
             "Height": 26
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 178,
-            "Y": 1551,
-            "Width": 48,
-            "Height": 15
+            "X": 142,
+            "Y": 1547,
+            "Width": 91,
+            "Height": 24
           },
-          "Text": "wice"
+          "Text": "stance"
         }
       ]
     },

@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 96,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 386,
-            "Y": 117,
-            "Width": 95,
-            "Height": 18
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 117,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 117,
-            "Width": 27,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 635,
-            "Y": 117,
-            "Width": 75,
-            "Height": 18
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 851,
-            "Y": 110,
-            "Width": 74,
-            "Height": 33
-          },
-          "Text": "fomar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 948,
-            "Y": 118,
-            "Width": 13,
-            "Height": 18
-          },
-          "Text": "Ix"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -728,7 +650,7 @@
             "Width": 52,
             "Height": 23
           },
-          "Text": "prss"
+          "Text": "pass"
         }
       ]
     },
@@ -1738,6 +1660,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2340,6 +2263,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 136,
+            "Y": 642,
+            "Width": 20,
+            "Height": 24
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 161,
             "Y": 640,
             "Width": 67,
@@ -2431,12 +2367,25 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 624,
+            "Y": 639,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 666,
             "Y": 638,
             "Width": 75,
             "Height": 23
           },
-          "Text": "man's"
+          "Text": "man\u0027s"
         }
       ]
     },
@@ -2471,89 +2420,11 @@
         {
           "Bounds": {
             "X": 137,
-            "Y": 669,
-            "Width": 82,
-            "Height": 26
+            "Y": 671,
+            "Width": 300,
+            "Height": 22
           },
-          "Text": "Maher"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 225,
-            "Y": 684,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 233,
-            "Y": 670,
-            "Width": 78,
-            "Height": 23
-          },
-          "Text": "shalal"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 314,
-            "Y": 684,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 322,
-            "Y": 669,
-            "Width": 59,
-            "Height": 26
-          },
-          "Text": "hash"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 385,
-            "Y": 684,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 670,
-            "Width": 43,
-            "Height": 23
-          },
-          "Text": "baz"
+          "Text": "Maher-shalal-hash-baz"
         }
       ]
     },
@@ -2683,7 +2554,7 @@
             "Width": 74,
             "Height": 23
           },
-          "Text": "Unah"
+          "Text": "Uriah"
         }
       ]
     },
@@ -2739,6 +2610,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2788,11 +2660,7 @@
             "Height": 24
           },
           "Text": "Jebere"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 974,
@@ -2801,11 +2669,7 @@
             "Height": 4
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 137,
@@ -2813,7 +2677,7 @@
             "Width": 76,
             "Height": 25
           },
-          "Text": "ehiah"
+          "Text": "chiah"
         }
       ]
     },
@@ -3108,89 +2972,11 @@
         {
           "Bounds": {
             "X": 137,
-            "Y": 798,
-            "Width": 82,
-            "Height": 25
+            "Y": 799,
+            "Width": 300,
+            "Height": 22
           },
-          "Text": "Maher"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 225,
-            "Y": 812,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 233,
-            "Y": 798,
-            "Width": 64,
-            "Height": 25
-          },
-          "Text": "shalal"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 313,
-            "Y": 812,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 321,
-            "Y": 798,
-            "Width": 60,
-            "Height": 25
-          },
-          "Text": "hash"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 383,
-            "Y": 812,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 798,
-            "Width": 47,
-            "Height": 25
-          },
-          "Text": "baz"
+          "Text": "Maher-shalal-hash-baz"
         }
       ]
     },
@@ -3970,7 +3756,7 @@
             "Width": 126,
             "Height": 25
           },
-          "Text": "Remalia's"
+          "Text": "Remalia\u0027s"
         }
       ]
     },
@@ -5431,7 +5217,7 @@
             "Width": 63,
             "Height": 23
           },
-          "Text": "ghall"
+          "Text": "shall"
         }
       ]
     },
@@ -5821,7 +5607,7 @@
             "Width": 70,
             "Height": 30
           },
-          "Text": "spalze"
+          "Text": "spake"
         }
       ]
     },
@@ -5908,11 +5694,11 @@
         {
           "Bounds": {
             "X": 851,
-            "Y": 1440,
-            "Width": 60,
-            "Height": 29
+            "Y": 1442,
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "hana"
+          "Text": "hand"
         }
       ]
     },
@@ -6160,11 +5946,11 @@
         {
           "Bounds": {
             "X": 434,
-            "Y": 1507,
-            "Width": 41,
-            "Height": 21
+            "Y": 1506,
+            "Width": 43,
+            "Height": 24
           },
-          "Text": "uot"
+          "Text": "not"
         }
       ]
     },
@@ -6486,7 +6272,7 @@
           "Bounds": {
             "X": 674,
             "Y": 1568,
-            "Width": 68,
+            "Width": 78,
             "Height": 24
           },
           "Text": "Hosts"

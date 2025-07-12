@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 34,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 399,
-            "Y": 112,
-            "Width": 82,
-            "Height": 37
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 499,
-            "Y": 112,
-            "Width": 62,
-            "Height": 37
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 121,
-            "Width": 17,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 619,
-            "Y": 120,
-            "Width": 83,
-            "Height": 21
-          },
-          "Text": "FEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 861,
-            "Y": 113,
-            "Width": 66,
-            "Height": 34
-          },
-          "Text": "omar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 948,
-            "Y": 120,
-            "Width": 29,
-            "Height": 21
-          },
-          "Text": "mr"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -101,10 +23,23 @@
           "Bounds": {
             "X": 270,
             "Y": 160,
-            "Width": 91,
+            "Width": 19,
             "Height": 24
           },
-          "Text": "itcame"
+          "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 289,
+            "Y": 160,
+            "Width": 72,
+            "Height": 24
+          },
+          "Text": "came"
         }
       ]
     },
@@ -429,7 +364,7 @@
             "Width": 56,
             "Height": 24
           },
-          "Text": "pasa"
+          "Text": "pass"
         }
       ]
     },
@@ -2370,6 +2305,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2406,6 +2342,19 @@
             "Height": 23
           },
           "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 972,
+            "Y": 641,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },
@@ -2947,6 +2896,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3652,10 +3602,10 @@
           "Bounds": {
             "X": 581,
             "Y": 938,
-            "Width": 59,
-            "Height": 23
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "npon"
+          "Text": "upon"
         }
       ]
     },
@@ -4838,7 +4788,7 @@
             "Width": 58,
             "Height": 24
           },
-          "Text": "orth"
+          "Text": "forth"
         }
       ]
     },
@@ -5606,11 +5556,16 @@
             "Height": 17
           },
           "Text": "con"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 976,
+            "Y": 1351,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 132,
@@ -6235,6 +6190,19 @@
             "Height": 21
           },
           "Text": "not"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 238,
+            "Y": 1507,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "so"
         }
       ]
     },

@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 57,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 117,
-            "Y": 129,
-            "Width": 60,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 204,
-            "Y": 121,
-            "Width": 15,
-            "Height": 32
-          },
-          "Text": "VL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 369,
-            "Y": 128,
-            "Width": 71,
-            "Height": 18
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 451,
-            "Y": 128,
-            "Width": 66,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 533,
-            "Y": 127,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 127,
-            "Width": 74,
-            "Height": 17
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -231,7 +153,7 @@
           "Bounds": {
             "X": 874,
             "Y": 166,
-            "Width": 68,
+            "Width": 78,
             "Height": 24
           },
           "Text": "Hosts"
@@ -296,7 +218,7 @@
           "Bounds": {
             "X": 356,
             "Y": 198,
-            "Width": 73,
+            "Width": 78,
             "Height": 24
           },
           "Text": "Hosts"
@@ -833,9 +755,9 @@
         {
           "Bounds": {
             "X": 763,
-            "Y": 296,
-            "Width": 47,
-            "Height": 22
+            "Y": 295,
+            "Width": 61,
+            "Height": 24
           },
           "Text": "wert"
         }
@@ -1146,10 +1068,10 @@
           "Bounds": {
             "X": 946,
             "Y": 359,
-            "Width": 21,
+            "Width": 19,
             "Height": 24
           },
-          "Text": "if"
+          "Text": "it"
         }
       ]
     },
@@ -2953,7 +2875,7 @@
             "Width": 90,
             "Height": 24
           },
-          "Text": "name's"
+          "Text": "name\u0027s"
         }
       ]
     },
@@ -3975,12 +3897,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 921,
-            "Y": 1007,
-            "Width": 17,
-            "Height": 17
+            "X": 897,
+            "Y": 1004,
+            "Width": 18,
+            "Height": 24
           },
-          "Text": "Iam"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 915,
+            "Y": 1004,
+            "Width": 59,
+            "Height": 24
+          },
+          "Text": "am"
         }
       ]
     },
@@ -3997,6 +3932,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4361,6 +4297,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5493,7 +5430,7 @@
             "Width": 53,
             "Height": 24
           },
-          "Text": "Way"
+          "Text": "way"
         }
       ]
     },
@@ -5528,11 +5465,24 @@
         {
           "Bounds": {
             "X": 244,
-            "Y": 1393,
-            "Width": 89,
-            "Height": 24
+            "Y": 1395,
+            "Width": 33,
+            "Height": 20
           },
-          "Text": "yenear"
+          "Text": "ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 277,
+            "Y": 1395,
+            "Width": 65,
+            "Height": 20
+          },
+          "Text": "near"
         }
       ]
     },
@@ -5670,12 +5620,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 157,
-            "Y": 1418,
-            "Width": 83,
-            "Height": 30
+            "X": 109,
+            "Y": 1421,
+            "Width": 136,
+            "Height": 24
           },
-          "Text": "inning"
+          "Text": "beginning"
         }
       ]
     },

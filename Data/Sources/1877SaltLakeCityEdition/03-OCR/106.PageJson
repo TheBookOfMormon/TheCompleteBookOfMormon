@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 106,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 125,
-            "Width": 95,
-            "Height": 18
-          },
-          "Text": "SECOND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 512,
-            "Y": 125,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 599,
-            "Y": 125,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 650,
-            "Y": 126,
-            "Width": 81,
-            "Height": 17
-          },
-          "Text": "NBPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 878,
-            "Y": 119,
-            "Width": 67,
-            "Height": 32
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 957,
-            "Y": 124,
-            "Width": 13,
-            "Height": 20
-          },
-          "Text": "XI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -816,10 +738,10 @@
           "Bounds": {
             "X": 809,
             "Y": 325,
-            "Width": 20,
-            "Height": 23
+            "Width": 26,
+            "Height": 24
           },
-          "Text": "tn"
+          "Text": "in"
         }
       ]
     },
@@ -862,6 +784,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1327,9 +1250,9 @@
         {
           "Bounds": {
             "X": 696,
-            "Y": 461,
-            "Width": 102,
-            "Height": 16
+            "Y": 457,
+            "Width": 118,
+            "Height": 24
           },
           "Text": "rumours"
         }
@@ -1509,9 +1432,9 @@
         {
           "Bounds": {
             "X": 905,
-            "Y": 485,
-            "Width": 73,
-            "Height": 29
+            "Y": 487,
+            "Width": 85,
+            "Height": 24
           },
           "Text": "father"
         }
@@ -2102,6 +2025,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3476,7 +3400,7 @@
             "Width": 61,
             "Height": 30
           },
-          "Text": "ficht"
+          "Text": "fight"
         }
       ]
     },
@@ -3935,6 +3859,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3984,11 +3909,16 @@
             "Height": 22
           },
           "Text": "scat"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 994,
+            "Y": 1066,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 149,

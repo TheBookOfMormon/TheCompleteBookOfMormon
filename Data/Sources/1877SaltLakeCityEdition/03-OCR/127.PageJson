@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 127,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 107,
-            "Y": 105,
-            "Width": 61,
-            "Height": 38
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 406,
-            "Y": 121,
-            "Width": 75,
-            "Height": 22
-          },
-          "Text": "S00X"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 494,
-            "Y": 123,
-            "Width": 31,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 543,
-            "Y": 122,
-            "Width": 61,
-            "Height": 20
-          },
-          "Text": "JACOB"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -117,7 +65,7 @@
             "Width": 56,
             "Height": 23
           },
-          "Text": "sous"
+          "Text": "soul"
         }
       ]
     },
@@ -152,24 +100,11 @@
         {
           "Bounds": {
             "X": 746,
-            "Y": 181,
-            "Width": 58,
-            "Height": 17
+            "Y": 178,
+            "Width": 96,
+            "Height": 24
           },
-          "Text": "snoa"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 822,
-            "Y": 181,
-            "Width": 10,
-            "Height": 16
-          },
-          "Text": "a"
+          "Text": "should"
         }
       ]
     },
@@ -391,11 +326,11 @@
         {
           "Bounds": {
             "X": 613,
-            "Y": 240,
-            "Width": 46,
-            "Height": 21
+            "Y": 239,
+            "Width": 51,
+            "Height": 24
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -499,7 +434,7 @@
             "Width": 107,
             "Height": 23
           },
-          "Text": "wounda"
+          "Text": "wounds"
         }
       ]
     },
@@ -664,11 +599,11 @@
         {
           "Bounds": {
             "X": 825,
-            "Y": 291,
-            "Width": 99,
-            "Height": 22
+            "Y": 290,
+            "Width": 108,
+            "Height": 24
           },
-          "Text": "wounde"
+          "Text": "wounds"
         }
       ]
     },
@@ -694,7 +629,7 @@
             "Width": 74,
             "Height": 22
           },
-          "Text": "these"
+          "Text": "those"
         }
       ]
     },
@@ -915,7 +850,7 @@
             "Width": 86,
             "Height": 25
           },
-          "Text": "vlaced"
+          "Text": "placed"
         }
       ]
     },
@@ -1159,15 +1094,24 @@
           "Bounds": {
             "X": 807,
             "Y": 406,
-            "Width": 126,
+            "Width": 34,
             "Height": 22
           },
-          "Text": "doaccord"
+          "Text": "do"
         }
       ]
     },
     {
       "Elements": [
+        {
+          "Bounds": {
+            "X": 841,
+            "Y": 406,
+            "Width": 93,
+            "Height": 22
+          },
+          "Text": "accord"
+        },
         {
           "Bounds": {
             "X": 938,
@@ -1176,11 +1120,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 106,
@@ -1635,7 +1575,7 @@
             "Width": 108,
             "Height": 29
           },
-          "Text": "plercing"
+          "Text": "piercing"
         }
       ]
     },
@@ -1791,7 +1731,7 @@
             "Width": 73,
             "Height": 22
           },
-          "Text": "iruth"
+          "Text": "truth"
         }
       ]
     },
@@ -1921,7 +1861,7 @@
             "Width": 47,
             "Height": 22
           },
-          "Text": "Tor"
+          "Text": "For"
         }
       ]
     },
@@ -2103,7 +2043,7 @@
             "Width": 91,
             "Height": 30
           },
-          "Text": "gaying"
+          "Text": "saying"
         }
       ]
     },
@@ -2480,7 +2420,7 @@
             "Width": 19,
             "Height": 22
           },
-          "Text": "Is"
+          "Text": "is"
         }
       ]
     },
@@ -2696,6 +2636,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 102,
+            "Y": 820,
+            "Width": 59,
+            "Height": 24
+          },
+          "Text": "gold"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 186,
             "Y": 821,
             "Width": 51,
@@ -2744,6 +2697,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3026,7 +2980,7 @@
             "Width": 60,
             "Height": 23
           },
-          "Text": "reed"
+          "Text": "seed"
         }
       ]
     },
@@ -3062,10 +3016,23 @@
           "Bounds": {
             "X": 450,
             "Y": 878,
-            "Width": 221,
+            "Width": 71,
             "Height": 28
           },
-          "Text": "mostsplentifully"
+          "Text": "most"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 521,
+            "Y": 878,
+            "Width": 151,
+            "Height": 28
+          },
+          "Text": "plentifully"
         }
       ]
     },
@@ -3242,12 +3209,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 137,
-            "Y": 942,
-            "Width": 28,
-            "Height": 17
+            "X": 101,
+            "Y": 939,
+            "Width": 67,
+            "Height": 24
           },
-          "Text": "ve"
+          "Text": "have"
         }
       ]
     },
@@ -3316,6 +3283,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3477,11 +3445,11 @@
         {
           "Bounds": {
             "X": 863,
-            "Y": 971,
-            "Width": 29,
-            "Height": 21
+            "Y": 970,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "yc"
+          "Text": "ye"
         }
       ]
     },
@@ -3676,7 +3644,7 @@
             "Width": 63,
             "Height": 29
           },
-          "Text": "hich"
+          "Text": "high"
         }
       ]
     },
@@ -3764,10 +3732,23 @@
           "Bounds": {
             "X": 767,
             "Y": 1022,
-            "Width": 179,
+            "Width": 69,
             "Height": 28
           },
-          "Text": "yourapparel"
+          "Text": "your"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 836,
+            "Y": 1022,
+            "Width": 111,
+            "Height": 28
+          },
+          "Text": "apparel"
         }
       ]
     },
@@ -3836,6 +3817,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4444,11 +4426,11 @@
         {
           "Bounds": {
             "X": 565,
-            "Y": 1217,
-            "Width": 46,
-            "Height": 22
+            "Y": 1216,
+            "Width": 51,
+            "Height": 24
           },
-          "Text": "youn"
+          "Text": "you"
         }
       ]
     },
@@ -4626,11 +4608,11 @@
         {
           "Bounds": {
             "X": 638,
-            "Y": 1246,
-            "Width": 43,
-            "Height": 16
+            "Y": 1242,
+            "Width": 49,
+            "Height": 24
           },
-          "Text": "onc"
+          "Text": "one"
         }
       ]
     },
@@ -4890,7 +4872,7 @@
             "Width": 112,
             "Height": 28
           },
-          "Text": "inignity"
+          "Text": "iniquity"
         }
       ]
     },
@@ -5004,10 +4986,10 @@
           "Bounds": {
             "X": 106,
             "Y": 1325,
-            "Width": 52,
+            "Width": 62,
             "Height": 24
           },
-          "Text": "anto"
+          "Text": "unto"
         }
       ]
     },
@@ -5575,11 +5557,11 @@
         {
           "Bounds": {
             "X": 915,
-            "Y": 1418,
-            "Width": 31,
-            "Height": 21
+            "Y": 1417,
+            "Width": 32,
+            "Height": 24
           },
-          "Text": "yo"
+          "Text": "ye"
         }
       ]
     },
@@ -5739,6 +5721,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5865,7 +5848,7 @@
             "Width": 80,
             "Height": 22
           },
-          "Text": "oblain"
+          "Text": "obtain"
         }
       ]
     },
@@ -6217,19 +6200,6 @@
             "Height": 23
           },
           "Text": "to"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 958,
-            "Y": 1537,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "-"
         }
       ]
     }

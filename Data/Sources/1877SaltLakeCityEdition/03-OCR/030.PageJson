@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 30,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 397,
-            "Y": 120,
-            "Width": 72,
-            "Height": 19
-          },
-          "Text": "FIRST"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 120,
-            "Width": 68,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 573,
-            "Y": 119,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 621,
-            "Y": 119,
-            "Width": 76,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 851,
-            "Y": 113,
-            "Width": 63,
-            "Height": 33
-          },
-          "Text": "oBAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 938,
-            "Y": 120,
-            "Width": 30,
-            "Height": 20
-          },
-          "Text": "IIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1210,11 +1132,16 @@
             "Height": 17
           },
           "Text": "never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 976,
+            "Y": 387,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 131,
@@ -1902,6 +1829,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3030,11 +2958,16 @@
             "Height": 25
           },
           "Text": "chil"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 974,
+            "Y": 766,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 133,
@@ -3397,6 +3330,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3979,6 +3913,19 @@
             "Height": 24
           },
           "Text": "that"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 570,
+            "Y": 990,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5464,6 +5411,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5824,7 +5772,7 @@
             "Width": 58,
             "Height": 23
           },
-          "Text": "Axd"
+          "Text": "And"
         }
       ]
     },
@@ -6260,10 +6208,10 @@
           "Bounds": {
             "X": 336,
             "Y": 1469,
-            "Width": 32,
-            "Height": 23
+            "Width": 52,
+            "Height": 24
           },
-          "Text": "hin"
+          "Text": "him"
         }
       ]
     },
@@ -6458,7 +6406,7 @@
             "Width": 66,
             "Height": 16
           },
-          "Text": "cane"
+          "Text": "came"
         }
       ]
     },
@@ -6661,6 +6609,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 606,
+            "Y": 1567,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 616,
             "Y": 1541,
             "Width": 74,
@@ -6676,10 +6637,10 @@
           "Bounds": {
             "X": 713,
             "Y": 1565,
-            "Width": 60,
+            "Width": 69,
             "Height": 24
           },
-          "Text": "thew"
+          "Text": "them"
         }
       ]
     },
