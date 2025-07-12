@@ -10,12 +10,12 @@ public readonly record struct WordGridLocation(int RowIndex, int ColumnIndex)
 
 public interface IHtmlService
 {
-    Task<bool> FirstColumnHasErrorOrWarningAsync();
+    Task<bool> FirstColumnHasErrorAsync();
     Task FocusFirstElementAsync(ElementReference container);
     Task<WordGridLocation> GetWordGridLocationAsync();
     Task InitializeAsync();
     Task ScrollBodyToTopLeftAsync();
-    Task<bool> ScrollToNextWarningOrErrorAsync();
+    Task<bool> ScrollToNextErrorAsync();
 }
 
 sealed class HtmlService : IAsyncDisposable, IHtmlService
@@ -40,9 +40,9 @@ sealed class HtmlService : IAsyncDisposable, IHtmlService
         Module = await JS.InvokeAsync<IJSObjectReference>("import", "/site.js");
     }
 
-    public async Task<bool> FirstColumnHasErrorOrWarningAsync()
+    public async Task<bool> FirstColumnHasErrorAsync()
     {
-        return await Module!.InvokeAsync<bool>("firstColumnHasErrorOrWarning");
+        return await Module!.InvokeAsync<bool>("firstColumnHasError");
     }
 
 
@@ -61,8 +61,8 @@ sealed class HtmlService : IAsyncDisposable, IHtmlService
         await Module!.InvokeVoidAsync("scrollBodyToTopLeft");
     }
 
-    public async Task<bool> ScrollToNextWarningOrErrorAsync()
+    public async Task<bool> ScrollToNextErrorAsync()
     {
-        return await Module!.InvokeAsync<bool>("scrollToNextWarningOrError");
+        return await Module!.InvokeAsync<bool>("scrollToNextError");
     }
 }
