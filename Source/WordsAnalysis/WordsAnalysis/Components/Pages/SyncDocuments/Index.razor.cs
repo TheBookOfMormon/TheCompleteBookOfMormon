@@ -131,7 +131,7 @@ public partial class Index
         LoadingCount++;
         do
         {
-            bool hasWarningOrError = await HtmlService.ScrollToNextWarningOrErrorAsync();
+            bool hasWarningOrError = await HtmlService.ScrollToNextErrorAsync();
             if (hasWarningOrError)
                 break;
 
@@ -140,7 +140,7 @@ public partial class Index
                 await SelectedSectionIndexChanged(new ChangeEventArgs { Value = ViewModel.SectionIndex + 1 });
                 StateHasChanged();
                 await Task.Yield();
-                bool firstColumnHasErrorOrWarning = await HtmlService.FirstColumnHasErrorOrWarningAsync();
+                bool firstColumnHasErrorOrWarning = await HtmlService.FirstColumnHasErrorAsync();
                 if (firstColumnHasErrorOrWarning)
                     break;
             }
