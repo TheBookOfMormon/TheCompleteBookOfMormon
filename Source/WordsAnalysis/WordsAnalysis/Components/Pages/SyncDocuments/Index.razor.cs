@@ -33,7 +33,7 @@ public partial class Index
         FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
         var stateHasChangedCallback = EventCallback.Factory.Create(this, RefreshGrid);
         ViewModel = new ViewModel(state, DialogService, DictionaryService, HtmlService, stateHasChangedCallback);
-        await ViewModel.LoadRowDataDataAsync(0);
+        await ViewModel.LoadRowDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;
     }
@@ -119,7 +119,7 @@ public partial class Index
         LoadingCount++;
         StateHasChanged();
         await Task.Yield();
-        await ViewModel.LoadRowDataDataAsync(newIndex);
+        await ViewModel.LoadRowDataAsync(newIndex);
         await HtmlService.ScrollBodyToTopLeftAsync();
         StateHasChanged();
         await Task.Yield();

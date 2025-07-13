@@ -25,13 +25,14 @@ public partial class EditWordDialog : IAsyncDisposable
     public FluentDialog Dialog { get; set; } = default!;
 
     private bool AddWordAfter = true;
+    private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
+    private string? BenefitOfDoubtText;
     private EditForm EditForm = null!;
     private bool HasEstimatedSize;
     private int LineHeight;
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
     private string LineHeightPreferenceKey = "";
-    private string? Notes;
     private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
     private string? PageImageData;
@@ -42,6 +43,13 @@ public partial class EditWordDialog : IAsyncDisposable
     private RequiredText[] Texts = [];
     private OcrWord Word = null!;
     private string? WordImageData;
+
+    private static readonly IEnumerable<BenefitOfDoubt> BenefitOfDoubtOptions;
+
+    static EditWordDialog()
+    {
+        BenefitOfDoubtOptions = Enum.GetValues<BenefitOfDoubt>();
+    }
 
     ValueTask IAsyncDisposable.DisposeAsync()
     {
@@ -71,7 +79,8 @@ public partial class EditWordDialog : IAsyncDisposable
             Texts = Word.Elements.Select(x => new RequiredText(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
             ShowDashes = Word.ShowDashes;
         }
-        Notes = Word.Notes;
+        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
+        BenefitOfDoubtText = Word.BenefitOfDoubtText;
         LoadImageData();
     }
 
@@ -98,9 +107,12 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private OcrWord CreateWord()
     {
-        string? notes = String.IsNullOrWhiteSpace(Notes) ? null : Notes;
         ImmutableList<OcrElement> newElements = Texts.Select(x => new OcrElement { Text = x.Text, Bounds = x.Bounds, IsOnNextPage = x.IsOnNextPage }).ToImmutableList();
-        OcrWord result = Word with { Elements = newElements, ShowDashes = ShowDashes, Notes = notes };
+        OcrWord result = Word with { Elements = newElements, ShowDashes = ShowDashes, BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key, BenefitOfDoubtText = BenefitOfDoubtText };
+        if (result.BenefitOfDoubt == BenefitOfDoubt.None)
+        {
+            result = result with { BenefitOfDoubtText = null };
+        }
         return result;
     }
 
@@ -277,6 +289,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
         public bool IsOnNextPage { get; set; }
 
+        [Required]
         public string Text { get; set; } = null!;
 
         public RequiredText(string text, OcrRect bounds, bool isOnNextPage)

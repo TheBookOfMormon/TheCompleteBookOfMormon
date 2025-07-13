@@ -4783,14 +4783,26 @@
           "Bounds": {
             "X": 1417,
             "Y": 2583,
-            "Width": 224,
+            "Width": 96,
             "Height": 49
           },
-          "Text": "theLord"
+          "Text": "the"
         }
       ]
     },
-    null,
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1513,
+            "Y": 2583,
+            "Width": 129,
+            "Height": 49
+          },
+          "Text": "Lord"
+        }
+      ]
+    },
     {
       "Elements": [
         {

@@ -31,6 +31,7 @@ public class ViewModel
     public ImmutableArray<RowData> RowData => State.RowData;
     public int SectionCount => (int)Math.Ceiling(MostWords / (double)FeatureState.WordsInSection);
     public int SectionIndex => State.SectionIndex;
+    public bool ShowBenefitOfDoubt;
     public ImmutableHashSet<WordReference> SelectedWords => State.SelectedWords;
     public string? UndoActionDescription => UndoStack.Count == 0 ? null : $"Undo {UndoStack.Peek().Description}";
 
@@ -77,7 +78,7 @@ public class ViewModel
         var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
         newFeatureState = FeatureState.AddWord(newFeatureState, existingWordReference, dialogResult.Word!, dialogResult.After);
         SetNewStateWithUndo("Add word", newFeatureState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -86,7 +87,7 @@ public class ViewModel
         FeatureState newFeatureState = State;
         newFeatureState = FeatureState.AlignSelectedWords(newFeatureState);
         SetNewStateWithUndo("Align editions", newFeatureState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -121,7 +122,7 @@ public class ViewModel
         }
         newState = FeatureState.DeleteSelectedWords(newState);
         SetNewStateWithUndo(description, newState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -155,7 +156,7 @@ public class ViewModel
         FeatureState newFeatureState = State;
         newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, [dialogResult.Word!]);
         SetNewStateWithUndo("Edit word", newFeatureState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -202,7 +203,7 @@ public class ViewModel
 
         newFeatureState = FeatureState.AddWord(newFeatureState, wordReference, ocrWord: null, after: false);
         SetNewStateWithUndo("Add word", newFeatureState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -211,10 +212,10 @@ public class ViewModel
         return State.IsWordSelected(wordReference);
     }
 
-    public async Task LoadRowDataDataAsync(int sectionIndex)
+    public async Task LoadRowDataAsync(int sectionIndex)
     {
         FeatureState newState = State;
-        newState = await FeatureState.GetWordsAsync(newState, sectionIndex);
+        newState = await FeatureState.GetWordsAsync(newState, sectionIndex, ShowBenefitOfDoubt);
         State = newState;
         UpdateSavedPageHashes(newState.RowData);
     }
@@ -231,7 +232,7 @@ public class ViewModel
 
         newState = FeatureState.MergeWords(newState);
         SetNewStateWithUndo("Composite words", newState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -253,7 +254,7 @@ public class ViewModel
 
         featureState = FeatureState.DeleteWords(featureState, dialogResult.DeletedWords);
         SetNewStateWithUndo("Nuke rest of page", featureState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -266,6 +267,8 @@ public class ViewModel
             await StateHasChanged.InvokeAsync();
         }
     }
+
+    public async Task ReloadRowDataAsync() => await LoadRowDataAsync(SectionIndex);
 
     public async Task RescanAreaAsync()
     {
@@ -287,7 +290,7 @@ public class ViewModel
         };
         state = FeatureState.DeselectAll(state);
         SetNewStateWithUndo("Rescan area of page", state);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 
@@ -382,7 +385,7 @@ public class ViewModel
         if (ocrWord == null) return;
         if (ocrWord.IsComposite()) return;
 
-        string displayText = ocrWord.GetDisplayText();
+        string displayText = ocrWord.GetDisplayText(showBenefitOfDoubt: false);
 
         string[][] suggestions = DictionaryService.SplitTextIntoWords(displayText).ToArray();
         if (!suggestions.Any()) return;
@@ -437,7 +440,7 @@ public class ViewModel
 
         string description = "Split text into: " + string.Join(' ', chosenSuggestion.Words.Select(x => x.Text));
         SetNewStateWithUndo(description, newState);
-        await LoadRowDataDataAsync(SectionIndex);
+        await LoadRowDataAsync(SectionIndex);
         await StateHasChanged.InvokeAsync();
     }
 

@@ -65,6 +65,7 @@
                              AccessKey="N"
                              Enabled=@(!Loading && SelectedEditions.Count > 0)
                              OnClick=@ScrollToNextWarningOrErrorAsync />
+            <FluentCheckbox @bind-Value=ViewModel.ShowBenefitOfDoubt @bind-Value:after=ViewModel.ReloadRowDataAsync Label="BOD" />
             @if (ViewModel.HasSelectedWords)
             {
                 <span style="margin-left: 1rem">@ViewModel.SelectedWords.Count selected word(s)</span>
@@ -115,7 +116,7 @@
                         int columnIndex = i;
                         WordReference wordReference = rowData.Words[columnIndex];
                         OcrWord? word = wordReference.GetWord(editionState);
-                        string? displayText = word?.GetDisplayText();
+                        string? displayText = word?.GetDisplayText(ViewModel.ShowBenefitOfDoubt);
                         bool isAlignmentSpacer = displayText == null;
                         <td @key=i id=@wordReference.GetGlobalReference() data-row=@rowIndex data-column=@columnIndex data-text="@displayText">
                             <div class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)">

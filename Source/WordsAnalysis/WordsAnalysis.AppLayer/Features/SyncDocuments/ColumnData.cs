@@ -12,13 +12,13 @@ public partial class ColumnData
 
     private static readonly Regex UppercaseAfterLowercase = new Regex("[a-z][A-Z]", RegexOptions.Compiled);
 
-    public static ImmutableArray<ColumnData> FromRowData(ImmutableDictionary<OcrBookInfo, EditionState> editions, ImmutableArray<RowData> rowData)
+    public static ImmutableArray<ColumnData> FromRowData(ImmutableDictionary<OcrBookInfo, EditionState> editions, ImmutableArray<RowData> rowData, bool showBenefitOfDoubt)
     {
         int mostWords = rowData.Max(x => x.Words.Count);
         var result = new List<ColumnData>(mostWords);
         for(int columnIndex = 0; columnIndex < mostWords; columnIndex++)
         {
-            string?[] wordsInColumn = GetColumnDisplayTexts(editions, rowData, columnIndex).ToArray();
+            string?[] wordsInColumn = GetColumnDisplayTexts(editions, rowData, columnIndex, showBenefitOfDoubt).ToArray();
             string[] nonNullWordsInColumn = wordsInColumn.OfType<string>().ToArray();
             string? mostCommonWord = nonNullWordsInColumn.GroupBy(x => x).OrderByDescending(x => x.Count()).FirstOrDefault()?.FirstOrDefault();
             int numberOfUniqueWords = nonNullWordsInColumn.Distinct().Count();
@@ -66,14 +66,14 @@ public partial class ColumnData
         return result.ToImmutableArray();
     }
 
-    public static string?[] GetColumnDisplayTexts(ImmutableDictionary<OcrBookInfo, EditionState> editions, ImmutableArray<RowData> rowData, int columnIndex)
+    public static string?[] GetColumnDisplayTexts(ImmutableDictionary<OcrBookInfo, EditionState> editions, ImmutableArray<RowData> rowData, int columnIndex, bool showBenefitOfDoubt)
     {
         ImmutableArray<WordReference?> wordReferences = GetColumnWords(editions, rowData, columnIndex);
         return wordReferences.Select(x =>
         {
             if (x == null) return null;
             EditionState editionState = editions[x!.BookInfo];
-            return x?.GetWord(editionState)?.GetDisplayText();
+            return x?.GetWord(editionState)?.GetDisplayText(showBenefitOfDoubt);
         }).ToArray();
     }
 }

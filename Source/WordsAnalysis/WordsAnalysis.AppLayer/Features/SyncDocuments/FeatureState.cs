@@ -115,7 +115,7 @@ public record FeatureState
     }
 
 
-    public static async Task<FeatureState> GetWordsAsync(FeatureState originalFeatureState, int sectionIndex)
+    public static async Task<FeatureState> GetWordsAsync(FeatureState originalFeatureState, int sectionIndex, bool showBenefitOfDoubt)
     {
         FeatureState newFeatureState = originalFeatureState;
 
@@ -140,7 +140,7 @@ public record FeatureState
         OcrBookInfo[] orderedBooks = multipleWordsByBook.Keys.OrderByDescending(x => x.Code).ToArray();
         var rowData = orderedBooks.Select(x => new RowData { BookInfo = x, Words = multipleWordsByBook[x] }).ToImmutableArray();
         newFeatureState = newFeatureState with {
-            ColumnData = SyncDocuments.ColumnData.FromRowData(newFeatureState.Editions, rowData),
+            ColumnData = SyncDocuments.ColumnData.FromRowData(newFeatureState.Editions, rowData, showBenefitOfDoubt),
             RowData = rowData
         };
 
