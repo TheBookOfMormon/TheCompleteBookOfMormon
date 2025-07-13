@@ -40,7 +40,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private bool ShowDashes;
     private bool _ShowSurroundingText = true;
     public bool ShowSurroundingText { get => _ShowSurroundingText; set => _ShowSurroundingText = value; }
-    private RequiredText[] Texts = [];
+    private TextData[] Texts = [];
     private OcrWord Word = null!;
     private string? WordImageData;
 
@@ -71,12 +71,12 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, bounds.Height, "i").Width;
-            Texts = [new RequiredText("", bounds.Offset(xOffset, 0), false)];
+            Texts = [new TextData("", bounds.Offset(xOffset, 0), false)];
             ShowDashes = false;
         }
         else
         {
-            Texts = Word.Elements.Select(x => new RequiredText(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
+            Texts = Word.Elements.Select(x => new TextData(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
             ShowDashes = Word.ShowDashes;
         }
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
@@ -118,7 +118,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void DropFirstLetter(int elementIndex)
     {
-        RequiredText item = Texts[elementIndex];
+        TextData item = Texts[elementIndex];
         string text = item.Text;
         if (text.Length < 2) return;
 
@@ -136,7 +136,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void EstimateWordSize(int elementIndex)
     {
-        RequiredText item = Texts[elementIndex];
+        TextData item = Texts[elementIndex];
         string text = item.Text;
 
         if (HasEstimatedSize)
@@ -283,16 +283,15 @@ public partial class EditWordDialog : IAsyncDisposable
         WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
 
-    private class RequiredText
+    private class TextData
     {
         public OcrRect Bounds { get; set; }
 
         public bool IsOnNextPage { get; set; }
 
-        [Required]
         public string Text { get; set; } = null!;
 
-        public RequiredText(string text, OcrRect bounds, bool isOnNextPage)
+        public TextData(string text, OcrRect bounds, bool isOnNextPage)
         {
             Text = text;
             Bounds = bounds;
