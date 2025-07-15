@@ -858,7 +858,7 @@
             "Width": 145,
             "Height": 23
           },
-          "Text": "Zarahemlu"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -1053,7 +1053,7 @@
             "Width": 48,
             "Height": 14
           },
-          "Text": "wis"
+          "Text": "was"
         }
       ]
     },
@@ -1274,7 +1274,7 @@
             "Width": 98,
             "Height": 21
           },
-          "Text": "tcacher"
+          "Text": "teacher"
         }
       ]
     },
@@ -1430,7 +1430,7 @@
             "Width": 125,
             "Height": 26
           },
-          "Text": "agscmbly"
+          "Text": "assembly"
         }
       ]
     },
@@ -1456,7 +1456,7 @@
             "Width": 55,
             "Height": 26
           },
-          "Text": "thicy"
+          "Text": "they"
         }
       ]
     },
@@ -1859,7 +1859,7 @@
             "Width": 38,
             "Height": 21
           },
-          "Text": "hin"
+          "Text": "him"
         }
       ]
     },
@@ -1959,39 +1959,15 @@
         {
           "Bounds": {
             "X": 104,
-            "Y": 631,
-            "Width": 94,
-            "Height": 22
+            "Y": 630,
+            "Width": 245,
+            "Height": 24
           },
-          "Text": "notwit"
+          "Text": "notwit hs tanding"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 203,
-            "Y": 629,
-            "Width": 27,
-            "Height": 32
-          },
-          "Text": "hs"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 240,
-            "Y": 632,
-            "Width": 104,
-            "Height": 28
-          },
-          "Text": "tunding"
-        }
-      ]
+      ],
+      "BenefitOfDoubt": 2,
+      "BenefitOfDoubtText": "notwithstanding"
     },
     {
       "Elements": [
@@ -2119,7 +2095,7 @@
             "Width": 42,
             "Height": 21
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -2184,7 +2160,7 @@
             "Width": 53,
             "Height": 27
           },
-          "Text": "Goud"
+          "Text": "God"
         }
       ]
     },
@@ -2262,7 +2238,7 @@
             "Width": 23,
             "Height": 23
           },
-          "Text": "im"
+          "Text": "in"
         }
       ]
     },
@@ -2470,7 +2446,7 @@
             "Width": 69,
             "Height": 18
           },
-          "Text": "scven"
+          "Text": "seven"
         }
       ]
     },
@@ -2545,23 +2521,10 @@
           "Bounds": {
             "X": 454,
             "Y": 746,
-            "Width": 111,
-            "Height": 23
+            "Width": 146,
+            "Height": 24
           },
-          "Text": "Zarahem"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 578,
-            "Y": 748,
-            "Width": 18,
-            "Height": 21
-          },
-          "Text": "ia"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -3064,11 +3027,11 @@
         {
           "Bounds": {
             "X": 901,
-            "Y": 833,
-            "Width": 25,
-            "Height": 22
+            "Y": 832,
+            "Width": 43,
+            "Height": 24
           },
-          "Text": "di"
+          "Text": "did"
         }
       ]
     },
@@ -3094,7 +3057,7 @@
             "Width": 45,
             "Height": 20
           },
-          "Text": "cut"
+          "Text": "out"
         }
       ]
     },
@@ -3332,6 +3295,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3419,7 +3383,7 @@
             "Width": 125,
             "Height": 23
           },
-          "Text": "encration"
+          "Text": "generation"
         }
       ]
     },
@@ -3497,7 +3461,7 @@
             "Width": 78,
             "Height": 21
           },
-          "Text": "werds"
+          "Text": "words"
         }
       ]
     },
@@ -3536,7 +3500,7 @@
             "Width": 106,
             "Height": 28
           },
-          "Text": "enjamin"
+          "Text": "Benjamin"
         }
       ]
     },
@@ -3926,12 +3890,17 @@
             "Width": 111,
             "Height": 17
           },
-          "Text": "concerns"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "concern"
+        },
+        {
+          "Bounds": {
+            "X": 936,
+            "Y": 1054,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 117,
@@ -3939,7 +3908,7 @@
             "Width": 33,
             "Height": 20
           },
-          "Text": "pg"
+          "Text": "ing"
         }
       ]
     },
@@ -4017,7 +3986,7 @@
             "Width": 94,
             "Height": 21
           },
-          "Text": "ncither"
+          "Text": "neither"
         }
       ]
     },
@@ -4069,7 +4038,7 @@
             "Width": 150,
             "Height": 25
           },
-          "Text": "roncerning"
+          "Text": "concerning"
         }
       ]
     },
@@ -4225,7 +4194,7 @@
             "Width": 74,
             "Height": 21
           },
-          "Text": "couid"
+          "Text": "could"
         }
       ]
     },
@@ -4472,7 +4441,7 @@
             "Width": 83,
             "Height": 21
           },
-          "Text": "wonld"
+          "Text": "would"
         }
       ]
     },
@@ -4598,13 +4567,28 @@
         {
           "Bounds": {
             "X": 347,
-            "Y": 1226,
-            "Width": 108,
-            "Height": 26
+            "Y": 1227,
+            "Width": 92,
+            "Height": 24
           },
-          "Text": "peopica"
+          "Text": "people"
         }
       ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 448,
+            "Y": 1227,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "a"
+        }
+      ],
+      "BenefitOfDoubt": 1,
+      "BenefitOfDoubtText": "as"
     },
     {
       "Elements": [
@@ -4628,7 +4612,7 @@
             "Width": 60,
             "Height": 20
           },
-          "Text": "ther"
+          "Text": "their"
         }
       ]
     },
@@ -4641,7 +4625,7 @@
             "Width": 62,
             "Height": 21
           },
-          "Text": "fuith"
+          "Text": "faith"
         }
       ]
     },
@@ -4706,7 +4690,7 @@
             "Width": 64,
             "Height": 21
           },
-          "Text": "afier"
+          "Text": "after"
         }
       ]
     },
@@ -4758,7 +4742,7 @@
             "Width": 83,
             "Height": 19
           },
-          "Text": "carnat"
+          "Text": "carnal"
         }
       ]
     },
@@ -5018,7 +5002,7 @@
             "Width": 96,
             "Height": 22
           },
-          "Text": "Mosiab"
+          "Text": "Mosiah"
         }
       ]
     },
@@ -5179,7 +5163,7 @@
             "Width": 55,
             "Height": 22
           },
-          "Text": "Gud"
+          "Text": "God"
         }
       ]
     },
@@ -5192,7 +5176,7 @@
             "Width": 41,
             "Height": 21
           },
-          "Text": "hut"
+          "Text": "but"
         }
       ]
     },
@@ -5205,7 +5189,7 @@
             "Width": 99,
             "Height": 19
           },
-          "Text": "Lecause"
+          "Text": "because"
         }
       ]
     },
@@ -5504,7 +5488,7 @@
             "Width": 125,
             "Height": 28
           },
-          "Text": "fluttering"
+          "Text": "flattering"
         }
       ]
     },
@@ -5621,7 +5605,7 @@
             "Width": 73,
             "Height": 17
           },
-          "Text": "canse"
+          "Text": "cause"
         }
       ]
     },
@@ -5738,7 +5722,7 @@
             "Width": 134,
             "Height": 27
           },
-          "Text": "expedieut"
+          "Text": "expedient"
         }
       ]
     },
@@ -5908,11 +5892,16 @@
             "Height": 24
           },
           "Text": "admonish"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 930,
+            "Y": 1481,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 108,
