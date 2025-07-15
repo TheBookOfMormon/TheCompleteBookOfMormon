@@ -54,14 +54,15 @@ public partial class Index
     private string GetWordClass(WordReference wordReference, string? displayText, int columnIndex)
     {
         ColumnData columnData = ViewModel.ColumnData[columnIndex];
-        string spacer = displayText == null ? "--spacer" : "";
+        bool isEmpty = string.IsNullOrEmpty(displayText);
+        string spacer = isEmpty ? "--spacer" : "";
         string selected = ViewModel.IsWordSelected(wordReference!) ? "--selected" : "";
         string lastEditedRow = ViewModel.LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
         string outlier = "";
         string errorLevel = "";
         bool isFlagWord = displayText != null && (displayText == "{min}" || displayText.ToUpper().Contains("CHAPTER"));
         string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
-        if (displayText != null && (isFlagWord || columnData.MostCommonDisplayText != displayText))
+        if (!isEmpty && (isFlagWord || columnData.MostCommonDisplayText != displayText))
         {
             outlier = "--outlier";
             if (isFlagWord || !string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))

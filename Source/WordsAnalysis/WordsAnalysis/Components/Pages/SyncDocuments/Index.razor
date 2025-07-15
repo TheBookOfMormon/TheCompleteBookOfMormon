@@ -122,7 +122,7 @@
                             <div class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)">
                                 <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference))>
                                     @{
-                                        if (displayText != null)
+                                        if (!string.IsNullOrEmpty(displayText))
                                         {
                                             <text>@displayText</text>
                                         }
