@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 231,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 104,
-            "Y": 123,
-            "Width": 67,
-            "Height": 22
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 194,
-            "Y": 116,
-            "Width": 38,
-            "Height": 33
-          },
-          "Text": "IIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 427,
-            "Y": 123,
-            "Width": 65,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 514,
-            "Y": 117,
-            "Width": 15,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 563,
-            "Y": 117,
-            "Width": 64,
-            "Height": 36
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1392,19 +1327,6 @@
             "Height": 24
           },
           "Text": "death"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 941,
-            "Y": 418,
-            "Width": 13,
-            "Height": 35
-          },
-          "Text": "i"
         }
       ]
     },
@@ -4061,7 +3983,7 @@
             "Width": 61,
             "Height": 25
           },
-          "Text": "havo"
+          "Text": "have"
         }
       ]
     },
@@ -5724,10 +5646,23 @@
           "Bounds": {
             "X": 258,
             "Y": 1423,
-            "Width": 202,
+            "Width": 17,
             "Height": 18
           },
-          "Text": "aremembrance"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 275,
+            "Y": 1423,
+            "Width": 186,
+            "Height": 18
+          },
+          "Text": "remembrance"
         }
       ]
     },
@@ -6405,10 +6340,10 @@
           "Bounds": {
             "X": 643,
             "Y": 1553,
-            "Width": 40,
-            "Height": 23
+            "Width": 51,
+            "Height": 24
           },
-          "Text": "yon"
+          "Text": "you"
         }
       ]
     },
@@ -6591,11 +6526,7 @@
             "Height": 25
           },
           "Text": "sub"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 939,
@@ -6604,6 +6535,16 @@
             "Height": 25
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 136,
+            "Y": 168,
+            "Width": 65,
+            "Height": 32
+          },
+          "IsOnNextPage": true,
+          "Text": "jects"
         }
       ]
     }

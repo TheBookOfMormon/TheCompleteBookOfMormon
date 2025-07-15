@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 257,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 84,
-            "Y": 123,
-            "Width": 67,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 417,
-            "Y": 120,
-            "Width": 64,
-            "Height": 22
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 121,
-            "Width": 32,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 122,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1040,12 +988,17 @@
             "Width": 113,
             "Height": 25
           },
-          "Text": "abominae"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "abomina"
+        },
+        {
+          "Bounds": {
+            "X": 941,
+            "Y": 355,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 79,
@@ -3590,7 +3543,7 @@
             "Width": 97,
             "Height": 23
           },
-          "Text": "dcclare"
+          "Text": "declare"
         }
       ]
     },
@@ -5082,10 +5035,23 @@
           "Bounds": {
             "X": 806,
             "Y": 1284,
-            "Width": 73,
+            "Width": 50,
             "Height": 25
           },
-          "Text": "thisis"
+          "Text": "this"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 856,
+            "Y": 1284,
+            "Width": 24,
+            "Height": 25
+          },
+          "Text": "is"
         }
       ]
     },
@@ -5245,6 +5211,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

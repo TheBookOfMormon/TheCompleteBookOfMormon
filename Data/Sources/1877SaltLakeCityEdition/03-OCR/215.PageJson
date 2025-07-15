@@ -1,123 +1,19 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 215,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 104,
-            "Y": 127,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 197,
-            "Y": 118,
-            "Width": 48,
-            "Height": 34
-          },
-          "Text": "XIM1"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 416,
-            "Y": 124,
-            "Width": 70,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 126,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 124,
-            "Width": 88,
-            "Height": 25
-          },
-          "Text": "MOSIAYX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 194,
-            "Width": 153,
-            "Height": 36
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 194,
-            "Width": 75,
-            "Height": 36
-          },
-          "Text": "XIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 143,
-            "Y": 262,
-            "Width": 14,
-            "Height": 24
-          },
-          "Text": "I"
-        }
-      ]
-    },
     {
       "Elements": [
         {
           "Bounds": {
             "X": 186,
             "Y": 261,
-            "Width": 42,
+            "Width": 53,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -329,6 +225,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -407,6 +304,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1261,7 +1159,7 @@
             "Width": 59,
             "Height": 23
           },
-          "Text": "tine"
+          "Text": "time"
         }
       ]
     },
@@ -2466,11 +2364,11 @@
         {
           "Bounds": {
             "X": 113,
-            "Y": 784,
-            "Width": 60,
-            "Height": 16
+            "Y": 780,
+            "Width": 66,
+            "Height": 24
           },
-          "Text": "gons"
+          "Text": "sons"
         }
       ]
     },
@@ -3753,11 +3651,24 @@
         {
           "Bounds": {
             "X": 233,
-            "Y": 1066,
-            "Width": 71,
-            "Height": 24
+            "Y": 1068,
+            "Width": 63,
+            "Height": 20
           },
-          "Text": "nowif"
+          "Text": "now"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 296,
+            "Y": 1068,
+            "Width": 23,
+            "Height": 20
+          },
+          "Text": "if"
         }
       ]
     },
@@ -3897,10 +3808,23 @@
           "Bounds": {
             "X": 236,
             "Y": 1095,
-            "Width": 125,
+            "Width": 55,
             "Height": 35
           },
-          "Text": "fearthere"
+          "Text": "fear"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 291,
+            "Y": 1095,
+            "Width": 71,
+            "Height": 35
+          },
+          "Text": "there"
         }
       ]
     },
@@ -4183,10 +4107,23 @@
           "Bounds": {
             "X": 330,
             "Y": 1162,
-            "Width": 116,
+            "Width": 35,
             "Height": 31
           },
-          "Text": "beangry"
+          "Text": "be"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 365,
+            "Y": 1162,
+            "Width": 82,
+            "Height": 31
+          },
+          "Text": "angry"
         }
       ]
     },

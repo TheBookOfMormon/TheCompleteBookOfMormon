@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 234,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 110,
-            "Width": 73,
-            "Height": 33
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 110,
-            "Width": 33,
-            "Height": 33
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 603,
-            "Y": 110,
-            "Width": 57,
-            "Height": 33
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 863,
-            "Y": 111,
-            "Width": 71,
-            "Height": 33
-          },
-          "Text": "CHAY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 968,
-            "Y": 111,
-            "Width": 16,
-            "Height": 33
-          },
-          "Text": "IE"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -598,7 +533,7 @@
             "Width": 75,
             "Height": 28
           },
-          "Text": "Spiiit"
+          "Text": "Spirit"
         }
       ]
     },
@@ -771,6 +706,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -923,7 +859,7 @@
             "Width": 58,
             "Height": 22
           },
-          "Text": "bave"
+          "Text": "have"
         }
       ]
     },
@@ -1183,7 +1119,7 @@
             "Width": 81,
             "Height": 22
           },
-          "Text": "whch"
+          "Text": "which"
         }
       ]
     },
@@ -1386,6 +1322,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 751,
+            "Y": 415,
+            "Width": 24,
+            "Height": 24
+          },
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 777,
             "Y": 418,
             "Width": 71,
@@ -1557,10 +1506,10 @@
           "Bounds": {
             "X": 157,
             "Y": 474,
-            "Width": 20,
-            "Height": 23
+            "Width": 25,
+            "Height": 24
           },
-          "Text": "js"
+          "Text": "is"
         }
       ]
     },
@@ -1824,6 +1773,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2029,6 +1979,19 @@
             "Height": 22
           },
           "Text": "it"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 299,
+            "Y": 559,
+            "Width": 25,
+            "Height": 24
+          },
+          "Text": "is"
         }
       ]
     },
@@ -2735,7 +2698,7 @@
             "Width": 20,
             "Height": 22
           },
-          "Text": "In"
+          "Text": "in"
         }
       ]
     },
@@ -2771,10 +2734,10 @@
           "Bounds": {
             "X": 938,
             "Y": 746,
-            "Width": 33,
-            "Height": 23
+            "Width": 48,
+            "Height": 24
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -3177,7 +3140,7 @@
             "Width": 41,
             "Height": 22
           },
-          "Text": "ery"
+          "Text": "cry"
         }
       ]
     },
@@ -4191,7 +4154,7 @@
             "Width": 58,
             "Height": 16
           },
-          "Text": "toon"
+          "Text": "soon"
         }
       ]
     },
@@ -4243,7 +4206,7 @@
             "Width": 34,
             "Height": 22
           },
-          "Text": "ali"
+          "Text": "all"
         }
       ]
     },
@@ -4715,6 +4678,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4724,7 +4688,7 @@
             "Width": 89,
             "Height": 23
           },
-          "Text": "inkerit"
+          "Text": "inherit"
         }
       ]
     },
@@ -5426,7 +5390,7 @@
             "Width": 93,
             "Height": 23
           },
-          "Text": "Bchold"
+          "Text": "Behold"
         }
       ]
     },
@@ -5925,7 +5889,7 @@
             "Width": 48,
             "Height": 21
           },
-          "Text": "fect"
+          "Text": "feet"
         }
       ]
     },
@@ -6094,7 +6058,7 @@
             "Width": 44,
             "Height": 20
           },
-          "Text": "yes"
+          "Text": "yea"
         }
       ]
     },
@@ -6389,11 +6353,11 @@
         {
           "Bounds": {
             "X": 559,
-            "Y": 1498,
-            "Width": 48,
-            "Height": 22
+            "Y": 1497,
+            "Width": 63,
+            "Height": 24
           },
-          "Text": "you"
+          "Text": "your"
         }
       ]
     },
@@ -6459,11 +6423,7 @@
             "Height": 23
           },
           "Text": "per"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 968,
@@ -6472,11 +6432,7 @@
             "Height": 17
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 157,
@@ -6484,7 +6440,7 @@
             "Width": 47,
             "Height": 22
           },
-          "Text": "gist"
+          "Text": "sist"
         }
       ]
     },
@@ -6601,7 +6557,7 @@
             "Width": 109,
             "Height": 29
           },
-          "Text": "anothers"
+          "Text": "another"
         }
       ]
     },
@@ -6690,9 +6646,9 @@
             "X": 555,
             "Y": 1547,
             "Width": 158,
-            "Height": 54
+            "Height": 30
           },
-          "Text": "pessesntion"
+          "Text": "persecution"
         }
       ]
     },

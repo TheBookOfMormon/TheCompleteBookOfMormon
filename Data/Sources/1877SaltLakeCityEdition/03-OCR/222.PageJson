@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 222,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 474,
-            "Y": 132,
-            "Width": 66,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 133,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 609,
-            "Y": 133,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 897,
-            "Y": 128,
-            "Width": 60,
-            "Height": 33
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 982,
-            "Y": 136,
-            "Width": 9,
-            "Height": 20
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 157,
-            "Y": 175,
-            "Width": 97,
-            "Height": 23
-          },
-          "Text": "cutions"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2778,6 +2700,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3607,11 +3530,11 @@
         {
           "Bounds": {
             "X": 954,
-            "Y": 1017,
-            "Width": 13,
-            "Height": 17
+            "Y": 1014,
+            "Width": 49,
+            "Height": 24
           },
-          "Text": "an"
+          "Text": "any"
         }
       ]
     },
@@ -3724,11 +3647,11 @@
         {
           "Bounds": {
             "X": 926,
-            "Y": 1049,
-            "Width": 59,
-            "Height": 18
+            "Y": 1046,
+            "Width": 77,
+            "Height": 24
           },
-          "Text": "muc"
+          "Text": "much"
         }
       ]
     },
@@ -4955,6 +4878,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 881,
+            "Y": 1298,
+            "Width": 112,
+            "Height": 24
+          },
+          "Text": "cunning"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 162,
             "Y": 1331,
             "Width": 78,
@@ -5980,11 +5916,16 @@
             "Height": 25
           },
           "Text": "there"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 992,
+            "Y": 1523,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 164,

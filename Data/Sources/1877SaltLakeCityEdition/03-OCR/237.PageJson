@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 237,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 95,
-            "Y": 111,
-            "Width": 57,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 428,
-            "Y": 112,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 514,
-            "Y": 112,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 564,
-            "Y": 112,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2818,7 +2766,7 @@
             "Width": 62,
             "Height": 21
           },
-          "Text": "atter"
+          "Text": "after"
         }
       ]
     },
@@ -2870,7 +2818,7 @@
             "Width": 111,
             "Height": 22
           },
-          "Text": "afiliction"
+          "Text": "affliction"
         }
       ]
     },
@@ -3654,6 +3602,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6940,11 +6889,7 @@
             "Height": 24
           },
           "Text": "suffer"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 928,
@@ -6953,6 +6898,16 @@
             "Height": 24
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 127,
+            "Y": 170,
+            "Width": 43,
+            "Height": 30
+          },
+          "IsOnNextPage": true,
+          "Text": "ing"
         }
       ]
     }

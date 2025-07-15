@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 261,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 70,
-            "Y": 126,
-            "Width": 60,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 381,
-            "Y": 127,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 467,
-            "Y": 127,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 517,
-            "Y": 127,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2856,6 +2804,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3589,16 +3538,21 @@
         {
           "Bounds": {
             "X": 850,
-            "Y": 946,
-            "Width": 60,
-            "Height": 16
+            "Y": 942,
+            "Width": 56,
+            "Height": 24
           },
-          "Text": "coms"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "com"
+        },
+        {
+          "Bounds": {
+            "X": 915,
+            "Y": 942,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 68,
@@ -5288,7 +5242,7 @@
             "Width": 36,
             "Height": 28
           },
-          "Text": "gin"
+          "Text": "sin"
         }
       ]
     },
@@ -5774,7 +5728,7 @@
             "Width": 48,
             "Height": 24
           },
-          "Text": "amd"
+          "Text": "and"
         }
       ]
     },

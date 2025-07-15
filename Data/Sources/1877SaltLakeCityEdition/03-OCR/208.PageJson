@@ -2016,11 +2016,11 @@
         {
           "Bounds": {
             "X": 905,
-            "Y": 604,
-            "Width": 65,
-            "Height": 29
+            "Y": 606,
+            "Width": 68,
+            "Height": 24
           },
-          "Text": "Alms"
+          "Text": "Alma"
         }
       ]
     },
@@ -2176,7 +2176,7 @@
             "Width": 79,
             "Height": 25
           },
-          "Text": "bands"
+          "Text": "hands"
         }
       ]
     },
@@ -2891,7 +2891,7 @@
             "Width": 23,
             "Height": 22
           },
-          "Text": "tc"
+          "Text": "to"
         }
       ]
     },
@@ -2904,7 +2904,7 @@
             "Width": 54,
             "Height": 23
           },
-          "Text": "Cod"
+          "Text": "God"
         }
       ]
     },
@@ -3022,11 +3022,16 @@
             "Height": 24
           },
           "Text": "say"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 985,
+            "Y": 836,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 143,
@@ -4746,11 +4751,11 @@
         {
           "Bounds": {
             "X": 942,
-            "Y": 1255,
-            "Width": 34,
-            "Height": 22
+            "Y": 1254,
+            "Width": 40,
+            "Height": 24
           },
-          "Text": "mae"
+          "Text": "me"
         }
       ]
     },
@@ -5326,6 +5331,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5636,10 +5642,23 @@
           "Bounds": {
             "X": 276,
             "Y": 1473,
-            "Width": 65,
+            "Width": 45,
             "Height": 23
           },
-          "Text": "forit"
+          "Text": "for"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 321,
+            "Y": 1473,
+            "Width": 21,
+            "Height": 23
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5649,10 +5668,23 @@
           "Bounds": {
             "X": 353,
             "Y": 1473,
-            "Width": 38,
-            "Height": 23
+            "Width": 29,
+            "Height": 24
           },
-          "Text": "isl"
+          "Text": "is"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 382,
+            "Y": 1473,
+            "Width": 14,
+            "Height": 24
+          },
+          "Text": "I"
         }
       ]
     },
@@ -5779,10 +5811,25 @@
           "Bounds": {
             "X": 143,
             "Y": 1505,
-            "Width": 70,
+            "Width": 48,
             "Height": 23
           },
-          "Text": "forit"
+          "Text": "fo r"
+        }
+      ],
+      "BenefitOfDoubt": 2,
+      "BenefitOfDoubtText": "for"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 191,
+            "Y": 1505,
+            "Width": 23,
+            "Height": 23
+          },
+          "Text": "it"
         }
       ]
     },
@@ -5951,7 +5998,7 @@
             "Width": 56,
             "Height": 21
           },
-          "Text": "uato"
+          "Text": "unto"
         }
       ]
     },

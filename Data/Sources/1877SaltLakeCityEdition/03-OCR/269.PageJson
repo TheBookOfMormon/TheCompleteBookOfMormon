@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 269,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 95,
-            "Y": 119,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 184,
-            "Y": 112,
-            "Width": 22,
-            "Height": 32
-          },
-          "Text": "XIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 415,
-            "Y": 118,
-            "Width": 66,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 501,
-            "Y": 119,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 552,
-            "Y": 118,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -321,11 +256,11 @@
         {
           "Bounds": {
             "X": 94,
-            "Y": 222,
-            "Width": 112,
-            "Height": 28
+            "Y": 224,
+            "Width": 130,
+            "Height": 24
           },
-          "Text": "therefor"
+          "Text": "therefore"
         }
       ]
     },
@@ -2080,7 +2015,7 @@
             "Width": 38,
             "Height": 27
           },
-          "Text": "oft"
+          "Text": "off"
         }
       ]
     },
@@ -4745,7 +4680,7 @@
             "Width": 76,
             "Height": 29
           },
-          "Text": "king's"
+          "Text": "king\u0027s"
         }
       ]
     },
@@ -4785,6 +4720,19 @@
             "Height": 23
           },
           "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 221,
+            "Y": 1219,
+            "Width": 25,
+            "Height": 24
+          },
+          "Text": "is"
         }
       ]
     },
@@ -5282,6 +5230,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6163,11 +6112,16 @@
             "Height": 24
           },
           "Text": "La"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 932,
+            "Y": 1476,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 85,
@@ -6548,11 +6502,30 @@
         {
           "Bounds": {
             "X": 850,
-            "Y": 1578,
-            "Width": 57,
-            "Height": 17
+            "Y": 1575,
+            "Width": 77,
+            "Height": 24
           },
           "Text": "never"
+        },
+        {
+          "Bounds": {
+            "X": 928,
+            "Y": 1575,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 140,
+            "Y": 199,
+            "Width": 92,
+            "Height": 23
+          },
+          "IsOnNextPage": true,
+          "Text": "theless"
         }
       ]
     }

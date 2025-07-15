@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 256,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 121,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 120,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 583,
-            "Y": 120,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 868,
-            "Y": 113,
-            "Width": 70,
-            "Height": 32
-          },
-          "Text": "cEHAP"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -985,7 +933,7 @@
             "Width": 67,
             "Height": 29
           },
-          "Text": "Hich"
+          "Text": "High"
         }
       ]
     },
@@ -1753,11 +1701,16 @@
             "Height": 17
           },
           "Text": "or"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 975,
+            "Y": 517,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 130,
@@ -2289,6 +2242,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2663,32 +2617,6 @@
             "Height": 24
           },
           "Text": "Amen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 444,
-            "Y": 865,
-            "Width": 153,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 158,
-            "Y": 930,
-            "Width": 13,
-            "Height": 23
-          },
-          "Text": "I"
         }
       ]
     },
@@ -4539,7 +4467,7 @@
             "Width": 66,
             "Height": 23
           },
-          "Text": "fortb"
+          "Text": "forth"
         }
       ]
     },
@@ -5479,6 +5407,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

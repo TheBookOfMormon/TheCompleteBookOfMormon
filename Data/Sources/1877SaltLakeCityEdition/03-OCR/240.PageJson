@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 240,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 449,
-            "Y": 135,
-            "Width": 65,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 536,
-            "Y": 135,
-            "Width": 29,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 585,
-            "Y": 135,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 857,
-            "Y": 126,
-            "Width": 69,
-            "Height": 33
-          },
-          "Text": "omar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 947,
-            "Y": 133,
-            "Width": 15,
-            "Height": 19
-          },
-          "Text": "VL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1798,6 +1733,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -2106,7 +2046,7 @@
             "Width": 66,
             "Height": 31
           },
-          "Text": "days'"
+          "Text": "days\u0027"
         }
       ]
     },
@@ -2753,10 +2693,10 @@
           "Bounds": {
             "X": 133,
             "Y": 781,
-            "Width": 40,
+            "Width": 52,
             "Height": 24
           },
-          "Text": "hin"
+          "Text": "him"
         }
       ]
     },
@@ -2922,10 +2862,10 @@
           "Bounds": {
             "X": 176,
             "Y": 814,
-            "Width": 157,
-            "Height": 23
+            "Width": 163,
+            "Height": 24
           },
-          "Text": "Amymcnihah"
+          "Text": "Ammonihah"
         }
       ]
     },
@@ -3615,11 +3555,16 @@
             "Height": 25
           },
           "Text": "Never"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 980,
+            "Y": 974,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 133,
@@ -5508,6 +5453,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6233,11 +6179,7 @@
             "Height": 24
           },
           "Text": "tri"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 969,
@@ -6246,6 +6188,16 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 128,
+            "Y": 176,
+            "Width": 113,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "bulation"
         }
       ]
     }

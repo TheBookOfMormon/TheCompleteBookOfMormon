@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 217,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 120,
-            "Y": 133,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 210,
-            "Y": 125,
-            "Width": 52,
-            "Height": 33
-          },
-          "Text": "XIIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 429,
-            "Y": 133,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 514,
-            "Y": 132,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "UF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 564,
-            "Y": 132,
-            "Width": 89,
-            "Height": 19
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 119,
-            "Y": 178,
-            "Width": 27,
-            "Height": 17
-          },
-          "Text": "ner"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -351,7 +273,7 @@
             "Width": 96,
             "Height": 26
           },
-          "Text": "arainst"
+          "Text": "against"
         }
       ]
     },
@@ -637,7 +559,7 @@
             "Width": 163,
             "Height": 26
           },
-          "Text": "unrizhteous"
+          "Text": "unrighteous"
         }
       ]
     },
@@ -741,7 +663,7 @@
             "Width": 183,
             "Height": 26
           },
-          "Text": "richteousness"
+          "Text": "righteousness"
         }
       ]
     },
@@ -962,7 +884,7 @@
             "Width": 61,
             "Height": 23
           },
-          "Text": "upen"
+          "Text": "upon"
         }
       ]
     },
@@ -1573,7 +1495,7 @@
             "Width": 108,
             "Height": 16
           },
-          "Text": "cominon"
+          "Text": "common"
         }
       ]
     },
@@ -1681,6 +1603,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2752,16 +2675,12 @@
         {
           "Bounds": {
             "X": 914,
-            "Y": 717,
-            "Width": 28,
-            "Height": 23
+            "Y": 718,
+            "Width": 45,
+            "Height": 22
           },
           "Text": "des"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 953,
@@ -2770,11 +2689,7 @@
             "Height": 23
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 119,
@@ -5506,10 +5421,23 @@
           "Bounds": {
             "X": 192,
             "Y": 1327,
-            "Width": 113,
+            "Width": 50,
             "Height": 25
           },
-          "Text": "theland"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 242,
+            "Y": 1327,
+            "Width": 64,
+            "Height": 25
+          },
+          "Text": "land"
         }
       ]
     },
@@ -5532,10 +5460,36 @@
           "Bounds": {
             "X": 394,
             "Y": 1330,
-            "Width": 158,
+            "Width": 66,
             "Height": 30
           },
-          "Text": "evenaslong"
+          "Text": "even"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 460,
+            "Y": 1330,
+            "Width": 33,
+            "Height": 30
+          },
+          "Text": "as"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 493,
+            "Y": 1330,
+            "Width": 61,
+            "Height": 30
+          },
+          "Text": "long"
         }
       ]
     },
@@ -5613,7 +5567,7 @@
             "Width": 103,
             "Height": 24
           },
-          "Text": "remaina"
+          "Text": "remains"
         }
       ]
     },
@@ -6449,6 +6403,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6653,7 +6608,7 @@
             "Width": 60,
             "Height": 31
           },
-          "Text": "right"
+          "Text": "might"
         }
       ]
     },
