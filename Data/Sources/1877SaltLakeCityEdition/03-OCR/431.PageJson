@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 431,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 109,
-            "Y": 122,
-            "Width": 59,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 194,
-            "Y": 116,
-            "Width": 15,
-            "Height": 33
-          },
-          "Text": "IV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 404,
-            "Y": 122,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 490,
-            "Y": 123,
-            "Width": 28,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 541,
-            "Y": 123,
-            "Width": 123,
-            "Height": 18
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -650,7 +585,7 @@
             "Width": 28,
             "Height": 23
           },
-          "Text": "Le"
+          "Text": "be"
         }
       ]
     },
@@ -755,11 +690,16 @@
             "Height": 31
           },
           "Text": "nothing"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 955,
+            "Y": 295,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 108,
@@ -1742,7 +1682,7 @@
             "Width": 41,
             "Height": 22
           },
-          "Text": "vea"
+          "Text": "yea"
         }
       ]
     },
@@ -1911,7 +1851,7 @@
             "Width": 30,
             "Height": 29
           },
-          "Text": "bv"
+          "Text": "by"
         }
       ]
     },
@@ -2206,14 +2146,15 @@
         {
           "Bounds": {
             "X": 582,
-            "Y": 622,
-            "Width": 62,
-            "Height": 14
+            "Y": 617,
+            "Width": 72,
+            "Height": 24
           },
-          "Text": "niove"
+          "Text": "move"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2513,6 +2454,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2701,10 +2643,10 @@
           "Bounds": {
             "X": 693,
             "Y": 710,
-            "Width": 18,
-            "Height": 23
+            "Width": 19,
+            "Height": 24
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -3077,11 +3019,11 @@
         {
           "Bounds": {
             "X": 357,
-            "Y": 808,
-            "Width": 45,
-            "Height": 28
+            "Y": 810,
+            "Width": 58,
+            "Height": 24
           },
-          "Text": "alrv"
+          "Text": "also"
         }
       ]
     },
@@ -3267,6 +3209,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3618,6 +3561,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3627,7 +3571,7 @@
             "Width": 92,
             "Height": 22
           },
-          "Text": "bebold"
+          "Text": "behold"
         }
       ]
     },
@@ -4169,11 +4113,11 @@
         {
           "Bounds": {
             "X": 793,
-            "Y": 1001,
+            "Y": 1000,
             "Width": 21,
-            "Height": 22
+            "Height": 24
           },
-          "Text": "tf"
+          "Text": "if"
         }
       ]
     },
@@ -4329,7 +4273,7 @@
             "Width": 51,
             "Height": 22
           },
-          "Text": "tind"
+          "Text": "find"
         }
       ]
     },
@@ -4381,7 +4325,7 @@
             "Width": 59,
             "Height": 23
           },
-          "Text": "tite"
+          "Text": "time"
         }
       ]
     },
@@ -4437,6 +4381,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4624,11 +4569,11 @@
         {
           "Bounds": {
             "X": 826,
-            "Y": 1097,
-            "Width": 54,
-            "Height": 22
+            "Y": 1096,
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "snall"
+          "Text": "shall"
         }
       ]
     },
@@ -4732,7 +4677,7 @@
             "Width": 125,
             "Height": 29
           },
-          "Text": "iniguities"
+          "Text": "iniquities"
         }
       ]
     },
@@ -4780,16 +4725,21 @@
         {
           "Bounds": {
             "X": 908,
-            "Y": 1137,
-            "Width": 10,
-            "Height": 16
+            "Y": 1133,
+            "Width": 32,
+            "Height": 24
           },
           "Text": "ac"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 949,
+            "Y": 1133,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 97,
@@ -4827,6 +4777,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5031,7 +4982,7 @@
             "Width": 64,
             "Height": 22
           },
-          "Text": "shilt"
+          "Text": "shalt"
         }
       ]
     },
@@ -5113,6 +5064,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5512,7 +5464,7 @@
             "Width": 89,
             "Height": 21
           },
-          "Text": "eannot"
+          "Text": "cannot"
         }
       ]
     },
@@ -5629,7 +5581,7 @@
             "Width": 76,
             "Height": 28
           },
-          "Text": "mizht"
+          "Text": "might"
         }
       ]
     },
@@ -6193,7 +6145,7 @@
             "Width": 78,
             "Height": 23
           },
-          "Text": "micht"
+          "Text": "might"
         }
       ]
     },
@@ -6219,7 +6171,7 @@
             "Width": 107,
             "Height": 27
           },
-          "Text": "bronght"
+          "Text": "brought"
         }
       ]
     },
