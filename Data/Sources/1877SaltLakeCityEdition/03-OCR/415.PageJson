@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 415,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 138,
-            "Y": 115,
-            "Width": 63,
-            "Height": 20
-          },
-          "Text": "OHAY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 228,
-            "Y": 108,
-            "Width": 20,
-            "Height": 32
-          },
-          "Text": "IL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 442,
-            "Y": 115,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 529,
-            "Y": 116,
-            "Width": 27,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 579,
-            "Y": 115,
-            "Width": 117,
-            "Height": 18
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -659,16 +594,21 @@
         {
           "Bounds": {
             "X": 920,
-            "Y": 258,
-            "Width": 38,
-            "Height": 17
+            "Y": 255,
+            "Width": 54,
+            "Height": 24
           },
           "Text": "mur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 983,
+            "Y": 255,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 137,
@@ -1024,10 +964,23 @@
           "Bounds": {
             "X": 550,
             "Y": 347,
-            "Width": 209,
+            "Width": 159,
             "Height": 22
           },
-          "Text": "Kishikumenand"
+          "Text": "Kishkumen"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 709,
+            "Y": 347,
+            "Width": 51,
+            "Height": 22
+          },
+          "Text": "and"
         }
       ]
     },
@@ -1261,7 +1214,7 @@
             "Width": 158,
             "Height": 23
           },
-          "Text": "Gadianton's"
+          "Text": "Gadianton\u0027s"
         }
       ]
     },
@@ -1457,11 +1410,16 @@
             "Height": 24
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 979,
+            "Y": 443,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 138,
@@ -1534,7 +1492,7 @@
             "Width": 157,
             "Height": 23
           },
-          "Text": "Gadianton's"
+          "Text": "Gadianton\u0027s"
         }
       ]
     },
@@ -2207,7 +2165,7 @@
             "Width": 134,
             "Height": 27
           },
-          "Text": "gorrowful"
+          "Text": "sorrowful"
         }
       ]
     },
@@ -2289,6 +2247,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -3026,12 +2986,8 @@
             "Width": 46,
             "Height": 25
           },
-          "Text": "difh"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "diffi"
+        },
         {
           "Bounds": {
             "X": 973,
@@ -3040,11 +2996,7 @@
             "Height": 5
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 135,
@@ -3121,6 +3073,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3442,7 +3395,7 @@
             "Width": 60,
             "Height": 27
           },
-          "Text": "sivns"
+          "Text": "signs"
         }
       ]
     },
@@ -5095,7 +5048,7 @@
             "Width": 47,
             "Height": 23
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -5889,11 +5842,16 @@
             "Height": 24
           },
           "Text": "Hela"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 975,
+            "Y": 1534,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 134,
@@ -5963,10 +5921,23 @@
           "Bounds": {
             "X": 545,
             "Y": 1567,
-            "Width": 103,
+            "Width": 48,
             "Height": 29
           },
-          "Text": "putinto"
+          "Text": "put"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 593,
+            "Y": 1567,
+            "Width": 56,
+            "Height": 29
+          },
+          "Text": "into"
         }
       ]
     },

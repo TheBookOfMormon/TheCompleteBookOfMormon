@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 343,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 111,
-            "Y": 125,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 199,
-            "Y": 117,
-            "Width": 40,
-            "Height": 33
-          },
-          "Text": "XXI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 427,
-            "Y": 123,
-            "Width": 65,
-            "Height": 20
-          },
-          "Text": "POOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 515,
-            "Y": 124,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 564,
-            "Y": 124,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -182,7 +117,7 @@
             "Width": 135,
             "Height": 30
           },
-          "Text": "righteous'"
+          "Text": "righteous\u0027"
         }
       ]
     },
@@ -494,7 +429,7 @@
             "Width": 80,
             "Height": 30
           },
-          "Text": "peopls"
+          "Text": "people"
         }
       ]
     },
@@ -807,11 +742,16 @@
             "Height": 16
           },
           "Text": "cur"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 947,
+            "Y": 296,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 106,
@@ -1612,7 +1552,7 @@
             "Width": 134,
             "Height": 28
           },
-          "Text": "Zaralicmla"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -1954,6 +1894,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2132,7 +2073,7 @@
             "Width": 124,
             "Height": 29
           },
-          "Text": "richteous"
+          "Text": "righteous"
         }
       ]
     },
@@ -2600,7 +2541,7 @@
             "Width": 59,
             "Height": 24
           },
-          "Text": "tock"
+          "Text": "took"
         }
       ]
     },
@@ -2852,7 +2793,7 @@
             "Width": 122,
             "Height": 23
           },
-          "Text": "theretore"
+          "Text": "therefore"
         }
       ]
     },
@@ -5030,7 +4971,7 @@
             "Width": 49,
             "Height": 23
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -5585,11 +5526,11 @@
         {
           "Bounds": {
             "X": 710,
-            "Y": 1422,
-            "Width": 59,
-            "Height": 29
+            "Y": 1424,
+            "Width": 51,
+            "Height": 24
           },
-          "Text": "thev"
+          "Text": "they"
         }
       ]
     },

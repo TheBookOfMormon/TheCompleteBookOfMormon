@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 382,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 126,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 535,
-            "Y": 126,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 126,
-            "Width": 61,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 809,
-            "Y": 119,
-            "Width": 78,
-            "Height": 27
-          },
-          "Text": "YOHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 909,
-            "Y": 126,
-            "Width": 59,
-            "Height": 20
-          },
-          "Text": "XXVI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 126,
-            "Y": 166,
-            "Width": 49,
-            "Height": 25
-          },
-          "Text": "ites"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -95,6 +17,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3953,6 +3876,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4252,6 +4176,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5549,11 +5474,16 @@
             "Height": 24
           },
           "Text": "Zara"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 977,
+            "Y": 1390,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 127,
@@ -5561,7 +5491,7 @@
             "Width": 80,
             "Height": 23
           },
-          "Text": "bemla"
+          "Text": "hemla"
         }
       ]
     },
@@ -5948,15 +5878,20 @@
           "Bounds": {
             "X": 873,
             "Y": 1486,
-            "Width": 75,
+            "Width": 96,
             "Height": 24
           },
           "Text": "circum"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 978,
+            "Y": 1486,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 127,
@@ -6207,11 +6142,11 @@
         {
           "Bounds": {
             "X": 944,
-            "Y": 1550,
-            "Width": 19,
-            "Height": 29
+            "Y": 1552,
+            "Width": 33,
+            "Height": 24
           },
-          "Text": "hy"
+          "Text": "by"
         }
       ]
     },

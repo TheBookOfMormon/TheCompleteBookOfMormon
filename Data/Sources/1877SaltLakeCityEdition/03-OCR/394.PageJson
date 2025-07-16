@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 394,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 118,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 118,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 602,
-            "Y": 118,
-            "Width": 63,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 111,
-            "Width": 66,
-            "Height": 35
-          },
-          "Text": "oBAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 932,
-            "Y": 118,
-            "Width": 62,
-            "Height": 19
-          },
-          "Text": "XXTX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -611,7 +546,7 @@
             "Width": 64,
             "Height": 29
           },
-          "Text": "Jarre"
+          "Text": "large"
         }
       ]
     },
@@ -1465,16 +1400,21 @@
         {
           "Bounds": {
             "X": 946,
-            "Y": 455,
-            "Width": 35,
-            "Height": 16
+            "Y": 451,
+            "Width": 55,
+            "Height": 24
           },
           "Text": "wea"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1010,
+            "Y": 451,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 155,
@@ -1920,11 +1860,11 @@
         {
           "Bounds": {
             "X": 874,
-            "Y": 543,
-            "Width": 110,
-            "Height": 32
+            "Y": 547,
+            "Width": 123,
+            "Height": 24
           },
-          "Text": "Nephitea"
+          "Text": "Nephites"
         }
       ]
     },
@@ -2158,7 +2098,7 @@
             "Width": 104,
             "Height": 23
           },
-          "Text": "Ainmon"
+          "Text": "Ammon"
         }
       ]
     },
@@ -2773,21 +2713,18 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 913,
-            "Y": 737,
-            "Width": 67,
-            "Height": 31
+            "Y": 740,
+            "Width": 81,
+            "Height": 24
           },
           "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 998,
@@ -2796,11 +2733,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 154,
@@ -2808,7 +2741,7 @@
             "Width": 39,
             "Height": 22
           },
-          "Text": "bah"
+          "Text": "hah"
         }
       ]
     },
@@ -3007,6 +2940,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5022,10 +4956,23 @@
           "Bounds": {
             "X": 417,
             "Y": 1253,
-            "Width": 112,
+            "Width": 61,
             "Height": 29
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 478,
+            "Y": 1253,
+            "Width": 52,
+            "Height": 29
+          },
+          "Text": "that"
         }
       ]
     },

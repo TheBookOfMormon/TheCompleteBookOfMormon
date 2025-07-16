@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 345,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 116,
-            "Y": 122,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "CHEAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 204,
-            "Y": 115,
-            "Width": 17,
-            "Height": 33
-          },
-          "Text": "xx"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 122,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 516,
-            "Y": 122,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 122,
-            "Width": 65,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -754,7 +689,7 @@
             "Width": 120,
             "Height": 23
           },
-          "Text": "bclievers"
+          "Text": "believers"
         }
       ]
     },
@@ -2721,6 +2656,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2968,6 +2904,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4691,16 +4628,21 @@
         {
           "Bounds": {
             "X": 912,
-            "Y": 1199,
-            "Width": 25,
-            "Height": 22
+            "Y": 1198,
+            "Width": 45,
+            "Height": 24
           },
           "Text": "gar"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 966,
+            "Y": 1198,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 110,

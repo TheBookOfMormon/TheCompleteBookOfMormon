@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 337,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 123,
-            "Y": 125,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 214,
-            "Y": 116,
-            "Width": 18,
-            "Height": 34
-          },
-          "Text": "XX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 462,
-            "Y": 124,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 548,
-            "Y": 125,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 124,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 931,
-            "Y": 119,
-            "Width": 49,
-            "Height": 28
-          },
-          "Text": "as7"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -221,7 +143,7 @@
             "Width": 113,
             "Height": 26
           },
-          "Text": "secretod"
+          "Text": "secreted"
         }
       ]
     },
@@ -898,11 +820,16 @@
             "Height": 25
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 975,
+            "Y": 320,
+            "Width": 12,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 122,
@@ -910,7 +837,7 @@
             "Width": 46,
             "Height": 29
           },
-          "Text": "ftes"
+          "Text": "ites"
         }
       ]
     },
@@ -1898,7 +1825,7 @@
             "Width": 141,
             "Height": 23
           },
-          "Text": "Damanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -3207,6 +3134,11 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5231,7 +5163,7 @@
             "Width": 41,
             "Height": 17
           },
-          "Text": "0ss8"
+          "Text": "loss"
         }
       ]
     },
@@ -5648,11 +5580,16 @@
             "Height": 24
           },
           "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 975,
+            "Y": 1413,
+            "Width": 12,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 124,
@@ -5662,7 +5599,8 @@
           },
           "Text": "plates"
         }
-      ]
+      ],
+      "ShowDashes": true
     },
     {
       "Elements": [
@@ -5695,37 +5633,11 @@
         {
           "Bounds": {
             "X": 386,
-            "Y": 1448,
-            "Width": 30,
-            "Height": 28
-          },
-          "Text": "arm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 440,
-            "Y": 1461,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 448,
-            "Y": 1448,
-            "Width": 91,
+            "Y": 1450,
+            "Width": 159,
             "Height": 23
           },
-          "Text": "shields"
+          "Text": "arm-shields"
         }
       ]
     },
@@ -5760,37 +5672,11 @@
         {
           "Bounds": {
             "X": 734,
-            "Y": 1446,
-            "Width": 49,
-            "Height": 31
+            "Y": 1450,
+            "Width": 150,
+            "Height": 22
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 798,
-            "Y": 1460,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 806,
-            "Y": 1446,
-            "Width": 77,
-            "Height": 31
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },

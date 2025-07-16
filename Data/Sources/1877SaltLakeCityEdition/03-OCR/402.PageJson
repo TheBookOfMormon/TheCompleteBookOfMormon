@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 402,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 428,
-            "Y": 107,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 107,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 107,
-            "Width": 120,
-            "Height": 20
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 877,
-            "Y": 104,
-            "Width": 64,
-            "Height": 32
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 969,
-            "Y": 111,
-            "Width": 10,
-            "Height": 19
-          },
-          "Text": "I"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -633,11 +568,11 @@
         {
           "Bounds": {
             "X": 128,
-            "Y": 278,
-            "Width": 60,
-            "Height": 20
+            "Y": 276,
+            "Width": 62,
+            "Height": 24
           },
-          "Text": "unie"
+          "Text": "unto"
         }
       ]
     },
@@ -871,12 +806,17 @@
             "Width": 69,
             "Height": 18
           },
-          "Text": "nums"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "num"
+        },
+        {
+          "Bounds": {
+            "X": 988,
+            "Y": 314,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 128,
@@ -2160,23 +2100,10 @@
           "Bounds": {
             "X": 323,
             "Y": 630,
-            "Width": 89,
+            "Width": 146,
             "Height": 24
           },
-          "Text": "Zarahe"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 417,
-            "Y": 630,
-            "Width": 46,
-            "Height": 24
-          },
-          "Text": "ala"
+          "Text": "Zarahemla"
         }
       ]
     },
@@ -2277,10 +2204,10 @@
           "Bounds": {
             "X": 197,
             "Y": 664,
-            "Width": 34,
-            "Height": 23
+            "Width": 52,
+            "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -2770,11 +2697,11 @@
         {
           "Bounds": {
             "X": 936,
-            "Y": 760,
-            "Width": 42,
-            "Height": 26
+            "Y": 761,
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "tLe"
+          "Text": "the"
         }
       ]
     },
@@ -2882,6 +2809,20 @@
         }
       ]
     },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 897,
+            "Y": 792,
+            "Width": 151,
+            "Height": 25
+          },
+          "Text": "again"
+        }
+      ]
+    },
+    null,
     {
       "Elements": [
         {
@@ -3265,23 +3206,10 @@
           "Bounds": {
             "X": 924,
             "Y": 890,
-            "Width": 7,
+            "Width": 58,
             "Height": 24
           },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 924,
-            "Y": 890,
-            "Width": 53,
-            "Height": 24
-          },
-          "Text": "vho"
+          "Text": "who"
         }
       ]
     },
@@ -5447,11 +5375,16 @@
             "Height": 33
           },
           "Text": "judg"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 980,
+            "Y": 1407,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 128,
@@ -5927,7 +5860,7 @@
             "Width": 123,
             "Height": 25
           },
-          "Text": "Helamnan"
+          "Text": "Helaman"
         }
       ]
     },

@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 321,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 124,
-            "Y": 121,
-            "Width": 50,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 214,
-            "Y": 114,
-            "Width": 58,
-            "Height": 33
-          },
-          "Text": "XVIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 121,
-            "Width": 68,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 532,
-            "Y": 121,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 582,
-            "Y": 121,
-            "Width": 64,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1926,7 +1861,7 @@
             "Width": 84,
             "Height": 16
           },
-          "Text": "eeans"
+          "Text": "means"
         }
       ]
     },
@@ -5724,7 +5659,7 @@
             "Width": 216,
             "Height": 28
           },
-          "Text": "commandinents"
+          "Text": "commandments"
         }
       ]
     },
@@ -6271,11 +6206,7 @@
             "Height": 18
           },
           "Text": "sa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 979,
@@ -6284,6 +6215,16 @@
             "Height": 6
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 127,
+            "Y": 160,
+            "Width": 55,
+            "Height": 27
+          },
+          "IsOnNextPage": true,
+          "Text": "cred"
         }
       ]
     }

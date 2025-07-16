@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 326,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 433,
-            "Y": 116,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 116,
-            "Width": 30,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 570,
-            "Y": 116,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 844,
-            "Y": 111,
-            "Width": 74,
-            "Height": 34
-          },
-          "Text": "cEAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 940,
-            "Y": 117,
-            "Width": 41,
-            "Height": 21
-          },
-          "Text": "XIX"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -625,6 +560,19 @@
             "Height": 22
           },
           "Text": "there"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 485,
+            "Y": 252,
+            "Width": 26,
+            "Height": 25
+          },
+          "Text": "is"
         }
       ]
     },
@@ -1991,7 +1939,7 @@
             "Width": 37,
             "Height": 14
           },
-          "Text": "sec"
+          "Text": "see"
         }
       ]
     },
@@ -2043,7 +1991,7 @@
             "Width": 32,
             "Height": 23
           },
-          "Text": "ull"
+          "Text": "all"
         }
       ]
     },
@@ -2221,11 +2169,11 @@
         {
           "Bounds": {
             "X": 792,
-            "Y": 576,
-            "Width": 54,
-            "Height": 22
+            "Y": 575,
+            "Width": 67,
+            "Height": 25
           },
-          "Text": "trom"
+          "Text": "from"
         }
       ]
     },
@@ -2351,11 +2299,11 @@
         {
           "Bounds": {
             "X": 681,
-            "Y": 616,
-            "Width": 27,
-            "Height": 22
+            "Y": 615,
+            "Width": 33,
+            "Height": 25
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -3579,15 +3527,20 @@
           "Bounds": {
             "X": 935,
             "Y": 866,
-            "Width": 54,
+            "Width": 58,
             "Height": 25
           },
           "Text": "fare"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1002,
+            "Y": 866,
+            "Width": 12,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 150,
@@ -3596,32 +3549,6 @@
             "Height": 23
           },
           "Text": "well"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 450,
-            "Y": 995,
-            "Width": 153,
-            "Height": 24
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 623,
-            "Y": 995,
-            "Width": 54,
-            "Height": 25
-          },
-          "Text": "XIX"
         }
       ]
     },
@@ -3725,20 +3652,7 @@
             "Width": 125,
             "Height": 26
           },
-          "Text": "Cortanton"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 177,
-            "Y": 1125,
-            "Width": 12,
-            "Height": 23
-          },
-          "Text": "I"
+          "Text": "Corianton"
         }
       ]
     },
@@ -3751,7 +3665,7 @@
             "Width": 57,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -5451,7 +5365,7 @@
             "Width": 138,
             "Height": 23
           },
-          "Text": "Lamnanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -5499,11 +5413,11 @@
         {
           "Bounds": {
             "X": 149,
-            "Y": 1508,
-            "Width": 66,
-            "Height": 23
+            "Y": 1507,
+            "Width": 90,
+            "Height": 25
           },
-          "Text": "Isubel"
+          "Text": "Isabel"
         }
       ]
     },

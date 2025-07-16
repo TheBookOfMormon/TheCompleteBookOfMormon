@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 420,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 423,
-            "Y": 129,
-            "Width": 67,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 510,
-            "Y": 129,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 561,
-            "Y": 128,
-            "Width": 117,
-            "Height": 19
-          },
-          "Text": "HELAMAN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 872,
-            "Y": 121,
-            "Width": 67,
-            "Height": 33
-          },
-          "Text": "CHAR"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 955,
-            "Y": 129,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "mL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -613,10 +548,23 @@
           "Bounds": {
             "X": 695,
             "Y": 266,
-            "Width": 122,
+            "Width": 45,
             "Height": 24
           },
-          "Text": "thecrime"
+          "Text": "the"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 740,
+            "Y": 266,
+            "Width": 77,
+            "Height": 24
+          },
+          "Text": "crime"
         }
       ]
     },
@@ -639,10 +587,23 @@
           "Bounds": {
             "X": 916,
             "Y": 267,
-            "Width": 76,
+            "Width": 31,
             "Height": 25
           },
-          "Text": "hehas"
+          "Text": "he"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 947,
+            "Y": 267,
+            "Width": 46,
+            "Height": 25
+          },
+          "Text": "has"
         }
       ]
     },
@@ -685,6 +646,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3603,19 +3565,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 779,
-            "Y": 988,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 785,
             "Y": 983,
             "Width": 31,
@@ -3942,16 +3891,21 @@
         {
           "Bounds": {
             "X": 874,
-            "Y": 1048,
-            "Width": 93,
-            "Height": 18
+            "Y": 1045,
+            "Width": 111,
+            "Height": 24
           },
           "Text": "concern"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 994,
+            "Y": 1045,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 138,
@@ -4184,6 +4138,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4271,7 +4226,7 @@
             "Width": 114,
             "Height": 30
           },
-          "Text": "miquities"
+          "Text": "iniquities"
         }
       ]
     },
@@ -4284,7 +4239,7 @@
             "Width": 41,
             "Height": 22
           },
-          "Text": "yez"
+          "Text": "yea"
         }
       ]
     },
@@ -4392,6 +4347,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5806,11 +5762,7 @@
             "Height": 25
           },
           "Text": "Is"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 972,
@@ -5819,11 +5771,7 @@
             "Height": 25
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 134,
@@ -5831,7 +5779,7 @@
             "Width": 98,
             "Height": 29
           },
-          "Text": "raclites"
+          "Text": "raelites"
         }
       ]
     },
@@ -6079,11 +6027,7 @@
             "Height": 32
           },
           "Text": "Egyp"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 977,
@@ -6092,11 +6036,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 134,
@@ -6104,7 +6044,7 @@
             "Width": 64,
             "Height": 23
           },
-          "Text": "tiang"
+          "Text": "tians"
         }
       ]
     },

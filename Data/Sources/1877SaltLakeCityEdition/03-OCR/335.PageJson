@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 335,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 126,
-            "Y": 137,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 218,
-            "Y": 133,
-            "Width": 20,
-            "Height": 30
-          },
-          "Text": "XX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 466,
-            "Y": 136,
-            "Width": 67,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 553,
-            "Y": 137,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 602,
-            "Y": 137,
-            "Width": 63,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 127,
-            "Y": 177,
-            "Width": 105,
-            "Height": 28
-          },
-          "Text": "manites"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -173,16 +95,17 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
             "X": 837,
             "Y": 176,
-            "Width": 119,
+            "Width": 144,
             "Height": 25
           },
-          "Text": "Zoramitea"
+          "Text": "Zoramites"
         }
       ]
     },
@@ -364,7 +287,7 @@
             "Width": 54,
             "Height": 24
           },
-          "Text": "tLat"
+          "Text": "that"
         }
       ]
     },
@@ -871,7 +794,7 @@
             "Width": 48,
             "Height": 22
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -988,7 +911,7 @@
             "Width": 118,
             "Height": 30
           },
-          "Text": "Neplites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -1066,7 +989,7 @@
             "Width": 32,
             "Height": 22
           },
-          "Text": "&c"
+          "Text": "\u0026c"
         }
       ]
     },
@@ -1292,7 +1215,7 @@
             "Width": 48,
             "Height": 22
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -1431,11 +1354,11 @@
         {
           "Bounds": {
             "X": 710,
-            "Y": 467,
-            "Width": 50,
-            "Height": 22
+            "Y": 466,
+            "Width": 67,
+            "Height": 25
           },
-          "Text": "froin"
+          "Text": "from"
         }
       ]
     },
@@ -2007,7 +1930,7 @@
             "Width": 138,
             "Height": 23
           },
-          "Text": "Liunanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -2523,63 +2446,11 @@
         {
           "Bounds": {
             "X": 746,
-            "Y": 724,
-            "Width": 62,
-            "Height": 22
+            "Y": 723,
+            "Width": 228,
+            "Height": 25
           },
-          "Text": "Anti"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 810,
-            "Y": 737,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 819,
-            "Y": 724,
-            "Width": 82,
-            "Height": 30
-          },
-          "Text": "Nephi"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 903,
-            "Y": 738,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 911,
-            "Y": 724,
-            "Width": 55,
-            "Height": 30
-          },
-          "Text": "Leli"
+          "Text": "Anti-Nephi-Lehi"
         }
       ]
     },
@@ -2670,7 +2541,7 @@
             "Width": 104,
             "Height": 22
           },
-          "Text": "Anunon"
+          "Text": "Ammon"
         }
       ]
     },
@@ -4035,7 +3906,7 @@
             "Width": 125,
             "Height": 22
           },
-          "Text": "dizsented"
+          "Text": "dissented"
         }
       ]
     },
@@ -4113,7 +3984,7 @@
             "Width": 152,
             "Height": 23
           },
-          "Text": "Amalckites"
+          "Text": "Amalekites"
         }
       ]
     },
@@ -4179,11 +4050,16 @@
             "Height": 22
           },
           "Text": "des"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 979,
+            "Y": 1110,
+            "Width": 12,
+            "Height": 25
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 124,
@@ -4776,7 +4652,7 @@
             "Width": 25,
             "Height": 23
           },
-          "Text": "ian"
+          "Text": "in"
         }
       ]
     },
@@ -4841,7 +4717,7 @@
             "Width": 92,
             "Height": 23
           },
-          "Text": "bebold"
+          "Text": "behold"
         }
       ]
     },
@@ -5114,7 +4990,7 @@
             "Width": 120,
             "Height": 30
           },
-          "Text": "Neplites"
+          "Text": "Nephites"
         }
       ]
     },
@@ -5257,7 +5133,7 @@
             "Width": 66,
             "Height": 23
           },
-          "Text": "chicf"
+          "Text": "chief"
         }
       ]
     },

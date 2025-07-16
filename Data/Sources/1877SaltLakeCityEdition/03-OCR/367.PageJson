@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 367,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 103,
-            "Y": 133,
-            "Width": 50,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 186,
-            "Y": 123,
-            "Width": 57,
-            "Height": 33
-          },
-          "Text": "XXIV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 419,
-            "Y": 130,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 504,
-            "Y": 130,
-            "Width": 29,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 554,
-            "Y": 130,
-            "Width": 64,
-            "Height": 19
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -806,7 +741,7 @@
             "Width": 92,
             "Height": 23
           },
-          "Text": "hehold"
+          "Text": "behold"
         }
       ]
     },
@@ -1717,11 +1652,16 @@
             "Height": 16
           },
           "Text": "wea"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 945,
+            "Y": 561,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 99,
@@ -1816,11 +1756,11 @@
         {
           "Bounds": {
             "X": 623,
-            "Y": 589,
-            "Width": 56,
-            "Height": 22
+            "Y": 588,
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "then"
+          "Text": "them"
         }
       ]
     },
@@ -2381,10 +2321,10 @@
           "Bounds": {
             "X": 671,
             "Y": 717,
-            "Width": 17,
-            "Height": 23
+            "Width": 19,
+            "Height": 24
           },
-          "Text": "1t"
+          "Text": "it"
         }
       ]
     },
@@ -2779,7 +2719,7 @@
             "Width": 44,
             "Height": 15
           },
-          "Text": "wur"
+          "Text": "war"
         }
       ]
     },
@@ -5420,7 +5360,7 @@
             "Width": 89,
             "Height": 24
           },
-          "Text": "other's"
+          "Text": "other\u0027s"
         }
       ]
     },
@@ -5684,6 +5624,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6174,10 +6115,11 @@
             "Width": 140,
             "Height": 17
           },
-          "Text": "coinmence"
+          "Text": "commence"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {

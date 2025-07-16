@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 373,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 113,
-            "Y": 117,
-            "Width": 63,
-            "Height": 19
-          },
-          "Text": "CEAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 202,
-            "Y": 110,
-            "Width": 46,
-            "Height": 32
-          },
-          "Text": "XXV"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 439,
-            "Y": 116,
-            "Width": 66,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 526,
-            "Y": 116,
-            "Width": 28,
-            "Height": 18
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 576,
-            "Y": 116,
-            "Width": 62,
-            "Height": 18
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -381,6 +316,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1317,6 +1253,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2206,11 +2143,11 @@
         {
           "Bounds": {
             "X": 748,
-            "Y": 606,
-            "Width": 32,
-            "Height": 22
+            "Y": 605,
+            "Width": 52,
+            "Height": 24
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -2431,7 +2368,7 @@
             "Width": 90,
             "Height": 23
           },
-          "Text": "beliold"
+          "Text": "behold"
         }
       ]
     },
@@ -2493,36 +2430,10 @@
           "Bounds": {
             "X": 886,
             "Y": 670,
-            "Width": 28,
-            "Height": 23
-          },
-          "Text": "de"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 919,
-            "Y": 681,
-            "Width": 5,
-            "Height": 11
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 928,
-            "Y": 670,
-            "Width": 36,
+            "Width": 86,
             "Height": 24
           },
-          "Text": "ire"
+          "Text": "desire"
         }
       ]
     },
@@ -3454,24 +3365,11 @@
         {
           "Bounds": {
             "X": 545,
-            "Y": 896,
-            "Width": 18,
-            "Height": 21
+            "Y": 895,
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "tl"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 575,
-            "Y": 903,
-            "Width": 30,
-            "Height": 15
-          },
-          "Text": "em"
+          "Text": "them"
         }
       ]
     },
@@ -3926,7 +3824,7 @@
             "Width": 138,
             "Height": 23
           },
-          "Text": "Lamunites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -4127,11 +4025,16 @@
             "Height": 24
           },
           "Text": "La"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 964,
+            "Y": 1024,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 114,
@@ -4552,10 +4455,10 @@
           "Bounds": {
             "X": 373,
             "Y": 1152,
-            "Width": 64,
-            "Height": 23
+            "Width": 69,
+            "Height": 24
           },
-          "Text": "then"
+          "Text": "them"
         }
       ]
     },
@@ -5302,11 +5205,16 @@
             "Height": 29
           },
           "Text": "prison"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 962,
+            "Y": 1317,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 116,

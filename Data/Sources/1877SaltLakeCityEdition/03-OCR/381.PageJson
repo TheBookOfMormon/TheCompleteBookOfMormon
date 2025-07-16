@@ -1,100 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 381,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 120,
-            "Y": 123,
-            "Width": 71,
-            "Height": 38
-          },
-          "Text": "OHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 217,
-            "Y": 123,
-            "Width": 61,
-            "Height": 38
-          },
-          "Text": "XXVL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 123,
-            "Width": 71,
-            "Height": 38
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 537,
-            "Y": 123,
-            "Width": 16,
-            "Height": 38
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 586,
-            "Y": 123,
-            "Width": 64,
-            "Height": 38
-          },
-          "Text": "ALMA"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 925,
-            "Y": 128,
-            "Width": 28,
-            "Height": 28
-          },
-          "Text": "am"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 123,
-            "Y": 173,
-            "Width": 32,
-            "Height": 25
-          },
-          "Text": "der"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -205,23 +114,10 @@
           "Bounds": {
             "X": 719,
             "Y": 172,
-            "Width": 63,
+            "Width": 90,
             "Height": 24
           },
-          "Text": "befol"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 793,
-            "Y": 181,
-            "Width": 11,
-            "Height": 16
-          },
-          "Text": "o"
+          "Text": "before"
         }
       ]
     },
@@ -248,11 +144,7 @@
             "Height": 25
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 965,
@@ -261,11 +153,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 122,
@@ -273,7 +161,7 @@
             "Width": 48,
             "Height": 30
           },
-          "Text": "jtes"
+          "Text": "ites"
         }
       ]
     },
@@ -4869,7 +4757,7 @@
             "Width": 48,
             "Height": 22
           },
-          "Text": "aud"
+          "Text": "and"
         }
       ]
     },
@@ -5402,7 +5290,7 @@
             "Width": 64,
             "Height": 23
           },
-          "Text": "chiet"
+          "Text": "chief"
         }
       ]
     },
@@ -6156,7 +6044,7 @@
             "Width": 52,
             "Height": 20
           },
-          "Text": "gent"
+          "Text": "sent"
         }
       ]
     },
@@ -6412,16 +6300,12 @@
         {
           "Bounds": {
             "X": 872,
-            "Y": 1588,
-            "Width": 71,
-            "Height": 22
+            "Y": 1587,
+            "Width": 88,
+            "Height": 24
           },
           "Text": "Laman"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 966,
@@ -6430,6 +6314,16 @@
             "Height": 5
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 126,
+            "Y": 166,
+            "Width": 49,
+            "Height": 25
+          },
+          "IsOnNextPage": true,
+          "Text": "ites"
         }
       ]
     }
