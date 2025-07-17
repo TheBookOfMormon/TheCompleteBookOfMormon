@@ -5,16 +5,17 @@ This task compares **multiple editions contained within All.zip**. Each embedded
 
 ```
 1830 Palmyra
-└── 1837 Kirtland
-    ├── 1840 Nauvoo
-    │   └── 1842 Nauvoo
-    │       └── 1858 NewYork
-    │           └── 1874 Iowa
-    │               └── 2013 SaltLakeCity
-    └── 1841 Liverpool
-        └── 1849 Liverpool
-            └── 1854 Liverpool
-                └── 1871 SaltLakeCity
+└─── 1837 Kirtland
+     └─── 1840 Nauvoo
+          ├─── 1841 Liverpool
+          │    └─── 1849 Liverpool
+          │         └─── 1854 Liverpool
+          │              └─── 1871 SaltLakeCity
+          │                   └─── 1877 SaltLakeCity
+          └─── 1842 Nauvoo
+               └─── 1858 NewYork
+                    └─── 1874 Iowa
+                         └─── 2013 SaltLakeCity
 ```
 
 ## Names
@@ -292,8 +293,9 @@ Compare each edition **only against the edition it was based on (its parent in t
 
 ### Additional processing
 
-- Replace any word containing `-` with an empty string.
 - Truncate both lists to the shorter length for comparison.
+- If a word has "BenefitOfDoubtText" then that should be used for the text
+- If Text is "" then treat it as null
 
 ## Names
 
