@@ -1,113 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 492,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 459,
-            "Y": 127,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 544,
-            "Y": 128,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 594,
-            "Y": 128,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 866,
-            "Y": 122,
-            "Width": 65,
-            "Height": 34
-          },
-          "Text": "omar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 959,
-            "Y": 130,
-            "Width": 37,
-            "Height": 20
-          },
-          "Text": "x1"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 461,
-            "Y": 199,
-            "Width": 153,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 634,
-            "Y": 199,
-            "Width": 19,
-            "Height": 25
-          },
-          "Text": "XL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 180,
-            "Y": 265,
-            "Width": 13,
-            "Height": 25
-          },
-          "Text": "I"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -117,7 +13,7 @@
             "Width": 57,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -2251,7 +2147,7 @@
             "Width": 107,
             "Height": 24
           },
-          "Text": "refiner's"
+          "Text": "refiner\u0027s"
         }
       ]
     },
@@ -2303,7 +2199,7 @@
             "Width": 92,
             "Height": 24
           },
-          "Text": "fuller's"
+          "Text": "fuller\u0027s"
         }
       ]
     },
@@ -3497,11 +3393,16 @@
             "Height": 18
           },
           "Text": "swear"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 987,
+            "Y": 979,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 149,
@@ -4096,10 +3997,23 @@
           "Bounds": {
             "X": 823,
             "Y": 1106,
-            "Width": 80,
-            "Height": 23
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "arenot"
+          "Text": "are"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 868,
+            "Y": 1106,
+            "Width": 44,
+            "Height": 24
+          },
+          "Text": "not"
         }
       ]
     },
@@ -4416,7 +4330,7 @@
             "Width": 36,
             "Height": 15
           },
-          "Text": "mec"
+          "Text": "me"
         }
       ]
     },
@@ -4819,7 +4733,7 @@
             "Width": 42,
             "Height": 22
           },
-          "Text": "gay"
+          "Text": "say"
         }
       ]
     },

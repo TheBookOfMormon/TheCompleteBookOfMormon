@@ -1,87 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 482,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 130,
-            "Y": 116,
-            "Width": 49,
-            "Height": 36
-          },
-          "Text": "i732"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 435,
-            "Y": 123,
-            "Width": 68,
-            "Height": 21
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 523,
-            "Y": 115,
-            "Width": 33,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 572,
-            "Y": 124,
-            "Width": 77,
-            "Height": 20
-          },
-          "Text": "WEPEL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 851,
-            "Y": 116,
-            "Width": 74,
-            "Height": 34
-          },
-          "Text": "fomar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 953,
-            "Y": 114,
-            "Width": 33,
-            "Height": 36
-          },
-          "Text": "1x"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -481,12 +403,17 @@
             "Width": 59,
             "Height": 18
           },
-          "Text": "overs"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "over"
+        },
+        {
+          "Bounds": {
+            "X": 987,
+            "Y": 232,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 129,
@@ -788,51 +715,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 444,
-            "Y": 421,
-            "Width": 196,
-            "Height": 28
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 612,
-            "Y": 419,
-            "Width": 33,
-            "Height": 37
-          },
-          "Text": "IX"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 160,
-            "Y": 488,
-            "Width": 13,
-            "Height": 23
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 199,
             "Y": 487,
-            "Width": 42,
+            "Width": 53,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -5608,7 +5496,7 @@
             "Width": 94,
             "Height": 24
           },
-          "Text": "water's"
+          "Text": "water\u0027s"
         }
       ]
     },

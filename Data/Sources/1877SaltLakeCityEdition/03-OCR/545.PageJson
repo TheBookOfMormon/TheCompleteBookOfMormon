@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 545,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 114,
-            "Y": 116,
-            "Width": 60,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 203,
-            "Y": 116,
-            "Width": 25,
-            "Height": 18
-          },
-          "Text": "1V"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 434,
-            "Y": 117,
-            "Width": 64,
-            "Height": 17
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 117,
-            "Width": 28,
-            "Height": 17
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 569,
-            "Y": 117,
-            "Width": 82,
-            "Height": 17
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -399,11 +334,11 @@
         {
           "Bounds": {
             "X": 335,
-            "Y": 227,
-            "Width": 32,
-            "Height": 15
+            "Y": 223,
+            "Width": 55,
+            "Height": 24
           },
-          "Text": "way"
+          "Text": "was"
         }
       ]
     },
@@ -2012,7 +1947,7 @@
             "Width": 43,
             "Height": 14
           },
-          "Text": "une"
+          "Text": "came"
         }
       ]
     },
@@ -2636,7 +2571,7 @@
             "Width": 129,
             "Height": 30
           },
-          "Text": "Ripluakish"
+          "Text": "Riplakish"
         }
       ]
     },
@@ -2749,11 +2684,11 @@
         {
           "Bounds": {
             "X": 396,
-            "Y": 742,
-            "Width": 41,
-            "Height": 22
+            "Y": 741,
+            "Width": 65,
+            "Height": 24
           },
-          "Text": "pas"
+          "Text": "pass"
         }
       ]
     },
@@ -3130,7 +3065,7 @@
             "Width": 75,
             "Height": 23
           },
-          "Text": "men's"
+          "Text": "men\u0027s"
         }
       ]
     },
@@ -3244,10 +3179,10 @@
           "Bounds": {
             "X": 568,
             "Y": 829,
-            "Width": 29,
+            "Width": 35,
             "Height": 24
           },
-          "Text": "lie"
+          "Text": "he"
         }
       ]
     },
@@ -3564,7 +3499,7 @@
             "Width": 135,
             "Height": 30
           },
-          "Text": "exeeeding"
+          "Text": "exceeding"
         }
       ]
     },
@@ -4206,7 +4141,7 @@
             "Width": 82,
             "Height": 24
           },
-          "Text": "whoao"
+          "Text": "whoso"
         }
       ]
     },
@@ -4440,7 +4375,7 @@
             "Width": 44,
             "Height": 22
           },
-          "Text": "fiue"
+          "Text": "fine"
         }
       ]
     },
@@ -4843,7 +4778,7 @@
             "Width": 65,
             "Height": 15
           },
-          "Text": "cane"
+          "Text": "came"
         }
       ]
     },
@@ -4921,7 +4856,7 @@
             "Width": 72,
             "Height": 23
           },
-          "Text": "afllict"
+          "Text": "afflict"
         }
       ]
     },
@@ -5285,7 +5220,7 @@
             "Width": 94,
             "Height": 28
           },
-          "Text": "arainst"
+          "Text": "against"
         }
       ]
     },
@@ -5533,11 +5468,7 @@
             "Height": 23
           },
           "Text": "descend"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 944,
@@ -5546,11 +5477,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 109,
@@ -5560,7 +5487,9 @@
           },
           "Text": "dants"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 2,
+      "BenefitOfDoubtText": "descendants"
     },
     {
       "Elements": [
@@ -5793,11 +5722,16 @@
             "Height": 25
           },
           "Text": "Mori"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 940,
+            "Y": 1374,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 108,

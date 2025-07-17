@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 498,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 108,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 515,
-            "Y": 107,
-            "Width": 34,
-            "Height": 21
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 107,
-            "Width": 80,
-            "Height": 21
-          },
-          "Text": "WRPHL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 815,
-            "Y": 99,
-            "Width": 78,
-            "Height": 38
-          },
-          "Text": "omar"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -672,11 +620,11 @@
         {
           "Bounds": {
             "X": 123,
-            "Y": 285,
-            "Width": 29,
-            "Height": 16
+            "Y": 281,
+            "Width": 33,
+            "Height": 24
           },
-          "Text": "po"
+          "Text": "no"
         }
       ]
     },
@@ -988,7 +936,7 @@
             "Width": 64,
             "Height": 21
           },
-          "Text": "uuto"
+          "Text": "unto"
         }
       ]
     },
@@ -1317,6 +1265,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2381,7 +2330,7 @@
             "Width": 49,
             "Height": 23
           },
-          "Text": "bad"
+          "Text": "had"
         }
       ]
     },
@@ -3408,7 +3357,7 @@
             "Width": 69,
             "Height": 23
           },
-          "Text": "htted"
+          "Text": "lifted"
         }
       ]
     },
@@ -3539,11 +3488,16 @@
             "Height": 24
           },
           "Text": "bles"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 960,
+            "Y": 858,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 126,
@@ -6958,6 +6912,19 @@
             "Height": 26
           },
           "Text": "save"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 955,
+            "Y": 1569,
+            "Width": 19,
+            "Height": 24
+          },
+          "Text": "it"
         }
       ]
     }

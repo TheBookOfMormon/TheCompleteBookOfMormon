@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 564,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 115,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 534,
-            "Y": 115,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 584,
-            "Y": 115,
-            "Width": 84,
-            "Height": 20
-          },
-          "Text": "MORONI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 847,
-            "Y": 109,
-            "Width": 78,
-            "Height": 33
-          },
-          "Text": "fomar"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 954,
-            "Y": 115,
-            "Width": 37,
-            "Height": 21
-          },
-          "Text": "wii"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -2255,11 +2190,16 @@
             "Height": 24
           },
           "Text": "bre"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 988,
+            "Y": 602,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 154,
@@ -3070,10 +3010,10 @@
           "Bounds": {
             "X": 487,
             "Y": 795,
-            "Width": 41,
-            "Height": 23
+            "Width": 45,
+            "Height": 24
           },
-          "Text": "thie"
+          "Text": "the"
         }
       ]
     },
@@ -3164,7 +3104,7 @@
             "Width": 150,
             "Height": 30
           },
-          "Text": "coucerning"
+          "Text": "concerning"
         }
       ]
     },
@@ -3611,7 +3551,7 @@
             "Width": 64,
             "Height": 21
           },
-          "Text": "wavs"
+          "Text": "ways"
         }
       ]
     },
@@ -4971,6 +4911,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 939,
+            "Y": 1212,
+            "Width": 52,
+            "Height": 24
+          },
+          "Text": "God"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 155,
             "Y": 1245,
             "Width": 58,
@@ -5168,10 +5121,10 @@
           "Bounds": {
             "X": 542,
             "Y": 1278,
-            "Width": 67,
+            "Width": 72,
             "Height": 24
           },
-          "Text": "thinz"
+          "Text": "thing"
         }
       ]
     },
@@ -5340,7 +5293,7 @@
             "Width": 64,
             "Height": 24
           },
-          "Text": "faim"
+          "Text": "faith"
         }
       ]
     },
@@ -5535,6 +5488,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 955,
+            "Y": 1340,
+            "Width": 40,
+            "Height": 24
+          },
+          "Text": "my"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 155,
             "Y": 1372,
             "Width": 105,
@@ -5609,6 +5575,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5628,10 +5595,10 @@
           "Bounds": {
             "X": 938,
             "Y": 1372,
-            "Width": 16,
+            "Width": 64,
             "Height": 24
           },
-          "Text": "ha"
+          "Text": "hath"
         }
       ]
     },
@@ -5861,11 +5828,11 @@
         {
           "Bounds": {
             "X": 484,
-            "Y": 1440,
-            "Width": 87,
-            "Height": 22
+            "Y": 1438,
+            "Width": 95,
+            "Height": 26
           },
-          "Text": "Fatlier"
+          "Text": "Father"
         }
       ]
     },

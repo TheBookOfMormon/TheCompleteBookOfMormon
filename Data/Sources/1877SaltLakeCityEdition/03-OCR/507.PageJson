@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 507,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 125,
-            "Y": 120,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 221,
-            "Y": 119,
-            "Width": 19,
-            "Height": 20
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 430,
-            "Y": 119,
-            "Width": 69,
-            "Height": 20
-          },
-          "Text": "POOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 517,
-            "Y": 119,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 119,
-            "Width": 103,
-            "Height": 20
-          },
-          "Text": "MORMON"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -421,7 +356,7 @@
             "Width": 98,
             "Height": 23
           },
-          "Text": "father's"
+          "Text": "father\u0027s"
         }
       ]
     },
@@ -1887,7 +1822,7 @@
             "Width": 155,
             "Height": 23
           },
-          "Text": "Ishmaclites"
+          "Text": "Ishmaelites"
         }
       ]
     },
@@ -2144,15 +2079,20 @@
           "Bounds": {
             "X": 937,
             "Y": 613,
-            "Width": 43,
+            "Width": 30,
             "Height": 24
           },
-          "Text": "Lae"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "La"
+        },
+        {
+          "Bounds": {
+            "X": 976,
+            "Y": 613,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 130,
@@ -2733,11 +2673,7 @@
             "Height": 18
           },
           "Text": "num"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 976,
@@ -2746,11 +2682,7 @@
             "Height": 3
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 132,
@@ -2758,7 +2690,7 @@
             "Width": 41,
             "Height": 23
           },
-          "Text": "per"
+          "Text": "ber"
         }
       ]
     },
@@ -3035,6 +2967,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3495,6 +3428,12 @@
         }
       ]
     },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5694,6 +5633,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -5782,11 +5723,16 @@
             "Height": 24
           },
           "Text": "hard"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 981,
+            "Y": 1418,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 137,
@@ -6068,11 +6014,7 @@
             "Height": 25
           },
           "Text": "Gad"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 973,
@@ -6081,11 +6023,7 @@
             "Height": 7
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 136,
@@ -6093,7 +6031,7 @@
             "Width": 79,
             "Height": 24
           },
-          "Text": "janton"
+          "Text": "ianton"
         }
       ]
     },
@@ -6340,7 +6278,7 @@
             "Width": 28,
             "Height": 25
           },
-          "Text": "Wp"
+          "Text": "up"
         }
       ]
     },

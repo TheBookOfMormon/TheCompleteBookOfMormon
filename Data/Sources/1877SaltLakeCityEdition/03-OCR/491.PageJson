@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 491,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 103,
-            "Y": 136,
-            "Width": 53,
-            "Height": 19
-          },
-          "Text": "ONAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 420,
-            "Y": 126,
-            "Width": 73,
-            "Height": 36
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 126,
-            "Width": 33,
-            "Height": 36
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 559,
-            "Y": 135,
-            "Width": 75,
-            "Height": 19
-          },
-          "Text": "NEPAL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1274,7 +1222,7 @@
             "Width": 44,
             "Height": 23
           },
-          "Text": "gay"
+          "Text": "say"
         }
       ]
     },
@@ -1418,6 +1366,19 @@
             "Height": 30
           },
           "Text": "Yea"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 103,
+            "Y": 499,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "a"
         }
       ]
     },
@@ -2718,11 +2679,16 @@
             "Height": 25
           },
           "Text": "Gen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 948,
+            "Y": 755,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 105,
@@ -4724,7 +4690,7 @@
             "Width": 77,
             "Height": 24
           },
-          "Text": "roany"
+          "Text": "many"
         }
       ]
     },
@@ -5853,11 +5819,16 @@
             "Height": 24
           },
           "Text": "remember"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 951,
+            "Y": 1464,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 107,
@@ -6135,10 +6106,28 @@
           "Bounds": {
             "X": 873,
             "Y": 1528,
-            "Width": 75,
+            "Width": 73,
             "Height": 24
           },
           "Text": "there"
+        },
+        {
+          "Bounds": {
+            "X": 955,
+            "Y": 1528,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 104,
+            "Y": 1560,
+            "Width": 56,
+            "Height": 24
+          },
+          "Text": "fore"
         }
       ]
     },
@@ -6146,10 +6135,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 171,
+            "X": 169,
             "Y": 1560,
             "Width": 19,
-            "Height": 25
+            "Height": 24
           },
           "Text": "it"
         }

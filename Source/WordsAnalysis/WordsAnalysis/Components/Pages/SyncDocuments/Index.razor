@@ -133,9 +133,17 @@
                                     }
                                 </div>
                                 <div class="word-table_word-markers">
-                                    @if (previousDisplayText != null && previousDisplayText == displayText)
+                                    @if (!string.IsNullOrEmpty(previousDisplayText) && previousDisplayText == displayText)
                                     {
                                         <div title="Duplicate word">+</div>
+                                    }
+                                    @if (word?.BenefitOfDoubt == BenefitOfDoubt.InkError)
+                                    {
+                                        <div title="Ink error">I</div>
+                                    }
+                                    @if (word?.BenefitOfDoubt == BenefitOfDoubt.PrinterError)
+                                    {
+                                        <div title="Printer error">P</div>
                                     }
                                 </div>
                             </div>

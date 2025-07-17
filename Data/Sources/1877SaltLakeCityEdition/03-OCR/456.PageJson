@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 456,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 434,
-            "Y": 102,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 519,
-            "Y": 102,
-            "Width": 30,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 570,
-            "Y": 102,
-            "Width": 75,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 828,
-            "Y": 96,
-            "Width": 78,
-            "Height": 31
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 935,
-            "Y": 101,
-            "Width": 44,
-            "Height": 21
-          },
-          "Text": "ITIL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -320,14 +255,31 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 826,
-            "Y": 168,
+            "X": 819,
+            "Y": 173,
             "Width": 142,
-            "Height": 35
+            "Height": 24
           },
           "Text": "beforeGod"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 2,
+      "BenefitOfDoubtText": "before"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 910,
+            "Y": 173,
+            "Width": 52,
+            "Height": 24
+          },
+          "Text": ""
+        }
+      ],
+      "BenefitOfDoubt": 2,
+      "BenefitOfDoubtText": "God"
     },
     {
       "Elements": [
@@ -482,11 +434,7 @@
             "Height": 25
           },
           "Text": "in"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 971,
@@ -495,11 +443,7 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 121,
@@ -507,7 +451,7 @@
             "Width": 105,
             "Height": 24
           },
-          "Text": "gormnuch"
+          "Text": "somuch"
         }
       ]
     },
@@ -4208,11 +4152,24 @@
         {
           "Bounds": {
             "X": 559,
-            "Y": 1073,
-            "Width": 112,
-            "Height": 31
+            "Y": 1076,
+            "Width": 92,
+            "Height": 24
           },
-          "Text": "peoplein"
+          "Text": "people"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 651,
+            "Y": 1076,
+            "Width": 26,
+            "Height": 24
+          },
+          "Text": "in"
         }
       ]
     },
@@ -6189,11 +6146,11 @@
         {
           "Bounds": {
             "X": 490,
-            "Y": 1561,
-            "Width": 49,
-            "Height": 17
+            "Y": 1558,
+            "Width": 67,
+            "Height": 24
           },
-          "Text": "wore"
+          "Text": "were"
         }
       ]
     },
@@ -6272,6 +6229,25 @@
             "Height": 18
           },
           "Text": "se"
+        },
+        {
+          "Bounds": {
+            "X": 962,
+            "Y": 1560,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 113,
+            "Y": 147,
+            "Width": 80,
+            "Height": 31
+          },
+          "IsOnNextPage": true,
+          "Text": "cretly"
         }
       ]
     }

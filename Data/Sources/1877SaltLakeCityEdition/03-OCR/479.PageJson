@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 479,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 138,
-            "Y": 129,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 229,
-            "Y": 120,
-            "Width": 53,
-            "Height": 34
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 464,
-            "Y": 128,
-            "Width": 66,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 550,
-            "Y": 128,
-            "Width": 29,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 600,
-            "Y": 128,
-            "Width": 77,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1513,7 +1448,7 @@
             "Width": 42,
             "Height": 23
           },
-          "Text": "thie"
+          "Text": "the"
         }
       ]
     },
@@ -1826,11 +1761,16 @@
             "Height": 23
           },
           "Text": "encir"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 985,
+            "Y": 524,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 139,
@@ -1881,6 +1821,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2475,7 +2416,7 @@
             "Width": 102,
             "Height": 23
           },
-          "Text": "nimself"
+          "Text": "himself"
         }
       ]
     },
@@ -3737,11 +3678,11 @@
         {
           "Bounds": {
             "X": 255,
-            "Y": 1003,
-            "Width": 22,
-            "Height": 28
+            "Y": 1005,
+            "Width": 42,
+            "Height": 24
           },
-          "Text": "&t"
+          "Text": "eat"
         }
       ]
     },
@@ -3845,7 +3786,7 @@
             "Width": 67,
             "Height": 29
           },
-          "Text": "filied"
+          "Text": "filled"
         }
       ]
     },
@@ -5106,7 +5047,7 @@
             "Width": 64,
             "Height": 24
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -5314,7 +5255,7 @@
             "Width": 62,
             "Height": 23
           },
-          "Text": "shail"
+          "Text": "shall"
         }
       ]
     },
@@ -5393,11 +5334,16 @@
             "Height": 22
           },
           "Text": "Fa"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 983,
+            "Y": 1332,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 139,
@@ -5639,7 +5585,7 @@
             "Width": 70,
             "Height": 29
           },
-          "Text": "spint"
+          "Text": "spirit"
         }
       ]
     },
@@ -5799,6 +5745,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5873,7 +5820,7 @@
             "Width": 36,
             "Height": 24
           },
-          "Text": "bis"
+          "Text": "his"
         }
       ]
     },
@@ -5987,10 +5934,10 @@
           "Bounds": {
             "X": 139,
             "Y": 1492,
-            "Width": 29,
+            "Width": 28,
             "Height": 24
           },
-          "Text": "otf"
+          "Text": "of"
         }
       ]
     },

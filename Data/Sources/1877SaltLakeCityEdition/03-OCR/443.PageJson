@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 443,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 127,
-            "Y": 125,
-            "Width": 65,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 446,
-            "Y": 125,
-            "Width": 64,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 532,
-            "Y": 126,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 582,
-            "Y": 125,
-            "Width": 74,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -199,6 +147,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -755,11 +704,7 @@
             "Height": 24
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 956,
@@ -768,11 +713,7 @@
             "Height": 16
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 129,
@@ -780,7 +721,7 @@
             "Width": 65,
             "Height": 26
           },
-          "Text": "bold"
+          "Text": "hold"
         }
       ]
     },
@@ -1088,11 +1029,11 @@
         {
           "Bounds": {
             "X": 945,
-            "Y": 365,
-            "Width": 29,
-            "Height": 17
+            "Y": 362,
+            "Width": 33,
+            "Height": 24
           },
-          "Text": "neo"
+          "Text": "no"
         }
       ]
     },
@@ -1239,6 +1180,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1976,7 +1918,7 @@
             "Width": 39,
             "Height": 14
           },
-          "Text": "raw"
+          "Text": "saw"
         }
       ]
     },
@@ -2111,7 +2053,7 @@
             "Width": 132,
             "Height": 30
           },
-          "Text": "excecding"
+          "Text": "exceeding"
         }
       ]
     },
@@ -2150,7 +2092,7 @@
             "Width": 22,
             "Height": 24
           },
-          "Text": "ft"
+          "Text": "it"
         }
       ]
     },
@@ -2745,7 +2687,7 @@
             "Width": 91,
             "Height": 25
           },
-          "Text": "fathera"
+          "Text": "fathers"
         }
       ]
     },
@@ -2807,10 +2749,23 @@
           "Bounds": {
             "X": 352,
             "Y": 776,
-            "Width": 116,
+            "Width": 63,
             "Height": 30
           },
-          "Text": "passthat"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 415,
+            "Y": 776,
+            "Width": 54,
+            "Height": 30
+          },
+          "Text": "that"
         }
       ]
     },
@@ -3278,7 +3233,7 @@
             "Width": 67,
             "Height": 28
           },
-          "Text": "band"
+          "Text": "hand"
         }
       ]
     },
@@ -4192,6 +4147,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5518,6 +5474,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5745,10 +5702,10 @@
           "Bounds": {
             "X": 149,
             "Y": 1420,
-            "Width": 25,
-            "Height": 23
+            "Width": 59,
+            "Height": 24
           },
-          "Text": "lan"
+          "Text": "plan"
         }
       ]
     },
@@ -5879,11 +5836,7 @@
             "Height": 23
           },
           "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 958,
@@ -5892,11 +5845,7 @@
             "Height": 23
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 143,
@@ -5904,7 +5853,7 @@
             "Width": 71,
             "Height": 24
           },
-          "Text": "ieved"
+          "Text": "lieved"
         }
       ]
     },
@@ -6099,7 +6048,7 @@
             "Width": 57,
             "Height": 27
           },
-          "Text": "ben"
+          "Text": "been"
         }
       ]
     },
@@ -6685,19 +6634,6 @@
             "Height": 25
           },
           "Text": "the"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 231,
-            "Y": 1612,
-            "Width": 34,
-            "Height": 22
-          },
-          "Text": "2D"
         }
       ]
     }

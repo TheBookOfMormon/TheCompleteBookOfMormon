@@ -754,20 +754,7 @@
             "Width": 111,
             "Height": 32
           },
-          "Text": "Nephitea"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 182,
-            "Y": 537,
-            "Width": 12,
-            "Height": 23
-          },
-          "Text": "I"
+          "Text": "Nephites"
         }
       ]
     },
@@ -777,10 +764,10 @@
           "Bounds": {
             "X": 212,
             "Y": 537,
-            "Width": 41,
+            "Width": 53,
             "Height": 24
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -842,10 +829,23 @@
           "Bounds": {
             "X": 500,
             "Y": 537,
-            "Width": 83,
+            "Width": 60,
             "Height": 31
           },
-          "Text": "passin"
+          "Text": "pass"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 560,
+            "Y": 537,
+            "Width": 24,
+            "Height": 31
+          },
+          "Text": "in"
         }
       ]
     },
@@ -1630,7 +1630,7 @@
             "Width": 90,
             "Height": 23
           },
-          "Text": "vreach"
+          "Text": "preach"
         }
       ]
     },
@@ -4431,11 +4431,16 @@
             "Height": 25
           },
           "Text": "suf"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 989,
+            "Y": 1342,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 145,

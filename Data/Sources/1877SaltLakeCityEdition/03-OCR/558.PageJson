@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 558,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 432,
-            "Y": 112,
-            "Width": 65,
-            "Height": 18
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 518,
-            "Y": 112,
-            "Width": 28,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 568,
-            "Y": 113,
-            "Width": 78,
-            "Height": 18
-          },
-          "Text": "ETHER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 846,
-            "Y": 105,
-            "Width": 65,
-            "Height": 33
-          },
-          "Text": "cHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 933,
-            "Y": 112,
-            "Width": 18,
-            "Height": 18
-          },
-          "Text": "VL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1088,6 +1023,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2389,7 +2325,7 @@
             "Width": 58,
             "Height": 23
           },
-          "Text": "Aud"
+          "Text": "And"
         }
       ]
     },
@@ -2749,11 +2685,11 @@
         {
           "Bounds": {
             "X": 297,
-            "Y": 732,
-            "Width": 73,
-            "Height": 22
+            "Y": 730,
+            "Width": 79,
+            "Height": 26
           },
-          "Text": "Jther"
+          "Text": "Ether"
         }
       ]
     },
@@ -4488,37 +4424,11 @@
         {
           "Bounds": {
             "X": 387,
-            "Y": 1118,
-            "Width": 80,
-            "Height": 23
-          },
-          "Text": "breast"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 1132,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
             "Y": 1119,
-            "Width": 77,
-            "Height": 29
+            "Width": 168,
+            "Height": 22
           },
-          "Text": "plates"
+          "Text": "breast-plates"
         }
       ]
     },
@@ -4541,36 +4451,10 @@
           "Bounds": {
             "X": 639,
             "Y": 1119,
-            "Width": 61,
+            "Width": 150,
             "Height": 22
           },
-          "Text": "head"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 703,
-            "Y": 1132,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 711,
-            "Y": 1118,
-            "Width": 78,
-            "Height": 30
-          },
-          "Text": "plates"
+          "Text": "head-plates"
         }
       ]
     },
@@ -4895,7 +4779,7 @@
             "Width": 142,
             "Height": 30
           },
-          "Text": "congnered"
+          "Text": "conquered"
         }
       ]
     },
@@ -5172,6 +5056,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6565,11 +6450,7 @@
             "Height": 33
           },
           "Text": "epis"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 941,
@@ -6578,6 +6459,16 @@
             "Height": 33
           },
           "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 127,
+            "Y": 166,
+            "Width": 35,
+            "Height": 24
+          },
+          "IsOnNextPage": true,
+          "Text": "tle"
         }
       ]
     }

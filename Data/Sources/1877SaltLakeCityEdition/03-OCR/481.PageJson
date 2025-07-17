@@ -1,74 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 481,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 167,
-            "Y": 135,
-            "Width": 65,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 258,
-            "Y": 127,
-            "Width": 52,
-            "Height": 33
-          },
-          "Text": "VIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 479,
-            "Y": 132,
-            "Width": 68,
-            "Height": 20
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 566,
-            "Y": 130,
-            "Width": 30,
-            "Height": 23
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 617,
-            "Y": 132,
-            "Width": 78,
-            "Height": 22
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -625,11 +560,16 @@
             "Height": 25
           },
           "Text": "suffer"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 1015,
+            "Y": 271,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 169,
@@ -3029,6 +2969,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 168,
+            "Y": 855,
+            "Width": 32,
+            "Height": 24
+          },
+          "Text": "ye"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 217,
             "Y": 853,
             "Width": 93,
@@ -3173,24 +3126,11 @@
         {
           "Bounds": {
             "X": 170,
-            "Y": 861,
-            "Width": 77,
-            "Height": 48
+            "Y": 885,
+            "Width": 76,
+            "Height": 24
           },
-          "Text": "Dlood"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 258,
-            "Y": 894,
-            "Width": 7,
-            "Height": 20
-          },
-          "Text": "-"
+          "Text": "blood"
         }
       ]
     },
@@ -4863,6 +4803,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6289,12 +6230,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 884,
-            "Y": 1560,
-            "Width": 52,
-            "Height": 27
+            "X": 860,
+            "Y": 1561,
+            "Width": 17,
+            "Height": 24
           },
-          "Text": "1l"
+          "Text": "I"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 877,
+            "Y": 1561,
+            "Width": 70,
+            "Height": 24
+          },
+          "Text": "will"
         }
       ]
     },
@@ -6307,7 +6261,7 @@
             "Width": 63,
             "Height": 26
           },
-          "Text": "ghew"
+          "Text": "shew"
         }
       ]
     },
@@ -6342,11 +6296,11 @@
         {
           "Bounds": {
             "X": 311,
-            "Y": 1570,
-            "Width": 121,
-            "Height": 59
+            "Y": 1599,
+            "Width": 129,
+            "Height": 24
           },
-          "Text": "Hereafter"
+          "Text": "hereafter"
         }
       ]
     },

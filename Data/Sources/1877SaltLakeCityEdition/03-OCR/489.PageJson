@@ -1,61 +1,9 @@
 {
   "ImageHeight": 0,
   "ImageWidth": 0,
+  "ManuallyEdited": true,
   "PageNumber": 489,
-  "ManuallyEdited": false,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 52,
-            "Y": 118,
-            "Width": 72,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 392,
-            "Y": 115,
-            "Width": 66,
-            "Height": 19
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 478,
-            "Y": 115,
-            "Width": 29,
-            "Height": 19
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 528,
-            "Y": 115,
-            "Width": 75,
-            "Height": 19
-          },
-          "Text": "NEPHL"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1226,6 +1174,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1462,11 +1411,16 @@
             "Height": 24
           },
           "Text": "sooth"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
+        {
+          "Bounds": {
+            "X": 912,
+            "Y": 414,
+            "Width": 12,
+            "Height": 24
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 58,
@@ -3133,38 +3087,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 395,
-            "Y": 895,
-            "Width": 195,
-            "Height": 28
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 107,
-            "Y": 963,
-            "Width": 16,
-            "Height": 24
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 140,
             "Y": 962,
             "Width": 48,
             "Height": 24
           },
-          "Text": "Bor"
+          "Text": "But"
         }
       ]
     },
@@ -3676,7 +3604,7 @@
             "Width": 78,
             "Height": 24
           },
-          "Text": "Jaeob"
+          "Text": "Jacob"
         }
       ]
     },
