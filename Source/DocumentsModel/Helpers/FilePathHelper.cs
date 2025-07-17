@@ -5,7 +5,7 @@ public static class FilePathHelper
     public static string GetBookInfoFilePath(string sourcesDirectoryPath, string editionCode)
     {
         string editionDirectoryPath = GetEditionDirectoryPath(sourcesDirectoryPath, editionCode);
-        string result = Path.Combine(editionDirectoryPath, "index.json");
+        string result = Path.Combine(editionDirectoryPath, DocumentsModel.Constants.OcrBookInfoFileName);
         return result;
     }
 

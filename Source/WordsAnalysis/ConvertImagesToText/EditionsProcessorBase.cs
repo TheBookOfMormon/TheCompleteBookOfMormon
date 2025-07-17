@@ -56,7 +56,7 @@ public abstract class EditionsProcessorBase : IDisposable
 
     private void Process()
     {
-        var editionDirs = Directory.GetDirectories(SourcesDirectoryPath).Where(x => !x.Contains("JosephSmithPapers")).Where(x => File.Exists(Path.Combine(x, "index.json"))).Order();
+        var editionDirs = Directory.GetDirectories(SourcesDirectoryPath).Where(x => !x.Contains("JosephSmithPapers")).Where(x => File.Exists(Path.Combine(x, DocumentsModel.Constants.OcrBookInfoFileName))).Order();
 
         var editionPagesList = new List<EditionPages>();
         foreach (var editionDir in editionDirs)
