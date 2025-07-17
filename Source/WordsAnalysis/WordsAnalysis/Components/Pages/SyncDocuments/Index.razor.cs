@@ -7,10 +7,11 @@ using WordsAnalysis.Services;
 
 namespace WordsAnalysis.Components.Pages.SyncDocuments;
 
-public partial class Index
+public partial class Index : IDisposable
 {
     private const string LastEditedCellClass = "--last-edited-cell";
     private const string LastEditedRowClass = "--last-edited-row";
+    private bool IsSearchingForNextError;
     private int LoadingCount;
     private bool Loading => LoadingCount > 0;
     private ElementReference SectionNumberElement;
@@ -36,6 +37,16 @@ public partial class Index
         await ViewModel.LoadRowDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;
+    }
+
+    void IDisposable.Dispose()
+    {
+        StopSearchingForNextError();
+    }
+
+    private void StopSearchingForNextError()
+    {
+        IsSearchingForNextError = false;
     }
 
     private string GetEditionClass(OcrBookInfo bookInfo)
@@ -129,31 +140,50 @@ public partial class Index
 
     private async Task ScrollToNextWarningOrErrorAsync()
     {
+        IsSearchingForNextError = true;
         LoadingCount++;
-        do
+        try
         {
-            bool hasWarningOrError = await HtmlService.ScrollToNextErrorAsync();
-            if (hasWarningOrError)
-                break;
-
-            if (ViewModel.SectionIndex < ViewModel.SectionCount - 1)
+            while (IsSearchingForNextError)
             {
-                await SelectedSectionIndexChanged(new ChangeEventArgs { Value = ViewModel.SectionIndex + 1 });
-                StateHasChanged();
-                await Task.Yield();
-                bool firstColumnHasErrorOrWarning = await HtmlService.FirstColumnHasErrorAsync();
-                if (firstColumnHasErrorOrWarning)
+                bool hasWarningOrError = await HtmlService.ScrollToNextErrorAsync();
+                if (hasWarningOrError)
                     break;
+
+                if (ViewModel.SectionIndex < ViewModel.SectionCount - 1)
+                {
+                    if (IsSearchingForNextError)
+                    {
+                        await SelectedSectionIndexChanged(new ChangeEventArgs { Value = ViewModel.SectionIndex + 1 });
+                        StateHasChanged();
+                        await Task.Yield();
+                    }
+                    if (IsSearchingForNextError)
+                    {
+                        bool firstColumnHasErrorOrWarning = await HtmlService.FirstColumnHasErrorAsync();
+                        if (firstColumnHasErrorOrWarning)
+                            break;
+                    }
+                }
+                else
+                {
+                    if (IsSearchingForNextError)
+                    {
+                        ToastService.ClearAll();
+                        ToastService.ShowWarning("No more warnings or errors.", timeout: 3000);
+                        break;
+                    }
+                }
             }
-            else
+            if (IsSearchingForNextError)
             {
-                ToastService.ClearAll();
-                ToastService.ShowWarning("No more warnings or errors.", timeout: 3000);
-                break;
+                await SectionNumberElement.FocusAsync();
             }
-        } while (true);
-        await SectionNumberElement.FocusAsync();
-        LoadingCount--;
+        }
+        finally
+        {
+            LoadingCount--;
+        }
         await Task.Delay(100); // Ignore accidental double-tap
     }
 

@@ -60,11 +60,20 @@
                              AccessKey="X"
                              Enabled=ViewModel.CanNukeTheRestOfThePage
                              OnClick=@ViewModel.NukeTheRestOfThePageAsync />
-            <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
-                             Tooltip="Next discrepancy (Alt N)"
-                             AccessKey="N"
-                             Enabled=@(!Loading && SelectedEditions.Count > 0)
-                             OnClick=@ScrollToNextWarningOrErrorAsync />
+            @if (!IsSearchingForNextError)
+            {
+                <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
+                                 Tooltip="Next discrepancy (Alt N)"
+                                 AccessKey="N"
+                                 Enabled=@(!Loading && SelectedEditions.Count > 0)
+                OnClick=@ScrollToNextWarningOrErrorAsync />
+            }
+            else
+            {
+                <IconPanelButton Icon=Icons.Filled.Size24.RecordStop
+                                 Tooltip="Stop searching"
+                                 OnClick=@StopSearchingForNextError />
+            }
             <FluentCheckbox @bind-Value=ViewModel.ShowBenefitOfDoubt @bind-Value:after=ViewModel.ReloadRowDataAsync Label="BOD" />
             @if (ViewModel.HasSelectedWords)
             {
