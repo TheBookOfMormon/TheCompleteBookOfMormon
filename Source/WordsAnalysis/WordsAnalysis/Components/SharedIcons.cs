@@ -13,6 +13,7 @@ public static class SharedIcons
     public static readonly Icon EstimateWordSize = new Icons.Filled.Size24.Calculator();
     public static readonly Icon Edit = new Icons.Filled.Size24.Edit();
     public static readonly Icon Play = new Icons.Filled.Size24.Play();
+    public static readonly Icon Reports = new Icons.Filled.Size24.ChartMultiple();
     public static readonly Icon SplitWords = new Icons.Filled.Size24.ColumnTripleEdit();
     public static readonly Icon Stop = new Icons.Filled.Size24.Stop();
 }
