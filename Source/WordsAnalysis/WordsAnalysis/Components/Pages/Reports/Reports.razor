@@ -20,3 +20,10 @@
         <EditionSimilarityTable Data=@SimilarityTableData />
     </div>
 }
+@if (HierarchyData != null)
+{
+    <div class="card">
+        <h3>Hierarchy tree</h3>
+        <EditionHierarchyTree Data=@HierarchyData/>
+    </div>
+}

@@ -1,0 +1,62 @@
+﻿.list-tree {
+	--tree-clr: var(--accent-foreground-rest);
+	--tree-font-size: 1rem;
+	--tree-item-height: 1.5;
+	--tree-offset: 1.5rem;
+	--tree-thickness: 2px;
+	--tree-style: solid;
+}
+
+	.list-tree ul {
+		display: grid;
+		list-style: none;
+		font-size: var(--tree-font-size);
+	}
+
+	.list-tree_text {
+		background-color: var(--neutral-fill-layer-rest);
+	}
+
+	.list-tree li {
+		line-height: var(--tree-item-height);
+		padding-inline-start: var(--tree-offset);
+		position: relative;
+		text-indent: 0.5rem;
+		z-index: -1;
+	}
+
+		/* Hide vertical line on the last child */
+		.list-tree li:last-child {
+			border-color: transparent;
+		}
+
+		/* Apply solid line only to nested items */
+		.list-tree li li {
+			border-left: var(--tree-thickness) var(--tree-style) var(--tree-clr);
+		}
+
+			/* Draw L-shaped branch line only on nested items */
+			.list-tree li li::before {
+				content: '';
+				position: absolute;
+				top: calc(var(--tree-item-height) / 2 * -1 * var(--tree-font-size) + var(--tree-thickness) - var(--tree-thickness));
+				left: calc(var(--tree-thickness) * -1);
+				width: calc(var(--tree-offset) + var(--tree-thickness) * 2);
+				height: calc(var(--tree-item-height) * var(--tree-font-size));
+				border-left: var(--tree-thickness) var(--tree-style) var(--tree-clr);
+				border-bottom: var(--tree-thickness) var(--tree-style) var(--tree-clr);
+			}
+
+			/* Draw circular dot only on nested items */
+			.list-tree li li::after {
+				content: '';
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background-color: var(--tree-clr);
+				top: calc(var(--tree-item-height) / 2 * 1rem);
+				left: var(--tree-offset);
+				transform: translate(calc(var(--tree-thickness) * -1), calc(var(--tree-thickness) * -1));
+			}
+

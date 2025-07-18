@@ -7,6 +7,7 @@ public partial class Reports : IDisposable
     private State CurrentState;
     private EditionProcessor EditionProcessor = null!;
     private Dictionary<OcrBookInfo, Dictionary<int, OcrPage>>? Editions;
+    private EditionHierarchyData HierarchyData = null!;
     private readonly Loader Loader;
     private Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> SimilarityTableData = null!;
 
@@ -61,6 +62,7 @@ public partial class Reports : IDisposable
                  x => x.Value.OrderBy(x => x.Key).SelectMany(x => x.Value.Words));
 
         SimilarityTableData = EditionSimilarityTableBuilder.Build(editionsWords);
+        HierarchyData = EditionHierarchyDataBuilder.Build(SimilarityTableData);
         return Task.CompletedTask;
     }
 }

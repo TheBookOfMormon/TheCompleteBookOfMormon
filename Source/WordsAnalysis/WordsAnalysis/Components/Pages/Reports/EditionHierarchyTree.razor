@@ -1,0 +1,23 @@
+<section class="list-tree">
+    @ChildContent(Data)
+</section>
+
+@code {
+    RenderFragment<EditionHierarchyData> ChildContent => context =>
+    @<ul>
+    @RenderNode(context)
+    </ul>;
+
+    private RenderFragment RenderNode(EditionHierarchyData context) => @<li>
+    <span class="list-tree_text">@context.BookInfo.Year @context.BookInfo.ShortCode</span>
+@if (context.Children.Any())
+    {
+    <ul>
+        @foreach (var child in context.Children)
+                {
+        @RenderNode(child)
+                }
+    </ul>
+    }
+</li>;
+}
