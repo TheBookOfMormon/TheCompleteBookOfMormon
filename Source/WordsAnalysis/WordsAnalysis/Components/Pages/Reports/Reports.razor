@@ -3,7 +3,7 @@
 @if (CurrentState == State.Loading)
 {
    <h2>Loading...</h2>
-   <EditionProcessor @ref=EditionProcessor Processor=@Loader HideControlButtons OnFinished=@LoadingFinished />
+   <EditionProcessor @ref=EditionProcessor Processor=@Loader HideControlButtons OnFinished=@LoadingFinishedAsync />
 }
 @if (CurrentState == State.DeterminingHierarchy)
 {
