@@ -107,8 +107,8 @@ public abstract class EditionsProcessorBase : IDisposable
         } while (pageAdded);
 
         var parallelOptions = new ParallelOptions {
-            MaxDegreeOfParallelism = Math.Max(1, Environment.ProcessorCount - 1)
-            //MaxDegreeOfParallelism = 1
+            //MaxDegreeOfParallelism = Math.Max(1, Environment.ProcessorCount - 1)
+            MaxDegreeOfParallelism = 1
         };
 
         Parallel.ForEach(pageJobs, parallelOptions, (_, state) =>

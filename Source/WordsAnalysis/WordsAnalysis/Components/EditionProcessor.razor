@@ -1,18 +1,21 @@
 @using ConvertImagesToText
 <FluentGrid>
     <FluentGridItem xs="12">
-        <FluentButton Appearance=@Appearance.Accent
-                      IconStart=@SharedIcons.Play
-                      Disabled=@(!StartProcessingEnabled)
-                      OnClick=@StartProcessing>
-            Start
-        </FluentButton>
-        <FluentButton Appearance=@Appearance.Neutral
-                      IconStart=@SharedIcons.Stop
-                      Disabled=@(!StopProcessingEnabled)
-                      OnClick=@StopProcessing>
-            Stop
-        </FluentButton>
+        @if (!HideControlButtons)
+        {
+            <FluentButton Appearance=@Appearance.Accent
+                          IconStart=@SharedIcons.Play
+                          Disabled=@(!StartProcessingEnabled)
+                          OnClick=@StartProcessing>
+                Start
+            </FluentButton>
+            <FluentButton Appearance=@Appearance.Neutral
+                          IconStart=@SharedIcons.Stop
+                          Disabled=@(!StopProcessingEnabled)
+                          OnClick=@StopProcessing>
+                Stop
+            </FluentButton>
+        }
         @if (ChildContent != null)
         {
             <div class="mt-4">

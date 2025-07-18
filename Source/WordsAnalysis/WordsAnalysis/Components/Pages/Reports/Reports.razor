@@ -1,2 +1,15 @@
 @page "/Reports"
-Hello
+<PageHeader Href="/" Text="Reports" Disabled=@(EditionProcessor?.StopProcessingEnabled ?? false)/>
+@if (CurrentState == State.Loading)
+{
+   <h2>Loading...</h2>
+   <EditionProcessor @ref=EditionProcessor Processor=@Loader HideControlButtons OnFinished=@LoadingFinished />
+}
+@if (CurrentState == State.DeterminingHierarchy)
+{
+    <h2>Determining hierarchy</h2>
+}
+@if (CurrentState == State.DetectingChanges)
+{
+    <h2>Detecting changes</h2>
+}
