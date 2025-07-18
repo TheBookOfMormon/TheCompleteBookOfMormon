@@ -1,0 +1,37 @@
+﻿.edition-similarity-table {
+	border-collapse: collapse;
+	line-height: 1.1em;
+}
+
+	.edition-similarity-table th,
+	.edition-similarity-table td {
+		border: 1px solid var(--neutral-stroke-rest);
+		padding: .25rem;
+	}
+
+	.edition-similarity-table > thead > tr {
+		position: sticky;
+		left: 0;
+		background: var(--neutral-fill-secondary-rest);
+		color: var(--neutral-foreground-rest);
+		z-index: 100;
+	}
+
+	.edition-similarity-table > tbody {
+	}
+
+		.edition-similarity-table > tbody > tr > td {
+		}
+
+		.edition-similarity-table > tbody > tr > th {
+			position: sticky;
+			left: 0;
+			background: var(--neutral-fill-secondary-rest);
+			color: var(--neutral-foreground-rest);
+			z-index: 100;
+		}
+
+.--highest-score {
+	background-color: var(--accent-fill-active);
+	color: var(--foreground-on-accent-active);
+}

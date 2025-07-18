@@ -33,6 +33,8 @@ public record OcrBookInfo : IComparable<OcrBookInfo>
     public int CompareTo(OcrBookInfo? other)
     {
         if (other == null) return 1;
-        return Code.CompareTo(other.Code);
+        if (other.Year == Year)
+            return Code.CompareTo(other.Code);
+        return Year.CompareTo(other.Year);
     }
 }

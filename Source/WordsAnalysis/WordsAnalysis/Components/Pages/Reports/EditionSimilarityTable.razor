@@ -1,0 +1,53 @@
+﻿@using DocumentsModel
+
+@{
+    OcrBookInfo[] orderedKeys = Data.Select(x => x.Key).OrderBy(x => x).ToArray();
+}
+<table class="edition-similarity-table">
+    <thead>
+        <tr>
+            <th>&nbsp;</th>
+            @foreach (var row in Data.OrderBy(x => x.Key).Take(orderedKeys.Length - 1))
+            {
+                <th>@row.Key.Year&nbsp;@row.Key.ShortCode</th>
+            }
+            <th>Base edition</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var row in Data.OrderBy(x => x.Key).Skip(1))
+        {
+            decimal maxScore = 0m;
+            OcrBookInfo? baseEdition = null;
+            if (row.Value.Values.Any())
+            {
+                maxScore = row.Value.Values.Max();
+            }
+            <tr>
+                <th>@row.Key.Year @row.Key.ShortCode</th>
+                @foreach (OcrBookInfo key in orderedKeys.Take(orderedKeys.Length - 1))
+                {
+                    if (!row.Value.TryGetValue(key, out decimal score))
+                    {
+                        <td>&nbsp;</td>
+                    }
+                    else
+                    {
+                        bool isHighestScore = score == maxScore;
+                        if (isHighestScore)
+                        {
+                           if (baseEdition == null || key.Year < baseEdition.Year)
+                              baseEdition = key;
+                        }
+                        <td class=@GetScoreCellClass(maxScore, score)>
+                            @score.ToString("f4")
+                        </td>
+                    }
+                }
+                <td>
+                    @baseEdition?.Year&nbsp;@baseEdition?.ShortCode
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

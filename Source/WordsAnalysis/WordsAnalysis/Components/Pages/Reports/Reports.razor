@@ -1,9 +1,9 @@
 @page "/Reports"
-<PageHeader Href="/" Text="Reports" Disabled=@(EditionProcessor?.StopProcessingEnabled ?? false)/>
+<PageHeader Href="/" Text="Reports" Disabled=@(EditionProcessor?.StopProcessingEnabled ?? false) />
 @if (CurrentState == State.Loading)
 {
-   <h2>Loading...</h2>
-   <EditionProcessor @ref=EditionProcessor Processor=@Loader HideControlButtons OnFinished=@LoadingFinishedAsync />
+    <h2>Loading...</h2>
+    <EditionProcessor @ref=EditionProcessor Processor=@Loader HideControlButtons OnFinished=@LoadingFinishedAsync />
 }
 @if (CurrentState == State.DeterminingHierarchy)
 {
@@ -12,4 +12,11 @@
 @if (CurrentState == State.DetectingChanges)
 {
     <h2>Detecting changes</h2>
+}
+@if (SimilarityTableData != null)
+{
+    <div class="card">
+        <h3>Similarity table</h3>
+        <EditionSimilarityTable Data=@SimilarityTableData />
+    </div>
 }

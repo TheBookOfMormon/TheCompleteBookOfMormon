@@ -6,8 +6,9 @@ public partial class Reports : IDisposable
 {
     private State CurrentState;
     private EditionProcessor EditionProcessor = null!;
+    private Dictionary<OcrBookInfo, Dictionary<int, OcrPage>>? Editions;
     private readonly Loader Loader;
-    Dictionary<OcrBookInfo, Dictionary<int, OcrPage>>? Editions;
+    private Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> SimilarityTableData = null!;
 
     private enum State
     {
@@ -43,21 +44,14 @@ public partial class Reports : IDisposable
         Editions = Loader.GetEditions();
         StateHasChanged();
         await Task.Yield();
-        var editionsWords = Editions
+        Dictionary<OcrBookInfo, IEnumerable<OcrWord?>> editionsWords = Editions
              .ToDictionary(
                  x => x.Key,
-                 x => x.Value.OrderBy(x => x.Key).SelectMany(x => x.Value.Words).Select(x => SanitizeWord(x)).ToArray());
+                 x => x.Value.OrderBy(x => x.Key).SelectMany(x => x.Value.Words));
 
-        Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> similarityTable = EditionSimilarityTableBuilder.Build(editionsWords);
+        SimilarityTableData = EditionSimilarityTableBuilder.Build(editionsWords);
     }
 
-    private static string SanitizeWord(OcrWord? word)
-    {
-        if (word == null) return "";
-        if (word.ShowDashes) return "";
-        string combinedText = word.GetCombinedText();
-        return combinedText;
-    }
 
 
 }

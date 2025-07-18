@@ -4,14 +4,18 @@ namespace WordsAnalysis.Components.Pages.Reports;
 
 internal static class EditionSimilarityTableBuilder
 {
-    public static Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> Build(Dictionary<OcrBookInfo, string[]> editionsWords)
+    public static Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> Build(Dictionary<OcrBookInfo, IEnumerable<OcrWord?>> editions)
     {
+        Dictionary<OcrBookInfo, string[]> editionsWords = editions
+            .ToDictionary(
+                x => x.Key,
+                x => x.Value.Select(SanitizeWord).ToArray());
         int maxWords = editionsWords.Max(x => x.Value.Length);
         Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> similarityTable =
             editionsWords.ToDictionary(
                 x => x.Key,
                 x => editionsWords
-                    .Where(other => other.Key.Year > x.Key.Year)
+                    .Where(other => other.Key.Year < x.Key.Year)
                     .ToDictionary(x => x.Key, x => 0m));
 
         int mostWords = editionsWords.Max(x => x.Value.Length);
@@ -37,12 +41,15 @@ internal static class EditionSimilarityTableBuilder
             if (!string.IsNullOrEmpty(leftWord))
             {
                 string rightWord = right[i];
-                if (leftWord.Equals(rightWord, StringComparison.OrdinalIgnoreCase))
+                if (leftWord.Equals(rightWord, StringComparison.Ordinal))
+                {
+                    result += 2;
+                }
+                else if (leftWord.Equals(rightWord, StringComparison.OrdinalIgnoreCase))
                 {
                     result += 1;
-                    if (WordHasUpperChars(leftWord))
-                        result += 1;
                 }
+
             }
         }
 
@@ -50,5 +57,13 @@ internal static class EditionSimilarityTableBuilder
         return result / maxAvailableScore * 100m;
     }
 
-    private static bool WordHasUpperChars(string word) => word.Any(char.IsUpper);
+    private static string SanitizeWord(OcrWord? word)
+    {
+        if (word == null) return "";
+        if (word.ShowDashes) return "";
+        if (word.BenefitOfDoubt == BenefitOfDoubt.InkError) return word.BenefitOfDoubtText!;
+        string combinedText = word.GetCombinedText();
+        return combinedText;
+    }
+
 }
