@@ -41,17 +41,26 @@ public partial class Reports : IDisposable
     private async Task LoadingFinishedAsync()
     {
         CurrentState = State.DeterminingHierarchy;
-        Editions = Loader.GetEditions();
         StateHasChanged();
         await Task.Yield();
-        Dictionary<OcrBookInfo, IEnumerable<OcrWord?>> editionsWords = Editions
+
+        Editions = Loader.GetEditions();
+        await DetermineHierarchyAsync();
+
+        CurrentState = State.Finished;
+        StateHasChanged();
+        await Task.Yield();
+
+    }
+
+    private Task DetermineHierarchyAsync()
+    {
+        Dictionary<OcrBookInfo, IEnumerable<OcrWord?>> editionsWords = Editions!
              .ToDictionary(
                  x => x.Key,
                  x => x.Value.OrderBy(x => x.Key).SelectMany(x => x.Value.Words));
 
         SimilarityTableData = EditionSimilarityTableBuilder.Build(editionsWords);
+        return Task.CompletedTask;
     }
-
-
-
 }

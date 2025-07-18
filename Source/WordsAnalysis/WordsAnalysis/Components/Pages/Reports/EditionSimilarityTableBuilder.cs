@@ -60,10 +60,9 @@ internal static class EditionSimilarityTableBuilder
     private static string SanitizeWord(OcrWord? word)
     {
         if (word == null) return "";
-        if (word.ShowDashes) return "";
         if (word.BenefitOfDoubt == BenefitOfDoubt.InkError) return word.BenefitOfDoubtText!;
-        string combinedText = word.GetCombinedText();
-        return combinedText;
+        string result = word.GetDisplayText(showBenefitOfDoubt: false);
+        return result;
     }
 
 }
