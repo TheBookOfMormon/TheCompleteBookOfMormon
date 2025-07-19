@@ -5,6 +5,7 @@ namespace WordsAnalysis.Components.Pages.Reports;
 public partial class Reports : IDisposable
 {
     private State CurrentState;
+    private string? DetectChangesStatus;
     private EditionProcessor EditionProcessor = null!;
     private Dictionary<OcrBookInfo, WordEntry[]>? Editions;
     private EditionHierarchyData HierarchyData = null!;
@@ -54,15 +55,17 @@ public partial class Reports : IDisposable
 
         Dictionary<OcrBookInfo, Dictionary<int, OcrPage>> editions = Loader.GetEditions();
         Editions = ConvertEditionsData(editions);
-        await DetermineHierarchyAsync();
+        DetermineHierarchy();
 
-        CurrentState = State.Finished;
+        CurrentState = State.DetectingChanges;
         StateHasChanged();
         await Task.Yield();
+        await DetectChangesAsync(HierarchyData);
 
+        CurrentState = State.Finished;
     }
 
-    private Task DetermineHierarchyAsync()
+    private void DetermineHierarchy()
     {
         Dictionary<OcrBookInfo, IEnumerable<OcrWord?>> editionsWords = Editions!
              .ToDictionary(
@@ -71,7 +74,24 @@ public partial class Reports : IDisposable
 
         SimilarityTableData = EditionSimilarityTableBuilder.Build(editionsWords);
         HierarchyData = EditionHierarchyDataBuilder.Build(SimilarityTableData);
-        return Task.CompletedTask;
+    }
+
+    private async Task DetectChangesAsync(EditionHierarchyData parent)
+    {
+        foreach(EditionHierarchyData child in parent.Children)
+        {
+            await GenerateChangesReportAsync(parent, child);
+            await DetectChangesAsync(child);
+        }
+        DetectChangesStatus = null;
+    }
+
+    private async Task GenerateChangesReportAsync(EditionHierarchyData parent, EditionHierarchyData child)
+    {
+        DetectChangesStatus = $"Detecting changes from {parent.BookInfo.Year} {parent.BookInfo.ShortCode} to {child.BookInfo.Year} {child.BookInfo.ShortCode}";
+        StateHasChanged();
+        await Task.Yield();
+        await Task.Delay(1000);
     }
 
     private static Dictionary<OcrBookInfo, WordEntry[]>? ConvertEditionsData(Dictionary<OcrBookInfo, Dictionary<int, OcrPage>> editions)
@@ -97,6 +117,4 @@ public partial class Reports : IDisposable
         }
         return result;
     }
-
-
 }

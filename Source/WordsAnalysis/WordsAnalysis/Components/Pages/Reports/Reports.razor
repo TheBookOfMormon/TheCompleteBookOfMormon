@@ -12,6 +12,10 @@
 @if (CurrentState == State.DetectingChanges)
 {
     <h2>Detecting changes</h2>
+    @if (DetectChangesStatus != null)
+    {
+        <h3>@DetectChangesStatus</h3>
+    }
 }
 @if (SimilarityTableData != null)
 {
