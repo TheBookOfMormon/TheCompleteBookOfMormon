@@ -7,17 +7,10 @@ public partial class Reports : IDisposable
     private State CurrentState;
     private string? DetectChangesStatus;
     private EditionProcessor EditionProcessor = null!;
-    private Dictionary<OcrBookInfo, WordEntry[]>? Editions;
+    private Dictionary<OcrBookInfo, WordEntryData[]>? Editions;
     private EditionHierarchyData HierarchyData = null!;
     private readonly Loader Loader;
     private Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> SimilarityTableData = null!;
-
-    private readonly struct WordEntry
-    {
-        public required int PageNumber { get; init; }
-        public required int WordIndex { get; init; }
-        public required OcrWord? Word { get; init; }
-    }
 
     private enum State
     {
@@ -91,23 +84,28 @@ public partial class Reports : IDisposable
         DetectChangesStatus = $"Detecting changes from {parent.BookInfo.Year} {parent.BookInfo.ShortCode} to {child.BookInfo.Year} {child.BookInfo.ShortCode}";
         StateHasChanged();
         await Task.Yield();
-        await Task.Delay(1000);
+
+        WordEntryData[] parentWords = Editions![parent.BookInfo];
+        WordEntryData[] childWords = Editions![child.BookInfo];
+        using var writer = new StringWriter();
+        EditionComparisonDataBuilder.Build(writer, parentWords, childWords);
     }
 
-    private static Dictionary<OcrBookInfo, WordEntry[]>? ConvertEditionsData(Dictionary<OcrBookInfo, Dictionary<int, OcrPage>> editions)
+    private static Dictionary<OcrBookInfo, WordEntryData[]>? ConvertEditionsData(Dictionary<OcrBookInfo, Dictionary<int, OcrPage>> editions)
     {
-        var result = new Dictionary<OcrBookInfo, WordEntry[]>();
+        var result = new Dictionary<OcrBookInfo, WordEntryData[]>();
         foreach (var editionKvp in editions)
         {
-            var words = new List<WordEntry>(300000);
+            var words = new List<WordEntryData>(300000);
             foreach(var pageKvp in editionKvp.Value.OrderBy(x => x.Key))
             {
-                int wordIndex = 0;
+                int wordIndex = -1;
                 foreach(var word in pageKvp.Value.Words)
                 {
-                    var entry = new WordEntry {
+                    wordIndex++;
+                    var entry = new WordEntryData {
                         PageNumber = pageKvp.Key,
-                        WordIndex = wordIndex++,
+                        WordIndex = wordIndex,
                         Word = word
                     };
                     words.Add(entry);
