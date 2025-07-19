@@ -183,6 +183,7 @@ public partial class Index : IDisposable
         finally
         {
             LoadingCount--;
+            IsSearchingForNextError = false;
         }
         await Task.Delay(100); // Ignore accidental double-tap
     }

@@ -1,8 +1,18 @@
 {
   "ImageHeight": 1876,
   "ImageWidth": 1170,
+  "ManuallyEdited": true,
   "PageNumber": 1,
   "Words": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "Elements": [
         {
@@ -52,19 +62,6 @@
             "Height": 78
           },
           "Text": "MORMON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 329,
-            "Y": 395,
-            "Width": 1,
-            "Height": 2
-          },
-          "Text": "-"
         }
       ]
     },
@@ -176,6 +173,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 519,
+            "Y": 535,
+            "Width": 64,
+            "Height": 24
+          },
+          "Text": "UPON"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 242,
             "Y": 592,
             "Width": 101,
@@ -255,11 +265,11 @@
         {
           "Bounds": {
             "X": 751,
-            "Y": 592,
-            "Width": 87,
-            "Height": 51
+            "Y": 593,
+            "Width": 95,
+            "Height": 48
           },
-          "Text": "Heght"
+          "Text": "Nephi"
         }
       ]
     },
@@ -424,11 +434,11 @@
         {
           "Bounds": {
             "X": 714,
-            "Y": 753,
-            "Width": 55,
-            "Height": 21
+            "Y": 754,
+            "Width": 60,
+            "Height": 18
           },
-          "Text": "Nepbi"
+          "Text": "Nephi"
         }
       ]
     },
@@ -558,12 +568,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 289,
+            "X": 307,
             "Y": 779,
-            "Width": 124,
+            "Width": 104,
             "Height": 18
           },
-          "Text": "amanites"
+          "Text": "Lamanites"
         }
       ]
     },
@@ -888,7 +898,7 @@
             "Width": 55,
             "Height": 19
           },
-          "Text": "Bpirit"
+          "Text": "Spirit"
         }
       ]
     },
@@ -1083,7 +1093,7 @@
             "Width": 44,
             "Height": 18
           },
-          "Text": "lord"
+          "Text": "Lord"
         }
       ]
     },
@@ -1443,11 +1453,11 @@
         {
           "Bounds": {
             "X": 381,
-            "Y": 876,
-            "Width": 24,
-            "Height": 24
+            "Y": 879,
+            "Width": 33,
+            "Height": 18
           },
-          "Text": "bid"
+          "Text": "hid"
         }
       ]
     },
@@ -2795,14 +2805,15 @@
         {
           "Bounds": {
             "X": 815,
-            "Y": 1038,
-            "Width": 55,
-            "Height": 24
+            "Y": 1041,
+            "Width": 75,
+            "Height": 18
           },
           "Text": "forever"
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3457,41 +3468,16 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 84,
-            "Y": 1139,
-            "Width": 101,
-            "Height": 22
+            "X": 88,
+            "Y": 1142,
+            "Width": 145,
+            "Height": 16
           },
-          "Text": "Judgment"
+          "Text": "judgment-seat"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 185,
-            "Y": 1139,
-            "Width": 8,
-            "Height": 22
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 189,
-            "Y": 1139,
-            "Width": 42,
-            "Height": 22
-          },
-          "Text": "seat"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -3580,435 +3566,6 @@
             "Height": 26
           },
           "Text": "JUN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 136,
-            "Y": 1337,
-            "Width": 117,
-            "Height": 18
-          },
-          "Text": "DIVISION"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 275,
-            "Y": 1337,
-            "Width": 58,
-            "Height": 17
-          },
-          "Text": "INTO"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 355,
-            "Y": 1336,
-            "Width": 134,
-            "Height": 17
-          },
-          "Text": "CHAPTERS"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 511,
-            "Y": 1336,
-            "Width": 52,
-            "Height": 16
-          },
-          "Text": "AND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 587,
-            "Y": 1336,
-            "Width": 97,
-            "Height": 16
-          },
-          "Text": "VERSES"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 714,
-            "Y": 1336,
-            "Width": 63,
-            "Height": 24
-          },
-          "Text": "WITH"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 795,
-            "Y": 1336,
-            "Width": 19,
-            "Height": 39
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 738,
-            "Y": 1375,
-            "Width": 57,
-            "Height": 73
-          },
-          "Text": "pe"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 795,
-            "Y": 1355,
-            "Width": 96,
-            "Height": 45
-          },
-          "Text": "O"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 900,
-            "Y": 1330,
-            "Width": 104,
-            "Height": 97
-          },
-          "Text": "HEY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 738,
-            "Y": 1443,
-            "Width": 36,
-            "Height": 75
-          },
-          "Text": "os"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 799,
-            "Y": 1451,
-            "Width": 76,
-            "Height": 67
-          },
-          "Text": "JUN"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 799,
-            "Y": 1531,
-            "Width": 99,
-            "Height": 63
-          },
-          "Text": "ODL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 896,
-            "Y": 1529,
-            "Width": 36,
-            "Height": 70
-          },
-          "Text": "EI"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 943,
-            "Y": 1531,
-            "Width": 70,
-            "Height": 63
-          },
-          "Text": "NYY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 354,
-            "Y": 1590,
-            "Width": 379,
-            "Height": 29
-          },
-          "Text": "LIVERPOOIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 119,
-            "Y": 1662,
-            "Width": 122,
-            "Height": 20
-          },
-          "Text": "PRINTED"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 258,
-            "Y": 1662,
-            "Width": 54,
-            "Height": 20
-          },
-          "Text": "AND"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 328,
-            "Y": 1662,
-            "Width": 132,
-            "Height": 20
-          },
-          "Text": "PUBLISHED"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 494,
-            "Y": 1662,
-            "Width": 34,
-            "Height": 19
-          },
-          "Text": "BY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 542,
-            "Y": 1661,
-            "Width": 117,
-            "Height": 19
-          },
-          "Text": "WILLIAM"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 675,
-            "Y": 1660,
-            "Width": 82,
-            "Height": 25
-          },
-          "Text": "BUDGE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 847,
-            "Y": 1657,
-            "Width": 139,
-            "Height": 22
-          },
-          "Text": "ISLINGTON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 267,
-            "Y": 1779,
-            "Width": 106,
-            "Height": 48
-          },
-          "Text": "ul"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 533,
-            "Y": 1786,
-            "Width": 75,
-            "Height": 32
-          },
-          "Text": "om"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 743,
-            "Y": 1743,
-            "Width": 140,
-            "Height": 76
-          },
-          "Text": "S20"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 612,
-            "Y": 1835,
-            "Width": 5,
-            "Height": 9
-          },
-          "Text": "LJ"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 391,
-            "Y": 1393,
-            "Width": 33,
-            "Height": 20
-          },
-          "Text": "BY"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 447,
-            "Y": 1392,
-            "Width": 87,
-            "Height": 21
-          },
-          "Text": "ORSON"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 556,
-            "Y": 1392,
-            "Width": 70,
-            "Height": 24
-          },
-          "Text": "PRATT"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 670,
-            "Y": 1392,
-            "Width": 26,
-            "Height": 20
-          },
-          "Text": "Sen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 304,
-            "Y": 1494,
-            "Width": 295,
-            "Height": 26
-          },
-          "Text": "ELECTROTYPE"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 633,
-            "Y": 1465,
-            "Width": 104,
-            "Height": 53
-          },
-          "Text": "EDIT"
         }
       ]
     }
