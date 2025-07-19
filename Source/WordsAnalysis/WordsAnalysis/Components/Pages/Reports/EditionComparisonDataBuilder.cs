@@ -1,7 +1,10 @@
-﻿namespace WordsAnalysis.Components.Pages.Reports;
+﻿using System.Diagnostics;
+
+namespace WordsAnalysis.Components.Pages.Reports;
 
 internal static class EditionComparisonDataBuilder
 {
+    [DebuggerDisplay("{ParentWordText} -> {ChildWordText} (P{ParentPage} & P{ChildPage})")]
     private class Change
     {
         public required int ParentPage { get; init; }
