@@ -130,10 +130,10 @@ public record PageState
         if (imageOptions == null || !imageOptions.ShowHighContrast) return;
 
         image.ColorType = ColorType.Grayscale;
-        image.Contrast();
-        image.Sharpen();
-        image.Sharpen();
         image.MedianFilter();
+        image.Sharpen();
+        image.Sharpen();
+        image.Contrast();
         if (imageOptions.ApplyThreshold)
         {
             int lower = imageOptions.ThresholdLower;

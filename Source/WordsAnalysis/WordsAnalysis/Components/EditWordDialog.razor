@@ -55,12 +55,12 @@
                     bool isReadonly = index == 1 && item.Text == "-";
                     <div>
                         <FluentToolbar>
-                            <FluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUp(e, capturedIndex)) />
-                            <FluentButton IconStart=@SharedIcons.ArrowDown OnClick=@(e => MoveDown(e, capturedIndex)) />
-                            <FluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e, capturedIndex)) />
-                            <FluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
-                            <FluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
-                            <FluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUp(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowDown OnClick=@(e => MoveDown(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
+                            <RepeatingFluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
                         </FluentToolbar>
                     </div>
                     <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
