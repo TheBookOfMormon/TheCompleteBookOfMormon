@@ -238,7 +238,7 @@ public partial class EditWordDialog : IAsyncDisposable
         if (wasAfter != newIsAfter)
             AddWordAfter = newIsAfter;
         UpdateImageData();
-        StateHasChanged();
+        //StateHasChanged();
 
         bool isAfter()
         {

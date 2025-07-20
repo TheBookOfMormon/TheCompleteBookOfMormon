@@ -2,18 +2,12 @@
 using Microsoft.AspNetCore.Components.Rendering;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WordsAnalysis.Components;
 
 public class RepeatingFluentButton : FluentButton, IAsyncDisposable
 {
-    private bool IsDown;
-    private bool IsDisposed;
+    private CancellationTokenSource? MouseDownCancellationTokenSource;
 
     protected override void BuildRenderTree(RenderTreeBuilder builder)
     {
@@ -26,7 +20,7 @@ public class RepeatingFluentButton : FluentButton, IAsyncDisposable
 
     async ValueTask IAsyncDisposable.DisposeAsync()
     {
-        IsDisposed = true;
+        MouseDownCancellationTokenSource?.Cancel();
         await base.DisposeAsync();
     }
 
@@ -34,12 +28,13 @@ public class RepeatingFluentButton : FluentButton, IAsyncDisposable
     {
         if (e.Button == 0)
         {
-            IsDown = true;
-            await Task.Delay(500);
-            while (IsDown && !IsDisposed)
+            MouseDownCancellationTokenSource = new CancellationTokenSource();
+            var cancellationToken = MouseDownCancellationTokenSource.Token;
+            await Task.Delay(500, cancellationToken);
+            while (!cancellationToken.IsCancellationRequested)
             {
                 await OnClick.InvokeAsync(e);
-                await Task.Delay(100);
+                await Task.Delay(100, cancellationToken);
             }
         }
     }
@@ -48,7 +43,10 @@ public class RepeatingFluentButton : FluentButton, IAsyncDisposable
     {
         if (e.Button == 0)
         {
-            IsDown = false;
-        };
+            var source = MouseDownCancellationTokenSource;
+            MouseDownCancellationTokenSource = null;
+            source?.Cancel();
+        }
+        ;
     }
 }
