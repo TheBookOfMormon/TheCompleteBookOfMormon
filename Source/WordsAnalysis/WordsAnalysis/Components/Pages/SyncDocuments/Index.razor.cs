@@ -99,6 +99,7 @@ public partial class Index : IDisposable
             Merge composite word (ALT M)
             Split words (ALT X)
             Select column (ALT C)
+            Mark words as editorial formatting change (ALT F)
             """;
     }
 

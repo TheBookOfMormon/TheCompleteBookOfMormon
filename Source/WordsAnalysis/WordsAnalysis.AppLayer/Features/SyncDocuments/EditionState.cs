@@ -46,6 +46,12 @@ public record EditionState
         return newEditionState;
     }
 
+    public bool CanMarkWordAsEditorialFormattingChange(WordReference wordReference)
+    {
+        OcrWord? ocrWord = wordReference.GetWord(this);
+        return ocrWord != null && !ocrWord.IsComposite() && ocrWord.BenefitOfDoubt == BenefitOfDoubt.None;
+    }
+
     public bool CanMergeWords(Tuple<WordReference, WordReference, WordReference> wordReferencesTuple)
     {
         IReadOnlyList<OcrWord?> ocrWords = GetWordsInOrder(wordReferencesTuple);
@@ -143,6 +149,19 @@ public record EditionState
             pageMetas.Add(meta);
         }
         return new EditionState(bookInfo, pageMetas);
+    }
+
+    public static EditionState MarkWordAsEditorialFormattingChange(EditionState newEditionState, WordReference wordReference)
+    {
+        if (!newEditionState.CanMarkWordAsEditorialFormattingChange(wordReference)) return newEditionState;
+        OcrWord newOcrWord = wordReference.GetWord(newEditionState)!;
+
+        string newText = newOcrWord.Elements[0].Text.ToLower();
+        newOcrWord = newOcrWord with {
+            BenefitOfDoubt = BenefitOfDoubt.EditorialFormatting,
+            BenefitOfDoubtText = newText
+        };
+        return EditionState.ReplaceWord(newEditionState, wordReference, [newOcrWord]);
     }
 
     public static EditionState MergeWords(EditionState originalEditionState, Tuple<WordReference, WordReference, WordReference> wordReferences)

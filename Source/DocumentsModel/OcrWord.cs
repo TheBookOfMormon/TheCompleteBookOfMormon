@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace DocumentsModel;
 
-[DebuggerDisplay("{GetDisplayText()}")]
+[DebuggerDisplay("{GetDisplayText(false)}")]
 public record OcrWord
 {
     public required ImmutableList<OcrElement> Elements { get; init; }
@@ -22,6 +22,9 @@ public record OcrWord
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public string? BenefitOfDoubtText { get; init; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+    public string? Notes { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public bool ShowDashes { get; init;  }

@@ -40,21 +40,11 @@
                              Tooltip="Deselect all"
                              Enabled=@ViewModel.HasSelectedWords
                              OnClick=@ViewModel.DeselectAll />
-            <IconPanelButton Icon=Icons.Filled.Size24.Merge
-                             Tooltip="Merge words (Alt M)"
-                             Enabled=@ViewModel.CanMergeWords
-                             AccessKey="M"
-                             OnClick=@(() => ViewModel.MergeSelectedWordsAsync()) />
             <IconPanelButton Icon=Icons.Filled.Size24.AlignLeft
                              Tooltip="Align words (Alt L)"
                              Enabled=@ViewModel.CanAlignSelectedWords
                              AccessKey="L"
                              OnClick=@ViewModel.AlignSelectedWordsAsync />
-            <IconPanelButton Icon=Icons.Filled.Size24.SubtractSquare
-                             Tooltip="Delete words (Alt D)"
-                             Enabled=ViewModel.CanDeletedWords
-                             AccessKey="D"
-                             OnClick=@(() => ViewModel.DeleteSelectedWordsAsync()) />
             <IconPanelButton Icon=Icons.Filled.Size24.ChannelSubtract
                              Tooltip="Delete section (ALT X)"
                              AccessKey="X"
@@ -66,7 +56,7 @@
                                  Tooltip="Next discrepancy (Alt N)"
                                  AccessKey="N"
                                  Enabled=@(!Loading && SelectedEditions.Count > 0)
-                OnClick=@ScrollToNextWarningOrErrorAsync />
+                                 OnClick=@ScrollToNextWarningOrErrorAsync />
             }
             else
             {
@@ -79,6 +69,7 @@
             {
                 <span style="margin-left: 1rem">@ViewModel.SelectedWords.Count selected word(s)</span>
             }
+
         </IconPanel>
         <div style="display:none">
             <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync()) style="display:none;" />
@@ -89,6 +80,7 @@
             <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) style="display:none;" />
             <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) style="display:none;" />
             <button accesskey="c" @onclick=@(() => ViewModel.SelectColumnAsync()) style="display:none;" />
+            <button accesskey="f" @onclick=@(() => ViewModel.MarkSelectedWordsAsEditorialFormattingChangesAsync()) style="display:none;" />
         </div>
     </PageHeader>
 
@@ -153,6 +145,10 @@
                                     @if (word?.BenefitOfDoubt == BenefitOfDoubt.PrinterError)
                                     {
                                         <div title="Printer error">P</div>
+                                    }
+                                    @if (word?.BenefitOfDoubt == BenefitOfDoubt.EditorialFormatting)
+                                    {
+                                        <div title="Editorial formatting">F</div>
                                     }
                                 </div>
                             </div>

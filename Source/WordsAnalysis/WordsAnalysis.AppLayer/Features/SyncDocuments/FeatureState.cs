@@ -185,6 +185,19 @@ public record FeatureState
         return newFeatureState;
     }
 
+    public static FeatureState MarkSelectedWordsAsEditorialFormattingChanges(FeatureState newFeatureState)
+    {
+        foreach(WordReference wordReference in newFeatureState.SelectedWords)
+        {
+            EditionState newEditionState = newFeatureState.Editions[wordReference.BookInfo];
+            newEditionState = EditionState.MarkWordAsEditorialFormattingChange(newEditionState, wordReference);
+            newFeatureState = newFeatureState with {
+                Editions = newFeatureState.Editions.SetItem(newEditionState.BookInfo, newEditionState)
+            };
+        }
+        return newFeatureState with { SelectedWords = [] };
+    }
+
     public static FeatureState MergeWords(FeatureState featureState)
     {
         if (!featureState.CanMergeWords()) return featureState;

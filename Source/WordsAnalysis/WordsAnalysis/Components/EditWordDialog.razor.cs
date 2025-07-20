@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
-using System.ComponentModel.DataAnnotations;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
 
@@ -33,6 +32,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
     private string LineHeightPreferenceKey = "";
+    private string? Notes = "";
     private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
     private string? PageImageData;
@@ -67,6 +67,7 @@ public partial class EditWordDialog : IAsyncDisposable
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
         OriginalBounds = Word.Elements[0].Bounds;
+        Notes = Word.Notes;
         if (Content.IsAdd)
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
@@ -108,7 +109,12 @@ public partial class EditWordDialog : IAsyncDisposable
     private OcrWord CreateWord()
     {
         ImmutableList<OcrElement> newElements = Texts.Select(x => new OcrElement { Text = x.Text, Bounds = x.Bounds, IsOnNextPage = x.IsOnNextPage }).ToImmutableList();
-        OcrWord result = Word with { Elements = newElements, ShowDashes = ShowDashes, BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key, BenefitOfDoubtText = BenefitOfDoubtText };
+        OcrWord result = Word with { 
+            Elements = newElements,
+            Notes = string.IsNullOrWhiteSpace(Notes) ? null : Notes,
+            ShowDashes = ShowDashes,
+            BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key,
+            BenefitOfDoubtText = BenefitOfDoubtText };
         if (result.BenefitOfDoubt == BenefitOfDoubt.None)
         {
             result = result with { BenefitOfDoubtText = null };

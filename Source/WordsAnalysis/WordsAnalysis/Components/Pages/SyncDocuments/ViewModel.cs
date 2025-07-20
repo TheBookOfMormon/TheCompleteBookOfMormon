@@ -220,12 +220,24 @@ public class ViewModel
         UpdateSavedPageHashes(newState.RowData);
     }
 
+    public async Task MarkSelectedWordsAsEditorialFormattingChangesAsync()
+    {
+        WordReferenceAndColumnIndex? wordInfo = await GetWordReferenceUnderMouseAsync();
+        WordReference? wordReference = wordInfo?.WordReference;
+        FeatureState newState = State;
+        if (newState.SelectedWords.Count == 0 && wordReference != null)
+            newState = FeatureState.SelectWord(newState, wordReference);
+
+        newState = FeatureState.MarkSelectedWordsAsEditorialFormattingChanges(newState);
+        SetNewStateWithUndo("Mark words as editorial formatting changes", newState);
+        await LoadRowDataAsync(SectionIndex);
+        await StateHasChanged.InvokeAsync();
+    }
+
     public async Task MergeSelectedWordsAsync()
     {
         WordReferenceAndColumnIndex? wordInfo = await GetWordReferenceUnderMouseAsync();
-
         WordReference? wordReference = wordInfo?.WordReference;
-
         FeatureState newState = State;
         if (newState.SelectedWords.Count == 0 && wordReference != null)
             newState = FeatureState.SelectWord(newState, wordReference);
