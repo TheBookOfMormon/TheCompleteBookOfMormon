@@ -294,24 +294,16 @@ public partial class EditWordDialog : IAsyncDisposable
     private void UpdateImageData()
     {
         OcrWord tempWord = CreateWord();
-        using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, ShowSurroundingText);
-        if (ShowHighContrast)
-        {
-            lineImage.ColorType = ColorType.Grayscale;
-            lineImage.Contrast();
-            lineImage.Sharpen();
-            lineImage.Sharpen();
-            lineImage.MedianFilter();
-            if (ApplyThreshold)
-            {
-                int lower = ThresholdLower;
-                int upper = ThresholdUpper;
-                if (lower > upper)
-                    (lower, upper) = (upper, lower);
-                lineImage.BlackThreshold(new Percentage(lower));
-                lineImage.WhiteThreshold(new Percentage(upper));
-            }
-        }
+        PageState.ImageOptions? imageOptions =
+            !ShowHighContrast
+            ? null
+            : new PageState.ImageOptions {
+                ApplyThreshold = ApplyThreshold,
+                ShowHighContrast = ShowHighContrast,
+                ThresholdLower = ThresholdLower,
+                ThresholdUpper = ThresholdUpper
+            };
+        using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, ShowSurroundingText, imageOptions);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
 

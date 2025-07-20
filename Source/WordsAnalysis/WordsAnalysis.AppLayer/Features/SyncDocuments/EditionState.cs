@@ -156,7 +156,11 @@ public record EditionState
         if (!newEditionState.CanMarkWordAsEditorialFormattingChange(wordReference)) return newEditionState;
         OcrWord newOcrWord = wordReference.GetWord(newEditionState)!;
 
-        string newText = newOcrWord.Elements[0].Text.ToLower();
+        string currentText = newOcrWord.Elements[0].Text;
+        string newText = currentText.ToLower();
+        if (newText == "&") newText = "and";
+        if (currentText == newText) return newEditionState;
+
         newOcrWord = newOcrWord with {
             BenefitOfDoubt = BenefitOfDoubt.EditorialFormatting,
             BenefitOfDoubtText = newText

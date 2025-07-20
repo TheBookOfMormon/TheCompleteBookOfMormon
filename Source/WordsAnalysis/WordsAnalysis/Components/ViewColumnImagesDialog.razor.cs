@@ -40,7 +40,7 @@ public partial class ViewColumnImagesDialog
         MagickImage pageImage = PageImages.GetOrAdd(imagePath, path => new MagickImage(path));
         OcrWord? word = wordReference.GetWord(Content.Editions[wordReference.BookInfo]);
         if (word == null) return null;
-        using MagickImage wordImage = PageState.GetImageForWordOnly(pageImage, word);
+        using MagickImage wordImage = PageState.GetImageForWordOnly(pageImage, word, imageOptions: null);
         return wordImage.ToEmbeddedHtmlImage();
     }
 

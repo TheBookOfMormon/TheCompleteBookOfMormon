@@ -46,11 +46,11 @@ public record PageState
         return new OcrRect { X = minX, Y = minY, Width = maxRight - minX + 1, Height = maxBottom - minY + 1 };
     }
 
-    public MagickImage GetWordImage(MagickImage image, OcrWord word, bool showSurroundingText)
+    public MagickImage GetWordImage(MagickImage image, OcrWord word, bool showSurroundingText, ImageOptions? imageOptions)
     {
         if (showSurroundingText)
-            return GetImageForWordAndSurrounding(image, word);
-        return GetImageForWordOnly(image, word);
+            return GetImageForWordAndSurrounding(image, word, imageOptions);
+        return GetImageForWordOnly(image, word, imageOptions);
     }
 
     private static void AddDrawRect(IDrawables<byte> rectangleDrawables, int x, int y, OcrRect elementBounds)
@@ -58,7 +58,7 @@ public record PageState
         rectangleDrawables.Rectangle(x, y, x + elementBounds.Width - 1, y + elementBounds.Height - 1);
     }
 
-    private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word)
+    private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word, ImageOptions? imageOptions)
     {
         OcrRect lineBounds = GetLineBounds(word);
         OcrRect wordBounds = word.IsComposite() && !word.Elements[2].IsOnNextPage ? word.Elements[0].Bounds.Union(word.Elements[1].Bounds).Union(word.Elements[2].Bounds) : word.Elements[0].Bounds;
@@ -80,6 +80,7 @@ public record PageState
         };
 
         MagickImage result = image.CloneArea(lineBounds);
+        ApplyImageOptions(result, imageOptions);
 
         IDrawables<byte> rectangleDrawables = new Drawables()
             .FillColor(MagickColors.Lime)
@@ -98,7 +99,7 @@ public record PageState
         return result;
     }
 
-    public static MagickImage GetImageForWordOnly(MagickImage image, OcrWord word)
+    public static MagickImage GetImageForWordOnly(MagickImage image, OcrWord word, ImageOptions? imageOptions)
     {
         const float scale = 1f;
 
@@ -120,7 +121,36 @@ public record PageState
 
             offset += scaled.Bounds.Width;
         }
+        ApplyImageOptions(result, imageOptions);
         return result;
     }
 
+    private static void ApplyImageOptions(MagickImage image, ImageOptions? imageOptions)
+    {
+        if (imageOptions == null || !imageOptions.ShowHighContrast) return;
+
+        image.ColorType = ColorType.Grayscale;
+        image.Contrast();
+        image.Sharpen();
+        image.Sharpen();
+        image.MedianFilter();
+        if (imageOptions.ApplyThreshold)
+        {
+            int lower = imageOptions.ThresholdLower;
+            int upper = imageOptions.ThresholdUpper;
+            if (lower > upper)
+                (lower, upper) = (upper, lower);
+            image.BlackThreshold(new Percentage(lower));
+            image.WhiteThreshold(new Percentage(upper));
+        }
+        image.ColorType = ColorType.TrueColor;
+    }
+
+    public class ImageOptions
+    {
+        public bool ShowHighContrast { get; set; }
+        public bool ApplyThreshold { get; set; }
+        public int ThresholdLower { get; set; }
+        public int ThresholdUpper { get; set; }
+    }
 }
