@@ -68,20 +68,22 @@ public partial class EditWordDialog : IAsyncDisposable
 
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
-        OriginalBounds = Word.Elements[0].Bounds;
-        Notes = Word.Notes;
         if (Content.IsAdd)
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, bounds.Height, "i").Width;
             Texts = [new TextData("", bounds.Offset(xOffset, 0), false)];
             ShowDashes = false;
+            Word = new OcrWord { Elements = [Word.Elements[0] with { Text = "" }] };
         }
         else
         {
             Texts = Word.Elements.Select(x => new TextData(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
             ShowDashes = Word.ShowDashes;
         }
+
+        OriginalBounds = Word.Elements[0].Bounds;
+        Notes = Word.Notes;
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
         BenefitOfDoubtText = Word.BenefitOfDoubtText;
         LoadImageData();
