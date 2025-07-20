@@ -18,9 +18,23 @@
         <EditForm @ref=EditForm Model=@Texts style="grid-column: 2">
             <ObjectGraphDataAnnotationsValidator />
             <div>
-                <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@ShowSurroundingTextChanged Label="Show surrounding text" />
+                <FluentAccordion>
+                    <FluentAccordionItem Heading="High contrast">
+                        <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@UpdateImageData Label="Enabled" />
+                        @if (ShowHighContrast)
+                        {
+                            <FluentCheckbox @bind-Value=ApplyThreshold @bind-Value:after=@UpdateImageData Label="Threshhold" />
+                            @if (ApplyThreshold)
+                            {
+                                <FluentSlider @bind-Value=ThresholdLower @bind-Value:after=@ThresholdLowerChanged Label="Lower" Min=0 Max=99 Step=1 />
+                                <FluentSlider @bind-Value=ThresholdUpper @bind-Value:after=@ThresholdUpperChanged Label="Upper" Min=1 Max=100 Step=1 />
+                            }
+                        }
+                    </FluentAccordionItem>
+                </FluentAccordion>
+                <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@UpdateImageData Label="Show surrounding text" />
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=50 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
-                <FluentTextField @bind-Value=Notes Label="Notes"/>
+                <FluentTextField @bind-Value=Notes Label="Notes" />
                 <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
                 @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
                 {

@@ -9,6 +9,7 @@ using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
+using WordsAnalysis.Services;
 
 namespace WordsAnalysis.Components;
 
@@ -24,6 +25,7 @@ public partial class EditWordDialog : IAsyncDisposable
     public FluentDialog Dialog { get; set; } = default!;
 
     private bool AddWordAfter = true;
+    private bool ApplyThreshold;
     private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
     private string? BenefitOfDoubtText;
     private EditForm EditForm = null!;
@@ -31,15 +33,16 @@ public partial class EditWordDialog : IAsyncDisposable
     private int LineHeight;
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
-    private string LineHeightPreferenceKey = "";
     private string? Notes = "";
     private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
     private string? PageImageData;
     private PageState PageState = null!;
     private bool ShowDashes;
-    private bool _ShowSurroundingText = true;
-    public bool ShowSurroundingText { get => _ShowSurroundingText; set => _ShowSurroundingText = value; }
+    private bool ShowHighContrast;
+    private bool ShowSurroundingText;
+    private int ThresholdLower;
+    private int ThresholdUpper;
     private TextData[] Texts = [];
     private OcrWord Word = null!;
     private string? WordImageData;
@@ -60,8 +63,7 @@ public partial class EditWordDialog : IAsyncDisposable
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        LineHeightPreferenceKey = $"{Content.Edition.BookInfo.Code}-LineHeight";
-        LineHeight = Preferences.Get(LineHeightPreferenceKey, 12);
+        ReadAppSettings();
         ResetLineHeightAdjustment();
 
         PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
@@ -94,13 +96,11 @@ public partial class EditWordDialog : IAsyncDisposable
     private async Task ConfirmAsync()
     {
         if (!EditForm.EditContext!.Validate()) return;
+        WriteAppSettings();
 
         OcrWord? newWord = CreateWord();
-
         if (newWord != null)
             await Clipboard.SetTextAsync(newWord.GetCombinedText());
-
-        Preferences.Set(LineHeightPreferenceKey, LineHeight);
 
         var result = new EditWordDialogResult(newWord, AddWordAfter);
         await Dialog.CloseAsync(result);
@@ -138,7 +138,6 @@ public partial class EditWordDialog : IAsyncDisposable
         };
         UpdateImageData();
     }
-
 
     private void EstimateWordSize(int elementIndex)
     {
@@ -277,8 +276,18 @@ public partial class EditWordDialog : IAsyncDisposable
         HasEstimatedSize = false;
     }
 
-    private void ShowSurroundingTextChanged()
+
+    private void ThresholdLowerChanged()
     {
+        if (ThresholdLower >= ThresholdUpper)
+            ThresholdUpper = ThresholdLower + 1;
+        UpdateImageData();
+    }
+
+    private void ThresholdUpperChanged()
+    {
+        if (ThresholdUpper <= ThresholdLower)
+            ThresholdLower = ThresholdUpper - 1;
         UpdateImageData();
     }
 
@@ -286,7 +295,48 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         OcrWord tempWord = CreateWord();
         using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, ShowSurroundingText);
+        if (ShowHighContrast)
+        {
+            lineImage.ColorType = ColorType.Grayscale;
+            lineImage.Contrast();
+            lineImage.Sharpen();
+            lineImage.Sharpen();
+            lineImage.MedianFilter();
+            if (ApplyThreshold)
+            {
+                int lower = ThresholdLower;
+                int upper = ThresholdUpper;
+                if (lower > upper)
+                    (lower, upper) = (upper, lower);
+                lineImage.BlackThreshold(new Percentage(lower));
+                lineImage.WhiteThreshold(new Percentage(upper));
+            }
+        }
         WordImageData = lineImage.ToEmbeddedHtmlImage();
+    }
+
+    private void ReadAppSettings()
+    {
+        // Edition
+        LineHeight = AppPreferences.Editions.GetLineHeight(Content.Edition.BookInfo);
+        // Image
+        ApplyThreshold = AppPreferences.EditWordDialog.ApplyThreshold;
+        ShowHighContrast = AppPreferences.EditWordDialog.ShowHighContrast;
+        ShowSurroundingText = AppPreferences.EditWordDialog.ShowSurroundingText;
+        ThresholdLower = AppPreferences.EditWordDialog.ThresholdLower;
+        ThresholdUpper = AppPreferences.EditWordDialog.ThresholdUpper;
+    }
+
+    private void WriteAppSettings()
+    {
+        // Edition
+        AppPreferences.Editions.SetLineHeight(Content.Edition.BookInfo, LineHeight);
+        // Image
+        AppPreferences.EditWordDialog.ApplyThreshold = ApplyThreshold;
+        AppPreferences.EditWordDialog.ShowHighContrast = ShowHighContrast;
+        AppPreferences.EditWordDialog.ShowSurroundingText = ShowSurroundingText;
+        AppPreferences.EditWordDialog.ThresholdLower = ThresholdLower;
+        AppPreferences.EditWordDialog.ThresholdUpper = ThresholdUpper;
     }
 
     private class TextData
