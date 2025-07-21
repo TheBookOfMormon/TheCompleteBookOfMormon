@@ -107,7 +107,7 @@ public record PageState
         var scaledElements = originalElements.Select(x => x with { Bounds = x.Bounds.ScaleByFactor(scale, scale) }).ToList();
         int maxHeight = scaledElements.Max(x => x.Bounds.Height);
         int totalWidth = scaledElements.Sum(x => x.Bounds.Width);
-        var result = new MagickImage(MagickColors.White, (uint)totalWidth, (uint)maxHeight);
+        var result = new MagickImage(MagickColors.White, (uint)Math.Max(1, totalWidth), (uint)Math.Max(1, maxHeight));
         var rectangleDrawables = new Drawables().FillColor(MagickColors.Lime).FillOpacity(new Percentage(50));
 
         int offset = 0;
