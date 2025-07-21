@@ -487,7 +487,8 @@ public class ViewModel
         {
             EditionState edition = State.Editions[rowData.BookInfo];
             OcrBookInfo bookInfo = edition.BookInfo;
-            foreach (int pageNumber in rowData.Words.Where(x => x != null).Select(x => x!.PageNumber).Distinct())
+            IEnumerable<int> pageNumbers = rowData.Words.Where(x => x != null).Select(x => x!.PageNumber).Distinct();
+            foreach (int pageNumber in pageNumbers)
             {
                 PageState pageState = edition.LoadedPages[pageNumber];
                 var key = new OcrBookInfoAndPageNumber(bookInfo, pageNumber);

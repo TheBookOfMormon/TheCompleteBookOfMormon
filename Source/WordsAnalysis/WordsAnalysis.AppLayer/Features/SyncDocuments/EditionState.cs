@@ -30,7 +30,7 @@ public record EditionState
 
     public static EditionState AddWords(EditionState editionState, WordReference selectedWordReference, IEnumerable<OcrWord> words)
     {
-        foreach(OcrWord word in words.Reverse())
+        foreach (OcrWord word in words.Reverse())
             editionState = EditionState.AddWordInternal(editionState, selectedWordReference, word, true);
         return editionState;
     }
@@ -41,7 +41,7 @@ public record EditionState
         if (count <= 0) return originalEditionState;
 
         EditionState newEditionState = originalEditionState;
-        for(int i = 0; i < count; i++)
+        for (int i = 0; i < count; i++)
             newEditionState = EditionState.AddWordInternal(newEditionState, existingWordReference, null, after);
         return newEditionState;
     }
@@ -114,7 +114,6 @@ public record EditionState
     {
         EditionState newEditionState = originalEditionState;
         int lastWordIndex = globalFirstWordIndex + count - 1;
-        int previousPageNumber = -1;
         var words = new List<WordReference>(count);
         OcrPage page = null!;
         for (int absoluteWordIndex = globalFirstWordIndex; absoluteWordIndex <= lastWordIndex; absoluteWordIndex++)
@@ -123,8 +122,7 @@ public record EditionState
             if (pageNumber < 1)
                 break;
 
-            if (pageNumber != previousPageNumber)
-                (newEditionState, page) = await EditionState.LoadPageAsync(newEditionState, pageNumber);
+            (newEditionState, page) = await EditionState.GetPageAsync(newEditionState, pageNumber);
             int indexOfFirstWordOnPage = newEditionState.GetFirstWordIndexForPage(pageNumber);
             int relativeWordIndex = absoluteWordIndex - indexOfFirstWordOnPage;
             var wordReference = new WordReference(newEditionState.BookInfo, page!.PageNumber, relativeWordIndex);
@@ -193,12 +191,12 @@ public record EditionState
         OcrPage newOcrPage = newPageState.Page;
         newOcrPage = OcrPage.ReplaceWord(newOcrPage, wordReference.WordIndex, newWords.First());
         newPageState = new PageState(newOcrPage);
-        newEditionState = newEditionState with { 
+        newEditionState = newEditionState with {
             LoadedPages = newEditionState.LoadedPages.SetItem(wordReference.PageNumber, newPageState),
-            
+
         };
         IEnumerable<OcrWord?> addedWords = newWords.Skip(1).Reverse();
-        foreach(OcrWord? word in addedWords)
+        foreach (OcrWord? word in addedWords)
         {
             newEditionState = EditionState.AddWordInternal(newEditionState, wordReference, word, true);
         }
@@ -287,7 +285,7 @@ public record EditionState
         return wordReferencesArray.OrderBy(x => x).Select(x => x.GetWord(this)).ToArray();
     }
 
-    private static async Task<(EditionState edition, OcrPage page)> LoadPageAsync(EditionState originalEditionState, int pageNumber)
+    private static async Task<(EditionState edition, OcrPage page)> GetPageAsync(EditionState originalEditionState, int pageNumber)
     {
         if (originalEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? existingPageState))
             return (originalEditionState, existingPageState.Page);
