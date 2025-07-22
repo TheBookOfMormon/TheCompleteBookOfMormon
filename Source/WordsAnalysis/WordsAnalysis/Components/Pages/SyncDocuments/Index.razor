@@ -138,6 +138,10 @@
                                     {
                                         <div title="Duplicate word">+</div>
                                     }
+                                    @if (word?.BenefitOfDoubt == BenefitOfDoubt.ScanError)
+                                    {
+                                        <div title="Scan/media error">S</div>
+                                    }
                                     @if (word?.BenefitOfDoubt == BenefitOfDoubt.InkError)
                                     {
                                         <div title="Ink error">I</div>
