@@ -62,7 +62,7 @@ public class ViewModel
         int columnIndex = wordInfo.Value.ColumnIndex;
 
         OcrPage page = State.Editions[existingWordReference.BookInfo].LoadedPages[existingWordReference.PageNumber].Page;
-        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
+        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         var content = new EditWordDialog.EditWordDialogContent(State.Editions[existingWordReference.BookInfo], existingWordReference, page.ImageWidth, page.ImageHeight, true);
         var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
