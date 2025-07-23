@@ -80,7 +80,7 @@
             <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) style="display:none;" />
             <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) style="display:none;" />
             <button accesskey="c" @onclick=@(() => ViewModel.SelectColumnAsync()) style="display:none;" />
-            <button accesskey="f" @onclick=@(() => ViewModel.MarkSelectedWordsAsEditorialFormattingChangesAsync()) style="display:none;" />
+            <button accesskey="t" @onclick=@(() => ViewModel.MarkSelectedWordsAsEditorialFormattingChangesAsync()) style="display:none;" />
         </div>
     </PageHeader>
 
@@ -138,9 +138,9 @@
                                     {
                                         <div title="Duplicate word">+</div>
                                     }
-                                    @if (word?.BenefitOfDoubt == BenefitOfDoubt.ScanError)
+                                    @if (word?.BenefitOfDoubt == BenefitOfDoubt.MediaOrScanningError)
                                     {
-                                        <div title="Scan/media error">S</div>
+                                        <div title="Media/scanning error">S</div>
                                     }
                                     @if (word?.BenefitOfDoubt == BenefitOfDoubt.InkError)
                                     {

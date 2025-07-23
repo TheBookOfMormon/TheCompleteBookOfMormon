@@ -151,6 +151,7 @@
 	.word-table_word-markers > div {
 		border: 1px solid var(--error);
 		background-color: var(--neutral-layer-1);
+		color: var(--neutral-foreground-rest) ;
 		padding: 0.1em;
 	}
 

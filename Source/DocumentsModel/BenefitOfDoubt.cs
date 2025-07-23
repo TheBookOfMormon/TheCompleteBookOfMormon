@@ -3,7 +3,7 @@
 public enum BenefitOfDoubt
 {
     None = 0,
-    ScanError = 1,
+    MediaOrScanningError = 1,
     InkError = 2,
     PrinterError = 3,
     EditorialFormatting = 4
@@ -15,8 +15,8 @@ public static class BenefitOfDoubtExtensions
         [
             new (BenefitOfDoubt.None, "None"),
             new (BenefitOfDoubt.PrinterError, "Printer error"),
-            new (BenefitOfDoubt.EditorialFormatting, "Editorial formatting"),
             new (BenefitOfDoubt.InkError, "Ink error"),
-            new (BenefitOfDoubt.InkError, "Scan error"),
+            new (BenefitOfDoubt.EditorialFormatting, "Editorial formatting"),
+            new (BenefitOfDoubt.MediaOrScanningError, "Media/Scanning error"),
         ];
 }
