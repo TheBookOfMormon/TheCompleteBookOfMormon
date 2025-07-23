@@ -64,7 +64,7 @@
                                  Tooltip="Stop searching"
                                  OnClick=@StopSearchingForNextError />
             }
-            <FluentCheckbox @bind-Value=ViewModel.ShowBenefitOfDoubt @bind-Value:after=ViewModel.ReloadRowDataAsync Label="BOD" />
+            <FluentCheckbox @bind-Value=ViewModel.ShowBenefitOfDoubt @bind-Value:after=ViewModel.ReloadRowDataAsync Label="BOD" accesskey="b" />
             @if (ViewModel.HasSelectedWords)
             {
                 <span style="margin-left: 1rem">@ViewModel.SelectedWords.Count selected word(s)</span>
@@ -153,6 +153,10 @@
                                     @if (word?.BenefitOfDoubt == BenefitOfDoubt.EditorialFormatting)
                                     {
                                         <div title="Editorial formatting">F</div>
+                                    }
+                                    @if (!string.IsNullOrWhiteSpace(word?.Notes))
+                                    {
+                                        <div title="Notes">*</div>
                                     }
                                 </div>
                             </div>
