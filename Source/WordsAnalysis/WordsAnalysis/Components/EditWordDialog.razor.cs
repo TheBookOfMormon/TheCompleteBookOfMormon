@@ -101,8 +101,6 @@ public partial class EditWordDialog : IAsyncDisposable
         WriteAppSettings();
 
         OcrWord? newWord = CreateWord();
-        if (newWord != null)
-            await Clipboard.SetTextAsync(newWord.GetCombinedText());
 
         var result = new EditWordDialogResult(newWord, AddWordAfter);
         await Dialog.CloseAsync(result);
