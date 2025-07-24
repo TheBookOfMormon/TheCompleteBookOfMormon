@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
-using System.Threading.Tasks;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
 using WordsAnalysis.Services;
@@ -65,7 +64,7 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         await base.OnAfterRenderAsync(firstRender);
         if (firstRender)
-            await CenterImagePoint();
+            await CenterImagePointAsync();
     }
 
     protected override async Task OnInitializedAsync()
@@ -82,7 +81,7 @@ public partial class EditWordDialog : IAsyncDisposable
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, bounds.Height, "i").Width;
             Texts = [new TextData("", bounds.Offset(xOffset, 0), false)];
             ShowDashes = false;
-            Word = new OcrWord { Elements = [Word.Elements[0] with { Text = "" }] };
+            Word = new OcrWord { Elements = [Word.Elements.Last() with { Text = "" }] };
         }
         else
         {
@@ -103,11 +102,11 @@ public partial class EditWordDialog : IAsyncDisposable
         await Dialog.CancelAsync(result);
     }
 
-    private async Task CenterImagePoint()
+    private async Task CenterImagePointAsync()
     {
         if (ShowSurroundingText)
         {
-            (int x, int y) = Word.Elements[0].Bounds.GetCenter();
+            (int x, int y) = Word.Elements.Last().Bounds.GetCenter();
             await HtmlService.CenterImagePointInParent("word-image", x, y);
         }
     }
@@ -258,7 +257,7 @@ public partial class EditWordDialog : IAsyncDisposable
             AddWordAfter = newIsAfter;
         UpdateImageData();
 
-        _ = CenterImagePoint();
+        _ = CenterImagePointAsync();
 
         bool isAfter()
         {
