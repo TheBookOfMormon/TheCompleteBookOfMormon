@@ -7784,11 +7784,11 @@
         {
           "Bounds": {
             "X": 1832,
-            "Y": 3043,
-            "Width": 175,
-            "Height": 66
+            "Y": 3051,
+            "Width": 124,
+            "Height": 49
           },
-          "Text": "knowth"
+          "Text": "know"
         }
       ]
     },
@@ -7796,7 +7796,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 34,
+            "X": 1968,
+            "Y": 3051,
+            "Width": 35,
+            "Height": 49
+          },
+          "Text": "th"
+        },
+        {
+          "Bounds": {
+            "X": 2003,
+            "Y": 3051,
+            "Width": 1,
+            "Height": 49
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 41,
             "Y": 3144,
             "Width": 73,
             "Height": 53
@@ -7823,11 +7841,11 @@
         {
           "Bounds": {
             "X": 209,
-            "Y": 3143,
-            "Width": 83,
-            "Height": 56
+            "Y": 3146,
+            "Width": 123,
+            "Height": 49
           },
-          "Text": "Low"
+          "Text": "Lord"
         }
       ]
     },
@@ -7879,7 +7897,7 @@
             "Width": 96,
             "Height": 61
           },
-          "Text": "gous"
+          "Text": "Sons"
         }
       ]
     },
@@ -7960,6 +7978,21 @@
           "Text": "Laban"
         }
       ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1373,
+            "Y": 3143,
+            "Width": 49,
+            "Height": 49
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -8082,6 +8115,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 701,
+            "Y": 3227,
+            "Width": 49,
+            "Height": 49
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 740,
             "Y": 3219,
             "Width": 133,
@@ -8191,7 +8239,7 @@
             "Width": 121,
             "Height": 64
           },
-          "Text": "Lehe"
+          "Text": "Lehi"
         }
       ]
     }
