@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
+using System.Threading.Tasks;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
 using WordsAnalysis.Services;
@@ -60,6 +61,13 @@ public partial class EditWordDialog : IAsyncDisposable
         return ValueTask.CompletedTask;
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await base.OnAfterRenderAsync(firstRender);
+        if (firstRender)
+            await CenterImagePoint();
+    }
+
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
@@ -95,6 +103,15 @@ public partial class EditWordDialog : IAsyncDisposable
         await Dialog.CancelAsync(result);
     }
 
+    private async Task CenterImagePoint()
+    {
+        if (ShowSurroundingText)
+        {
+            (int x, int y) = Word.Elements[0].Bounds.GetCenter();
+            await HtmlService.CenterImagePointInParent("word-image", x, y);
+        }
+    }
+
     private async Task ConfirmAsync()
     {
         if (!EditForm.EditContext!.Validate()) return;
@@ -109,12 +126,13 @@ public partial class EditWordDialog : IAsyncDisposable
     private OcrWord CreateWord()
     {
         ImmutableList<OcrElement> newElements = Texts.Select(x => new OcrElement { Text = x.Text, Bounds = x.Bounds, IsOnNextPage = x.IsOnNextPage }).ToImmutableList();
-        OcrWord result = Word with { 
+        OcrWord result = Word with {
             Elements = newElements,
             Notes = string.IsNullOrWhiteSpace(Notes) ? null : Notes,
             ShowDashes = ShowDashes,
             BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key,
-            BenefitOfDoubtText = BenefitOfDoubtText };
+            BenefitOfDoubtText = BenefitOfDoubtText
+        };
         if (result.BenefitOfDoubt == BenefitOfDoubt.None)
         {
             result = result with { BenefitOfDoubtText = null };
@@ -191,6 +209,9 @@ public partial class EditWordDialog : IAsyncDisposable
             return "Edit";
     }
 
+    private string GetWordImageStyle() =>
+        ShowSurroundingText ? "" : "width: 100%; height:100%; object-fit: contain";
+
     private void LoadImageData()
     {
         string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
@@ -236,7 +257,8 @@ public partial class EditWordDialog : IAsyncDisposable
         if (wasAfter != newIsAfter)
             AddWordAfter = newIsAfter;
         UpdateImageData();
-        //StateHasChanged();
+
+        _ = CenterImagePoint();
 
         bool isAfter()
         {

@@ -10,6 +10,7 @@ public readonly record struct WordGridLocation(int RowIndex, int ColumnIndex)
 
 public interface IHtmlService
 {
+    Task CenterImagePointInParent(string elementId, int x, int y);
     Task<bool> FirstColumnHasErrorAsync();
     Task FocusFirstElementAsync(ElementReference container);
     Task<WordGridLocation> GetWordGridLocationAsync();
@@ -33,6 +34,11 @@ sealed class HtmlService : IAsyncDisposable, IHtmlService
     {
         if (Module != null)
             await Module.DisposeAsync();
+    }
+
+    public async Task CenterImagePointInParent(string elementId, int x, int y)
+    {
+        await Module!.InvokeVoidAsync("centerImagePointInParent", elementId, x, y);
     }
 
     public async Task InitializeAsync()

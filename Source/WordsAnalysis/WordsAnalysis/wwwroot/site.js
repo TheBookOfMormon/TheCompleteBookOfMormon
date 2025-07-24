@@ -84,6 +84,24 @@ export function scrollToNextError() {
    return false;
 }
 
+export function centerImagePointInParent(imageId, x, y) {
+   const image = document.getElementById(imageId);
+   if (!image || !image.parentElement) return;
+
+   const container = image.parentElement;
+
+   const scrollLeft = x - container.clientWidth / 2;
+   const scrollTop = y - container.clientHeight / 2;
+
+   container.scrollTo({
+      left: scrollLeft,
+      top: scrollTop,
+      behavior: 'auto' // Use 'auto' for instant scroll
+   });
+}
+
+
+
 // === non-exported reusable functions ===
 
 function getSelectedTableRows() {
