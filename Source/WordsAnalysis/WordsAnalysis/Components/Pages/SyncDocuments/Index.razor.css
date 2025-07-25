@@ -146,6 +146,8 @@
 	margin-left: 0.25em;
 	cursor: default;
 	line-height: 0.8em;
+	display:flex;
+	flex-wrap: nowrap;
 }
 
 	.word-table_word-markers > div {
