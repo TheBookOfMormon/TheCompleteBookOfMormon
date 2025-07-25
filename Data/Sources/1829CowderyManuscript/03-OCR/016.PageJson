@@ -353,7 +353,7 @@
             "Width": 95,
             "Height": 55
           },
-          "Text": "twee"
+          "Text": "tree"
         }
       ]
     },
@@ -389,10 +389,10 @@
           "Bounds": {
             "X": 26,
             "Y": 231,
-            "Width": 27,
+            "Width": 40,
             "Height": 59
           },
-          "Text": "I\u0027"
+          "Text": "I"
         }
       ]
     },
@@ -418,9 +418,11 @@
             "Width": 28,
             "Height": 56
           },
-          "Text": "v"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -543,12 +545,27 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1123,
+            "Y": 242,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1145,
             "Y": 237,
-            "Width": 218,
+            "Width": 239,
             "Height": 53
           },
-          "Text": "Commence"
+          "Text": "commence"
         }
       ]
     },
@@ -587,7 +604,7 @@
             "Width": 93,
             "Height": 53
           },
-          "Text": "park"
+          "Text": "path"
         }
       ]
     },
@@ -652,7 +669,7 @@
             "Width": 85,
             "Height": 54
           },
-          "Text": "bee"
+          "Text": "tree"
         }
       ]
     },
@@ -661,11 +678,26 @@
         {
           "Bounds": {
             "X": 231,
-            "Y": 327,
-            "Width": 82,
-            "Height": 53
+            "Y": 332,
+            "Width": 42,
+            "Height": 42
           },
-          "Text": "ret"
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 288,
+            "Y": 332,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "it"
         }
       ]
     },
@@ -743,7 +775,7 @@
             "Width": 107,
             "Height": 49
           },
-          "Text": "unose"
+          "Text": "arose"
         }
       ]
     },
@@ -769,7 +801,7 @@
             "Width": 93,
             "Height": 48
           },
-          "Text": "migt"
+          "Text": "mist"
         }
       ]
     },
@@ -808,7 +840,7 @@
             "Width": 76,
             "Height": 46
           },
-          "Text": "you"
+          "Text": "yea"
         }
       ]
     },
@@ -821,7 +853,7 @@
             "Width": 101,
             "Height": 46
           },
-          "Text": "ever"
+          "Text": "even"
         }
       ]
     },
@@ -873,7 +905,7 @@
             "Width": 102,
             "Height": 52
           },
-          "Text": "must"
+          "Text": "mist"
         }
       ]
     },
@@ -934,11 +966,38 @@
         {
           "Bounds": {
             "X": 827,
-            "Y": 413,
-            "Width": 345,
-            "Height": 48
+            "Y": 416,
+            "Width": 107,
+            "Height": 42
           },
-          "Text": "theyhad"
+          "Text": "they"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 949,
+            "Y": 416,
+            "Width": 107,
+            "Height": 42
+          },
+          "Text": "which"
+        }
+      ],
+      "Notes": "Corrected after 1830"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1071,
+            "Y": 416,
+            "Width": 107,
+            "Height": 42
+          },
+          "Text": "had"
         }
       ]
     },
@@ -1011,27 +1070,16 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 939,
-            "Y": 380,
-            "Width": 91,
-            "Height": 40
-          },
-          "Text": "who"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 1832,
             "Y": 384,
             "Width": 99,
             "Height": 41
           },
-          "Text": "cose"
+          "Text": "loose"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "lose"
     },
     {
       "Elements": [
@@ -1039,10 +1087,23 @@
           "Bounds": {
             "X": 26,
             "Y": 502,
-            "Width": 211,
+            "Width": 116,
             "Height": 52
           },
-          "Text": "theirway"
+          "Text": "their"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 142,
+            "Y": 502,
+            "Width": 96,
+            "Height": 52
+          },
+          "Text": "way"
         }
       ]
     },
@@ -1102,12 +1163,27 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 756,
+            "Y": 507,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 778,
             "Y": 501,
             "Width": 131,
             "Height": 54
           },
-          "Text": "werd"
+          "Text": "were"
         }
       ]
     },
@@ -1120,7 +1196,7 @@
             "Width": 104,
             "Height": 54
           },
-          "Text": "last"
+          "Text": "lost"
         }
       ]
     },
@@ -1133,9 +1209,11 @@
             "Width": 26,
             "Height": 54
           },
-          "Text": "r"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -1220,24 +1298,11 @@
         {
           "Bounds": {
             "X": 1572,
-            "Y": 497,
-            "Width": 39,
-            "Height": 55
+            "Y": 503,
+            "Width": 165,
+            "Height": 42
           },
-          "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1621,
-            "Y": 496,
-            "Width": 91,
-            "Height": 55
-          },
-          "Text": "held"
+          "Text": "beheld"
         }
       ]
     },
@@ -1263,12 +1328,17 @@
             "Width": 84,
             "Height": 54
           },
-          "Text": "bie"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "pre"
+        },
+        {
+          "Bounds": {
+            "X": 1951,
+            "Y": 500,
+            "Width": 1,
+            "Height": 42
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 28,
@@ -1276,7 +1346,7 @@
             "Width": 129,
             "Height": 47
           },
-          "Text": "Fring"
+          "Text": "ssing"
         }
       ]
     },
@@ -1302,9 +1372,11 @@
             "Width": 25,
             "Height": 52
           },
-          "Text": "x"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -1349,12 +1421,27 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 790,
+            "Y": 596,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 831,
             "Y": 588,
             "Width": 160,
             "Height": 57
           },
-          "Text": "Caught"
+          "Text": "caught"
         }
       ]
     },
@@ -1445,7 +1532,7 @@
             "Width": 67,
             "Height": 56
           },
-          "Text": "nad"
+          "Text": "rod"
         }
       ]
     },
@@ -1484,9 +1571,11 @@
             "Width": 18,
             "Height": 54
           },
-          "Text": "y"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -1523,7 +1612,7 @@
             "Width": 110,
             "Height": 48
           },
-          "Text": "fones"
+          "Text": "press"
         }
       ]
     },
@@ -1575,7 +1664,7 @@
             "Width": 104,
             "Height": 53
           },
-          "Text": "ments"
+          "Text": "mist"
         }
       ]
     },
@@ -1614,7 +1703,7 @@
             "Width": 200,
             "Height": 54
           },
-          "Text": "aliaging"
+          "Text": "clinging"
         }
       ]
     },
@@ -1653,7 +1742,7 @@
             "Width": 81,
             "Height": 53
           },
-          "Text": "vad"
+          "Text": "rod"
         }
       ]
     },
@@ -1679,7 +1768,7 @@
             "Width": 102,
             "Height": 52
           },
-          "Text": "mon"
+          "Text": "iron"
         }
       ]
     },
@@ -1765,14 +1854,31 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 509,
-            "Y": 760,
-            "Width": 123,
-            "Height": 56
+            "X": 463,
+            "Y": 766,
+            "Width": 42,
+            "Height": 42
           },
-          "Text": "part"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 509,
+            "Y": 767,
+            "Width": 202,
+            "Height": 42
+          },
+          "Text": "partake"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "partook"
     },
     {
       "Elements": [
@@ -1861,9 +1967,11 @@
             "Width": 33,
             "Height": 57
           },
-          "Text": "x"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -1874,7 +1982,7 @@
             "Width": 105,
             "Height": 58
           },
-          "Text": "aften"
+          "Text": "after"
         }
       ]
     },
@@ -1922,24 +2030,26 @@
         {
           "Bounds": {
             "X": 1665,
-            "Y": 763,
-            "Width": 61,
-            "Height": 58
+            "Y": 771,
+            "Width": 206,
+            "Height": 42
           },
-          "Text": "par"
+          "Text": "partook"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "partaken"
     },
     {
       "Elements": [
         {
           "Bounds": {
-            "X": 1737,
-            "Y": 763,
-            "Width": 142,
-            "Height": 58
+            "X": 1863,
+            "Y": 771,
+            "Width": 50,
+            "Height": 42
           },
-          "Text": "tookof"
+          "Text": "of"
         }
       ]
     },
