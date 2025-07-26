@@ -7310,7 +7310,7 @@
             "Width": 111,
             "Height": 62
           },
-          "Text": "mother"
+          "Text": "Mother"
         }
       ]
     },
@@ -7468,6 +7468,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 669,
+            "Y": 3166,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 706,
             "Y": 3155,
             "Width": 58,
@@ -7547,24 +7562,11 @@
         {
           "Bounds": {
             "X": 1297,
-            "Y": 3151,
-            "Width": 43,
-            "Height": 62
+            "Y": 3161,
+            "Width": 165,
+            "Height": 42
           },
-          "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1350,
-            "Y": 3151,
-            "Width": 130,
-            "Height": 61
-          },
-          "Text": "held"
+          "Text": "beheld"
         }
       ]
     },
@@ -7616,12 +7618,17 @@
             "Width": 122,
             "Height": 53
           },
-          "Text": "Carni"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "carri"
+        },
+        {
+          "Bounds": {
+            "X": 1989,
+            "Y": 3160,
+            "Width": 1,
+            "Height": 42
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 29,
@@ -7689,6 +7696,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 576,
+            "Y": 3225,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 628,
             "Y": 3219,
             "Width": 139,
@@ -7697,6 +7719,20 @@
           "Text": "after"
         }
       ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 782,
+            "Y": 3219,
+            "Width": 139,
+            "Height": 52
+          },
+          "Text": "that"
+        }
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -7785,7 +7821,7 @@
             "Width": 86,
             "Height": 53
           },
-          "Text": "The"
+          "Text": "the"
         }
       ]
     }
