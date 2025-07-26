@@ -82,11 +82,11 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.DataAnnotations.Validation" Version="3.2.0-rc1.20223.4" />
-        <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.11.7" />
-        <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.11.7" />
-        <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.50" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="9.0.50" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.3" />
+        <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.12.1" />
+        <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.12.1" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.90" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="9.0.90" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.7" />
     </ItemGroup>
 
     <ItemGroup>
