@@ -1976,7 +1976,7 @@
             "Width": 188,
             "Height": 59
           },
-          "Text": "Church"
+          "Text": "church"
         }
       ]
     },
@@ -2093,7 +2093,7 @@
             "Width": 224,
             "Height": 60
           },
-          "Text": "Churches"
+          "Text": "churches"
         }
       ]
     },
@@ -3192,7 +3192,7 @@
             "Width": 159,
             "Height": 51
           },
-          "Text": "Church"
+          "Text": "church"
         }
       ]
     },
@@ -5309,7 +5309,7 @@
             "Width": 117,
             "Height": 59
           },
-          "Text": "fouth"
+          "Text": "forth"
         }
       ]
     },
@@ -5850,7 +5850,7 @@
             "Width": 146,
             "Height": 69
           },
-          "Text": "Coven"
+          "Text": "coven"
         },
         {
           "Bounds": {
@@ -6373,7 +6373,7 @@
             "Width": 82,
             "Height": 57
           },
-          "Text": "they"
+          "Text": "thy"
         }
       ]
     },
@@ -6399,9 +6399,10 @@
             "Width": 168,
             "Height": 58
           },
-          "Text": "medios"
+          "Text": "which"
         }
-      ]
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -6414,7 +6415,8 @@
           },
           "Text": "is"
         }
-      ]
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -6438,7 +6440,7 @@
             "Width": 86,
             "Height": 59
           },
-          "Text": "the"
+          "Text": "thy"
         }
       ]
     },
@@ -6452,32 +6454,6 @@
             "Height": 60
           },
           "Text": "Brethen"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1282,
-            "Y": 2645,
-            "Width": 115,
-            "Height": 63
-          },
-          "Text": "Who"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1404,
-            "Y": 2637,
-            "Width": 95,
-            "Height": 60
-          },
-          "Text": "and"
         }
       ]
     },
@@ -6516,7 +6492,7 @@
             "Width": 52,
             "Height": 59
           },
-          "Text": "be"
+          "Text": "he"
         }
       ]
     },
@@ -6568,7 +6544,7 @@
             "Width": 172,
             "Height": 66
           },
-          "Text": "gentiles"
+          "Text": "Gentiles"
         }
       ]
     },
@@ -6646,7 +6622,7 @@
             "Width": 81,
             "Height": 66
           },
-          "Text": "the"
+          "Text": "thy"
         }
       ]
     },
@@ -6659,7 +6635,7 @@
             "Width": 184,
             "Height": 64
           },
-          "Text": "Brother"
+          "Text": "Brethren"
         }
       ]
     },
@@ -6672,7 +6648,7 @@
             "Width": 173,
             "Height": 61
           },
-          "Text": "weither"
+          "Text": "neither"
         }
       ]
     },
@@ -6680,17 +6656,22 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1909,
-            "Y": 2786,
-            "Width": 58,
-            "Height": 56
+            "X": 1915,
+            "Y": 2781,
+            "Width": 173,
+            "Height": 61
           },
-          "Text": "no"
-        }
-      ]
-    },
-    {
-      "Elements": [
+          "Text": "w"
+        },
+        {
+          "Bounds": {
+            "X": 1977,
+            "Y": 2790,
+            "Width": 1,
+            "Height": 42
+          },
+          "Text": "-"
+        },
         {
           "Bounds": {
             "X": 12,
@@ -6698,7 +6679,7 @@
             "Width": 66,
             "Height": 69
           },
-          "Text": "I\u0027ll"
+          "Text": "ill"
         }
       ]
     },
@@ -6724,7 +6705,7 @@
             "Width": 108,
             "Height": 68
           },
-          "Text": "Love"
+          "Text": "Lord"
         }
       ]
     },
@@ -6737,7 +6718,7 @@
             "Width": 72,
             "Height": 66
           },
-          "Text": "You"
+          "Text": "God"
         }
       ]
     },
@@ -6798,11 +6779,11 @@
         {
           "Bounds": {
             "X": 975,
-            "Y": 2851,
-            "Width": 111,
-            "Height": 63
+            "Y": 2861,
+            "Width": 121,
+            "Height": 42
           },
-          "Text": "Shall"
+          "Text": "shall"
         }
       ]
     },
@@ -6819,6 +6800,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -6854,9 +6836,38 @@
             "Width": 126,
             "Height": 61
           },
-          "Text": "That"
+          "Text": "that"
         }
       ]
+    },
+    null,
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1714,
+            "Y": 2831,
+            "Width": 119,
+            "Height": 42
+          },
+          "Text": "state"
+        }
+      ],
+      "Notes": "Corrected after 1830"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1848,
+            "Y": 2831,
+            "Width": 119,
+            "Height": 42
+          },
+          "Text": "of"
+        }
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -6875,53 +6886,15 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1735,
-            "Y": 2822,
-            "Width": 113,
-            "Height": 58
-          },
-          "Text": "Hate"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1857,
-            "Y": 2820,
-            "Width": 52,
-            "Height": 56
-          },
-          "Text": "of"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 179,
-            "Y": 2941,
-            "Width": 113,
-            "Height": 55
+            "Y": 2947,
+            "Width": 334,
+            "Height": 42
           },
-          "Text": "dans"
+          "Text": "woundedness"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 303,
-            "Y": 2939,
-            "Width": 219,
-            "Height": 58
-          },
-          "Text": "Lestress"
-        }
-      ]
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -6945,7 +6918,7 @@
             "Width": 118,
             "Height": 60
           },
-          "Text": "that"
+          "Text": "thou"
         }
       ]
     },
@@ -6953,25 +6926,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 881,
-            "Y": 2938,
-            "Width": 62,
-            "Height": 61
+            "X": 902,
+            "Y": 2947,
+            "Width": 240,
+            "Height": 42
           },
-          "Text": "be"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 951,
-            "Y": 2938,
-            "Width": 195,
-            "Height": 63
-          },
-          "Text": "holdest"
+          "Text": "beholdest"
         }
       ]
     },
@@ -6986,7 +6946,8 @@
           },
           "Text": "that"
         }
-      ]
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -7070,6 +7031,24 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1912,
+            "Y": 2954,
+            "Width": 68,
+            "Height": 59
+          },
+          "Text": "pl"
+        },
+        {
+          "Bounds": {
+            "X": 1974,
+            "Y": 2962,
+            "Width": 1,
+            "Height": 42
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
             "X": 20,
             "Y": 3034,
             "Width": 93,
@@ -7084,13 +7063,15 @@
         {
           "Bounds": {
             "X": 128,
-            "Y": 3032,
-            "Width": 39,
-            "Height": 50
+            "Y": 3036,
+            "Width": 42,
+            "Height": 42
           },
-          "Text": "y"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -7127,7 +7108,7 @@
             "Width": 144,
             "Height": 62
           },
-          "Text": "points"
+          "Text": "parts"
         }
       ]
     },
@@ -7218,7 +7199,7 @@
             "Width": 186,
             "Height": 67
           },
-          "Text": "withich"
+          "Text": "which"
         }
       ]
     },
@@ -7231,9 +7212,10 @@
             "Width": 105,
             "Height": 65
           },
-          "Text": "Roth"
+          "Text": "hath"
         }
-      ]
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -7257,20 +7239,7 @@
             "Width": 116,
             "Height": 61
           },
-          "Text": "Kept"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1598,
-            "Y": 3002,
-            "Width": 141,
-            "Height": 55
-          },
-          "Text": "have"
+          "Text": "kept"
         }
       ]
     },
@@ -7335,7 +7304,7 @@
             "Width": 202,
             "Height": 66
           },
-          "Text": "Church"
+          "Text": "church"
         }
       ]
     },
@@ -7374,7 +7343,7 @@
             "Width": 128,
             "Height": 60
           },
-          "Text": "than"
+          "Text": "thou"
         }
       ]
     },
@@ -7409,24 +7378,11 @@
         {
           "Bounds": {
             "X": 12,
-            "Y": 3188,
-            "Width": 133,
-            "Height": 54
+            "Y": 3194,
+            "Width": 250,
+            "Height": 42
           },
-          "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 154,
-            "Y": 3187,
-            "Width": 112,
-            "Height": 57
-          },
-          "Text": "fore"
+          "Text": "wherefore"
         }
       ]
     },
@@ -7439,7 +7395,7 @@
             "Width": 135,
             "Height": 59
           },
-          "Text": "swith"
+          "Text": "saith"
         }
       ]
     },
@@ -7543,7 +7499,7 @@
             "Width": 224,
             "Height": 64
           },
-          "Text": "mensifal"
+          "Text": "merciful"
         }
       ]
     },
