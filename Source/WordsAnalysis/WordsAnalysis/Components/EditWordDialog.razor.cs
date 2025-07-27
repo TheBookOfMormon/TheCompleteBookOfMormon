@@ -122,6 +122,14 @@ public partial class EditWordDialog : IAsyncDisposable
         await Dialog.CloseAsync(result);
     }
 
+    private void ConvertAmpersand()
+    {
+        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.PrinterError);
+        BenefitOfDoubtText = "and";
+        Texts[0].Text = "&";
+        EstimateWordSize(0);
+    }
+
     private OcrWord CreateWord()
     {
         ImmutableList<OcrElement> newElements = Texts.Select(x => new OcrElement { Text = x.Text, Bounds = x.Bounds, IsOnNextPage = x.IsOnNextPage }).ToImmutableList();

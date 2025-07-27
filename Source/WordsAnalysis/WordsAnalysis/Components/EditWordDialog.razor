@@ -67,6 +67,10 @@
                             <RepeatingFluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
                             <RepeatingFluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
                             <RepeatingFluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
+                            @if (Texts.Length == 1)
+                            {
+                                <FluentButton OnClick=@ConvertAmpersand accesskey="&">&amp;</FluentButton>
+                            }
                         </FluentToolbar>
                     </div>
                     <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
