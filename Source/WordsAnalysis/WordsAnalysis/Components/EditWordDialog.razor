@@ -28,16 +28,6 @@
         <EditForm @ref=EditForm Model=@Texts style="grid-column: 2">
             <ObjectGraphDataAnnotationsValidator />
             <div>
-                <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@UpdateImageData Label="Enabled" />
-                @if (ShowHighContrast)
-                {
-                    <FluentCheckbox @bind-Value=ApplyThreshold @bind-Value:after=@UpdateImageData Label="Threshhold" />
-                    @if (ApplyThreshold)
-                    {
-                        <FluentSlider @bind-Value=ThresholdLower @bind-Value:after=@ThresholdLowerChanged Label="Lower" Min=0 Max=99 Step=1 />
-                        <FluentSlider @bind-Value=ThresholdUpper @bind-Value:after=@ThresholdUpperChanged Label="Upper" Min=1 Max=100 Step=1 />
-                    }
-                }
                 <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@UpdateImageData Label="Show surrounding text" />
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
                 <FluentTextField @bind-Value=Notes Label="Notes" />
@@ -93,6 +83,20 @@
                     <FluentCheckbox @bind-Value=AddWordAfter />&nbsp;
                 </div>
             }
+            <FluentDivider Style="margin:0.5em 0 1em 0;"/>
+            <div>
+                <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@UpdateImageData Label="High contrast" />
+                @if (ShowHighContrast)
+                {
+                    <FluentCheckbox @bind-Value=ApplyThreshold @bind-Value:after=@UpdateImageData Label="Threshhold" />
+                    @if (ApplyThreshold)
+                    {
+                        <FluentSlider @bind-Value=ThresholdLower @bind-Value:after=@ThresholdLowerChanged Label="Lower" Min=0 Max=99 Step=1 />
+                        <FluentSlider @bind-Value=ThresholdUpper @bind-Value:after=@ThresholdUpperChanged Label="Upper" Min=1 Max=100 Step=1 />
+                    }
+                }
+            </div>
+
         </EditForm>
     </div>
 </FluentDialogBody>
