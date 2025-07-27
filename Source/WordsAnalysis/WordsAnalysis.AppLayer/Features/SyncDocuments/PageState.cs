@@ -75,8 +75,8 @@ public record PageState
         lineBounds = lineBounds with {
             X = 0,
             Width = (int)image.Width,
-            Y = lineBounds.Y - (AverageLineHeight * 4),
-            Height = lineBounds.Height + (AverageLineHeight * 8)
+            Y = lineBounds.Y - (AverageLineHeight),
+            Height = lineBounds.Height + (AverageLineHeight * 2)
         };
 
         MagickImage result = image.CloneArea(lineBounds);
