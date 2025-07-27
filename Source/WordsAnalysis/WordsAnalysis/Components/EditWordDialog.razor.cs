@@ -106,7 +106,7 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         if (ShowSurroundingText)
         {
-            (int x, int y) = Word.Elements.Last().Bounds.GetCenter();
+            (int x, int y) = Texts.Last().Bounds.GetCenter();
             await HtmlService.CenterImagePointInParent("word-image", x, y);
         }
     }
