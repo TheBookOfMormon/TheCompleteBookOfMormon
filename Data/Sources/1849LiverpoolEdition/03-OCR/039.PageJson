@@ -2948,9 +2948,25 @@
           },
           "Text": "walkin"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "walk"
     },
-    null,
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1288,
+            "Y": 1752,
+            "Width": 53,
+            "Height": 45
+          },
+          "Text": ""
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "in"
+    },
     {
       "Elements": [
         {
@@ -4916,6 +4932,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
