@@ -7094,7 +7094,7 @@
             "Width": 250,
             "Height": 61
           },
-          "Text": "Judgment"
+          "Text": "judgment"
         }
       ]
     },
@@ -7103,24 +7103,11 @@
         {
           "Bounds": {
             "X": 856,
-            "Y": 3004,
-            "Width": 132,
-            "Height": 60
+            "Y": 3011,
+            "Width": 268,
+            "Height": 45
           },
-          "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 997,
-            "Y": 3004,
-            "Width": 101,
-            "Height": 60
-          },
-          "Text": "find"
+          "Text": "wherefore"
         }
       ]
     },
@@ -7133,7 +7120,7 @@
             "Width": 111,
             "Height": 60
           },
-          "Text": "that"
+          "Text": "thou"
         }
       ]
     },
@@ -7181,11 +7168,11 @@
         {
           "Bounds": {
             "X": 1884,
-            "Y": 3007,
-            "Width": 111,
-            "Height": 62
+            "Y": 3015,
+            "Width": 61,
+            "Height": 45
           },
-          "Text": "sogn"
+          "Text": "so"
         }
       ]
     },
@@ -7193,9 +7180,27 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 56,
+            "X": 1962,
+            "Y": 3015,
+            "Width": 61,
+            "Height": 45
+          },
+          "Text": "gr"
+        },
+        {
+          "Bounds": {
+            "X": 43,
             "Y": 3107,
-            "Width": 101,
+            "Width": 27,
+            "Height": 53
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 70,
+            "Y": 3107,
+            "Width": 97,
             "Height": 53
           },
           "Text": "eat"
@@ -7233,13 +7238,15 @@
         {
           "Bounds": {
             "X": 414,
-            "Y": 3101,
-            "Width": 39,
-            "Height": 56
+            "Y": 3106,
+            "Width": 45,
+            "Height": 45
           },
-          "Text": "y"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -7250,7 +7257,7 @@
             "Width": 113,
             "Height": 58
           },
-          "Text": "than"
+          "Text": "thou"
         }
       ]
     },
@@ -7263,7 +7270,7 @@
             "Width": 106,
             "Height": 58
           },
-          "Text": "ant"
+          "Text": "art"
         }
       ]
     },
@@ -7575,7 +7582,26 @@
             "Width": 120,
             "Height": 75
           },
-          "Text": "genu"
+          "Text": "Jeru"
+        },
+        {
+          "Bounds": {
+            "X": 39,
+            "Y": 72,
+            "Width": 18,
+            "Height": 54
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 57,
+            "Y": 72,
+            "Width": 122,
+            "Height": 54
+          },
+          "IsOnNextPage": true,
+          "Text": "salem"
         }
       ]
     }
