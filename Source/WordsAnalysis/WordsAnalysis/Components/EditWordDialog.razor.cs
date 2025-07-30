@@ -125,7 +125,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private void ConvertAmpersand()
     {
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.PrinterError);
-        BenefitOfDoubtText = "and";
+        BenefitOfDoubtText = BenefitOfDoubtText == "and" ? "And" : "and";
         Texts[0].Text = "&";
         EstimateWordSize(0);
     }
