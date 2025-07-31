@@ -53,14 +53,6 @@ evolved over time across multiple editions.
     Interactive tools to explore how the Book of Mormon evolved over time.
   
 
-## Background
-
-The platform is inspired by [QuranX.com](https://quranx.com), an open-source Islamic scripture research tool
-used by scholars and laypeople alike. The same neutral, commentary-free, data-driven methodology is being
-applied here.
-
-
-
 ## License
 
 MIT
