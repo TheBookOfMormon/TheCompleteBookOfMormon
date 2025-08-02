@@ -98,7 +98,7 @@ public partial class Index : IDisposable
             Insert blank before word (ALT I)
             Merge composite word (ALT M)
             Split words (ALT X)
-            Select column (ALT C)
+            Select column (ALT |)
             Mark words as editorial formatting change (ALT T)
             """;
     }

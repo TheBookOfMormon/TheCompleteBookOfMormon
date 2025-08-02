@@ -72,15 +72,15 @@
 
         </IconPanel>
         <div style="display:none">
-            <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync()) style="display:none;" />
-            <button accesskey="e" @onclick=@(() => ViewModel.EditWordAsync()) style="display:none;" />
-            <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync()) style="display:none;" />
-            <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync()) style="display:none;" />
-            <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync()) style="display:none;" />
-            <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) style="display:none;" />
-            <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) style="display:none;" />
-            <button accesskey="c" @onclick=@(() => ViewModel.SelectColumnAsync()) style="display:none;" />
-            <button accesskey="t" @onclick=@(() => ViewModel.MarkSelectedWordsAsEditorialFormattingChangesAsync()) style="display:none;" />
+            <button accesskey="a" @onclick=@(() => ViewModel.AddWordAsync()) />
+            <button accesskey="e" @onclick=@(() => ViewModel.EditWordAsync()) />
+            <button accesskey="r" @onclick=@(() => ViewModel.ShowColumnImagesAsync()) />
+            <button accesskey="i" @onclick=@(() => ViewModel.InsertNullWordAsync()) />
+            <button accesskey="d" @onclick=@(() => ViewModel.DeleteSelectedWordsAsync()) />
+            <button accesskey="m" @onclick=@(() => ViewModel.MergeSelectedWordsAsync()) />
+            <button accesskey="x" @onclick=@(() => ViewModel.SuggestSplitWordsAsync()) />
+            <button accesskey="|" @onclick=@(() => ViewModel.SelectColumnAsync()) />
+            <button accesskey="t" @onclick=@(() => ViewModel.MarkSelectedWordsAsEditorialFormattingChangesAsync()) />
         </div>
     </PageHeader>
 
@@ -156,7 +156,7 @@
                                     }
                                     @if (!string.IsNullOrWhiteSpace(word?.Notes))
                                     {
-                                        <div title="Notes">*</div>
+                                        <div title=@word.Notes>*</div>
                                     }
                                 </div>
                             </div>
