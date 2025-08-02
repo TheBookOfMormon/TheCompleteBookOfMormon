@@ -33,7 +33,7 @@ public partial class Index : IDisposable
         await base.OnInitializedAsync();
         FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
         var stateHasChangedCallback = EventCallback.Factory.Create(this, RefreshGrid);
-        ViewModel = new ViewModel(state, DialogService, DictionaryService, HtmlService, stateHasChangedCallback);
+        ViewModel = new ViewModel(state, DialogService, DictionaryService, HtmlService, ToastService, stateHasChangedCallback);
         await ViewModel.LoadRowDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;

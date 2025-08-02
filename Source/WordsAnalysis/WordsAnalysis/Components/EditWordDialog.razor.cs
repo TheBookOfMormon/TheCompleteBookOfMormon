@@ -79,7 +79,7 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, bounds.Height, "i").Width;
-            Texts = [new TextData("", bounds.Offset(xOffset, 0), false)];
+            Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight } , false)];
             ShowDashes = false;
             Word = new OcrWord { Elements = [Word.Elements.Last() with { Text = "" }] };
         }

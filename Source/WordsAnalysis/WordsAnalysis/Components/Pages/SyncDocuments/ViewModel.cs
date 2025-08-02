@@ -42,14 +42,22 @@ public class ViewModel
     private readonly Dictionary<OcrBookInfoAndPageNumber, Guid> SavedPageVersions = [];
     private FeatureState State;
     private readonly EventCallback StateHasChanged;
+    private readonly IToastService ToastService;
     private readonly Stack<(string Description, FeatureState State)> UndoStack = [];
 
-    public ViewModel(FeatureState state, IDialogService dialogService, IDictionaryService dictionaryService, IHtmlService htmlService, EventCallback stateHasChanged)
+    public ViewModel(
+        FeatureState state,
+        IDialogService dialogService,
+        IDictionaryService dictionaryService,
+        IHtmlService htmlService,
+        IToastService toastService,
+        EventCallback stateHasChanged)
     {
         State = state;
         DialogService = dialogService;
         DictionaryService = dictionaryService;
         HtmlService = htmlService;
+        ToastService = toastService;
         StateHasChanged = stateHasChanged;
     }
 
@@ -61,7 +69,15 @@ public class ViewModel
         WordReference existingWordReference = wordInfo.Value.WordReference;
         int columnIndex = wordInfo.Value.ColumnIndex;
 
-        OcrPage page = State.Editions[existingWordReference.BookInfo].LoadedPages[existingWordReference.PageNumber].Page;
+        EditionState edition = State.Editions[existingWordReference.BookInfo];
+        OcrWord? word = existingWordReference.GetWord(edition);
+        if (word == null)
+        {
+            ToastService.ShowError("Cannot add a word after a missing word, try going to the next word and adding a word before it.", timeout: 5000);
+            return;
+        }
+
+        OcrPage page = edition.LoadedPages[existingWordReference.PageNumber].Page;
         var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         var content = new EditWordDialog.EditWordDialogContent(State.Editions[existingWordReference.BookInfo], existingWordReference, page.ImageWidth, page.ImageHeight, true);
         var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
