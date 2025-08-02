@@ -25,7 +25,7 @@
 
         </div>
 
-        <EditForm @ref=EditForm Model=@Texts style="grid-column: 2">
+        <EditForm @ref=EditForm Model=@Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto;">
             <ObjectGraphDataAnnotationsValidator />
             <div>
                 <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@UpdateImageData Label="Show surrounding text" />
