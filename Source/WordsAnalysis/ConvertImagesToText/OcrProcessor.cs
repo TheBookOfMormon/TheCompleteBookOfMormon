@@ -193,18 +193,17 @@ public partial class OcrProcessor : EditionsProcessorBase
         return engine;
     }
 
-    public static Size EstimateWordSize(int lineHeight, int boundsHeight, string text)
+    public static Size EstimateWordSize(int lineHeight, string text)
     {
         double width = 0;
-        int height = (int)Math.Max(1, Math.Floor((decimal)boundsHeight / lineHeight)) * lineHeight;
         double mFactor = LetterHeightToWidthFactors['m'];
         foreach (char c in text)
         {
             if (!LetterHeightToWidthFactors.TryGetValue(c, out double widthFactor))
                 widthFactor = mFactor;
-            width += (height * widthFactor);
+            width += (lineHeight * widthFactor);
         }
-        return new Size((int)Math.Floor(width), height);
+        return new Size((int)Math.Floor(width), lineHeight);
     }
 
 

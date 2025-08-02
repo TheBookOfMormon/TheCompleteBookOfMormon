@@ -424,7 +424,7 @@ public class ViewModel
         var splitWordSuggestions = new List<SplitWordsDialog.SplitWordSuggestion>();
         foreach (string[] words in suggestions)
         {
-            int[] estimatedWordWidths = words.Select(x => OcrProcessor.EstimateWordSize(actualBounds.Height, actualBounds.Height, x)).Select(x => x.Width).ToArray();
+            int[] estimatedWordWidths = words.Select(x => OcrProcessor.EstimateWordSize(actualBounds.Height, x)).Select(x => x.Width).ToArray();
             int totalEstimatedCombinedTextWidth = estimatedWordWidths.Sum();
             double widthFactor = actualBounds.Width / (double)totalEstimatedCombinedTextWidth;
             int x = actualBounds.X;

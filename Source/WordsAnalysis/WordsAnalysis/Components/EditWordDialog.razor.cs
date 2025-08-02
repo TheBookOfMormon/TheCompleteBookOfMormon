@@ -78,7 +78,7 @@ public partial class EditWordDialog : IAsyncDisposable
         if (Content.IsAdd)
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
-            int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, bounds.Height, "i").Width;
+            int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
             Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight } , false)];
             ShowDashes = false;
             Word = new OcrWord { Elements = [Word.Elements.Last() with { Text = "" }] };
@@ -154,7 +154,7 @@ public partial class EditWordDialog : IAsyncDisposable
         if (text.Length < 2) return;
 
         char firstLetter = item.Text[0];
-        int estimatedWidth = (int)(OcrProcessor.EstimateWordSize(LineHeight, item.Bounds.Height, firstLetter.ToString()).Height * 0.6d);
+        int estimatedWidth = (int)(OcrProcessor.EstimateWordSize(LineHeight, firstLetter.ToString()).Height * 0.6d);
 
         item.Text = text[1..];
         item.Bounds = item.Bounds with {
@@ -188,7 +188,7 @@ public partial class EditWordDialog : IAsyncDisposable
         }
         int lineHeightAdjustmentFactor =
             LineHeightLarger ? 1 : -1;
-        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), item.Bounds.Height, text);
+        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), text);
         int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
         Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
 
