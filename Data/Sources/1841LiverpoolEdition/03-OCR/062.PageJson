@@ -730,7 +730,8 @@
           },
           "Text": "the"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3
     },
     {
       "Elements": [
@@ -1172,7 +1173,9 @@
           },
           "Text": "af"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "of"
     },
     {
       "Elements": [
@@ -1855,6 +1858,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3056,6 +3060,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
