@@ -11,7 +11,9 @@ public record OcrWord
 
     public string GetCombinedText() => string.Join("", Elements.Where((x, index) => ShowDashes || index == 0 || x.Text != "-").Select(x => x.Text));
     public string GetDisplayText(bool showBenefitOfDoubt) =>
-        showBenefitOfDoubt && BenefitOfDoubt != BenefitOfDoubt.None
+        IsStrikethrough && showBenefitOfDoubt
+        ? ""
+        : showBenefitOfDoubt && BenefitOfDoubt != BenefitOfDoubt.None
         ? BenefitOfDoubtText ?? ""
         : string.Join("", Elements.Where((x, index) => ShowDashes || index == 0 || x.Text != "-").Select(x => ShowDashes ? x.Text : x.GetDisplayText()));
 

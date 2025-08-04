@@ -63,7 +63,7 @@ public partial class Index : IDisposable
     }
 
     private string? GetWordStyle(OcrWord? word) =>
-        (word?.IsStrikethrough == true) ? "text-decoration: line-through" : null;
+        (!ViewModel.ShowBenefitOfDoubt && word?.IsStrikethrough == true) ? "text-decoration: line-through" : null;
 
     private string GetZeroPaddedSectionNumber(int sectionNumber)
     {
