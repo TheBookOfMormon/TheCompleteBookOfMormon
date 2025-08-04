@@ -121,7 +121,7 @@
                         bool isAlignmentSpacer = displayText == null;
                         <td @key=i id=@wordReference.GetGlobalReference() data-row=@rowIndex data-column=@columnIndex data-text="@displayText">
                             <div class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)">
-                                <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference))>
+                                <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference)) style="@GetWordStyle(word)">
                                     @{
                                         if (!string.IsNullOrEmpty(displayText))
                                         {

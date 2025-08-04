@@ -62,6 +62,9 @@ public partial class Index : IDisposable
         return result;
     }
 
+    private string? GetWordStyle(OcrWord? word) =>
+        (word?.IsStrikethrough == true) ? "text-decoration: line-through" : null;
+
     private string GetZeroPaddedSectionNumber(int sectionNumber)
     {
         int length = ViewModel.SectionCount.ToString().Length;

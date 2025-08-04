@@ -29,12 +29,16 @@
             <ObjectGraphDataAnnotationsValidator />
             <div>
                 <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@UpdateImageData Label="Show surrounding text" />
+                <FluentCheckbox @bind-Value=IsStrikethrough Label="Strikethrough" />
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
                 <FluentTextField @bind-Value=Notes Label="Notes" />
-                <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
-                @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
+                @if (!IsStrikethrough)
                 {
-                    <FluentTextField @bind-Value=BenefitOfDoubtText Label="Intended text" />
+                    <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
+                    @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
+                    {
+                        <FluentTextField @bind-Value=BenefitOfDoubtText Label="Intended text" />
+                    }
                 }
             </div>
 

@@ -30,6 +30,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private string? BenefitOfDoubtText;
     private EditForm EditForm = null!;
     private bool HasEstimatedSize;
+    private bool IsStrikethrough;
     private int LineHeight;
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
@@ -91,6 +92,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
         OriginalBounds = Word.Elements[0].Bounds;
         Notes = Word.Notes;
+        IsStrikethrough = Word.IsStrikethrough;
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
         BenefitOfDoubtText = Word.BenefitOfDoubtText;
         LoadImageData();
@@ -136,6 +138,7 @@ public partial class EditWordDialog : IAsyncDisposable
         OcrWord result = Word with {
             Elements = newElements,
             Notes = string.IsNullOrWhiteSpace(Notes) ? null : Notes,
+            IsStrikethrough = IsStrikethrough,
             ShowDashes = ShowDashes,
             BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key,
             BenefitOfDoubtText = BenefitOfDoubtText
@@ -143,6 +146,13 @@ public partial class EditWordDialog : IAsyncDisposable
         if (result.BenefitOfDoubt == BenefitOfDoubt.None)
         {
             result = result with { BenefitOfDoubtText = null };
+        }
+        if (result.IsStrikethrough)
+        {
+            result = result with {
+                BenefitOfDoubt = BenefitOfDoubt.None,
+                BenefitOfDoubtText = null
+            };
         }
         return result;
     }
