@@ -2212,10 +2212,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 692,
-            "Y": 911,
-            "Width": 218,
-            "Height": 106
+            "X": 694,
+            "Y": 951,
+            "Width": 184,
+            "Height": 50
+          },
+          "Text": "things"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "Notes": "Strikethrough"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 742,
+            "Y": 906,
+            "Width": 177,
+            "Height": 50
           },
           "Text": "words"
         }
@@ -2464,10 +2479,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1174,
-            "Y": 1009,
-            "Width": 158,
-            "Height": 110
+            "X": 1199,
+            "Y": 1014,
+            "Width": 136,
+            "Height": 50
           },
           "Text": "pass"
         }
@@ -3249,9 +3264,9 @@
         {
           "Bounds": {
             "X": 912,
-            "Y": 1354,
+            "Y": 1379,
             "Width": 149,
-            "Height": 83
+            "Height": 58
           },
           "Text": "thou"
         }
@@ -6547,10 +6562,43 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 19,
-            "Y": 2766,
-            "Width": 162,
-            "Height": 98
+            "X": 1945,
+            "Y": 2709,
+            "Width": 50,
+            "Height": 53
+          },
+          "Text": "w"
+        },
+        {
+          "Bounds": {
+            "X": 25,
+            "Y": 2815,
+            "Width": 19,
+            "Height": 50
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 44,
+            "Y": 2815,
+            "Width": 49,
+            "Height": 50
+          },
+          "Text": "as"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "Notes": "Strikethrough"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 22,
+            "Y": 2759,
+            "Width": 140,
+            "Height": 50
           },
           "Text": "were"
         }

@@ -1504,7 +1504,7 @@
         }
       ],
       "BenefitOfDoubt": 3,
-      "Notes": "Corrected"
+      "Notes": "Strikethrough"
     },
     {
       "Elements": [
@@ -1524,15 +1524,13 @@
         {
           "Bounds": {
             "X": 1815,
-            "Y": 587,
-            "Width": 135,
-            "Height": 60
+            "Y": 567,
+            "Width": 54,
+            "Height": 50
           },
-          "Text": ""
+          "Text": "in"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "in",
       "Notes": "Inserted"
     },
     {
@@ -3251,15 +3249,29 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 286,
+            "X": 287,
+            "Y": 1308,
+            "Width": 165,
+            "Height": 50
+          },
+          "Text": "heark"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "Notes": "Strikethrough"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 461,
             "Y": 1300,
-            "Width": 367,
+            "Width": 192,
             "Height": 56
           },
           "Text": "keeping"
         }
-      ],
-      "Notes": "Corrected"
+      ]
     },
     {
       "Elements": [
@@ -4036,14 +4048,16 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 200,
-            "Y": 1633,
-            "Width": 115,
-            "Height": 117
+            "X": 201,
+            "Y": 1655,
+            "Width": 83,
+            "Height": 50
           },
-          "Text": "our"
+          "Text": "my"
         }
       ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "our",
       "Notes": "Corrected"
     },
     {
