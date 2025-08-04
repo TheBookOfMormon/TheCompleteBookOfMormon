@@ -62,6 +62,12 @@ public partial class Index : IDisposable
         return result;
     }
 
+    private string GetZeroPaddedSectionNumber(int sectionNumber)
+    {
+        int length = ViewModel.SectionCount.ToString().Length;
+        return string.Format("{0:D" + length + "}", sectionNumber);
+    }
+
     private string GetWordClass(WordReference wordReference, string? displayText, int columnIndex)
     {
         ColumnData columnData = ViewModel.ColumnData[columnIndex];

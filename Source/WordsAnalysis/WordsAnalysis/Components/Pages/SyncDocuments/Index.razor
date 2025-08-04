@@ -29,7 +29,7 @@
                 @for (int sectionIndex = 0; sectionIndex < ViewModel.SectionCount; sectionIndex++)
                 {
                     bool selected = (sectionIndex == ViewModel.SectionIndex);
-                    <option value=@sectionIndex selected=@selected>@(sectionIndex + 1)</option>
+                    <option value=@sectionIndex selected=@selected>@GetZeroPaddedSectionNumber(sectionIndex + 1)</option>
                 }
             </select>
             <IconPanelButton Icon=Icons.Filled.Size24.ScanText
