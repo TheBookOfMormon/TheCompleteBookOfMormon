@@ -1075,11 +1075,10 @@
             "Width": 99,
             "Height": 41
           },
-          "Text": "loose"
+          "Text": "lose"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "lose"
+      "Notes": "Corrected"
     },
     {
       "Elements": [
@@ -1874,12 +1873,10 @@
             "Width": 202,
             "Height": 42
           },
-          "Text": "partake"
+          "Text": "partook"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "partook",
-      "Notes": "???"
+      "Notes": "Corrected"
     },
     {
       "Elements": [
@@ -2032,14 +2029,13 @@
           "Bounds": {
             "X": 1665,
             "Y": 771,
-            "Width": 206,
+            "Width": 230,
             "Height": 42
           },
-          "Text": "partook"
+          "Text": "partooken"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "partaken"
+      "Notes": "???"
     },
     {
       "Elements": [
@@ -3424,7 +3420,8 @@
           },
           "Text": "that"
         }
-      ]
+      ],
+      "Notes": "Corrected after 1830"
     },
     {
       "Elements": [
@@ -5894,17 +5891,42 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 201,
-            "Y": 2260,
-            "Width": 352,
-            "Height": 54
+            "X": 221,
+            "Y": 2263,
+            "Width": 148,
+            "Height": 50
           },
           "Text": "beheld"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "heeded",
-      "Notes": "Corrected"
+      "IsStrikethrough": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 207,
+            "Y": 2215,
+            "Width": 175,
+            "Height": 50
+          },
+          "Text": "headed"
+        }
+      ],
+      "IsStrikethrough": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 369,
+            "Y": 2262,
+            "Width": 172,
+            "Height": 50
+          },
+          "Text": "heeded"
+        }
+      ]
     },
     {
       "Elements": [

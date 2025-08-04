@@ -1503,8 +1503,7 @@
           "Text": "of"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Strikethrough"
+      "IsStrikethrough": true
     },
     {
       "Elements": [
@@ -3257,8 +3256,7 @@
           "Text": "heark"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Strikethrough"
+      "IsStrikethrough": true
     },
     {
       "Elements": [
@@ -4049,16 +4047,27 @@
         {
           "Bounds": {
             "X": 201,
-            "Y": 1655,
-            "Width": 83,
-            "Height": 50
+            "Y": 1657,
+            "Width": 63,
+            "Height": 81
           },
           "Text": "my"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "our",
-      "Notes": "Corrected"
+      "IsStrikethrough": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 235,
+            "Y": 1640,
+            "Width": 99,
+            "Height": 38
+          },
+          "Text": "our"
+        }
+      ]
     },
     {
       "Elements": [

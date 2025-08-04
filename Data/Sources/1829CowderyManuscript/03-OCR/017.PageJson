@@ -5390,7 +5390,7 @@
         {
           "Bounds": {
             "X": 66,
-            "Y": 2166,
+            "Y": 2202,
             "Width": 147,
             "Height": 49
           },
@@ -6379,7 +6379,7 @@
           "Bounds": {
             "X": 626,
             "Y": 2556,
-            "Width": 114,
+            "Width": 126,
             "Height": 57
           },
           "Text": "strait"
@@ -6784,8 +6784,8 @@
           "Text": "to"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Strikethrough"
+      "IsStrikethrough": true,
+      "Notes": "Inserted"
     },
     {
       "Elements": [
@@ -7949,14 +7949,13 @@
           "Text": "these"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Strikethrough"
+      "IsStrikethrough": true
     },
     {
       "Elements": [
         {
           "Bounds": {
-            "X": 712,
+            "X": 676,
             "Y": 3158,
             "Width": 156,
             "Height": 52
@@ -7964,8 +7963,7 @@
           "Text": "words"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Strikethrough"
+      "IsStrikethrough": true
     },
     {
       "Elements": [

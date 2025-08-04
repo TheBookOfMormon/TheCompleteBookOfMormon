@@ -237,7 +237,7 @@
           "Bounds": {
             "X": 186,
             "Y": 152,
-            "Width": 130,
+            "Width": 106,
             "Height": 51
           },
           "Text": "that"
@@ -369,13 +369,12 @@
             "X": 1340,
             "Y": 105,
             "Width": 142,
-            "Height": 99
+            "Height": 63
           },
-          "Text": "ded"
+          "Text": "dead"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "dead"
+      "Notes": "Corrected"
     },
     {
       "Elements": [
@@ -1382,11 +1381,9 @@
             "Width": 145,
             "Height": 42
           },
-          "Text": ""
+          "Text": "land"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "land",
       "Notes": "Inserted"
     },
     {
@@ -1398,11 +1395,9 @@
             "Width": 50,
             "Height": 42
           },
-          "Text": ""
+          "Text": "of"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "of",
       "Notes": "Inserted"
     },
     {
@@ -1433,8 +1428,7 @@
           "Text": "land"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Strikethrough"
+      "IsStrikethrough": true
     },
     {
       "Elements": [
@@ -2465,7 +2459,7 @@
             "Width": 77,
             "Height": 61
           },
-          "Text": "Kn"
+          "Text": "kn"
         },
         {
           "Bounds": {
@@ -3098,15 +3092,27 @@
         {
           "Bounds": {
             "X": 459,
-            "Y": 1356,
-            "Width": 138,
-            "Height": 115
+            "Y": 1399,
+            "Width": 92,
+            "Height": 37
           },
           "Text": "are"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "were",
+      "IsStrikethrough": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 474,
+            "Y": 1357,
+            "Width": 140,
+            "Height": 50
+          },
+          "Text": "were"
+        }
+      ],
       "Notes": "Corrected"
     },
     {
@@ -3331,17 +3337,17 @@
           "Text": "of"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "Notes": "Inserted|Strikethrough"
+      "IsStrikethrough": true,
+      "Notes": "Inserted"
     },
     {
       "Elements": [
         {
           "Bounds": {
             "X": 649,
-            "Y": 1463,
+            "Y": 1475,
             "Width": 110,
-            "Height": 62
+            "Height": 50
           },
           "Text": "was"
         }
@@ -5849,15 +5855,28 @@
         {
           "Bounds": {
             "X": 1665,
-            "Y": 2386,
-            "Width": 155,
-            "Height": 106
+            "Y": 2438,
+            "Width": 108,
+            "Height": 50
           },
           "Text": "him"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "them",
+      "IsStrikethrough": true,
+      "Notes": "Corrected"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1672,
+            "Y": 2390,
+            "Width": 144,
+            "Height": 56
+          },
+          "Text": "them"
+        }
+      ],
       "Notes": "Corrected"
     },
     {

@@ -594,17 +594,28 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1697,
-            "Y": 227,
-            "Width": 270,
-            "Height": 58
+            "X": 1694,
+            "Y": 223,
+            "Width": 98,
+            "Height": 65
           },
           "Text": "God"
         }
       ],
-      "BenefitOfDoubt": 3,
-      "BenefitOfDoubtText": "Father",
-      "Notes": "Corrected"
+      "IsStrikethrough": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1793,
+            "Y": 227,
+            "Width": 186,
+            "Height": 58
+          },
+          "Text": "Father"
+        }
+      ]
     },
     {
       "Elements": [
@@ -2984,8 +2995,7 @@
           },
           "Text": "condesention"
         }
-      ],
-      "Notes": "???"
+      ]
     },
     {
       "Elements": [
