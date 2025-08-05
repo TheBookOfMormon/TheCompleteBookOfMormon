@@ -31,6 +31,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
     private string? BenefitOfDoubtText;
     private EditForm EditForm = null!;
+    private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
     private bool IsStrikethrough;
     private int LineHeight;
@@ -60,6 +61,7 @@ public partial class EditWordDialog : IAsyncDisposable
     ValueTask IAsyncDisposable.DisposeAsync()
     {
         PageImage?.Dispose();
+        FilteredPageImage?.Dispose();
         return ValueTask.CompletedTask;
     }
 
@@ -245,14 +247,18 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void LoadImageData()
     {
-        PageImage?.Dispose();
-        string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
-        PageImage = new MagickImage(imageFilePath);
+        FilteredPageImage?.Dispose();
+        if (PageImage == null)
+        {
+            string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
+            PageImage = new MagickImage(imageFilePath);
+        }
 
+        FilteredPageImage = new MagickImage(PageImage.Clone());
         if (ApplyFiltersToPageImage)
-            PageImage.ApplyImageOptions(GetImageOptions());
+            FilteredPageImage.ApplyImageOptions(GetImageOptions());
 
-        PageImageData = PageImage.ToEmbeddedHtmlImage();
+        PageImageData = FilteredPageImage.ToEmbeddedHtmlImage();
         UpdateImageData();
     }
 
@@ -333,7 +339,6 @@ public partial class EditWordDialog : IAsyncDisposable
         LineHeightLarger = false;
         HasEstimatedSize = false;
     }
-
 
     private void ThresholdLowerChanged()
     {
