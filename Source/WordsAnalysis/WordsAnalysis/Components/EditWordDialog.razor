@@ -19,8 +19,9 @@
             </div>
 
             <!-- Bottom Image Container (takes remaining 50%) -->
-            <div style="flex: 1; overflow-y: auto;">
+            <div style="flex: 1; overflow-y: auto; position: relative;">
                 <img src=@PageImageData style="width: 100%; height: auto;" />
+                <FluentCheckbox @bind-Value=ApplyFiltersToPageImage @bind-Value:after=LoadImageData title="High contrast" Style="position:absolute; top: 0; left: 0; opacity: 0.5;"/>
             </div>
 
         </div>

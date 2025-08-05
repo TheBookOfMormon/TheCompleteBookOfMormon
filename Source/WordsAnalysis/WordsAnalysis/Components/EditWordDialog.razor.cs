@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
+using WordsAnalysis.AppLayer.Extensions;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
 using WordsAnalysis.Services;
@@ -25,6 +26,7 @@ public partial class EditWordDialog : IAsyncDisposable
     public FluentDialog Dialog { get; set; } = default!;
 
     private bool AddWordAfter = true;
+    private bool ApplyFiltersToPageImage;
     private bool ApplyThreshold;
     private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
     private string? BenefitOfDoubtText;
@@ -80,7 +82,7 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             OcrRect bounds = Word.Elements.Last().Bounds;
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
-            Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight } , false)];
+            Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight }, false)];
             ShowDashes = false;
             Word = new OcrWord { Elements = [Word.Elements.Last() with { Text = "" }] };
         }
@@ -226,13 +228,30 @@ public partial class EditWordDialog : IAsyncDisposable
             return "Edit";
     }
 
+    private PageState.ImageOptions? GetImageOptions()
+    {
+        return !ShowHighContrast
+            ? null
+            : new PageState.ImageOptions {
+                ApplyThreshold = ApplyThreshold,
+                ShowHighContrast = ShowHighContrast,
+                ThresholdLower = ThresholdLower,
+                ThresholdUpper = ThresholdUpper
+            };
+    }
+
     private string GetWordImageStyle() =>
         ShowSurroundingText ? "" : "width: 100%; height:100%; object-fit: contain";
 
     private void LoadImageData()
     {
+        PageImage?.Dispose();
         string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
         PageImage = new MagickImage(imageFilePath);
+
+        if (ApplyFiltersToPageImage)
+            PageImage.ApplyImageOptions(GetImageOptions());
+
         PageImageData = PageImage.ToEmbeddedHtmlImage();
         UpdateImageData();
     }
@@ -333,15 +352,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private void UpdateImageData()
     {
         OcrWord tempWord = CreateWord();
-        PageState.ImageOptions? imageOptions =
-            !ShowHighContrast
-            ? null
-            : new PageState.ImageOptions {
-                ApplyThreshold = ApplyThreshold,
-                ShowHighContrast = ShowHighContrast,
-                ThresholdLower = ThresholdLower,
-                ThresholdUpper = ThresholdUpper
-            };
+        PageState.ImageOptions? imageOptions = GetImageOptions();
         using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, ShowSurroundingText, imageOptions);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
@@ -351,6 +362,7 @@ public partial class EditWordDialog : IAsyncDisposable
         // Edition
         LineHeight = AppPreferences.Editions.GetLineHeight(Content.Edition.BookInfo);
         // Image
+        ApplyFiltersToPageImage = AppPreferences.EditWordDialog.ApplyFiltersToPageImage;
         ApplyThreshold = AppPreferences.EditWordDialog.ApplyThreshold;
         ShowHighContrast = AppPreferences.EditWordDialog.ShowHighContrast;
         ShowSurroundingText = AppPreferences.EditWordDialog.ShowSurroundingText;
@@ -363,6 +375,7 @@ public partial class EditWordDialog : IAsyncDisposable
         // Edition
         AppPreferences.Editions.SetLineHeight(Content.Edition.BookInfo, LineHeight);
         // Image
+        AppPreferences.EditWordDialog.ApplyFiltersToPageImage = ApplyFiltersToPageImage;
         AppPreferences.EditWordDialog.ApplyThreshold = ApplyThreshold;
         AppPreferences.EditWordDialog.ShowHighContrast = ShowHighContrast;
         AppPreferences.EditWordDialog.ShowSurroundingText = ShowSurroundingText;

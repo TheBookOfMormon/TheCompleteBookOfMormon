@@ -80,7 +80,7 @@ public record PageState
         };
 
         MagickImage result = image.CloneArea(lineBounds);
-        ApplyImageOptions(result, imageOptions);
+        result.ApplyImageOptions(imageOptions);
 
         IDrawables<byte> rectangleDrawables = new Drawables()
             .FillColor(MagickColors.Lime)
@@ -121,30 +121,10 @@ public record PageState
 
             offset += scaled.Bounds.Width;
         }
-        ApplyImageOptions(result, imageOptions);
+        result.ApplyImageOptions(imageOptions);
         return result;
     }
 
-    private static void ApplyImageOptions(MagickImage image, ImageOptions? imageOptions)
-    {
-        if (imageOptions == null || !imageOptions.ShowHighContrast) return;
-
-        image.ColorType = ColorType.Grayscale;
-        image.MedianFilter();
-        image.Sharpen();
-        image.Sharpen();
-        image.Contrast();
-        if (imageOptions.ApplyThreshold)
-        {
-            int lower = imageOptions.ThresholdLower;
-            int upper = imageOptions.ThresholdUpper;
-            if (lower > upper)
-                (lower, upper) = (upper, lower);
-            image.BlackThreshold(new Percentage(lower));
-            image.WhiteThreshold(new Percentage(upper));
-        }
-        image.ColorType = ColorType.TrueColor;
-    }
 
     public class ImageOptions
     {
