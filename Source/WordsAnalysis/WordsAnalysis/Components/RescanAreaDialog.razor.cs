@@ -25,10 +25,9 @@ public partial class RescanAreaDialog : IAsyncDisposable
 
     private OcrRect Bounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
+    private string? PageImageData;
     private int PageWidth;
-    private PageState PageState = null!;
     private string? ScannedText;
-    private string? WordImageData;
     private OcrWord[] Words = [];
 
     ValueTask IAsyncDisposable.DisposeAsync()
@@ -41,7 +40,6 @@ public partial class RescanAreaDialog : IAsyncDisposable
     {
         await base.OnInitializedAsync();
         Bounds = Content.WordReference.GetWord(Content.Edition)?.Elements[0].Bounds ?? OcrRect.Empty;
-        PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         LoadImageData();
         if (Bounds == OcrRect.Empty) await CancelAsync();
     }
@@ -61,9 +59,9 @@ public partial class RescanAreaDialog : IAsyncDisposable
     private void LoadImageData()
     {
         string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
-        PageImage = new MagickImage(imageFilePath);
+        PageImage = ImageRepository.GetPageImage(imageFilePath);
         PageWidth = (int)PageImage.Width;
-        UpdateImageData();
+        PageImageData = PageImage.ToEmbeddedHtmlImage();
     }
 
     private void Move(MouseEventArgs e, int xFactor, int yFactor)
@@ -88,8 +86,6 @@ public partial class RescanAreaDialog : IAsyncDisposable
                     Height = Math.Max(1, Bounds.Height + yAdjustment)
                 };
         }
-        UpdateImageData();
-        StateHasChanged();
     }
 
     private void MoveDown(MouseEventArgs e)
@@ -119,16 +115,6 @@ public partial class RescanAreaDialog : IAsyncDisposable
         OcrWord[] scannedWords = ocrProcessor.ProcessImage(Content.WordReference.BookInfo, croppedImage, false, 16);
         Words = scannedWords.Select(w => w with { Elements = w.Elements.Select(e => e with { Bounds = e.Bounds.Offset(Bounds.X, Bounds.Y) }).ToImmutableList() }).ToArray();
         ScannedText = string.Join(' ', Words.SelectMany(x => x.Elements.Select(x => x.Text)));
-    }
-
-    private void UpdateImageData()
-    {
-        OcrElement tempElement = new OcrElement { Bounds = Bounds, Text = "" };
-        OcrWord tempWord = new OcrWord {
-            Elements = [tempElement]
-        };
-        using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord);
-        WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
 
     private class RequiredText

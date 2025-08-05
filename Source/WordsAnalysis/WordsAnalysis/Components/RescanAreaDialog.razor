@@ -1,5 +1,6 @@
 @using WordsAnalysis.AppLayer.Features.SyncDocuments
 @implements IDialogContentComponent<RescanAreaDialog.RescanAreaDialogContent>
+@inject IImageRepository ImageRepository
 
 <FluentDialogHeader>
     Rescan area - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
@@ -7,8 +8,9 @@
 
 <FluentDialogBody>
     <div style="display: flex; flex-direction: row; align-items: flex-start;">
-        <div style="display: flex; flex-direction: row; flex-grow: 1;  overflow-y: auto;">
-            <img src=@WordImageData style="width: 100%; height: auto; flex-grow: 1" />
+        <div style="position:relative; display: flex; flex-direction: row; flex-grow: 1;  overflow-y: auto;">
+           <HighlightBox @bind-Rect=Bounds/>
+            <img src=@PageImageData style="width: 100%; height: auto; flex-grow: 1" />
         </div>
         <div style="display: flex; flex-direction: column; align-items: flex-end; align-self: flex-start;">
             <FluentToolbar>
