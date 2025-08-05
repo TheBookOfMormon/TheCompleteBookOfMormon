@@ -39,11 +39,11 @@ public partial class EditWordDialog : IAsyncDisposable
     private string? Notes = "";
     private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
+    private MagickImage PageDisplayImage => ShowHighContrast ? FilteredPageImage : PageImage;
     private string? PageImageData;
-    private PageState PageState = null!;
+    private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
     private bool ShowDashes;
     private bool ShowHighContrast;
-    private bool ShowSurroundingText;
     private int ThresholdLower;
     private int ThresholdUpper;
     private TextData[] Texts = [];
@@ -77,7 +77,6 @@ public partial class EditWordDialog : IAsyncDisposable
         ReadAppSettings();
         ResetLineHeightAdjustment();
 
-        PageState = Content.Edition.LoadedPages[Content.WordReference.PageNumber];
         Word = Content.WordReference.GetWord(Content.Edition)!;
         if (Content.IsAdd)
         {
@@ -109,11 +108,8 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task CenterImagePointAsync()
     {
-        if (ShowSurroundingText)
-        {
-            (int x, int y) = Texts.Last().Bounds.GetCenter();
-            await HtmlService.CenterImagePointInParent("word-image", x, y);
-        }
+        (int x, int y) = Texts.Last().Bounds.GetCenter();
+        await HtmlService.CenterImagePointInParent("page-image", x, y);
     }
 
     private async Task ConfirmAsync()
@@ -125,6 +121,8 @@ public partial class EditWordDialog : IAsyncDisposable
 
         var result = new EditWordDialogResult(newWord, AddWordAfter);
         await Dialog.CloseAsync(result);
+
+        ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
     }
 
     private void ConvertAmpersand()
@@ -135,6 +133,15 @@ public partial class EditWordDialog : IAsyncDisposable
         EstimateWordSize(0);
         Texts[0].Text = Texts[0].Text == "and" ? "And" : "and";
     }
+
+    private MagickImage CreateFilteredPageImage()
+    {
+        var result = new MagickImage(PageImage.Clone());
+        result.ApplyImageOptions(GetImageOptions());
+        FilteredPageImage = result;
+        return result;
+    }
+
 
     private OcrWord CreateWord()
     {
@@ -242,27 +249,14 @@ public partial class EditWordDialog : IAsyncDisposable
             };
     }
 
-    private string GetWordImageStyle() =>
-        ShowSurroundingText ? "" : "width: 100%; height:100%; object-fit: contain";
-
     private void LoadPageImage()
     {
         if (PageImage != null)
             throw new InvalidOperationException("Page image already loaded.");
 
-        string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
-        PageImage = ImageRepository.Get(imageFilePath);
+        PageImage = ImageRepository.GetPageImage(PageImageFilePath);
+        FilteredPageImage = ImageRepository.GetFilteredPageImage(PageImageFilePath, CreateFilteredPageImage);
         UpdatePageImageData();
-    }
-
-    private void UpdatePageImageData()
-    {
-        FilteredPageImage?.Dispose();
-        FilteredPageImage = new MagickImage(PageImage.Clone());
-        if (ApplyThreshold)
-            FilteredPageImage.ApplyImageOptions(GetImageOptions());
-        PageImageData = FilteredPageImage.ToEmbeddedHtmlImage();
-        UpdateWordImageData();
     }
 
     private void Move(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
@@ -336,6 +330,13 @@ public partial class EditWordDialog : IAsyncDisposable
         Move(e, elementIndex, 0, -1);
     }
 
+    private void PageFilterChanged()
+    {
+        FilteredPageImage?.Dispose();
+        FilteredPageImage = CreateFilteredPageImage();
+        UpdatePageImageData();
+    }
+
     private void ResetLineHeightAdjustment()
     {
         LineHeightAdjustment = 0;
@@ -347,20 +348,26 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         if (ThresholdLower >= ThresholdUpper)
             ThresholdUpper = ThresholdLower + 1;
-        UpdatePageImageData();
+        PageFilterChanged();
     }
 
     private void ThresholdUpperChanged()
     {
         if (ThresholdUpper <= ThresholdLower)
             ThresholdLower = ThresholdUpper - 1;
-        UpdatePageImageData();
+        PageFilterChanged();
+    }
+
+    private void UpdatePageImageData()
+    {
+        PageImageData = PageDisplayImage.ToEmbeddedHtmlImage();
+        UpdateWordImageData();
     }
 
     private void UpdateWordImageData()
     {
         OcrWord tempWord = CreateWord();
-        using MagickImage lineImage = PageState.GetWordImage(FilteredPageImage, tempWord, ShowSurroundingText);
+        using MagickImage lineImage = PageState.GetWordImage(PageDisplayImage, tempWord);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
 
@@ -371,7 +378,6 @@ public partial class EditWordDialog : IAsyncDisposable
         // Image
         ApplyThreshold = AppPreferences.EditWordDialog.ApplyThreshold;
         ShowHighContrast = AppPreferences.EditWordDialog.ShowHighContrast;
-        ShowSurroundingText = AppPreferences.EditWordDialog.ShowSurroundingText;
         ThresholdLower = AppPreferences.EditWordDialog.ThresholdLower;
         ThresholdUpper = AppPreferences.EditWordDialog.ThresholdUpper;
     }
@@ -383,7 +389,6 @@ public partial class EditWordDialog : IAsyncDisposable
         // Image
         AppPreferences.EditWordDialog.ApplyThreshold = ApplyThreshold;
         AppPreferences.EditWordDialog.ShowHighContrast = ShowHighContrast;
-        AppPreferences.EditWordDialog.ShowSurroundingText = ShowSurroundingText;
         AppPreferences.EditWordDialog.ThresholdLower = ThresholdLower;
         AppPreferences.EditWordDialog.ThresholdUpper = ThresholdUpper;
     }

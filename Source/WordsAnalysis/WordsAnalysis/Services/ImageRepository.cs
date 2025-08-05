@@ -5,7 +5,9 @@ namespace WordsAnalysis.Services;
 
 public interface IImageRepository
 {
-    MagickImage Get(string path);
+    MagickImage GetPageImage(string path);
+    MagickImage GetFilteredPageImage(string path, Func<MagickImage> getter);
+    void SetFilteredPageImage(string path, MagickImage? image);
 }
 
 internal class ImageRepository : IImageRepository
@@ -20,17 +22,58 @@ internal class ImageRepository : IImageRepository
             SlidingExpiration = TimeSpan.FromMinutes(5)
         };
     }
-    public MagickImage Get(string filePath)
+
+    public MagickImage GetFilteredPageImage(string filePath, Func<MagickImage> getImage)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(filePath);
+        ArgumentNullException.ThrowIfNull(getImage);
 
-        var imageBytes = Cache.Get(filePath) as IMagickImage<byte>;
+        string key = GetFilteredPageImageKey(filePath);
+        return GetImage(key, getImage);
+    }
+
+    public MagickImage GetPageImage(string filePath)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(filePath);
+        string key = GetPageImageKey(filePath);
+        return GetImage(key, () => new MagickImage(filePath));
+    }
+
+    public void SetFilteredPageImage(string filePath, MagickImage? image)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(filePath);
+        ArgumentNullException.ThrowIfNull(image);
+
+        string key = GetFilteredPageImageKey(filePath);
+        if (image == null)
+            Cache.Remove(key);
+        else
+            _ = SetImage(key, image);
+    }
+
+    private string GetFilteredPageImageKey(string filePath) => $"FilteredPageImage:{filePath}";
+
+    public MagickImage GetImage(string key, Func<MagickImage> createImage)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(key);
+        ArgumentNullException.ThrowIfNull(createImage);
+
+        var imageBytes = Cache.Get(key) as IMagickImage<byte>;
         if (imageBytes == null)
         {
-            using var image = new MagickImage(filePath);
-            imageBytes = image.Clone();
-            Cache.Set(filePath, imageBytes, Policy);
+            using var image = createImage();
+            imageBytes = SetImage(key, image);
         }
         return new MagickImage(imageBytes);
     }
+
+    private string GetPageImageKey(string filePath) => $"PageImage:{filePath}";
+
+    private IMagickImage<byte> SetImage(string key, MagickImage image)
+    {
+        IMagickImage<byte> imageBytes = image.Clone();
+        Cache.Set(key, imageBytes, Policy);
+        return imageBytes;
+    }
+
 }

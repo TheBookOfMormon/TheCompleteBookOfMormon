@@ -46,60 +46,7 @@ public record PageState
         return new OcrRect { X = minX, Y = minY, Width = maxRight - minX + 1, Height = maxBottom - minY + 1 };
     }
 
-    public MagickImage GetWordImage(MagickImage image, OcrWord word, bool showSurroundingText)
-    {
-        if (showSurroundingText)
-            return GetImageForWordAndSurrounding(image, word);
-        return GetImageForWordOnly(image, word);
-    }
-
-    private static void AddDrawRect(IDrawables<byte> rectangleDrawables, int x, int y, OcrRect elementBounds)
-    {
-        rectangleDrawables.Rectangle(x, y, x + elementBounds.Width - 1, y + elementBounds.Height - 1);
-    }
-
-    private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word)
-    {
-        OcrRect lineBounds = GetLineBounds(word);
-        OcrRect wordBounds = word.IsComposite() && !word.Elements[2].IsOnNextPage ? word.Elements[0].Bounds.Union(word.Elements[1].Bounds).Union(word.Elements[2].Bounds) : word.Elements[0].Bounds;
-        if (lineBounds == OcrRect.Empty)
-        {
-            lineBounds = wordBounds with {
-                X = 0,
-                Width = (int)image.Width
-            };
-            if (lineBounds.Height == 0)
-                lineBounds = lineBounds with { Height = 100 };
-        }
-        lineBounds = lineBounds.Union(wordBounds);
-        lineBounds = lineBounds with {
-            X = 0,
-            Width = (int)image.Width,
-            Y = lineBounds.Y - (AverageLineHeight),
-            Height = lineBounds.Height + (AverageLineHeight * 2)
-        };
-
-        MagickImage result = image.CloneArea(lineBounds);
-        result.ColorType = ColorType.TrueColor;
-
-        IDrawables<byte> rectangleDrawables = new Drawables()
-            .FillColor(MagickColors.Lime)
-            .FillOpacity(new Percentage(50));
-
-        foreach (var element in word.Elements)
-        {
-            OcrRect elementBounds = element.Bounds;
-            int x = elementBounds.X - lineBounds.X;
-            int y = elementBounds.Y - lineBounds.Y;
-            if (!element.IsOnNextPage)
-                AddDrawRect(rectangleDrawables, x, y, elementBounds);
-        }
-        rectangleDrawables.Draw(result);
-
-        return result;
-    }
-
-    public static MagickImage GetImageForWordOnly(MagickImage image, OcrWord word)
+    public static MagickImage GetWordImage(MagickImage image, OcrWord word)
     {
         const float scale = 1f;
 
@@ -122,7 +69,6 @@ public record PageState
         }
         return result;
     }
-
 
     public class ImageOptions
     {
