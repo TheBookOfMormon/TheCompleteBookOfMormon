@@ -15,14 +15,12 @@ internal static class AppPreferences
     public static class EditWordDialog
     {
         private const string Base = "EditWordDialog";
-        private const string ApplyFiltersToPageImageKey = $"{Base}-ApplyFiltersToPageImage";
         private const string ApplyThresholdKey = $"{Base}-ApplyThreshold";
         private const string ShowHighContrastKey = $"{Base}-ShowHighContrast";
         private const string ShowSurroundingTextKey = $"{Base}-ShowSurroundingText";
         private const string ThresholdLowerKey = $"{Base}-ThresholdLower";
         private const string ThresholdUpperKey = $"{Base}-ThresholdUpper";
 
-        public static bool ApplyFiltersToPageImage { get => Preferences.Get(ApplyFiltersToPageImageKey, false); set => Preferences.Set(ApplyFiltersToPageImageKey, value); }
         public static bool ApplyThreshold { get => Preferences.Get(ApplyThresholdKey, false); set => Preferences.Set(ApplyThresholdKey, value); }
         public static bool ShowHighContrast { get => Preferences.Get(ShowHighContrastKey, false); set => Preferences.Set(ShowHighContrastKey, value); }
         public static bool ShowSurroundingText { get => Preferences.Get(ShowSurroundingTextKey, true); set => Preferences.Set(ShowSurroundingTextKey, value); }

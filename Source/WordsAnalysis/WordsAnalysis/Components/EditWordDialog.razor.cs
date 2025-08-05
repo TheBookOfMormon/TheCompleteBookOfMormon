@@ -26,7 +26,6 @@ public partial class EditWordDialog : IAsyncDisposable
     public FluentDialog Dialog { get; set; } = default!;
 
     private bool AddWordAfter = true;
-    private bool ApplyFiltersToPageImage;
     private bool ApplyThreshold;
     private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
     private string? BenefitOfDoubtText;
@@ -260,7 +259,7 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         FilteredPageImage?.Dispose();
         FilteredPageImage = new MagickImage(PageImage.Clone());
-        if (ApplyFiltersToPageImage)
+        if (ApplyThreshold)
             FilteredPageImage.ApplyImageOptions(GetImageOptions());
         PageImageData = FilteredPageImage.ToEmbeddedHtmlImage();
         UpdateWordImageData();
@@ -370,7 +369,6 @@ public partial class EditWordDialog : IAsyncDisposable
         // Edition
         LineHeight = AppPreferences.Editions.GetLineHeight(Content.Edition.BookInfo);
         // Image
-        ApplyFiltersToPageImage = AppPreferences.EditWordDialog.ApplyFiltersToPageImage;
         ApplyThreshold = AppPreferences.EditWordDialog.ApplyThreshold;
         ShowHighContrast = AppPreferences.EditWordDialog.ShowHighContrast;
         ShowSurroundingText = AppPreferences.EditWordDialog.ShowSurroundingText;
@@ -383,7 +381,6 @@ public partial class EditWordDialog : IAsyncDisposable
         // Edition
         AppPreferences.Editions.SetLineHeight(Content.Edition.BookInfo, LineHeight);
         // Image
-        AppPreferences.EditWordDialog.ApplyFiltersToPageImage = ApplyFiltersToPageImage;
         AppPreferences.EditWordDialog.ApplyThreshold = ApplyThreshold;
         AppPreferences.EditWordDialog.ShowHighContrast = ShowHighContrast;
         AppPreferences.EditWordDialog.ShowSurroundingText = ShowSurroundingText;
