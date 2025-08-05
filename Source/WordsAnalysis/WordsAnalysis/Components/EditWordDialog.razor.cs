@@ -99,7 +99,7 @@ public partial class EditWordDialog : IAsyncDisposable
         IsStrikethrough = Word.IsStrikethrough;
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
         BenefitOfDoubtText = Word.BenefitOfDoubtText;
-        LoadImageData();
+        LoadPageImage();
     }
 
     private async Task CancelAsync()
@@ -175,7 +175,7 @@ public partial class EditWordDialog : IAsyncDisposable
             X = item.Bounds.X + estimatedWidth,
             Width = Math.Max(1, item.Bounds.Width - estimatedWidth)
         };
-        UpdateImageData();
+        UpdateWordImageData();
     }
 
     private void EstimateWordSize(int elementIndex)
@@ -217,7 +217,7 @@ public partial class EditWordDialog : IAsyncDisposable
             Texts[0].Bounds = Texts[0].Bounds with { Width = (int)(Texts[0].Bounds.Width * factor) };
         }
 
-        UpdateImageData();
+        UpdateWordImageData();
 
         HasEstimatedSize = true;
     }
@@ -245,21 +245,24 @@ public partial class EditWordDialog : IAsyncDisposable
     private string GetWordImageStyle() =>
         ShowSurroundingText ? "" : "width: 100%; height:100%; object-fit: contain";
 
-    private void LoadImageData()
+    private void LoadPageImage()
+    {
+        if (PageImage != null)
+            throw new InvalidOperationException("Page image already loaded.");
+
+        string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
+        PageImage = new MagickImage(imageFilePath);
+        UpdatePageImageData();
+    }
+
+    private void UpdatePageImageData()
     {
         FilteredPageImage?.Dispose();
-        if (PageImage == null)
-        {
-            string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
-            PageImage = new MagickImage(imageFilePath);
-        }
-
         FilteredPageImage = new MagickImage(PageImage.Clone());
         if (ApplyFiltersToPageImage)
             FilteredPageImage.ApplyImageOptions(GetImageOptions());
-
         PageImageData = FilteredPageImage.ToEmbeddedHtmlImage();
-        UpdateImageData();
+        UpdateWordImageData();
     }
 
     private void Move(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
@@ -298,7 +301,7 @@ public partial class EditWordDialog : IAsyncDisposable
         bool newIsAfter = elementIndex != 0 || isAfter();
         if (wasAfter != newIsAfter)
             AddWordAfter = newIsAfter;
-        UpdateImageData();
+        UpdateWordImageData();
 
         _ = CenterImagePointAsync();
 
@@ -344,17 +347,17 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         if (ThresholdLower >= ThresholdUpper)
             ThresholdUpper = ThresholdLower + 1;
-        UpdateImageData();
+        UpdatePageImageData();
     }
 
     private void ThresholdUpperChanged()
     {
         if (ThresholdUpper <= ThresholdLower)
             ThresholdLower = ThresholdUpper - 1;
-        UpdateImageData();
+        UpdatePageImageData();
     }
 
-    private void UpdateImageData()
+    private void UpdateWordImageData()
     {
         OcrWord tempWord = CreateWord();
         using MagickImage lineImage = PageState.GetWordImage(FilteredPageImage, tempWord, ShowSurroundingText);

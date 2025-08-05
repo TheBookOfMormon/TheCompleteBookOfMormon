@@ -23,7 +23,7 @@
                 <Panzoom WheelMode=@WheelMode.ZoomWithWheel>
                     <img src=@PageImageData @ref=context.ElementReference />
                 </Panzoom>
-                <FluentCheckbox @bind-Value=ApplyFiltersToPageImage @bind-Value:after=LoadImageData title="High contrast" Style="position:absolute; top: 0; left: 0; opacity: 0.5;" />
+                <FluentCheckbox @bind-Value=ApplyFiltersToPageImage @bind-Value:after=UpdatePageImageData title="High contrast" Style="position:absolute; top: 0; left: 0; opacity: 0.5;" />
             </div>
 
         </div>
@@ -31,7 +31,7 @@
         <EditForm @ref=EditForm Model=@Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto;">
             <ObjectGraphDataAnnotationsValidator />
             <div>
-                <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@UpdateImageData Label="Show surrounding text" />
+                <FluentCheckbox @bind-Value=ShowSurroundingText @bind-Value:after=@UpdateWordImageData Label="Show surrounding text" />
                 <FluentCheckbox @bind-Value=IsStrikethrough Label="Strikethrough" />
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
                 <FluentTextField @bind-Value=Notes Label="Notes" />
@@ -92,10 +92,10 @@
             }
             <FluentDivider Style="margin:0.5em 0 1em 0;" />
             <div>
-                <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@UpdateImageData Label="High contrast" />
+                <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@UpdatePageImageData Label="High contrast" />
                 @if (ShowHighContrast)
                 {
-                    <FluentCheckbox @bind-Value=ApplyThreshold @bind-Value:after=@UpdateImageData Label="Threshhold" />
+                    <FluentCheckbox @bind-Value=ApplyThreshold @bind-Value:after=@UpdatePageImageData Label="Threshhold" />
                     @if (ApplyThreshold)
                     {
                         <FluentSlider @bind-Value=ThresholdLower @bind-Value:after=@ThresholdLowerChanged Label="Lower" Min=0 Max=99 Step=1 />

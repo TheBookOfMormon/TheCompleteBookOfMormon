@@ -44,15 +44,15 @@ public partial class ViewColumnImagesDialog
         return wordImage.ToEmbeddedHtmlImage();
     }
 
-    //private void LoadImageData()
+    //private void LoadPageImage()
     //{
     //    string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
     //    PageImage = new MagickImage(imageFilePath);
     //    PageImageData = PageImage.ToEmbeddedHtmlImage();
-    //    UpdateImageData();
+    //    UpdateWordImageData();
     //}
 
-    //private void UpdateImageData()
+    //private void UpdateWordImageData()
     //{
     //    OcrWord tempWord = CreateWord();
     //    using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, ShowSurroundingText);
