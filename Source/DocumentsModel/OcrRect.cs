@@ -34,6 +34,30 @@ public record OcrRect
         return new OcrRect { X = newX, Y = newY, Width = newRight - newX, Height = newBottom - newY };
     }
 
+    public OcrRect MoveX(int x) => 
+        new OcrRect { 
+            X = x,
+            Y = Y,
+            Width = Width + (X - x),
+            Height = Height
+        };
+
+    public OcrRect MoveY(int y) =>
+        new OcrRect {
+            X = X,
+            Y = y,
+            Width = Width,
+            Height = Height + (Y - y)
+        };
+
+    public OcrRect Normalize() =>
+        new OcrRect {
+            X = Width < 0 ? X + Width : X,
+            Y = Height < 0 ? Y + Height : Y,
+            Width = Math.Abs(Width),
+            Height = Math.Abs(Height)
+        };
+
     public OcrRect Offset(int x, int y) => new OcrRect { X = X + x, Y = Y + y, Width = Width, Height = Height };
 
     public OcrRect ScaleByFactor(double widthFactor, double heightFactor) => ScaleByPixels((int)((widthFactor - 1) * Width), (int)((heightFactor - 1) * Height));

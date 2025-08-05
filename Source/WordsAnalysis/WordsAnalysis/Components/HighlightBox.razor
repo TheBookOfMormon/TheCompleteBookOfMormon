@@ -1,11 +1,12 @@
-<div class="grid" style="left:@(X)px; top:@(Y)px; width:@(Width)px; height:@(Height)px;">
-    <div class="cell">&nbsp;</div>  <!-- top-left -->
-    <div class="cell">&nbsp;</div>  <!-- top-middle -->
-    <div class="cell">&nbsp;</div>  <!-- top-right -->
-    <div class="cell">&nbsp;</div>  <!-- middle-left -->
-    <div class="cell center">&nbsp;</div> <!-- center -->
-    <div class="cell">&nbsp;</div>  <!-- middle-right -->
-    <div class="cell">&nbsp;</div>  <!-- bottom-left -->
-    <div class="cell">&nbsp;</div>  <!-- bottom-middle -->
-    <div class="cell">&nbsp;</div>  <!-- bottom-right -->
+@inject IJSRuntime JS
+<div class="grid" style=@GetStyle() @onmousedown:preventDefault @onmousedown:stopPropagation>
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopLeft)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Top)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopRight)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Left)) />
+    <div class="cell center" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Middle)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Right)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.BottomLeft)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Bottom)) />
+    <div class="cell" @onmousedown=@(e => MouseDownAsync(e, CellPosition.BottomRight)) />
 </div>
