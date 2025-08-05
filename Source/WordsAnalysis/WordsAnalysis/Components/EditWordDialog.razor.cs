@@ -297,8 +297,6 @@ public partial class EditWordDialog : IAsyncDisposable
             AddWordAfter = newIsAfter;
         UpdateWordImageData();
 
-        _ = CenterImagePointAsync();
-
         bool isAfter()
         {
             OcrRect bounds = Texts[0].Bounds;

@@ -20,16 +20,12 @@
             </div>
 
             <!-- Bottom Image Container (takes remaining 50%) -->
-            <div style="flex: 1; overflow: hidden;">
-                @* <Panzoom WheelMode=@WheelMode.ZoomWithWheel> *@
-                    <div style="position:relative; display:inline-block; width: auto; height: auto;">
-                        @foreach(TextData element in Texts)
-                        {
-                            <HighlightBox @bind-Rect=element.Bounds @bind-Rect:after=UpdateWordImageData/>
-                        }
-                        <img id="page-image" src=@PageImageData/>
-                    </div>
-                @* </Panzoom> *@
+            <div style="flex:1; overflow:auto; position:relative; ">
+               @foreach(TextData element in Texts)
+               {
+                     <HighlightBox @bind-Rect=element.Bounds @bind-Rect:after=UpdateWordImageData/>
+               }
+               <img id="page-image" src=@PageImageData/>
             </div>
 
         </div>

@@ -20,7 +20,6 @@ public static class MauiProgram
 
         builder.Services.AddMauiBlazorWebView();
         builder.Services.AddFluentUIComponents();
-        builder.Services.AddBlazorPanzoomServices();
         Bootstrapper.RegisterServices(builder.Services);
 
 #if DEBUG
