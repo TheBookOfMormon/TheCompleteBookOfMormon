@@ -130,10 +130,11 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void ConvertAmpersand()
     {
-        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.PrinterError);
-        BenefitOfDoubtText = BenefitOfDoubtText == "and" ? "And" : "and";
-        Texts[0].Text = "&";
+        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.None);
+        BenefitOfDoubtText = null;
+        Texts[0].Text = "M";
         EstimateWordSize(0);
+        Texts[0].Text = Texts[0].Text == "and" ? "And" : "and";
     }
 
     private OcrWord CreateWord()
