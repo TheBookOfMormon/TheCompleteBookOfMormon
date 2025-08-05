@@ -83,7 +83,7 @@ public class ViewModel
         var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
         FeatureState newFeatureState = State;
-        
+
         newFeatureState = newFeatureState with {
             LastEditedColumnIndex = columnIndex,
             LastEditedEdition = existingWordReference.BookInfo
@@ -157,7 +157,7 @@ public class ViewModel
         int columnIndex = wordInfo.Value.ColumnIndex;
 
         OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
-        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
+        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         var content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
         var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
@@ -271,7 +271,7 @@ public class ViewModel
         KeyValuePair<WordReference, string?>[] remainingText = featureState.GetFollowingTextOnPage();
         if (remainingText == null) return;
 
-        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
+        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         EditionState editionState = featureState.Editions[remainingText[0].Key.BookInfo];
         var content = new DeleteWordsDialog.DeleteWordsDialogContent(editionState, remainingText);
         var dialog = await DialogService.ShowDialogAsync<DeleteWordsDialog, DeleteWordsDialog.DeleteWordsDialogContent>(content, dialogParameters);
@@ -301,7 +301,7 @@ public class ViewModel
     public async Task RescanAreaAsync()
     {
         WordReference selectedWordReference = SelectedWords.Single();
-        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
+        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         var content = new RescanAreaDialog.RescanAreaDialogContent(State.Editions[selectedWordReference.BookInfo], selectedWordReference);
         var dialog = await DialogService.ShowDialogAsync<RescanAreaDialog, RescanAreaDialog.RescanAreaDialogContent>(content, dialogParameters);
         DialogResult result = await dialog.Result;
@@ -356,7 +356,7 @@ public class ViewModel
         FeatureState newState = State;
         newState = FeatureState.DeselectAll(newState);
         var wordsToSelect = new List<WordReference>();
-        foreach(RowData dataRow in RowData)
+        foreach (RowData dataRow in RowData)
         {
             if (dataRow.Words.Count > columnIndex)
             {
@@ -384,7 +384,7 @@ public class ViewModel
             newState = FeatureState.SelectWordRangeInEdition(newState, firstWordReference, lastWordReference);
         else
             newState = FeatureState.SelectWordRangeInColumn(newState, firstColumnIndex, firstWordReference.BookInfo, lastWordReference.BookInfo);
-            State = newState;
+        State = newState;
     }
 
     public async Task ShowColumnImagesAsync()
@@ -395,7 +395,7 @@ public class ViewModel
         int columnIndex = wordInfo.Value.ColumnIndex;
 
         ImmutableArray<WordReference?> wordReferences = GetWordsInColumn(columnIndex);
-        var dialogParameters = new DialogParameters { Height = "90vh", Width = "90vw" };
+        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         var content = new ViewColumnImagesDialog.ViewColumnImagesDialogContent(Editions, wordReferences);
         await DialogService.ShowDialogAsync<ViewColumnImagesDialog, ViewColumnImagesDialog.ViewColumnImagesDialogContent>(content, dialogParameters);
     }
@@ -429,7 +429,7 @@ public class ViewModel
             double widthFactor = actualBounds.Width / (double)totalEstimatedCombinedTextWidth;
             int x = actualBounds.X;
             var splitWords = new List<SplitWordsDialog.SplitWord>(words.Length);
-            for(int i = 0; i < words.Length; i++)
+            for (int i = 0; i < words.Length; i++)
             {
                 int adjustedWidth = (int)Math.Ceiling(estimatedWordWidths[i] * widthFactor);
                 string text = words[i];
