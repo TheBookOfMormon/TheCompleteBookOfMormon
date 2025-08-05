@@ -19,9 +19,11 @@
             </div>
 
             <!-- Bottom Image Container (takes remaining 50%) -->
-            <div style="flex: 1; overflow-y: auto; position: relative;">
-                <img src=@PageImageData style="width: 100%; height: auto;" />
-                <FluentCheckbox @bind-Value=ApplyFiltersToPageImage @bind-Value:after=LoadImageData title="High contrast" Style="position:absolute; top: 0; left: 0; opacity: 0.5;"/>
+            <div style="flex: 1; overflow: hidden; position: relative;">
+                <Panzoom WheelMode=@WheelMode.ZoomWithWheel>
+                    <img src=@PageImageData @ref=context.ElementReference />
+                </Panzoom>
+                <FluentCheckbox @bind-Value=ApplyFiltersToPageImage @bind-Value:after=LoadImageData title="High contrast" Style="position:absolute; top: 0; left: 0; opacity: 0.5;" />
             </div>
 
         </div>
@@ -88,7 +90,7 @@
                     <FluentCheckbox @bind-Value=AddWordAfter />&nbsp;
                 </div>
             }
-            <FluentDivider Style="margin:0.5em 0 1em 0;"/>
+            <FluentDivider Style="margin:0.5em 0 1em 0;" />
             <div>
                 <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@UpdateImageData Label="High contrast" />
                 @if (ShowHighContrast)

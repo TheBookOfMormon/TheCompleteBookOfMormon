@@ -81,6 +81,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="BlazorPanzoom" Version="0.2.1" />
         <PackageReference Include="Microsoft.AspNetCore.Components.DataAnnotations.Validation" Version="3.2.0-rc1.20223.4" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.12.1" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.12.1" />
