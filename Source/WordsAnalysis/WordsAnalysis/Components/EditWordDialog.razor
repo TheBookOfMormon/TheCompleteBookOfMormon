@@ -3,6 +3,7 @@
 @implements IDialogContentComponent<EditWordDialog.EditWordDialogContent>
 @inject IHtmlService HtmlService
 @inject IToastService ToastService
+@inject IImageRepository ImageRepository
 
 <FluentDialogHeader>
     @GetActionName() word - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name

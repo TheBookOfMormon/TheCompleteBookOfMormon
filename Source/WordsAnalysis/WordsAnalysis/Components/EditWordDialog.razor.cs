@@ -252,7 +252,7 @@ public partial class EditWordDialog : IAsyncDisposable
             throw new InvalidOperationException("Page image already loaded.");
 
         string imageFilePath = FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
-        PageImage = new MagickImage(imageFilePath);
+        PageImage = ImageRepository.Get(imageFilePath);
         UpdatePageImageData();
     }
 
