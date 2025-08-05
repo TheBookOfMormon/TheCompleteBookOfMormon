@@ -127,7 +127,7 @@ public partial class RescanAreaDialog : IAsyncDisposable
         OcrWord tempWord = new OcrWord {
             Elements = [tempElement]
         };
-        using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, showSurroundingText: true, imageOptions: null);
+        using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, showSurroundingText: true);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
 

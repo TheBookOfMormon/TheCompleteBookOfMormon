@@ -357,8 +357,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private void UpdateImageData()
     {
         OcrWord tempWord = CreateWord();
-        PageState.ImageOptions? imageOptions = GetImageOptions();
-        using MagickImage lineImage = PageState.GetWordImage(PageImage, tempWord, ShowSurroundingText, imageOptions);
+        using MagickImage lineImage = PageState.GetWordImage(FilteredPageImage, tempWord, ShowSurroundingText);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
     }
 

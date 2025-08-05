@@ -46,11 +46,11 @@ public record PageState
         return new OcrRect { X = minX, Y = minY, Width = maxRight - minX + 1, Height = maxBottom - minY + 1 };
     }
 
-    public MagickImage GetWordImage(MagickImage image, OcrWord word, bool showSurroundingText, ImageOptions? imageOptions)
+    public MagickImage GetWordImage(MagickImage image, OcrWord word, bool showSurroundingText)
     {
         if (showSurroundingText)
-            return GetImageForWordAndSurrounding(image, word, imageOptions);
-        return GetImageForWordOnly(image, word, imageOptions);
+            return GetImageForWordAndSurrounding(image, word);
+        return GetImageForWordOnly(image, word);
     }
 
     private static void AddDrawRect(IDrawables<byte> rectangleDrawables, int x, int y, OcrRect elementBounds)
@@ -58,7 +58,7 @@ public record PageState
         rectangleDrawables.Rectangle(x, y, x + elementBounds.Width - 1, y + elementBounds.Height - 1);
     }
 
-    private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word, ImageOptions? imageOptions)
+    private MagickImage GetImageForWordAndSurrounding(MagickImage image, OcrWord word)
     {
         OcrRect lineBounds = GetLineBounds(word);
         OcrRect wordBounds = word.IsComposite() && !word.Elements[2].IsOnNextPage ? word.Elements[0].Bounds.Union(word.Elements[1].Bounds).Union(word.Elements[2].Bounds) : word.Elements[0].Bounds;
@@ -80,7 +80,7 @@ public record PageState
         };
 
         MagickImage result = image.CloneArea(lineBounds);
-        result.ApplyImageOptions(imageOptions);
+        result.ColorType = ColorType.TrueColor;
 
         IDrawables<byte> rectangleDrawables = new Drawables()
             .FillColor(MagickColors.Lime)
@@ -99,7 +99,7 @@ public record PageState
         return result;
     }
 
-    public static MagickImage GetImageForWordOnly(MagickImage image, OcrWord word, ImageOptions? imageOptions)
+    public static MagickImage GetImageForWordOnly(MagickImage image, OcrWord word)
     {
         const float scale = 1f;
 
@@ -108,7 +108,6 @@ public record PageState
         int maxHeight = scaledElements.Max(x => x.Bounds.Height);
         int totalWidth = scaledElements.Sum(x => x.Bounds.Width);
         var result = new MagickImage(MagickColors.White, (uint)Math.Max(1, totalWidth), (uint)Math.Max(1, maxHeight));
-        var rectangleDrawables = new Drawables().FillColor(MagickColors.Lime).FillOpacity(new Percentage(50));
 
         int offset = 0;
         int top = scaledElements[0].Bounds.Y;
@@ -121,7 +120,6 @@ public record PageState
 
             offset += scaled.Bounds.Width;
         }
-        result.ApplyImageOptions(imageOptions);
         return result;
     }
 
