@@ -3,3 +3,8 @@
     text-decoration: underline;
     font-style: unset;
 }
+
+.checkbox-grid {
+    display: flex;
+    justify-content: space-around;
+}

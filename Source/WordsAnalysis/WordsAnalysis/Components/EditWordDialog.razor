@@ -32,11 +32,15 @@
 
         <EditForm @ref=EditForm Model=@Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto;">
             <ObjectGraphDataAnnotationsValidator />
+            <div class="checkbox-grid">
+                <FluentCheckbox Label="X" title="Corrected" @bind-Value=Corrected />
+                <FluentCheckbox Label="I" title="Inserted" @bind-Value=Inserted />
+                <FluentCheckbox Label="-" title="Strikethrough" @bind-Value=Strikethrough />
+            </div>
             <div>
-                <FluentCheckbox @bind-Value=IsStrikethrough Label="Strikethrough" />
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
                 <FluentTextField @bind-Value=Notes Label="Notes" />
-                @if (!IsStrikethrough)
+                @if (!Strikethrough)
                 {
                     <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
                     @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)

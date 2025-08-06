@@ -29,10 +29,11 @@ public partial class EditWordDialog : IAsyncDisposable
     private bool ApplyThreshold;
     private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
     private string? BenefitOfDoubtText;
+    private bool Corrected;
     private EditForm EditForm = null!;
     private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
-    private bool IsStrikethrough;
+    private bool Inserted;
     private int LineHeight;
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
@@ -44,6 +45,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
     private bool ShowDashes;
     private bool ShowHighContrast;
+    private bool Strikethrough;
     private int ThresholdLower;
     private int ThresholdUpper;
     private TextData[] Texts = [];
@@ -94,7 +96,9 @@ public partial class EditWordDialog : IAsyncDisposable
 
         OriginalBounds = Word.Elements[0].Bounds;
         Notes = Word.Notes;
-        IsStrikethrough = Word.IsStrikethrough;
+        Corrected = Word.Corrected;
+        Inserted = Word.Inserted;
+        Strikethrough = Word.Strikethrough;
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
         BenefitOfDoubtText = Word.BenefitOfDoubtText;
         LoadPageImage();
@@ -149,7 +153,9 @@ public partial class EditWordDialog : IAsyncDisposable
         OcrWord result = Word with {
             Elements = newElements,
             Notes = string.IsNullOrWhiteSpace(Notes) ? null : Notes,
-            IsStrikethrough = IsStrikethrough,
+            Corrected = Corrected,
+            Inserted = Inserted,
+            Strikethrough = Strikethrough,
             ShowDashes = ShowDashes,
             BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key,
             BenefitOfDoubtText = BenefitOfDoubtText
@@ -158,7 +164,7 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             result = result with { BenefitOfDoubtText = null };
         }
-        if (result.IsStrikethrough)
+        if (result.Strikethrough)
         {
             result = result with {
                 BenefitOfDoubt = BenefitOfDoubt.None,

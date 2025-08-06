@@ -58,6 +58,10 @@ label {
     outline: 1px solid #e50000;
 }
 
+.line-through {
+    text-decoration: line-through;
+}
+
 .underline {
     text-decoration: underline;
 }

@@ -11,7 +11,7 @@ public record OcrWord
 
     public string GetCombinedText() => string.Join("", Elements.Where((x, index) => ShowDashes || index == 0 || x.Text != "-").Select(x => x.Text));
     public string GetDisplayText(bool showBenefitOfDoubt) =>
-        IsStrikethrough && showBenefitOfDoubt
+        Strikethrough && showBenefitOfDoubt
         ? ""
         : showBenefitOfDoubt && BenefitOfDoubt != BenefitOfDoubt.None
         ? BenefitOfDoubtText ?? ""
@@ -26,7 +26,13 @@ public record OcrWord
     public string? BenefitOfDoubtText { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-    public bool IsStrikethrough { get; init; }
+    public bool Corrected { get; init; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+    public bool Inserted { get; init; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+    public bool Strikethrough { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public string? Notes { get; init; }
