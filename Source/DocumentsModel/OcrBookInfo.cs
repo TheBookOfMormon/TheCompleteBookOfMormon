@@ -26,7 +26,7 @@ public record OcrBookInfo : IComparable<OcrBookInfo>
         string filePath = FilePathHelper.GetBookInfoFilePath(sourcesDirectoryPath, editionCode);
         using var stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
            
-        var result = (await JsonSerializer.DeserializeAsync<OcrBookInfo>(stream))!;
+        OcrBookInfo result = (await JsonSerializer.DeserializeAsync(stream, ModelJsonContext.Default.OcrBookInfo))!;
         return result;
     }
 

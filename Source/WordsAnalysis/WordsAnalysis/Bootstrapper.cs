@@ -1,4 +1,6 @@
-﻿using WordsAnalysis.Services;
+﻿using DocumentsModel;
+using System.Text.Json;
+using WordsAnalysis.Services;
 
 namespace WordsAnalysis;
 
@@ -10,5 +12,9 @@ static class Bootstrapper
         services.AddSingleton<IDictionaryService, DictionaryService>();
         services.AddScoped<IHtmlService, HtmlService>();
         services.AddSingleton<IImageRepository, ImageRepository>();
+        services.Configure<JsonSerializerOptions>(x =>
+        {
+            x.TypeInfoResolver = ModelJsonContext.Default;
+        });
     }
 }

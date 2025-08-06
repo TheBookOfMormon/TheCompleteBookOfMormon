@@ -1,10 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
     <PropertyGroup>
-        <TargetFrameworks>net9.0-maccatalyst</TargetFrameworks>
-        <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
-        <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
-        <!-- <TargetFrameworks>$(TargetFrameworks);net9.0-tizen</TargetFrameworks> -->
+        <TargetFrameworks>net10.0-windows10.0.19041.0</TargetFrameworks>
 
         <!-- Note for MacCatalyst:
             The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
@@ -39,27 +36,8 @@
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">24.0</SupportedOSPlatformVersion>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
         <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
-        <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-maccatalyst|AnyCPU'">
-      <WarningLevel>9999</WarningLevel>
-      <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-windows10.0.19041.0|AnyCPU'">
-      <WarningLevel>9999</WarningLevel>
-      <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-maccatalyst|AnyCPU'">
-      <WarningLevel>9999</WarningLevel>
-      <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-windows10.0.19041.0|AnyCPU'">
-      <WarningLevel>9999</WarningLevel>
-      <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+        <WarningLevel>9999</WarningLevel>
+        <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>
@@ -82,19 +60,19 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.DataAnnotations.Validation" Version="3.2.0-rc1.20223.4" />
-        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.8" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.0-preview.6.25358.103" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.12.1" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.12.1" />
-        <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.90" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="9.0.90" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.7" />
-        <PackageReference Include="System.Runtime.Caching" Version="9.0.8" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0-preview.6.25358.103" />
+        <PackageReference Include="System.Runtime.Caching" Version="10.0.0-preview.6.25358.103" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ConvertImagesToText\ConvertImagesToText.csproj" />
-      <ProjectReference Include="..\..\DocumentsModel\DocumentsModel.csproj" />
-      <ProjectReference Include="..\WordsAnalysis.AppLayer\WordsAnalysis.AppLayer.csproj" />
+        <ProjectReference Include="..\ConvertImagesToText\ConvertImagesToText.csproj" />
+        <ProjectReference Include="..\..\DocumentsModel\DocumentsModel.csproj" />
+        <ProjectReference Include="..\WordsAnalysis.AppLayer\WordsAnalysis.AppLayer.csproj" />
     </ItemGroup>
 
 </Project>

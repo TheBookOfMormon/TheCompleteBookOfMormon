@@ -24,7 +24,7 @@ public static class MauiProgram
 
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
-        //builder.Logging.SetMinimumLevel(LogLevel.Debug);
+        builder.Logging.SetMinimumLevel(LogLevel.Debug);
         builder.Logging.AddDebug();
 #endif
 
@@ -36,6 +36,6 @@ public static class MauiProgram
 
     private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
     {
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 }

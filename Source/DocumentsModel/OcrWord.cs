@@ -39,4 +39,6 @@ public record OcrWord
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public bool ShowDashes { get; init;  }
+
+    public OcrElement LastElementOnSamePage() => Elements.Last(x => !x.IsOnNextPage);
 }

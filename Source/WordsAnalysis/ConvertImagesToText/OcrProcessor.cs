@@ -116,7 +116,7 @@ public partial class OcrProcessor : EditionsProcessorBase
 
             // Delete files if unmodified
             string existingJson = File.ReadAllText(ocrFilePath);
-            var existingPage = JsonSerializer.Deserialize<OcrPage>(existingJson)!;
+            OcrPage existingPage = JsonSerializer.Deserialize(existingJson, ModelJsonContext.Default.OcrPage)!;
             if (existingPage.ManuallyEdited)
             {
                 if (!File.Exists(ocrMetaFilePath))
@@ -151,7 +151,7 @@ public partial class OcrProcessor : EditionsProcessorBase
                 ImageHeight = imageHeight,
                 ImageWidth = imageWidth
             };
-            string ocrPageJson = JsonSerializer.Serialize(ocrPage, Constants.DefaultJsonSerializerOptions);
+            string ocrPageJson = JsonSerializer.Serialize(ocrPage, ModelJsonContext.Default.OcrPage);
             File.WriteAllText(ocrFilePath, ocrPageJson);
             writeMeta(ocrPage);
         }
@@ -165,7 +165,7 @@ public partial class OcrProcessor : EditionsProcessorBase
         {
             int wordCount = page.Words.Count;
             var pageMeta = new OcrPageMeta { PageNumber = pageNumber, NumberOfWords = wordCount };
-            string metaJson = JsonSerializer.Serialize(pageMeta, Constants.DefaultJsonSerializerOptions);
+            string metaJson = JsonSerializer.Serialize(pageMeta, ModelJsonContext.Default.OcrPageMeta);
             File.WriteAllText(ocrMetaFilePath, metaJson);
         }
     }

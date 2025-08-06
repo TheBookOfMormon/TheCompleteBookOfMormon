@@ -53,7 +53,7 @@ public record OcrPage
     {
         string filePath = FilePathHelper.GetPageFilePath(sourcesDirectoryPath, bookInfo, pageNumber);
         using var stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-        var result = (await JsonSerializer.DeserializeAsync<OcrPage>(stream))!;
+        OcrPage result = (await JsonSerializer.DeserializeAsync(stream, ModelJsonContext.Default.OcrPage))!;
         return result;
     }
 
@@ -61,7 +61,7 @@ public record OcrPage
     {
         string filePath = FilePathHelper.GetPageFilePath(sourcesDirectoryPath, bookInfo, PageNumber);
         using var stream = File.Create(filePath);
-        Task savePageTask = JsonSerializer.SerializeAsync(stream, this, Constants.DefaultJsonSerializerOptions);
+        Task savePageTask = JsonSerializer.SerializeAsync(stream, this, ModelJsonContext.Default.OcrPage);
 
         var pageMeta = new OcrPageMeta { PageNumber = PageNumber, NumberOfWords = Words.Count };
         var savePageMetaTask = pageMeta.SaveAsync(sourcesDirectoryPath, bookInfo);

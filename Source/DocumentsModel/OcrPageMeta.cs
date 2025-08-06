@@ -13,7 +13,7 @@ public record OcrPageMeta
         string filePath = FilePathHelper.GetPageMetaFilePath(sourcesDirectoryPath, bookInfo, pageNumber);
 
         using var stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-        var result = (await JsonSerializer.DeserializeAsync<OcrPageMeta>(stream))!;
+        OcrPageMeta result = (await JsonSerializer.DeserializeAsync(stream, ModelJsonContext.Default.OcrPageMeta))!;
         return result;
     }
 
@@ -21,7 +21,7 @@ public record OcrPageMeta
     {
         string filePath = FilePathHelper.GetPageMetaFilePath(sourcesDirectoryPath, bookInfo, PageNumber);
         using var stream = File.Create(filePath);
-        await JsonSerializer.SerializeAsync(stream, this, Constants.DefaultJsonSerializerOptions);
+        await JsonSerializer.SerializeAsync(stream, this, ModelJsonContext.Default.OcrPageMeta);
     }
 
 }

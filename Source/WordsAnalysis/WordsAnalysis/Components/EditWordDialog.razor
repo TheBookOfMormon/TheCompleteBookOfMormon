@@ -33,9 +33,9 @@
         <EditForm @ref=EditForm Model=@Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto;">
             <ObjectGraphDataAnnotationsValidator />
             <div class="checkbox-grid">
-                <FluentCheckbox Label="^" title="Inserted" @bind-Value=Inserted />
                 <FluentCheckbox Label="✗" title="Corrected" @bind-Value=Corrected />
                 <FluentCheckbox Label="✓" title="Correction" @bind-Value=Correction />
+                <FluentCheckbox Label="^" title="Inserted" @bind-Value=Inserted />
             </div>
             <div>
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
@@ -63,10 +63,10 @@
                     bool isReadonly = index == 1 && item.Text == "-";
                     <div>
                         <FluentToolbar>
-                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUp(e, capturedIndex)) />
-                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowDown OnClick=@(e => MoveDown(e, capturedIndex)) />
-                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeft(e, capturedIndex)) />
-                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUpAsync(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowDown OnClick=@(e => MoveDownAsync(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowLeft OnClick=@(e => MoveLeftAsync(e, capturedIndex)) />
+                            <RepeatingFluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRightAsync(e, capturedIndex)) />
                             <RepeatingFluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
                             <RepeatingFluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
                             @if (Texts.Length == 1)

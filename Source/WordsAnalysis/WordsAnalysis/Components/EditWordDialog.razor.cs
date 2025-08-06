@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
+using System.Threading.Tasks;
 using WordsAnalysis.AppLayer.Extensions;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
@@ -82,11 +83,12 @@ public partial class EditWordDialog : IAsyncDisposable
         Word = Content.WordReference.GetWord(Content.Edition)!;
         if (Content.IsAdd)
         {
-            OcrRect bounds = Word.Elements.Last().Bounds;
+            OcrElement lastElementOnSamePage = Word.LastElementOnSamePage();
+            OcrRect bounds = lastElementOnSamePage.Bounds;
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
             Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight }, false)];
             ShowDashes = false;
-            Word = new OcrWord { Elements = [Word.Elements.Last() with { Text = "" }] };
+            Word = new OcrWord { Elements = [lastElementOnSamePage with { Text = "" }] };
         }
         else
         {
@@ -110,9 +112,10 @@ public partial class EditWordDialog : IAsyncDisposable
         await Dialog.CancelAsync(result);
     }
 
-    private async Task CenterImagePointAsync()
+    private async Task CenterImagePointAsync(OcrRect? rect = null)
     {
-        (int x, int y) = Texts.Last().Bounds.GetCenter();
+        rect ??= Texts.Last(x => !x.IsOnNextPage).Bounds;
+        (int x, int y) = rect.GetCenter();
         await HtmlService.CenterImagePointInParent("page-image", x, y);
     }
 
@@ -265,8 +268,9 @@ public partial class EditWordDialog : IAsyncDisposable
         UpdatePageImageData();
     }
 
-    private void Move(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
+    private async Task MoveAsync(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
     {
+        bool shouldCenter = false;
         ResetLineHeightAdjustment();
         bool wasAfter = elementIndex != 0 || isAfter();
         int changeSize = e.CtrlKey ? 1 : (LineHeight / 4);
@@ -282,6 +286,7 @@ public partial class EditWordDialog : IAsyncDisposable
                 var leftPositions = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X);
                 int leftMost = leftPositions.Any() ? leftPositions.Min() : 0;
                 Texts[elementIndex].Bounds = Texts[elementIndex].Bounds = (bounds.Offset(0, bounds.Height) with { X = leftMost });
+                shouldCenter = true;
             }
         }
         else
@@ -303,6 +308,9 @@ public partial class EditWordDialog : IAsyncDisposable
             AddWordAfter = newIsAfter;
         UpdateWordImageData();
 
+        if (shouldCenter)
+            await CenterImagePointAsync(Texts[elementIndex].Bounds);
+
         bool isAfter()
         {
             OcrRect bounds = Texts[0].Bounds;
@@ -314,24 +322,24 @@ public partial class EditWordDialog : IAsyncDisposable
         }
     }
 
-    private void MoveDown(MouseEventArgs e, int elementIndex)
+    private async Task MoveDownAsync(MouseEventArgs e, int elementIndex)
     {
-        Move(e, elementIndex, 0, 1);
+        await MoveAsync(e, elementIndex, 0, 1);
     }
 
-    private void MoveLeft(MouseEventArgs e, int elementIndex)
+    private async Task MoveLeftAsync(MouseEventArgs e, int elementIndex)
     {
-        Move(e, elementIndex, -1, 0);
+        await MoveAsync(e, elementIndex, -1, 0);
     }
 
-    private void MoveRight(MouseEventArgs e, int elementIndex)
+    private async Task MoveRightAsync(MouseEventArgs e, int elementIndex)
     {
-        Move(e, elementIndex, 1, 0);
+        await MoveAsync(e, elementIndex, 1, 0);
     }
 
-    private void MoveUp(MouseEventArgs e, int elementIndex)
+    private async Task MoveUpAsync(MouseEventArgs e, int elementIndex)
     {
-        Move(e, elementIndex, 0, -1);
+        await MoveAsync(e, elementIndex, 0, -1);
     }
 
     private void PageFilterChanged()
