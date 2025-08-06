@@ -89,6 +89,9 @@ public partial class HighlightBox : IAsyncDisposable
         if (CurrentCellPosition is CellPosition.BottomLeft or CellPosition.Bottom or CellPosition.BottomRight)
             newRect = newRect with { Height = MouseDownRect.Height + yOffset };
 
+        if (CurrentCellPosition == CellPosition.Middle)
+            newRect = newRect with { X = MouseDownRect.X + xOffset, Y = MouseDownRect.Y + yOffset };
+
         newRect = newRect.Normalize();
         await RectChanged.InvokeAsync(newRect);
     }
