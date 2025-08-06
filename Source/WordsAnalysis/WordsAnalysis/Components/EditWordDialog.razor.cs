@@ -30,6 +30,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
     private string? BenefitOfDoubtText;
     private bool Corrected;
+    private bool Correction;
     private EditForm EditForm = null!;
     private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
@@ -45,7 +46,6 @@ public partial class EditWordDialog : IAsyncDisposable
     private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
     private bool ShowDashes;
     private bool ShowHighContrast;
-    private bool Strikethrough;
     private int ThresholdLower;
     private int ThresholdUpper;
     private TextData[] Texts = [];
@@ -97,8 +97,8 @@ public partial class EditWordDialog : IAsyncDisposable
         OriginalBounds = Word.Elements[0].Bounds;
         Notes = Word.Notes;
         Corrected = Word.Corrected;
+        Correction = Word.Correction;
         Inserted = Word.Inserted;
-        Strikethrough = Word.Strikethrough;
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
         BenefitOfDoubtText = Word.BenefitOfDoubtText;
         LoadPageImage();
@@ -154,8 +154,8 @@ public partial class EditWordDialog : IAsyncDisposable
             Elements = newElements,
             Notes = string.IsNullOrWhiteSpace(Notes) ? null : Notes,
             Corrected = Corrected,
+            Correction = Correction,
             Inserted = Inserted,
-            Strikethrough = Strikethrough,
             ShowDashes = ShowDashes,
             BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key,
             BenefitOfDoubtText = BenefitOfDoubtText
@@ -164,7 +164,7 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             result = result with { BenefitOfDoubtText = null };
         }
-        if (result.Strikethrough)
+        if (result.Corrected)
         {
             result = result with {
                 BenefitOfDoubt = BenefitOfDoubt.None,

@@ -1,4 +1,4 @@
-@page "/SyncDocuments"
+﻿@page "/SyncDocuments"
 @using DocumentsModel
 @using WordsAnalysis.AppLayer.Features.SyncDocuments
 @inject IConfirmService ConfirmService
@@ -153,6 +153,18 @@
                                     @if (word?.BenefitOfDoubt == BenefitOfDoubt.EditorialFormatting)
                                     {
                                         <div title="Editorial formatting">F</div>
+                                    }
+                                    @if (word?.Inserted == true)
+                                    {
+                                        <div title="Inserted">^</div>
+                                    }
+                                    @if (word?.Corrected == true)
+                                    {
+                                        <div title="Corrected">✗</div>
+                                    }
+                                    @if (word?.Correction == true)
+                                    {
+                                        <div title="Correction">✓</div>
                                     }
                                     @if (!string.IsNullOrWhiteSpace(word?.Notes))
                                     {

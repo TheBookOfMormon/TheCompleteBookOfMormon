@@ -1756,7 +1756,7 @@
             "Width": 205,
             "Height": 68
           },
-          "Text": "Nephi\u0027s"
+          "Text": "Nephis"
         }
       ]
     },
@@ -2563,9 +2563,9 @@
         },
         {
           "Bounds": {
-            "X": 1970,
-            "Y": 1361,
-            "Width": 1,
+            "X": 41,
+            "Y": 1457,
+            "Width": 0,
             "Height": 58
           },
           "Text": "-"
@@ -3698,7 +3698,22 @@
           "Text": "to"
         }
       ],
-      "Notes": "Corrected after 1830"
+      "Corrected": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 893,
+            "Y": 1929,
+            "Width": 57,
+            "Height": 49
+          },
+          "Text": "is"
+        }
+      ],
+      "Correction": true,
+      "Inserted": true
     },
     {
       "Elements": [
@@ -3712,7 +3727,7 @@
           "Text": "be"
         }
       ],
-      "Notes": "Corrected after 1830"
+      "Corrected": true
     },
     {
       "Elements": [
@@ -4079,7 +4094,7 @@
           "Text": "first"
         }
       ],
-      "Notes": "Inserted"
+      "Inserted": true
     },
     {
       "Elements": [
@@ -4093,7 +4108,7 @@
           "Text": "year"
         }
       ],
-      "Notes": "Inserted"
+      "Inserted": true
     },
     {
       "Elements": [
@@ -4107,7 +4122,7 @@
           "Text": "of"
         }
       ],
-      "Notes": "Inserted"
+      "Inserted": true
     },
     {
       "Elements": [
@@ -4121,7 +4136,7 @@
           "Text": "the"
         }
       ],
-      "Notes": "Inserted"
+      "Inserted": true
     },
     {
       "Elements": [
@@ -4600,6 +4615,20 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 320,
+            "Y": 2418,
+            "Width": 115,
+            "Height": 50
+          },
+          "Text": "that"
+        }
+      ],
+      "Corrected": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 363,
             "Y": 2366,
             "Width": 108,
@@ -4607,7 +4636,9 @@
           },
           "Text": "the"
         }
-      ]
+      ],
+      "Correction": true,
+      "Inserted": true
     },
     {
       "Elements": [
@@ -4947,9 +4978,9 @@
         },
         {
           "Bounds": {
-            "X": 1996,
-            "Y": 2500,
-            "Width": 1,
+            "X": 30,
+            "Y": 2596,
+            "Width": 0,
             "Height": 58
           },
           "Text": "-"
@@ -6378,8 +6409,7 @@
         }
       ],
       "BenefitOfDoubt": 1,
-      "BenefitOfDoubtText": "Heavens",
-      "Notes": "TODO:Capital?"
+      "BenefitOfDoubtText": "Heavens"
     },
     {
       "Elements": [
@@ -6405,9 +6435,11 @@
             "Width": 1,
             "Height": 39
           },
-          "Text": "and"
+          "Text": ""
         }
-      ]
+      ],
+      "BenefitOfDoubt": 1,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
