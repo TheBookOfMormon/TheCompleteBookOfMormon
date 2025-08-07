@@ -29,12 +29,16 @@ public class RepeatingFluentButton : FluentButton, IAsyncDisposable
         if (e.Button == 0)
         {
             MouseDownCancellationTokenSource = new CancellationTokenSource();
-            var cancellationToken = MouseDownCancellationTokenSource.Token;
+            CancellationToken cancellationToken = MouseDownCancellationTokenSource.Token;
             await Task.Delay(500, cancellationToken);
             while (!cancellationToken.IsCancellationRequested)
             {
                 await OnClick.InvokeAsync(e);
-                await Task.Delay(100, cancellationToken);
+                try
+                {
+                    await Task.Delay(100, cancellationToken);
+                }
+                catch (TaskCanceledException) { }
             }
         }
     }
