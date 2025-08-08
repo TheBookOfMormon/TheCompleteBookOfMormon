@@ -1,0 +1,24 @@
+@implements IDialogContentComponent<TextSamplesDialog.TextSamplesDialogContent>
+@inject IImageRepository ImageRepository
+
+<FluentDialogHeader>
+    Text samples - @Content.BookInfo.Year @Content.BookInfo.Name
+</FluentDialogHeader>
+
+<FluentDialogBody>
+   <div class="samples-container">
+      @foreach(ImageInfo imageInfo in Images)
+        {
+            <div class="sample">
+               <div class="sample-filename">@imageInfo.FileName</div>
+               <img class="sample-image" alt=@imageInfo.FileName src=@imageInfo.ImageData/>
+            </div>
+        }
+    </div>
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
+        <span class="underline">O</span>K
+    </FluentButton>
+</FluentDialogFooter>

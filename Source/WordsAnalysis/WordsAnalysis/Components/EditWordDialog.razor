@@ -1,6 +1,7 @@
 ﻿@using WordsAnalysis.AppLayer.Features.SyncDocuments
 @using DocumentsModel
 @implements IDialogContentComponent<EditWordDialog.EditWordDialogContent>
+@inject IDialogService DialogService
 @inject IHtmlService HtmlService
 @inject IToastService ToastService
 @inject IImageRepository ImageRepository
@@ -21,24 +22,35 @@
 
             <!-- Bottom Image Container (takes remaining 50%) -->
             <div style="flex:1; overflow:auto; position:relative; ">
-               @foreach(TextData element in Texts)
-               {
-                     <HighlightBox @bind-Rect=element.Bounds @bind-Rect:after=UpdateWordImageData/>
-               }
-               <img id="page-image" src=@PageImageData/>
+                @foreach (TextData element in Texts)
+                {
+                    <HighlightBox @bind-Rect=element.Bounds @bind-Rect:after=UpdateWordImageData />
+                }
+                <img id="page-image" src=@PageImageData />
             </div>
 
         </div>
 
         <EditForm @ref=EditForm Model=@Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto;">
             <ObjectGraphDataAnnotationsValidator />
-            <div class="checkbox-grid">
+            <div class="space-around-container">
                 <FluentCheckbox Label="✗" title="Corrected" @bind-Value=Corrected />
                 <FluentCheckbox Label="✓" title="Correction" @bind-Value=Correction />
                 <FluentCheckbox Label="^" title="Inserted" @bind-Value=Inserted />
             </div>
-            <div>
+            <div class="flex-row-container --justify-content-start">
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
+                @if (HasSampleImages)
+                {
+                    <FluentButton IconStart=@SharedIcons.TextSamples Title="Text samples" OnClick=@ShowTextSamplesAsync />
+                }
+                @if (Texts.Length > 1)
+                {
+                    <FluentCheckbox @bind-Value=ShowDashes Label="Show dashes" />
+                }
+            </div>
+
+            <div>
                 <FluentTextField @bind-Value=Notes Label="Notes" />
                 @if (!Corrected)
                 {
@@ -50,10 +62,6 @@
                 }
             </div>
 
-            @if (Texts.Length > 1)
-            {
-                <FluentCheckbox @bind-Value=ShowDashes Label="Show dashes" />
-            }
             @{
                 int index = -1;
                 foreach (TextData item in Texts)

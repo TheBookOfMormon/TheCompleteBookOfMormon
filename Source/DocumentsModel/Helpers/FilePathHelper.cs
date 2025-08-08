@@ -38,6 +38,14 @@ public static class FilePathHelper
         return GetPageOrPageMetaFilePath(sourcesDirectoryPath, bookInfo, pageNumber, Constants.PageMetaFileNameExtension);
     }
 
+    public static string GetSamplesDirectoryPath(string sourcesDirectoryPath, OcrBookInfo bookInfo)
+    {
+        string editionDirectoryPath = GetEditionDirectoryPath(sourcesDirectoryPath, bookInfo);
+        string result = Path.Combine(editionDirectoryPath, Constants.SamplesDirectoryName);
+        return result;
+    }
+
+
     public static string GetScansDeskewedImageFilePath(string sourcesDirectoryPath, OcrBookInfo bookInfo, int pageNumber)
     {
         string editionDirectoryPath = GetEditionDirectoryPath(sourcesDirectoryPath, bookInfo);

@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
-using System.Threading.Tasks;
 using WordsAnalysis.AppLayer.Extensions;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
@@ -35,6 +34,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private EditForm EditForm = null!;
     private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
+    private bool HasSampleImages;
     private bool Inserted;
     private int LineHeight;
     private int LineHeightAdjustment;
@@ -77,6 +77,7 @@ public partial class EditWordDialog : IAsyncDisposable
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
+        HasSampleImages = TextSamplesDialog.GetImageFilePaths(Content.Edition.BookInfo).Any();
         ReadAppSettings();
         ResetLineHeightAdjustment();
 
@@ -148,7 +149,6 @@ public partial class EditWordDialog : IAsyncDisposable
         FilteredPageImage = result;
         return result;
     }
-
 
     private OcrWord CreateWord()
     {
@@ -354,6 +354,13 @@ public partial class EditWordDialog : IAsyncDisposable
         LineHeightAdjustment = 0;
         LineHeightLarger = false;
         HasEstimatedSize = false;
+    }
+
+    private async Task ShowTextSamplesAsync()
+    {
+        var content = new TextSamplesDialog.TextSamplesDialogContent { BookInfo = Content.WordReference.BookInfo };
+        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
+        await DialogService.ShowDialogAsync<TextSamplesDialog, TextSamplesDialog.TextSamplesDialogContent>(content, dialogParameters);
     }
 
     private void ThresholdLowerChanged()

@@ -16,4 +16,5 @@ public static class SharedIcons
     public static readonly Icon Reports = new Icons.Filled.Size24.ChartMultiple();
     public static readonly Icon SplitWords = new Icons.Filled.Size24.ColumnTripleEdit();
     public static readonly Icon Stop = new Icons.Filled.Size24.Stop();
+    public static readonly Icon TextSamples = new Icons.Filled.Size24.BookLetter();
 }

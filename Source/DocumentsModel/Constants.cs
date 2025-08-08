@@ -10,4 +10,5 @@ public static class Constants
     public static readonly string OcrBookInfoFileName = "index.json";
     public static readonly string PageMetaFileNameExtension = "PageMetaJson";
     public static readonly string PageFileNameExtension = "PageJson";
+    public static readonly string SamplesDirectoryName = "Samples";
 }
