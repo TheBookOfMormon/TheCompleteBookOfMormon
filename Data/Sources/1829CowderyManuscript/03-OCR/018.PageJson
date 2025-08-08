@@ -21,10 +21,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 111,
+            "X": 87,
             "Y": 64,
-            "Width": 112,
-            "Height": 51
+            "Width": 136,
+            "Height": 76
           },
           "Text": "Jews"
         }
@@ -94,7 +94,7 @@
           "Text": "that"
         }
       ],
-      "Notes": "Corrected after 1830"
+      "Corrected": true
     },
     {
       "Elements": [
@@ -173,7 +173,22 @@
           "Text": "which"
         }
       ],
-      "Notes": "Corrected after 1830"
+      "Corrected": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1488,
+            "Y": 19,
+            "Width": 122,
+            "Height": 50
+          },
+          "Text": "who"
+        }
+      ],
+      "Correction": true,
+      "Inserted": true
     },
     {
       "Elements": [
@@ -239,7 +254,7 @@
           "Text": "that"
         }
       ],
-      "Notes": "Corrected after 1830"
+      "Corrected": true
     },
     {
       "Elements": [
@@ -362,15 +377,30 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1340,
-            "Y": 105,
-            "Width": 142,
+            "X": 1332,
+            "Y": 149,
+            "Width": 119,
             "Height": 63
+          },
+          "Text": "ded"
+        }
+      ],
+      "Corrected": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1350,
+            "Y": 110,
+            "Width": 138,
+            "Height": 50
           },
           "Text": "dead"
         }
       ],
-      "Notes": "Corrected"
+      "Correction": true,
+      "Inserted": true
     },
     {
       "Elements": [
@@ -417,15 +447,15 @@
           "Bounds": {
             "X": 1808,
             "Y": 150,
-            "Width": 88,
+            "Width": 100,
             "Height": 54
           },
           "Text": "him"
         },
         {
           "Bounds": {
-            "X": 1911,
-            "Y": 156,
+            "X": 11,
+            "Y": 258,
             "Width": 1,
             "Height": 42
           },
@@ -433,9 +463,9 @@
         },
         {
           "Bounds": {
-            "X": 11,
+            "X": 29,
             "Y": 241,
-            "Width": 106,
+            "Width": 88,
             "Height": 57
           },
           "Text": "self"
