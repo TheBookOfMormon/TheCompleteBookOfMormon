@@ -2379,7 +2379,7 @@
           "Bounds": {
             "X": 1108,
             "Y": 929,
-            "Width": 125,
+            "Width": 141,
             "Height": 62
           },
           "Text": "Brass"
@@ -2612,9 +2612,9 @@
         {
           "Bounds": {
             "X": 1404,
-            "Y": 1019,
-            "Width": 117,
-            "Height": 62
+            "Y": 1010,
+            "Width": 128,
+            "Height": 71
           },
           "Text": "Books"
         }
@@ -2637,10 +2637,10 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1619,
-            "Y": 1019,
-            "Width": 155,
-            "Height": 61
+            "X": 1596,
+            "Y": 1016,
+            "Width": 178,
+            "Height": 64
           },
           "Text": "Moses"
         }
@@ -2872,6 +2872,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1737,
+            "Y": 1122,
+            "Width": 115,
+            "Height": 50
+          },
+          "Text": "was"
+        }
+      ],
+      "Correction": true,
+      "Inserted": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1570,
             "Y": 1069,
             "Width": 122,
@@ -2882,20 +2897,6 @@
       ],
       "Correction": true,
       "Inserted": true
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1748,
-            "Y": 1126,
-            "Width": 100,
-            "Height": 36
-          },
-          "Text": "was"
-        }
-      ],
-      "Corrected": true
     },
     {
       "Elements": [
@@ -3216,9 +3217,9 @@
         {
           "Bounds": {
             "X": 1084,
-            "Y": 1284,
-            "Width": 102,
-            "Height": 62
+            "Y": 1255,
+            "Width": 123,
+            "Height": 136
           },
           "Text": "King"
         }
@@ -7174,7 +7175,7 @@
             "Width": 208,
             "Height": 61
           },
-          "Text": "Children"
+          "Text": "children"
         }
       ]
     },
