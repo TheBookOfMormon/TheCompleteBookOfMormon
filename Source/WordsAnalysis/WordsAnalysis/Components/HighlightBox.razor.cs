@@ -18,8 +18,9 @@ public partial class HighlightBox : IAsyncDisposable
 
     private readonly InteropCallbacks JSCallbacks;
 
-    private const int DragHandlePixelSize = 16;
+    private const int DragHandlePixelSize = 8;
     private const int DragHandlesCombinedPixelSize = DragHandlePixelSize * 2;
+    private const int MinimumSize = DragHandlePixelSize * 3;
 
     private bool IsInteracting;
     private CellPosition CurrentCellPosition;
@@ -48,12 +49,14 @@ public partial class HighlightBox : IAsyncDisposable
 
     private string GetStyle() =>
         $"""
-            left:{Rect.X - DragHandlePixelSize}px;
-            top:{Rect.Y - DragHandlePixelSize}px;
-            width:{Rect.Width + DragHandlesCombinedPixelSize}px;
-            height:{Rect.Height + DragHandlesCombinedPixelSize}px;
-            grid-template-columns: {DragHandlePixelSize}px 1fr {DragHandlePixelSize}px;
-            grid-template-rows: {DragHandlePixelSize}px 1fr {DragHandlePixelSize}px;
+            left:{Rect.X}px;
+            top:{Rect.Y}px;
+            width:{Rect.Width}px;
+            min-width:{MinimumSize}px;
+            height:{Rect.Height}px;
+            min-height:{MinimumSize}px;
+            grid-template-columns: {DragHandlePixelSize}px minmax({DragHandlePixelSize}px, 1fr) {DragHandlePixelSize}px;
+            grid-template-rows: {DragHandlePixelSize}px minmax({DragHandlePixelSize}px, 1fr) {DragHandlePixelSize}px;
             min-width: {DragHandlesCombinedPixelSize}px; 
             min-height: {DragHandlesCombinedPixelSize}px;
         """;

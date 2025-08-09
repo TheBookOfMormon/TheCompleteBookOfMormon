@@ -1,13 +1,13 @@
 @inject IJSRuntime JS
 <div @ref=HighlightBoxElementReference class="highlight-box" style=@GetStyle() @onmousedown:preventDefault @onmousedown:stopPropagation>
-    <div class="center" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Middle)) />
-    <div class="grab-handle top-left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopLeft)) />
-    <div class="grab-handle top" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Top)) />
-    <div class="grab-handle top-right" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopRight)) />
-    <div class="grab-handle left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Left)) />
-    <div class="grab-handle right" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Right)) />
-    <div class="grab-handle bottom-left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.BottomLeft)) />
-    <div class="grab-handle bottom" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Bottom)) />
-    <div class="grab-handle bottom-right" @onmousedown=@(e => MouseDownAsync(e, CellPosition.BottomRight)) />
+    <div class="cell center" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Middle)) />
+    <div class="cell grab-handle top-left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopLeft)) />
+    <div class="cell grab-handle top" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Top)) />
+    <div class="cell grab-handle top-right" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopRight)) />
+    <div class="cell grab-handle left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Left)) />
+    <div class="cell grab-handle right" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Right)) />
+    <div class="cell grab-handle bottom-left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.BottomLeft)) />
+    <div class="cell grab-handle bottom" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Bottom)) />
+    <div class="cell grab-handle bottom-right" @onmousedown=@(e => MouseDownAsync(e, CellPosition.BottomRight)) />
 </div>
    
