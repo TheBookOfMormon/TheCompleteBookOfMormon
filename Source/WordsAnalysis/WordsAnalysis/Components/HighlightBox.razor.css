@@ -1,68 +1,93 @@
-﻿.grid {
+﻿.highlight-box {
+	--grab-handle-corner: hsl(120, 100%, 45%);
+	--grab-handle-edge: hsl(120, 100%, 75%);
+	--cell-highlight: hsl(120, 100%, 75%);
 	position: absolute;
 	display: grid;
-	grid-template-columns: 1fr 4fr 1fr;
-	grid-template-rows: 1fr 4fr 1fr;
-	min-width: 10px;
-	min-height: 10px;
 	opacity: 0.5;
-	background-color: rgb(128, 255, 128);
 }
 
-.cell {
-	border: 1px solid green;
-}
-
-	.cell.top-left {
-		cursor: nwse-resize;
-		grid-row: 1;
-		grid-column: 1;
+	/* show handles only on hover */
+	.highlight-box > .grab-handle {
+		visibility: hidden;
 	}
 
-	.cell.top {
-		cursor: ns-resize;
-		grid-row: 1;
-		grid-column: 2;
+	.highlight-box:hover > .grab-handle {
+		visibility: visible;
 	}
 
-	.cell.top-right {
-		cursor: nesw-resize;
-		grid-row: 1;
-		grid-column: 3;
+	/* Color grouping: corners vs edges */
+	.highlight-box > .grab-handle.top-left,
+	.highlight-box > .grab-handle.top-right,
+	.highlight-box > .grab-handle.bottom-left,
+	.highlight-box > .grab-handle.bottom-right {
+		background-color: var(--grab-handle-corner);
 	}
 
-	.cell.left {
-		cursor: ew-resize;
-		grid-row: 2;
-		grid-column: 1;
+	.highlight-box > .grab-handle.top,
+	.highlight-box > .grab-handle.right,
+	.highlight-box > .grab-handle.bottom,
+	.highlight-box > .grab-handle.left {
+		background-color: var(--grab-handle-edge);
 	}
 
-	.cell.center {
+	/* Center cell */
+	.highlight-box > .center {
 		cursor: pointer;
 		grid-row: 2;
 		grid-column: 2;
+		background-color: var(--cell-highlight);
 	}
 
-	.cell.right {
+	.highlight-box:hover > .center {
+		background-color: white;
+	}
+
+	/* Positions + cursors */
+	.highlight-box > .grab-handle.top-left {
+		grid-row: 1;
+		grid-column: 1;
+		cursor: nwse-resize;
+	}
+
+	.highlight-box > .grab-handle.top {
+		grid-row: 1;
+		grid-column: 2;
+		cursor: ns-resize;
+	}
+
+	.highlight-box > .grab-handle.top-right {
+		grid-row: 1;
+		grid-column: 3;
+		cursor: nesw-resize;
+	}
+
+	.highlight-box > .grab-handle.left {
+		grid-row: 2;
+		grid-column: 1;
 		cursor: ew-resize;
+	}
+
+	.highlight-box > .grab-handle.right {
 		grid-row: 2;
 		grid-column: 3;
+		cursor: ew-resize;
 	}
 
-	.cell.bottom-left {
-		cursor: nesw-resize;
+	.highlight-box > .grab-handle.bottom-left {
 		grid-row: 3;
 		grid-column: 1;
+		cursor: nesw-resize;
 	}
 
-	.cell.bottom {
-		cursor: ns-resize;
+	.highlight-box > .grab-handle.bottom {
 		grid-row: 3;
 		grid-column: 2;
+		cursor: ns-resize;
 	}
 
-	.cell.bottom-right {
-		cursor: nwse-resize;
+	.highlight-box > .grab-handle.bottom-right {
 		grid-row: 3;
 		grid-column: 3;
+		cursor: nwse-resize;
 	}
