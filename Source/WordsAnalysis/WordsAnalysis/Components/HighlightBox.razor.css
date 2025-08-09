@@ -33,7 +33,7 @@
 
 	/* Center cell */
 	.highlight-box > .center {
-		cursor: pointer;
+		cursor: move;
 		grid-row: 2;
 		grid-column: 2;
 		background-color: var(--cell-highlight);

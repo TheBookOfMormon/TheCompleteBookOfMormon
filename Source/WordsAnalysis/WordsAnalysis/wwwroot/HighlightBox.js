@@ -1,4 +1,16 @@
-﻿export function startInteraction(dotNetRef) {
+﻿export function initialize(element) {
+   const originalZIndex = element.style.zIndex;
+
+   element.addEventListener("mouseenter", () => {
+      element.style.zIndex = 9999;
+   });
+
+   element.addEventListener("mouseleave", () => {
+      element.style.zIndex = originalZIndex;
+   });
+}
+
+export function startInteraction(dotNetRef) {
     function onMouseMove(e) {
         dotNetRef.invokeMethodAsync('OnMouseMove', e.clientX, e.clientY);
     }

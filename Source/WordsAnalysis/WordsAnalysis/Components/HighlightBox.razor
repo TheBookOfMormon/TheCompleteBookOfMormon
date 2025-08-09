@@ -1,5 +1,5 @@
 @inject IJSRuntime JS
-<div class="highlight-box" style=@GetStyle() @onmousedown:preventDefault @onmousedown:stopPropagation>
+<div @ref=HighlightBoxElementReference class="highlight-box" style=@GetStyle() @onmousedown:preventDefault @onmousedown:stopPropagation>
     <div class="center" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Middle)) />
     <div class="grab-handle top-left" @onmousedown=@(e => MouseDownAsync(e, CellPosition.TopLeft)) />
     <div class="grab-handle top" @onmousedown=@(e => MouseDownAsync(e, CellPosition.Top)) />

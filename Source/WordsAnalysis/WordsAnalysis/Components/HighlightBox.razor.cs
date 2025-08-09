@@ -23,6 +23,7 @@ public partial class HighlightBox : IAsyncDisposable
 
     private bool IsInteracting;
     private CellPosition CurrentCellPosition;
+    private ElementReference HighlightBoxElementReference;
     private int MouseDownX;
     private int MouseDownY;
     private OcrRect MouseDownRect = OcrRect.Empty;
@@ -63,10 +64,11 @@ public partial class HighlightBox : IAsyncDisposable
         {
             JSModule = await JS.InvokeAsync<IJSObjectReference>("import", "/HighlightBox.js");
             DotNetRef = DotNetObjectReference.Create(JSCallbacks);
+            await JSModule.InvokeVoidAsync("initialize", HighlightBoxElementReference);
         }
     }
 
-    private async void MouseDownAsync(MouseEventArgs e, CellPosition cellPosition)
+    private async Task MouseDownAsync(MouseEventArgs e, CellPosition cellPosition)
     {
         if (e.Button != 0) return;
 
@@ -86,7 +88,7 @@ public partial class HighlightBox : IAsyncDisposable
 
         int xOffset = clientX - MouseDownX;
         int yOffset = clientY - MouseDownY;
-        if (xOffset == 0 && yOffset == 0)
+        if (Math.Abs(xOffset) < 1 && Math.Abs(yOffset) < 1)
             return;
 
         OcrRect newRect = MouseDownRect;
