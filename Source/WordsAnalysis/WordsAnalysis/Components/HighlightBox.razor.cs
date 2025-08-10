@@ -18,7 +18,7 @@ public partial class HighlightBox : IAsyncDisposable
 
     private readonly InteropCallbacks JSCallbacks;
 
-    private const int DragHandlePixelSize = 8;
+    private const int DragHandlePixelSize = 12;
     private const int DragHandlesCombinedPixelSize = DragHandlePixelSize * 2;
     private const int MinimumSize = DragHandlePixelSize * 3;
 
