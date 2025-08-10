@@ -52,13 +52,10 @@
 
             <div>
                 <FluentTextField @bind-Value=Notes Label="Notes" />
-                @if (!Corrected)
+                <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
+                @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
                 {
-                    <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
-                    @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
-                    {
-                        <FluentTextField @bind-Value=BenefitOfDoubtText Label="Intended text" />
-                    }
+                    <FluentTextField @bind-Value=BenefitOfDoubtText Label="Intended text" />
                 }
             </div>
 

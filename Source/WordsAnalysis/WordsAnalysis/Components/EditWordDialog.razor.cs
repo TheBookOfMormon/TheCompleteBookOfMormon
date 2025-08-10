@@ -167,13 +167,6 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             result = result with { BenefitOfDoubtText = null };
         }
-        if (result.Corrected)
-        {
-            result = result with {
-                BenefitOfDoubt = BenefitOfDoubt.None,
-                BenefitOfDoubtText = null
-            };
-        }
         return result;
     }
 
