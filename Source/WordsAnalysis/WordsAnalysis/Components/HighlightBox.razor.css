@@ -1,12 +1,12 @@
 ﻿.highlight-box {
 	position: absolute;
 	display: grid;
-	background-color: white;
 	opacity: 0.5;
 	gap: 0;
 }
 
 	.highlight-box > .cell {
+		background-color: white;
 	}
 
 	.highlight-box > .grab-handle {
