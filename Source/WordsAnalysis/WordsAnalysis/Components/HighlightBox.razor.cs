@@ -47,7 +47,9 @@ public partial class HighlightBox : IAsyncDisposable
         JSCallbacks = new InteropCallbacks(this);
     }
 
-    private string GetStyle() =>
+    private string GetHighlightBoxStyle() => $"width:{Rect.Width}px; height: {Rect.Height}px;";
+       
+    private string GetResizeBoxStyle() =>
         $"""
             left:{Rect.X}px;
             top:{Rect.Y}px;
