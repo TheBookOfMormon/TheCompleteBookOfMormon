@@ -37,16 +37,17 @@
                 <FluentCheckbox Label="✗" title="Corrected" @bind-Value=Corrected />
                 <FluentCheckbox Label="✓" title="Correction" @bind-Value=Correction />
                 <FluentCheckbox Label="^" title="Inserted" @bind-Value=Inserted />
+                @if (Texts.Length > 1)
+                {
+                    <FluentCheckbox Label="-" title="Show dashes" @bind-Value=ShowDashes />
+                }
+
             </div>
             <div class="flex-row-container --justify-content-start">
                 <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
                 @if (HasSampleImages)
                 {
                     <FluentButton IconStart=@SharedIcons.TextSamples Title="Text samples" OnClick=@ShowTextSamplesAsync />
-                }
-                @if (Texts.Length > 1)
-                {
-                    <FluentCheckbox @bind-Value=ShowDashes Label="Show dashes" />
                 }
             </div>
 
