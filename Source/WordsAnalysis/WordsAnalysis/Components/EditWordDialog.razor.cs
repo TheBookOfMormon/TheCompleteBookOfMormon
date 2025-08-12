@@ -292,8 +292,8 @@ public partial class EditWordDialog : IAsyncDisposable
             }
             else
                 Texts[elementIndex].Bounds = bounds with {
-                    Width = Math.Max(1, bounds.Width + xAdjustment),
-                    Height = Math.Max(1, bounds.Height + yAdjustment)
+                    Width = Math.Max(0, bounds.Width + xAdjustment),
+                    Height = Math.Max(0, bounds.Height + yAdjustment)
                 };
         }
         bool newIsAfter = elementIndex != 0 || isAfter();
