@@ -13,6 +13,11 @@ label {
     margin-right: 1rem;
 }
 
+img {
+    -webkit-user-drag: none; /* WebKit/Chromium */
+    user-select: none; /* optional: avoid selection while dragging */
+}
+
 .mb-1 {
     margin-bottom: 0.25rem;
 }
