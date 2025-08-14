@@ -2099,6 +2099,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1282,
+            "Y": 822,
+            "Width": 110,
+            "Height": 50
+          },
+          "Text": "those"
+        }
+      ],
+      "Correction": true,
+      "Inserted": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1407,
             "Y": 866,
             "Width": 154,
@@ -2108,21 +2123,6 @@
         }
       ],
       "Corrected": true
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1280,
-            "Y": 825,
-            "Width": 111,
-            "Height": 43
-          },
-          "Text": "those"
-        }
-      ],
-      "Correction": true,
-      "Inserted": true
     },
     {
       "Elements": [
@@ -7798,6 +7798,37 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1922,
+            "Y": 3148,
+            "Width": 69,
+            "Height": 69
+          },
+          "Text": "for"
+        },
+        {
+          "Bounds": {
+            "X": -5,
+            "Y": 3220,
+            "Width": 0,
+            "Height": 50
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 32,
+            "Y": 3220,
+            "Width": 132,
+            "Height": 64
+          },
+          "Text": "got"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1923,
             "Y": 3146,
             "Width": 67,
@@ -7818,12 +7849,13 @@
           "Bounds": {
             "X": 24,
             "Y": 3210,
-            "Width": 190,
+            "Width": 185,
             "Height": 69
           },
           "Text": "gotten"
         }
       ],
+      "Corrected": true,
       "Inserted": true
     },
     {
