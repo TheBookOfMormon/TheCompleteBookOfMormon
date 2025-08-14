@@ -137,9 +137,10 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.None);
         BenefitOfDoubtText = null;
+        string newText = Texts[0].Text == "and" ? "And" : "and";
         Texts[0].Text = "M";
         EstimateWordSize(0);
-        Texts[0].Text = Texts[0].Text == "and" ? "And" : "and";
+        Texts[0].Text = newText;
     }
 
     private MagickImage CreateFilteredPageImage()
