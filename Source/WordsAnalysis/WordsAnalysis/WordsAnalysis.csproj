@@ -60,13 +60,13 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.DataAnnotations.Validation" Version="3.2.0-rc1.20223.4" />
-        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.0-preview.6.25358.103" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.0-preview.7.25380.108" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.12.1" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.12.1" />
-        <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0-preview.6.25358.103" />
-        <PackageReference Include="System.Runtime.Caching" Version="10.0.0-preview.6.25358.103" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.0-preview.7.25406.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="10.0.0-preview.7.25406.3" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0-preview.7.25380.108" />
+        <PackageReference Include="System.Runtime.Caching" Version="10.0.0-preview.7.25380.108" />
     </ItemGroup>
 
     <ItemGroup>
