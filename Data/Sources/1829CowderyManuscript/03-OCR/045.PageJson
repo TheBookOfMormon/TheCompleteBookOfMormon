@@ -4337,7 +4337,8 @@
           },
           "Text": "by"
         }
-      ]
+      ],
+      "Corrected": true
     },
     {
       "Elements": [
@@ -7485,6 +7486,20 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1275,
+            "Y": 3094,
+            "Width": 144,
+            "Height": 50
+          },
+          "Text": "those"
+        }
+      ],
+      "Correction": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1406,
             "Y": 3088,
             "Width": 179,
@@ -7494,20 +7509,6 @@
         }
       ],
       "Corrected": true
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1273,
-            "Y": 3097,
-            "Width": 141,
-            "Height": 50
-          },
-          "Text": "those"
-        }
-      ],
-      "Correction": true
     },
     {
       "Elements": [

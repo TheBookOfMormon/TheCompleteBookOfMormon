@@ -2479,6 +2479,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 962,
+            "Y": 901,
+            "Width": 122,
+            "Height": 50
+          },
+          "Text": "who"
+        }
+      ],
+      "Correction": true,
+      "Inserted": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1121,
             "Y": 953,
             "Width": 115,
@@ -2488,21 +2503,6 @@
         }
       ],
       "Corrected": true
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 960,
-            "Y": 908,
-            "Width": 122,
-            "Height": 50
-          },
-          "Text": "who"
-        }
-      ],
-      "Correction": true,
-      "Inserted": true
     },
     {
       "Elements": [
@@ -5123,8 +5123,7 @@
           "Text": "out"
         }
       ],
-      "Inserted": true,
-      "Notes": "Inserted"
+      "Inserted": true
     },
     {
       "Elements": [
