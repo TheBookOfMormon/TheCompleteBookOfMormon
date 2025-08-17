@@ -8,10 +8,6 @@
 
 <FluentDialogBody>
     <div style="display: flex; flex-direction: row; align-items: flex-start;">
-        <div style="position:relative; display: flex; flex-direction: row; flex-grow: 1;  overflow-y: auto;">
-           <HighlightBox @bind-Rect=Bounds/>
-            <img src=@PageImageData style="width: 100%; height: auto; flex-grow: 1" />
-        </div>
         <div style="display: flex; flex-direction: column; align-items: flex-end; align-self: flex-start;">
             <FluentToolbar>
                 <RepeatingFluentButton IconStart=@SharedIcons.ArrowUp OnClick=@(e => MoveUp(e)) />
@@ -20,6 +16,10 @@
                 <RepeatingFluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRight(e)) />
             </FluentToolbar>
             <InputTextArea @bind-Value=ScannedText readonly rows="10" />
+        </div>
+        <div style="position:relative; flex-grow: 1;  overflow: auto;">
+            <HighlightBox @bind-Rect=Bounds />
+            <img src=@PageImageData style="flex-grow: 1" />
         </div>
     </div>
 </FluentDialogBody>
