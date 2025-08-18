@@ -321,6 +321,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -334,6 +335,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3097,9 +3099,10 @@
             "Width": 32,
             "Height": 16
           },
-          "Text": "shll"
+          "Text": "shall"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3
     },
     {
       "Elements": [
@@ -3478,6 +3481,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3780,7 +3784,9 @@
           },
           "Text": "bloodsheads"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "bloodsheds"
     },
     {
       "Elements": [
