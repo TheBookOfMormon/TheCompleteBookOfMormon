@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using Microsoft.FluentUI.AspNetCore.Components;
+﻿using Microsoft.FluentUI.AspNetCore.Components;
 using Microsoft.Maui.LifecycleEvents;
 
 namespace WordsAnalysis;
