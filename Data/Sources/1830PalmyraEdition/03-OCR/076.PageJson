@@ -3626,6 +3626,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4068,6 +4069,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4697,6 +4699,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5972,7 +5975,7 @@
             "Width": 50,
             "Height": 19
           },
-          "Text": "plaees"
+          "Text": "places"
         }
       ]
     },
@@ -6047,12 +6050,14 @@
           "Bounds": {
             "X": 535,
             "Y": 978,
-            "Width": 88,
+            "Width": 92,
             "Height": 16
           },
           "Text": "wildernesss"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "wilderness"
     },
     {
       "Elements": [
