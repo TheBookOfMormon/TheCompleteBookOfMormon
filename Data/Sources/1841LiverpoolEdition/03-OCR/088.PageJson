@@ -121,6 +121,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1600,6 +1601,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1988,7 +1991,9 @@
           },
           "Text": "becanse"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "because"
     },
     {
       "Elements": [
@@ -2198,6 +2203,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2224,6 +2230,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2521,12 +2528,14 @@
           "Bounds": {
             "X": 947,
             "Y": 1041,
-            "Width": 83,
+            "Width": 97,
             "Height": 25
           },
           "Text": "wasts"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "waste"
     },
     {
       "Elements": [
@@ -2552,7 +2561,9 @@
           },
           "Text": "aud"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -2867,6 +2878,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4658,6 +4670,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
