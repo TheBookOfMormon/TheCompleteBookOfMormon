@@ -1,5 +1,8 @@
 ﻿using Microsoft.FluentUI.AspNetCore.Components;
 using Microsoft.Maui.LifecycleEvents;
+#if DEBUG
+using Microsoft.Extensions.Logging;
+#endif
 
 namespace WordsAnalysis;
 
@@ -28,8 +31,9 @@ public static class MauiProgram
 #endif
 
         builder.ConfigureLifecycleEvents(events =>
-         {
-         });
+        {
+        });
+
         return builder.Build();
     }
 
