@@ -1,1 +1,0 @@
-dotnet watch -c Release --project Source\WordsAnalysis\WordsAnalysis\WordsAnalysis.csproj
