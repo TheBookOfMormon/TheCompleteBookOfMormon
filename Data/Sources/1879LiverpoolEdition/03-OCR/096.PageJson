@@ -1104,6 +1104,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1342,12 +1343,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 864,
+            "X": 873,
             "Y": 507,
-            "Width": 39,
-            "Height": 46
+            "Width": 33,
+            "Height": 23
           },
-          "Text": "Je"
+          "Text": "ye"
         }
       ]
     },
@@ -1498,12 +1499,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 184,
-            "Y": 563,
-            "Width": 51,
-            "Height": 16
+            "X": 142,
+            "Y": 558,
+            "Width": 99,
+            "Height": 28
           },
-          "Text": "wer"
+          "Text": "power"
         }
       ]
     },
@@ -1537,12 +1538,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 360,
+            "X": 376,
             "Y": 557,
-            "Width": 194,
+            "Width": 178,
             "Height": 29
           },
-          "Text": "fresurrection"
+          "Text": "resurrection"
         }
       ]
     },
@@ -1615,6 +1616,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 142,
+            "Y": 585,
+            "Width": 38,
+            "Height": 28
+          },
+          "Text": "by"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 200,
             "Y": 585,
             "Width": 45,
@@ -1667,12 +1681,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 487,
+            "X": 495,
             "Y": 589,
-            "Width": 171,
+            "Width": 163,
             "Height": 28
           },
-          "Text": "fatonement"
+          "Text": "atonement"
         }
       ]
     },
@@ -1940,38 +1954,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 493,
-            "Y": 762,
-            "Width": 132,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 145,
-            "Y": 821,
-            "Width": 73,
-            "Height": 24
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 254,
             "Y": 818,
             "Width": 57,
             "Height": 34
           },
-          "Text": "AND"
+          "Text": "And"
         }
       ]
     },
@@ -2136,24 +2124,11 @@
         {
           "Bounds": {
             "X": 368,
-            "Y": 858,
-            "Width": 46,
-            "Height": 17
+            "Y": 853,
+            "Width": 192,
+            "Height": 28
           },
-          "Text": "Fe"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 475,
-            "Y": 819,
-            "Width": 83,
-            "Height": 62
-          },
-          "Text": "eas"
+          "Text": "nevertheless"
         }
       ]
     },
@@ -2375,11 +2350,7 @@
             "Height": 25
           },
           "Text": "suf"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 1055,
@@ -2388,19 +2359,15 @@
             "Height": 6
           },
           "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 167,
-            "Y": 911,
-            "Width": 42,
-            "Height": 22
+            "X": 142,
+            "Y": 907,
+            "Width": 96,
+            "Height": 28
           },
-          "Text": "ceth"
+          "Text": "ficeth"
         }
       ]
     },
@@ -2759,12 +2726,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 446,
-            "Y": 997,
-            "Width": 39,
-            "Height": 30
+            "X": 394,
+            "Y": 999,
+            "Width": 107,
+            "Height": 28
           },
-          "Text": "ple"
+          "Text": "people"
         }
       ]
     },
@@ -3038,6 +3005,19 @@
             "Height": 33
           },
           "Text": "seen"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 220,
+            "Y": 1057,
+            "Width": 60,
+            "Height": 28
+          },
+          "Text": "him"
         }
       ]
     },
@@ -4124,12 +4104,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 442,
-            "Y": 1316,
-            "Width": 77,
-            "Height": 55
+            "X": 445,
+            "Y": 1320,
+            "Width": 83,
+            "Height": 30
           },
-          "Text": "piven"
+          "Text": "given"
         }
       ]
     },
