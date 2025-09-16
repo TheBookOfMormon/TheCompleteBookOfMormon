@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1875,
   "ImageWidth": 1140,
+  "ManuallyEdited": true,
   "PageNumber": 97,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 99,
-            "Y": 145,
-            "Width": 61,
-            "Height": 19
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 189,
-            "Y": 140,
-            "Width": 33,
-            "Height": 30
-          },
-          "Text": "XII"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 473,
-            "Y": 145,
-            "Width": 22,
-            "Height": 19
-          },
-          "Text": "II"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 517,
-            "Y": 145,
-            "Width": 83,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -1069,6 +1018,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1374,10 +1324,10 @@
           "Bounds": {
             "X": 363,
             "Y": 463,
-            "Width": 66,
+            "Width": 79,
             "Height": 24
           },
-          "Text": "fhem"
+          "Text": "them"
         }
       ]
     },
@@ -1463,64 +1413,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 305,
-            "Y": 578,
-            "Width": 167,
-            "Height": 25
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 572,
-            "Y": 579,
-            "Width": 44,
-            "Height": 29
-          },
-          "Text": "See"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 633,
-            "Y": 578,
-            "Width": 104,
-            "Height": 25
-          },
-          "Text": "Isaiah"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 144,
-            "Y": 637,
-            "Width": 14,
-            "Height": 24
-          },
-          "Text": "I"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 195,
             "Y": 636,
             "Width": 60,
             "Height": 25
           },
-          "Text": "THE"
+          "Text": "The"
         }
       ]
     },
@@ -1615,6 +1513,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1684,12 +1584,25 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 263,
+            "X": 188,
+            "Y": 697,
+            "Width": 61,
+            "Height": 28
+          },
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 274,
             "Y": 696,
-            "Width": 34,
+            "Width": 23,
             "Height": 24
           },
-          "Text": "2it"
+          "Text": "it"
         }
       ]
     },
@@ -1814,19 +1727,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 949,
-            "Y": 703,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 955,
             "Y": 695,
             "Width": 48,
@@ -1884,7 +1784,7 @@
             "Width": 91,
             "Height": 24
           },
-          "Text": "Lord's"
+          "Text": "Lord\u0027s"
         }
       ]
     },
@@ -2096,6 +1996,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3023,12 +2924,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 425,
+            "X": 441,
             "Y": 959,
-            "Width": 98,
+            "Width": 82,
             "Height": 30
           },
-          "Text": "4judge"
+          "Text": "judge"
         }
       ]
     },
@@ -3232,40 +3133,15 @@
         {
           "Bounds": {
             "X": 77,
-            "Y": 1018,
-            "Width": 106,
-            "Height": 30
+            "Y": 1019,
+            "Width": 224,
+            "Height": 28
           },
-          "Text": "plough"
+          "Text": "plough-shares"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 189,
-            "Y": 1031,
-            "Width": 2,
-            "Height": 5
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 199,
-            "Y": 1018,
-            "Width": 93,
-            "Height": 30
-          },
-          "Text": "shares"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -3323,40 +3199,15 @@
         {
           "Bounds": {
             "X": 658,
-            "Y": 1018,
-            "Width": 117,
-            "Height": 30
+            "Y": 1019,
+            "Width": 223,
+            "Height": 28
           },
-          "Text": "pruning"
+          "Text": "pruning-hooks"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 781,
-            "Y": 1032,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 791,
-            "Y": 1018,
-            "Width": 84,
-            "Height": 30
-          },
-          "Text": "hooks"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -3367,6 +3218,19 @@
             "Height": 24
           },
           "Text": "nation"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 77,
+            "Y": 1044,
+            "Width": 80,
+            "Height": 28
+          },
+          "Text": "shall"
         }
       ]
     },
@@ -3778,11 +3642,11 @@
         {
           "Bounds": {
             "X": 478,
-            "Y": 1138,
-            "Width": 37,
-            "Height": 21
+            "Y": 1135,
+            "Width": 47,
+            "Height": 24
           },
-          "Text": "tor"
+          "Text": "for"
         }
       ]
     },
