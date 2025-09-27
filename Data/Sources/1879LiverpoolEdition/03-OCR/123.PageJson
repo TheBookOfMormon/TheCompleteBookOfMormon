@@ -1,47 +1,9 @@
 {
   "ImageHeight": 1872,
   "ImageWidth": 1135,
+  "ManuallyEdited": true,
   "PageNumber": 123,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 62,
-            "Y": 130,
-            "Width": 70,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 156,
-            "Y": 125,
-            "Width": 84,
-            "Height": 30
-          },
-          "Text": "XXVTIL"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 485,
-            "Y": 131,
-            "Width": 83,
-            "Height": 19
-          },
-          "Text": "NEPHI"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -220,7 +182,7 @@
             "Width": 36,
             "Height": 23
           },
-          "Text": "ull"
+          "Text": "all"
         }
       ]
     },
@@ -490,36 +452,10 @@
           "Bounds": {
             "X": 726,
             "Y": 272,
-            "Width": 84,
+            "Width": 192,
             "Height": 29
           },
-          "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 814,
-            "Y": 285,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 823,
-            "Y": 271,
-            "Width": 79,
-            "Height": 25
-          },
-          "Text": "crafts"
+          "Text": "priest-crafts"
         }
       ]
     },
@@ -555,36 +491,10 @@
           "Bounds": {
             "X": 193,
             "Y": 301,
-            "Width": 84,
+            "Width": 186,
             "Height": 29
           },
-          "Text": "priest"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 282,
-            "Y": 314,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 291,
-            "Y": 301,
-            "Width": 82,
-            "Height": 23
-          },
-          "Text": "crafts"
+          "Text": "priest-crafts"
         }
       ]
     },
@@ -874,6 +784,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -883,7 +794,7 @@
             "Width": 44,
             "Height": 24
           },
-          "Text": "tlic"
+          "Text": "the"
         }
       ]
     },
@@ -1210,10 +1121,10 @@
           "Bounds": {
             "X": 609,
             "Y": 419,
-            "Width": 211,
+            "Width": 231,
             "Height": 28
           },
-          "Text": "conimandment"
+          "Text": "commandment"
         }
       ]
     },
@@ -1434,7 +1345,7 @@
             "Width": 62,
             "Height": 30
           },
-          "Text": "tlicy"
+          "Text": "they"
         }
       ]
     },
@@ -1538,7 +1449,7 @@
             "Width": 106,
             "Height": 30
           },
-          "Text": "chaiity"
+          "Text": "charity"
         }
       ]
     },
@@ -1590,7 +1501,7 @@
             "Width": 79,
             "Height": 21
           },
-          "Text": "suifer"
+          "Text": "suffer"
         }
       ]
     },
@@ -1612,24 +1523,11 @@
         {
           "Bounds": {
             "X": 219,
-            "Y": 535,
-            "Width": 37,
-            "Height": 23
+            "Y": 533,
+            "Width": 137,
+            "Height": 28
           },
-          "Text": "lal"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 266,
-            "Y": 542,
-            "Width": 74,
-            "Height": 17
-          },
-          "Text": "ourer"
+          "Text": "labourer"
         }
       ]
     },
@@ -1755,27 +1653,15 @@
         {
           "Bounds": {
             "X": 564,
-            "Y": 565,
-            "Width": 21,
-            "Height": 22
+            "Y": 562,
+            "Width": 80,
+            "Height": 28
           },
-          "Text": "sl"
+          "Text": "shall"
         }
       ]
     },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 598,
-            "Y": 565,
-            "Width": 34,
-            "Height": 23
-          },
-          "Text": "all"
-        }
-      ]
-    },
+    null,
     {
       "Elements": [
         {
@@ -1833,11 +1719,11 @@
         {
           "Bounds": {
             "X": 960,
-            "Y": 565,
-            "Width": 21,
-            "Height": 24
+            "Y": 563,
+            "Width": 24,
+            "Height": 28
           },
-          "Text": "it"
+          "Text": "if"
         }
       ]
     },
@@ -1925,10 +1811,10 @@
           "Bounds": {
             "X": 576,
             "Y": 595,
-            "Width": 52,
+            "Width": 104,
             "Height": 28
           },
-          "Text": "peri"
+          "Text": "perish"
         }
       ]
     },
@@ -1963,11 +1849,11 @@
         {
           "Bounds": {
             "X": 356,
-            "Y": 623,
-            "Width": 35,
-            "Height": 24
+            "Y": 621,
+            "Width": 52,
+            "Height": 28
           },
-          "Text": "tle"
+          "Text": "the"
         }
       ]
     },
@@ -2088,6 +1974,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2214,7 +2101,7 @@
             "Width": 70,
             "Height": 23
           },
-          "Text": "stcal"
+          "Text": "steal"
         }
       ]
     },
@@ -2279,7 +2166,7 @@
             "Width": 60,
             "Height": 22
           },
-          "Text": "tuke"
+          "Text": "take"
         }
       ]
     },
@@ -2500,7 +2387,7 @@
             "Width": 102,
             "Height": 25
           },
-          "Text": "houid"
+          "Text": "should"
         }
       ]
     },
@@ -2708,7 +2595,7 @@
             "Width": 110,
             "Height": 24
           },
-          "Text": "conimit"
+          "Text": "commit"
         }
       ]
     },
@@ -2795,6 +2682,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2882,7 +2770,7 @@
             "Width": 88,
             "Height": 20
           },
-          "Text": "whonso"
+          "Text": "whoso"
         }
       ]
     },
@@ -3012,7 +2900,7 @@
             "Width": 71,
             "Height": 17
           },
-          "Text": "ccme"
+          "Text": "come"
         }
       ]
     },
@@ -3103,7 +2991,7 @@
             "Width": 59,
             "Height": 24
           },
-          "Text": "thet"
+          "Text": "that"
         }
       ]
     },
@@ -3359,11 +3247,11 @@
         {
           "Bounds": {
             "X": 957,
-            "Y": 924,
-            "Width": 11,
-            "Height": 16
+            "Y": 918,
+            "Width": 33,
+            "Height": 28
           },
-          "Text": "o"
+          "Text": "of"
         }
       ]
     },
@@ -3610,7 +3498,7 @@
             "Width": 68,
             "Height": 16
           },
-          "Text": "ncene"
+          "Text": "none"
         }
       ]
     },
@@ -3844,7 +3732,7 @@
             "Width": 113,
             "Height": 23
           },
-          "Text": "heatlen"
+          "Text": "heathen"
         }
       ]
     },
@@ -3975,32 +3863,6 @@
             "Height": 24
           },
           "Text": "Gentile"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 428,
-            "Y": 1181,
-            "Width": 166,
-            "Height": 24
-          },
-          "Text": "CHAPTER"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 122,
-            "Y": 1239,
-            "Width": 12,
-            "Height": 23
-          },
-          "Text": "I"
         }
       ]
     },
@@ -4342,6 +4204,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4355,6 +4218,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4446,6 +4310,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4459,6 +4324,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4485,6 +4351,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4940,6 +4807,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4970,12 +4838,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 195,
+            "X": 168,
             "Y": 1445,
-            "Width": 48,
+            "Width": 75,
             "Height": 24
           },
-          "Text": "ord"
+          "Text": "Lord"
         }
       ]
     },
@@ -5582,11 +5450,11 @@
         {
           "Bounds": {
             "X": 888,
-            "Y": 1569,
-            "Width": 39,
-            "Height": 23
+            "Y": 1567,
+            "Width": 56,
+            "Height": 28
           },
-          "Text": "yca"
+          "Text": "yea"
         }
       ]
     },
@@ -5600,136 +5468,6 @@
             "Height": 25
           },
           "Text": "it"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 147,
-            "Y": 1613,
-            "Width": 21,
-            "Height": 15
-          },
-          "Text": "mm"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 185,
-            "Y": 1609,
-            "Width": 41,
-            "Height": 19
-          },
-          "Text": "Nan"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 321,
-            "Y": 1620,
-            "Width": 2,
-            "Height": 4
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 521,
-            "Y": 1621,
-            "Width": 0,
-            "Height": 1
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 571,
-            "Y": 1610,
-            "Width": 27,
-            "Height": 19
-          },
-          "Text": "ch"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 697,
-            "Y": 1610,
-            "Width": 45,
-            "Height": 20
-          },
-          "Text": "Moro"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 95,
-            "Y": 1636,
-            "Width": 38,
-            "Height": 16
-          },
-          "Text": "vers"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 117,
-            "Y": 1687,
-            "Width": 9,
-            "Height": 14
-          },
-          "Text": "a"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 148,
-            "Y": 1682,
-            "Width": 19,
-            "Height": 22
-          },
-          "Text": "Isa"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 341,
-            "Y": 1684,
-            "Width": 20,
-            "Height": 19
-          },
-          "Text": "Isa"
         }
       ]
     }
