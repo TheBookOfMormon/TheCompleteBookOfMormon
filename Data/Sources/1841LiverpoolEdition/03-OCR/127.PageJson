@@ -121,6 +121,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2315,6 +2316,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2328,6 +2330,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2614,6 +2617,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3420,6 +3424,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3589,6 +3594,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3602,6 +3608,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4809,12 +4816,14 @@
           "Bounds": {
             "X": 934,
             "Y": 1454,
-            "Width": 54,
-            "Height": 29
+            "Width": 77,
+            "Height": 30
           },
           "Text": "host"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "hosts"
     },
     {
       "Elements": [
