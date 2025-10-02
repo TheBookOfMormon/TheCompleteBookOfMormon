@@ -7929,6 +7929,20 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 366,
+            "Y": 2739,
+            "Width": 63,
+            "Height": 60
+          },
+          "Text": "y"
+        }
+      ],
+      "Corrected": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 426,
             "Y": 2714,
             "Width": 91,
@@ -7936,7 +7950,8 @@
           },
           "Text": "your"
         }
-      ]
+      ],
+      "Correction": true
     },
     {
       "Elements": [
@@ -8061,10 +8076,10 @@
           "Bounds": {
             "X": 1357,
             "Y": 2718,
-            "Width": 147,
+            "Width": 176,
             "Height": 63
           },
-          "Text": "mocide"
+          "Text": "procede"
         }
       ]
     },
@@ -8139,7 +8154,7 @@
           "Bounds": {
             "X": 22,
             "Y": 2805,
-            "Width": 83,
+            "Width": 94,
             "Height": 56
           },
           "Text": "unto"
@@ -8169,6 +8184,19 @@
             "Height": 60
           },
           "Text": "seed"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 323,
+            "Y": 2809,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "And"
         }
       ]
     },
@@ -8246,7 +8274,7 @@
             "Width": 99,
             "Height": 64
           },
-          "Text": "waite"
+          "Text": "unto"
         }
       ]
     },
@@ -8324,7 +8352,7 @@
             "Width": 60,
             "Height": 61
           },
-          "Text": "fon"
+          "Text": "for"
         }
       ]
     },
@@ -8359,24 +8387,11 @@
         {
           "Bounds": {
             "X": 1740,
-            "Y": 2807,
-            "Width": 53,
-            "Height": 57
+            "Y": 2814,
+            "Width": 109,
+            "Height": 42
           },
-          "Text": "un"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 1803,
-            "Y": 2809,
-            "Width": 37,
-            "Height": 56
-          },
-          "Text": "to"
+          "Text": "unto"
         }
       ]
     },
@@ -8502,11 +8517,11 @@
         {
           "Bounds": {
             "X": 864,
-            "Y": 2881,
-            "Width": 30,
-            "Height": 64
+            "Y": 2892,
+            "Width": 42,
+            "Height": 42
           },
-          "Text": "X"
+          "Text": "And"
         }
       ]
     },
@@ -8542,7 +8557,7 @@
           "Bounds": {
             "X": 1165,
             "Y": 2882,
-            "Width": 119,
+            "Width": 132,
             "Height": 63
           },
           "Text": "words"
@@ -8631,23 +8646,28 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1872,
+            "X": 1870,
             "Y": 2880,
-            "Width": 90,
-            "Height": 63
+            "Width": 93,
+            "Height": 83
           },
           "Text": "Gen"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
-            "X": 11,
+            "X": 1,
             "Y": 2966,
-            "Width": 93,
-            "Height": 55
+            "Width": 0,
+            "Height": 0
+          },
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 20,
+            "Y": 2959,
+            "Width": 99,
+            "Height": 83
           },
           "Text": "tiles"
         }
@@ -8800,6 +8820,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 1203,
+            "Y": 2971,
+            "Width": 42,
+            "Height": 42
+          },
+          "Text": "and"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 1239,
             "Y": 2959,
             "Width": 114,
@@ -8857,7 +8890,7 @@
             "Width": 92,
             "Height": 61
           },
-          "Text": "move"
+          "Text": "more"
         }
       ]
     },
@@ -8870,7 +8903,7 @@
             "Width": 142,
             "Height": 59
           },
-          "Text": "brille"
+          "Text": "Bible"
         }
       ]
     }

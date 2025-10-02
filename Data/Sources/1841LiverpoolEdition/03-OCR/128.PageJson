@@ -485,6 +485,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3771,6 +3772,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3784,6 +3786,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -4652,6 +4655,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5437,13 +5441,15 @@
         {
           "Bounds": {
             "X": 135,
-            "Y": 1715,
+            "Y": 1701,
             "Width": 186,
-            "Height": 28
+            "Height": 42
           },
           "Text": "yes terday"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "yesterday"
     },
     {
       "Elements": [
