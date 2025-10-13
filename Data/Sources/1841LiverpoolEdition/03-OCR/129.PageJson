@@ -5552,6 +5552,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5747,6 +5748,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5896,12 +5898,14 @@
           "Bounds": {
             "X": 911,
             "Y": 1802,
-            "Width": 75,
-            "Height": 31
+            "Width": 102,
+            "Height": 30
           },
           "Text": "Isreal"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "Israel"
     }
   ]
 }
