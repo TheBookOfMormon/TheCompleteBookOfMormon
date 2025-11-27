@@ -124,13 +124,13 @@ public partial class EditWordDialog : IAsyncDisposable
     {
         if (!EditForm.EditContext!.Validate()) return;
         WriteAppSettings();
+        ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
 
         OcrWord? newWord = CreateWord();
 
         var result = new EditWordDialogResult(newWord, AddWordAfter);
         await Dialog.CloseAsync(result);
 
-        ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
     }
 
     private void ConvertAmpersand()
