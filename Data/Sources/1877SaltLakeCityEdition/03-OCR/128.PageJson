@@ -283,14 +283,14 @@
           "Bounds": {
             "X": 890,
             "Y": 248,
-            "Width": 82,
+            "Width": 93,
             "Height": 17
           },
           "Text": "concer"
         },
         {
           "Bounds": {
-            "X": 969,
+            "X": 983,
             "Y": 248,
             "Width": 8,
             "Height": 17
@@ -306,7 +306,9 @@
           },
           "Text": "ing"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "concerning"
     },
     {
       "Elements": [
@@ -938,6 +940,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
