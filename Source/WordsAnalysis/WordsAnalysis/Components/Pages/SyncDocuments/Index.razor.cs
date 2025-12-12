@@ -63,7 +63,7 @@ public partial class Index : IDisposable
     }
 
     private string? GetWordStyle(OcrWord? word) =>
-        (!ViewModel.ShowBenefitOfDoubt && word?.Corrected == true) ? "text-decoration: line-through" : null;
+        (word?.Corrected == true) ? "text-decoration: line-through" : null;
 
     private string GetZeroPaddedSectionNumber(int sectionNumber)
     {
@@ -80,7 +80,7 @@ public partial class Index : IDisposable
         string lastEditedRow = ViewModel.LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
         string outlier = "";
         string errorLevel = "";
-        bool isFlagWord = displayText != null && (displayText == "{min}" || displayText.ToUpper().Contains("CHAPTER"));
+        bool isFlagWord = displayText != null && (displayText == "{min}" || displayText == "{amp}" || displayText.ToUpper().Contains("CHAPTER"));
         string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
         if (!isEmpty && (isFlagWord || columnData.MostCommonDisplayText != displayText))
         {
