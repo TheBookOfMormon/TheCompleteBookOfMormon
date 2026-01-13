@@ -1294,7 +1294,9 @@
           },
           "Text": "dilgence"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "diligence"
     },
     {
       "Elements": [
@@ -3560,6 +3562,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3701,7 +3704,9 @@
           },
           "Text": "recieve"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "receive"
     },
     {
       "Elements": [
@@ -4345,13 +4350,14 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
           "Bounds": {
-            "X": 413,
+            "X": 407,
             "Y": 735,
-            "Width": 11,
+            "Width": 17,
             "Height": 14
           },
           "Text": "it"
@@ -5123,7 +5129,9 @@
           },
           "Text": "obout"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "about"
     },
     {
       "Elements": [
@@ -5484,7 +5492,9 @@
           },
           "Text": "record"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "record"
     },
     {
       "Elements": [
