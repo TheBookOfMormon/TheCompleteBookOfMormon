@@ -7946,7 +7946,7 @@
             "Width": 316,
             "Height": 59
           },
-          "Text": "Commandments"
+          "Text": "commandments"
         }
       ]
     },
@@ -8059,11 +8059,11 @@
         {
           "Bounds": {
             "X": 1637,
-            "Y": 2824,
-            "Width": 148,
-            "Height": 65
+            "Y": 2836,
+            "Width": 190,
+            "Height": 40
           },
-          "Text": "destrail"
+          "Text": "destroid"
         }
       ]
     },
@@ -8111,11 +8111,11 @@
         {
           "Bounds": {
             "X": 112,
-            "Y": 2912,
-            "Width": 86,
-            "Height": 61
+            "Y": 2922,
+            "Width": 100,
+            "Height": 40
           },
-          "Text": "fall"
+          "Text": "face"
         }
       ]
     },
@@ -8163,24 +8163,11 @@
         {
           "Bounds": {
             "X": 463,
-            "Y": 2910,
-            "Width": 94,
-            "Height": 62
+            "Y": 2923,
+            "Width": 214,
+            "Height": 36
           },
-          "Text": "where"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 567,
-            "Y": 2909,
-            "Width": 85,
-            "Height": 63
-          },
-          "Text": "fore"
+          "Text": "wherefore"
         }
       ]
     },
@@ -8214,14 +8201,16 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 942,
-            "Y": 2908,
-            "Width": 28,
-            "Height": 63
+            "X": 946,
+            "Y": 2919,
+            "Width": 40,
+            "Height": 40
           },
-          "Text": "of"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -8248,6 +8237,21 @@
           "Text": "Priests"
         }
       ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 1216,
+            "Y": 2919,
+            "Width": 40,
+            "Height": 40
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -8311,19 +8315,24 @@
             "Height": 59
           },
           "Text": "diligent"
-        }
-      ]
-    },
-    {
-      "Elements": [
+        },
         {
           "Bounds": {
             "X": 35,
             "Y": 2998,
-            "Width": 63,
+            "Width": 0,
             "Height": 60
           },
-          "Text": "by"
+          "Text": "-"
+        },
+        {
+          "Bounds": {
+            "X": 48,
+            "Y": 2998,
+            "Width": 51,
+            "Height": 60
+          },
+          "Text": "ly"
         }
       ]
     },
@@ -8336,7 +8345,7 @@
             "Width": 235,
             "Height": 63
           },
-          "Text": "extorting"
+          "Text": "shorting"
         }
       ]
     },
@@ -8371,11 +8380,11 @@
         {
           "Bounds": {
             "X": 584,
-            "Y": 2990,
-            "Width": 86,
-            "Height": 66
+            "Y": 3003,
+            "Width": 100,
+            "Height": 40
           },
-          "Text": "tony"
+          "Text": "long"
         }
       ]
     },
@@ -8505,7 +8514,7 @@
             "Width": 137,
             "Height": 57
           },
-          "Text": "mares"
+          "Text": "Moses"
         }
       ]
     }
