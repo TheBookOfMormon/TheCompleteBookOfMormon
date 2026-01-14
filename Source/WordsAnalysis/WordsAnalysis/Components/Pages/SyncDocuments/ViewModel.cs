@@ -193,6 +193,11 @@ public class ViewModel
         }
     }
 
+    public IEnumerable<OcrBookInfoAndPageNumber> GetVisiblePages() =>
+        RowData
+        .Select(x => new { x.BookInfo, Pages = x.Words.Select(x => x.PageNumber).Distinct() })
+        .SelectMany(x => x.Pages, (x, page) => new OcrBookInfoAndPageNumber(x.BookInfo, page));
+
     public ImmutableArray<WordReference?> GetWordsInColumn(int columnIndex)
     {
         return WordsAnalysis.AppLayer.Features.SyncDocuments.ColumnData.GetColumnWords(State.Editions, RowData, columnIndex);

@@ -1,9 +1,12 @@
 using DocumentsModel;
+using DocumentsModel.Helpers;
+using ImageMagick;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Services;
+using WordsAnalysis.AppLayer.Extensions;
 
 namespace WordsAnalysis.Components.Pages.SyncDocuments;
 
@@ -37,6 +40,7 @@ public partial class Index : IDisposable
         await ViewModel.LoadRowDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;
+        _ = PreloadPageImages();
     }
 
     void IDisposable.Dispose()
@@ -123,6 +127,32 @@ public partial class Index : IDisposable
         };
     }
 
+    private async Task PreloadPageImages()
+    {
+        IEnumerable<OcrBookInfoAndPageNumber> visiblePages = ViewModel.GetVisiblePages();
+        await Parallel.ForEachAsync(visiblePages, (x, _) =>
+        {
+            string filePath = FilePathHelper.GetScansDeskewedImageFilePath(
+                sourcesDirectoryPath: AppLayer.Constants.Data.SourcesDirectoryPath,
+                bookInfo: x.BookInfo,
+                pageNumber: x.PageNumber);
+            MagickImage image = ImageRepository.GetPageImage(filePath);
+            ImageRepository.GetFilteredPageImage(filePath, () =>
+            {
+                var filteredImage = new MagickImage(image.Clone());
+                var options = new PageState.ImageOptions {
+                    ApplyThreshold = AppPreferences.EditWordDialog.ApplyThreshold,
+                    ShowHighContrast = AppPreferences.EditWordDialog.ShowHighContrast,
+                    ThresholdLower = AppPreferences.EditWordDialog.ThresholdLower,
+                    ThresholdUpper = AppPreferences.EditWordDialog.ThresholdUpper
+                };
+                filteredImage.ApplyImageOptions(options);
+                return filteredImage;
+            });
+            return default;
+        });
+    }
+
     private async Task RefreshGrid()
     {
         await Task.Yield();
@@ -146,6 +176,7 @@ public partial class Index : IDisposable
         StateHasChanged();
         await Task.Yield();
         LoadingCount--;
+        _ = PreloadPageImages();
     }
 
     private async Task ScrollToNextWarningOrErrorAsync()
