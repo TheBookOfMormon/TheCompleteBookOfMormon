@@ -681,9 +681,9 @@
         },
         {
           "Bounds": {
-            "X": 1110,
-            "Y": 339,
-            "Width": 28,
+            "X": 1100,
+            "Y": 344,
+            "Width": 10,
             "Height": 28
           },
           "Text": "-"
@@ -692,12 +692,14 @@
           "Bounds": {
             "X": 155,
             "Y": 373,
-            "Width": 68,
+            "Width": 83,
             "Height": 27
           },
           "Text": "tians"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "Egyptians"
     },
     {
       "Elements": [
@@ -1050,6 +1052,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1427,6 +1431,8 @@
         }
       ]
     },
+    null,
+    null,
     {
       "Elements": [
         {
@@ -1939,6 +1945,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -5290,6 +5297,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
