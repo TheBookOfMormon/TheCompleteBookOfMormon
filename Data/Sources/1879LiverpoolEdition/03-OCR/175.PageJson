@@ -1,60 +1,9 @@
 {
   "ImageHeight": 1872,
   "ImageWidth": 1135,
+  "ManuallyEdited": true,
   "PageNumber": 175,
   "Words": [
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 54,
-            "Y": 159,
-            "Width": 67,
-            "Height": 20
-          },
-          "Text": "CHAP"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 375,
-            "Y": 151,
-            "Width": 74,
-            "Height": 35
-          },
-          "Text": "BOOK"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 471,
-            "Y": 160,
-            "Width": 32,
-            "Height": 20
-          },
-          "Text": "OF"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 523,
-            "Y": 160,
-            "Width": 105,
-            "Height": 20
-          },
-          "Text": "MOSIAH"
-        }
-      ]
-    },
     {
       "Elements": [
         {
@@ -515,11 +464,11 @@
         {
           "Bounds": {
             "X": 835,
-            "Y": 301,
-            "Width": 62,
-            "Height": 25
+            "Y": 300,
+            "Width": 134,
+            "Height": 27
           },
-          "Text": "inde"
+          "Text": "indebted"
         }
       ]
     },
@@ -705,6 +654,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -930,12 +880,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 889,
-            "Y": 425,
-            "Width": 44,
-            "Height": 47
+            "X": 901,
+            "Y": 423,
+            "Width": 58,
+            "Height": 27
           },
-          "Text": "eo"
+          "Text": "you"
         }
       ]
     },
@@ -1242,6 +1192,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 165,
+            "Y": 504,
+            "Width": 59,
+            "Height": 27
+          },
+          "Text": "And"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 242,
             "Y": 513,
             "Width": 54,
@@ -1378,19 +1341,6 @@
             "Height": 18
           },
           "Text": "answer"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 164,
-            "Y": 550,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
         }
       ]
     },
@@ -1697,12 +1647,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 843,
+            "X": 859,
             "Y": 565,
-            "Width": 81,
+            "Width": 65,
             "Height": 24
           },
-          "Text": "mdust"
+          "Text": "dust"
         }
       ]
     },
@@ -1849,6 +1799,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1859,6 +1810,19 @@
             "Height": 23
           },
           "Text": "you"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 166,
+            "Y": 622,
+            "Width": 59,
+            "Height": 27
+          },
+          "Text": "And"
         }
       ]
     },
@@ -1925,7 +1889,9 @@
           },
           "Text": "he"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "ye"
     },
     {
       "Elements": [
@@ -2347,6 +2313,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 49,
+            "Y": 707,
+            "Width": 90,
+            "Height": 27
+          },
+          "Text": "frame"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 147,
             "Y": 713,
             "Width": 26,
@@ -2685,6 +2664,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 905,
+            "Y": 770,
+            "Width": 68,
+            "Height": 27
+          },
+          "Text": "this"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 53,
             "Y": 799,
             "Width": 63,
@@ -2776,12 +2768,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 773,
-            "Y": 797,
-            "Width": 120,
-            "Height": 56
+            "X": 750,
+            "Y": 803,
+            "Width": 172,
+            "Height": 27
           },
-          "Text": "ourselves"
+          "Text": "yourselves"
         }
       ]
     },
