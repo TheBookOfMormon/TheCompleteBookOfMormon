@@ -130,6 +130,11 @@ public partial class Index : IDisposable
     private async Task PreloadPageImages()
     {
         IEnumerable<OcrBookInfoAndPageNumber> visiblePages = ViewModel.GetVisiblePages();
+        await Task.Delay(500);
+        IEnumerable<OcrBookInfoAndPageNumber> newPages = ViewModel.GetVisiblePages();
+        if (!Enumerable.SequenceEqual(visiblePages, newPages))
+            return;
+
         await Parallel.ForEachAsync(visiblePages, (x, _) =>
         {
             string filePath = FilePathHelper.GetScansDeskewedImageFilePath(
