@@ -135,7 +135,8 @@ public partial class Index : IDisposable
         if (!Enumerable.SequenceEqual(visiblePages, newPages))
             return;
 
-        await Parallel.ForEachAsync(visiblePages, (x, _) =>
+        var parallelOptions = new ParallelOptions { MaxDegreeOfParallelism = Math.Max(1, Environment.ProcessorCount - 2) };
+        await Parallel.ForEachAsync(visiblePages, parallelOptions, (x, _) =>
         {
             string filePath = FilePathHelper.GetScansDeskewedImageFilePath(
                 sourcesDirectoryPath: AppLayer.Constants.Data.SourcesDirectoryPath,
