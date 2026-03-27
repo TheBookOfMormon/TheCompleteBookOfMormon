@@ -269,7 +269,7 @@ public class ViewModel
         await StateHasChanged.InvokeAsync();
     }
 
-    public async Task NukeTheRestOfThePageAsync()
+    public async Task KillTheRestOfThePageAsync()
     {
         FeatureState featureState = State;
 

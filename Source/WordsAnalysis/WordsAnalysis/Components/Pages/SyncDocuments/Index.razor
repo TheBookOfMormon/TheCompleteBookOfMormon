@@ -47,10 +47,10 @@
                              AccessKey="L"
                              OnClick=@ViewModel.AlignSelectedWordsAsync />
             <IconPanelButton Icon=Icons.Filled.Size24.ChannelSubtract
-                             Tooltip="Delete section (ALT X)"
-                             AccessKey="X"
+                             Tooltip="Kill rest of page (ALT + K)"
+                             AccessKey="K"
                              Enabled=ViewModel.CanNukeTheRestOfThePage
-                             OnClick=@ViewModel.NukeTheRestOfThePageAsync />
+                             OnClick=@ViewModel.KillTheRestOfThePageAsync />
             @if (!IsSearchingForNextError)
             {
                 <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
