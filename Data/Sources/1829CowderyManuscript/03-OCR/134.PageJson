@@ -6663,6 +6663,21 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 41,
+            "Y": 2295,
+            "Width": 38,
+            "Height": 38
+          },
+          "Text": "\u0026"
+        }
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "And"
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 112,
             "Y": 2284,
             "Width": 172,
@@ -6676,14 +6691,30 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 342,
-            "Y": 2282,
-            "Width": 67,
-            "Height": 54
+            "X": 308,
+            "Y": 2292,
+            "Width": 111,
+            "Height": 38
           },
-          "Text": "of"
+          "Text": "saith"
         }
-      ]
+      ],
+      "Corrected": true
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 307,
+            "Y": 2259,
+            "Width": 113,
+            "Height": 38
+          },
+          "Text": "said"
+        }
+      ],
+      "Correction": true,
+      "Inserted": true
     },
     {
       "Elements": [
@@ -6720,7 +6751,7 @@
             "Width": 93,
             "Height": 55
           },
-          "Text": "seen"
+          "Text": "seer"
         }
       ]
     },
@@ -6743,10 +6774,23 @@
           "Bounds": {
             "X": 749,
             "Y": 2278,
-            "Width": 280,
+            "Width": 32,
             "Height": 55
           },
-          "Text": "unerelation"
+          "Text": "a"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
+            "X": 781,
+            "Y": 2278,
+            "Width": 249,
+            "Height": 55
+          },
+          "Text": "revelator"
         }
       ]
     },
@@ -6755,13 +6799,15 @@
         {
           "Bounds": {
             "X": 1038,
-            "Y": 2278,
-            "Width": 43,
-            "Height": 54
+            "Y": 2286,
+            "Width": 38,
+            "Height": 38
           },
-          "Text": "to"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
@@ -6807,13 +6853,15 @@
         {
           "Bounds": {
             "X": 1431,
-            "Y": 2280,
-            "Width": 32,
-            "Height": 50
+            "Y": 2286,
+            "Width": 38,
+            "Height": 38
           },
-          "Text": "x"
+          "Text": "\u0026"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "and"
     },
     {
       "Elements": [
