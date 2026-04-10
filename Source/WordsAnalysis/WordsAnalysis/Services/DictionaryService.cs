@@ -187,7 +187,7 @@ sealed class DictionaryService : IDictionaryService
             return false;
 
         string lastThree = word[^3..];
-        return Regex.IsMatch("^[^AEIOU][AEIOU][^AEIOU]$", lastThree);
+        return Regex.IsMatch(lastThree, "^[^AEIOU][AEIOU][^AEIOU]$");
     }
 
 }
