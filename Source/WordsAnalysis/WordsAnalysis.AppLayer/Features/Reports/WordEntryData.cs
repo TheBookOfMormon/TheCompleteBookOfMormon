@@ -1,8 +1,8 @@
 using DocumentsModel;
 
-namespace WordsAnalysis.Components.Pages.Reports;
+namespace WordsAnalysis.AppLayer.Features.Reports;
 
-readonly struct WordEntryData
+public readonly struct WordEntryData
 {
     public required int PageNumber { get; init; }
     public required int WordIndex { get; init; }

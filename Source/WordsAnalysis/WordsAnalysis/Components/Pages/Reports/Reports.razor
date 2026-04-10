@@ -1,33 +1,34 @@
 @page "/Reports"
+@using WordsAnalysis.AppLayer.Features.Reports
 <PageHeader Href="/" Text="Reports" Disabled=@(EditionProcessor?.StopProcessingEnabled ?? false) />
-@if (CurrentState == State.Loading)
+@if (ViewModel.CurrentState == ReportsViewModel.ReportsState.Loading)
 {
     <h2>Loading...</h2>
-    <EditionProcessor @ref=EditionProcessor Processor=@Loader HideControlButtons OnFinished=@LoadingFinishedAsync />
+    <EditionProcessor @ref=EditionProcessor Processor=@ViewModel.Loader HideControlButtons OnFinished=@ViewModel.LoadingFinishedAsync />
 }
-@if (CurrentState == State.DeterminingHierarchy)
+@if (ViewModel.CurrentState == ReportsViewModel.ReportsState.DeterminingHierarchy)
 {
     <h2>Determining hierarchy</h2>
 }
-@if (CurrentState == State.DetectingChanges)
+@if (ViewModel.CurrentState == ReportsViewModel.ReportsState.DetectingChanges)
 {
     <h2>Detecting changes</h2>
-    @if (DetectChangesStatus != null)
+    @if (ViewModel.DetectChangesStatus != null)
     {
-        <h3>@DetectChangesStatus</h3>
+        <h3>@ViewModel.DetectChangesStatus</h3>
     }
 }
-@if (SimilarityTableData != null)
+@if (ViewModel.SimilarityTableData != null)
 {
     <div class="card">
         <h3>Similarity table</h3>
-        <EditionSimilarityTable Data=@SimilarityTableData />
+        <EditionSimilarityTable Data=@ViewModel.SimilarityTableData />
     </div>
 }
-@if (HierarchyData != null)
+@if (ViewModel.HierarchyData != null)
 {
     <div class="card">
         <h3>Hierarchy tree</h3>
-        <EditionHierarchyTree Data=@HierarchyData/>
+        <EditionHierarchyTree Data=@ViewModel.HierarchyData/>
     </div>
 }

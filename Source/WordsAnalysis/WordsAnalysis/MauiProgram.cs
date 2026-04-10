@@ -17,7 +17,7 @@ public static class MauiProgram
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                fonts.AddFont("TimesNewRoman-Regular.ttf", "TimesNewRomainRegular");
+                fonts.AddFont("TimesNewRoman-Regular.ttf", "TimesNewRomanRegular");
             });
 
         builder.Services.AddMauiBlazorWebView();
@@ -39,6 +39,10 @@ public static class MauiProgram
 
     private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
     {
-        //throw new NotImplementedException();
+        System.Diagnostics.Debug.WriteLine($"Unhandled exception: {e.ExceptionObject}");
+        if (e.ExceptionObject is Exception ex)
+        {
+            System.Diagnostics.Trace.TraceError($"Unhandled exception: {ex}");
+        }
     }
 }

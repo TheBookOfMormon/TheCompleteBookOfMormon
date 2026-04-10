@@ -1,13 +1,14 @@
-﻿@using WordsAnalysis.AppLayer.Features.SyncDocuments
+@using WordsAnalysis.AppLayer.Features.SyncDocuments
 @using DocumentsModel
-@implements IDialogContentComponent<EditWordDialog.EditWordDialogContent>
+@implements IDialogContentComponent<EditWordDialogContent>
+@inject IAppPreferences AppPreferences
 @inject IDialogService DialogService
 @inject IHtmlService HtmlService
 @inject IToastService ToastService
 @inject IImageRepository ImageRepository
 
 <FluentDialogHeader>
-    @GetActionName() word - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
+    @ViewModel.GetActionName() word - @Content.Edition.BookInfo.Year @Content.Edition.BookInfo.Name
 </FluentDialogHeader>
 
 <FluentDialogBody>
@@ -22,7 +23,7 @@
 
             <!-- Bottom Image Container (takes remaining 50%) -->
             <div style="flex:1; overflow:auto; position:relative; ">
-                @foreach (TextData element in Texts)
+                @foreach (EditWordDialogViewModel.TextData element in ViewModel.Texts)
                 {
                     <HighlightBox @bind-Rect=element.Bounds @bind-Rect:after=UpdateWordImageData />
                 }
@@ -31,40 +32,40 @@
 
         </div>
 
-        <EditForm @ref=EditForm Model=@Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto; padding:0.25rem;">
+        <EditForm @ref=EditForm Model=@ViewModel.Texts style="grid-column: 2; overflow-x: hidden; overflow-y: auto; padding:0.25rem;">
             <ObjectGraphDataAnnotationsValidator />
             <div class="space-around-container mb-1">
-                <FluentCheckbox Label="✗" title="Corrected" @bind-Value=Corrected />
-                <FluentCheckbox Label="✓" title="Correction" @bind-Value=Correction />
-                <FluentCheckbox Label="^" title="Inserted" @bind-Value=Inserted />
-                @if (Texts.Length > 1)
+                <FluentCheckbox Label="&#10007;" title="Corrected" @bind-Value=ViewModel.Corrected />
+                <FluentCheckbox Label="&#10003;" title="Correction" @bind-Value=ViewModel.Correction />
+                <FluentCheckbox Label="^" title="Inserted" @bind-Value=ViewModel.Inserted />
+                @if (ViewModel.Texts.Length > 1)
                 {
-                    <FluentCheckbox Label="-" title="Show dashes" @bind-Value=ShowDashes />
+                    <FluentCheckbox Label="-" title="Show dashes" @bind-Value=ViewModel.ShowDashes />
                 }
 
             </div>
             <div class="flex-row-container --justify-content-start">
-                <FluentNumberField @bind-Value=LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ResetLineHeightAdjustment />
-                @if (HasSampleImages)
+                <FluentNumberField @bind-Value=ViewModel.LineHeight Min=8 Max=100 Label="Line height" @bind-Value:after=ViewModel.ResetLineHeightAdjustment />
+                @if (ViewModel.HasSampleImages)
                 {
                     <FluentButton IconStart=@SharedIcons.TextSamples Title="Text samples"  Class="ml-1" OnClick=@ShowTextSamplesAsync />
                 }
             </div>
 
             <div>
-                <FluentTextField @bind-Value=Notes Label="Notes" />
+                <FluentTextField @bind-Value=ViewModel.Notes Label="Notes" />
                 <FluentKeyCode PreventDefaultOnly=[KeyCode.Escape]>
-                    <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
+                    <FluentSelect TOption="KeyValuePair<BenefitOfDoubt, string>" Items=@BenefitOfDoubtExtensions.GetOptions() Label="Benefit of doubt" @bind-SelectedOption=ViewModel.BenefitOfDoubtSelectedOption OptionText=@(x => x.Value) OptionValue=@(x => x.Key.ToString()) />
                 </FluentKeyCode>
-                @if (BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
+                @if (ViewModel.BenefitOfDoubtSelectedOption.Key != BenefitOfDoubt.None)
                 {
-                    <FluentTextField @bind-Value=BenefitOfDoubtText Label="Intended text" />
+                    <FluentTextField @bind-Value=ViewModel.BenefitOfDoubtText Label="Intended text" />
                 }
             </div>
 
             @{
                 int index = -1;
-                foreach (TextData item in Texts)
+                foreach (EditWordDialogViewModel.TextData item in ViewModel.Texts)
                 {
                     index++;
                     int capturedIndex = index;
@@ -77,13 +78,13 @@
                             <RepeatingFluentButton IconStart=@SharedIcons.ArrowRight OnClick=@(e => MoveRightAsync(e, capturedIndex)) />
                             <RepeatingFluentButton IconStart=@SharedIcons.DropFirstLetter accesskey="f" OnClick=@(e => DropFirstLetter(capturedIndex)) Disabled=@isReadonly />
                             <RepeatingFluentButton IconStart=@SharedIcons.EstimateWordSize OnClick=@(e => EstimateWordSize(capturedIndex)) accesskey="w" />
-                            @if (Texts.Length == 1)
+                            @if (ViewModel.Texts.Length == 1)
                             {
                                 <FluentButton OnClick=@ConvertAmpersand accesskey="&">&amp;</FluentButton>
                             }
                         </FluentToolbar>
                     </div>
-                    <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
+                    <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ViewModel.ResetLineHeightAdjustment />
                 }
             }
             @if (Content.IsAdd)
@@ -91,7 +92,7 @@
                 <div>
                     <label>
                         Add
-                        @if (AddWordAfter)
+                        @if (ViewModel.AddWordAfter)
                         {
                             <text>Before / <em>After</em></text>
                         }
@@ -100,19 +101,19 @@
                             <text><em>Before</em> / After</text>
                         }
                     </label>
-                    <FluentCheckbox @bind-Value=AddWordAfter />&nbsp;
+                    <FluentCheckbox @bind-Value=ViewModel.AddWordAfter />&nbsp;
                 </div>
             }
             <FluentDivider Style="margin:0.5em 0 1em 0;" />
             <div>
-                <FluentCheckbox @bind-Value=ShowHighContrast @bind-Value:after=@PageFilterChanged Label="High contrast" />
-                @if (ShowHighContrast)
+                <FluentCheckbox @bind-Value=ViewModel.ShowHighContrast @bind-Value:after=@PageFilterChanged Label="High contrast" />
+                @if (ViewModel.ShowHighContrast)
                 {
-                    <FluentCheckbox @bind-Value=ApplyThreshold @bind-Value:after=@PageFilterChanged Label="Threshhold" />
-                    @if (ApplyThreshold)
+                    <FluentCheckbox @bind-Value=ViewModel.ApplyThreshold @bind-Value:after=@PageFilterChanged Label="Threshhold" />
+                    @if (ViewModel.ApplyThreshold)
                     {
-                        <FluentSlider @bind-Value=ThresholdLower @bind-Value:after=@ThresholdLowerChanged Label="Lower" Min=0 Max=99 Step=1 />
-                        <FluentSlider @bind-Value=ThresholdUpper @bind-Value:after=@ThresholdUpperChanged Label="Upper" Min=1 Max=100 Step=1 />
+                        <FluentSlider @bind-Value=ViewModel.ThresholdLower @bind-Value:after=@ThresholdLowerChanged Label="Lower" Min=0 Max=99 Step=1 />
+                        <FluentSlider @bind-Value=ViewModel.ThresholdUpper @bind-Value:after=@ThresholdUpperChanged Label="Upper" Min=1 Max=100 Step=1 />
                     }
                 }
             </div>

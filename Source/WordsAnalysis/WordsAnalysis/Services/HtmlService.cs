@@ -1,19 +1,14 @@
-﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
+using WordsAnalysis.AppLayer.Features.SyncDocuments;
 
 namespace WordsAnalysis.Services;
 
-public readonly record struct WordGridLocation(int RowIndex, int ColumnIndex)
-{
-    public readonly static WordGridLocation None = new WordGridLocation(-1, -1);
-}
-
-public interface IHtmlService
+public interface IHtmlService : IWordGridService
 {
     Task CenterImagePointInParent(string elementId, int x, int y);
     Task<bool> FirstColumnHasErrorAsync();
     Task FocusFirstElementAsync(ElementReference container);
-    Task<WordGridLocation> GetWordGridLocationAsync();
     Task InitializeAsync();
     Task ScrollBodyToTopLeftAsync();
     Task<bool> ScrollToNextErrorAsync();

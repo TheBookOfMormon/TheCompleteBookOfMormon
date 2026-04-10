@@ -1,10 +1,10 @@
-﻿using ConvertImagesToText;
+using ConvertImagesToText;
 using DocumentsModel;
 using System.Collections.Concurrent;
 
-namespace WordsAnalysis.Components.Pages.Reports;
+namespace WordsAnalysis.AppLayer.Features.Reports;
 
-internal class Loader : EditionsProcessorBase
+public class Loader : EditionsProcessorBase
 {
     private readonly ConcurrentDictionary<OcrBookInfo, ConcurrentDictionary<int, OcrPage>> EditionPages = new();
 

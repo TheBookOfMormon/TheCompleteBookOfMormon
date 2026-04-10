@@ -7,7 +7,7 @@ public interface IImageRepository
 {
     MagickImage GetPageImage(string path);
     MagickImage GetFilteredPageImage(string path, Func<MagickImage> getter);
-    void SetFilteredPageImage(string path, MagickImage? image);
+    void SetFilteredPageImage(string path, MagickImage image);
 }
 
 internal class ImageRepository : IImageRepository
@@ -39,16 +39,11 @@ internal class ImageRepository : IImageRepository
         return GetImage(key, () => new MagickImage(filePath));
     }
 
-    public void SetFilteredPageImage(string filePath, MagickImage? image)
+    public void SetFilteredPageImage(string filePath, MagickImage image)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(filePath);
-        ArgumentNullException.ThrowIfNull(image);
-
         string key = GetFilteredPageImageKey(filePath);
-        if (image == null)
-            Cache.Remove(key);
-        else
-            _ = SetImage(key, image);
+        _ = SetImage(key, image);
     }
 
     private string GetFilteredPageImageKey(string filePath) => $"FilteredPageImage:{filePath}";

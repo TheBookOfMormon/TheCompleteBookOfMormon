@@ -1,6 +1,6 @@
-﻿using DocumentsModel;
+using DocumentsModel;
 
-namespace WordsAnalysis.Components.Pages.Reports;
+namespace WordsAnalysis.AppLayer.Features.Reports;
 internal static class EditionHierarchyDataBuilder
 {
     public static EditionHierarchyData Build(Dictionary<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> data)

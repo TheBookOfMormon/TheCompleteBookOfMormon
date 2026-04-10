@@ -12,7 +12,6 @@ namespace WordsAnalysis.Components;
 
 public partial class ViewColumnImagesDialog
 {
-    public record ViewColumnImagesDialogContent(ImmutableDictionary<OcrBookInfo, EditionState> Editions, IEnumerable<WordReference?> WordReferences);
 
     [Parameter]
     public ViewColumnImagesDialogContent Content { get; set; } = null!;

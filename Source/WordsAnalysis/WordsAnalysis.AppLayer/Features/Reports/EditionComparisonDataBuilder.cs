@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 
-namespace WordsAnalysis.Components.Pages.Reports;
+namespace WordsAnalysis.AppLayer.Features.Reports;
 
 internal static class EditionComparisonDataBuilder
 {

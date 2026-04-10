@@ -1,12 +1,9 @@
-using ConvertImagesToText;
 using DocumentsModel;
-using DocumentsModel.Helpers;
 using ImageMagick;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
-using System.Collections.Immutable;
 using WordsAnalysis.AppLayer.Extensions;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
 using WordsAnalysis.Extensions;
@@ -16,8 +13,6 @@ namespace WordsAnalysis.Components;
 
 public partial class EditWordDialog : IAsyncDisposable
 {
-    public record EditWordDialogContent(EditionState Edition, WordReference WordReference, int PageWidth, int PageHeight, bool IsAdd);
-    public record EditWordDialogResult(OcrWord? Word, bool After);
 
     [Parameter]
     public EditWordDialogContent Content { get; set; } = null!;
@@ -25,40 +20,15 @@ public partial class EditWordDialog : IAsyncDisposable
     [CascadingParameter]
     public FluentDialog Dialog { get; set; } = default!;
 
-    private bool AddWordAfter = true;
-    private bool ApplyThreshold;
-    private KeyValuePair<BenefitOfDoubt, string> BenefitOfDoubtSelectedOption;
-    private string? BenefitOfDoubtText;
-    private bool Corrected;
-    private bool Correction;
     private EditForm EditForm = null!;
     private MagickImage FilteredPageImage = null!;
-    private bool HasEstimatedSize;
-    private bool HasSampleImages;
-    private bool Inserted;
-    private int LineHeight;
-    private int LineHeightAdjustment;
-    private bool LineHeightLarger;
-    private string? Notes = "";
-    private OcrRect OriginalBounds = OcrRect.Empty;
     private MagickImage PageImage = null!;
-    private MagickImage PageDisplayImage => ShowHighContrast ? FilteredPageImage : PageImage;
+    private MagickImage PageDisplayImage => ViewModel.ShowHighContrast ? FilteredPageImage : PageImage;
     private string? PageImageData;
-    private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
-    private bool ShowDashes;
-    private bool ShowHighContrast;
-    private int ThresholdLower;
-    private int ThresholdUpper;
-    private TextData[] Texts = [];
-    private OcrWord Word = null!;
+    private string PageImageFilePath => DocumentsModel.Helpers.FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
     private string? WordImageData;
 
-    private static readonly IEnumerable<BenefitOfDoubt> BenefitOfDoubtOptions;
-
-    static EditWordDialog()
-    {
-        BenefitOfDoubtOptions = Enum.GetValues<BenefitOfDoubt>();
-    }
+    private EditWordDialogViewModel ViewModel = null!;
 
     ValueTask IAsyncDisposable.DisposeAsync()
     {
@@ -77,33 +47,13 @@ public partial class EditWordDialog : IAsyncDisposable
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        HasSampleImages = TextSamplesDialog.GetImageFilePaths(Content.Edition.BookInfo).Any();
-        ReadAppSettings();
-        ResetLineHeightAdjustment();
+        ViewModel = new EditWordDialogViewModel();
+        ViewModel.SetContent(Content);
+        ViewModel.ReadAppSettings(AppPreferences, Content);
 
-        Word = Content.WordReference.GetWord(Content.Edition)!;
-        if (Content.IsAdd)
-        {
-            OcrElement lastElementOnSamePage = Word.LastElementOnSamePage();
-            OcrRect bounds = lastElementOnSamePage.Bounds;
-            int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
-            Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight }, false)];
-            ShowDashes = false;
-            Word = new OcrWord { Elements = [lastElementOnSamePage with { Text = "" }] };
-        }
-        else
-        {
-            Texts = Word.Elements.Select(x => new TextData(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
-            ShowDashes = Word.ShowDashes;
-        }
+        bool hasSampleImages = TextSamplesDialog.GetImageFilePaths(Content.Edition.BookInfo).Any();
+        ViewModel.Initialize(Content, hasSampleImages);
 
-        OriginalBounds = Word.Elements[0].Bounds;
-        Notes = Word.Notes;
-        Corrected = Word.Corrected;
-        Correction = Word.Correction;
-        Inserted = Word.Inserted;
-        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
-        BenefitOfDoubtText = Word.BenefitOfDoubtText;
         LoadPageImage();
     }
 
@@ -115,7 +65,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task CenterImagePointAsync(OcrRect? rect = null)
     {
-        rect ??= Texts.Last(x => !x.IsOnNextPage).Bounds;
+        rect ??= ViewModel.Texts.Last(x => !x.IsOnNextPage).Bounds;
         (int x, int y) = rect.GetCenter();
         await HtmlService.CenterImagePointInParent("page-image", x, y);
     }
@@ -123,132 +73,39 @@ public partial class EditWordDialog : IAsyncDisposable
     private async Task ConfirmAsync()
     {
         if (!EditForm.EditContext!.Validate()) return;
-        WriteAppSettings();
+        ViewModel.WriteAppSettings(AppPreferences, Content);
         ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
 
-        OcrWord? newWord = CreateWord();
+        OcrWord? newWord = ViewModel.CreateWord();
 
-        var result = new EditWordDialogResult(newWord, AddWordAfter);
+        var result = new EditWordDialogResult(newWord, ViewModel.AddWordAfter);
         await Dialog.CloseAsync(result);
-
     }
 
     private void ConvertAmpersand()
     {
-        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.PrinterError);
-        BenefitOfDoubtText = BenefitOfDoubtText == "and" ? "And" : "and";
-        Texts[0].Text = "M";
-        EstimateWordSize(0);
-        Texts[0].Text = "&";
+        ViewModel.ConvertAmpersand();
+        UpdateWordImageData();
     }
 
     private MagickImage CreateFilteredPageImage()
     {
         var result = new MagickImage(PageImage.Clone());
-        result.ApplyImageOptions(GetImageOptions());
+        result.ApplyImageOptions(ViewModel.GetImageOptions());
         FilteredPageImage = result;
-        return result;
-    }
-
-    private OcrWord CreateWord()
-    {
-        ImmutableList<OcrElement> newElements = Texts.Select(x => new OcrElement { Text = x.Text, Bounds = x.Bounds, IsOnNextPage = x.IsOnNextPage }).ToImmutableList();
-        OcrWord result = Word with {
-            Elements = newElements,
-            Notes = string.IsNullOrWhiteSpace(Notes) ? null : Notes,
-            Corrected = Corrected,
-            Correction = Correction,
-            Inserted = Inserted,
-            ShowDashes = ShowDashes,
-            BenefitOfDoubt = BenefitOfDoubtSelectedOption.Key,
-            BenefitOfDoubtText = BenefitOfDoubtText
-        };
-        if (result.BenefitOfDoubt == BenefitOfDoubt.None)
-        {
-            result = result with { BenefitOfDoubtText = null };
-        }
         return result;
     }
 
     private void DropFirstLetter(int elementIndex)
     {
-        TextData item = Texts[elementIndex];
-        string text = item.Text;
-        if (text.Length < 2) return;
-
-        char firstLetter = item.Text[0];
-        int estimatedWidth = (int)(OcrProcessor.EstimateWordSize(LineHeight, firstLetter.ToString()).Height * 0.6d);
-
-        item.Text = text[1..];
-        item.Bounds = item.Bounds with {
-            X = item.Bounds.X + estimatedWidth,
-            Width = Math.Max(1, item.Bounds.Width - estimatedWidth)
-        };
+        ViewModel.DropFirstLetter(elementIndex);
         UpdateWordImageData();
     }
 
     private void EstimateWordSize(int elementIndex)
     {
-        TextData item = Texts[elementIndex];
-        string text = item.Text;
-
-        if (HasEstimatedSize)
-        {
-            if (LineHeightLarger)
-            {
-                LineHeightAdjustment -= 2;
-                LineHeightLarger = false;
-            }
-            else
-            {
-                LineHeightLarger = true;
-            }
-
-            if (Math.Abs(LineHeightAdjustment) > LineHeight / 2)
-            {
-                LineHeightAdjustment = LineHeight / 2;
-            }
-        }
-        int lineHeightAdjustmentFactor =
-            LineHeightLarger ? 1 : -1;
-        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), text);
-        int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
-        Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
-
-        if (Texts.Length == 1)
-        {
-            double factor = Texts[0].Text switch {
-                "I" => 2,
-                "A" => 2,
-                "a" => 2,
-                _ => 1
-            };
-            Texts[0].Bounds = Texts[0].Bounds with { Width = (int)(Texts[0].Bounds.Width * factor) };
-        }
-
+        ViewModel.EstimateWordSize(elementIndex);
         UpdateWordImageData();
-
-        HasEstimatedSize = true;
-    }
-
-    private string GetActionName()
-    {
-        if (Content.IsAdd)
-            return "Add";
-        else
-            return "Edit";
-    }
-
-    private PageState.ImageOptions? GetImageOptions()
-    {
-        return !ShowHighContrast
-            ? null
-            : new PageState.ImageOptions {
-                ApplyThreshold = ApplyThreshold,
-                ShowHighContrast = ShowHighContrast,
-                ThresholdLower = ThresholdLower,
-                ThresholdUpper = ThresholdUpper
-            };
     }
 
     private void LoadPageImage()
@@ -263,56 +120,12 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task MoveAsync(MouseEventArgs e, int elementIndex, int xFactor, int yFactor)
     {
-        bool shouldCenter = false;
-        ResetLineHeightAdjustment();
-        bool wasAfter = elementIndex != 0 || isAfter();
-        int changeSize = e.CtrlKey ? 1 : (LineHeight / 4);
-        int xAdjustment = xFactor * changeSize;
-        int yAdjustment = yFactor * changeSize;
-        OcrRect bounds = Texts[elementIndex].Bounds;
-        if (e.AltKey && yAdjustment == 0 && e.ShiftKey)
-        {
-            if (xAdjustment < 0)
-            {
-                var page = Content.Edition.LoadedPages[Content.WordReference.PageNumber].Page;
-                var wordsBefore = page.Words.Where((x, index) => x != null && index < Content.WordReference.WordIndex);
-                var leftPositions = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X);
-                int leftMost = Math.Max(0, leftPositions.Any() ? leftPositions.Min() : 0);
-                Texts[elementIndex].Bounds = Texts[elementIndex].Bounds = (bounds.Offset(0, bounds.Height) with { X = leftMost });
-                shouldCenter = true;
-            }
-        }
-        else
-        {
-            if (e.ShiftKey)
-            {
-                if (e.AltKey)
-                    bounds = bounds with { Height = Math.Max(1, bounds.Height - yAdjustment) };
-                Texts[elementIndex].Bounds = bounds.Offset(xAdjustment, yAdjustment);
-            }
-            else
-                Texts[elementIndex].Bounds = bounds with {
-                    Width = Math.Max(0, bounds.Width + xAdjustment),
-                    Height = Math.Max(0, bounds.Height + yAdjustment)
-                };
-        }
-        bool newIsAfter = elementIndex != 0 || isAfter();
-        if (wasAfter != newIsAfter)
-            AddWordAfter = newIsAfter;
+        var page = Content.Edition.LoadedPages[Content.WordReference.PageNumber].Page;
+        CalculateMoveResult moveResult = ViewModel.CalculateMove(e.CtrlKey, e.ShiftKey, e.AltKey, elementIndex, xFactor, yFactor, page, Content.WordReference.WordIndex);
         UpdateWordImageData();
 
-        if (shouldCenter)
-            await CenterImagePointAsync(Texts[elementIndex].Bounds);
-
-        bool isAfter()
-        {
-            OcrRect bounds = Texts[0].Bounds;
-            int middle = bounds.Y + (bounds.Height / 2);
-            if (middle > OriginalBounds.GetBottom()) return true;
-            if (middle < OriginalBounds.Y) return false;
-            if (bounds.X < OriginalBounds.X) return false;
-            return true;
-        }
+        if (moveResult.ShouldCenter)
+            await CenterImagePointAsync(moveResult.NewBounds);
     }
 
     private async Task MoveDownAsync(MouseEventArgs e, int elementIndex)
@@ -342,13 +155,6 @@ public partial class EditWordDialog : IAsyncDisposable
         UpdatePageImageData();
     }
 
-    private void ResetLineHeightAdjustment()
-    {
-        LineHeightAdjustment = 0;
-        LineHeightLarger = false;
-        HasEstimatedSize = false;
-    }
-
     private async Task ShowTextSamplesAsync()
     {
         var content = new TextSamplesDialog.TextSamplesDialogContent { BookInfo = Content.WordReference.BookInfo };
@@ -358,15 +164,13 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void ThresholdLowerChanged()
     {
-        if (ThresholdLower >= ThresholdUpper)
-            ThresholdUpper = ThresholdLower + 1;
+        ViewModel.ThresholdLowerChanged();
         PageFilterChanged();
     }
 
     private void ThresholdUpperChanged()
     {
-        if (ThresholdUpper <= ThresholdLower)
-            ThresholdLower = ThresholdUpper - 1;
+        ViewModel.ThresholdUpperChanged();
         PageFilterChanged();
     }
 
@@ -378,46 +182,8 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void UpdateWordImageData()
     {
-        OcrWord tempWord = CreateWord();
+        OcrWord tempWord = ViewModel.CreateWord();
         using MagickImage lineImage = PageState.GetWordImage(PageDisplayImage, tempWord);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
-    }
-
-    private void ReadAppSettings()
-    {
-        // Edition
-        LineHeight = AppPreferences.Editions.GetLineHeight(Content.Edition.BookInfo);
-        // Image
-        ApplyThreshold = AppPreferences.EditWordDialog.ApplyThreshold;
-        ShowHighContrast = AppPreferences.EditWordDialog.ShowHighContrast;
-        ThresholdLower = AppPreferences.EditWordDialog.ThresholdLower;
-        ThresholdUpper = AppPreferences.EditWordDialog.ThresholdUpper;
-    }
-
-    private void WriteAppSettings()
-    {
-        // Edition
-        AppPreferences.Editions.SetLineHeight(Content.Edition.BookInfo, LineHeight);
-        // Image
-        AppPreferences.EditWordDialog.ApplyThreshold = ApplyThreshold;
-        AppPreferences.EditWordDialog.ShowHighContrast = ShowHighContrast;
-        AppPreferences.EditWordDialog.ThresholdLower = ThresholdLower;
-        AppPreferences.EditWordDialog.ThresholdUpper = ThresholdUpper;
-    }
-
-    private class TextData
-    {
-        public OcrRect Bounds { get; set; }
-
-        public bool IsOnNextPage { get; set; }
-
-        public string Text { get; set; } = null!;
-
-        public TextData(string text, OcrRect bounds, bool isOnNextPage)
-        {
-            Text = text;
-            Bounds = bounds;
-            IsOnNextPage = isOnNextPage;
-        }
     }
 }

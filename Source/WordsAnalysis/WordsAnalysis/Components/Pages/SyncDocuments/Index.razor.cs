@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.FluentUI.AspNetCore.Components;
 using WordsAnalysis.AppLayer.Features.SyncDocuments;
+using WordsAnalysis.AppLayer.Services;
 using WordsAnalysis.Services;
 using WordsAnalysis.AppLayer.Extensions;
 
@@ -12,22 +13,27 @@ namespace WordsAnalysis.Components.Pages.SyncDocuments;
 
 public partial class Index : IDisposable
 {
-    private const string LastEditedCellClass = "--last-edited-cell";
-    private const string LastEditedRowClass = "--last-edited-row";
     private bool IsSearchingForNextError;
     private int LoadingCount;
     private bool Loading => LoadingCount > 0;
     private ElementReference SectionNumberElement;
-    private HashSet<OcrBookInfo> SelectedEditions = [];
     private bool ShowLoadingIndicator;
-    private ViewModel ViewModel = null!;
-    private WordReference? WordPreviouslySelected;
+    private SyncDocumentsViewModel ViewModel = null!;
+
+    [Inject]
+    private IAppPreferences AppPreferences { get; set; } = null!;
+
+    [Inject]
+    private IDataPaths DataPaths { get; set; } = null!;
 
     [Inject]
     private IHtmlService HtmlService { get; set; } = null!;
 
     [Inject]
-    private IToastService ToastService { get; set; } = null!;
+    private INotificationService NotificationService { get; set; } = null!;
+
+    [Inject]
+    private ISyncDocumentsDialogService SyncDocumentsDialogService { get; set; } = null!;
 
     protected override async Task OnInitializedAsync()
     {
@@ -35,8 +41,10 @@ public partial class Index : IDisposable
         LoadingCount++;
         await base.OnInitializedAsync();
         FeatureState state = await Task.Run(() => FeatureState.LoadAsync());
-        var stateHasChangedCallback = EventCallback.Factory.Create(this, RefreshGrid);
-        ViewModel = new ViewModel(state, DialogService, DictionaryService, HtmlService, ToastService, stateHasChangedCallback);
+        ViewModel = new SyncDocumentsViewModel(
+            state, SyncDocumentsDialogService, DictionaryService, HtmlService,
+            NotificationService, DataPaths,
+            async () => { await Task.Yield(); StateHasChanged(); });
         await ViewModel.LoadRowDataAsync(0);
         LoadingCount--;
         ShowLoadingIndicator = false;
@@ -53,80 +61,6 @@ public partial class Index : IDisposable
         IsSearchingForNextError = false;
     }
 
-    private string GetEditionClass(OcrBookInfo bookInfo)
-    {
-        string result = "";
-        if (ViewModel.LastEditedEdition == bookInfo)
-            result = $"{result} {LastEditedRowClass}";
-        if (SelectedEditions.Contains(bookInfo))
-            result = $"{result} --selected";
-        else
-            result = $"{result} --not-selected";
-
-        return result;
-    }
-
-    private string? GetWordStyle(OcrWord? word) =>
-        (word?.Corrected == true) ? "text-decoration: line-through" : null;
-
-    private string GetZeroPaddedSectionNumber(int sectionNumber)
-    {
-        int length = ViewModel.SectionCount.ToString().Length;
-        return string.Format("{0:D" + length + "}", sectionNumber);
-    }
-
-    private string GetWordClass(WordReference wordReference, string? displayText, int columnIndex)
-    {
-        ColumnData columnData = ViewModel.ColumnData[columnIndex];
-        bool isEmpty = string.IsNullOrEmpty(displayText);
-        string spacer = isEmpty ? "--spacer" : "";
-        string selected = ViewModel.IsWordSelected(wordReference!) ? "--selected" : "";
-        string lastEditedRow = ViewModel.LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
-        string outlier = "";
-        string errorLevel = "";
-        bool isFlagWord = displayText != null && (displayText == "{min}" || displayText == "{amp}" || displayText.ToUpper().Contains("CHAPTER"));
-        string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
-        if (!isEmpty && (isFlagWord || columnData.MostCommonDisplayText != displayText))
-        {
-            outlier = "--outlier";
-            if (isFlagWord || !string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
-                errorLevel = "--error";
-            else
-                errorLevel = "--warning";
-        }
-
-        string lastEditedCell = wordReference.BookInfo == ViewModel.LastEditedEdition && columnIndex == ViewModel.LastEditedColumnIndex ? LastEditedCellClass : "";
-        return $"{selected} {spacer} {lastEditedRow} {lastEditedCell} {errorLevel} {outlier} {firstWordOnPage}";
-    }
-
-    private string GetWordHint(WordReference wordReference)
-    {
-        return $"""
-            Page {wordReference.PageNumber} Word {wordReference.WordIndex}
-            =============
-            Edit word (ALT E)
-            Add word (ALT A)
-            Delete word (ALT D)
-            Reveal column word images (ALT R)
-            Insert blank before word (ALT I)
-            Merge composite word (ALT M)
-            Split words (ALT X)
-            Select column (ALT |)
-            Mark words as editorial formatting change (ALT T)
-            """;
-    }
-
-    private string GetWordIndexClass(int index)
-    {
-        return ViewModel.ColumnData[index].ErrorLevel switch {
-            ColumnDataErrorLevel.Error => "--error",
-            ColumnDataErrorLevel.Warning => "--warning",
-            ColumnDataErrorLevel.WordAddedOrRemoved => "--word-added-or-removed",
-            ColumnDataErrorLevel.None => "",
-            _ => throw new NotImplementedException()
-        };
-    }
-
     private async Task PreloadPageImages()
     {
         IEnumerable<OcrBookInfoAndPageNumber> visiblePages = ViewModel.GetVisiblePages();
@@ -139,7 +73,7 @@ public partial class Index : IDisposable
         await Parallel.ForEachAsync(visiblePages, parallelOptions, (x, _) =>
         {
             string filePath = FilePathHelper.GetScansDeskewedImageFilePath(
-                sourcesDirectoryPath: AppLayer.Constants.Data.SourcesDirectoryPath,
+                sourcesDirectoryPath: DataPaths.SourcesDirectoryPath,
                 bookInfo: x.BookInfo,
                 pageNumber: x.PageNumber);
             MagickImage image = ImageRepository.GetPageImage(filePath);
@@ -157,12 +91,6 @@ public partial class Index : IDisposable
             });
             return default;
         });
-    }
-
-    private async Task RefreshGrid()
-    {
-        await Task.Yield();
-        StateHasChanged();
     }
 
     private async Task SaveChangesAsync()
@@ -216,8 +144,8 @@ public partial class Index : IDisposable
                 {
                     if (IsSearchingForNextError)
                     {
-                        ToastService.ClearAll();
-                        ToastService.ShowWarning("No more warnings or errors.", timeout: 3000);
+                        NotificationService.ClearAll();
+                        NotificationService.ShowWarning("No more warnings or errors.", timeoutMs: 3000);
                         break;
                     }
                 }
@@ -232,37 +160,11 @@ public partial class Index : IDisposable
             LoadingCount--;
             IsSearchingForNextError = false;
         }
-        await Task.Delay(100); // Ignore accidental double-tap
-    }
-
-    private void ToggleEditionSelected(OcrBookInfo edition)
-    {
-        if (SelectedEditions.Contains(edition))
-            SelectedEditions.Remove(edition);
-        else
-            SelectedEditions.Add(edition);
+        await Task.Delay(100);
     }
 
     private void WordClicked(MouseEventArgs e, WordReference wordReference)
     {
-        if (e.ShiftKey && WordPreviouslySelected == null) return;
-        if (e.ShiftKey && WordPreviouslySelected != null)
-        {
-            ViewModel.SelectWordsInRange(WordPreviouslySelected!, wordReference);
-            WordPreviouslySelected = null;
-        }
-        else if (!e.ShiftKey)
-        {
-            bool newlySelected = ViewModel.ToggleWordSelected(wordReference);
-            if (newlySelected)
-                WordPreviouslySelected = wordReference;
-            else
-                WordPreviouslySelected = null;
-            if (e.AltKey && newlySelected && ViewModel.SelectedWords.Count > 1)
-            {
-                ViewModel.DeselectAll();
-                ViewModel.ToggleWordSelected(wordReference);
-            }
-        }
+        ViewModel.HandleWordClicked(e.ShiftKey, e.AltKey, wordReference);
     }
 }

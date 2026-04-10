@@ -14,8 +14,6 @@ namespace WordsAnalysis.Components;
 
 public partial class RescanAreaDialog : IAsyncDisposable
 {
-    public record RescanAreaDialogContent(EditionState Edition, WordReference WordReference);
-    public record EditWordDialogResult(IEnumerable<OcrWord> Words);
 
     [Parameter]
     public RescanAreaDialogContent Content { get; set; } = null!;
@@ -46,13 +44,13 @@ public partial class RescanAreaDialog : IAsyncDisposable
 
     private async Task CancelAsync()
     {
-        var result = new EditWordDialogResult([]);
+        var result = new RescanAreaDialogResult([]);
         await Dialog.CancelAsync(result);
     }
 
     private async Task ConfirmAsync()
     {
-        var result = new EditWordDialogResult(Words);
+        var result = new RescanAreaDialogResult(Words);
         await Dialog.CloseAsync(result);
     }
 

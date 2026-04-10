@@ -1,6 +1,5 @@
 ﻿using DocumentsModel;
 using System.Collections.Immutable;
-using System.Runtime.CompilerServices;
 
 namespace WordsAnalysis.AppLayer.Features.SyncDocuments;
 
@@ -14,6 +13,7 @@ public record FeatureState
     public required int SectionIndex { get; init; }
     public ImmutableHashSet<WordReference> SelectedWords { get; private init; } = [];
     public const int WordsInSection = 100;
+    private const int MaxPageNumber = 2000;
 
     public static FeatureState AddWord(FeatureState originalFeatureState, WordReference existingWordReference, OcrWord? ocrWord, bool after)
     {
@@ -316,7 +316,7 @@ public record FeatureState
             {
                 // Find the next page
                 int pageNumber = currentWordReference.PageNumber + 1;
-                while (pageNumber < 2000 && (!newEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? pageState) || pageState.Page.Words.Count == 0))
+                while (pageNumber < MaxPageNumber && (!newEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? pageState) || pageState.Page.Words.Count == 0))
                     pageNumber++;
 
                 currentWordReference = currentWordReference with {

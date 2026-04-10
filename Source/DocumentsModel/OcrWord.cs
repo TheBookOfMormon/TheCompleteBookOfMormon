@@ -18,7 +18,7 @@ public record OcrWord
     public bool IsComposite() => Elements.Count > 1;
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-    public BenefitOfDoubt BenefitOfDoubt { get; set; }
+    public BenefitOfDoubt BenefitOfDoubt { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public string? BenefitOfDoubtText { get; init; }

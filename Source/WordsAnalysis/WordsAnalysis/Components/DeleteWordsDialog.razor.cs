@@ -10,8 +10,6 @@ namespace WordsAnalysis.Components;
 
 public partial class DeleteWordsDialog
 {
-    public record DeleteWordsDialogContent(EditionState EditionState, KeyValuePair<WordReference, string?>[] Words);
-    public record DeleteWordsDialogResult(WordReference[] DeletedWords);
 
     [Parameter]
     public DeleteWordsDialogContent Content { get; set; } = null!;

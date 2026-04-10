@@ -1,13 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 using WordsAnalysis.AppLayer.Constants;
+using WordsAnalysis.AppLayer.Services;
 
 namespace WordsAnalysis.Services;
-
-public interface IDictionaryService
-{
-    bool WordExists(string word);
-    IEnumerable<string[]> SplitTextIntoWords(string text);
-}
 
 sealed class DictionaryService : IDictionaryService
 {
@@ -187,7 +182,7 @@ sealed class DictionaryService : IDictionaryService
             return false;
 
         string lastThree = word[^3..];
-        return Regex.IsMatch("^[^AEIOU][AEIOU][^AEIOU]$", lastThree);
+        return Regex.IsMatch(lastThree, "^[^AEIOU][AEIOU][^AEIOU]$");
     }
 
 }

@@ -1,8 +1,6 @@
 ﻿@page "/SyncDocuments"
 @using DocumentsModel
 @using WordsAnalysis.AppLayer.Features.SyncDocuments
-@inject IConfirmService ConfirmService
-@inject IDialogService DialogService
 @inject IDictionaryService DictionaryService
 @inject IImageRepository ImageRepository
 
@@ -30,7 +28,7 @@
                 @for (int sectionIndex = 0; sectionIndex < ViewModel.SectionCount; sectionIndex++)
                 {
                     bool selected = (sectionIndex == ViewModel.SectionIndex);
-                    <option value=@sectionIndex selected=@selected>@GetZeroPaddedSectionNumber(sectionIndex + 1)</option>
+                    <option value=@sectionIndex selected=@selected>@ViewModel.GetZeroPaddedSectionNumber(sectionIndex + 1)</option>
                 }
             </select>
             <IconPanelButton Icon=Icons.Filled.Size24.ScanText
@@ -56,7 +54,7 @@
                 <IconPanelButton Icon=Icons.Filled.Size24.AlertUrgent
                                  Tooltip="Next discrepancy (Alt N)"
                                  AccessKey="N"
-                                 Enabled=@(!Loading && SelectedEditions.Count > 0)
+                                 Enabled=@(!Loading && ViewModel.SelectedEditions.Count > 0)
                                  OnClick=@ScrollToNextWarningOrErrorAsync />
             }
             else
@@ -93,7 +91,7 @@
                     var mostWordsInSection = ViewModel.RowData.Max(x => x.Words.Count);
                     for (int index = 0; index < mostWordsInSection; index++)
                     {
-                        <th class="word-table_word-index @GetWordIndexClass(index)">
+                        <th class="word-table_word-index @ViewModel.GetWordIndexClass(index)">
                             <div class="word-table_word-index-number">
                                 @(index + 1)
                             </div>
@@ -110,7 +108,7 @@
                 RowData rowData = ViewModel.RowData[rowIndex];
                 EditionState editionState = ViewModel.Editions[rowData.BookInfo];
                 <tr @key=rowData.BookInfo.Code>
-                    <th class="word-table_edition @GetEditionClass(rowData.BookInfo)" @onclick=@(() => ToggleEditionSelected(rowData.BookInfo))>
+                    <th class="word-table_edition @ViewModel.GetEditionClass(rowData.BookInfo)" @onclick=@(() => ViewModel.ToggleEditionSelected(rowData.BookInfo))>
                         @rowData.BookInfo.Year&nbsp;@rowData.BookInfo.ShortCode
                     </th>
                     @for (int i = 0; i < rowData.Words.Count; i++)
@@ -121,8 +119,8 @@
                         string? displayText = word?.GetDisplayText(ViewModel.ShowBenefitOfDoubt);
                         bool isAlignmentSpacer = displayText == null;
                         <td @key=i id=@wordReference.GetGlobalReference() data-row=@rowIndex data-column=@columnIndex data-text="@displayText">
-                            <div class="word-table_word-container @GetWordClass(wordReference, displayText, columnIndex)">
-                                <div class="word-table_word" title=@GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference)) style="@GetWordStyle(word)">
+                            <div class="word-table_word-container @ViewModel.GetWordClass(wordReference, displayText, columnIndex)">
+                                <div class="word-table_word" title=@ViewModel.GetWordHint(wordReference) @onclick=@(e => WordClicked(e, wordReference)) style="@ViewModel.GetWordStyle(word)">
                                     @{
                                         if (!string.IsNullOrEmpty(displayText))
                                         {

@@ -1,17 +1,17 @@
-﻿using ConvertImagesToText;
+using ConvertImagesToText;
 using DocumentsModel;
-using Microsoft.AspNetCore.Components;
-using Microsoft.FluentUI.AspNetCore.Components;
 using System.Collections.Immutable;
-using WordsAnalysis.AppLayer.Features.SyncDocuments;
-using WordsAnalysis.Services;
+using WordsAnalysis.AppLayer.Services;
 
-namespace WordsAnalysis.Components.Pages.SyncDocuments;
+namespace WordsAnalysis.AppLayer.Features.SyncDocuments;
 
 internal readonly record struct WordReferenceAndColumnIndex(WordReference WordReference, int ColumnIndex);
 
-public class ViewModel
+public class SyncDocumentsViewModel
 {
+    private const string LastEditedCellClass = "--last-edited-cell";
+    private const string LastEditedRowClass = "--last-edited-row";
+
     public bool CanAlignSelectedWords => State.CanAlignSelectedWords();
     public bool CanDeletedWords => State.SelectedWords.Count > 0;
     public bool CanMergeWords => State.CanMergeWords();
@@ -33,31 +33,36 @@ public class ViewModel
     public int SectionIndex => State.SectionIndex;
     public bool ShowBenefitOfDoubt;
     public ImmutableHashSet<WordReference> SelectedWords => State.SelectedWords;
+    public HashSet<OcrBookInfo> SelectedEditions { get; } = [];
     public string? UndoActionDescription => UndoStack.Count == 0 ? null : $"Undo {UndoStack.Peek().Description}";
 
-    private readonly IDialogService DialogService;
+    private readonly ISyncDocumentsDialogService DialogService;
     private readonly Stack<(string Description, FeatureState State)> RedoStack = [];
     private readonly IDictionaryService DictionaryService;
-    private readonly IHtmlService HtmlService;
+    private readonly IWordGridService WordGridService;
+    private readonly IDataPaths DataPaths;
+    private readonly INotificationService NotificationService;
     private readonly Dictionary<OcrBookInfoAndPageNumber, Guid> SavedPageVersions = [];
     private FeatureState State;
-    private readonly EventCallback StateHasChanged;
-    private readonly IToastService ToastService;
+    private readonly Func<Task> StateHasChanged;
     private readonly Stack<(string Description, FeatureState State)> UndoStack = [];
+    private WordReference? WordPreviouslySelected;
 
-    public ViewModel(
+    public SyncDocumentsViewModel(
         FeatureState state,
-        IDialogService dialogService,
+        ISyncDocumentsDialogService dialogService,
         IDictionaryService dictionaryService,
-        IHtmlService htmlService,
-        IToastService toastService,
-        EventCallback stateHasChanged)
+        IWordGridService wordGridService,
+        INotificationService notificationService,
+        IDataPaths dataPaths,
+        Func<Task> stateHasChanged)
     {
         State = state;
         DialogService = dialogService;
         DictionaryService = dictionaryService;
-        HtmlService = htmlService;
-        ToastService = toastService;
+        WordGridService = wordGridService;
+        NotificationService = notificationService;
+        DataPaths = dataPaths;
         StateHasChanged = stateHasChanged;
     }
 
@@ -73,14 +78,13 @@ public class ViewModel
         OcrWord? word = existingWordReference.GetWord(edition);
         if (word == null)
         {
-            ToastService.ShowError("Cannot add a word after a missing word, try going to the next word and adding a word before it.", timeout: 5000);
+            NotificationService.ShowError("Cannot add a word after a missing word, try going to the next word and adding a word before it.", timeoutMs: 5000);
             return;
         }
 
         OcrPage page = edition.LoadedPages[existingWordReference.PageNumber].Page;
-        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
-        var content = new EditWordDialog.EditWordDialogContent(State.Editions[existingWordReference.BookInfo], existingWordReference, page.ImageWidth, page.ImageHeight, true);
-        var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
+        var content = new EditWordDialogContent(State.Editions[existingWordReference.BookInfo], existingWordReference, page.ImageWidth, page.ImageHeight, true);
+        EditWordDialogResult? dialogResult = await DialogService.ShowEditWordDialogAsync(content);
 
         FeatureState newFeatureState = State;
 
@@ -89,13 +93,11 @@ public class ViewModel
             LastEditedEdition = existingWordReference.BookInfo
         };
 
-        DialogResult result = await dialog.Result;
-        if (result.Cancelled) return;
-        var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
+        if (dialogResult == null) return;
         newFeatureState = FeatureState.AddWord(newFeatureState, existingWordReference, dialogResult.Word!, dialogResult.After);
         SetNewStateWithUndo("Add word", newFeatureState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public async Task AlignSelectedWordsAsync()
@@ -104,7 +106,7 @@ public class ViewModel
         newFeatureState = FeatureState.AlignSelectedWords(newFeatureState);
         SetNewStateWithUndo("Align editions", newFeatureState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public async Task DeleteSelectedWordsAsync()
@@ -139,7 +141,7 @@ public class ViewModel
         newState = FeatureState.DeleteSelectedWords(newState);
         SetNewStateWithUndo(description, newState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public void DeselectAll()
@@ -157,23 +159,94 @@ public class ViewModel
         int columnIndex = wordInfo.Value.ColumnIndex;
 
         OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
-        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
-        var content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
-        var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
+        var content = new EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
 
         State = State with {
             LastEditedColumnIndex = columnIndex,
             LastEditedEdition = wordReference.BookInfo
         };
 
-        DialogResult result = await dialog.Result;
-        if (result.Cancelled) return;
-        var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
+        EditWordDialogResult? dialogResult = await DialogService.ShowEditWordDialogAsync(content);
+        if (dialogResult == null) return;
         FeatureState newFeatureState = State;
         newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, [dialogResult.Word!]);
         SetNewStateWithUndo("Edit word", newFeatureState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
+    }
+
+    public string GetEditionClass(OcrBookInfo bookInfo)
+    {
+        string result = "";
+        if (LastEditedEdition == bookInfo)
+            result = $"{result} {LastEditedRowClass}";
+        if (SelectedEditions.Contains(bookInfo))
+            result = $"{result} --selected";
+        else
+            result = $"{result} --not-selected";
+
+        return result;
+    }
+
+    public string? GetWordStyle(OcrWord? word) =>
+        (word?.Corrected == true) ? "text-decoration: line-through" : null;
+
+    public string GetWordHint(WordReference wordReference)
+    {
+        return $"""
+            Page {wordReference.PageNumber} Word {wordReference.WordIndex}
+            =============
+            Edit word (ALT E)
+            Add word (ALT A)
+            Delete word (ALT D)
+            Reveal column word images (ALT R)
+            Insert blank before word (ALT I)
+            Merge composite word (ALT M)
+            Split words (ALT X)
+            Select column (ALT |)
+            Mark words as editorial formatting change (ALT T)
+            """;
+    }
+
+    public string GetWordClass(WordReference wordReference, string? displayText, int columnIndex)
+    {
+        ColumnData columnData = ColumnData[columnIndex];
+        bool isEmpty = string.IsNullOrEmpty(displayText);
+        string spacer = isEmpty ? "--spacer" : "";
+        string selected = IsWordSelected(wordReference!) ? "--selected" : "";
+        string lastEditedRow = LastEditedEdition == wordReference.BookInfo ? LastEditedRowClass : "";
+        string outlier = "";
+        string errorLevel = "";
+        bool isFlagWord = displayText != null && (displayText == "{min}" || displayText == "{amp}" || displayText.ToUpper().Contains("CHAPTER"));
+        string firstWordOnPage = wordReference.WordIndex == 0 ? "first-word-on-page" : "";
+        if (!isEmpty && (isFlagWord || columnData.MostCommonDisplayText != displayText))
+        {
+            outlier = "--outlier";
+            if (isFlagWord || !string.Equals(columnData.MostCommonDisplayText, displayText, StringComparison.OrdinalIgnoreCase))
+                errorLevel = "--error";
+            else
+                errorLevel = "--warning";
+        }
+
+        string lastEditedCell = wordReference.BookInfo == LastEditedEdition && columnIndex == LastEditedColumnIndex ? LastEditedCellClass : "";
+        return $"{selected} {spacer} {lastEditedRow} {lastEditedCell} {errorLevel} {outlier} {firstWordOnPage}";
+    }
+
+    public string GetWordIndexClass(int index)
+    {
+        return ColumnData[index].ErrorLevel switch {
+            ColumnDataErrorLevel.Error => "--error",
+            ColumnDataErrorLevel.Warning => "--warning",
+            ColumnDataErrorLevel.WordAddedOrRemoved => "--word-added-or-removed",
+            ColumnDataErrorLevel.None => "",
+            _ => throw new NotImplementedException()
+        };
+    }
+
+    public string GetZeroPaddedSectionNumber(int sectionNumber)
+    {
+        int length = SectionCount.ToString().Length;
+        return string.Format("{0:D" + length + "}", sectionNumber);
     }
 
     public IEnumerable<OcrBookInfoAndPageNumber> GetDirtyPages()
@@ -200,16 +273,30 @@ public class ViewModel
 
     public ImmutableArray<WordReference?> GetWordsInColumn(int columnIndex)
     {
-        return WordsAnalysis.AppLayer.Features.SyncDocuments.ColumnData.GetColumnWords(State.Editions, RowData, columnIndex);
+        return SyncDocuments.ColumnData.GetColumnWords(State.Editions, RowData, columnIndex);
     }
 
-    private async Task<WordReferenceAndColumnIndex?> GetWordReferenceUnderMouseAsync()
+    public void HandleWordClicked(bool shiftKey, bool altKey, WordReference wordReference)
     {
-        WordGridLocation location = await HtmlService.GetWordGridLocationAsync();
-        if (location == WordGridLocation.None) return null;
-        WordReference wordReference = RowData[location.RowIndex].Words[location.ColumnIndex];
-        int columnIndex = location.ColumnIndex;
-        return new WordReferenceAndColumnIndex(wordReference, columnIndex);
+        if (shiftKey && WordPreviouslySelected == null) return;
+        if (shiftKey && WordPreviouslySelected != null)
+        {
+            SelectWordsInRange(WordPreviouslySelected!, wordReference);
+            WordPreviouslySelected = null;
+        }
+        else if (!shiftKey)
+        {
+            bool newlySelected = ToggleWordSelected(wordReference);
+            if (newlySelected)
+                WordPreviouslySelected = wordReference;
+            else
+                WordPreviouslySelected = null;
+            if (altKey && newlySelected && SelectedWords.Count > 1)
+            {
+                DeselectAll();
+                ToggleWordSelected(wordReference);
+            }
+        }
     }
 
     public async Task InsertNullWordAsync()
@@ -218,14 +305,13 @@ public class ViewModel
         if (wordInfo == null) return;
 
         WordReference wordReference = wordInfo.Value.WordReference;
-        int columnIndex = wordInfo.Value.ColumnIndex;
 
         FeatureState newFeatureState = State;
 
         newFeatureState = FeatureState.AddWord(newFeatureState, wordReference, ocrWord: null, after: false);
         SetNewStateWithUndo("Add word", newFeatureState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public bool IsWordSelected(WordReference wordReference)
@@ -252,7 +338,7 @@ public class ViewModel
         newState = FeatureState.MarkSelectedWordsAsEditorialFormattingChanges(newState);
         SetNewStateWithUndo("Mark words as editorial formatting changes", newState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public async Task MergeSelectedWordsAsync()
@@ -266,7 +352,7 @@ public class ViewModel
         newState = FeatureState.MergeWords(newState);
         SetNewStateWithUndo("Composite words", newState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public async Task KillTheRestOfThePageAsync()
@@ -276,19 +362,15 @@ public class ViewModel
         KeyValuePair<WordReference, string?>[] remainingText = featureState.GetFollowingTextOnPage();
         if (remainingText == null) return;
 
-        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         EditionState editionState = featureState.Editions[remainingText[0].Key.BookInfo];
-        var content = new DeleteWordsDialog.DeleteWordsDialogContent(editionState, remainingText);
-        var dialog = await DialogService.ShowDialogAsync<DeleteWordsDialog, DeleteWordsDialog.DeleteWordsDialogContent>(content, dialogParameters);
-
-        DialogResult result = await dialog.Result;
-        if (result.Cancelled) return;
-        var dialogResult = (DeleteWordsDialog.DeleteWordsDialogResult)result.Data!;
+        var content = new DeleteWordsDialogContent(editionState, remainingText);
+        DeleteWordsDialogResult? dialogResult = await DialogService.ShowDeleteWordsDialogAsync(content);
+        if (dialogResult == null) return;
 
         featureState = FeatureState.DeleteWords(featureState, dialogResult.DeletedWords);
         SetNewStateWithUndo("Nuke rest of page", featureState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public async Task RedoAsync()
@@ -297,7 +379,7 @@ public class ViewModel
         {
             UndoStack.Push((action.Description, State));
             State = action.State;
-            await StateHasChanged.InvokeAsync();
+            await StateHasChanged();
         }
     }
 
@@ -306,12 +388,9 @@ public class ViewModel
     public async Task RescanAreaAsync()
     {
         WordReference selectedWordReference = SelectedWords.Single();
-        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
-        var content = new RescanAreaDialog.RescanAreaDialogContent(State.Editions[selectedWordReference.BookInfo], selectedWordReference);
-        var dialog = await DialogService.ShowDialogAsync<RescanAreaDialog, RescanAreaDialog.RescanAreaDialogContent>(content, dialogParameters);
-        DialogResult result = await dialog.Result;
-        if (result.Cancelled) return;
-        var dialogResult = (RescanAreaDialog.EditWordDialogResult)result.Data!;
+        var content = new RescanAreaDialogContent(State.Editions[selectedWordReference.BookInfo], selectedWordReference);
+        RescanAreaDialogResult? dialogResult = await DialogService.ShowRescanAreaDialogAsync(content);
+        if (dialogResult == null) return;
 
         IEnumerable<OcrWord> words = dialogResult.Words;
 
@@ -324,7 +403,7 @@ public class ViewModel
         state = FeatureState.DeselectAll(state);
         SetNewStateWithUndo("Rescan area of page", state);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
     }
 
     public async Task SaveChangesAsync()
@@ -338,7 +417,7 @@ public class ViewModel
             PageState pageState = edition.LoadedPages[x.PageNumber];
             OcrPage page = pageState.Page;
 
-            await page.SaveAsync(AppLayer.Constants.Data.SourcesDirectoryPath, x.BookInfo);
+            await page.SaveAsync(DataPaths.SourcesDirectoryPath, x.BookInfo);
             return (x, pageState);
         });
         await foreach (var task in Task.WhenEach(tasks))
@@ -346,7 +425,6 @@ public class ViewModel
             (OcrBookInfoAndPageNumber key, PageState pageState) = task.Result;
             updatedPageVersions.Add(key, pageState.ContentsVersion);
         }
-        // Replace all page versions
         foreach (var entry in updatedPageVersions)
             SavedPageVersions[entry.Key] = entry.Value;
     }
@@ -400,9 +478,8 @@ public class ViewModel
         int columnIndex = wordInfo.Value.ColumnIndex;
 
         ImmutableArray<WordReference?> wordReferences = GetWordsInColumn(columnIndex);
-        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
-        var content = new ViewColumnImagesDialog.ViewColumnImagesDialogContent(Editions, wordReferences);
-        await DialogService.ShowDialogAsync<ViewColumnImagesDialog, ViewColumnImagesDialog.ViewColumnImagesDialogContent>(content, dialogParameters);
+        var content = new ViewColumnImagesDialogContent(Editions, wordReferences);
+        await DialogService.ShowViewColumnImagesDialogAsync(content);
     }
 
     public async Task SuggestSplitWordsAsync()
@@ -411,7 +488,6 @@ public class ViewModel
         if (wordInfo == null) return;
 
         WordReference wordReference = wordInfo.Value.WordReference;
-        int columnIndex = wordInfo.Value.ColumnIndex;
 
         EditionState edition = State.Editions[wordReference.BookInfo];
         OcrWord ocrWord = wordReference.GetWord(edition)!;
@@ -426,40 +502,36 @@ public class ViewModel
         OcrRect actualBounds = ocrWord.Elements[0].Bounds;
 
         OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
-        var splitWordSuggestions = new List<SplitWordsDialog.SplitWordSuggestion>();
+        var splitWordSuggestions = new List<SplitWordSuggestion>();
         foreach (string[] words in suggestions)
         {
             int[] estimatedWordWidths = words.Select(x => OcrProcessor.EstimateWordSize(actualBounds.Height, x)).Select(x => x.Width).ToArray();
             int totalEstimatedCombinedTextWidth = estimatedWordWidths.Sum();
             double widthFactor = actualBounds.Width / (double)totalEstimatedCombinedTextWidth;
             int x = actualBounds.X;
-            var splitWords = new List<SplitWordsDialog.SplitWord>(words.Length);
+            var splitWords = new List<SplitWord>(words.Length);
             for (int i = 0; i < words.Length; i++)
             {
                 int adjustedWidth = (int)Math.Ceiling(estimatedWordWidths[i] * widthFactor);
                 string text = words[i];
                 var bounds = new OcrRect { X = x, Y = actualBounds.Y, Width = adjustedWidth, Height = actualBounds.Height };
                 x += adjustedWidth;
-                var splitWord = new SplitWordsDialog.SplitWord(text, bounds);
+                var splitWord = new SplitWord(text, bounds);
                 splitWords.Add(splitWord);
             }
-            splitWordSuggestions.Add(new SplitWordsDialog.SplitWordSuggestion(splitWords.ToArray()));
+            splitWordSuggestions.Add(new SplitWordSuggestion(splitWords.ToArray()));
         }
-        var content = new SplitWordsDialog.SplitWordsDialogContent(State.Editions[wordReference.BookInfo], wordReference, splitWordSuggestions.ToArray(), page.ImageWidth, page.ImageHeight);
-        SplitWordsDialog.SplitWordSuggestion chosenSuggestion;
+        var content = new SplitWordsDialogContent(State.Editions[wordReference.BookInfo], wordReference, splitWordSuggestions.ToArray(), page.ImageWidth, page.ImageHeight);
+        SplitWordSuggestion chosenSuggestion;
         if (splitWordSuggestions.Count == 1)
         {
             chosenSuggestion = splitWordSuggestions[0];
         }
         else
         {
-            var dialogParameters = new DialogParameters();
-            var dialog = await DialogService.ShowDialogAsync<SplitWordsDialog, SplitWordsDialog.SplitWordsDialogContent>(content, dialogParameters);
-
-            DialogResult result = await dialog.Result;
-            if (result.Cancelled) return;
-            var dialogResult = (SplitWordsDialog.SplitWordsDialogResult)result.Data!;
-            chosenSuggestion = dialogResult.Suggestion!;
+            SplitWordsDialogResult? splitResult = await DialogService.ShowSplitWordsDialogAsync(content);
+            if (splitResult == null) return;
+            chosenSuggestion = splitResult.Suggestion!;
         }
 
         var newOcrWords = chosenSuggestion.Words.Select(x => new OcrWord {
@@ -474,7 +546,15 @@ public class ViewModel
         string description = "Split text into: " + string.Join(' ', chosenSuggestion.Words.Select(x => x.Text));
         SetNewStateWithUndo(description, newState);
         await LoadRowDataAsync(SectionIndex);
-        await StateHasChanged.InvokeAsync();
+        await StateHasChanged();
+    }
+
+    public void ToggleEditionSelected(OcrBookInfo edition)
+    {
+        if (SelectedEditions.Contains(edition))
+            SelectedEditions.Remove(edition);
+        else
+            SelectedEditions.Add(edition);
     }
 
     public bool ToggleWordSelected(WordReference wordReference)
@@ -491,8 +571,17 @@ public class ViewModel
         {
             RedoStack.Push((action.Description, State));
             State = action.State;
-            await StateHasChanged.InvokeAsync();
+            await StateHasChanged();
         }
+    }
+
+    private async Task<WordReferenceAndColumnIndex?> GetWordReferenceUnderMouseAsync()
+    {
+        WordGridLocation location = await WordGridService.GetWordGridLocationAsync();
+        if (location == WordGridLocation.None) return null;
+        WordReference wordReference = RowData[location.RowIndex].Words[location.ColumnIndex];
+        int columnIndex = location.ColumnIndex;
+        return new WordReferenceAndColumnIndex(wordReference, columnIndex);
     }
 
     private void SetNewStateWithUndo(string description, FeatureState newState)
@@ -513,11 +602,8 @@ public class ViewModel
             {
                 PageState pageState = edition.LoadedPages[pageNumber];
                 var key = new OcrBookInfoAndPageNumber(bookInfo, pageNumber);
-                // Only add to saved page hashes if we don't already have it
                 SavedPageVersions.TryAdd(key, pageState.ContentsVersion);
             }
         }
     }
-
 }
-
