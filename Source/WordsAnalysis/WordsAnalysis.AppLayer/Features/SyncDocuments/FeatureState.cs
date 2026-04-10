@@ -316,14 +316,17 @@ public record FeatureState
             {
                 // Find the next page
                 int pageNumber = currentWordReference.PageNumber + 1;
-                while (pageNumber < 2000 && (!newEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? pageState) || pageState.Page.Words.Count == 0))
+                while (pageNumber < 2000 && (!newEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? nextPageState) || nextPageState.Page.Words.Count == 0))
                     pageNumber++;
+
+                if (!newEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? foundPageState) || foundPageState.Page.Words.Count == 0)
+                    break;
 
                 currentWordReference = currentWordReference with {
                     PageNumber = pageNumber,
                     WordIndex = 0
                 };
-                numberOfWordsOnCurrentPage = newEditionState.LoadedPages[currentWordReference.PageNumber].Page.Words.Count;
+                numberOfWordsOnCurrentPage = foundPageState.Page.Words.Count;
             }
         }
         return newFeatureState;
