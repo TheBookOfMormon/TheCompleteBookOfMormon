@@ -251,7 +251,7 @@ public class SyncDocumentsViewModel
 
     public IEnumerable<OcrBookInfoAndPageNumber> GetDirtyPages()
     {
-        foreach (var edition in State.Editions.Values)
+        foreach (EditionState edition in State.Editions.Values)
         {
             OcrBookInfo bookInfo = edition.BookInfo;
             foreach (PageState pageState in edition.LoadedPages.Values)
@@ -375,7 +375,7 @@ public class SyncDocumentsViewModel
 
     public async Task RedoAsync()
     {
-        if (RedoStack.TryPop(out var action))
+        if (RedoStack.TryPop(out (string Description, FeatureState State) action))
         {
             UndoStack.Push((action.Description, State));
             State = action.State;
@@ -410,22 +410,22 @@ public class SyncDocumentsViewModel
     {
         var updatedPageVersions = new Dictionary<OcrBookInfoAndPageNumber, Guid>();
 
-        var state = State;
-        var tasks = GetDirtyPages().Select(async x =>
+        FeatureState state = State;
+        IEnumerable<Task<(OcrBookInfoAndPageNumber, PageState)>> tasks = GetDirtyPages().Select(async x =>
         {
-            var edition = state.Editions[x.BookInfo];
+            EditionState edition = state.Editions[x.BookInfo];
             PageState pageState = edition.LoadedPages[x.PageNumber];
             OcrPage page = pageState.Page;
 
             await page.SaveAsync(DataPaths.SourcesDirectoryPath, x.BookInfo);
             return (x, pageState);
         });
-        await foreach (var task in Task.WhenEach(tasks))
+        await foreach (Task<(OcrBookInfoAndPageNumber, PageState)> task in Task.WhenEach(tasks))
         {
             (OcrBookInfoAndPageNumber key, PageState pageState) = task.Result;
             updatedPageVersions.Add(key, pageState.ContentsVersion);
         }
-        foreach (var entry in updatedPageVersions)
+        foreach (KeyValuePair<OcrBookInfoAndPageNumber, Guid> entry in updatedPageVersions)
             SavedPageVersions[entry.Key] = entry.Value;
     }
 
@@ -534,7 +534,7 @@ public class SyncDocumentsViewModel
             chosenSuggestion = splitResult.Suggestion!;
         }
 
-        var newOcrWords = chosenSuggestion.Words.Select(x => new OcrWord {
+        OcrWord[] newOcrWords = chosenSuggestion.Words.Select(x => new OcrWord {
             Elements = [
                 new OcrElement { Bounds = x.Bounds, Text = x.Text }
             ]
@@ -567,7 +567,7 @@ public class SyncDocumentsViewModel
 
     public async Task UndoAsync()
     {
-        if (UndoStack.TryPop(out var action))
+        if (UndoStack.TryPop(out (string Description, FeatureState State) action))
         {
             RedoStack.Push((action.Description, State));
             State = action.State;

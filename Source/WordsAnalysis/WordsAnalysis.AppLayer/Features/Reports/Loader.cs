@@ -20,7 +20,7 @@ public class Loader : EditionsProcessorBase
     protected override void ProcessFile(OcrBookInfo bookInfo, string scansDirectoryPath, string scansDeskewedDirectoryPath, string ocrDirectoryPath, string imageFileName, bool multiColumn)
     {
         int pageNumber = int.Parse(Path.GetFileNameWithoutExtension(imageFileName));
-        var ocrPage = OcrPage.LoadAsync(this.SourcesDirectoryPath, bookInfo, pageNumber).Result;
+        OcrPage ocrPage = OcrPage.LoadAsync(this.SourcesDirectoryPath, bookInfo, pageNumber).Result;
         ConcurrentDictionary<int, OcrPage> editionPages = EditionPages.GetOrAdd(bookInfo, x => new ConcurrentDictionary<int, OcrPage>());
         editionPages.TryAdd(pageNumber, ocrPage);
     }

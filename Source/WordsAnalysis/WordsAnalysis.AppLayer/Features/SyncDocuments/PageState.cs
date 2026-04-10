@@ -16,7 +16,8 @@ public record PageState
     public PageState(OcrPage page)
     {
         Page = page;
-        AverageLineHeight = !page.Words.Any() ? 0 : (int)page.Words.Where(x => x != null).SelectMany(x => x!.Elements).Average(x => x.Bounds.Height);
+        var nonNullElements = page.Words.Where(x => x != null).SelectMany(x => x!.Elements);
+        AverageLineHeight = !nonNullElements.Any() ? 0 : (int)nonNullElements.Average(x => x.Bounds.Height);
     }
 
     public OcrRect GetLineBounds(OcrWord word)

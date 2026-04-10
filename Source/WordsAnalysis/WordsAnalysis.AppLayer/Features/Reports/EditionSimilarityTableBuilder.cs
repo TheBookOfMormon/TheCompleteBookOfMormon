@@ -20,9 +20,9 @@ internal static class EditionSimilarityTableBuilder
 
         int mostWords = editionsWords.Max(x => x.Value.Length);
 
-        foreach(var outer in similarityTable)
+        foreach(KeyValuePair<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> outer in similarityTable)
         {
-            foreach(var inner in outer.Value)
+            foreach(KeyValuePair<OcrBookInfo, decimal> inner in outer.Value)
             {
                 outer.Value[inner.Key] = GetSimilarityScore(editionsWords[outer.Key], editionsWords[inner.Key], mostWords);
             }

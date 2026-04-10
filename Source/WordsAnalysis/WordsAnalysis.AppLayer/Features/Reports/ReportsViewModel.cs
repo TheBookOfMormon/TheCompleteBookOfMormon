@@ -87,13 +87,13 @@ public class ReportsViewModel
     public static Dictionary<OcrBookInfo, WordEntryData[]>? ConvertEditionsData(Dictionary<OcrBookInfo, Dictionary<int, OcrPage>> editions)
     {
         var result = new Dictionary<OcrBookInfo, WordEntryData[]>();
-        foreach (var editionKvp in editions)
+        foreach (KeyValuePair<OcrBookInfo, Dictionary<int, OcrPage>> editionKvp in editions)
         {
             var words = new List<WordEntryData>(300000);
-            foreach (var pageKvp in editionKvp.Value.OrderBy(x => x.Key))
+            foreach (KeyValuePair<int, OcrPage> pageKvp in editionKvp.Value.OrderBy(x => x.Key))
             {
                 int wordIndex = -1;
-                foreach (var word in pageKvp.Value.Words)
+                foreach (OcrWord? word in pageKvp.Value.Words)
                 {
                     wordIndex++;
                     var entry = new WordEntryData {

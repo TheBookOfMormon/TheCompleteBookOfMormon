@@ -10,7 +10,7 @@ internal static class EditionHierarchyDataBuilder
                 x => x.Key,
                 x => new EditionHierarchyData { BookInfo = x.Key });
 
-        foreach (var edition in data.OrderBy(x => x.Key))
+        foreach (KeyValuePair<OcrBookInfo, Dictionary<OcrBookInfo, decimal>> edition in data.OrderBy(x => x.Key))
         {
             OcrBookInfo? baseEdition = edition.Value
                 .Where(x => x.Key.Year < edition.Key.Year)
@@ -21,7 +21,7 @@ internal static class EditionHierarchyDataBuilder
             if (baseEdition != null)
             {
                 EditionHierarchyData currentEditionData = items[edition.Key];
-                var baseEditionData = items[baseEdition];
+                EditionHierarchyData baseEditionData = items[baseEdition];
                 baseEditionData.Children.Add(currentEditionData);
             }
         }

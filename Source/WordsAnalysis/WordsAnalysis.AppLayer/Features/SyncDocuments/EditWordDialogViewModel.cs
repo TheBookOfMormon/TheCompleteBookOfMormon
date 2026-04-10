@@ -162,8 +162,8 @@ public class EditWordDialogViewModel
         {
             if (xAdjustment < 0)
             {
-                var wordsBefore = page.Words.Where((x, index) => x != null && index < wordIndex);
-                var leftPositions = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X);
+                IEnumerable<OcrWord?> wordsBefore = page.Words.Where((x, index) => x != null && index < wordIndex);
+                IEnumerable<int> leftPositions = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X);
                 int leftMost = Math.Max(0, leftPositions.Any() ? leftPositions.Min() : 0);
                 Texts[elementIndex].Bounds = bounds.Offset(0, bounds.Height) with { X = leftMost };
                 shouldCenter = true;

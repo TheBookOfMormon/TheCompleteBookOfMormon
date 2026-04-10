@@ -8,10 +8,10 @@ namespace WordsAnalysis.AppLayer.Features.SyncDocuments;
 [DebuggerDisplay("{BookInfo.Code}")]
 public record EditionState
 {
-    public OcrBookInfo BookInfo { get; private init; }
-    public ImmutableDictionary<int, PageState> LoadedPages { get; private init; }
-    public ImmutableDictionary<int, int> PageNumberToWordIndex { get; private init; }
-    public ImmutableList<int> WordIndexToPageNumber { get; private init; }
+    public OcrBookInfo BookInfo { get; internal init; }
+    public ImmutableDictionary<int, PageState> LoadedPages { get; internal init; }
+    public ImmutableDictionary<int, int> PageNumberToWordIndex { get; internal init; }
+    public ImmutableList<int> WordIndexToPageNumber { get; internal init; }
 
     public EditionState(OcrBookInfo bookInfo, IEnumerable<OcrPageMeta> pageMetas)
     {
