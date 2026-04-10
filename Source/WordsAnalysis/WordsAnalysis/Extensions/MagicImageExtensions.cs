@@ -6,7 +6,7 @@ namespace WordsAnalysis.Extensions;
 static class MagicImageExtensions
 {
     public static MagickImage CloneArea(this MagickImage image, OcrRect rect) =>
-        new MagickImage(image.CloneArea(rect.X, rect.Y, (uint)rect.Width, (uint)rect.Height));
+        new MagickImage(image.CloneArea(rect.X, rect.Y, (uint)Math.Max(1, rect.Width), (uint)Math.Max(1, rect.Height)));
 
     public static OcrRect ShrinkOcrRectToContents(this MagickImage image, OcrRect bounds, byte threshold)
     {
