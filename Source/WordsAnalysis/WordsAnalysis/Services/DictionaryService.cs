@@ -174,9 +174,9 @@ sealed class DictionaryService : IDictionaryService
                 dictionary.Add(entry.Replace("our", "or"));
             }
 
-            if (upper.Contains("ise"))
+            if (upper.EndsWith("ise"))
             {
-                dictionary.Add(entry.Replace("ise", "ize"));
+                dictionary.Add(entry.Remove(entry.Length - 3) + "ize");
             }
         }
     }
