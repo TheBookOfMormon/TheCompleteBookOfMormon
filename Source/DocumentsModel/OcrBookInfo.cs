@@ -8,18 +8,18 @@ namespace DocumentsModel;
 [DebuggerDisplay("{Year} {ShortCode}")]
 public record OcrBookInfo : IComparable<OcrBookInfo>
 {
-    public required int Year { get; set; }
-    public required string Code { get; set; }
-    public required string Name { get; set; }
-    public required string ShortCode { get; set; }
+    public required int Year { get; init; }
+    public required string Code { get; init; }
+    public required string Name { get; init; }
+    public required string ShortCode { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-    public bool HasSuperscripts { get; set; }
+    public bool HasSuperscripts { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-    public bool MultiColumn { get; set; }
+    public bool MultiColumn { get; init; }
 
-    public PageRange[] ExcludedPages { get; set; } = [];
+    public PageRange[] ExcludedPages { get; init; } = [];
 
     public static async Task<OcrBookInfo> LoadAsync(string sourcesDirectoryPath, string editionCode)
     {
