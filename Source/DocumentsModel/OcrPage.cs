@@ -21,6 +21,7 @@ public record OcrPage
     {
         OcrPage newOcrPage = originalOcrPage;
         newOcrPage = newOcrPage with {
+            ManuallyEdited = true,
             Words = newOcrPage.Words.Insert(wordIndex, word)
         };
         Debug.Assert(newOcrPage.Words.Count == originalOcrPage.Words.Count + 1);
