@@ -69,6 +69,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -1102,16 +1103,16 @@
           "Bounds": {
             "X": 1878,
             "Y": 813,
-            "Width": 57,
+            "Width": 65,
             "Height": 47
           },
           "Text": "La"
         },
         {
           "Bounds": {
-            "X": 1919,
-            "Y": 828,
-            "Width": 48,
+            "X": 1949,
+            "Y": 818,
+            "Width": 20,
             "Height": 32
           },
           "Text": "-"
@@ -1119,13 +1120,15 @@
         {
           "Bounds": {
             "X": 283,
-            "Y": 870,
-            "Width": 224,
-            "Height": 116
+            "Y": 863,
+            "Width": 232,
+            "Height": 67
           },
           "Text": "manities"
         }
-      ]
+      ],
+      "BenefitOfDoubt": 3,
+      "BenefitOfDoubtText": "Lamanites"
     },
     {
       "Elements": [
@@ -1478,6 +1481,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
