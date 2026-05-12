@@ -2177,6 +2177,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -2962,39 +2963,15 @@
         {
           "Bounds": {
             "X": 182,
-            "Y": 905,
-            "Width": 72,
-            "Height": 25
+            "Y": 903,
+            "Width": 166,
+            "Height": 29
           },
-          "Text": "with"
+          "Text": "with-tand"
         }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 257,
-            "Y": 918,
-            "Width": 3,
-            "Height": 7
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
-            "X": 270,
-            "Y": 905,
-            "Width": 48,
-            "Height": 25
-          },
-          "Text": "tand"
-        }
-      ]
+      ],
+      "BenefitOfDoubt": 2,
+      "BenefitOfDoubtText": "withstand"
     },
     {
       "Elements": [
@@ -3282,6 +3259,7 @@
         }
       ]
     },
+    null,
     {
       "Elements": [
         {
@@ -3442,19 +3420,6 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 1133,
-            "Y": 1005,
-            "Width": 1,
-            "Height": 3
-          },
-          "Text": "-"
-        }
-      ]
-    },
-    {
-      "Elements": [
-        {
-          "Bounds": {
             "X": 181,
             "Y": 1023,
             "Width": 68,
@@ -3559,12 +3524,12 @@
       "Elements": [
         {
           "Bounds": {
-            "X": 457,
-            "Y": 1052,
-            "Width": 88,
-            "Height": 23
+            "X": 397,
+            "Y": 1049,
+            "Width": 153,
+            "Height": 29
           },
-          "Text": "utiful"
+          "Text": "beautiful"
         }
       ]
     },
@@ -3832,6 +3797,19 @@
       "Elements": [
         {
           "Bounds": {
+            "X": 654,
+            "Y": 1106,
+            "Width": 81,
+            "Height": 39
+          },
+          "Text": "good"
+        }
+      ]
+    },
+    {
+      "Elements": [
+        {
+          "Bounds": {
             "X": 761,
             "Y": 1110,
             "Width": 59,
@@ -3994,9 +3972,9 @@
         {
           "Bounds": {
             "X": 364,
-            "Y": 1169,
-            "Width": 133,
-            "Height": 24
+            "Y": 1162,
+            "Width": 170,
+            "Height": 34
           },
           "Text": "watchman"
         }
@@ -4423,11 +4401,11 @@
         {
           "Bounds": {
             "X": 837,
-            "Y": 1264,
-            "Width": 28,
-            "Height": 21
+            "Y": 1260,
+            "Width": 38,
+            "Height": 34
           },
-          "Text": "ve"
+          "Text": "ye"
         }
       ]
     },
@@ -4635,7 +4613,7 @@
             "Width": 52,
             "Height": 24
           },
-          "Text": "Tne"
+          "Text": "The"
         }
       ]
     },
