@@ -17,8 +17,6 @@ public partial class OcrProcessor : EditionsProcessorBase
 {
     private const string AllowedScanChars = "1234567890 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"-–—.,;:'()*&?!/";
     private const string AllowedChars = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-'&";
-    private const string Descenders = "gjfpqy";
-    private const string Ascenders = "bdfhklt";
     private const int DefaultUpscaleFactor = 3;
 
     private static readonly Dictionary<char, double> LetterHeightToWidthFactors = new Dictionary<char, double>
@@ -201,8 +199,12 @@ public partial class OcrProcessor : EditionsProcessorBase
         return engine;
     }
 
-    public static EstimatedWordSize EstimateWordSize(int lineHeight, string text, OcrRect? existingBounds = null, bool hasLargeAscendersAndDescenders = false)
+    public static EstimatedWordSize EstimateWordSize(int lineHeight, string text, OcrRect? existingBounds = null, OcrBookInfo? bookInfo = null)
     {
+        const string defaultAscenders = "bdfhklt";
+        const string defaultDescenders = "gjfpqy";
+        const double defaultFactor = 1.25d;
+
         OcrRect bounds = existingBounds ?? OcrRect.Empty;
         double width = 0;
         double mFactor = LetterHeightToWidthFactors['m'];
@@ -220,12 +222,14 @@ public partial class OcrProcessor : EditionsProcessorBase
             Width = baseWidth,
             Height = lineHeight
         };
-        double factor = hasLargeAscendersAndDescenders ? 0.5d : 0.2d;
-        int adjustmentSize = (int)(lineHeight * factor);
-        bool hasAscenderChar = text.Any(c => Ascenders.Contains(c) || char.IsUpper(c));
-        bool hasDescenderChar = text.Any(c => Descenders.Contains(c));
-        int topExtra = hasAscenderChar ? adjustmentSize : 0;
-        int bottomExtra = hasDescenderChar ? adjustmentSize : 0;
+        string ascenders = string.IsNullOrWhiteSpace(bookInfo?.AscenderLetters) ? defaultAscenders : bookInfo.AscenderLetters;
+        string descenders = string.IsNullOrWhiteSpace(bookInfo?.DescenderLetters) ? defaultDescenders : bookInfo.DescenderLetters;
+        double topFactor = bookInfo?.AscenderHeightFactor ?? defaultFactor;
+        double bottomFactor = bookInfo?.DescenderHeightFactor ?? defaultFactor;
+        bool hasDescenderChar = text.Any(c => descenders.Contains(c));
+        bool hasAscenderChar = text.Any(c => ascenders.Contains(c) || (char.IsUpper(c) && !descenders.Contains(c)));
+        int topExtra = hasAscenderChar ? (int)(lineHeight * (topFactor - 1d)) : 0;
+        int bottomExtra = hasDescenderChar ? (int)(lineHeight * (bottomFactor - 1d)) : 0;
         OcrRect expandedRect = baseRect with {
             Y = baseRect.Y - topExtra,
             Height = baseRect.Height + topExtra + bottomExtra
