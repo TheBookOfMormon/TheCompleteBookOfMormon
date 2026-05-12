@@ -7,10 +7,18 @@ using Tesseract;
 
 namespace ConvertImagesToText;
 
+public readonly record struct EstimatedWordSize(OcrRect BaseRect, OcrRect ExpandedRect)
+{
+    public int Width => BaseRect.Width;
+    public int Height => BaseRect.Height;
+}
+
 public partial class OcrProcessor : EditionsProcessorBase
 {
     private const string AllowedScanChars = "1234567890 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"-–—.,;:'()*&?!/";
     private const string AllowedChars = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-'&";
+    private const string Descenders = "gjfpqy";
+    private const string Ascenders = "bdfhklt";
     private const int DefaultUpscaleFactor = 3;
 
     private static readonly Dictionary<char, double> LetterHeightToWidthFactors = new Dictionary<char, double>
@@ -193,8 +201,9 @@ public partial class OcrProcessor : EditionsProcessorBase
         return engine;
     }
 
-    public static Size EstimateWordSize(int lineHeight, string text)
+    public static EstimatedWordSize EstimateWordSize(int lineHeight, string text, OcrRect? existingBounds = null, bool hasLargeAscendersAndDescenders = false)
     {
+        OcrRect bounds = existingBounds ?? OcrRect.Empty;
         double width = 0;
         double mFactor = LetterHeightToWidthFactors['m'];
         foreach (char c in text)
@@ -203,7 +212,25 @@ public partial class OcrProcessor : EditionsProcessorBase
                 widthFactor = mFactor;
             width += (lineHeight * widthFactor);
         }
-        return new Size((int)Math.Floor(width), lineHeight);
+        int baseWidth = (int)Math.Floor(width);
+        int yAdjustment = (bounds.Height - lineHeight) / 2;
+        OcrRect baseRect = new OcrRect {
+            X = bounds.X,
+            Y = bounds.Y + yAdjustment,
+            Width = baseWidth,
+            Height = lineHeight
+        };
+        double factor = hasLargeAscendersAndDescenders ? 0.5d : 0.2d;
+        int adjustmentSize = (int)(lineHeight * factor);
+        bool hasAscenderChar = text.Any(c => Ascenders.Contains(c) || char.IsUpper(c));
+        bool hasDescenderChar = text.Any(c => Descenders.Contains(c));
+        int topExtra = hasAscenderChar ? adjustmentSize : 0;
+        int bottomExtra = hasDescenderChar ? adjustmentSize : 0;
+        OcrRect expandedRect = baseRect with {
+            Y = baseRect.Y - topExtra,
+            Height = baseRect.Height + topExtra + bottomExtra
+        };
+        return new EstimatedWordSize(baseRect, expandedRect);
     }
 
 

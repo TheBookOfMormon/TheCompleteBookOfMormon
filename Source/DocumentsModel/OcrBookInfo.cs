@@ -14,6 +14,9 @@ public record OcrBookInfo : IComparable<OcrBookInfo>
     public required string ShortCode { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+    public bool HasLargeAscendersAndDescenders { get; init; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public bool HasSuperscripts { get; init; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]

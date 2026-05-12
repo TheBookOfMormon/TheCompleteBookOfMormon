@@ -211,9 +211,8 @@ public partial class EditWordDialog : IAsyncDisposable
         }
         int lineHeightAdjustmentFactor =
             LineHeightLarger ? 1 : -1;
-        System.Drawing.Size estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), text);
-        int yAdjustment = (item.Bounds.Height - estimatedSize.Height) / 2;
-        Texts[elementIndex].Bounds = item.Bounds with { Y = item.Bounds.Y + yAdjustment, Width = estimatedSize.Width, Height = estimatedSize.Height };
+        EstimatedWordSize estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), text, item.Bounds, Content.WordReference.BookInfo.HasLargeAscendersAndDescenders);
+        Texts[elementIndex].Bounds = estimatedSize.ExpandedRect;
 
         if (Texts.Length == 1)
         {
