@@ -156,39 +156,44 @@ public class ViewModel
         WordReference wordReference = wordInfo.Value.WordReference;
         int columnIndex = wordInfo.Value.ColumnIndex;
 
-        while (true)
-        {
-            OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
-            DialogParameters dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
-            EditWordDialog.EditWordDialogContent content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
-            IDialogReference dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
-
-            State = State with {
-                LastEditedColumnIndex = columnIndex,
-                LastEditedEdition = wordReference.BookInfo
+        Func<OcrWord?, EditWordDialog.NavigateDirection, Task<(WordReference Reference, EditionState Edition)?>> navigateAsync =
+            async (savedWord, direction) =>
+            {
+                if (savedWord is not null)
+                {
+                    FeatureState newFeatureState = FeatureState.ReplaceWord(State, wordReference, [savedWord]);
+                    SetNewStateWithUndo("Edit word", newFeatureState);
+                    await LoadRowDataAsync(SectionIndex);
+                    await StateHasChanged.InvokeAsync();
+                }
+                WordReference? next = await FindAdjacentWordAsync(wordReference, direction == EditWordDialog.NavigateDirection.Next);
+                if (next is null)
+                {
+                    ToastService.ShowInfo(direction == EditWordDialog.NavigateDirection.Next ? "No next word." : "No previous word.");
+                    return null;
+                }
+                wordReference = next;
+                return (next, State.Editions[next.BookInfo]);
             };
 
-            DialogResult result = await dialog.Result;
-            EditWordDialog.EditWordDialogResult? dialogResult = result.Data as EditWordDialog.EditWordDialogResult;
+        OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
+        DialogParameters dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
+        EditWordDialog.EditWordDialogContent content = new EditWordDialog.EditWordDialogContent(
+            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync);
+        IDialogReference dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
-            if (dialogResult?.Word != null)
-            {
-                FeatureState newFeatureState = State;
-                newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, [dialogResult.Word]);
-                SetNewStateWithUndo("Edit word", newFeatureState);
-                await LoadRowDataAsync(SectionIndex);
-            }
+        State = State with {
+            LastEditedColumnIndex = columnIndex,
+            LastEditedEdition = wordReference.BookInfo
+        };
 
-            EditWordDialog.NavigateDirection navigate = dialogResult?.Navigate ?? EditWordDialog.NavigateDirection.None;
-            if (navigate == EditWordDialog.NavigateDirection.None) break;
-
-            WordReference? nextRef = await FindAdjacentWordAsync(wordReference, navigate == EditWordDialog.NavigateDirection.Next);
-            if (nextRef == null)
-            {
-                ToastService.ShowInfo(navigate == EditWordDialog.NavigateDirection.Next ? "No next word." : "No previous word.");
-                break;
-            }
-            wordReference = nextRef;
+        DialogResult result = await dialog.Result;
+        EditWordDialog.EditWordDialogResult? dialogResult = result.Data as EditWordDialog.EditWordDialogResult;
+        if (dialogResult?.Word is not null)
+        {
+            FeatureState newFeatureState = FeatureState.ReplaceWord(State, wordReference, [dialogResult.Word]);
+            SetNewStateWithUndo("Edit word", newFeatureState);
+            await LoadRowDataAsync(SectionIndex);
         }
         await StateHasChanged.InvokeAsync();
     }

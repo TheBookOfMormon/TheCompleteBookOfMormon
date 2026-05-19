@@ -16,8 +16,14 @@ namespace WordsAnalysis.Components;
 
 public partial class EditWordDialog : IAsyncDisposable
 {
-    public record EditWordDialogContent(EditionState Edition, WordReference WordReference, int PageWidth, int PageHeight, bool IsAdd);
-    public record EditWordDialogResult(OcrWord? Word, bool After, NavigateDirection Navigate = NavigateDirection.None);
+    public record EditWordDialogContent(
+        EditionState Edition,
+        WordReference WordReference,
+        int PageWidth,
+        int PageHeight,
+        bool IsAdd,
+        Func<OcrWord?, NavigateDirection, Task<(WordReference Reference, EditionState Edition)?>>? NavigateAsync = null);
+    public record EditWordDialogResult(OcrWord? Word, bool After);
 
     public enum NavigateDirection { None, Previous, Next }
 
@@ -33,6 +39,8 @@ public partial class EditWordDialog : IAsyncDisposable
     private string? BenefitOfDoubtText;
     private bool Corrected;
     private bool Correction;
+    private EditionState CurrentEdition = null!;
+    private WordReference CurrentWordReference = null!;
     private EditForm EditForm = null!;
     private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
@@ -46,7 +54,7 @@ public partial class EditWordDialog : IAsyncDisposable
     private MagickImage PageImage = null!;
     private MagickImage PageDisplayImage => ShowHighContrast ? FilteredPageImage : PageImage;
     private string? PageImageData;
-    private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, Content.WordReference.BookInfo, Content.WordReference.PageNumber);
+    private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, CurrentWordReference.BookInfo, CurrentWordReference.PageNumber);
     private bool ShowDashes;
     private bool ShowHighContrast;
     private int ThresholdLower;
@@ -81,24 +89,47 @@ public partial class EditWordDialog : IAsyncDisposable
         await base.OnInitializedAsync();
         HasSampleImages = TextSamplesDialog.GetImageFilePaths(Content.Edition.BookInfo).Any();
         ReadAppSettings();
-        ResetLineHeightAdjustment();
 
-        Word = Content.WordReference.GetWord(Content.Edition)!;
+        CurrentWordReference = Content.WordReference;
+        CurrentEdition = Content.Edition;
+
         if (Content.IsAdd)
         {
+            ResetLineHeightAdjustment();
+            Word = CurrentWordReference.GetWord(CurrentEdition)!;
             OcrElement lastElementOnSamePage = Word.LastElementOnSamePage();
             OcrRect bounds = lastElementOnSamePage.Bounds;
             int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
             Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight }, false)];
             ShowDashes = false;
             Word = new OcrWord { Elements = [lastElementOnSamePage with { Text = "" }] };
+            OriginalBounds = Word.Elements[0].Bounds;
+            Notes = Word.Notes;
+            Corrected = Word.Corrected;
+            Correction = Word.Correction;
+            Inserted = Word.Inserted;
+            BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
+            BenefitOfDoubtText = Word.BenefitOfDoubtText;
+            LoadPageImage();
         }
         else
         {
-            Texts = Word.Elements.Select(x => new TextData(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
-            ShowDashes = Word.ShowDashes;
+            LoadWord(CurrentWordReference, CurrentEdition);
         }
+    }
 
+    private void LoadWord(WordReference newRef, EditionState newEdition)
+    {
+        bool pageChanged = PageImage != null && CurrentWordReference.PageNumber != newRef.PageNumber;
+
+        CurrentWordReference = newRef;
+        CurrentEdition = newEdition;
+
+        ResetLineHeightAdjustment();
+
+        Word = CurrentWordReference.GetWord(CurrentEdition)!;
+        Texts = Word.Elements.Select(x => new TextData(x.Text, x.Bounds, x.IsOnNextPage)).ToArray();
+        ShowDashes = Word.ShowDashes;
         OriginalBounds = Word.Elements[0].Bounds;
         Notes = Word.Notes;
         Corrected = Word.Corrected;
@@ -106,14 +137,20 @@ public partial class EditWordDialog : IAsyncDisposable
         Inserted = Word.Inserted;
         BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
         BenefitOfDoubtText = Word.BenefitOfDoubtText;
-        LoadPageImage();
+
+        if (PageImage == null || pageChanged)
+        {
+            LoadPageImage();
+        }
+        else
+        {
+            UpdateWordImageData();
+        }
     }
 
-    private async Task CancelAsync() => await CancelWithNavigationAsync(NavigateDirection.None);
-
-    private async Task CancelWithNavigationAsync(NavigateDirection navigate)
+    private async Task CancelAsync()
     {
-        EditWordDialogResult result = new EditWordDialogResult(null, false, navigate);
+        EditWordDialogResult result = new EditWordDialogResult(null, false);
         await Dialog.CancelAsync(result);
     }
 
@@ -124,9 +161,7 @@ public partial class EditWordDialog : IAsyncDisposable
         await HtmlService.CenterImagePointInParent("page-image", x, y);
     }
 
-    private async Task ConfirmAsync() => await ConfirmWithNavigationAsync(NavigateDirection.None);
-
-    private async Task ConfirmWithNavigationAsync(NavigateDirection navigate)
+    private async Task ConfirmAsync()
     {
         if (!EditForm.EditContext!.Validate()) return;
         WriteAppSettings();
@@ -134,7 +169,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
         OcrWord? newWord = CreateWord();
 
-        EditWordDialogResult result = new EditWordDialogResult(newWord, AddWordAfter, navigate);
+        EditWordDialogResult result = new EditWordDialogResult(newWord, AddWordAfter);
         await Dialog.CloseAsync(result);
     }
 
@@ -146,25 +181,33 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task NavigateAsync(NavigateDirection direction)
     {
+        if (Content.NavigateAsync is null) return;
+
+        OcrWord? wordToSave = null;
         if (IsDirty())
         {
             SaveChangesDialogResult choice = await PromptSaveChangesAsync();
-            switch (choice)
+            if (choice == SaveChangesDialogResult.Abort) return;
+            if (choice == SaveChangesDialogResult.Yes)
             {
-                case SaveChangesDialogResult.Yes:
-                    await ConfirmWithNavigationAsync(direction);
-                    return;
-                case SaveChangesDialogResult.No:
-                    await CancelWithNavigationAsync(direction);
-                    return;
-                case SaveChangesDialogResult.Abort:
-                    return;
+                if (!EditForm.EditContext!.Validate()) return;
+                WriteAppSettings();
+                ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
+                wordToSave = CreateWord();
             }
         }
-        else
+
+        (WordReference Reference, EditionState Edition)? next = await Content.NavigateAsync(wordToSave, direction);
+
+        if (next is null)
         {
-            await CancelWithNavigationAsync(direction);
+            await CancelAsync();
+            return;
         }
+
+        LoadWord(next.Value.Reference, next.Value.Edition);
+        StateHasChanged();
+        await CenterImagePointAsync();
     }
 
     private async Task<SaveChangesDialogResult> PromptSaveChangesAsync()
@@ -255,7 +298,7 @@ public partial class EditWordDialog : IAsyncDisposable
         }
         int lineHeightAdjustmentFactor =
             LineHeightLarger ? 1 : -1;
-        EstimatedWordSize estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), text, item.Bounds, Content.WordReference.BookInfo);
+        EstimatedWordSize estimatedSize = OcrProcessor.EstimateWordSize(LineHeight + (LineHeightAdjustment * lineHeightAdjustmentFactor), text, item.Bounds, CurrentWordReference.BookInfo);
         Texts[elementIndex].Bounds = estimatedSize.ExpandedRect;
 
         if (Texts.Length == 1)
@@ -296,9 +339,8 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void LoadPageImage()
     {
-        if (PageImage != null)
-            throw new InvalidOperationException("Page image already loaded.");
-
+        PageImage?.Dispose();
+        FilteredPageImage?.Dispose();
         PageImage = ImageRepository.GetPageImage(PageImageFilePath);
         FilteredPageImage = ImageRepository.GetFilteredPageImage(PageImageFilePath, CreateFilteredPageImage);
         UpdatePageImageData();
@@ -317,8 +359,8 @@ public partial class EditWordDialog : IAsyncDisposable
         {
             if (xAdjustment < 0)
             {
-                var page = Content.Edition.LoadedPages[Content.WordReference.PageNumber].Page;
-                var wordsBefore = page.Words.Where((x, index) => x != null && index < Content.WordReference.WordIndex);
+                var page = CurrentEdition.LoadedPages[CurrentWordReference.PageNumber].Page;
+                var wordsBefore = page.Words.Where((x, index) => x != null && index < CurrentWordReference.WordIndex);
                 var leftPositions = wordsBefore.SelectMany(x => x!.Elements).Select(x => x.Bounds.X);
                 int leftMost = Math.Max(0, leftPositions.Any() ? leftPositions.Min() : 0);
                 Texts[elementIndex].Bounds = Texts[elementIndex].Bounds = (bounds.Offset(0, bounds.Height) with { X = leftMost });
@@ -394,7 +436,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task ShowTextSamplesAsync()
     {
-        var content = new TextSamplesDialog.TextSamplesDialogContent { BookInfo = Content.WordReference.BookInfo };
+        var content = new TextSamplesDialog.TextSamplesDialogContent { BookInfo = CurrentWordReference.BookInfo };
         var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         await DialogService.ShowDialogAsync<TextSamplesDialog, TextSamplesDialog.TextSamplesDialogContent>(content, dialogParameters);
     }
