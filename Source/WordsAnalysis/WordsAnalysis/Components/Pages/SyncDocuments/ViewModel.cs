@@ -176,10 +176,30 @@ public class ViewModel
                 return (next, State.Editions[next.BookInfo]);
             };
 
+        Func<OcrWord, Task<EditionState>> saveAsync = async (savedWord) =>
+        {
+            FeatureState newFeatureState = FeatureState.ReplaceWord(State, wordReference, [savedWord]);
+            SetNewStateWithUndo("Edit word", newFeatureState);
+            await LoadRowDataAsync(SectionIndex);
+            await StateHasChanged.InvokeAsync();
+            return State.Editions[wordReference.BookInfo];
+        };
+
+        Func<OcrWord, bool, Task<(WordReference Reference, EditionState Edition)>> insertAsync = async (newWord, after) =>
+        {
+            FeatureState newFeatureState = FeatureState.AddWord(State, wordReference, newWord, after);
+            SetNewStateWithUndo("Insert word", newFeatureState);
+            await LoadRowDataAsync(SectionIndex);
+            await StateHasChanged.InvokeAsync();
+            WordReference inserted = wordReference with { WordIndex = wordReference.WordIndex + (after ? 1 : 0) };
+            wordReference = inserted;
+            return (inserted, State.Editions[inserted.BookInfo]);
+        };
+
         OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
         DialogParameters dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         EditWordDialog.EditWordDialogContent content = new EditWordDialog.EditWordDialogContent(
-            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync);
+            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync, saveAsync, insertAsync);
         IDialogReference dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
         State = State with {
@@ -191,8 +211,12 @@ public class ViewModel
         EditWordDialog.EditWordDialogResult? dialogResult = result.Data as EditWordDialog.EditWordDialogResult;
         if (dialogResult?.Word is not null)
         {
-            FeatureState newFeatureState = FeatureState.ReplaceWord(State, wordReference, [dialogResult.Word]);
-            SetNewStateWithUndo("Edit word", newFeatureState);
+            FeatureState newFeatureState;
+            if (dialogResult.IsInsert)
+                newFeatureState = FeatureState.AddWord(State, wordReference, dialogResult.Word, dialogResult.After);
+            else
+                newFeatureState = FeatureState.ReplaceWord(State, wordReference, [dialogResult.Word]);
+            SetNewStateWithUndo(dialogResult.IsInsert ? "Insert word" : "Edit word", newFeatureState);
             await LoadRowDataAsync(SectionIndex);
         }
         await StateHasChanged.InvokeAsync();

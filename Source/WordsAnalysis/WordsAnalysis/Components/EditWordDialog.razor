@@ -86,7 +86,7 @@
                     <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
                 }
             }
-            @if (Content.IsAdd)
+            @if (IsAddMode)
             {
                 <div>
                     <label>
@@ -122,15 +122,18 @@
 </FluentDialogBody>
 
 <FluentDialogFooter>
-    @if (!Content.IsAdd)
-    {
-        <FluentButton OnClick=@PreviousAsync accesskey="P">
-            <span class="underline">P</span>rev
-        </FluentButton>
-        <FluentButton OnClick=@NextAsync accesskey="N">
-            <span class="underline">N</span>ext
-        </FluentButton>
-    }
+    <FluentButton OnClick=@InsertBeforeAsync accesskey="B" Disabled=@IsAddMode>
+        Insert <span class="underline">B</span>efore
+    </FluentButton>
+    <FluentButton OnClick=@PreviousAsync accesskey="P" Disabled=@IsAddMode>
+        <span class="underline">P</span>rev
+    </FluentButton>
+    <FluentButton OnClick=@NextAsync accesskey="N" Disabled=@IsAddMode>
+        <span class="underline">N</span>ext
+    </FluentButton>
+    <FluentButton OnClick=@InsertAfterAsync accesskey="A" Disabled=@IsAddMode>
+        Insert <span class="underline">A</span>fter
+    </FluentButton>
     <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
         <span class="underline">O</span>K
     </FluentButton>

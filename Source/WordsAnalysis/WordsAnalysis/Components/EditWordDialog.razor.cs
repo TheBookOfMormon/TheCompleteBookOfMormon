@@ -22,8 +22,10 @@ public partial class EditWordDialog : IAsyncDisposable
         int PageWidth,
         int PageHeight,
         bool IsAdd,
-        Func<OcrWord?, NavigateDirection, Task<(WordReference Reference, EditionState Edition)?>>? NavigateAsync = null);
-    public record EditWordDialogResult(OcrWord? Word, bool After);
+        Func<OcrWord?, NavigateDirection, Task<(WordReference Reference, EditionState Edition)?>>? NavigateAsync = null,
+        Func<OcrWord, Task<EditionState>>? SaveAsync = null,
+        Func<OcrWord, bool, Task<(WordReference Reference, EditionState Edition)>>? InsertAsync = null);
+    public record EditWordDialogResult(OcrWord? Word, bool After, bool IsInsert = false);
 
     public enum NavigateDirection { None, Previous, Next }
 
@@ -42,10 +44,12 @@ public partial class EditWordDialog : IAsyncDisposable
     private EditionState CurrentEdition = null!;
     private WordReference CurrentWordReference = null!;
     private EditForm EditForm = null!;
+    private bool EnteredAddModeViaInsert;
     private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
     private bool HasSampleImages;
     private bool Inserted;
+    private bool IsAddMode;
     private int LineHeight;
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
@@ -55,6 +59,8 @@ public partial class EditWordDialog : IAsyncDisposable
     private MagickImage PageDisplayImage => ShowHighContrast ? FilteredPageImage : PageImage;
     private string? PageImageData;
     private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, CurrentWordReference.BookInfo, CurrentWordReference.PageNumber);
+    private EditionState? PreviousEdition;
+    private WordReference? PreviousWordReference;
     private bool ShowDashes;
     private bool ShowHighContrast;
     private int ThresholdLower;
@@ -95,27 +101,49 @@ public partial class EditWordDialog : IAsyncDisposable
 
         if (Content.IsAdd)
         {
-            ResetLineHeightAdjustment();
-            Word = CurrentWordReference.GetWord(CurrentEdition)!;
-            OcrElement lastElementOnSamePage = Word.LastElementOnSamePage();
-            OcrRect bounds = lastElementOnSamePage.Bounds;
-            int xOffset = bounds.Width + OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
-            Texts = [new TextData("", bounds.Offset(xOffset, 0) with { Width = LineHeight }, false)];
-            ShowDashes = false;
-            Word = new OcrWord { Elements = [lastElementOnSamePage with { Text = "" }] };
-            OriginalBounds = Word.Elements[0].Bounds;
-            Notes = Word.Notes;
-            Corrected = Word.Corrected;
-            Correction = Word.Correction;
-            Inserted = Word.Inserted;
-            BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == Word.BenefitOfDoubt);
-            BenefitOfDoubtText = Word.BenefitOfDoubtText;
             LoadPageImage();
+            LoadAddMode(AddWordAfter);
         }
         else
         {
             LoadWord(CurrentWordReference, CurrentEdition);
         }
+    }
+
+    private void LoadAddMode(bool after)
+    {
+        IsAddMode = true;
+        AddWordAfter = after;
+        ResetLineHeightAdjustment();
+
+        OcrWord anchorWord = CurrentWordReference.GetWord(CurrentEdition)!;
+        int gap = OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
+        OcrElement anchorElement;
+        OcrRect newBounds;
+        if (after)
+        {
+            anchorElement = anchorWord.LastElementOnSamePage();
+            OcrRect bounds = anchorElement.Bounds;
+            newBounds = bounds.Offset(bounds.Width + gap, 0) with { Width = LineHeight };
+        }
+        else
+        {
+            anchorElement = anchorWord.Elements[0];
+            OcrRect bounds = anchorElement.Bounds;
+            newBounds = bounds with { X = bounds.X - LineHeight - gap, Width = LineHeight };
+        }
+        Texts = [new TextData("", newBounds, false)];
+        ShowDashes = false;
+        Word = new OcrWord { Elements = [anchorElement with { Text = "" }] };
+        OriginalBounds = Word.Elements[0].Bounds;
+        Notes = null;
+        Corrected = false;
+        Correction = false;
+        Inserted = false;
+        BenefitOfDoubtSelectedOption = BenefitOfDoubtExtensions.GetOptions().First(x => x.Key == BenefitOfDoubt.None);
+        BenefitOfDoubtText = null;
+
+        UpdateWordImageData();
     }
 
     private void LoadWord(WordReference newRef, EditionState newEdition)
@@ -150,6 +178,19 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private async Task CancelAsync()
     {
+        if (EnteredAddModeViaInsert)
+        {
+            WordReference prev = PreviousWordReference!;
+            EditionState prevEdition = PreviousEdition!;
+            EnteredAddModeViaInsert = false;
+            IsAddMode = false;
+            PreviousWordReference = null;
+            PreviousEdition = null;
+            LoadWord(prev, prevEdition);
+            StateHasChanged();
+            await CenterImagePointAsync();
+            return;
+        }
         EditWordDialogResult result = new EditWordDialogResult(null, false);
         await Dialog.CancelAsync(result);
     }
@@ -167,9 +208,22 @@ public partial class EditWordDialog : IAsyncDisposable
         WriteAppSettings();
         ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
 
-        OcrWord? newWord = CreateWord();
+        OcrWord newWord = CreateWord();
 
-        EditWordDialogResult result = new EditWordDialogResult(newWord, AddWordAfter);
+        if (EnteredAddModeViaInsert && Content.InsertAsync is not null)
+        {
+            (WordReference reference, EditionState edition) = await Content.InsertAsync(newWord, AddWordAfter);
+            EnteredAddModeViaInsert = false;
+            IsAddMode = false;
+            PreviousWordReference = null;
+            PreviousEdition = null;
+            LoadWord(reference, edition);
+            StateHasChanged();
+            await CenterImagePointAsync();
+            return;
+        }
+
+        EditWordDialogResult result = new EditWordDialogResult(newWord, AddWordAfter, IsInsert: IsAddMode);
         await Dialog.CloseAsync(result);
     }
 
@@ -178,6 +232,36 @@ public partial class EditWordDialog : IAsyncDisposable
     private async Task PreviousAsync() => await NavigateAsync(NavigateDirection.Previous);
 
     private async Task NextAsync() => await NavigateAsync(NavigateDirection.Next);
+
+    private async Task InsertBeforeAsync() => await InsertAsync(after: false);
+
+    private async Task InsertAfterAsync() => await InsertAsync(after: true);
+
+    private async Task InsertAsync(bool after)
+    {
+        if (IsAddMode) return;
+        if (Content.SaveAsync is null) return;
+
+        if (IsDirty())
+        {
+            SaveChangesDialogResult choice = await PromptSaveChangesAsync();
+            if (choice == SaveChangesDialogResult.Abort) return;
+            if (choice == SaveChangesDialogResult.Yes)
+            {
+                if (!EditForm.EditContext!.Validate()) return;
+                WriteAppSettings();
+                ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
+                OcrWord saved = CreateWord();
+                CurrentEdition = await Content.SaveAsync(saved);
+            }
+        }
+
+        PreviousWordReference = CurrentWordReference;
+        PreviousEdition = CurrentEdition;
+        EnteredAddModeViaInsert = true;
+        LoadAddMode(after);
+        StateHasChanged();
+    }
 
     private async Task NavigateAsync(NavigateDirection direction)
     {
@@ -317,13 +401,7 @@ public partial class EditWordDialog : IAsyncDisposable
         HasEstimatedSize = true;
     }
 
-    private string GetActionName()
-    {
-        if (Content.IsAdd)
-            return "Add";
-        else
-            return "Edit";
-    }
+    private string GetActionName() => IsAddMode ? "Add" : "Edit";
 
     private PageState.ImageOptions? GetImageOptions()
     {
