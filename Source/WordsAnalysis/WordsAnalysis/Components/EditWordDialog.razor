@@ -140,4 +140,7 @@
     <FluentButton OnClick=@(() => CancelAsync()) accesskey="C">
         <span class="underline">C</span>ancel
     </FluentButton>
+    <FluentButton OnClick=@DeleteAsync accesskey="D" Disabled=@IsAddMode>
+        <span class="underline">D</span>elete
+    </FluentButton>
 </FluentDialogFooter>

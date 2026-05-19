@@ -24,7 +24,8 @@ public partial class EditWordDialog : IAsyncDisposable
         bool IsAdd,
         Func<OcrWord?, NavigateDirection, Task<(WordReference Reference, EditionState Edition)?>>? NavigateAsync = null,
         Func<OcrWord, Task<EditionState>>? SaveAsync = null,
-        Func<OcrWord, bool, Task<(WordReference Reference, EditionState Edition)>>? InsertAsync = null);
+        Func<OcrWord, bool, Task<(WordReference Reference, EditionState Edition)>>? InsertAsync = null,
+        Func<Task<(WordReference Reference, EditionState Edition)?>>? DeleteAsync = null);
     public record EditWordDialogResult(OcrWord? Word, bool After, bool IsInsert = false);
 
     public enum NavigateDirection { None, Previous, Next }
@@ -117,7 +118,7 @@ public partial class EditWordDialog : IAsyncDisposable
         ResetLineHeightAdjustment();
 
         OcrWord anchorWord = CurrentWordReference.GetWord(CurrentEdition)!;
-        int gap = OcrProcessor.EstimateWordSize(LineHeight, "i").Width;
+        int gap = OcrProcessor.EstimateWordSize(LineHeight, "M").Width;
         OcrElement anchorElement;
         OcrRect newBounds;
         if (after)
@@ -236,6 +237,30 @@ public partial class EditWordDialog : IAsyncDisposable
     private async Task InsertBeforeAsync() => await InsertAsync(after: false);
 
     private async Task InsertAfterAsync() => await InsertAsync(after: true);
+
+    private async Task DeleteAsync()
+    {
+        if (IsAddMode) return;
+        if (Content.DeleteAsync is null) return;
+
+        ConfirmDialogContent confirmContent = new ConfirmDialogContent("Delete this word?");
+        DialogParameters confirmParams = new DialogParameters();
+        IDialogReference confirmDialog = await DialogService.ShowDialogAsync<ConfirmDialog, ConfirmDialogContent>(confirmContent, confirmParams);
+        DialogResult confirmResult = await confirmDialog.Result;
+        if (confirmResult.Cancelled) return;
+        if (confirmResult.Data is not bool confirmed || !confirmed) return;
+
+        (WordReference Reference, EditionState Edition)? next = await Content.DeleteAsync();
+        if (next is null)
+        {
+            EditWordDialogResult result = new EditWordDialogResult(null, false);
+            await Dialog.CancelAsync(result);
+            return;
+        }
+        LoadWord(next.Value.Reference, next.Value.Edition);
+        StateHasChanged();
+        await CenterImagePointAsync();
+    }
 
     private async Task InsertAsync(bool after)
     {

@@ -196,10 +196,22 @@ public class ViewModel
             return (inserted, State.Editions[inserted.BookInfo]);
         };
 
+        Func<Task<(WordReference Reference, EditionState Edition)?>> deleteAsync = async () =>
+        {
+            FeatureState newFeatureState = FeatureState.DeleteWords(State, [wordReference]);
+            SetNewStateWithUndo("Delete word", newFeatureState);
+            await LoadRowDataAsync(SectionIndex);
+            await StateHasChanged.InvokeAsync();
+            WordReference? next = await FindWordAtOrAfterAsync(wordReference);
+            if (next is null) return null;
+            wordReference = next;
+            return (next, State.Editions[next.BookInfo]);
+        };
+
         OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
         DialogParameters dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         EditWordDialog.EditWordDialogContent content = new EditWordDialog.EditWordDialogContent(
-            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync, saveAsync, insertAsync);
+            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync, saveAsync, insertAsync, deleteAsync);
         IDialogReference dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
         State = State with {
@@ -220,6 +232,31 @@ public class ViewModel
             await LoadRowDataAsync(SectionIndex);
         }
         await StateHasChanged.InvokeAsync();
+    }
+
+    private async Task<WordReference?> FindWordAtOrAfterAsync(WordReference start)
+    {
+        EditionState edition = State.Editions[start.BookInfo];
+        int absoluteIndex = edition.GetFirstWordIndexForPage(start.PageNumber) + start.WordIndex;
+        int wordCount = edition.GetWordCount();
+
+        while (absoluteIndex >= 0 && absoluteIndex < wordCount)
+        {
+            int pageNumber = edition.GetPageNumberForWord(absoluteIndex);
+            if (pageNumber < 1) return null;
+
+            edition = await EditionState.EnsurePageLoadedAsync(edition, pageNumber);
+            State = State with {
+                Editions = State.Editions.SetItem(start.BookInfo, edition)
+            };
+
+            int relativeIndex = absoluteIndex - edition.GetFirstWordIndexForPage(pageNumber);
+            OcrWord? word = edition.LoadedPages[pageNumber].Page.Words[relativeIndex];
+            if (word != null)
+                return new WordReference(start.BookInfo, pageNumber, relativeIndex);
+            absoluteIndex++;
+        }
+        return null;
     }
 
     private async Task<WordReference?> FindAdjacentWordAsync(WordReference current, bool forward)
