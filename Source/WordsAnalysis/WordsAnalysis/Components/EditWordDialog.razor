@@ -122,6 +122,15 @@
 </FluentDialogBody>
 
 <FluentDialogFooter>
+    @if (!Content.IsAdd)
+    {
+        <FluentButton OnClick=@PreviousAsync accesskey="P">
+            <span class="underline">P</span>rev
+        </FluentButton>
+        <FluentButton OnClick=@NextAsync accesskey="N">
+            <span class="underline">N</span>ext
+        </FluentButton>
+    }
     <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
         <span class="underline">O</span>K
     </FluentButton>

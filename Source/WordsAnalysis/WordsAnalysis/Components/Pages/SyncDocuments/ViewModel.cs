@@ -156,24 +156,68 @@ public class ViewModel
         WordReference wordReference = wordInfo.Value.WordReference;
         int columnIndex = wordInfo.Value.ColumnIndex;
 
-        OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
-        var dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
-        var content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
-        var dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
+        while (true)
+        {
+            OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
+            DialogParameters dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
+            EditWordDialog.EditWordDialogContent content = new EditWordDialog.EditWordDialogContent(State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false);
+            IDialogReference dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
-        State = State with {
-            LastEditedColumnIndex = columnIndex,
-            LastEditedEdition = wordReference.BookInfo
-        };
+            State = State with {
+                LastEditedColumnIndex = columnIndex,
+                LastEditedEdition = wordReference.BookInfo
+            };
 
-        DialogResult result = await dialog.Result;
-        if (result.Cancelled) return;
-        var dialogResult = (EditWordDialog.EditWordDialogResult)result.Data!;
-        FeatureState newFeatureState = State;
-        newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, [dialogResult.Word!]);
-        SetNewStateWithUndo("Edit word", newFeatureState);
-        await LoadRowDataAsync(SectionIndex);
+            DialogResult result = await dialog.Result;
+            EditWordDialog.EditWordDialogResult? dialogResult = result.Data as EditWordDialog.EditWordDialogResult;
+
+            if (dialogResult?.Word != null)
+            {
+                FeatureState newFeatureState = State;
+                newFeatureState = FeatureState.ReplaceWord(newFeatureState, wordReference, [dialogResult.Word]);
+                SetNewStateWithUndo("Edit word", newFeatureState);
+                await LoadRowDataAsync(SectionIndex);
+            }
+
+            EditWordDialog.NavigateDirection navigate = dialogResult?.Navigate ?? EditWordDialog.NavigateDirection.None;
+            if (navigate == EditWordDialog.NavigateDirection.None) break;
+
+            WordReference? nextRef = await FindAdjacentWordAsync(wordReference, navigate == EditWordDialog.NavigateDirection.Next);
+            if (nextRef == null)
+            {
+                ToastService.ShowInfo(navigate == EditWordDialog.NavigateDirection.Next ? "No next word." : "No previous word.");
+                break;
+            }
+            wordReference = nextRef;
+        }
         await StateHasChanged.InvokeAsync();
+    }
+
+    private async Task<WordReference?> FindAdjacentWordAsync(WordReference current, bool forward)
+    {
+        EditionState edition = State.Editions[current.BookInfo];
+        int absoluteIndex = edition.GetFirstWordIndexForPage(current.PageNumber) + current.WordIndex;
+        int step = forward ? 1 : -1;
+        int wordCount = edition.GetWordCount();
+
+        while (true)
+        {
+            absoluteIndex += step;
+            if (absoluteIndex < 0 || absoluteIndex >= wordCount) return null;
+
+            int pageNumber = edition.GetPageNumberForWord(absoluteIndex);
+            if (pageNumber < 1) return null;
+
+            edition = await EditionState.EnsurePageLoadedAsync(edition, pageNumber);
+            State = State with {
+                Editions = State.Editions.SetItem(current.BookInfo, edition)
+            };
+
+            int relativeIndex = absoluteIndex - edition.GetFirstWordIndexForPage(pageNumber);
+            OcrWord? word = edition.LoadedPages[pageNumber].Page.Words[relativeIndex];
+            if (word != null)
+                return new WordReference(current.BookInfo, pageNumber, relativeIndex);
+        }
     }
 
     public IEnumerable<OcrBookInfoAndPageNumber> GetDirtyPages()

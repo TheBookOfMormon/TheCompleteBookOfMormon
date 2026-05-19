@@ -285,6 +285,12 @@ public record EditionState
         return wordReferencesArray.OrderBy(x => x).Select(x => x.GetWord(this)).ToArray();
     }
 
+    public static async Task<EditionState> EnsurePageLoadedAsync(EditionState editionState, int pageNumber)
+    {
+        (EditionState newState, OcrPage _) = await GetPageAsync(editionState, pageNumber);
+        return newState;
+    }
+
     private static async Task<(EditionState edition, OcrPage page)> GetPageAsync(EditionState originalEditionState, int pageNumber)
     {
         if (originalEditionState.LoadedPages.TryGetValue(pageNumber, out PageState? existingPageState))

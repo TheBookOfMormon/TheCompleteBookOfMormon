@@ -1,0 +1,21 @@
+@implements IDialogContentComponent<SaveChangesDialogContent>
+
+<FluentDialogHeader>
+    Save changes?
+</FluentDialogHeader>
+
+<FluentDialogBody>
+    @Content.Message
+</FluentDialogBody>
+
+<FluentDialogFooter>
+    <FluentButton Appearance=@Appearance.Accent OnClick=@(() => CloseAsync(SaveChangesDialogResult.Yes)) accesskey="Y">
+        <span class="underline">Y</span>es
+    </FluentButton>
+    <FluentButton OnClick=@(() => CloseAsync(SaveChangesDialogResult.No)) accesskey="N">
+        <span class="underline">N</span>o
+    </FluentButton>
+    <FluentButton OnClick=@(() => CloseAsync(SaveChangesDialogResult.Abort)) accesskey="A">
+        <span class="underline">A</span>bort
+    </FluentButton>
+</FluentDialogFooter>

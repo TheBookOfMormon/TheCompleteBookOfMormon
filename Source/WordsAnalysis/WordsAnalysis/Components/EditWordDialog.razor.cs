@@ -17,7 +17,9 @@ namespace WordsAnalysis.Components;
 public partial class EditWordDialog : IAsyncDisposable
 {
     public record EditWordDialogContent(EditionState Edition, WordReference WordReference, int PageWidth, int PageHeight, bool IsAdd);
-    public record EditWordDialogResult(OcrWord? Word, bool After);
+    public record EditWordDialogResult(OcrWord? Word, bool After, NavigateDirection Navigate = NavigateDirection.None);
+
+    public enum NavigateDirection { None, Previous, Next }
 
     [Parameter]
     public EditWordDialogContent Content { get; set; } = null!;
@@ -107,9 +109,11 @@ public partial class EditWordDialog : IAsyncDisposable
         LoadPageImage();
     }
 
-    private async Task CancelAsync()
+    private async Task CancelAsync() => await CancelWithNavigationAsync(NavigateDirection.None);
+
+    private async Task CancelWithNavigationAsync(NavigateDirection navigate)
     {
-        var result = new EditWordDialogResult(null, false);
+        EditWordDialogResult result = new EditWordDialogResult(null, false, navigate);
         await Dialog.CancelAsync(result);
     }
 
@@ -120,7 +124,9 @@ public partial class EditWordDialog : IAsyncDisposable
         await HtmlService.CenterImagePointInParent("page-image", x, y);
     }
 
-    private async Task ConfirmAsync()
+    private async Task ConfirmAsync() => await ConfirmWithNavigationAsync(NavigateDirection.None);
+
+    private async Task ConfirmWithNavigationAsync(NavigateDirection navigate)
     {
         if (!EditForm.EditContext!.Validate()) return;
         WriteAppSettings();
@@ -128,9 +134,47 @@ public partial class EditWordDialog : IAsyncDisposable
 
         OcrWord? newWord = CreateWord();
 
-        var result = new EditWordDialogResult(newWord, AddWordAfter);
+        EditWordDialogResult result = new EditWordDialogResult(newWord, AddWordAfter, navigate);
         await Dialog.CloseAsync(result);
+    }
 
+    private bool IsDirty() => !Word.Equals(CreateWord());
+
+    private async Task PreviousAsync() => await NavigateAsync(NavigateDirection.Previous);
+
+    private async Task NextAsync() => await NavigateAsync(NavigateDirection.Next);
+
+    private async Task NavigateAsync(NavigateDirection direction)
+    {
+        if (IsDirty())
+        {
+            SaveChangesDialogResult choice = await PromptSaveChangesAsync();
+            switch (choice)
+            {
+                case SaveChangesDialogResult.Yes:
+                    await ConfirmWithNavigationAsync(direction);
+                    return;
+                case SaveChangesDialogResult.No:
+                    await CancelWithNavigationAsync(direction);
+                    return;
+                case SaveChangesDialogResult.Abort:
+                    return;
+            }
+        }
+        else
+        {
+            await CancelWithNavigationAsync(direction);
+        }
+    }
+
+    private async Task<SaveChangesDialogResult> PromptSaveChangesAsync()
+    {
+        SaveChangesDialogContent dialogContent = new SaveChangesDialogContent("Save changes to this word before navigating?");
+        DialogParameters dialogParameters = new DialogParameters();
+        IDialogReference dialog = await DialogService.ShowDialogAsync<SaveChangesDialog, SaveChangesDialogContent>(dialogContent, dialogParameters);
+        DialogResult result = await dialog.Result;
+        if (result.Data is SaveChangesDialogResult choice) return choice;
+        return SaveChangesDialogResult.Abort;
     }
 
     private void ConvertAmpersand()
