@@ -85,7 +85,7 @@
                             }
                         </FluentToolbar>
                     </div>
-                    <FluentTextField @bind-Value=item.Text Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
+                    <FluentTextField @bind-Value=item.Text Immediate=true Style="font-family: 'Times New Roman'" readonly=@isReadonly autocomplete="off" Autofocus=@(capturedIndex == 0) @bind-Value:after=ResetLineHeightAdjustment />
                 }
             }
             @if (IsAddMode)
