@@ -414,7 +414,7 @@ public partial class EditWordDialog : IAsyncDisposable
         if (Content.GetMostCommonDisplayText is null) return "";
         string? mostCommon = Content.GetMostCommonDisplayText(CurrentWordReference);
         if (mostCommon is null) return "";
-        string currentText = CreateWord().GetDisplayText(showBenefitOfDoubt: false);
+        string currentText = CreateWord().GetDisplayText(showBenefitOfDoubt: true);
         if (string.IsNullOrEmpty(currentText)) return "";
         if (string.Equals(currentText, mostCommon, StringComparison.Ordinal)) return "";
         if (string.Equals(currentText, mostCommon, StringComparison.OrdinalIgnoreCase))
