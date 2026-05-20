@@ -208,10 +208,19 @@ public class ViewModel
             return (next, State.Editions[next.BookInfo]);
         };
 
+        Func<WordReference, string?> getMostCommonDisplayText = (wr) =>
+        {
+            RowData? row = RowData.FirstOrDefault(r => r.BookInfo == wr.BookInfo);
+            if (row is null) return null;
+            int idx = row.Words.IndexOf(wr);
+            if (idx < 0 || idx >= ColumnData.Length) return null;
+            return ColumnData[idx].MostCommonDisplayText;
+        };
+
         OcrPage page = State.Editions[wordReference.BookInfo].LoadedPages[wordReference.PageNumber].Page;
         DialogParameters dialogParameters = new DialogParameters { Height = "100vh", Width = "100vw" };
         EditWordDialog.EditWordDialogContent content = new EditWordDialog.EditWordDialogContent(
-            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync, saveAsync, insertAsync, deleteAsync);
+            State.Editions[wordReference.BookInfo], wordReference, page.ImageWidth, page.ImageHeight, false, navigateAsync, saveAsync, insertAsync, deleteAsync, getMostCommonDisplayText);
         IDialogReference dialog = await DialogService.ShowDialogAsync<EditWordDialog, EditWordDialog.EditWordDialogContent>(content, dialogParameters);
 
         State = State with {

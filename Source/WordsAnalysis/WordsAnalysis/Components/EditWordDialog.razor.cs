@@ -25,7 +25,8 @@ public partial class EditWordDialog : IAsyncDisposable
         Func<OcrWord?, NavigateDirection, Task<(WordReference Reference, EditionState Edition)?>>? NavigateAsync = null,
         Func<OcrWord, Task<EditionState>>? SaveAsync = null,
         Func<OcrWord, bool, Task<(WordReference Reference, EditionState Edition)>>? InsertAsync = null,
-        Func<Task<(WordReference Reference, EditionState Edition)?>>? DeleteAsync = null);
+        Func<Task<(WordReference Reference, EditionState Edition)?>>? DeleteAsync = null,
+        Func<WordReference, string?>? GetMostCommonDisplayText = null);
     public record EditWordDialogResult(OcrWord? Word, bool After, bool IsInsert = false, bool IsDelete = false);
 
     public enum NavigateDirection { None, Previous, Next }
@@ -407,6 +408,19 @@ public partial class EditWordDialog : IAsyncDisposable
     }
 
     private string GetActionName() => IsAddMode ? "Add" : "Edit";
+
+    private string GetCurrentWordOutlierStyle()
+    {
+        if (Content.GetMostCommonDisplayText is null) return "";
+        string? mostCommon = Content.GetMostCommonDisplayText(CurrentWordReference);
+        if (mostCommon is null) return "";
+        string currentText = CreateWord().GetDisplayText(showBenefitOfDoubt: false);
+        if (string.IsNullOrEmpty(currentText)) return "";
+        if (string.Equals(currentText, mostCommon, StringComparison.Ordinal)) return "";
+        if (string.Equals(currentText, mostCommon, StringComparison.OrdinalIgnoreCase))
+            return "background-color: var(--warning);";
+        return "background-color: var(--error);";
+    }
 
     private PageState.ImageOptions? GetImageOptions()
     {
