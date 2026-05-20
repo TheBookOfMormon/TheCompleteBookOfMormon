@@ -17,6 +17,7 @@ public interface IHtmlService
     Task InitializeAsync();
     Task ScrollBodyToTopLeftAsync();
     Task<bool> ScrollToNextErrorAsync();
+    Task ScrollWordIntoViewAsync(string elementId);
 }
 
 sealed class HtmlService : IAsyncDisposable, IHtmlService
@@ -70,5 +71,10 @@ sealed class HtmlService : IAsyncDisposable, IHtmlService
     public async Task<bool> ScrollToNextErrorAsync()
     {
         return await Module!.InvokeAsync<bool>("scrollToNextError");
+    }
+
+    public async Task ScrollWordIntoViewAsync(string elementId)
+    {
+        await Module!.InvokeVoidAsync("scrollWordIntoView", elementId);
     }
 }

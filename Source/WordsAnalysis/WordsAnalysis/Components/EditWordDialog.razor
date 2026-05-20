@@ -124,17 +124,17 @@
 </FluentDialogBody>
 
 <FluentDialogFooter>
-    <FluentButton OnClick=@InsertBeforeAsync accesskey="B" Disabled=@IsAddMode>
-        Insert <span class="underline">B</span>efore
+    <FluentButton OnClick=@PreviousAsync Disabled=@IsAddMode>
+        Prev
     </FluentButton>
-    <FluentButton OnClick=@PreviousAsync accesskey="P" Disabled=@IsAddMode>
-        <span class="underline">P</span>rev
+    <FluentButton OnClick=@NextAsync Disabled=@IsAddMode>
+        Next
     </FluentButton>
-    <FluentButton OnClick=@NextAsync accesskey="N" Disabled=@IsAddMode>
-        <span class="underline">N</span>ext
+    <FluentButton OnClick=@InsertBeforeAsync Disabled=@IsAddMode>
+        Insert before
     </FluentButton>
-    <FluentButton OnClick=@InsertAfterAsync accesskey="A" Disabled=@IsAddMode>
-        Insert <span class="underline">A</span>fter
+    <FluentButton OnClick=@InsertAfterAsync Disabled=@IsAddMode>
+        Insert after
     </FluentButton>
     <FluentButton Appearance=@Appearance.Accent OnClick=@(() => ConfirmAsync()) accesskey="O">
         <span class="underline">O</span>K

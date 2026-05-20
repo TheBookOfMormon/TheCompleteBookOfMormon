@@ -221,7 +221,16 @@ public class ViewModel
 
         DialogResult result = await dialog.Result;
         EditWordDialog.EditWordDialogResult? dialogResult = result.Data as EditWordDialog.EditWordDialogResult;
-        if (dialogResult?.Word is not null)
+        bool saved = false;
+        if (dialogResult?.IsDelete == true)
+        {
+            FeatureState newFeatureState = FeatureState.DeleteWords(State, [wordReference]);
+            SetNewStateWithUndo("Delete word", newFeatureState);
+            WordReference? next = await FindWordAtOrAfterAsync(wordReference);
+            if (next is not null) wordReference = next;
+            saved = true;
+        }
+        else if (dialogResult?.Word is not null)
         {
             FeatureState newFeatureState;
             if (dialogResult.IsInsert)
@@ -229,9 +238,30 @@ public class ViewModel
             else
                 newFeatureState = FeatureState.ReplaceWord(State, wordReference, [dialogResult.Word]);
             SetNewStateWithUndo(dialogResult.IsInsert ? "Insert word" : "Edit word", newFeatureState);
-            await LoadRowDataAsync(SectionIndex);
+            saved = true;
         }
+
+        EditionState finalEdition = State.Editions[wordReference.BookInfo];
+        int finalAbsoluteIndex = finalEdition.GetFirstWordIndexForPage(wordReference.PageNumber) + wordReference.WordIndex;
+        int targetSectionIndex = finalAbsoluteIndex / FeatureState.WordsInSection;
+        if (saved || targetSectionIndex != SectionIndex)
+            await LoadRowDataAsync(targetSectionIndex);
+
+        int finalColumnIndex = columnIndex;
+        RowData? finalRow = RowData.FirstOrDefault(r => r.BookInfo == wordReference.BookInfo);
+        if (finalRow is not null)
+        {
+            int idx = finalRow.Words.IndexOf(wordReference);
+            if (idx >= 0) finalColumnIndex = idx;
+        }
+
+        State = State with {
+            LastEditedColumnIndex = finalColumnIndex,
+            LastEditedEdition = wordReference.BookInfo
+        };
+
         await StateHasChanged.InvokeAsync();
+        await HtmlService.ScrollWordIntoViewAsync(wordReference.GetGlobalReference());
     }
 
     private async Task<WordReference?> FindWordAtOrAfterAsync(WordReference start)

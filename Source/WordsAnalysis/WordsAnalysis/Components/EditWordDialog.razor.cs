@@ -26,7 +26,7 @@ public partial class EditWordDialog : IAsyncDisposable
         Func<OcrWord, Task<EditionState>>? SaveAsync = null,
         Func<OcrWord, bool, Task<(WordReference Reference, EditionState Edition)>>? InsertAsync = null,
         Func<Task<(WordReference Reference, EditionState Edition)?>>? DeleteAsync = null);
-    public record EditWordDialogResult(OcrWord? Word, bool After, bool IsInsert = false);
+    public record EditWordDialogResult(OcrWord? Word, bool After, bool IsInsert = false, bool IsDelete = false);
 
     public enum NavigateDirection { None, Previous, Next }
 
@@ -45,12 +45,14 @@ public partial class EditWordDialog : IAsyncDisposable
     private EditionState CurrentEdition = null!;
     private WordReference CurrentWordReference = null!;
     private EditForm EditForm = null!;
-    private bool EnteredAddModeViaInsert;
     private MagickImage FilteredPageImage = null!;
     private bool HasEstimatedSize;
     private bool HasSampleImages;
     private bool Inserted;
     private bool IsAddMode;
+    private bool EnteredAddModeViaInsert;
+    private EditionState? PreviousEdition;
+    private WordReference? PreviousWordReference;
     private int LineHeight;
     private int LineHeightAdjustment;
     private bool LineHeightLarger;
@@ -60,8 +62,6 @@ public partial class EditWordDialog : IAsyncDisposable
     private MagickImage PageDisplayImage => ShowHighContrast ? FilteredPageImage : PageImage;
     private string? PageImageData;
     private string PageImageFilePath => FilePathHelper.GetScansDeskewedImageFilePath(AppLayer.Constants.Data.SourcesDirectoryPath, CurrentWordReference.BookInfo, CurrentWordReference.PageNumber);
-    private EditionState? PreviousEdition;
-    private WordReference? PreviousWordReference;
     private bool ShowDashes;
     private bool ShowHighContrast;
     private int ThresholdLower;
@@ -211,19 +211,6 @@ public partial class EditWordDialog : IAsyncDisposable
 
         OcrWord newWord = CreateWord();
 
-        if (EnteredAddModeViaInsert && Content.InsertAsync is not null)
-        {
-            (WordReference reference, EditionState edition) = await Content.InsertAsync(newWord, AddWordAfter);
-            EnteredAddModeViaInsert = false;
-            IsAddMode = false;
-            PreviousWordReference = null;
-            PreviousEdition = null;
-            LoadWord(reference, edition);
-            StateHasChanged();
-            await CenterImagePointAsync();
-            return;
-        }
-
         EditWordDialogResult result = new EditWordDialogResult(newWord, AddWordAfter, IsInsert: IsAddMode);
         await Dialog.CloseAsync(result);
     }
@@ -250,16 +237,9 @@ public partial class EditWordDialog : IAsyncDisposable
         if (confirmResult.Cancelled) return;
         if (confirmResult.Data is not bool confirmed || !confirmed) return;
 
-        (WordReference Reference, EditionState Edition)? next = await Content.DeleteAsync();
-        if (next is null)
-        {
-            EditWordDialogResult result = new EditWordDialogResult(null, false);
-            await Dialog.CancelAsync(result);
-            return;
-        }
-        LoadWord(next.Value.Reference, next.Value.Edition);
-        StateHasChanged();
-        await CenterImagePointAsync();
+        WriteAppSettings();
+        EditWordDialogResult deleteResult = new EditWordDialogResult(null, false, IsDelete: true);
+        await Dialog.CloseAsync(deleteResult);
     }
 
     private async Task InsertAsync(bool after)

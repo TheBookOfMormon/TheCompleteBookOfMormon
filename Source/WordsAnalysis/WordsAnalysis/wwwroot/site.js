@@ -84,6 +84,12 @@ export function scrollToNextError() {
    return false;
 }
 
+export function scrollWordIntoView(elementId) {
+   const el = document.getElementById(elementId);
+   if (!el) return;
+   el.scrollIntoView({ block: 'center', inline: 'center', behavior: 'auto' });
+}
+
 export function centerImagePointInParent(imageId, x, y) {
    const image = document.getElementById(imageId);
    if (!image || !image.parentElement) return;
