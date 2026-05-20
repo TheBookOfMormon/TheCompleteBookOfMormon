@@ -124,12 +124,6 @@
 </FluentDialogBody>
 
 <FluentDialogFooter>
-    <FluentButton OnClick=@PreviousAsync Disabled=@IsAddMode>
-        Prev
-    </FluentButton>
-    <FluentButton OnClick=@NextAsync Disabled=@IsAddMode>
-        Next
-    </FluentButton>
     <FluentButton OnClick=@InsertBeforeAsync Disabled=@IsAddMode>
         Insert before
     </FluentButton>
@@ -144,5 +138,11 @@
     </FluentButton>
     <FluentButton OnClick=@DeleteAsync accesskey="D" Disabled=@IsAddMode>
         <span class="underline">D</span>elete
+    </FluentButton>
+    <FluentButton OnClick=@PreviousAsync Disabled=@IsAddMode>
+        Prev
+    </FluentButton>
+    <FluentButton OnClick=@NextAsync Disabled=@IsAddMode>
+        Next
     </FluentButton>
 </FluentDialogFooter>
