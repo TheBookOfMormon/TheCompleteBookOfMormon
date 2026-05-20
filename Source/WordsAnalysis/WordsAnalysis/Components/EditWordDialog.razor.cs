@@ -276,15 +276,10 @@ public partial class EditWordDialog : IAsyncDisposable
         OcrWord? wordToSave = null;
         if (IsDirty())
         {
-            SaveChangesDialogResult choice = await PromptSaveChangesAsync();
-            if (choice == SaveChangesDialogResult.Abort) return;
-            if (choice == SaveChangesDialogResult.Yes)
-            {
-                if (!EditForm.EditContext!.Validate()) return;
-                WriteAppSettings();
-                ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
-                wordToSave = CreateWord();
-            }
+            if (!EditForm.EditContext!.Validate()) return;
+            WriteAppSettings();
+            ImageRepository.SetFilteredPageImage(PageImageFilePath, FilteredPageImage);
+            wordToSave = CreateWord();
         }
 
         (WordReference Reference, EditionState Edition)? next = await Content.NavigateAsync(wordToSave, direction);
