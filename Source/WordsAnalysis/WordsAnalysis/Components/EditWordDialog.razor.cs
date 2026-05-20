@@ -560,6 +560,7 @@ public partial class EditWordDialog : IAsyncDisposable
 
     private void UpdateWordImageData()
     {
+        if (Word is null) return;
         OcrWord tempWord = CreateWord();
         using MagickImage lineImage = PageState.GetWordImage(PageDisplayImage, tempWord);
         WordImageData = lineImage.ToEmbeddedHtmlImage();
